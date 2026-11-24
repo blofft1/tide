@@ -1,0 +1,199 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-us-research-laundry-detergent-science-testing/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-us-research-laundry-detergent-science-testing/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 4886,
+    "mode": "overlap"
+  },
+  "heightDelta": 244,
+  "differingPixels": 572515,
+  "pct": 8.14,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-1440/en-us-research-laundry-detergent-science-testing/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 19.97,
+  "textBoxes": 152,
+  "textPixels": 1229548,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 7.3
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 9.6
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 7.4
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 6.1
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 5
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 5
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 4.5
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 7.7
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 25
+    },
+    {
+      "y0": 4500,
+      "y1": 4886,
+      "pct": 2.6
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 6.49,
+    "differingPixels": 479737,
+    "compared": {
+      "width": 1440,
+      "height": 5130,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1097,
+        "shift": -28,
+        "cumulative": -28
+      },
+      {
+        "y": 1611,
+        "shift": -29,
+        "cumulative": -57
+      },
+      {
+        "y": 1931,
+        "shift": -28,
+        "cumulative": -85
+      },
+      {
+        "y": 2249,
+        "shift": -30,
+        "cumulative": -115
+      },
+      {
+        "y": 2535,
+        "shift": -58,
+        "cumulative": -173
+      },
+      {
+        "y": 3135,
+        "shift": -71,
+        "cumulative": -244
+      }
+    ],
+    "maxOffset": 244,
+    "totalShift": 244,
+    "insertedRows": 0,
+    "deletedRows": 244,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 7.3,
+        "unaligned": 7.3
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 9.6,
+        "unaligned": 9.6
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 6.1,
+        "unaligned": 7.4
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 11.7,
+        "unaligned": 6.1
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 6.1,
+        "unaligned": 5
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 11.7,
+        "unaligned": 5
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 14.2,
+        "unaligned": 4.5
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0,
+        "unaligned": 7.7
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0,
+        "unaligned": 25
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0,
+        "unaligned": null
+      },
+      {
+        "y0": 5000,
+        "y1": 5130,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/en-us-research-laundry-detergent-science-testing/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 51,
+    "totalShift": 244,
+    "pass": false
+  },
+  "reason": "offsets: 6 step(s), 244px total — −28px at y=1097, −29px at y=1611, −28px at y=1931, −30px at y=2249, −58px at y=2535, −71px at y=3135 (bound 51px)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/laundry-detergent-science-testing"
+  }
+}

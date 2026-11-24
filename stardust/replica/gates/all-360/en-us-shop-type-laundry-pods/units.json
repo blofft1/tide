@@ -1,0 +1,1691 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-24T11:51:59.354Z",
+  "tol": 4,
+  "n": 3,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://tide.com/en-us/shop/type/laundry-pods",
+  "at": "2026-11-24T03:14:07.397Z",
+  "docH": 6932
+ },
+ "eds": {
+  "url": "https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/laundry-pods",
+  "at": "2026-11-24T11:51:59.286Z",
+  "docH": 6962
+ },
+ "results": [
+  {
+   "sel": ".plp-product-previews-wrapper .product .product-preview=.product-grid .product-grid-item.product .product-grid-card",
+   "family": null,
+   "required": true,
+   "originMatches": 7,
+   "edsMatches": 12,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.row > div.col-lg-4.product > div.product-preview"
+     },
+     "eds": {
+      "path": "div.product-grid-list > div.product-grid-item.product > div.product-grid-card"
+     },
+     "rows": [
+      {
+       "key": "link:a#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 10,
+        "w": 110,
+        "h": 110
+       },
+       "eds": {
+        "x": 0,
+        "y": 10,
+        "w": 110,
+        "h": 110,
+        "sel": "a.product-grid-image-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 10,
+        "w": 110,
+        "h": 110
+       },
+       "eds": {
+        "x": 0,
+        "y": 10,
+        "w": 110,
+        "h": 110,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:tide oxi boost power pods®",
+       "role": "image",
+       "text": "tide oxi boost power pods®",
+       "edsText": "tide oxi boost power pods®",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 10,
+        "w": 110,
+        "h": 110
+       },
+       "eds": {
+        "x": 0,
+        "y": 10,
+        "w": 110,
+        "h": 110,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "link:tide oxi boost power pods®",
+       "role": "link",
+       "text": "tide oxi boost power pods®",
+       "edsText": "tide oxi boost power pods®",
+       "byPosition": false,
+       "origin": {
+        "x": 110,
+        "y": 30,
+        "w": 220,
+        "h": 41
+       },
+       "eds": {
+        "x": 110,
+        "y": 30,
+        "w": 220,
+        "h": 41,
+        "sel": "a.product-grid-title-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "16/20/400"
+       }
+      },
+      {
+       "key": "text:tide power pods®",
+       "role": "text",
+       "text": "tide power pods®",
+       "edsText": "tide power pods®",
+       "byPosition": false,
+       "origin": {
+        "x": 110,
+        "y": 30,
+        "w": 220,
+        "h": 41
+       },
+       "eds": {
+        "x": 110,
+        "y": 30,
+        "w": 220,
+        "h": 41,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/400",
+        "eds": "16/20/400"
+       }
+      },
+      {
+       "key": "text:oxi boost",
+       "role": "text",
+       "text": "oxi boost",
+       "edsText": "oxi boost",
+       "byPosition": false,
+       "origin": {
+        "x": 148,
+        "y": 31,
+        "w": 81,
+        "h": 19
+       },
+       "eds": {
+        "x": 148,
+        "y": 31,
+        "w": 81,
+        "h": 19,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/700",
+        "eds": "16/20/700"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 110,
+        "y": 82,
+        "w": 13,
+        "h": 13
+       },
+       "eds": {
+        "x": 110,
+        "y": 82,
+        "w": 13,
+        "h": 13,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:svg#2",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 127,
+        "y": 82,
+        "w": 13,
+        "h": 13
+       },
+       "eds": {
+        "x": 127,
+        "y": 82,
+        "w": 13,
+        "h": 13,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:svg#3",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 144,
+        "y": 82,
+        "w": 13,
+        "h": 13
+       },
+       "eds": {
+        "x": 144,
+        "y": 82,
+        "w": 13,
+        "h": 13,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:svg#4",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 161,
+        "y": 82,
+        "w": 13,
+        "h": 13
+       },
+       "eds": {
+        "x": 161,
+        "y": 82,
+        "w": 13,
+        "h": 13,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:svg#5",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 178,
+        "y": 82,
+        "w": 13,
+        "h": 13
+       },
+       "eds": {
+        "x": 178,
+        "y": 82,
+        "w": 13,
+        "h": 13,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:svg#6",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 178,
+        "y": 82,
+        "w": 13,
+        "h": 13
+       },
+       "eds": {
+        "x": 178,
+        "y": 82,
+        "w": 13,
+        "h": 13,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:( 1842 )",
+       "role": "text",
+       "text": "( 1842 )",
+       "edsText": "( 1842 )",
+       "byPosition": false,
+       "origin": {
+        "x": 203,
+        "y": 82,
+        "w": 41,
+        "h": 16
+       },
+       "eds": {
+        "x": 203,
+        "y": 82,
+        "w": 41,
+        "h": 16,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "button:find retailers",
+       "role": "button",
+       "text": "find retailers",
+       "edsText": "find retailers",
+       "byPosition": false,
+       "origin": {
+        "x": 74,
+        "y": 135,
+        "w": 182,
+        "h": 34
+       },
+       "eds": {
+        "x": 74,
+        "y": 135,
+        "w": 182,
+        "h": 34,
+        "sel": "div.product-grid-cta",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/22/700",
+        "eds": "18/22/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 15,
+       "y": 436,
+       "w": 330,
+       "h": 199
+      },
+      "eds": {
+       "x": 15,
+       "y": 436,
+       "w": 330,
+       "h": 199
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 14,
+      "within": 14,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.row > div.col-lg-4.product > div.product-preview"
+     },
+     "eds": {
+      "path": "div.product-grid-list > div.product-grid-item.product > div.product-grid-card"
+     },
+     "rows": [
+      {
+       "key": "link:a#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 10,
+        "w": 110,
+        "h": 110
+       },
+       "eds": {
+        "x": 0,
+        "y": 10,
+        "w": 110,
+        "h": 110,
+        "sel": "a.product-grid-image-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 10,
+        "w": 110,
+        "h": 110
+       },
+       "eds": {
+        "x": 0,
+        "y": 10,
+        "w": 110,
+        "h": 110,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:tide pods® laundry detergent original sc",
+       "role": "image",
+       "text": "tide pods® laundry detergent original scent - 16 count, colo",
+       "edsText": "tide pods® laundry detergent original scent - 16 count, colo",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 10,
+        "w": 110,
+        "h": 110
+       },
+       "eds": {
+        "x": 0,
+        "y": 10,
+        "w": 110,
+        "h": 110,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "link:tide pods® laundry detergent original sc",
+       "role": "link",
+       "text": "tide pods® laundry detergent original scent",
+       "edsText": "tide pods® laundry detergent original scent",
+       "byPosition": false,
+       "origin": {
+        "x": 110,
+        "y": 30,
+        "w": 220,
+        "h": 41
+       },
+       "eds": {
+        "x": 110,
+        "y": 30,
+        "w": 220,
+        "h": 41,
+        "sel": "a.product-grid-title-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "16/20/400"
+       }
+      },
+      {
+       "key": "text:tide pods® laundry detergent",
+       "role": "text",
+       "text": "tide pods® laundry detergent",
+       "edsText": "tide pods® laundry detergent",
+       "byPosition": false,
+       "origin": {
+        "x": 110,
+        "y": 30,
+        "w": 220,
+        "h": 41
+       },
+       "eds": {
+        "x": 110,
+        "y": 30,
+        "w": 220,
+        "h": 41,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/400",
+        "eds": "16/20/400"
+       }
+      },
+      {
+       "key": "text:original scent",
+       "role": "text",
+       "text": "original scent",
+       "edsText": "original scent",
+       "byPosition": false,
+       "origin": {
+        "x": 193,
+        "y": 51,
+        "w": 111,
+        "h": 19
+       },
+       "eds": {
+        "x": 193,
+        "y": 51,
+        "w": 111,
+        "h": 19,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/700",
+        "eds": "16/20/700"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 110,
+        "y": 82,
+        "w": 13,
+        "h": 13
+       },
+       "eds": {
+        "x": 110,
+        "y": 82,
+        "w": 13,
+        "h": 13,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:svg#2",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 127,
+        "y": 82,
+        "w": 13,
+        "h": 13
+       },
+       "eds": {
+        "x": 127,
+        "y": 82,
+        "w": 13,
+        "h": 13,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:svg#3",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 144,
+        "y": 82,
+        "w": 13,
+        "h": 13
+       },
+       "eds": {
+        "x": 144,
+        "y": 82,
+        "w": 13,
+        "h": 13,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:svg#4",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 161,
+        "y": 82,
+        "w": 13,
+        "h": 13
+       },
+       "eds": {
+        "x": 161,
+        "y": 82,
+        "w": 13,
+        "h": 13,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:svg#5",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 178,
+        "y": 82,
+        "w": 13,
+        "h": 13
+       },
+       "eds": {
+        "x": 178,
+        "y": 82,
+        "w": 13,
+        "h": 13,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "hiddenBoth": true,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:svg#6",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 178,
+        "y": 82,
+        "w": 13,
+        "h": 13
+       },
+       "eds": {
+        "x": 178,
+        "y": 82,
+        "w": 13,
+        "h": 13,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:( 4650 )",
+       "role": "text",
+       "text": "( 4650 )",
+       "edsText": "( 4650 )",
+       "byPosition": false,
+       "origin": {
+        "x": 203,
+        "y": 82,
+        "w": 45,
+        "h": 16
+       },
+       "eds": {
+        "x": 203,
+        "y": 82,
+        "w": 45,
+        "h": 16,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "button:find retailers",
+       "role": "button",
+       "text": "find retailers",
+       "edsText": "find retailers",
+       "byPosition": false,
+       "origin": {
+        "x": 74,
+        "y": 135,
+        "w": 182,
+        "h": 34
+       },
+       "eds": {
+        "x": 74,
+        "y": 135,
+        "w": 182,
+        "h": 34,
+        "sel": "div.product-grid-cta",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/22/700",
+        "eds": "18/22/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 15,
+       "y": 636,
+       "w": 330,
+       "h": 199
+      },
+      "eds": {
+       "x": 15,
+       "y": 636,
+       "w": 330,
+       "h": 199
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 14,
+      "within": 14,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.row > div.col-lg-4.product > div.product-preview"
+     },
+     "eds": {
+      "path": "div.product-grid-list > div.product-grid-item.product > div.product-grid-card"
+     },
+     "rows": [
+      {
+       "key": "link:a#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 10,
+        "w": 110,
+        "h": 110
+       },
+       "eds": {
+        "x": 0,
+        "y": 10,
+        "w": 110,
+        "h": 110,
+        "sel": "a.product-grid-image-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 10,
+        "w": 110,
+        "h": 110
+       },
+       "eds": {
+        "x": 0,
+        "y": 10,
+        "w": 110,
+        "h": 110,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:tide ultra oxi power pods® with odor eli",
+       "role": "image",
+       "text": "tide ultra oxi power pods® with odor eliminators",
+       "edsText": "tide ultra oxi power pods® with odor eliminators",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 10,
+        "w": 110,
+        "h": 110
+       },
+       "eds": {
+        "x": 0,
+        "y": 10,
+        "w": 110,
+        "h": 110,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "link:tide ultra oxi power pods® with odor eli",
+       "role": "link",
+       "text": "tide ultra oxi power pods® with odor eliminators",
+       "edsText": "tide ultra oxi power pods® with odor eliminators",
+       "byPosition": false,
+       "origin": {
+        "x": 110,
+        "y": 20,
+        "w": 220,
+        "h": 61
+       },
+       "eds": {
+        "x": 110,
+        "y": 20,
+        "w": 220,
+        "h": 61,
+        "sel": "a.product-grid-title-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "16/20/400"
+       }
+      },
+      {
+       "key": "text:tide power pods® with odor eliminators",
+       "role": "text",
+       "text": "tide power pods® with odor eliminators",
+       "edsText": "tide power pods® with odor eliminators",
+       "byPosition": false,
+       "origin": {
+        "x": 110,
+        "y": 20,
+        "w": 220,
+        "h": 61
+       },
+       "eds": {
+        "x": 110,
+        "y": 20,
+        "w": 220,
+        "h": 61,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/400",
+        "eds": "16/20/400"
+       }
+      },
+      {
+       "key": "text:ultra oxi",
+       "role": "text",
+       "text": "ultra oxi",
+       "edsText": "ultra oxi",
+       "byPosition": false,
+       "origin": {
+        "x": 148,
+        "y": 21,
+        "w": 72,
+        "h": 19
+       },
+       "eds": {
+        "x": 148,
+        "y": 21,
+        "w": 72,
+        "h": 19,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/700",
+        "eds": "16/20/700"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 110,
+        "y": 92,
+        "w": 13,
+        "h": 13
+       },
+       "eds": {
+        "x": 110,
+        "y": 92,
+        "w": 13,
+        "h": 13,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:svg#2",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 127,
+        "y": 92,
+        "w": 13,
+        "h": 13
+       },
+       "eds": {
+        "x": 127,
+        "y": 92,
+        "w": 13,
+        "h": 13,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:svg#3",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 144,
+        "y": 92,
+        "w": 13,
+        "h": 13
+       },
+       "eds": {
+        "x": 144,
+        "y": 92,
+        "w": 13,
+        "h": 13,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:svg#4",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 161,
+        "y": 92,
+        "w": 13,
+        "h": 13
+       },
+       "eds": {
+        "x": 161,
+        "y": 92,
+        "w": 13,
+        "h": 13,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:svg#5",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 178,
+        "y": 92,
+        "w": 13,
+        "h": 13
+       },
+       "eds": {
+        "x": 178,
+        "y": 92,
+        "w": 13,
+        "h": 13,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:svg#6",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 178,
+        "y": 92,
+        "w": 13,
+        "h": 13
+       },
+       "eds": {
+        "x": 178,
+        "y": 92,
+        "w": 13,
+        "h": 13,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:( 318 )",
+       "role": "text",
+       "text": "( 318 )",
+       "edsText": "( 318 )",
+       "byPosition": false,
+       "origin": {
+        "x": 203,
+        "y": 92,
+        "w": 32,
+        "h": 16
+       },
+       "eds": {
+        "x": 203,
+        "y": 92,
+        "w": 32,
+        "h": 16,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "button:find retailers",
+       "role": "button",
+       "text": "find retailers",
+       "edsText": "find retailers",
+       "byPosition": false,
+       "origin": {
+        "x": 74,
+        "y": 135,
+        "w": 182,
+        "h": 34
+       },
+       "eds": {
+        "x": 74,
+        "y": 135,
+        "w": 182,
+        "h": 34,
+        "sel": "div.product-grid-cta",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/22/700",
+        "eds": "18/22/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 15,
+       "y": 836,
+       "w": 330,
+       "h": 199
+      },
+      "eds": {
+       "x": 15,
+       "y": 836,
+       "w": 330,
+       "h": 199
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 14,
+      "within": 14,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".dynamic-content-wrapper > .row picture=.feature-band-alternating.overlay .fba-media picture",
+   "family": null,
+   "required": true,
+   "originMatches": 6,
+   "edsMatches": 6,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.row.justify-content-center > div.col-lg-12.col-12 > picture"
+     },
+     "eds": {
+      "path": "div.fba-media.fba-media-art > div.fba-media-narrow > picture"
+     },
+     "rows": [
+      {
+       "key": "image:a pile of folded clean clothes",
+       "role": "image",
+       "text": "a pile of folded clean clothes",
+       "edsText": "a pile of folded clean clothes",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 330,
+        "h": 506
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 330,
+        "h": 506,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 15,
+       "y": 2650,
+       "w": 330,
+       "h": 506
+      },
+      "eds": {
+       "x": 15,
+       "y": 2650,
+       "w": 330,
+       "h": 506
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.row.justify-content-center > div.col-lg-12.col-12 > picture"
+     },
+     "eds": {
+      "path": "div.fba-media.fba-media-art > div.fba-media-narrow > picture"
+     },
+     "rows": [
+      {
+       "key": "image:a washing machine with an open door",
+       "role": "image",
+       "text": "a washing machine with an open door",
+       "edsText": "a washing machine with an open door",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 330,
+        "h": 645
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 330,
+        "h": 645,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 15,
+       "y": 3186,
+       "w": 330,
+       "h": 645
+      },
+      "eds": {
+       "x": 15,
+       "y": 3186,
+       "w": 330,
+       "h": 645
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.row.justify-content-center > div.col-lg-12.col-12 > picture"
+     },
+     "eds": {
+      "path": "div.fba-media.fba-media-art > div.fba-media-narrow > picture"
+     },
+     "rows": [
+      {
+       "key": "image:tide pods 4-in-1 variants give you an ex",
+       "role": "image",
+       "text": "tide pods 4-in-1 variants give you an extra boost of febreze",
+       "edsText": "tide pods 4-in-1 variants give you an extra boost of febreze",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 330,
+        "h": 506
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 330,
+        "h": 506,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 15,
+       "y": 3861,
+       "w": 330,
+       "h": 506
+      },
+      "eds": {
+       "x": 15,
+       "y": 3861,
+       "w": 330,
+       "h": 506
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 6,
+  "within": 45,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

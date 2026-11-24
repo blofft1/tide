@@ -1,0 +1,112 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-24T11:12:28.768Z",
+  "tol": 4,
+  "n": 3,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://tide.com/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors/everyday-items-to-wash-regularly",
+  "at": "2026-11-24T04:54:00.530Z",
+  "docH": 15629
+ },
+ "eds": {
+  "url": "https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors/everyday-items-to-wash-regularly",
+  "at": "2026-11-24T11:12:28.640Z",
+  "docH": 15565
+ },
+ "results": [
+  {
+   "sel": "#sticky-nav li=.jump-links li",
+   "family": null,
+   "required": true,
+   "originMatches": 2,
+   "edsMatches": 2,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "nav > ul > li"
+     },
+     "eds": {
+      "path": "nav > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:tips for doing the laundry regularly wit",
+       "role": "button",
+       "text": "tips for doing the laundry regularly without breaking a swea",
+       "edsText": "tips for doing the laundry regularly without breaking a swea",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 443,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 443,
+        "h": 46,
+        "sel": "span.jump-links-item",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/700",
+        "eds": "14/16/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 15,
+       "y": 61,
+       "w": 443,
+       "h": 46
+      },
+      "eds": {
+       "x": 15,
+       "y": 61,
+       "w": 443,
+       "h": 46
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 1,
+  "within": 1,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

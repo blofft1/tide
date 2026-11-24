@@ -1,0 +1,330 @@
+{
+  "a": "stardust/replica/gates/all-360/en-us-research-evaluate-true-value-laundry-detergent/origin.png",
+  "b": "stardust/replica/gates/all-360/en-us-research-evaluate-true-value-laundry-detergent/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 10657,
+    "mode": "overlap"
+  },
+  "heightDelta": 39,
+  "differingPixels": 513609,
+  "pct": 13.39,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-360/en-us-research-evaluate-true-value-laundry-detergent/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 20.61,
+  "textBoxes": 368,
+  "textPixels": 1855107,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.6
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 18.3
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 13.4
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 18
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 13.6
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 13.9
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 12.7
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 13.9
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 13.1
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 14.6
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 11.3
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 15
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 14
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 16
+    },
+    {
+      "y0": 7000,
+      "y1": 7500,
+      "pct": 13.7
+    },
+    {
+      "y0": 7500,
+      "y1": 8000,
+      "pct": 14.1
+    },
+    {
+      "y0": 8000,
+      "y1": 8500,
+      "pct": 15.9
+    },
+    {
+      "y0": 8500,
+      "y1": 9000,
+      "pct": 17.8
+    },
+    {
+      "y0": 9000,
+      "y1": 9500,
+      "pct": 18.8
+    },
+    {
+      "y0": 9500,
+      "y1": 10000,
+      "pct": 6.1
+    },
+    {
+      "y0": 10000,
+      "y1": 10500,
+      "pct": 9.7
+    },
+    {
+      "y0": 10500,
+      "y1": 10657,
+      "pct": 1.9
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 2.84,
+    "differingPixels": 110016,
+    "compared": {
+      "width": 360,
+      "height": 10757,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 698,
+        "shift": -19,
+        "cumulative": -19
+      },
+      {
+        "y": 2281,
+        "shift": -21,
+        "cumulative": -40
+      },
+      {
+        "y": 7738,
+        "shift": -59,
+        "cumulative": -99
+      },
+      {
+        "y": 8269,
+        "shift": 20,
+        "cumulative": -79
+      },
+      {
+        "y": 8743,
+        "shift": 40,
+        "cumulative": -39
+      },
+      {
+        "y": 9964,
+        "shift": -1,
+        "cumulative": -40
+      },
+      {
+        "y": 10187,
+        "shift": 1,
+        "cumulative": -39
+      }
+    ],
+    "maxOffset": 99,
+    "totalShift": 161,
+    "insertedRows": 61,
+    "deletedRows": 100,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.6,
+        "unaligned": 0.6
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 11.8,
+        "unaligned": 18.3
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 13.4
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 18
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 4.2,
+        "unaligned": 13.6
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 13.9
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 12.7
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0,
+        "unaligned": 13.9
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0,
+        "unaligned": 13.1
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0,
+        "unaligned": 14.6
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 0,
+        "unaligned": 11.3
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 0,
+        "unaligned": 15
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 0,
+        "unaligned": 14
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 1,
+        "unaligned": 16
+      },
+      {
+        "y0": 7000,
+        "y1": 7500,
+        "pct": 5.8,
+        "unaligned": 13.7
+      },
+      {
+        "y0": 7500,
+        "y1": 8000,
+        "pct": 19.2,
+        "unaligned": 14.1
+      },
+      {
+        "y0": 8000,
+        "y1": 8500,
+        "pct": 6.8,
+        "unaligned": 15.9
+      },
+      {
+        "y0": 8500,
+        "y1": 9000,
+        "pct": 10,
+        "unaligned": 17.8
+      },
+      {
+        "y0": 9000,
+        "y1": 9500,
+        "pct": 0,
+        "unaligned": 18.8
+      },
+      {
+        "y0": 9500,
+        "y1": 10000,
+        "pct": 0.2,
+        "unaligned": 6.1
+      },
+      {
+        "y0": 10000,
+        "y1": 10500,
+        "pct": 0.2,
+        "unaligned": 9.7
+      },
+      {
+        "y0": 10500,
+        "y1": 10696,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/en-us-research-evaluate-true-value-laundry-detergent/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 107,
+    "totalShift": 161,
+    "pass": false
+  },
+  "reason": "offsets: 7 step(s), 161px total — −19px at y=698, −21px at y=2281, −59px at y=7738, +20px at y=8269, +40px at y=8743, −1px at y=9964, … 1 more (bound 107px)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/evaluate-true-value-laundry-detergent"
+  }
+}

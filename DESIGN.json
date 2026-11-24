@@ -1,0 +1,4339 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-23T19:37:00.839Z",
+  "title": "Design System: Tide",
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "mode": "prep",
+    "role": "current-state (descriptive)",
+    "readArtifacts": [
+      "stardust/current/_brand-extraction.json",
+      "stardust/current/_computed-styles.json",
+      "stardust/current/pages/*.json",
+      "stardust/current/pages/*.html"
+    ],
+    "note": "extensions.breakpoints intentionally absent — written later by cap-probe."
+  },
+  "extensions": {
+    "colorMeta": {
+      "tide-orange": {
+        "role": "primary",
+        "displayName": "Tide Orange",
+        "tonalRamp": [
+          "#3d1300",
+          "#6b2200",
+          "#9c3100",
+          "#cc3f02",
+          "#fb4c06",
+          "#fd7a45",
+          "#feb08f",
+          "#ffe3d6"
+        ],
+        "source": "_brand-extraction.json#palette[role=primary]; --color_orange"
+      },
+      "tide-orange-hover": {
+        "role": "primary-hover",
+        "displayName": "Tide Orange (hover)",
+        "source": "_computed-styles.json#aggregate.hover[0] rgb(226,68,5)"
+      },
+      "tide-navy": {
+        "role": "text-primary / secondary fill",
+        "displayName": "Tide Navy",
+        "tonalRamp": [
+          "#0a1438",
+          "#111f5a",
+          "#1b3392",
+          "#2e47a8",
+          "#5568b8",
+          "#8794cc",
+          "#bcc3e3",
+          "#e6e9f5"
+        ],
+        "source": "palette[role=text-primary]"
+      },
+      "tide-navy-hover": {
+        "role": "secondary-hover",
+        "displayName": "Tide Navy (hover)",
+        "source": "aggregate.hover[2] rgb(24,46,131)"
+      },
+      "deep-navy": {
+        "role": "text-secondary / header nav bar",
+        "displayName": "Deep Navy",
+        "tonalRamp": [
+          "#080f40",
+          "#0e1a6a",
+          "#13259c",
+          "#2a3cb3",
+          "#5464c4",
+          "#8691d6",
+          "#bcc2e8",
+          "#e7e9f7"
+        ],
+        "source": "palette[role=text-secondary]; .header-main-bar"
+      },
+      "white": {
+        "role": "background",
+        "displayName": "White"
+      },
+      "chip-border": {
+        "role": "border",
+        "displayName": "Chip Border"
+      },
+      "border-subtle": {
+        "role": "border-subtle",
+        "displayName": "Border Subtle"
+      },
+      "divider": {
+        "role": "divider",
+        "displayName": "Divider"
+      },
+      "peach": {
+        "role": "accent (step timeline)",
+        "displayName": "Peach",
+        "source": "aggregate.colors #ffb89c (dropped from 8-entry palette, kept as token)"
+      },
+      "link-default": {
+        "role": "unstyled link (UA default)",
+        "displayName": "Link Default",
+        "source": "palette[role=accent-1]"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Campaign/landing hero h1-h2, 68/64 at 400 (300 on collections)."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Dominant h1/h2, 48/52 at 800."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "h3, 40/44 at 800."
+      },
+      "subtitle": {
+        "displayName": "Subtitle",
+        "purpose": "h4, 32/38 at 800."
+      },
+      "heading-small": {
+        "displayName": "Heading small",
+        "purpose": "h5, step numbers, card titles, 26/30 at 800."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Promo copy, 20/26."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Article/card copy, 16/24."
+      },
+      "small": {
+        "displayName": "Small",
+        "purpose": "Nav lists, top bar, chips, 14/19.6."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Pill CTA label, 20/22 at 700."
+      }
+    },
+    "shadows": [
+      {
+        "name": "sticky-nav",
+        "value": "rgba(0, 0, 0, 0.2) 0px 2px 17px 0px",
+        "purpose": "#sticky-nav jump links when stuck."
+      },
+      {
+        "name": "widget-panel",
+        "value": "rgba(0, 0, 0, 0.4) 0px 6px 12px 0px",
+        "purpose": "click2cart third-party widget only."
+      }
+    ],
+    "motion": [
+      {
+        "name": "header-bg",
+        "value": "background-color .3s",
+        "purpose": "#site-header background transition (mobile menu open)."
+      }
+    ],
+    "componentStyle": {
+      "buttons": {
+        "primary": {
+          "background": "#fb4c06",
+          "color": "#ffffff",
+          "borderRadius": "25px",
+          "padding": "10px 30px",
+          "fontSize": "20px",
+          "fontWeight": 700,
+          "textTransform": "none",
+          "shadow": null,
+          "hoverDelta": "background → rgb(226,68,5) (darken ~10%); 2 instances on home hover to navy rgb(24,46,131)",
+          "count1440": 31,
+          "source": {
+            "url": "https://tide.com/en-us/rewards",
+            "selector": "div > div > div > div:nth-of-type(1) > div > div:nth-of-type(2) > div > a:nth-of-type(2)"
+          }
+        },
+        "secondary": {
+          "background": "#1b3392",
+          "color": "#ffffff",
+          "borderRadius": "25px",
+          "padding": "10px 30px",
+          "fontSize": "20px",
+          "fontWeight": 700,
+          "shadow": null,
+          "hoverDelta": "background → rgb(24,46,131)",
+          "count1440": 11,
+          "source": {
+            "url": "https://tide.com/en-us/our-commitment/tide-boosted",
+            "selector": "div > div > div > div:nth-of-type(2) > div > div > p:nth-of-type(2) > a"
+          }
+        },
+        "chip": {
+          "background": "#ffffff",
+          "color": "#1b3392",
+          "border": "2px solid #7481b4",
+          "borderRadius": "25px",
+          "padding": "2px 10px",
+          "fontSize": "14px",
+          "fontWeight": 700,
+          "hoverDelta": "fills #1b3392, text white, border #1b3392",
+          "count1440": 14,
+          "source": {
+            "url": "https://tide.com/en-us/shop/special-needs/additives",
+            "selector": "div > div > div:nth-of-type(1) > div:nth-of-type(4) > div > div > div:nth-of-type(2) > a:nth-of-type(1)"
+          }
+        },
+        "backToTop": {
+          "background": "#1b3392",
+          "color": "#ffffff",
+          "borderRadius": "30px",
+          "padding": "20px",
+          "fontSize": "20px",
+          "fontWeight": 700,
+          "source": {
+            "url": "https://tide.com/en-us/how-to-wash-clothes/how-to-do-laundry",
+            "selector": "#site-content > div > div > div > div:nth-of-type(3) > button"
+          }
+        },
+        "skipLink": {
+          "background": "#1b3392",
+          "color": "#ffffff",
+          "borderRadius": "0px 0px 5px 5px",
+          "padding": "12px 8px",
+          "fontSize": "14px",
+          "source": {
+            "url": "https://tide.com/en-us/contact-us",
+            "selector": "#site-header > a"
+          }
+        }
+      },
+      "dualCTAPattern": null,
+      "links": {
+        "inline": "#1b3392 bold underline in rich text; unstyled #0000ee on some rich-text pages",
+        "promoCardLinkHover": "background rgb(240,240,240)",
+        "source": {
+          "url": "https://tide.com/en-us",
+          "selector": "#carousel__6hAqcV7X3l5WUsffgaBaik > div:nth-of-type(1) > div > ul:nth-of-type(1) > li:nth-of-type(1) > a"
+        }
+      },
+      "cards": {
+        "background": "#ffffff",
+        "borderRadius": "8px",
+        "padding": null,
+        "shadow": null,
+        "border": null,
+        "note": "article-preview / banner-card white boxes; related-article mobile divider 1px solid #e3e3e3",
+        "source": {
+          "url": "https://tide.com/en-us",
+          "selector": "div:nth-of-type(10) > div > div > div > div:nth-of-type(1) > div > div:nth-of-type(2) > div"
+        }
+      },
+      "inputs": {
+        "borderRadius": "12px",
+        "padding": null,
+        "border": null,
+        "focusRing": null,
+        "source": {
+          "url": "https://tide.com/en-us/contact-us",
+          "selector": "div:nth-of-type(2) > div > div > div > div > form > div > input"
+        }
+      },
+      "header": {
+        "topBar": {
+          "background": "#ffffff",
+          "color": "#13259c",
+          "fontSize": "12–14px",
+          "css": "#site-header .header-top-bar"
+        },
+        "searchBar": {
+          "background": "#fb4c06",
+          "css": "#site-header .header-search-bar"
+        },
+        "mainBar": {
+          "background": "#13259c",
+          "color": "#ffffff",
+          "css": ".header-main-bar"
+        },
+        "position": "fixed in base CSS (#site-header z-index 100); census measured position relative at 1440",
+        "height1440": "175px"
+      },
+      "breadcrumb": {
+        "color": "#1b3392",
+        "fontSize": "19px",
+        "lineHeight": "24px",
+        "separator": "\">\" ::after, 4px margins",
+        "lastItemWeight": 700,
+        "css": ".breadcrumbs-list-item (0x8blnfnms9hr.css @107124)"
+      },
+      "footer": {
+        "socialBand": {
+          "background": "#fb4c06",
+          "padding": "20px 0",
+          "css": ".site-footer .footer-social-links-wrapper"
+        },
+        "columnTitle": {
+          "color": "#fb4c06",
+          "fontSize": "24px ≥992 / 19px",
+          "fontWeight": 800,
+          "css": ".site-footer .expandable-content .expandable-content-header"
+        },
+        "paddingBottom": "120px ≥768"
+      }
+    },
+    "motifs": {
+      "borderRadius": {
+        "primary": "25px",
+        "secondary": "8px",
+        "pill": "50%",
+        "areaMode": "8px",
+        "primarySources": [
+          "en-us",
+          "how-to-wash-clothes",
+          "rewards"
+        ],
+        "occurrences": {
+          "25px": 622,
+          "8px": 316,
+          "0px 0px 5px 5px": 185,
+          "50%": 140,
+          "5px": 131,
+          "12px": 89,
+          "45px": 62,
+          "16px": 21,
+          "4px 4px 0px 0px": 15,
+          "100%": 12,
+          "40px": 10,
+          "13px": 9,
+          "30px": 9,
+          "10px": 6,
+          "20px": 6,
+          "14px": 5,
+          "8px 8px 0px 0px": 4,
+          "2.5px": 3,
+          "4px": 1
+        },
+        "values": [
+          {
+            "value": "25px",
+            "count": 622,
+            "area": 3972908,
+            "sources": [
+              {
+                "url": "https://tide.com/en-us",
+                "selector": "div > div > div > div:nth-of-type(1) > div > div > p > a"
+              },
+              {
+                "url": "https://tide.com/en-us",
+                "selector": "div > div > div > div:nth-of-type(2) > div > div > p:nth-of-type(2) > a"
+              }
+            ]
+          },
+          {
+            "value": "8px",
+            "count": 316,
+            "area": 30920198,
+            "sources": [
+              {
+                "url": "https://tide.com/en-us",
+                "selector": "div:nth-of-type(10) > div > div > div > div:nth-of-type(1) > div > div:nth-of-type(2) > div"
+              },
+              {
+                "url": "https://tide.com/en-us",
+                "selector": "div:nth-of-type(10) > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div"
+              }
+            ]
+          },
+          {
+            "value": "0px 0px 5px 5px",
+            "count": 185,
+            "area": 1232449,
+            "sources": [
+              {
+                "url": "https://tide.com/en-us",
+                "selector": "#site-header > a"
+              },
+              {
+                "url": "https://tide.com/en-us/click2cart/0060001",
+                "selector": "#sc-footer-content"
+              }
+            ]
+          },
+          {
+            "value": "50%",
+            "count": 140,
+            "area": 92892,
+            "sources": [
+              {
+                "url": "https://tide.com/en-us",
+                "selector": "#carousel__6hAqcV7X3l5WUsffgaBaik > div:nth-of-type(1) > div > ul:nth-of-type(2) > li:nth-of-type(1) > button"
+              },
+              {
+                "url": "https://tide.com/en-us",
+                "selector": "#carousel__6hAqcV7X3l5WUsffgaBaik > div:nth-of-type(1) > div > ul:nth-of-type(2) > li:nth-of-type(2) > button"
+              }
+            ]
+          },
+          {
+            "value": "5px",
+            "count": 131,
+            "area": 6781928,
+            "sources": [
+              {
+                "url": "https://tide.com/en-us/click2cart/0060001",
+                "selector": "#shopper-choice-container"
+              },
+              {
+                "url": "https://tide.com/en-us/click2cart/0060001",
+                "selector": "#retailer-buttons-wrapper > app-enhanced-retailer-button:nth-of-type(1) > div:nth-of-type(1) > div"
+              }
+            ]
+          },
+          {
+            "value": "12px",
+            "count": 89,
+            "area": 833620,
+            "sources": [
+              {
+                "url": "https://tide.com/en-us",
+                "selector": "div:nth-of-type(2) > div > div > div > div > form > div > input"
+              },
+              {
+                "url": "https://tide.com/en-us/contact-us",
+                "selector": "div:nth-of-type(2) > div > div > div > div > form > div > input"
+              }
+            ]
+          },
+          {
+            "value": "45px",
+            "count": 62,
+            "area": 1626968,
+            "sources": [
+              {
+                "url": "https://tide.com/en-us/click2cart/0060001",
+                "selector": "#retailer-buttons-wrapper > app-enhanced-retailer-button:nth-of-type(1) > div:nth-of-type(1)"
+              },
+              {
+                "url": "https://tide.com/en-us/click2cart/0060001",
+                "selector": "#retailer-buttons-wrapper > app-enhanced-retailer-button:nth-of-type(2) > div:nth-of-type(1)"
+              }
+            ]
+          },
+          {
+            "value": "16px",
+            "count": 21,
+            "area": 2503866,
+            "sources": [
+              {
+                "url": "https://tide.com/en-us",
+                "selector": "#carousel__6hAqcV7X3l5WUsffgaBaik > div:nth-of-type(1) > div > ul:nth-of-type(1) > li:nth-of-type(1) > a"
+              },
+              {
+                "url": "https://tide.com/en-us",
+                "selector": "#carousel__6hAqcV7X3l5WUsffgaBaik > div:nth-of-type(1) > div > ul:nth-of-type(1) > li:nth-of-type(2) > a"
+              }
+            ]
+          }
+        ],
+        "uses": {
+          "25px": "pill buttons + PLP filter chips",
+          "8px": "card / white-box corners (largest area)",
+          "0px 0px 5px 5px": "skip-to-content tab under header",
+          "50%": "carousel dots & arrow buttons",
+          "5px": "click2cart widget",
+          "12px": "search + contact form inputs",
+          "45px": "click2cart retailer buttons",
+          "16px": "home promo-carousel cards"
+        }
+      },
+      "shadows": [
+        {
+          "value": "rgba(0, 0, 0, 0.4) 0px 6px 12px 0px",
+          "count": 16,
+          "uses": "click2cart widget panel",
+          "sources": [
+            {
+              "url": "https://tide.com/en-us/click2cart/0060001",
+              "selector": "#shopper-choice-container"
+            },
+            {
+              "url": "https://tide.com/en-us/click2cart/006000B",
+              "selector": "#shopper-choice-container"
+            }
+          ]
+        },
+        {
+          "value": "rgba(0, 0, 0, 0.2) 0px 2px 17px 0px",
+          "count": 8,
+          "uses": "sticky jump-link nav",
+          "sources": [
+            {
+              "url": "https://tide.com/en-us/how-to-do-laundry/detergent-residue-safety",
+              "selector": "#sticky-nav"
+            },
+            {
+              "url": "https://tide.com/en-us/how-to-wash-clothes/how-to-do-laundry/about-tide-pods-pva-film",
+              "selector": "#sticky-nav"
+            }
+          ]
+        },
+        {
+          "value": "rgb(233, 233, 233) 0px -2px 4px 0px",
+          "count": 6,
+          "uses": "click2cart footer bar",
+          "sources": [
+            {
+              "url": "https://tide.com/en-us/click2cart/0060001",
+              "selector": "#sc-footer-content"
+            },
+            {
+              "url": "https://tide.com/en-us/click2cart/006000B",
+              "selector": "#sc-footer-content"
+            }
+          ]
+        }
+      ],
+      "shadowNote": "Brand surfaces are flat: the only first-party shadow is the sticky jump-link nav (#sticky-nav). The other two belong to the click2cart widget.",
+      "gradients": [
+        {
+          "value": "linear-gradient(rgb(251, 76, 6), rgba(251, 76, 6, 0))",
+          "count": 2,
+          "uses": "stain-guide spinner fade masks (top/bottom of the stain list)",
+          "sources": [
+            {
+              "url": "https://tide.com/en-us/how-to-wash-clothes/how-to-remove-stains",
+              "selector": "div:nth-of-type(2) > div:nth-of-type(1) > div > div > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)"
+            }
+          ]
+        },
+        {
+          "value": "linear-gradient(rgb(27, 51, 146), rgba(27, 51, 146, 0))",
+          "count": 2,
+          "uses": "stain-guide spinner fade masks (top/bottom of the stain list)",
+          "sources": [
+            {
+              "url": "https://tide.com/en-us",
+              "selector": "div > div:nth-of-type(7) > div > div > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)"
+            }
+          ]
+        },
+        {
+          "value": "linear-gradient(rgba(251, 76, 6, 0), rgb(251, 76, 6))",
+          "count": 2,
+          "uses": "stain-guide spinner fade masks (top/bottom of the stain list)",
+          "sources": [
+            {
+              "url": "https://tide.com/en-us/how-to-wash-clothes/how-to-remove-stains",
+              "selector": "div:nth-of-type(2) > div:nth-of-type(1) > div > div > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)"
+            }
+          ]
+        },
+        {
+          "value": "linear-gradient(rgba(27, 51, 146, 0), rgb(27, 51, 146))",
+          "count": 2,
+          "uses": "stain-guide spinner fade masks (top/bottom of the stain list)",
+          "sources": [
+            {
+              "url": "https://tide.com/en-us",
+              "selector": "div > div:nth-of-type(7) > div > div > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)"
+            }
+          ]
+        }
+      ],
+      "patterns": [
+        {
+          "name": "color-block-bands",
+          "evidence": "full-bleed orange (#fb4c06) and navy (#1b3392) bands with white type: header search bar, article title band (43 pages), PLP feature bands, footer social band, home POWER PODS band"
+        },
+        {
+          "name": "pill-cta",
+          "evidence": "25px-radius solid buttons, 20px/700, padding 10px 30px — orange primary (31× at 1440), navy secondary (11×)"
+        },
+        {
+          "name": "hero-with-image",
+          "evidence": "home 2-slide hero carousel (Tide evo / Less Work, Better Clean*), collection heroes (5), section-landing photo hero with white box (9)"
+        },
+        {
+          "name": "card-grid",
+          "evidence": "article-preview cards with Learn More / Read More (12 pages preview-box, 6 related-articles rows)"
+        },
+        {
+          "name": "product-grid",
+          "evidence": "PLP product previews with star ratings + Find Retailers (15 pages)"
+        },
+        {
+          "name": "nav-mega",
+          "evidence": "Shop Products mega menu By Type / By Need / Top Collection (header-main-menu)"
+        },
+        {
+          "name": "footer-mega",
+          "evidence": "footer accordion columns Shop Products (By Type/By Need/Top Collection), How to Wash Clothes, Help & Support + related + legal rows"
+        },
+        {
+          "name": "accordion-faq",
+          "evidence": "expandable-content FAQ blocks (31 article pages)"
+        },
+        {
+          "name": "step-timeline",
+          "evidence": "guide-wrapper numbered steps with peach #ffb89c progress marks (7 pages)"
+        },
+        {
+          "name": "carousel",
+          "evidence": "react-multi-carousel (home promo, hero) + slick (related products)"
+        }
+      ]
+    },
+    "voice": {
+      "heroHeadline": "new Tide evo",
+      "heroHeadlineSource": {
+        "url": "https://tide.com/en-us",
+        "selector": "div > div > div > div > div:nth-of-type(1) > div > div > h1:nth-of-type(1)",
+        "note": "rendered as two h1s: \"new Tide evo\" + \"6x concentrated layers\" (50px/400, #13259c)"
+      },
+      "heroSubcopy": "6x concentrated layers",
+      "heroImage": {
+        "url": "https://images.ctfassets.net/ajjw8wywicb3/2D4zSKHS0VgYoQ9dzylYWA/807e110c8d8a7b6fa06404d4c7270e25/Tide_EVO_enahncement_HP_hero_20260205_min1400px.jpg?fm=webp",
+        "alt": "",
+        "source": "img",
+        "domPath": "home hero carousel slide 1 (pages/en-us.json#slots.lead-image)",
+        "localPath": null,
+        "intrinsic": {
+          "width": 1920,
+          "height": 500
+        },
+        "rect": null
+      },
+      "heroMedium": null,
+      "heroMediumNote": "No video/iframe/canvas on home (media.videos/iframes empty); hero is a 2-slide image carousel.",
+      "primaryCTALabel": "try it now!",
+      "ctaSamples": [
+        "try it now!",
+        "Check it out!",
+        "Shop Collection",
+        "Learn More",
+        "Read More",
+        "Find Retailers",
+        "Browse other products",
+        "Shop The Collection"
+      ],
+      "navItems": [
+        "Shop Products",
+        "Our Commitment",
+        "How to Wash Clothes",
+        "What’s New",
+        "Coupons and Deals"
+      ],
+      "utilityItems": [
+        "Contact Us",
+        "US - English",
+        "Sign in"
+      ],
+      "footerHeadings": [
+        "Ways to connect with us:",
+        "Shop Products",
+        "By Type",
+        "By Need",
+        "Top Collection",
+        "How to Wash Clothes",
+        "Help & Support",
+        "Related:"
+      ],
+      "firstParagraph": "Life is messier. Washing machines are bigger. Bigger PODS® means a better clean in every load. Now there’s a Tide Power PODS® product for any mess.",
+      "firstParagraphSource": {
+        "url": "https://tide.com/en-us",
+        "selector": "div > div:nth-of-type(3) > div > div > div > div:nth-of-type(2) > div > p:nth-of-type(2)"
+      },
+      "representativeLinks": [
+        "How to Remove Stains",
+        "How to Do Laundry",
+        "Washing Different Fabrics and Colors",
+        "Washing Machine 101"
+      ],
+      "tone": {
+        "guess": "bold-direct",
+        "evidence": "short exclamatory CTAs (\"try it now!\", \"Check it out!\"), claim-led headlines (\"America’s #1 Detergent\", \"Less Work, Better Clean*\"), second-person how-to copy; research pages switch to a technical-precise register with citations"
+      }
+    },
+    "voiceTable": {
+      "ctaFrequency": [
+        {
+          "label": "Read More",
+          "pages": 21
+        },
+        {
+          "label": "Frequently Asked Questions",
+          "pages": 19
+        },
+        {
+          "label": "Browse other products",
+          "pages": 15
+        },
+        {
+          "label": "Learn More",
+          "pages": 11
+        },
+        {
+          "label": "Key takeaway",
+          "pages": 9
+        },
+        {
+          "label": "Find Retailers",
+          "pages": 8
+        },
+        {
+          "label": "Learn more",
+          "pages": 2
+        },
+        {
+          "label": "here",
+          "pages": 2
+        }
+      ],
+      "headingFrequency": [
+        {
+          "text": "Frequently Asked Questions",
+          "pages": 21
+        },
+        {
+          "text": "Key takeaway",
+          "pages": 9
+        },
+        {
+          "text": "Executive Summary:",
+          "pages": 6
+        },
+        {
+          "text": "References",
+          "pages": 6
+        },
+        {
+          "text": "FAQs",
+          "pages": 5
+        },
+        {
+          "text": "Key Highlights",
+          "pages": 4
+        },
+        {
+          "text": "Safety",
+          "pages": 4
+        },
+        {
+          "text": "Works in all:",
+          "pages": 4
+        },
+        {
+          "text": "The Most Important Ingredient in Tide® is Safety",
+          "pages": 3
+        }
+      ],
+      "toneMetrics": {
+        "headingsUppercasePercent": 0,
+        "distinctHeadings": 472,
+        "distinctCtaLabels": 803
+      },
+      "basis": "pages/*.json ctas[].label and headings[].text over 93 canonical pages; chrome labels (header/footer, ≥85 pages) excluded from ctaFrequency",
+      "chromeCtas": {
+        "header": 85,
+        "footer": 91
+      }
+    },
+    "systemComponents": [
+      {
+        "name": "site-header",
+        "kind": "header",
+        "occurrences": 85,
+        "headingSequence": [],
+        "ctaLabels": [
+          "Skip to Content",
+          "Contact Us",
+          "US - English",
+          "Sign in",
+          "Shop Products",
+          "Our Commitment",
+          "How to Wash Clothes",
+          "What’s New",
+          "Coupons and Deals"
+        ],
+        "composition": [
+          "P&G family top bar (white; \"Part of the P&G Family\" + P&G/Downy/Bounce marks; Contact Us · US - English · Sign in)",
+          "orange search bar (#fb4c06): burger + Tide logo + search field",
+          "navy main nav (#13259c) with Shop Products mega menu (By Type / By Need / Top Collection)"
+        ],
+        "exampleSlug": "en-us",
+        "exampleSelector": "header#site-header",
+        "examplePages": [
+          "en-us-contact-us",
+          "en-us-how-to-do-laundry-better-clean-safer",
+          "en-us-how-to-do-laundry-detergent-residue-safety"
+        ],
+        "absentOn": "click2cart (8 widget pages render without #site-header)"
+      },
+      {
+        "name": "pg-family-top-bar",
+        "kind": "nav-secondary",
+        "occurrences": 85,
+        "headingSequence": [],
+        "ctaLabels": [
+          "Contact Us",
+          "US - English",
+          "Sign in"
+        ],
+        "exampleSlug": "en-us",
+        "exampleSelector": "#site-header .header-top-bar",
+        "examplePages": [
+          "en-us-contact-us",
+          "en-us-how-to-do-laundry-better-clean-safer",
+          "en-us-how-to-do-laundry-detergent-residue-safety"
+        ]
+      },
+      {
+        "name": "site-footer",
+        "kind": "footer",
+        "occurrences": 93,
+        "headingSequence": [
+          "Ways to connect with us:",
+          "Shop Products",
+          "By Type",
+          "By Need",
+          "Top Collection",
+          "How to Wash Clothes",
+          "Help & Support",
+          "Related:"
+        ],
+        "ctaLabels": [
+          "How to Remove Stains",
+          "How to Do Laundry",
+          "Washing Different Fabrics and Colors",
+          "Washing Machine 101",
+          "Contact Us",
+          "P&G Brands",
+          "MrClean",
+          "Downy",
+          "Bounce",
+          "P&G Everyday",
+          "Accessibility Statement",
+          "Terms & Conditions",
+          "Tide Rewards Terms and Conditions",
+          "Careers",
+          "Privacy",
+          "Consumer Health Data Privacy Policy",
+          "Your Privacy Choices",
+          "Sitemap"
+        ],
+        "composition": [
+          "orange social band (#fb4c06, Facebook/Twitter/Pinterest/YouTube)",
+          "white mega footer: orange 800-weight column titles, accordion on mobile",
+          "related brand links row",
+          "legal links + copyright + CCPA/badges"
+        ],
+        "exampleSlug": "en-us",
+        "exampleSelector": "footer#site-footer",
+        "examplePages": [
+          "en-us-click2cart-0060001",
+          "en-us-click2cart-006000b",
+          "en-us-click2cart-006000h"
+        ]
+      },
+      {
+        "name": "breadcrumb",
+        "kind": "breadcrumb",
+        "occurrences": 64,
+        "headingSequence": [],
+        "ctaLabels": [
+          "Home"
+        ],
+        "exampleSlug": "en-us-research-best-quality-detergent",
+        "exampleSelector": ".breadcrumbs",
+        "examplePages": [
+          "en-us-how-to-do-laundry-better-clean-safer",
+          "en-us-how-to-do-laundry-detergent-residue-safety",
+          "en-us-how-to-wash-clothes-effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry"
+        ]
+      },
+      {
+        "name": "sticky-jump-links",
+        "kind": "nav-secondary",
+        "occurrences": 49,
+        "headingSequence": [],
+        "ctaLabels": [
+          "(per-page numbered section anchors)"
+        ],
+        "exampleSlug": "en-us-research-best-quality-detergent",
+        "exampleSelector": ".anchor-navigation (#sticky-nav)",
+        "examplePages": [
+          "en-us-how-to-do-laundry-better-clean-safer",
+          "en-us-how-to-do-laundry-detergent-residue-safety",
+          "en-us-how-to-wash-clothes-effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry"
+        ]
+      },
+      {
+        "name": "share-block",
+        "kind": "other",
+        "occurrences": 47,
+        "headingSequence": [],
+        "ctaLabels": [
+          "Share on Facebook",
+          "Share on Twitter",
+          "Share on Pinterest",
+          "Share by Email",
+          "Print"
+        ],
+        "exampleSlug": "en-us-research-best-quality-detergent",
+        "exampleSelector": ".share-block .share-buttons",
+        "examplePages": [
+          "en-us-how-to-do-laundry-better-clean-safer",
+          "en-us-how-to-do-laundry-detergent-residue-safety",
+          "en-us-our-commitment-pva-in-tide-pods"
+        ]
+      },
+      {
+        "name": "faq-accordion",
+        "kind": "other",
+        "occurrences": 31,
+        "headingSequence": [
+          "Frequently Asked Questions"
+        ],
+        "ctaLabels": [
+          "(question labels)"
+        ],
+        "exampleSlug": "en-us-research-best-quality-detergent",
+        "exampleSelector": ".faqs.single-column-faq",
+        "examplePages": [
+          "en-us-how-to-do-laundry-better-clean-safer",
+          "en-us-how-to-do-laundry-detergent-residue-safety",
+          "en-us-how-to-wash-clothes-effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry"
+        ]
+      }
+    ],
+    "scaleAudit": {
+      "kind": "ad-hoc",
+      "sizes": [
+        48,
+        40,
+        32,
+        26,
+        20
+      ],
+      "ratios": [
+        1.2,
+        1.25,
+        1.231,
+        1.3
+      ],
+      "matchedScale": null,
+      "basis": "census aggregate.type.levels h1/h2=48, h3=40, h4=32, h5=26, h6=20 (weighted score); ratios span minor-third→>major-third"
+    },
+    "fonts": [
+      {
+        "url": "https://tide.com/fonts/tide_type_light-webfont.woff2",
+        "family": "Tide",
+        "weight": 300,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/tide_type_light-webfont.woff2",
+        "sourceCssRule": "@font-face{font-family:Tide;src:url(/fonts/tide_type_light-webfont.woff2)format(\"woff2\");font-weight:300;font-display:swap} (0x8blnfnms9hr.css)",
+        "licensingFlag": "private",
+        "renderedOnCapturedPages": true
+      },
+      {
+        "url": "https://tide.com/fonts/tide_type_regular-webfont.woff2",
+        "family": "Tide",
+        "weight": 400,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/tide_type_regular-webfont.woff2",
+        "sourceCssRule": "@font-face{font-family:Tide;src:url(/fonts/tide_type_regular-webfont.woff2)format(\"woff2\");font-weight:400;font-display:swap} (0x8blnfnms9hr.css)",
+        "licensingFlag": "private",
+        "renderedOnCapturedPages": true
+      },
+      {
+        "url": "https://tide.com/fonts/tide_type_bold-webfont.woff2",
+        "family": "Tide",
+        "weight": 700,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/tide_type_bold-webfont.woff2",
+        "sourceCssRule": "@font-face{font-family:Tide;src:url(/fonts/tide_type_bold-webfont.woff2)format(\"woff2\");font-weight:700;font-display:swap} (0x8blnfnms9hr.css)",
+        "licensingFlag": "private",
+        "renderedOnCapturedPages": true
+      },
+      {
+        "url": "https://tide.com/fonts/tide_type_ultra-webfont.woff2",
+        "family": "Tide",
+        "weight": 800,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/tide_type_ultra-webfont.woff2",
+        "sourceCssRule": "@font-face{font-family:Tide;src:url(/fonts/tide_type_ultra-webfont.woff2)format(\"woff2\");font-weight:800;font-display:swap} (0x8blnfnms9hr.css)",
+        "licensingFlag": "private",
+        "renderedOnCapturedPages": true
+      },
+      {
+        "url": "https://tide.com/fonts/Montserrat-Regular.woff2",
+        "family": "MontserratRegular",
+        "weight": 400,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/Montserrat-Regular.woff2",
+        "sourceCssRule": "@font-face{font-family:MontserratRegular;src:url(/fonts/Montserrat-Regular.woff2)format(\"woff2\");font-weight:400;font-display:swap} (0x8blnfnms9hr.css)",
+        "licensingFlag": "open",
+        "renderedOnCapturedPages": false
+      },
+      {
+        "url": "https://tide.com/fonts/Montserrat-Medium.woff2",
+        "family": "MontserratMedium",
+        "weight": 400,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/Montserrat-Medium.woff2",
+        "sourceCssRule": "@font-face{font-family:MontserratMedium;src:url(/fonts/Montserrat-Medium.woff2)format(\"woff2\");font-weight:400;font-display:swap} (0x8blnfnms9hr.css)",
+        "licensingFlag": "open",
+        "renderedOnCapturedPages": false
+      },
+      {
+        "url": "https://tide.com/fonts/Montserrat-Bold.woff2",
+        "family": "MontserratBold",
+        "weight": 400,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/Montserrat-Bold.woff2",
+        "sourceCssRule": "@font-face{font-family:MontserratBold;src:url(/fonts/Montserrat-Bold.woff2)format(\"woff2\");font-weight:400;font-display:swap} (0x8blnfnms9hr.css)",
+        "licensingFlag": "open",
+        "renderedOnCapturedPages": false
+      },
+      {
+        "url": "https://tide.com/fonts/Montserrat-ExtraBold.woff2",
+        "family": "MontserratExtraBold",
+        "weight": 400,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/Montserrat-ExtraBold.woff2",
+        "sourceCssRule": "@font-face{font-family:MontserratExtraBold;src:url(/fonts/Montserrat-ExtraBold.woff2)format(\"woff2\");font-weight:400;font-display:swap} (0x8blnfnms9hr.css)",
+        "licensingFlag": "open",
+        "renderedOnCapturedPages": false
+      },
+      {
+        "url": "https://tide.com/fonts/Montserrat-Black.woff2",
+        "family": "MontserratBlack",
+        "weight": 400,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/Montserrat-Black.woff2",
+        "sourceCssRule": "@font-face{font-family:MontserratBlack;src:url(/fonts/Montserrat-Black.woff2)format(\"woff2\");font-weight:400;font-display:swap} (0x8blnfnms9hr.css)",
+        "licensingFlag": "open",
+        "renderedOnCapturedPages": false
+      },
+      {
+        "url": "https://tide.com/fonts/Anton-Regular.woff2",
+        "family": "Anton",
+        "weight": 400,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/Anton-Regular.woff2",
+        "sourceCssRule": "@font-face{font-family:Anton;src:url(/fonts/Anton-Regular.woff2)format(\"woff2\");font-weight:400;font-display:swap} (0x8blnfnms9hr.css)",
+        "licensingFlag": "open",
+        "renderedOnCapturedPages": false
+      },
+      {
+        "url": "https://tide.com/fonts/IntroScriptDemo-Medium.woff2",
+        "family": "IntroScriptDemo",
+        "weight": 500,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/IntroScriptDemo-Medium.woff2",
+        "sourceCssRule": "@font-face{font-family:IntroScriptDemo;src:url(/fonts/IntroScriptDemo-Medium.woff2)format(\"woff2\");font-weight:500;font-display:swap} (0x8blnfnms9hr.css)",
+        "licensingFlag": "private",
+        "renderedOnCapturedPages": false
+      }
+    ],
+    "iconFont": {
+      "family": "revicons",
+      "localPath": null,
+      "sourceCss": "@font-face{font-family:revicons;src:url(../media/revicons.*.woff)…} (0zt2pzwsr7nl0.css, react-multi-carousel)",
+      "glyphCount": 2,
+      "glyphs": [
+        {
+          "class": "react-multiple-carousel__arrow--left",
+          "codepoint": "\\E824",
+          "name": "arrow-left"
+        },
+        {
+          "class": "react-multiple-carousel__arrow--right",
+          "codepoint": "\\E825",
+          "name": "arrow-right"
+        }
+      ],
+      "scope": "carousel arrows only (home, collection, turn-to-cold); font file not captured",
+      "alsoObserved": {
+        "family": "FontAwesome",
+        "scope": "click2cart SmartCommerce widget only (fa-close, fa-map-marker, fa-angle-right/down, fa-caret-up/down)",
+        "localPath": null
+      },
+      "source": "_computed-styles.json#aggregate.iconFont"
+    },
+    "register": "brand",
+    "modules": [
+      {
+        "id": "pg-family-top-bar",
+        "status": "candidate",
+        "slots": [
+          "family-label",
+          "brand-logos[]",
+          "utility-links[]",
+          "language-selector",
+          "sign-in"
+        ],
+        "signals": [
+          "cta: Contact Us / US - English / Sign in on 85 pages",
+          "text: Part of the P&G Family"
+        ],
+        "pageTypes": [
+          "unique",
+          "article",
+          "topic-hub",
+          "section-landing",
+          "sustainability-topic",
+          "product-listing",
+          "collection-landing",
+          "home"
+        ],
+        "instanceCount": 85,
+        "instances": [
+          {
+            "slug": "en-us-contact-us",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-how-to-do-laundry-better-clean-safer",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-how-to-do-laundry-detergent-residue-safety",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-how-to-do-laundry-about-tide-pods-pva-film",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-how-to-do-laundry",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-how-to-remove-stains-acne-cream-stains",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-how-to-remove-stains",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-washing-different-fabrics-and-colors-everyday-items-to-wash-regularly",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-washing-different-fabrics-and-colors",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-washing-machine-101-how-to-use-a-washing-machine",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-washing-machine-101",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-latest-news",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-our-commitment-americas-number-one-detergent-our-heritage",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-our-commitment-americas-number-one-detergent",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-our-commitment-dont-pay-for-water",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-our-commitment-ingredients-and-safety-all-about-tide-ingredients",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-our-commitment-ingredients-and-safety",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-our-commitment-pva-in-tide-pods",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-our-commitment-superbowllx",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-our-commitment-sustainability-compaction",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-our-commitment-sustainability-materials",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-our-commitment-sustainability-saving-energy",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-our-commitment-tide-boosted",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-our-commitment-tide-cleaners-laundry-service",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-our-commitment-tide-evo",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-our-commitment-tide-in-space",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-our-commitment-turn-to-cold",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-our-commitment",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-research-are-detergents-toxic-science",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-research-are-scented-laundry-products-safe",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-research-best-eco-laundry-detergent",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-research-best-laundry-detergent-baby-clothes",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-research-best-quality-detergent",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-research-cold-water-vs-laundry-cost",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-research-detergent-sheets-pods-liquid",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-research-do-you-need-special-baby-detergent",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-research-environmentally-friendly-way-laundry",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-research-evaluate-true-value-laundry-detergent",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-research-fragrance-meaning-on-ingredient-label",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-research-hazard-vs-risk-laundry-detergent",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-research-how-enzymes-help-remove-baby-stains",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-research-how-to-choose-detergent-for-value",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-research-laundry-detergent-science-testing",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-research-laundry-scent-and-indoor-air",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-research-natural-detergent-baby-clothes",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-research-odor-after-washing",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-research-pva-technical-review",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-research-scientific-guide-laundry-sensitive-skin",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-research-signs-of-fragrance-safety",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-research-tide-environment-safety",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-research-tide-evo-dissolve-guide",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-research-tide-value-framework",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-research-vocs-laundry-products-airborne-emissions",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-research-what-is-best-eco-detergent",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-research-what-makes-laundry-scent-safe",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-research-why-cost-per-load-isnt-whole-story",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-research-why-rewashes-make-laundry-more-expensive",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-rewards-laundrytips-how-to-remove-armpit-stains",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-rewards-laundrytips",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-rewards-loyalty-terms-and-conditions",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-rewards",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-shop-special-needs-additives",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-shop-special-needs-deep-clean",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-shop-special-needs-freshness",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-shop-special-needs-odor-removal",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-shop-special-needs-sensitive",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-shop-special-needs-stain-removal",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-shop-special-needs-whiteness",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-shop-top-collections-tide-free-and-gentle",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-shop-top-collections-tide-plus-febreze",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-shop-top-collections-tide-power-pods",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-shop-top-collections-tide-simply",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-shop-top-collections-tide-ultra-oxi",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-shop-type-fabric-rinse",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-shop-type-laundry-booster",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-shop-type-laundry-pods",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-shop-type-laundry-tiles",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-shop-type-liquid",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-shop-type-powder",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-shop-type-stain-remover",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-shop",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us-sitemap",
+            "selector": ".header-top-bar"
+          },
+          {
+            "slug": "en-us",
+            "selector": ".header-top-bar"
+          }
+        ]
+      },
+      {
+        "id": "site-header",
+        "status": "candidate",
+        "slots": [
+          "skip-link",
+          "pg-family-top-bar",
+          "logo",
+          "search",
+          "burger",
+          "mega-nav[]"
+        ],
+        "signals": [
+          "ctas: Shop Products, Our Commitment, How to Wash Clothes, What's New, Coupons and Deals (85 pages)"
+        ],
+        "pageTypes": [
+          "unique",
+          "article",
+          "topic-hub",
+          "section-landing",
+          "sustainability-topic",
+          "product-listing",
+          "collection-landing",
+          "home"
+        ],
+        "instanceCount": 85,
+        "instances": [
+          {
+            "slug": "en-us-contact-us",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-how-to-do-laundry-better-clean-safer",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-how-to-do-laundry-detergent-residue-safety",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-how-to-do-laundry-about-tide-pods-pva-film",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-how-to-do-laundry",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-how-to-remove-stains-acne-cream-stains",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-how-to-remove-stains",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-washing-different-fabrics-and-colors-everyday-items-to-wash-regularly",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-washing-different-fabrics-and-colors",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-washing-machine-101-how-to-use-a-washing-machine",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-washing-machine-101",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-latest-news",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-our-commitment-americas-number-one-detergent-our-heritage",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-our-commitment-americas-number-one-detergent",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-our-commitment-dont-pay-for-water",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-our-commitment-ingredients-and-safety-all-about-tide-ingredients",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-our-commitment-ingredients-and-safety",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-our-commitment-pva-in-tide-pods",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-our-commitment-superbowllx",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-our-commitment-sustainability-compaction",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-our-commitment-sustainability-materials",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-our-commitment-sustainability-saving-energy",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-our-commitment-tide-boosted",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-our-commitment-tide-cleaners-laundry-service",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-our-commitment-tide-evo",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-our-commitment-tide-in-space",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-our-commitment-turn-to-cold",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-our-commitment",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-research-are-detergents-toxic-science",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-research-are-scented-laundry-products-safe",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-research-best-eco-laundry-detergent",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-research-best-laundry-detergent-baby-clothes",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-research-best-quality-detergent",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-research-cold-water-vs-laundry-cost",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-research-detergent-sheets-pods-liquid",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-research-do-you-need-special-baby-detergent",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-research-environmentally-friendly-way-laundry",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-research-evaluate-true-value-laundry-detergent",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-research-fragrance-meaning-on-ingredient-label",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-research-hazard-vs-risk-laundry-detergent",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-research-how-enzymes-help-remove-baby-stains",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-research-how-to-choose-detergent-for-value",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-research-laundry-detergent-science-testing",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-research-laundry-scent-and-indoor-air",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-research-natural-detergent-baby-clothes",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-research-odor-after-washing",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-research-pva-technical-review",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-research-scientific-guide-laundry-sensitive-skin",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-research-signs-of-fragrance-safety",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-research-tide-environment-safety",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-research-tide-evo-dissolve-guide",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-research-tide-value-framework",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-research-vocs-laundry-products-airborne-emissions",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-research-what-is-best-eco-detergent",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-research-what-makes-laundry-scent-safe",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-research-why-cost-per-load-isnt-whole-story",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-research-why-rewashes-make-laundry-more-expensive",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-rewards-laundrytips-how-to-remove-armpit-stains",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-rewards-laundrytips",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-rewards-loyalty-terms-and-conditions",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-rewards",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-shop-special-needs-additives",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-shop-special-needs-deep-clean",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-shop-special-needs-freshness",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-shop-special-needs-odor-removal",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-shop-special-needs-sensitive",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-shop-special-needs-stain-removal",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-shop-special-needs-whiteness",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-shop-top-collections-tide-free-and-gentle",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-shop-top-collections-tide-plus-febreze",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-shop-top-collections-tide-power-pods",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-shop-top-collections-tide-simply",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-shop-top-collections-tide-ultra-oxi",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-shop-type-fabric-rinse",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-shop-type-laundry-booster",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-shop-type-laundry-pods",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-shop-type-laundry-tiles",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-shop-type-liquid",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-shop-type-powder",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-shop-type-stain-remover",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-shop",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us-sitemap",
+            "selector": "#site-header"
+          },
+          {
+            "slug": "en-us",
+            "selector": "#site-header"
+          }
+        ]
+      },
+      {
+        "id": "breadcrumb",
+        "status": "candidate",
+        "slots": [
+          "crumbs[]"
+        ],
+        "signals": [
+          "cta: Home (49 pages)",
+          "schema.org BreadcrumbList microdata"
+        ],
+        "pageTypes": [
+          "article",
+          "topic-hub",
+          "unique",
+          "sustainability-topic",
+          "product-listing"
+        ],
+        "instanceCount": 64,
+        "instances": [
+          {
+            "slug": "en-us-how-to-do-laundry-better-clean-safer",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-how-to-do-laundry-detergent-residue-safety",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-how-to-do-laundry-about-tide-pods-pva-film",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-how-to-do-laundry",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-how-to-remove-stains-acne-cream-stains",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-how-to-remove-stains",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-washing-different-fabrics-and-colors-everyday-items-to-wash-regularly",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-washing-different-fabrics-and-colors",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-washing-machine-101-how-to-use-a-washing-machine",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-our-commitment-americas-number-one-detergent-our-heritage",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-our-commitment-ingredients-and-safety-all-about-tide-ingredients",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-our-commitment-pva-in-tide-pods",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-our-commitment-sustainability-compaction",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-our-commitment-sustainability-materials",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-our-commitment-sustainability-saving-energy",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-our-commitment-tide-cleaners-laundry-service",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-our-commitment-tide-evo",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-research-are-detergents-toxic-science",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-research-are-scented-laundry-products-safe",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-research-best-eco-laundry-detergent",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-research-best-laundry-detergent-baby-clothes",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-research-best-quality-detergent",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-research-cold-water-vs-laundry-cost",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-research-detergent-sheets-pods-liquid",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-research-do-you-need-special-baby-detergent",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-research-environmentally-friendly-way-laundry",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-research-evaluate-true-value-laundry-detergent",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-research-fragrance-meaning-on-ingredient-label",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-research-hazard-vs-risk-laundry-detergent",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-research-how-enzymes-help-remove-baby-stains",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-research-how-to-choose-detergent-for-value",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-research-laundry-detergent-science-testing",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-research-laundry-scent-and-indoor-air",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-research-natural-detergent-baby-clothes",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-research-odor-after-washing",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-research-pva-technical-review",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-research-scientific-guide-laundry-sensitive-skin",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-research-signs-of-fragrance-safety",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-research-tide-environment-safety",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-research-tide-evo-dissolve-guide",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-research-tide-value-framework",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-research-vocs-laundry-products-airborne-emissions",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-research-what-is-best-eco-detergent",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-research-what-makes-laundry-scent-safe",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-research-why-cost-per-load-isnt-whole-story",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-research-why-rewashes-make-laundry-more-expensive",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-rewards-laundrytips-how-to-remove-armpit-stains",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-rewards-loyalty-terms-and-conditions",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-shop-special-needs-additives",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-shop-special-needs-deep-clean",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-shop-special-needs-freshness",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-shop-special-needs-odor-removal",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-shop-special-needs-sensitive",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-shop-special-needs-stain-removal",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-shop-special-needs-whiteness",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-shop-type-fabric-rinse",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-shop-type-laundry-booster",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-shop-type-laundry-pods",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-shop-type-laundry-tiles",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-shop-type-liquid",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-shop-type-powder",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-shop-type-stain-remover",
+            "selector": ".breadcrumbs"
+          },
+          {
+            "slug": "en-us-shop",
+            "selector": ".breadcrumbs"
+          }
+        ]
+      },
+      {
+        "id": "article-title-band",
+        "status": "candidate",
+        "slots": [
+          "breadcrumb",
+          "title",
+          "deck",
+          "image?",
+          "share-icons[]",
+          "jump-links[]"
+        ],
+        "signals": [
+          "orange band h1 (#fb4c06 bg, white text) on article pages",
+          "share-block share-buttons",
+          "anchor-navigation jump links"
+        ],
+        "pageTypes": [
+          "article",
+          "unique",
+          "sustainability-topic"
+        ],
+        "instanceCount": 43,
+        "instances": [
+          {
+            "slug": "en-us-how-to-do-laundry-better-clean-safer",
+            "selector": ".article-intro",
+            "hasImage": false,
+            "hasJumpLinks": true,
+            "hasShare": true
+          },
+          {
+            "slug": "en-us-how-to-do-laundry-detergent-residue-safety",
+            "selector": ".article-intro",
+            "hasImage": false,
+            "hasJumpLinks": true,
+            "hasShare": true
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry",
+            "selector": ".article-intro",
+            "hasImage": true,
+            "hasJumpLinks": true,
+            "hasShare": true
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-how-to-do-laundry-about-tide-pods-pva-film",
+            "selector": ".article-intro",
+            "hasImage": false,
+            "hasJumpLinks": true,
+            "hasShare": true
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-how-to-remove-stains-acne-cream-stains",
+            "selector": ".article-intro",
+            "hasImage": true,
+            "hasJumpLinks": true,
+            "hasShare": true
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-washing-different-fabrics-and-colors-everyday-items-to-wash-regularly",
+            "selector": ".article-intro",
+            "hasImage": true,
+            "hasJumpLinks": true,
+            "hasShare": true
+          },
+          {
+            "slug": "en-us-our-commitment-americas-number-one-detergent-our-heritage",
+            "selector": ".article-intro",
+            "hasImage": true,
+            "hasJumpLinks": false,
+            "hasShare": true
+          },
+          {
+            "slug": "en-us-our-commitment-ingredients-and-safety-all-about-tide-ingredients",
+            "selector": ".article-intro",
+            "hasImage": false,
+            "hasJumpLinks": true,
+            "hasShare": true
+          },
+          {
+            "slug": "en-us-our-commitment-pva-in-tide-pods",
+            "selector": ".article-intro",
+            "hasImage": false,
+            "hasJumpLinks": false,
+            "hasShare": true
+          },
+          {
+            "slug": "en-us-our-commitment-sustainability-compaction",
+            "selector": ".article-intro",
+            "hasImage": true,
+            "hasJumpLinks": true,
+            "hasShare": true
+          },
+          {
+            "slug": "en-us-our-commitment-sustainability-materials",
+            "selector": ".article-intro",
+            "hasImage": true,
+            "hasJumpLinks": true,
+            "hasShare": true
+          },
+          {
+            "slug": "en-us-our-commitment-sustainability-saving-energy",
+            "selector": ".article-intro",
+            "hasImage": true,
+            "hasJumpLinks": false,
+            "hasShare": true
+          },
+          {
+            "slug": "en-us-research-are-detergents-toxic-science",
+            "selector": ".article-intro",
+            "hasImage": false,
+            "hasJumpLinks": true,
+            "hasShare": true
+          },
+          {
+            "slug": "en-us-research-are-scented-laundry-products-safe",
+            "selector": ".article-intro",
+            "hasImage": false,
+            "hasJumpLinks": true,
+            "hasShare": true
+          },
+          {
+            "slug": "en-us-research-best-eco-laundry-detergent",
+            "selector": ".article-intro",
+            "hasImage": false,
+            "hasJumpLinks": true,
+            "hasShare": true
+          },
+          {
+            "slug": "en-us-research-best-laundry-detergent-baby-clothes",
+            "selector": ".article-intro",
+            "hasImage": false,
+            "hasJumpLinks": true,
+            "hasShare": true
+          },
+          {
+            "slug": "en-us-research-best-quality-detergent",
+            "selector": ".article-intro",
+            "hasImage": false,
+            "hasJumpLinks": true,
+            "hasShare": true
+          },
+          {
+            "slug": "en-us-research-cold-water-vs-laundry-cost",
+            "selector": ".article-intro",
+            "hasImage": false,
+            "hasJumpLinks": true,
+            "hasShare": true
+          },
+          {
+            "slug": "en-us-research-detergent-sheets-pods-liquid",
+            "selector": ".article-intro",
+            "hasImage": false,
+            "hasJumpLinks": true,
+            "hasShare": true
+          },
+          {
+            "slug": "en-us-research-do-you-need-special-baby-detergent",
+            "selector": ".article-intro",
+            "hasImage": false,
+            "hasJumpLinks": true,
+            "hasShare": true
+          },
+          {
+            "slug": "en-us-research-environmentally-friendly-way-laundry",
+            "selector": ".article-intro",
+            "hasImage": false,
+            "hasJumpLinks": true,
+            "hasShare": true
+          },
+          {
+            "slug": "en-us-research-evaluate-true-value-laundry-detergent",
+            "selector": ".article-intro",
+            "hasImage": false,
+            "hasJumpLinks": true,
+            "hasShare": true
+          },
+          {
+            "slug": "en-us-research-fragrance-meaning-on-ingredient-label",
+            "selector": ".article-intro",
+            "hasImage": false,
+            "hasJumpLinks": true,
+            "hasShare": true
+          },
+          {
+            "slug": "en-us-research-hazard-vs-risk-laundry-detergent",
+            "selector": ".article-intro",
+            "hasImage": false,
+            "hasJumpLinks": true,
+            "hasShare": true
+          },
+          {
+            "slug": "en-us-research-how-enzymes-help-remove-baby-stains",
+            "selector": ".article-intro",
+            "hasImage": false,
+            "hasJumpLinks": true,
+            "hasShare": true
+          },
+          {
+            "slug": "en-us-research-how-to-choose-detergent-for-value",
+            "selector": ".article-intro",
+            "hasImage": false,
+            "hasJumpLinks": true,
+            "hasShare": true
+          },
+          {
+            "slug": "en-us-research-laundry-detergent-science-testing",
+            "selector": ".article-intro",
+            "hasImage": false,
+            "hasJumpLinks": true,
+            "hasShare": true
+          },
+          {
+            "slug": "en-us-research-laundry-scent-and-indoor-air",
+            "selector": ".article-intro",
+            "hasImage": false,
+            "hasJumpLinks": true,
+            "hasShare": true
+          },
+          {
+            "slug": "en-us-research-natural-detergent-baby-clothes",
+            "selector": ".article-intro",
+            "hasImage": false,
+            "hasJumpLinks": true,
+            "hasShare": true
+          },
+          {
+            "slug": "en-us-research-odor-after-washing",
+            "selector": ".article-intro",
+            "hasImage": false,
+            "hasJumpLinks": true,
+            "hasShare": true
+          },
+          {
+            "slug": "en-us-research-pva-technical-review",
+            "selector": ".article-intro",
+            "hasImage": false,
+            "hasJumpLinks": true,
+            "hasShare": true
+          },
+          {
+            "slug": "en-us-research-scientific-guide-laundry-sensitive-skin",
+            "selector": ".article-intro",
+            "hasImage": false,
+            "hasJumpLinks": true,
+            "hasShare": true
+          },
+          {
+            "slug": "en-us-research-signs-of-fragrance-safety",
+            "selector": ".article-intro",
+            "hasImage": false,
+            "hasJumpLinks": true,
+            "hasShare": true
+          },
+          {
+            "slug": "en-us-research-tide-environment-safety",
+            "selector": ".article-intro",
+            "hasImage": false,
+            "hasJumpLinks": true,
+            "hasShare": true
+          },
+          {
+            "slug": "en-us-research-tide-evo-dissolve-guide",
+            "selector": ".article-intro",
+            "hasImage": false,
+            "hasJumpLinks": true,
+            "hasShare": true
+          },
+          {
+            "slug": "en-us-research-tide-value-framework",
+            "selector": ".article-intro",
+            "hasImage": false,
+            "hasJumpLinks": true,
+            "hasShare": true
+          },
+          {
+            "slug": "en-us-research-vocs-laundry-products-airborne-emissions",
+            "selector": ".article-intro",
+            "hasImage": false,
+            "hasJumpLinks": true,
+            "hasShare": true
+          },
+          {
+            "slug": "en-us-research-what-is-best-eco-detergent",
+            "selector": ".article-intro",
+            "hasImage": false,
+            "hasJumpLinks": true,
+            "hasShare": true
+          },
+          {
+            "slug": "en-us-research-what-makes-laundry-scent-safe",
+            "selector": ".article-intro",
+            "hasImage": false,
+            "hasJumpLinks": true,
+            "hasShare": true
+          },
+          {
+            "slug": "en-us-research-why-cost-per-load-isnt-whole-story",
+            "selector": ".article-intro",
+            "hasImage": false,
+            "hasJumpLinks": true,
+            "hasShare": true
+          },
+          {
+            "slug": "en-us-research-why-rewashes-make-laundry-more-expensive",
+            "selector": ".article-intro",
+            "hasImage": false,
+            "hasJumpLinks": true,
+            "hasShare": true
+          },
+          {
+            "slug": "en-us-rewards-laundrytips-how-to-remove-armpit-stains",
+            "selector": ".article-intro",
+            "hasImage": false,
+            "hasJumpLinks": false,
+            "hasShare": true
+          },
+          {
+            "slug": "en-us-rewards-loyalty-terms-and-conditions",
+            "selector": ".article-intro",
+            "hasImage": false,
+            "hasJumpLinks": false,
+            "hasShare": true
+          }
+        ]
+      },
+      {
+        "id": "jump-links",
+        "status": "candidate",
+        "slots": [
+          "links[]"
+        ],
+        "signals": [
+          "numbered ctas mirroring h2s with href null (in-page anchors)",
+          "#sticky-nav shadow rgba(0,0,0,.2) 0 2px 17px"
+        ],
+        "pageTypes": [
+          "article",
+          "topic-hub",
+          "unique",
+          "sustainability-topic",
+          "collection-landing"
+        ],
+        "instanceCount": 49,
+        "instances": [
+          {
+            "slug": "en-us-how-to-do-laundry-better-clean-safer",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-how-to-do-laundry-detergent-residue-safety",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-how-to-do-laundry-about-tide-pods-pva-film",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-how-to-do-laundry",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-how-to-remove-stains-acne-cream-stains",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-how-to-remove-stains",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-washing-different-fabrics-and-colors-everyday-items-to-wash-regularly",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-washing-different-fabrics-and-colors",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-washing-machine-101-how-to-use-a-washing-machine",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-latest-news",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-our-commitment-ingredients-and-safety-all-about-tide-ingredients",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-our-commitment-sustainability-compaction",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-our-commitment-sustainability-materials",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-our-commitment-turn-to-cold",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-research-are-detergents-toxic-science",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-research-are-scented-laundry-products-safe",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-research-best-eco-laundry-detergent",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-research-best-laundry-detergent-baby-clothes",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-research-best-quality-detergent",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-research-cold-water-vs-laundry-cost",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-research-detergent-sheets-pods-liquid",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-research-do-you-need-special-baby-detergent",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-research-environmentally-friendly-way-laundry",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-research-evaluate-true-value-laundry-detergent",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-research-fragrance-meaning-on-ingredient-label",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-research-hazard-vs-risk-laundry-detergent",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-research-how-enzymes-help-remove-baby-stains",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-research-how-to-choose-detergent-for-value",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-research-laundry-detergent-science-testing",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-research-laundry-scent-and-indoor-air",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-research-natural-detergent-baby-clothes",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-research-odor-after-washing",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-research-pva-technical-review",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-research-scientific-guide-laundry-sensitive-skin",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-research-signs-of-fragrance-safety",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-research-tide-environment-safety",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-research-tide-evo-dissolve-guide",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-research-tide-value-framework",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-research-vocs-laundry-products-airborne-emissions",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-research-what-is-best-eco-detergent",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-research-what-makes-laundry-scent-safe",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-research-why-cost-per-load-isnt-whole-story",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-research-why-rewashes-make-laundry-more-expensive",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-shop-top-collections-tide-free-and-gentle",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-shop-top-collections-tide-plus-febreze",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-shop-top-collections-tide-power-pods",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-shop-top-collections-tide-simply",
+            "selector": ".anchor-navigation"
+          },
+          {
+            "slug": "en-us-shop-top-collections-tide-ultra-oxi",
+            "selector": ".anchor-navigation"
+          }
+        ]
+      },
+      {
+        "id": "faq-accordion",
+        "status": "candidate",
+        "slots": [
+          "heading",
+          "items[]{question,answer}"
+        ],
+        "signals": [
+          "heading: Frequently Asked Questions (21 pages) / FAQs (5)",
+          "expandable-content faq-item"
+        ],
+        "pageTypes": [
+          "article"
+        ],
+        "instanceCount": 31,
+        "instances": [
+          {
+            "slug": "en-us-how-to-do-laundry-better-clean-safer",
+            "selector": ".faqs"
+          },
+          {
+            "slug": "en-us-how-to-do-laundry-detergent-residue-safety",
+            "selector": ".faqs"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry",
+            "selector": ".faqs"
+          },
+          {
+            "slug": "en-us-research-are-detergents-toxic-science",
+            "selector": ".faqs"
+          },
+          {
+            "slug": "en-us-research-are-scented-laundry-products-safe",
+            "selector": ".faqs"
+          },
+          {
+            "slug": "en-us-research-best-eco-laundry-detergent",
+            "selector": ".faqs"
+          },
+          {
+            "slug": "en-us-research-best-laundry-detergent-baby-clothes",
+            "selector": ".faqs"
+          },
+          {
+            "slug": "en-us-research-best-quality-detergent",
+            "selector": ".faqs"
+          },
+          {
+            "slug": "en-us-research-cold-water-vs-laundry-cost",
+            "selector": ".faqs"
+          },
+          {
+            "slug": "en-us-research-detergent-sheets-pods-liquid",
+            "selector": ".faqs"
+          },
+          {
+            "slug": "en-us-research-do-you-need-special-baby-detergent",
+            "selector": ".faqs"
+          },
+          {
+            "slug": "en-us-research-environmentally-friendly-way-laundry",
+            "selector": ".faqs"
+          },
+          {
+            "slug": "en-us-research-fragrance-meaning-on-ingredient-label",
+            "selector": ".faqs"
+          },
+          {
+            "slug": "en-us-research-hazard-vs-risk-laundry-detergent",
+            "selector": ".faqs"
+          },
+          {
+            "slug": "en-us-research-how-enzymes-help-remove-baby-stains",
+            "selector": ".faqs"
+          },
+          {
+            "slug": "en-us-research-how-to-choose-detergent-for-value",
+            "selector": ".faqs"
+          },
+          {
+            "slug": "en-us-research-laundry-detergent-science-testing",
+            "selector": ".faqs"
+          },
+          {
+            "slug": "en-us-research-laundry-scent-and-indoor-air",
+            "selector": ".faqs"
+          },
+          {
+            "slug": "en-us-research-natural-detergent-baby-clothes",
+            "selector": ".faqs"
+          },
+          {
+            "slug": "en-us-research-odor-after-washing",
+            "selector": ".faqs"
+          },
+          {
+            "slug": "en-us-research-scientific-guide-laundry-sensitive-skin",
+            "selector": ".faqs"
+          },
+          {
+            "slug": "en-us-research-signs-of-fragrance-safety",
+            "selector": ".faqs"
+          },
+          {
+            "slug": "en-us-research-tide-environment-safety",
+            "selector": ".faqs"
+          },
+          {
+            "slug": "en-us-research-tide-evo-dissolve-guide",
+            "selector": ".faqs"
+          },
+          {
+            "slug": "en-us-research-tide-value-framework",
+            "selector": ".faqs"
+          },
+          {
+            "slug": "en-us-research-vocs-laundry-products-airborne-emissions",
+            "selector": ".faqs"
+          },
+          {
+            "slug": "en-us-research-what-is-best-eco-detergent",
+            "selector": ".faqs"
+          },
+          {
+            "slug": "en-us-research-what-makes-laundry-scent-safe",
+            "selector": ".faqs"
+          },
+          {
+            "slug": "en-us-research-why-cost-per-load-isnt-whole-story",
+            "selector": ".faqs"
+          },
+          {
+            "slug": "en-us-research-why-rewashes-make-laundry-more-expensive",
+            "selector": ".faqs"
+          },
+          {
+            "slug": "en-us-rewards-laundrytips-how-to-remove-armpit-stains",
+            "selector": ".faqs"
+          }
+        ]
+      },
+      {
+        "id": "related-articles-row",
+        "status": "candidate",
+        "slots": [
+          "heading",
+          "cards[]{image,title,excerpt,link}"
+        ],
+        "signals": [
+          "heading: Related articles",
+          "article-preview cards with Read More"
+        ],
+        "pageTypes": [
+          "article",
+          "unique",
+          "product-listing"
+        ],
+        "instanceCount": 6,
+        "instances": [
+          {
+            "slug": "en-us-how-to-wash-clothes-effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry",
+            "selector": ".related-articles"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-how-to-remove-stains-acne-cream-stains",
+            "selector": ".related-articles"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-washing-different-fabrics-and-colors-everyday-items-to-wash-regularly",
+            "selector": ".related-articles"
+          },
+          {
+            "slug": "en-us-our-commitment-ingredients-and-safety-all-about-tide-ingredients",
+            "selector": ".related-articles"
+          },
+          {
+            "slug": "en-us-shop-type-fabric-rinse",
+            "selector": ".plp-related-articles-wrapper"
+          },
+          {
+            "slug": "en-us-shop-type-laundry-tiles",
+            "selector": ".plp-related-articles-wrapper"
+          }
+        ]
+      },
+      {
+        "id": "related-product-band",
+        "status": "candidate",
+        "slots": [
+          "heading",
+          "product-titles[]",
+          "slides[]{title,image}"
+        ],
+        "signals": [
+          "carousel-wrapper products-carousel-* (slick)",
+          "heading: Related products"
+        ],
+        "pageTypes": [
+          "article",
+          "unique",
+          "sustainability-topic"
+        ],
+        "instanceCount": 7,
+        "instances": [
+          {
+            "slug": "en-us-how-to-wash-clothes-effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry",
+            "selector": ".products-carousel-white"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-how-to-remove-stains-acne-cream-stains",
+            "selector": ".products-carousel-orange"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-washing-different-fabrics-and-colors-everyday-items-to-wash-regularly",
+            "selector": ".products-carousel-white"
+          },
+          {
+            "slug": "en-us-our-commitment-ingredients-and-safety-all-about-tide-ingredients",
+            "selector": ".products-carousel-white"
+          },
+          {
+            "slug": "en-us-our-commitment-sustainability-saving-energy",
+            "selector": ".products-carousel-white"
+          },
+          {
+            "slug": "en-us-our-commitment-turn-to-cold",
+            "selector": ".products-carousel-orange"
+          },
+          {
+            "slug": "en-us-rewards-laundrytips-how-to-remove-armpit-stains",
+            "selector": ".products-carousel-white"
+          }
+        ]
+      },
+      {
+        "id": "product-grid",
+        "status": "candidate",
+        "slots": [
+          "title-bar{title,browse-other-products}",
+          "count",
+          "sort",
+          "view-toggle",
+          "filter-chips[]",
+          "products[]{image,title,rating,find-retailers}",
+          "promo-tiles[]?",
+          "load-more"
+        ],
+        "signals": [
+          "cta: Find Retailers (per product)",
+          "cta: Browse other products (15 pages)",
+          "plp-filter-bar chips (#7481b4 border, 25px radius)"
+        ],
+        "pageTypes": [
+          "product-listing"
+        ],
+        "instanceCount": 15,
+        "instances": [
+          {
+            "slug": "en-us-shop-special-needs-additives",
+            "selector": ".plp-product-previews-wrapper",
+            "hasFilterChips": true
+          },
+          {
+            "slug": "en-us-shop-special-needs-deep-clean",
+            "selector": ".plp-product-previews-wrapper",
+            "hasFilterChips": true
+          },
+          {
+            "slug": "en-us-shop-special-needs-freshness",
+            "selector": ".plp-product-previews-wrapper",
+            "hasFilterChips": true
+          },
+          {
+            "slug": "en-us-shop-special-needs-odor-removal",
+            "selector": ".plp-product-previews-wrapper",
+            "hasFilterChips": true
+          },
+          {
+            "slug": "en-us-shop-special-needs-sensitive",
+            "selector": ".plp-product-previews-wrapper",
+            "hasFilterChips": true
+          },
+          {
+            "slug": "en-us-shop-special-needs-stain-removal",
+            "selector": ".plp-product-previews-wrapper",
+            "hasFilterChips": true
+          },
+          {
+            "slug": "en-us-shop-special-needs-whiteness",
+            "selector": ".plp-product-previews-wrapper",
+            "hasFilterChips": true
+          },
+          {
+            "slug": "en-us-shop-type-fabric-rinse",
+            "selector": ".plp-product-previews-wrapper",
+            "hasFilterChips": true
+          },
+          {
+            "slug": "en-us-shop-type-laundry-booster",
+            "selector": ".plp-product-previews-wrapper",
+            "hasFilterChips": true
+          },
+          {
+            "slug": "en-us-shop-type-laundry-pods",
+            "selector": ".plp-product-previews-wrapper",
+            "hasFilterChips": true
+          },
+          {
+            "slug": "en-us-shop-type-laundry-tiles",
+            "selector": ".plp-product-previews-wrapper",
+            "hasFilterChips": true
+          },
+          {
+            "slug": "en-us-shop-type-liquid",
+            "selector": ".plp-product-previews-wrapper",
+            "hasFilterChips": true
+          },
+          {
+            "slug": "en-us-shop-type-powder",
+            "selector": ".plp-product-previews-wrapper",
+            "hasFilterChips": true
+          },
+          {
+            "slug": "en-us-shop-type-stain-remover",
+            "selector": ".plp-product-previews-wrapper",
+            "hasFilterChips": true
+          },
+          {
+            "slug": "en-us-shop",
+            "selector": ".plp-product-previews-wrapper",
+            "hasFilterChips": false
+          }
+        ]
+      },
+      {
+        "id": "collection-hero",
+        "status": "candidate",
+        "slots": [
+          "title",
+          "subtitle",
+          "cta",
+          "background-image"
+        ],
+        "signals": [
+          "tide-collection-page hero banner",
+          "cta: Shop The Collection"
+        ],
+        "pageTypes": [
+          "collection-landing"
+        ],
+        "instanceCount": 5,
+        "instances": [
+          {
+            "slug": "en-us-shop-top-collections-tide-free-and-gentle",
+            "selector": ".collection-fg-first-banner"
+          },
+          {
+            "slug": "en-us-shop-top-collections-tide-plus-febreze",
+            "selector": ".collection-fg-first-banner",
+            "count": 4
+          },
+          {
+            "slug": "en-us-shop-top-collections-tide-power-pods",
+            "selector": ".collection-fg-first-banner",
+            "count": 2
+          },
+          {
+            "slug": "en-us-shop-top-collections-tide-simply",
+            "selector": ".collection-fg-first-banner",
+            "count": 4
+          },
+          {
+            "slug": "en-us-shop-top-collections-tide-ultra-oxi",
+            "selector": ".collection-fg-first-banner",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "id": "feature-band-alternating",
+        "status": "candidate",
+        "slots": [
+          "heading",
+          "body",
+          "image",
+          "cta?",
+          "side(left|right)"
+        ],
+        "signals": [
+          "PLP 'Why shop …' orange/blue text bands with photo",
+          "alternating left/right composition"
+        ],
+        "pageTypes": [
+          "article",
+          "unique",
+          "sustainability-topic",
+          "product-listing",
+          "home"
+        ],
+        "instanceCount": 19,
+        "instances": [
+          {
+            "slug": "en-us-how-to-wash-clothes-washing-different-fabrics-and-colors-everyday-items-to-wash-regularly",
+            "selector": ".big-papa-hero-section-column-reverse",
+            "count": 6
+          },
+          {
+            "slug": "en-us-our-commitment-superbowllx",
+            "selector": ".banner-full-width-bg-text-left"
+          },
+          {
+            "slug": "en-us-our-commitment-sustainability-saving-energy",
+            "selector": ".big-papa-hero-section-column-reverse"
+          },
+          {
+            "slug": "en-us-our-commitment-tide-cleaners-laundry-service",
+            "selector": ".banner-full-width-bg-text-left"
+          },
+          {
+            "slug": "en-us-our-commitment-tide-in-space",
+            "selector": ".banner-full-width-bg-text-left",
+            "count": 2
+          },
+          {
+            "slug": "en-us-our-commitment-turn-to-cold",
+            "selector": ".big-papa-hero-section-column-reverse",
+            "count": 2
+          },
+          {
+            "slug": "en-us-rewards",
+            "selector": ".banner-full-width-bg-text-left",
+            "count": 2
+          },
+          {
+            "slug": "en-us-shop-special-needs-additives",
+            "selector": ".banner-orange-text-center-left"
+          },
+          {
+            "slug": "en-us-shop-special-needs-freshness",
+            "selector": ".banner-orange-text-center-left"
+          },
+          {
+            "slug": "en-us-shop-special-needs-odor-removal",
+            "selector": ".banner-text-center-left"
+          },
+          {
+            "slug": "en-us-shop-special-needs-sensitive",
+            "selector": ".banner-orange-text-center-left"
+          },
+          {
+            "slug": "en-us-shop-special-needs-stain-removal",
+            "selector": ".banner-orange-text-center-left",
+            "count": 2
+          },
+          {
+            "slug": "en-us-shop-special-needs-whiteness",
+            "selector": ".banner-orange-text-center-left"
+          },
+          {
+            "slug": "en-us-shop-type-laundry-booster",
+            "selector": ".banner-text-center-left"
+          },
+          {
+            "slug": "en-us-shop-type-laundry-pods",
+            "selector": ".banner-text-center-left",
+            "count": 2
+          },
+          {
+            "slug": "en-us-shop-type-liquid",
+            "selector": ".banner-orange-text-center-left",
+            "count": 2
+          },
+          {
+            "slug": "en-us-shop-type-powder",
+            "selector": ".banner-orange-text-center-left"
+          },
+          {
+            "slug": "en-us-shop-type-stain-remover",
+            "selector": ".banner-text-center-left"
+          },
+          {
+            "slug": "en-us",
+            "selector": ".big-papa-hero-section-column-reverse"
+          }
+        ]
+      },
+      {
+        "id": "section-landing-hero-card",
+        "status": "candidate",
+        "slots": [
+          "background-image",
+          "white-box{title,body}"
+        ],
+        "signals": [
+          "banner-card-content-white-box over full-bleed photo"
+        ],
+        "pageTypes": [
+          "section-landing",
+          "unique"
+        ],
+        "instanceCount": 9,
+        "instances": [
+          {
+            "slug": "en-us-how-to-wash-clothes-washing-machine-101",
+            "selector": ".banner-card"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes",
+            "selector": ".banner-card"
+          },
+          {
+            "slug": "en-us-latest-news",
+            "selector": ".banner-card",
+            "count": 5
+          },
+          {
+            "slug": "en-us-our-commitment-americas-number-one-detergent",
+            "selector": ".banner-card"
+          },
+          {
+            "slug": "en-us-our-commitment-ingredients-and-safety",
+            "selector": ".banner-card"
+          },
+          {
+            "slug": "en-us-our-commitment-tide-in-space",
+            "selector": ".banner-card"
+          },
+          {
+            "slug": "en-us-our-commitment-turn-to-cold",
+            "selector": ".banner-card"
+          },
+          {
+            "slug": "en-us-our-commitment",
+            "selector": ".banner-card"
+          },
+          {
+            "slug": "en-us-rewards-laundrytips",
+            "selector": ".banner-card"
+          }
+        ]
+      },
+      {
+        "id": "learn-more-card-grid",
+        "status": "candidate",
+        "slots": [
+          "cards[]{image,title,excerpt,cta:Learn More}"
+        ],
+        "signals": [
+          "cta: Learn More repeated per card (our-commitment 9×)",
+          "article-preview preview-box"
+        ],
+        "pageTypes": [
+          "topic-hub",
+          "section-landing",
+          "unique",
+          "home"
+        ],
+        "instanceCount": 12,
+        "instances": [
+          {
+            "slug": "en-us-how-to-wash-clothes-how-to-do-laundry",
+            "selector": ".preview-box"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-washing-machine-101",
+            "selector": ".preview-box",
+            "count": 2
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes",
+            "selector": ".preview-box",
+            "count": 4
+          },
+          {
+            "slug": "en-us-latest-news",
+            "selector": ".preview-box",
+            "count": 12
+          },
+          {
+            "slug": "en-us-our-commitment-americas-number-one-detergent",
+            "selector": ".preview-box",
+            "count": 2
+          },
+          {
+            "slug": "en-us-our-commitment-ingredients-and-safety",
+            "selector": ".preview-box",
+            "count": 5
+          },
+          {
+            "slug": "en-us-our-commitment-tide-cleaners-laundry-service",
+            "selector": ".preview-box",
+            "count": 3
+          },
+          {
+            "slug": "en-us-our-commitment-turn-to-cold",
+            "selector": ".preview-box",
+            "count": 3
+          },
+          {
+            "slug": "en-us-our-commitment",
+            "selector": ".preview-box",
+            "count": 9
+          },
+          {
+            "slug": "en-us-rewards-laundrytips",
+            "selector": ".preview-box",
+            "count": 3
+          },
+          {
+            "slug": "en-us-rewards",
+            "selector": ".preview-box",
+            "count": 3
+          },
+          {
+            "slug": "en-us",
+            "selector": ".preview-box",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "id": "home-promo-carousel",
+        "status": "candidate",
+        "slots": [
+          "slides[]{image,title,excerpt,cta}",
+          "dots",
+          "arrows"
+        ],
+        "signals": [
+          "heading: See what we've been working on lately",
+          "react-multi-carousel list-card"
+        ],
+        "pageTypes": [
+          "unique",
+          "home"
+        ],
+        "instanceCount": 2,
+        "instances": [
+          {
+            "slug": "en-us-our-commitment-turn-to-cold",
+            "selector": ".hp_carousel"
+          },
+          {
+            "slug": "en-us",
+            "selector": ".hp_carousel"
+          }
+        ]
+      },
+      {
+        "id": "browse-tiles",
+        "status": "candidate",
+        "slots": [
+          "heading",
+          "tiles[]{title,subtitle,image,menu-links[]}"
+        ],
+        "signals": [
+          "headings: Browse by type / Browse by need (home)",
+          "heading: Find the right Tide product for you"
+        ],
+        "pageTypes": [
+          "home"
+        ],
+        "instanceCount": 1,
+        "instances": [
+          {
+            "slug": "en-us",
+            "selector": ".find-tide-product"
+          }
+        ]
+      },
+      {
+        "id": "stain-guide-widget",
+        "status": "candidate",
+        "slots": [
+          "heading",
+          "prefix('I have a')",
+          "stain-list[]",
+          "suffix('stain')",
+          "cta:Learn More",
+          "link:Can't find the right stain?",
+          "image"
+        ],
+        "signals": [
+          "heading: Stain removal guide",
+          "spinner picker of stain names (mayonnaise …)"
+        ],
+        "pageTypes": [
+          "topic-hub",
+          "home"
+        ],
+        "instanceCount": 2,
+        "instances": [
+          {
+            "slug": "en-us-how-to-wash-clothes-how-to-remove-stains",
+            "selector": ".m-style-picker",
+            "count": 2
+          },
+          {
+            "slug": "en-us",
+            "selector": ".m-style-picker",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "id": "step-timeline",
+        "status": "candidate",
+        "slots": [
+          "headline?",
+          "steps[]{number,title,text,substeps[]?}",
+          "progress-bar"
+        ],
+        "signals": [
+          "guide-step / guide-progress-bar markup",
+          "peach #ffb89c progress marks"
+        ],
+        "pageTypes": [
+          "article",
+          "topic-hub",
+          "unique"
+        ],
+        "instanceCount": 7,
+        "instances": [
+          {
+            "slug": "en-us-how-to-wash-clothes-effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry",
+            "selector": ".guide-wrapper"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-how-to-do-laundry",
+            "selector": ".guide-wrapper"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-how-to-remove-stains-acne-cream-stains",
+            "selector": ".guide-wrapper"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-how-to-remove-stains",
+            "selector": ".guide-wrapper"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-washing-different-fabrics-and-colors",
+            "selector": ".guide-wrapper"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-washing-machine-101-how-to-use-a-washing-machine",
+            "selector": ".guide-wrapper"
+          },
+          {
+            "slug": "en-us-rewards-laundrytips-how-to-remove-armpit-stains",
+            "selector": ".guide-wrapper",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "id": "site-footer",
+        "status": "candidate",
+        "slots": [
+          "social-band{label,icons[]}",
+          "nav-columns[]{title,links[]}",
+          "related-links[]",
+          "legal-links[]",
+          "copyright",
+          "badges[]"
+        ],
+        "signals": [
+          "text: Ways to connect with us:",
+          "ctas: P&G Brands … Sitemap (91–93 pages)"
+        ],
+        "pageTypes": [
+          "click2cart",
+          "unique",
+          "article",
+          "topic-hub",
+          "section-landing",
+          "sustainability-topic",
+          "product-listing",
+          "collection-landing",
+          "home"
+        ],
+        "instanceCount": 93,
+        "instances": [
+          {
+            "slug": "en-us-click2cart-0060001",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-click2cart-006000b",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-click2cart-006000h",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-click2cart-006000i",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-click2cart-006000p",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-click2cart-006000q",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-click2cart-006000z",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-click2cart-00600bt",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-contact-us",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-how-to-do-laundry-better-clean-safer",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-how-to-do-laundry-detergent-residue-safety",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-how-to-do-laundry-about-tide-pods-pva-film",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-how-to-do-laundry",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-how-to-remove-stains-acne-cream-stains",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-how-to-remove-stains",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-washing-different-fabrics-and-colors-everyday-items-to-wash-regularly",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-washing-different-fabrics-and-colors",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-washing-machine-101-how-to-use-a-washing-machine",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes-washing-machine-101",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-how-to-wash-clothes",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-latest-news",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-our-commitment-americas-number-one-detergent-our-heritage",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-our-commitment-americas-number-one-detergent",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-our-commitment-dont-pay-for-water",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-our-commitment-ingredients-and-safety-all-about-tide-ingredients",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-our-commitment-ingredients-and-safety",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-our-commitment-pva-in-tide-pods",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-our-commitment-superbowllx",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-our-commitment-sustainability-compaction",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-our-commitment-sustainability-materials",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-our-commitment-sustainability-saving-energy",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-our-commitment-tide-boosted",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-our-commitment-tide-cleaners-laundry-service",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-our-commitment-tide-evo",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-our-commitment-tide-in-space",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-our-commitment-turn-to-cold",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-our-commitment",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-research-are-detergents-toxic-science",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-research-are-scented-laundry-products-safe",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-research-best-eco-laundry-detergent",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-research-best-laundry-detergent-baby-clothes",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-research-best-quality-detergent",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-research-cold-water-vs-laundry-cost",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-research-detergent-sheets-pods-liquid",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-research-do-you-need-special-baby-detergent",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-research-environmentally-friendly-way-laundry",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-research-evaluate-true-value-laundry-detergent",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-research-fragrance-meaning-on-ingredient-label",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-research-hazard-vs-risk-laundry-detergent",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-research-how-enzymes-help-remove-baby-stains",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-research-how-to-choose-detergent-for-value",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-research-laundry-detergent-science-testing",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-research-laundry-scent-and-indoor-air",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-research-natural-detergent-baby-clothes",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-research-odor-after-washing",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-research-pva-technical-review",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-research-scientific-guide-laundry-sensitive-skin",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-research-signs-of-fragrance-safety",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-research-tide-environment-safety",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-research-tide-evo-dissolve-guide",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-research-tide-value-framework",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-research-vocs-laundry-products-airborne-emissions",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-research-what-is-best-eco-detergent",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-research-what-makes-laundry-scent-safe",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-research-why-cost-per-load-isnt-whole-story",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-research-why-rewashes-make-laundry-more-expensive",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-rewards-laundrytips-how-to-remove-armpit-stains",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-rewards-laundrytips",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-rewards-loyalty-terms-and-conditions",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-rewards",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-shop-special-needs-additives",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-shop-special-needs-deep-clean",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-shop-special-needs-freshness",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-shop-special-needs-odor-removal",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-shop-special-needs-sensitive",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-shop-special-needs-stain-removal",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-shop-special-needs-whiteness",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-shop-top-collections-tide-free-and-gentle",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-shop-top-collections-tide-plus-febreze",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-shop-top-collections-tide-power-pods",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-shop-top-collections-tide-simply",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-shop-top-collections-tide-ultra-oxi",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-shop-type-fabric-rinse",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-shop-type-laundry-booster",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-shop-type-laundry-pods",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-shop-type-laundry-tiles",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-shop-type-liquid",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-shop-type-powder",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-shop-type-stain-remover",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-shop",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us-sitemap",
+            "selector": "#site-footer"
+          },
+          {
+            "slug": "en-us",
+            "selector": "#site-footer"
+          }
+        ]
+      }
+    ],
+    "breakpoints": {
+      "containerMaxWidth": "1920px",
+      "probeWidth": 2560,
+      "shellMaxWidth": "1920px",
+      "caps": [
+        {
+          "kind": "shell",
+          "px": 1920,
+          "via": "max-width",
+          "selector": "#page-wrapper",
+          "pages": [
+            "https://tide.com/en-us",
+            "https://tide.com/en-us/rewards/laundrytips/how-to-remove-armpit-stains",
+            "https://tide.com/en-us/shop/type/laundry-pods",
+            "https://tide.com/en-us/shop/top-collections/tide-power-pods",
+            "https://tide.com/en-us/our-commitment",
+            "https://tide.com/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors",
+            "https://tide.com/en-us/our-commitment/sustainability/saving-energy"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1170,
+          "via": "max-width",
+          "selector": "div.col-12 > div.dynamic-content-wrapper > div.banner-wrapper.evo-banner > div.container.banner-text-wrapper",
+          "pages": [
+            "https://tide.com/en-us",
+            "https://tide.com/en-us/rewards/laundrytips/how-to-remove-armpit-stains",
+            "https://tide.com/en-us/shop/type/laundry-pods",
+            "https://tide.com/en-us/shop/top-collections/tide-power-pods",
+            "https://tide.com/en-us/our-commitment",
+            "https://tide.com/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors",
+            "https://tide.com/en-us/our-commitment/sustainability/saving-energy"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1140,
+          "via": "fixed",
+          "selector": "div.faq-item > div.expandable-content.undefined > div.expandable-content__content > p",
+          "pages": [
+            "https://tide.com/en-us/rewards/laundrytips/how-to-remove-armpit-stains",
+            "https://tide.com/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1026,
+          "via": "fixed",
+          "selector": "#carousel__6hAqcV7X3l5WUsffgaBaik",
+          "pages": [
+            "https://tide.com/en-us"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 950,
+          "via": "fixed",
+          "selector": "div.col-12 > div.container > div.row.justify-content-center > div.col-lg-10.col-12",
+          "pages": [
+            "https://tide.com/en-us/our-commitment/sustainability/saving-energy"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 878,
+          "via": "fixed",
+          "selector": "div.article-intro.article-intro-3 > div.container > div.row > div.col-12.col-lg-9",
+          "pages": [
+            "https://tide.com/en-us/rewards/laundrytips/how-to-remove-armpit-stains",
+            "https://tide.com/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors",
+            "https://tide.com/en-us/our-commitment/sustainability/saving-energy"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 829,
+          "via": "fixed",
+          "selector": "div.richtext-container > ul > li > p",
+          "pages": [
+            "https://tide.com/en-us/rewards/laundrytips/how-to-remove-armpit-stains"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 799,
+          "via": "fixed",
+          "selector": "#see-what-weve-been-working-on-lately > strong",
+          "pages": [
+            "https://tide.com/en-us",
+            "https://tide.com/en-us/rewards/laundrytips/how-to-remove-armpit-stains"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 682,
+          "via": "fixed",
+          "selector": "div.col-12 > div.container > div.row.justify-content-center > div.col-lg-7.col-12",
+          "pages": [
+            "https://tide.com/en-us/shop/type/laundry-pods",
+            "https://tide.com/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 638,
+          "via": "fixed",
+          "selector": "div.col-lg-7.col-12 > div.richtext-container.links-as-buttons > h4 > strong",
+          "pages": [
+            "https://tide.com/en-us/shop/type/laundry-pods"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 585,
+          "via": "fixed",
+          "selector": "div.row.no-gutters > div.col-12 > div.row > div.col-lg-6.col-12",
+          "pages": [
+            "https://tide.com/en-us",
+            "https://tide.com/en-us/rewards/laundrytips/how-to-remove-armpit-stains",
+            "https://tide.com/en-us/shop/type/laundry-pods",
+            "https://tide.com/en-us/shop/top-collections/tide-power-pods",
+            "https://tide.com/en-us/our-commitment",
+            "https://tide.com/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors",
+            "https://tide.com/en-us/our-commitment/sustainability/saving-energy"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 552,
+          "via": "max-width",
+          "selector": "div.container > div.row.justify-content-start > div.col-lg-6.col-12 > div.richtext-container.white-h2",
+          "pages": [
+            "https://tide.com/en-us/shop/top-collections/tide-power-pods"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 529,
+          "via": "fixed",
+          "selector": "div.col-lg-6.col-12 > div.richtext-container.white-h2 > h2 > strong",
+          "pages": [
+            "https://tide.com/en-us/shop/top-collections/tide-power-pods"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 497,
+          "via": "max-width",
+          "selector": "div.dynamic-content-wrapper > div.banner-wrapper.hp-rock-banner > div.container.banner-text-wrapper > div.richtext-container.check-it-out-rt",
+          "pages": [
+            "https://tide.com/en-us",
+            "https://tide.com/en-us/shop/type/laundry-pods",
+            "https://tide.com/en-us/our-commitment/sustainability/saving-energy"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 465,
+          "via": "max-width",
+          "selector": "div.dynamic-content-wrapper > div.banner-wrapper.evo-banner > div.container.banner-text-wrapper > div.richtext-container.concentrated-rt",
+          "pages": [
+            "https://tide.com/en-us",
+            "https://tide.com/en-us/shop/type/laundry-pods",
+            "https://tide.com/en-us/shop/top-collections/tide-power-pods",
+            "https://tide.com/en-us/our-commitment",
+            "https://tide.com/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors",
+            "https://tide.com/en-us/click2cart/0060001"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 422,
+          "via": "fixed",
+          "selector": "#find-the-right-tide-product-for-you > strong",
+          "pages": [
+            "https://tide.com/en-us",
+            "https://tide.com/en-us/shop/top-collections/tide-power-pods",
+            "https://tide.com/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors",
+            "https://tide.com/en-us/click2cart/0060001"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 380,
+          "via": "fixed",
+          "selector": "div.col-12 > div.container > div.row > div.col-lg-4.product",
+          "pages": [
+            "https://tide.com/en-us/shop/type/laundry-pods",
+            "https://tide.com/en-us/shop/top-collections/tide-power-pods",
+            "https://tide.com/en-us/our-commitment",
+            "https://tide.com/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors",
+            "https://tide.com/en-us/our-commitment/sustainability/saving-energy",
+            "https://tide.com/en-us/click2cart/0060001"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 342,
+          "via": "fixed",
+          "selector": "div > div.react-multi-carousel-list > ul.react-multi-carousel-track > li.react-multi-carousel-item",
+          "pages": [
+            "https://tide.com/en-us",
+            "https://tide.com/en-us/shop/type/laundry-pods",
+            "https://tide.com/en-us/shop/top-collections/tide-power-pods"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 293,
+          "via": "fixed",
+          "selector": "div.carousel-wrapper.products-carousel-white > div.container.animate-section-fade-all > div.row > div.col-12.col-lg-3",
+          "pages": [
+            "https://tide.com/en-us/rewards/laundrytips/how-to-remove-armpit-stains",
+            "https://tide.com/en-us/shop/type/laundry-pods",
+            "https://tide.com/en-us/shop/top-collections/tide-power-pods",
+            "https://tide.com/en-us/our-commitment/sustainability/saving-energy"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 252,
+          "via": "fixed",
+          "selector": "div.content > div.text > p > strong",
+          "pages": [
+            "https://tide.com/en-us",
+            "https://tide.com/en-us/rewards/laundrytips/how-to-remove-armpit-stains",
+            "https://tide.com/en-us/shop/type/laundry-pods",
+            "https://tide.com/en-us/our-commitment/sustainability/saving-energy"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://tide.com/en-us",
+          "section": 0,
+          "selector": "div.row.justify-content-center > div.col-12 > div.dynamic-content-wrapper > div.banner-wrapper.evo-banner",
+          "px": 1170
+        },
+        {
+          "url": "https://tide.com/en-us",
+          "section": 1,
+          "selector": "div.row.justify-content-center > div.col-12 > div.dynamic-content-wrapper > div.banner-wrapper.hp-rock-banner",
+          "px": 1170
+        },
+        {
+          "url": "https://tide.com/en-us",
+          "section": 2,
+          "selector": "div.row.justify-content-center > div.col-12 > div.dynamic-content-wrapper > div.row.no-gutters",
+          "px": null
+        },
+        {
+          "url": "https://tide.com/en-us",
+          "section": 3,
+          "selector": "div.row.justify-content-center > div.col-12 > div.dynamic-content-wrapper > div.row.no-gutters",
+          "px": 1170
+        },
+        {
+          "url": "https://tide.com/en-us",
+          "section": 4,
+          "selector": "div.row.justify-content-center > div.col-12 > div.dynamic-content-wrapper > div.row.no-gutters",
+          "px": 1170
+        },
+        {
+          "url": "https://tide.com/en-us",
+          "section": 5,
+          "selector": "div.row.justify-content-center > div.col-12 > div.dynamic-content-wrapper > div.row.no-gutters",
+          "px": 1170
+        },
+        {
+          "url": "https://tide.com/en-us",
+          "section": 6,
+          "selector": "div.row.justify-content-center > div.col-12 > div.dynamic-content-wrapper > div.row.no-gutters",
+          "px": 1170
+        },
+        {
+          "url": "https://tide.com/en-us",
+          "section": 7,
+          "selector": "div.row.justify-content-center > div.col-12 > div.dynamic-content-wrapper > div.row.no-gutters",
+          "px": 1170
+        },
+        {
+          "url": "https://tide.com/en-us",
+          "section": 8,
+          "selector": "div.row.justify-content-center > div.col-12 > div.dynamic-content-wrapper > div.row.no-gutters",
+          "px": 1170
+        },
+        {
+          "url": "https://tide.com/en-us",
+          "section": 9,
+          "selector": "div.row.justify-content-center > div.col-12 > div.dynamic-content-wrapper > div.row.no-gutters",
+          "px": 1170
+        },
+        {
+          "url": "https://tide.com/en-us/rewards/laundrytips/how-to-remove-armpit-stains",
+          "section": 0,
+          "selector": "div.tide-article-page.tide-article-page-type_4 > div.row.justify-content-center > div.col-12 > div.article-intro.article-intro-3",
+          "px": 1170
+        },
+        {
+          "url": "https://tide.com/en-us/rewards/laundrytips/how-to-remove-armpit-stains",
+          "section": 1,
+          "selector": "div.tide-article-page.tide-article-page-type_4 > div.row.justify-content-center > div.col-12 > div.dynamic-content-wrapper",
+          "px": 1170
+        },
+        {
+          "url": "https://tide.com/en-us/shop/type/laundry-pods",
+          "section": 0,
+          "selector": "div.tide-product-listing-page > div.row.justify-content-center > div.col-12 > div.container",
+          "px": 1170
+        },
+        {
+          "url": "https://tide.com/en-us/shop/type/laundry-pods",
+          "section": 1,
+          "selector": "div.tide-product-listing-page > div.row.justify-content-center > div.col-12 > div.dynamic-content-wrapper",
+          "px": 1170
+        },
+        {
+          "url": "https://tide.com/en-us/shop/top-collections/tide-power-pods",
+          "section": 0,
+          "selector": "#sticky-nav",
+          "px": 1170
+        },
+        {
+          "url": "https://tide.com/en-us/shop/top-collections/tide-power-pods",
+          "section": 1,
+          "selector": "div.tide-collection-page > div.row.justify-content-center > div.col-12 > div.row.no-gutters",
+          "px": 1170
+        },
+        {
+          "url": "https://tide.com/en-us/shop/top-collections/tide-power-pods",
+          "section": 2,
+          "selector": "div.tide-collection-page > div.row.justify-content-center > div.col-12 > div.row.no-gutters",
+          "px": 552
+        },
+        {
+          "url": "https://tide.com/en-us/shop/top-collections/tide-power-pods",
+          "section": 3,
+          "selector": "div.tide-collection-page > div.row.justify-content-center > div.col-12 > div.row.no-gutters",
+          "px": 1170
+        },
+        {
+          "url": "https://tide.com/en-us/shop/top-collections/tide-power-pods",
+          "section": 4,
+          "selector": "div.tide-collection-page > div.row.justify-content-center > div.col-12 > div.collection-products.row",
+          "px": 1170
+        },
+        {
+          "url": "https://tide.com/en-us/shop/top-collections/tide-power-pods",
+          "section": 5,
+          "selector": "div.tide-collection-page > div.row.justify-content-center > div.col-12 > div.row.no-gutters",
+          "px": 1170
+        },
+        {
+          "url": "https://tide.com/en-us/shop/top-collections/tide-power-pods",
+          "section": 6,
+          "selector": "div.tide-collection-page > div.row.justify-content-center > div.col-12 > div.row.no-gutters",
+          "px": 1170
+        },
+        {
+          "url": "https://tide.com/en-us/shop/top-collections/tide-power-pods",
+          "section": 7,
+          "selector": "div.tide-collection-page > div.row.justify-content-center > div.col-12 > div.row.no-gutters",
+          "px": 417
+        },
+        {
+          "url": "https://tide.com/en-us/our-commitment",
+          "section": 0,
+          "selector": "div.row.justify-content-center > div.col-12 > div.dynamic-content-wrapper > div.row.no-gutters",
+          "px": 1170
+        },
+        {
+          "url": "https://tide.com/en-us/our-commitment",
+          "section": 1,
+          "selector": "div.row.justify-content-center > div.col-12 > div.dynamic-content-wrapper > div.row.no-gutters",
+          "px": 1170
+        },
+        {
+          "url": "https://tide.com/en-us/our-commitment",
+          "section": 2,
+          "selector": "div.row.justify-content-center > div.col-12 > div.dynamic-content-wrapper > div.row.no-gutters",
+          "px": 1170
+        },
+        {
+          "url": "https://tide.com/en-us/our-commitment",
+          "section": 3,
+          "selector": "div.row.justify-content-center > div.col-12 > div.dynamic-content-wrapper > div.row.no-gutters",
+          "px": null
+        },
+        {
+          "url": "https://tide.com/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors",
+          "section": 0,
+          "selector": "div.tide-article-listing-page > div.row.justify-content-center > div.col-12 > div.alp-intro",
+          "px": 1170
+        },
+        {
+          "url": "https://tide.com/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors",
+          "section": 1,
+          "selector": "div.tide-article-listing-page > div.row.justify-content-center > div.col-12 > div.dynamic-content-wrapper",
+          "px": 1170
+        },
+        {
+          "url": "https://tide.com/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors",
+          "section": 2,
+          "selector": "div.tide-article-listing-page > div.row.justify-content-center > div.col-12 > div.scroll-to-top-wrapper",
+          "px": null
+        },
+        {
+          "url": "https://tide.com/en-us/our-commitment/sustainability/saving-energy",
+          "section": 0,
+          "selector": "div.tide-article-page.tide-article-page-type_4 > div.row.justify-content-center > div.col-12 > div.article-intro.article-intro-3",
+          "px": 1170
+        },
+        {
+          "url": "https://tide.com/en-us/our-commitment/sustainability/saving-energy",
+          "section": 1,
+          "selector": "div.tide-article-page.tide-article-page-type_4 > div.row.justify-content-center > div.col-12 > div.dynamic-content-wrapper",
+          "px": 1170
+        },
+        {
+          "url": "https://tide.com/en-us/click2cart/0060001",
+          "section": 0,
+          "selector": "body.custom_class > div > app-cart",
+          "px": 450
+        },
+        {
+          "url": "https://tide.com/en-us/click2cart/0060001",
+          "section": 1,
+          "selector": "#site-footer",
+          "px": null
+        }
+      ],
+      "capRegister": [
+        "contentMaxWidth differs between archetypes: 1920 (https://tide.com/en-us), 1920 (https://tide.com/en-us/rewards/laundrytips/how-to-remove-armpit-stains), 1920 (https://tide.com/en-us/shop/type/laundry-pods), 1920 (https://tide.com/en-us/shop/top-collections/tide-power-pods), 1920 (https://tide.com/en-us/our-commitment), 1920 (https://tide.com/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors), 1920 (https://tide.com/en-us/our-commitment/sustainability/saving-energy), 450 (https://tide.com/en-us/click2cart/0060001) — decide per template in the inconsistency register",
+        "shellMaxWidth differs between archetypes: 1920 (https://tide.com/en-us), 1920 (https://tide.com/en-us/rewards/laundrytips/how-to-remove-armpit-stains), 1920 (https://tide.com/en-us/shop/type/laundry-pods), 1920 (https://tide.com/en-us/shop/top-collections/tide-power-pods), 1920 (https://tide.com/en-us/our-commitment), 1920 (https://tide.com/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors), 1920 (https://tide.com/en-us/our-commitment/sustainability/saving-energy), fluid (https://tide.com/en-us/click2cart/0060001)",
+        "module cap 552px on a single section (div.container > div.row.justify-content-start > div.col-lg-6.col-12 > div.richtext-container.white-h2, https://tide.com/en-us/shop/top-collections/tide-power-pods) — intent or mistake? register it"
+      ],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-11-23T19:49:54.559Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://tide.com/en-us",
+          "https://tide.com/en-us/rewards/laundrytips/how-to-remove-armpit-stains",
+          "https://tide.com/en-us/shop/type/laundry-pods",
+          "https://tide.com/en-us/shop/top-collections/tide-power-pods",
+          "https://tide.com/en-us/our-commitment",
+          "https://tide.com/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors",
+          "https://tide.com/en-us/our-commitment/sustainability/saving-energy",
+          "https://tide.com/en-us/click2cart/0060001"
+        ]
+      }
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Pill Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Orange pill CTA — the default action on every page type.",
+      "html": "<a class=\"ds-btn-primary\" href=\"#\">Learn More</a>",
+      "css": ".ds-btn-primary{display:inline-block;background:#fb4c06;color:#fff;font-family:Tide,sans-serif;font-size:20px;font-weight:700;line-height:22px;padding:10px 30px;border-radius:25px;text-decoration:none;border:0;transition:background-color .2s}.ds-btn-primary:hover{background:#e24405}.ds-btn-primary:focus-visible{outline:2px solid #1b3392;outline-offset:2px}"
+    },
+    {
+      "name": "Secondary Pill Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Navy pill CTA used on orange or image grounds.",
+      "html": "<a class=\"ds-btn-secondary\" href=\"#\">Check it out!</a>",
+      "css": ".ds-btn-secondary{display:inline-block;background:#1b3392;color:#fff;font-family:Tide,sans-serif;font-size:20px;font-weight:700;line-height:22px;padding:10px 30px;border-radius:25px;text-decoration:none}.ds-btn-secondary:hover{background:#182e83}.ds-btn-secondary:focus-visible{outline:2px solid #fb4c06;outline-offset:2px}"
+    },
+    {
+      "name": "Filter Chip",
+      "kind": "chip",
+      "refersTo": "chip-filter",
+      "description": "PLP By Type / By Need filter chip.",
+      "html": "<a class=\"ds-chip\" href=\"#\">Laundry Tiles</a>",
+      "css": ".ds-chip{display:inline-block;background:#fff;color:#1b3392;border:2px solid #7481b4;border-radius:25px;padding:2px 10px;font-family:Tide,sans-serif;font-size:14px;font-weight:700;text-decoration:none}.ds-chip:hover,.ds-chip:focus-visible{background:#1b3392;color:#fff;border-color:#1b3392}"
+    },
+    {
+      "name": "Search Input",
+      "kind": "input",
+      "refersTo": "input-search",
+      "description": "Header search field on the orange bar.",
+      "html": "<form class=\"ds-search\"><input aria-label=\"Search\" type=\"search\" placeholder=\"Search\"></form>",
+      "css": ".ds-search{background:#fb4c06;padding:10px}.ds-search input{border:0;border-radius:12px;padding:8px 14px;font-family:Tide,sans-serif;font-size:14px;color:#1b3392;width:240px}.ds-search input:focus-visible{outline:2px solid #1b3392}"
+    },
+    {
+      "name": "Header Navigation",
+      "kind": "nav",
+      "refersTo": "header-main-nav",
+      "description": "Three-bar header: P&G top bar, orange search bar, deep-navy main nav.",
+      "html": "<div class=\"ds-top\">Part of the P&amp;G Family <span>Contact Us · US - English · Sign in</span></div><div class=\"ds-search-bar\"></div><nav class=\"ds-nav\"><a href=\"#\">Shop Products</a><a href=\"#\">Our Commitment</a><a href=\"#\">How to Wash Clothes</a><a href=\"#\">What’s New</a><a href=\"#\">Coupons and Deals</a></nav>",
+      "css": ".ds-top{background:#fff;color:#13259c;font:14px Tide,sans-serif;padding:8px 16px;display:flex;justify-content:space-between}.ds-search-bar{background:#fb4c06;height:48px}.ds-nav{background:#13259c;display:flex;gap:30px;justify-content:center;padding:14px}.ds-nav a{color:#fff;font:700 14px Tide,sans-serif;text-decoration:none}.ds-nav a:hover,.ds-nav a:focus-visible{text-decoration:underline}"
+    },
+    {
+      "name": "Article Title Band",
+      "kind": "custom",
+      "refersTo": "article-title-band",
+      "description": "Orange band with breadcrumb, 48/800 white title and intro on article pages.",
+      "html": "<header class=\"ds-band\"><p class=\"ds-crumb\">Home &gt; <b>All About Tide Ingredients</b></p><h1>All About Tide Ingredients</h1><p>You have many reasons to be interested in what ingredients are …</p></header>",
+      "css": ".ds-band{background:#fb4c06;color:#fff;padding:40px 30px;font-family:Tide,sans-serif}.ds-band h1{font-size:48px;line-height:52px;font-weight:800;margin:10px 0 20px}.ds-band p{font-size:16px;line-height:24px}.ds-crumb{font-size:19px!important}"
+    },
+    {
+      "name": "Preview Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Image-topped article/landing card with Learn More pill.",
+      "html": "<article class=\"ds-card\"><div class=\"ds-card-img\"></div><div class=\"ds-card-body\"><h3>How to Do Laundry</h3><p>Whether you're a beginner or a seasoned pro, start here for some of our expert laundry tips and tricks.</p><a href=\"#\">Learn More</a></div></article>",
+      "css": ".ds-card{background:#fff;border-radius:8px;overflow:hidden;max-width:340px;font-family:Tide,sans-serif}.ds-card-img{height:180px;background:#c4c8e6}.ds-card-body{padding:20px}.ds-card h3{color:#fb4c06;font-size:26px;line-height:30px;font-weight:800;margin:0 0 10px}.ds-card p{color:#1b3392;font-size:16px;line-height:24px}.ds-card a{display:inline-block;background:#fb4c06;color:#fff;border-radius:25px;padding:10px 30px;font-weight:700;font-size:20px;text-decoration:none}.ds-card a:hover{background:#e24405}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Detergent Box on the Shelf",
+    "overview": "The current tide.com reads like its packaging: saturated Tide orange (#fb4c06) and Tide navy (#1b3392 / #13259c) in large flat color blocks, white type knocked out of them, and one heavy proprietary typeface (\"Tide\", ultra 800) doing almost all the shouting. Pages are built from full-bleed bands stacked vertically. Surfaces are flat; depth is conveyed by color contrast between bands, not by shadow.",
+    "keyCharacteristics": [
+      "Two-color brand: orange for action and emphasis, navy for text and structure, white ground.",
+      "Single proprietary family (Tide 300/400/700/800); headings almost always 800, mixed case.",
+      "Pill buttons (25px radius, 20px bold) — orange primary, navy secondary.",
+      "Full-bleed color bands; flat, shadowless surfaces; 8px card corners.",
+      "Bootstrap grid: 1170px container (1140px content), 30px gutters, breakpoints 576/768/992/1200."
+    ],
+    "rules": [
+      {
+        "name": "The Two-Ink Rule",
+        "body": "Brand surfaces are painted in orange or navy only; every other hue on the site is a border tint or belongs to an embedded third-party widget.",
+        "section": "colors"
+      }
+    ],
+    "dos": [
+      "Do paint brand surfaces in Tide Orange (#fb4c06) or Navy (#1b3392 / #13259c) with white type.",
+      "Do use the Tide family for everything; headings at weight 800, body at 400.",
+      "Do keep CTAs as 25px pills, 20px bold, padding 10px 30px.",
+      "Do keep surfaces flat and let full-bleed color bands create separation."
+    ],
+    "donts": [
+      "Don't add drop shadows to cards or bands; the incumbent system has none outside the sticky nav.",
+      "Don't introduce a second display family; the declared Montserrat, Anton and IntroScriptDemo faces are not rendered on any captured page."
+    ]
+  }
+}

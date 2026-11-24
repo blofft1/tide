@@ -1,0 +1,215 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:dynamics",
+    "writtenAt": "2026-11-24T12:58:00Z"
+  },
+  "method": "Static-first: every page fully rendered in the documents; behaviour rebuilt natively in blocks (menus, dialogs, carousels, PLP controls, video facade); third-party surfaces re-embedded or linked out to their production hosts; tag stack carried over disabled behind the martech contract.",
+  "features": [
+    {
+      "id": "chrome-menu",
+      "feature": "header menus, mobile drawer, locale menu",
+      "class": "M",
+      "pages": 94,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/en-us",
+          "selector": "header a[href]",
+          "min": 40
+        },
+        {
+          "type": "no-page-errors",
+          "paths": [
+            "/en-us",
+            "/en-us/shop/type/liquid",
+            "/en-us/research/tide-value-framework",
+            "/en-us/how-to-wash-clothes/how-to-do-laundry",
+            "/en-us/shop/top-collections/tide-simply",
+            "/en-us/our-commitment",
+            "/en-us/click2cart/0060001",
+            "/en-us/our-commitment/sustainability-materials"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chrome-search",
+      "feature": "header search",
+      "class": "S",
+      "pages": 94,
+      "disposition": "index-backed",
+      "reproducibility": "self",
+      "status": "interim",
+      "owner": "site search: the results page and the full product catalogue stay on tide.com (outside the migrated set); the header search submits q= to https://tide.com/en-us/search until the owner moves search to the new host",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/en-us",
+          "selector": "header form[action='https://tide.com/en-us/search'] input[name='q']",
+          "min": 1
+        }
+      ],
+      "verifiedBy": "aem.page replay 2026-11-24 12:58Z: header form action https://tide.com/en-us/search, input q (1); aem.live edge served the pre-fix header.js copy at replay time (max-age 7200) — re-run the live replay after it expires"
+    },
+    {
+      "id": "youtube-preview",
+      "feature": "YouTube preview overlay + player",
+      "class": "M/V",
+      "pages": 1,
+      "disposition": "embed-passthrough",
+      "reproducibility": "self",
+      "status": "done",
+      "checks": [
+        {
+          "type": "video-plays",
+          "path": "/en-us/how-to-wash-clothes/how-to-do-laundry",
+          "trigger": ".section-landing-video a[href*='youtube.com/embed']",
+          "iframeSelector": ".section-landing-video iframe",
+          "playbackHost": "youtube.com"
+        }
+      ]
+    },
+    {
+      "id": "browse-modal-card",
+      "feature": "home Browse-by tiles open a modal list",
+      "class": "M",
+      "pages": 1,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "checks": [
+        {
+          "type": "click-dialog",
+          "path": "/en-us",
+          "trigger": ".browse-tiles .bt-tile"
+        }
+      ],
+      "verifiedBy": "aem.page replay 2026-11-24 12:58Z: dialog 560px, Escape closes; needs the header fix (closed locale dialog hidden, aria-modal only while open) on the aem.live edge — re-run the live replay after it expires"
+    },
+    {
+      "id": "plp-controls",
+      "feature": "product-listing sort, grid/list toggle, load more",
+      "class": "CR",
+      "pages": 15,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/en-us/shop/type/liquid",
+          "selector": ".product-grid select",
+          "min": 1
+        },
+        {
+          "type": "dom-count",
+          "path": "/en-us/shop/type/liquid",
+          "selector": ".product-grid-more",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "id": "home-carousels",
+      "feature": "home promo carousel and stain-guide rail",
+      "class": "M",
+      "pages": 1,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/en-us",
+          "selector": ".home-promo-carousel .hpc-arrow-next",
+          "min": 1
+        },
+        {
+          "type": "dom-count",
+          "path": "/en-us",
+          "selector": ".stain-guide-widget .sg-arrow-down",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "id": "pricespider",
+      "feature": "PriceSpider where-to-buy widget",
+      "class": "T",
+      "pages": 20,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-credential",
+      "status": "interim",
+      "owner": "PriceSpider account id and widget enablement on the new host; static buy links ship meanwhile",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/en-us/shop/type/liquid",
+          "selector": ".product-grid a[href]",
+          "min": 5
+        }
+      ]
+    },
+    {
+      "id": "click2cart",
+      "feature": "click2cart buy-now cart",
+      "class": "X",
+      "pages": 8,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-backend",
+      "status": "interim",
+      "owner": "commerce stays on the retailer hand-off (smartcommerce / click2cart); pages link out",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/en-us/click2cart/0060001",
+          "selector": "main a[href*='smartcommerce.com']",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "id": "contact-embed",
+      "feature": "P&G consumer-support care hub (contact us)",
+      "class": "CR/F",
+      "pages": 1,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-human-capture",
+      "status": "interim",
+      "owner": "the care hub (and its Salesforce form backend) is P&G's hosted app, re-embedded as-is",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/en-us/contact-us",
+          "selector": ".embed-frame iframe.embed-frame-iframe",
+          "min": 1
+        }
+      ]
+    }
+  ],
+  "featuresWithoutChecks": [
+    {
+      "id": "sign-in",
+      "status": "interim",
+      "note": "account and rewards sign-in stay on their production hosts; links kept"
+    },
+    {
+      "id": "locale-links",
+      "status": "interim",
+      "owner": "only en-us is in scope; other locales link to tide.com"
+    },
+    {
+      "id": "accessibility-redirect",
+      "status": "done",
+      "note": "/en-us/accessibility 301 to accessibility.pg.com via the redirects sheet"
+    },
+    {
+      "id": "static-snapshots",
+      "status": "done",
+      "note": "runtime iframes (tag pixels), Next.js data and asset CDNs: content rendered into documents, media on the new media bus"
+    }
+  ]
+}

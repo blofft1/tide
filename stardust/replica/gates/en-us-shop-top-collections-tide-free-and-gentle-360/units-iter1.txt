@@ -1,0 +1,126 @@
+[live-session] waiting to pace live navigations to tide.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 931 ms
+unit-geometry @ 360px, tol 4px — https://tide.com/en-us/shop/top-collections/tide-free-and-gentle vs http://localhost:8791/en-us-shop-top-collections-tide-free-and-gentle-proposed.html
+unit 1 of collection-product-card (required) .collection-products .product-preview=.collection-grid .product-card: origin 15,4413 330×199 vs served 15,4413 330×199 → Δx 0 Δy 0 Δw 0 Δh 0; 14 elements: 14 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "link:a#1" | 0,10 110×110 | 0,10 110×110 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:picture#1" | 0,10 110×110 | 0,10 110×110 | 0 | 0 | 0 | 0 | ✓ |
+| image "tide pods® free and gentle laundry d" | 0,10 110×110 | 0,10 110×110 | 0 | 0 | 0 | 0 | ✓ |
+| link "tide pods® free and gentle laundry d" | 110,29 220×42 | 110,29 220×42 | 0 | 0 | 0 | 0 | ✓ |
+| text "tide pods® laundry detergent" | 110,29 220×42 | 110,29 220×42 | 0 | 0 | 0 | 0 | ✓ |
+| text "free and gentle" | 110,30 164×40 | 110,30 164×40 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 110,82 13×13 | 110,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#2" | 127,82 13×13 | 127,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#3" | 144,82 13×13 | 144,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#4" | 161,82 13×13 | 161,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#5" | 178,82 13×13 | 178,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#6" | 178,82 13×13 | 178,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| text "( 832 )" | 203,82 35×16 | 203,82 35×16 | 0 | 0 | 0 | 0 | ✓ |
+| button "find retailers" | 74,135 182×34 | 74,135 182×34 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of collection-product-card (required) .collection-products .product-preview=.collection-grid .product-card: origin 15,4612 330×199 vs served 15,4612 330×199 → Δx 0 Δy 0 Δw 0 Δh 0; 14 elements: 14 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "link:a#1" | 0,10 110×110 | 0,10 110×110 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:picture#1" | 0,10 110×110 | 0,10 110×110 | 0 | 0 | 0 | 0 | ✓ |
+| image "tide free and gentle liquid laundry " | 0,10 110×110 | 0,10 110×110 | 0 | 0 | 0 | 0 | ✓ |
+| link "tide free and gentle liquid laundry " | 110,30 220×41 | 110,30 220×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "tide liquid laundry detergent" | 110,30 220×41 | 110,30 220×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "free and gentle" | 148,31 127×19 | 148,31 127×19 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 110,82 13×13 | 110,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#2" | 127,82 13×13 | 127,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#3" | 144,82 13×13 | 144,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#4" | 161,82 13×13 | 161,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#5" | 178,82 13×13 | 178,82 13×13 | 0 | 0 | 0 | 0 | ✓ clipped on both sides |
+| image "image:svg#6" | 178,82 13×13 | 178,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| text "( 1106 )" | 203,82 39×16 | 203,82 39×16 | 0 | 0 | 0 | 0 | ✓ |
+| button "find retailers" | 74,135 182×34 | 74,135 182×34 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of collection-product-card (required) .collection-products .product-preview=.collection-grid .product-card: origin 15,4811 330×199 vs served 15,4811 330×199 → Δx 0 Δy 0 Δw 0 Δh 0; 14 elements: 14 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "link:a#1" | 0,10 110×110 | 0,10 110×110 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:picture#1" | 0,10 110×110 | 0,10 110×110 | 0 | 0 | 0 | 0 | ✓ |
+| image "tide free and gentle odor refresh de" | 0,10 110×110 | 0,10 110×110 | 0 | 0 | 0 | 0 | ✓ |
+| link "tide free and gentle odor refresh de" | 110,30 220×41 | 110,30 220×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "tide refresh detergent" | 110,30 220×41 | 110,30 220×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "free and gentle odor" | 148,31 172×19 | 148,31 172×19 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 110,82 13×13 | 110,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#2" | 127,82 13×13 | 127,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#3" | 144,82 13×13 | 144,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#4" | 161,82 13×13 | 161,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#5" | 178,82 13×13 | 178,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#6" | 178,82 13×13 | 178,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| text "( 205 )" | 203,82 36×16 | 203,82 36×16 | 0 | 0 | 0 | 0 | ✓ |
+| button "find retailers" | 74,135 182×34 | 74,135 182×34 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of collection-product-card (required) .collection-products .product-preview=.collection-grid .product-card: origin 15,5010 330×199 vs served 15,5010 330×199 → Δx 0 Δy 0 Δw 0 Δh 0; 14 elements: 14 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "link:a#1" | 0,10 110×110 | 0,10 110×110 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:picture#1" | 0,10 110×110 | 0,10 110×110 | 0 | 0 | 0 | 0 | ✓ |
+| image "tide pods free and gentle odor refre" | 0,10 110×110 | 0,10 110×110 | 0 | 0 | 0 | 0 | ✓ |
+| link "tide pods free and gentle odor refre" | 110,30 220×41 | 110,30 220×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "tide pods odor refresh" | 110,30 220×41 | 110,30 220×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "free and gentle" | 198,31 127×19 | 198,31 127×19 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 110,82 13×13 | 110,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#2" | 127,82 13×13 | 127,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#3" | 144,82 13×13 | 144,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#4" | 161,82 13×13 | 161,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#5" | 178,82 13×13 | 178,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#6" | 178,82 13×13 | 178,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| text "( 200 )" | 203,82 37×16 | 203,82 37×16 | 0 | 0 | 0 | 0 | ✓ |
+| button "find retailers" | 74,135 182×34 | 74,135 182×34 | 0 | 0 | 0 | 0 | ✓ |
+unit 5 of collection-product-card (required) .collection-products .product-preview=.collection-grid .product-card: origin 15,5209 330×199 vs served 15,5209 330×199 → Δx 0 Δy 0 Δw 0 Δh 0; 14 elements: 14 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "link:a#1" | 0,10 110×110 | 0,10 110×110 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:picture#1" | 0,10 110×110 | 0,10 110×110 | 0 | 0 | 0 | 0 | ✓ |
+| image "tide clean and gentle powder" | 0,10 110×110 | 0,10 110×110 | 0 | 0 | 0 | 0 | ✓ |
+| link "tide clean and gentle powder" | 110,30 220×41 | 110,30 220×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "tide powder" | 110,30 220×41 | 110,30 220×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "clean and gentle" | 148,31 135×19 | 148,31 135×19 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 110,82 13×13 | 110,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#2" | 127,82 13×13 | 127,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#3" | 144,82 13×13 | 144,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#4" | 161,82 13×13 | 161,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#5" | 178,82 13×13 | 178,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#6" | 178,82 13×13 | 178,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| text "( 123 )" | 203,82 32×16 | 203,82 32×16 | 0 | 0 | 0 | 0 | ✓ |
+| button "find retailers" | 74,135 182×34 | 74,135 182×34 | 0 | 0 | 0 | 0 | ✓ |
+unit 6 of collection-product-card (required) .collection-products .product-preview=.collection-grid .product-card: origin 15,5408 330×199 vs served 15,5408 330×199 → Δx 0 Δy 0 Δw 0 Δh 0; 14 elements: 14 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "link:a#1" | 0,10 110×110 | 0,10 110×110 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:picture#1" | 0,10 110×110 | 0,10 110×110 | 0 | 0 | 0 | 0 | ✓ |
+| image "pack of tide evo laundry detergent t" | 0,10 110×110 | 0,10 110×110 | 0 | 0 | 0 | 0 | ✓ |
+| link "tide evo laundry detergent tiles, fr" | 110,30 220×41 | 110,30 220×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "tide evo laundry detergent tiles," | 110,30 220×41 | 110,30 220×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "free & gentle" | 153,51 108×19 | 153,51 108×19 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 110,82 13×13 | 110,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#2" | 127,82 13×13 | 127,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#3" | 144,82 13×13 | 144,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#4" | 161,82 13×13 | 161,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#5" | 178,82 13×13 | 178,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#6" | 178,82 13×13 | 178,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| text "( 345 )" | 203,82 36×16 | 203,82 36×16 | 0 | 0 | 0 | 0 | ✓ |
+| button "find retailers" | 74,135 182×34 | 74,135 182×34 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of collection-jump-nav-item (required) #sticky-nav li=#sticky-nav li: origin 15,61 67×46 vs served 15,61 67×46 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "overview" | 0,0 67×46 | 0,0 67×46 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of collection-jump-nav-item (required) #sticky-nav li=#sticky-nav li: origin 122,61 126×46 vs served 122,61 126×46 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "browse collection" | 0,0 126×46 | 0,0 126×46 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of collection-works-item (required) .collection-fg-sixth-banner li=.works__rt li: origin 29,3779 302×40 vs served 29,3779 302×40 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "he machines" | 65,10 170×30 | 65,10 170×30 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of collection-works-item (required) .collection-fg-sixth-banner li=.works__rt li: origin 29,3849 302×40 vs served 29,3849 302×40 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "non-he machines" | 65,10 234×30 | 65,10 234×30 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of collection-works-item (required) .collection-fg-sixth-banner li=.works__rt li: origin 29,3919 302×40 vs served 29,3919 302×40 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "water conditions" | 65,10 228×30 | 65,10 228×30 | 0 | 0 | 0 | 0 | ✓ |
+Units: 11 compared; elements within 89, off 0, hidden 0, missing 0 → PASS
+json → stardust/replica/gates/en-us-shop-top-collections-tide-free-and-gentle-360/units-iter1.json

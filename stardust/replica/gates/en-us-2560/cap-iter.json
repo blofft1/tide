@@ -1,0 +1,992 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-23T21:06:10.030Z",
+    "baseWidth": 1440,
+    "urls": [
+      "https://tide.com/en-us",
+      "http://localhost:8791/en-us-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from stardust/current/DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "https://tide.com/en-us",
+    "http://localhost:8791/en-us-proposed.html"
+  ],
+  "probeNote": "from stardust/current/DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#site-content",
+      "isBody": false,
+      "leaves": 265,
+      "w2": 1920
+    },
+    "origins": [
+      {
+        "kind": "shell",
+        "px": 1920,
+        "via": "max-width",
+        "selector": "#page-wrapper",
+        "tier": -1,
+        "share": 1,
+        "section": -1,
+        "w1": 1440,
+        "maxWidth": "1920px"
+      },
+      {
+        "kind": "module",
+        "px": 1170,
+        "via": "max-width",
+        "selector": "div.col-12 > div.dynamic-content-wrapper > div.banner-wrapper.evo-banner > div.container.banner-text-wrapper",
+        "tier": 6,
+        "share": 0.02,
+        "section": 0,
+        "w1": 1170,
+        "maxWidth": "1170px"
+      },
+      {
+        "kind": "module",
+        "px": 465,
+        "via": "max-width",
+        "selector": "div.dynamic-content-wrapper > div.banner-wrapper.evo-banner > div.container.banner-text-wrapper > div.richtext-container.concentrated-rt",
+        "tier": 7,
+        "share": 0.02,
+        "section": 0,
+        "w1": 465,
+        "maxWidth": "465px"
+      },
+      {
+        "kind": "module",
+        "px": 1170,
+        "via": "max-width",
+        "selector": "div.col-12 > div.dynamic-content-wrapper > div.banner-wrapper.hp-rock-banner > div.container.banner-text-wrapper",
+        "tier": 6,
+        "share": 0.01,
+        "section": 1,
+        "w1": 1170,
+        "maxWidth": "1170px"
+      },
+      {
+        "kind": "module",
+        "px": 497,
+        "via": "max-width",
+        "selector": "div.dynamic-content-wrapper > div.banner-wrapper.hp-rock-banner > div.container.banner-text-wrapper > div.richtext-container.check-it-out-rt",
+        "tier": 7,
+        "share": 0.01,
+        "section": 1,
+        "w1": 497,
+        "maxWidth": "497px"
+      },
+      {
+        "kind": "module",
+        "px": 1170,
+        "via": "max-width",
+        "selector": "div.dynamic-content-wrapper > div.row.no-gutters > div.col-12 > div.container",
+        "tier": 7,
+        "share": 0,
+        "section": 3,
+        "w1": 1170,
+        "maxWidth": "1170px"
+      },
+      {
+        "kind": "module",
+        "px": 799,
+        "via": "fixed",
+        "selector": "#see-what-weve-been-working-on-lately > strong",
+        "tier": 12,
+        "share": 0,
+        "section": 3,
+        "w1": 799,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1170,
+        "via": "max-width",
+        "selector": "div.dynamic-content-wrapper > div.row.no-gutters > div.col-12 > div.container",
+        "tier": 7,
+        "share": 0.03,
+        "section": 4,
+        "w1": 1170,
+        "maxWidth": "1170px"
+      },
+      {
+        "kind": "module",
+        "px": 1026,
+        "via": "fixed",
+        "selector": "#carousel__6hAqcV7X3l5WUsffgaBaik",
+        "tier": 10,
+        "share": 0.03,
+        "section": 4,
+        "w1": 1026,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 342,
+        "via": "fixed",
+        "selector": "div > div.react-multi-carousel-list > ul.react-multi-carousel-track > li.react-multi-carousel-item",
+        "tier": 14,
+        "share": 0.01,
+        "section": 4,
+        "w1": 342,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 322,
+        "via": "fixed",
+        "selector": "div.react-multi-carousel-list > ul.react-multi-carousel-track > li.react-multi-carousel-item > a.list-card",
+        "tier": 15,
+        "share": 0.01,
+        "section": 4,
+        "w1": 322,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 252,
+        "via": "fixed",
+        "selector": "div.content > div.text > p > strong",
+        "tier": 19,
+        "share": 0,
+        "section": 4,
+        "w1": 252,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 342,
+        "via": "fixed",
+        "selector": "div > div.react-multi-carousel-list > ul.react-multi-carousel-track > li.react-multi-carousel-item.active-wrapper",
+        "tier": 14,
+        "share": 0.01,
+        "section": 4,
+        "w1": 342,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 322,
+        "via": "fixed",
+        "selector": "div.react-multi-carousel-list > ul.react-multi-carousel-track > li.react-multi-carousel-item.active-wrapper > a.list-card.active",
+        "tier": 15,
+        "share": 0.01,
+        "section": 4,
+        "w1": 322,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 342,
+        "via": "fixed",
+        "selector": "div > div.react-multi-carousel-list > ul.react-multi-carousel-track > li.react-multi-carousel-item",
+        "tier": 14,
+        "share": 0.01,
+        "section": 4,
+        "w1": 342,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 322,
+        "via": "fixed",
+        "selector": "div.react-multi-carousel-list > ul.react-multi-carousel-track > li.react-multi-carousel-item > a.list-card",
+        "tier": 15,
+        "share": 0.01,
+        "section": 4,
+        "w1": 322,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 263,
+        "via": "fixed",
+        "selector": "div.content > div.text > p > strong",
+        "tier": 19,
+        "share": 0,
+        "section": 4,
+        "w1": 263,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 342,
+        "via": "fixed",
+        "selector": "div > div.react-multi-carousel-list > ul.react-multi-carousel-track > li.react-multi-carousel-item",
+        "tier": 14,
+        "share": 0.01,
+        "section": 4,
+        "w1": 342,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 322,
+        "via": "fixed",
+        "selector": "div.react-multi-carousel-list > ul.react-multi-carousel-track > li.react-multi-carousel-item > a.list-card",
+        "tier": 15,
+        "share": 0.01,
+        "section": 4,
+        "w1": 322,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1170,
+        "via": "max-width",
+        "selector": "div.dynamic-content-wrapper > div.row.no-gutters > div.col-12 > div.container",
+        "tier": 7,
+        "share": 0.02,
+        "section": 5,
+        "w1": 1170,
+        "maxWidth": "1170px"
+      },
+      {
+        "kind": "module",
+        "px": 422,
+        "via": "fixed",
+        "selector": "#find-the-right-tide-product-for-you > strong",
+        "tier": 12,
+        "share": 0,
+        "section": 5,
+        "w1": 422,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 585,
+        "via": "fixed",
+        "selector": "div.row.no-gutters > div.col-12 > div.row > div.col-lg-6.col-12",
+        "tier": 13,
+        "share": 0.01,
+        "section": 5,
+        "w1": 585,
+        "maxWidth": "50%"
+      },
+      {
+        "kind": "module",
+        "px": 585,
+        "via": "fixed",
+        "selector": "div.row.no-gutters > div.col-12 > div.row > div.col-lg-6.col-12",
+        "tier": 13,
+        "share": 0.01,
+        "section": 5,
+        "w1": 585,
+        "maxWidth": "50%"
+      },
+      {
+        "kind": "module",
+        "px": 1170,
+        "via": "max-width",
+        "selector": "div.dynamic-content-wrapper > div.row.no-gutters > div.col-12 > div.container",
+        "tier": 7,
+        "share": 0.84,
+        "section": 6,
+        "w1": 1170,
+        "maxWidth": "1170px"
+      },
+      {
+        "kind": "module",
+        "px": 360,
+        "via": "fixed",
+        "selector": "div.col-12 > div.container > div.row > div.spinner-right.spinner-content",
+        "tier": 9,
+        "share": 0.82,
+        "section": 6,
+        "w1": 360,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 426,
+        "via": "fixed",
+        "selector": "div.col-12 > div.container > div.row > div.spinner-right-side",
+        "tier": 9,
+        "share": 0.01,
+        "section": 6,
+        "w1": 426,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 250,
+        "via": "fixed",
+        "selector": "div.container > div.row > div.spinner-right-side > div",
+        "tier": 10,
+        "share": 0.01,
+        "section": 6,
+        "w1": 250,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1170,
+        "via": "max-width",
+        "selector": "div.dynamic-content-wrapper > div.row.no-gutters > div.col-12 > div.container",
+        "tier": 7,
+        "share": 0.02,
+        "section": 7,
+        "w1": 1170,
+        "maxWidth": "1170px"
+      },
+      {
+        "kind": "module",
+        "px": 488,
+        "via": "fixed",
+        "selector": "div.col-12 > div.container > div.row.justify-content-start > div.col-lg-5.col-12",
+        "tier": 9,
+        "share": 0.02,
+        "section": 7,
+        "w1": 488,
+        "maxWidth": "41.6667%"
+      },
+      {
+        "kind": "module",
+        "px": 1170,
+        "via": "max-width",
+        "selector": "div.dynamic-content-wrapper > div.row.no-gutters > div.col-12 > div.container",
+        "tier": 7,
+        "share": 0,
+        "section": 8,
+        "w1": 1170,
+        "maxWidth": "1170px"
+      },
+      {
+        "kind": "module",
+        "px": 1170,
+        "via": "max-width",
+        "selector": "div.dynamic-content-wrapper > div.row.no-gutters > div.col-12 > div.container",
+        "tier": 7,
+        "share": 0.02,
+        "section": 9,
+        "w1": 1170,
+        "maxWidth": "1170px"
+      },
+      {
+        "kind": "module",
+        "px": 585,
+        "via": "fixed",
+        "selector": "div.col-12 > div.container > div.row.justify-content-center > div.col-lg-6.col-12",
+        "tier": 9,
+        "share": 0.01,
+        "section": 9,
+        "w1": 585,
+        "maxWidth": "50%"
+      },
+      {
+        "kind": "module",
+        "px": 585,
+        "via": "fixed",
+        "selector": "div.col-12 > div.container > div.row.justify-content-center > div.col-lg-6.col-12",
+        "tier": 9,
+        "share": 0.01,
+        "section": 9,
+        "w1": 585,
+        "maxWidth": "50%"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "div.row.justify-content-center > div.col-12 > div.dynamic-content-wrapper > div.banner-wrapper.evo-banner",
+        "px": 1170,
+        "capSelector": "div.col-12 > div.dynamic-content-wrapper > div.banner-wrapper.evo-banner > div.container.banner-text-wrapper"
+      },
+      {
+        "index": 1,
+        "selector": "div.row.justify-content-center > div.col-12 > div.dynamic-content-wrapper > div.banner-wrapper.hp-rock-banner",
+        "px": 1170,
+        "capSelector": "div.col-12 > div.dynamic-content-wrapper > div.banner-wrapper.hp-rock-banner > div.container.banner-text-wrapper"
+      },
+      {
+        "index": 2,
+        "selector": "div.row.justify-content-center > div.col-12 > div.dynamic-content-wrapper > div.row.no-gutters",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 3,
+        "selector": "div.row.justify-content-center > div.col-12 > div.dynamic-content-wrapper > div.row.no-gutters",
+        "px": 1170,
+        "capSelector": "div.dynamic-content-wrapper > div.row.no-gutters > div.col-12 > div.container"
+      },
+      {
+        "index": 4,
+        "selector": "div.row.justify-content-center > div.col-12 > div.dynamic-content-wrapper > div.row.no-gutters",
+        "px": 1170,
+        "capSelector": "div.dynamic-content-wrapper > div.row.no-gutters > div.col-12 > div.container"
+      },
+      {
+        "index": 5,
+        "selector": "div.row.justify-content-center > div.col-12 > div.dynamic-content-wrapper > div.row.no-gutters",
+        "px": 1170,
+        "capSelector": "div.dynamic-content-wrapper > div.row.no-gutters > div.col-12 > div.container"
+      },
+      {
+        "index": 6,
+        "selector": "div.row.justify-content-center > div.col-12 > div.dynamic-content-wrapper > div.row.no-gutters",
+        "px": 1170,
+        "capSelector": "div.dynamic-content-wrapper > div.row.no-gutters > div.col-12 > div.container"
+      },
+      {
+        "index": 7,
+        "selector": "div.row.justify-content-center > div.col-12 > div.dynamic-content-wrapper > div.row.no-gutters",
+        "px": 1170,
+        "capSelector": "div.dynamic-content-wrapper > div.row.no-gutters > div.col-12 > div.container"
+      },
+      {
+        "index": 8,
+        "selector": "div.row.justify-content-center > div.col-12 > div.dynamic-content-wrapper > div.row.no-gutters",
+        "px": 1170,
+        "capSelector": "div.dynamic-content-wrapper > div.row.no-gutters > div.col-12 > div.container"
+      },
+      {
+        "index": 9,
+        "selector": "div.row.justify-content-center > div.col-12 > div.dynamic-content-wrapper > div.row.no-gutters",
+        "px": 1170,
+        "capSelector": "div.dynamic-content-wrapper > div.row.no-gutters > div.col-12 > div.container"
+      }
+    ],
+    "shellMaxWidth": 1920,
+    "contentMaxWidth": 1920,
+    "contentFrom": "shell",
+    "maxCap": 1920,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 445
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#site-content",
+      "isBody": false,
+      "leaves": 265,
+      "w2": 1920
+    },
+    "origins": [
+      {
+        "kind": "shell",
+        "px": 1920,
+        "via": "max-width",
+        "selector": "#page-wrapper",
+        "tier": -1,
+        "share": 1,
+        "section": -1,
+        "w1": 1440,
+        "maxWidth": "1920px"
+      },
+      {
+        "kind": "module",
+        "px": 1170,
+        "via": "max-width",
+        "selector": "#site-content > section.banner.banner--evo > div.banner__wrap.container",
+        "tier": 2,
+        "share": 0.02,
+        "section": 0,
+        "w1": 1170,
+        "maxWidth": "1170px"
+      },
+      {
+        "kind": "module",
+        "px": 465,
+        "via": "max-width",
+        "selector": "#site-content > section.banner.banner--evo > div.banner__wrap.container > div.banner__box",
+        "tier": 3,
+        "share": 0.02,
+        "section": 0,
+        "w1": 465,
+        "maxWidth": "465px"
+      },
+      {
+        "kind": "module",
+        "px": 1170,
+        "via": "max-width",
+        "selector": "#site-content > section.banner.banner--rock > div.banner__wrap.container",
+        "tier": 2,
+        "share": 0.01,
+        "section": 1,
+        "w1": 1170,
+        "maxWidth": "1170px"
+      },
+      {
+        "kind": "module",
+        "px": 497,
+        "via": "max-width",
+        "selector": "#site-content > section.banner.banner--rock > div.banner__wrap.container > div.banner__box",
+        "tier": 3,
+        "share": 0.01,
+        "section": 1,
+        "w1": 497,
+        "maxWidth": "497px"
+      },
+      {
+        "kind": "module",
+        "px": 1170,
+        "via": "max-width",
+        "selector": "#site-content > section.rail-head > div.container",
+        "tier": 2,
+        "share": 0,
+        "section": 3,
+        "w1": 1170,
+        "maxWidth": "1170px"
+      },
+      {
+        "kind": "module",
+        "px": 799,
+        "via": "fixed",
+        "selector": "#see-what-weve-been-working-on-lately > strong",
+        "tier": 4,
+        "share": 0,
+        "section": 3,
+        "w1": 799,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1170,
+        "via": "max-width",
+        "selector": "#site-content > section.rail-section > div.container",
+        "tier": 2,
+        "share": 0.03,
+        "section": 4,
+        "w1": 1170,
+        "maxWidth": "1170px"
+      },
+      {
+        "kind": "module",
+        "px": 1026,
+        "via": "fixed",
+        "selector": "#hp-rail",
+        "tier": 3,
+        "share": 0.03,
+        "section": 4,
+        "w1": 1026,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 342,
+        "via": "fixed",
+        "selector": "#hp-rail > div.rail__viewport > ul.rail__track > li.rail__item",
+        "tier": 6,
+        "share": 0.01,
+        "section": 4,
+        "w1": 342,
+        "maxWidth": "33.3333%"
+      },
+      {
+        "kind": "module",
+        "px": 322,
+        "via": "fixed",
+        "selector": "div.rail__viewport > ul.rail__track > li.rail__item > a.card",
+        "tier": 7,
+        "share": 0.01,
+        "section": 4,
+        "w1": 322,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 252,
+        "via": "fixed",
+        "selector": "div.card__content > div.card__text > p > strong",
+        "tier": 11,
+        "share": 0,
+        "section": 4,
+        "w1": 252,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 342,
+        "via": "fixed",
+        "selector": "#hp-rail > div.rail__viewport > ul.rail__track > li.rail__item",
+        "tier": 6,
+        "share": 0.01,
+        "section": 4,
+        "w1": 342,
+        "maxWidth": "33.3333%"
+      },
+      {
+        "kind": "module",
+        "px": 322,
+        "via": "fixed",
+        "selector": "div.rail__viewport > ul.rail__track > li.rail__item > a.card",
+        "tier": 7,
+        "share": 0.01,
+        "section": 4,
+        "w1": 322,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 342,
+        "via": "fixed",
+        "selector": "#hp-rail > div.rail__viewport > ul.rail__track > li.rail__item",
+        "tier": 6,
+        "share": 0.01,
+        "section": 4,
+        "w1": 342,
+        "maxWidth": "33.3333%"
+      },
+      {
+        "kind": "module",
+        "px": 322,
+        "via": "fixed",
+        "selector": "div.rail__viewport > ul.rail__track > li.rail__item > a.card",
+        "tier": 7,
+        "share": 0.01,
+        "section": 4,
+        "w1": 322,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 263,
+        "via": "fixed",
+        "selector": "div.card__content > div.card__text > p > strong",
+        "tier": 11,
+        "share": 0,
+        "section": 4,
+        "w1": 263,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 342,
+        "via": "fixed",
+        "selector": "#hp-rail > div.rail__viewport > ul.rail__track > li.rail__item",
+        "tier": 6,
+        "share": 0.01,
+        "section": 4,
+        "w1": 342,
+        "maxWidth": "33.3333%"
+      },
+      {
+        "kind": "module",
+        "px": 322,
+        "via": "fixed",
+        "selector": "div.rail__viewport > ul.rail__track > li.rail__item > a.card",
+        "tier": 7,
+        "share": 0.01,
+        "section": 4,
+        "w1": 322,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1170,
+        "via": "max-width",
+        "selector": "#site-content > section.finder > div.container",
+        "tier": 2,
+        "share": 0.02,
+        "section": 5,
+        "w1": 1170,
+        "maxWidth": "1170px"
+      },
+      {
+        "kind": "module",
+        "px": 422,
+        "via": "fixed",
+        "selector": "#find-the-right-tide-product-for-you > strong",
+        "tier": 4,
+        "share": 0,
+        "section": 5,
+        "w1": 422,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 585,
+        "via": "fixed",
+        "selector": "section.finder > div.container > div.finder__grid > div.finder__item",
+        "tier": 4,
+        "share": 0.01,
+        "section": 5,
+        "w1": 585,
+        "maxWidth": "50%"
+      },
+      {
+        "kind": "module",
+        "px": 585,
+        "via": "fixed",
+        "selector": "section.finder > div.container > div.finder__grid > div.finder__item",
+        "tier": 4,
+        "share": 0.01,
+        "section": 5,
+        "w1": 585,
+        "maxWidth": "50%"
+      },
+      {
+        "kind": "module",
+        "px": 784,
+        "via": "fixed",
+        "selector": "#site-content > section.stains > picture.stains__img",
+        "tier": 2,
+        "share": 0,
+        "section": 6,
+        "w1": 784,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1170,
+        "via": "max-width",
+        "selector": "#site-content > section.stains > div.container",
+        "tier": 2,
+        "share": 0.84,
+        "section": 6,
+        "w1": 1170,
+        "maxWidth": "1170px"
+      },
+      {
+        "kind": "module",
+        "px": 360,
+        "via": "fixed",
+        "selector": "section.stains > div.container > div.stains__row > div.picker-wrap--desktop",
+        "tier": 4,
+        "share": 0.82,
+        "section": 6,
+        "w1": 360,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 426,
+        "via": "fixed",
+        "selector": "section.stains > div.container > div.stains__row > div.stains__right",
+        "tier": 4,
+        "share": 0.01,
+        "section": 6,
+        "w1": 426,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 250,
+        "via": "fixed",
+        "selector": "div.container > div.stains__row > div.stains__right > div",
+        "tier": 5,
+        "share": 0.01,
+        "section": 6,
+        "w1": 250,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1170,
+        "via": "max-width",
+        "selector": "#site-content > section.howto > div.container",
+        "tier": 2,
+        "share": 0.02,
+        "section": 7,
+        "w1": 1170,
+        "maxWidth": "1170px"
+      },
+      {
+        "kind": "module",
+        "px": 458,
+        "via": "fixed",
+        "selector": "#site-content > section.howto > div.container > div.howto__text",
+        "tier": 3,
+        "share": 0.02,
+        "section": 7,
+        "w1": 458,
+        "maxWidth": "calc(41.6667% - 17.5px)"
+      },
+      {
+        "kind": "module",
+        "px": 1170,
+        "via": "max-width",
+        "selector": "#site-content > section.articles-head > div.container",
+        "tier": 2,
+        "share": 0,
+        "section": 8,
+        "w1": 1170,
+        "maxWidth": "1170px"
+      },
+      {
+        "kind": "module",
+        "px": 1170,
+        "via": "max-width",
+        "selector": "#site-content > section.articles > div.container",
+        "tier": 2,
+        "share": 0.02,
+        "section": 9,
+        "w1": 1170,
+        "maxWidth": "1170px"
+      },
+      {
+        "kind": "module",
+        "px": 585,
+        "via": "fixed",
+        "selector": "section.articles > div.container > div.articles__grid > div.articles__col",
+        "tier": 4,
+        "share": 0.01,
+        "section": 9,
+        "w1": 585,
+        "maxWidth": "50%"
+      },
+      {
+        "kind": "module",
+        "px": 585,
+        "via": "fixed",
+        "selector": "section.articles > div.container > div.articles__grid > div.articles__col",
+        "tier": 4,
+        "share": 0.01,
+        "section": 9,
+        "w1": 585,
+        "maxWidth": "50%"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#site-content > section.banner.banner--evo",
+        "px": 1170,
+        "capSelector": "#site-content > section.banner.banner--evo > div.banner__wrap.container"
+      },
+      {
+        "index": 1,
+        "selector": "#site-content > section.banner.banner--rock",
+        "px": 1170,
+        "capSelector": "#site-content > section.banner.banner--rock > div.banner__wrap.container"
+      },
+      {
+        "index": 2,
+        "selector": "#site-content > section.pods",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 3,
+        "selector": "#site-content > section.rail-head",
+        "px": 1170,
+        "capSelector": "#site-content > section.rail-head > div.container"
+      },
+      {
+        "index": 4,
+        "selector": "#site-content > section.rail-section",
+        "px": 1170,
+        "capSelector": "#site-content > section.rail-section > div.container"
+      },
+      {
+        "index": 5,
+        "selector": "#site-content > section.finder",
+        "px": 1170,
+        "capSelector": "#site-content > section.finder > div.container"
+      },
+      {
+        "index": 6,
+        "selector": "#site-content > section.stains",
+        "px": 1170,
+        "capSelector": "#site-content > section.stains > div.container"
+      },
+      {
+        "index": 7,
+        "selector": "#site-content > section.howto",
+        "px": 1170,
+        "capSelector": "#site-content > section.howto > div.container"
+      },
+      {
+        "index": 8,
+        "selector": "#site-content > section.articles-head",
+        "px": 1170,
+        "capSelector": "#site-content > section.articles-head > div.container"
+      },
+      {
+        "index": 9,
+        "selector": "#site-content > section.articles",
+        "px": 1170,
+        "capSelector": "#site-content > section.articles > div.container"
+      }
+    ],
+    "shellMaxWidth": 1920,
+    "contentMaxWidth": 1920,
+    "contentFrom": "shell",
+    "maxCap": 1920,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 406
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "wrapper cap",
+        "detail": "live 1920px = build 1920px (±20)",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 1/10",
+        "detail": "1170px = 1170px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 2/10",
+        "detail": "1170px = 1170px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 3/10",
+        "detail": "full-bleed on both",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 4/10",
+        "detail": "1170px = 1170px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 5/10",
+        "detail": "1170px = 1170px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 6/10",
+        "detail": "1170px = 1170px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 7/10",
+        "detail": "1170px = 1170px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 8/10",
+        "detail": "1170px = 1170px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 9/10",
+        "detail": "1170px = 1170px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 10/10",
+        "detail": "1170px = 1170px",
+        "advisory": false
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/en-us-2560/cap-iter.json"
+}

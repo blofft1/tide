@@ -1,0 +1,57 @@
+{
+  "round": "iter1",
+  "width": 1440,
+  "stage": "prototype",
+  "pixel": {
+    "rc": 0,
+    "diff": "stardust/replica/gates/en-us-how-to-wash-clothes-how-to-remove-stains-1440/diff-iter1.png",
+    "json": "stardust/replica/gates/en-us-how-to-wash-clothes-how-to-remove-stains-1440/pixel-iter1.json",
+    "pct": 1.5,
+    "alignedPct": 0.72,
+    "alignedUsed": true,
+    "totalShift": 1,
+    "steps": [
+      {
+        "y": 666,
+        "shift": 1,
+        "cumulative": 1
+      }
+    ],
+    "offsetBound": 8,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": null
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-23T23:01:35.270Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/en-us-how-to-wash-clothes-how-to-remove-stains-1440/content-diff-iter1.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/en-us-how-to-wash-clothes-how-to-remove-stains-1440/visual-diff-iter1.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/en-us-how-to-wash-clothes-how-to-remove-stains-1440/chrome-parity-iter1.txt"
+    },
+    "clip-probe": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/en-us-how-to-wash-clothes-how-to-remove-stains-1440/clip-iter1.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/en-us-how-to-wash-clothes-how-to-remove-stains-1440/units-iter1.txt"
+    }
+  },
+  "structural": 0,
+  "nothingLost": 445,
+  "at": "2026-11-23T23:04:57.652Z"
+}

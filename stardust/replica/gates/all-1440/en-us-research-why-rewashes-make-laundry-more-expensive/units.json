@@ -1,0 +1,821 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-24T09:47:10.003Z",
+  "tol": 4,
+  "n": 5,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://tide.com/en-us/research/why-rewashes-make-laundry-more-expensive",
+  "at": "2026-11-24T03:40:04.574Z",
+  "docH": 3524
+ },
+ "eds": {
+  "url": "https://main--5db7d055--aemcoder.aem.page/en-us/research/why-rewashes-make-laundry-more-expensive",
+  "at": "2026-11-24T09:47:09.869Z",
+  "docH": 3525
+ },
+ "results": [
+  {
+   "sel": ".faqs .faq-item=.faq-accordion .faq-accordion-item",
+   "family": null,
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.faqs > div.col-12 > div.faq-item"
+     },
+     "eds": {
+      "path": "div.container > div.faq-accordion-list > div#why-does-re-washing-make-laundry-more-expensive"
+     },
+     "rows": [
+      {
+       "key": "button:why does re-washing make laundry more ex",
+       "role": "button",
+       "text": "why does re-washing make laundry more expensive?",
+       "edsText": "why does re-washing make laundry more expensive?",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 51
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 51,
+        "sel": "div.faq-accordion-question",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1115,
+        "y": 22,
+        "w": 15,
+        "h": 8
+       },
+       "eds": {
+        "x": 1115,
+        "y": 22,
+        "w": 15,
+        "h": 8,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 150,
+       "y": 2156,
+       "w": 1140,
+       "h": 51
+      },
+      "eds": {
+       "x": 150,
+       "y": 2156,
+       "w": 1140,
+       "h": 51
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.faqs > div.col-12 > div.faq-item"
+     },
+     "eds": {
+      "path": "div.container > div.faq-accordion-list > div#does-a-re-wash-always-double-the-cost-of-a-load"
+     },
+     "rows": [
+      {
+       "key": "button:does a re-wash always double the cost of",
+       "role": "button",
+       "text": "does a re-wash always double the cost of a load?",
+       "edsText": "does a re-wash always double the cost of a load?",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 51
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 51,
+        "sel": "div.faq-accordion-question",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1115,
+        "y": 22,
+        "w": 15,
+        "h": 8
+       },
+       "eds": {
+        "x": 1115,
+        "y": 22,
+        "w": 15,
+        "h": 8,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 150,
+       "y": 2237,
+       "w": 1140,
+       "h": 51
+      },
+      "eds": {
+       "x": 150,
+       "y": 2237,
+       "w": 1140,
+       "h": 51
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.faqs > div.col-12 > div.faq-item"
+     },
+     "eds": {
+      "path": "div.container > div.faq-accordion-list > div#how-can-detergent-performance-affect-re-wash-costs"
+     },
+     "rows": [
+      {
+       "key": "button:how can detergent performance affect re-",
+       "role": "button",
+       "text": "how can detergent performance affect re-wash costs?",
+       "edsText": "how can detergent performance affect re-wash costs?",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 51
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 51,
+        "sel": "div.faq-accordion-question",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1115,
+        "y": 22,
+        "w": 15,
+        "h": 8
+       },
+       "eds": {
+        "x": 1115,
+        "y": 22,
+        "w": 15,
+        "h": 8,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 150,
+       "y": 2318,
+       "w": 1140,
+       "h": 51
+      },
+      "eds": {
+       "x": 150,
+       "y": 2318,
+       "w": 1140,
+       "h": 51
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.faqs > div.col-12 > div.faq-item"
+     },
+     "eds": {
+      "path": "div.container > div.faq-accordion-list > div#how-should-re-washing-factor-into-detergent-value"
+     },
+     "rows": [
+      {
+       "key": "button:how should re-washing factor into deterg",
+       "role": "button",
+       "text": "how should re-washing factor into detergent value?",
+       "edsText": "how should re-washing factor into detergent value?",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 51
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 51,
+        "sel": "div.faq-accordion-question",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1115,
+        "y": 22,
+        "w": 15,
+        "h": 8
+       },
+       "eds": {
+        "x": 1115,
+        "y": 22,
+        "w": 15,
+        "h": 8,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 150,
+       "y": 2399,
+       "w": 1140,
+       "h": 51
+      },
+      "eds": {
+       "x": 150,
+       "y": 2399,
+       "w": 1140,
+       "h": 51
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": "#sticky-nav li=.jump-links li",
+   "family": null,
+   "required": true,
+   "originMatches": 6,
+   "edsMatches": 6,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "nav > ul > li"
+     },
+     "eds": {
+      "path": "nav > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:why do re-washes make laundry more expen",
+       "role": "button",
+       "text": "why do re-washes make laundry more expensive?",
+       "edsText": "why do re-washes make laundry more expensive?",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 362,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 362,
+        "h": 46,
+        "sel": "span.jump-links-item",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/700",
+        "eds": "14/16/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 150,
+       "y": 175,
+       "w": 362,
+       "h": 46
+      },
+      "eds": {
+       "x": 150,
+       "y": 175,
+       "w": 362,
+       "h": 46
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "nav > ul > li"
+     },
+     "eds": {
+      "path": "nav > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:what a re-wash adds",
+       "role": "button",
+       "text": "what a re-wash adds",
+       "edsText": "what a re-wash adds",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 148,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 148,
+        "h": 46,
+        "sel": "span.jump-links-item",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/700",
+        "eds": "14/16/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 552,
+       "y": 175,
+       "w": 148,
+       "h": 46
+      },
+      "eds": {
+       "x": 552,
+       "y": 175,
+       "w": 148,
+       "h": 46
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "nav > ul > li"
+     },
+     "eds": {
+      "path": "nav > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:why performance efficacy matters",
+       "role": "button",
+       "text": "why performance efficacy matters",
+       "edsText": "why performance efficacy matters",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 246,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 246,
+        "h": 46,
+        "sel": "span.jump-links-item",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/700",
+        "eds": "14/16/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 740,
+       "y": 175,
+       "w": 246,
+       "h": 46
+      },
+      "eds": {
+       "x": 740,
+       "y": 175,
+       "w": 246,
+       "h": 46
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "nav > ul > li"
+     },
+     "eds": {
+      "path": "nav > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:a better way to compare price",
+       "role": "button",
+       "text": "a better way to compare price",
+       "edsText": "a better way to compare price",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 214,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 214,
+        "h": 46,
+        "sel": "span.jump-links-item",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/700",
+        "eds": "14/16/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1026,
+       "y": 175,
+       "w": 214,
+       "h": 46
+      },
+      "eds": {
+       "x": 1026,
+       "y": 175,
+       "w": 214,
+       "h": 46
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "nav > ul > li"
+     },
+     "eds": {
+      "path": "nav > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:key takeaway",
+       "role": "button",
+       "text": "key takeaway",
+       "edsText": "key takeaway",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 97,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 97,
+        "h": 46,
+        "sel": "span.jump-links-item",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/700",
+        "eds": "14/16/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1279,
+       "y": 175,
+       "w": 97,
+       "h": 46
+      },
+      "eds": {
+       "x": 1279,
+       "y": 175,
+       "w": 97,
+       "h": 46
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 9,
+  "within": 13,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

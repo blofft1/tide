@@ -1,0 +1,2198 @@
+{
+ "tool": "chrome-explore",
+ "url": "http://localhost:8791/en-us-proposed.html",
+ "at": "2026-11-23T21:29:09.514Z",
+ "shots": "stardust/.work/chrome/header-build",
+ "widths": {
+  "390": {
+   "root": "#site-header",
+   "controls": [
+    {
+     "name": "navigation menu",
+     "key": "navigation menu",
+     "role": "toggle",
+     "kind": "drawer",
+     "sel": "#site-header>div:nth-of-type(2)>div>div>button",
+     "expanded": "false",
+     "rect": [
+      20,
+      18,
+      30,
+      26
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "What’s New",
+          "href": "http://localhost:8791/en-us/latest-news"
+         },
+         {
+          "text": "Contact Us",
+          "href": "http://localhost:8791/en-us/contact-us"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Shop Products",
+         "Our Commitment",
+         "How to Wash Clothes",
+         "Coupons and Deals",
+         "Select Location",
+         "Sign in"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         61,
+         390,
+         783
+        ]
+       },
+       "expanded": "true",
+       "focus": "elsewhere",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "header.site-header"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "nav.drawer"
+        },
+        {
+         "kind": "transition",
+         "prop": "top",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "span"
+        },
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "span"
+        },
+        {
+         "kind": "transition",
+         "prop": "left",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "span"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "span"
+        }
+       ],
+       "shot": "390-001-navigation-menu-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "What’s New",
+          "href": "http://localhost:8791/en-us/latest-news"
+         },
+         {
+          "text": "Contact Us",
+          "href": "http://localhost:8791/en-us/contact-us"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Shop Products",
+         "Our Commitment",
+         "How to Wash Clothes",
+         "Coupons and Deals",
+         "Select Location",
+         "Sign in"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         61,
+         390,
+         783
+        ]
+       },
+       "expanded": "true",
+       "focus": "elsewhere",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "header.site-header"
+        },
+        {
+         "kind": "transition",
+         "prop": "top",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "span"
+        },
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "span"
+        },
+        {
+         "kind": "transition",
+         "prop": "left",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "span"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "span"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "nav.drawer"
+        }
+       ],
+       "shot": "390-002-navigation-menu-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Shop Products",
+       "key": "shop products",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#mobile-nav-menu>ul>li:nth-of-type(1)>button",
+       "expanded": "false",
+       "rect": [
+        15,
+        81,
+        143,
+        64
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 8,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Shop Products",
+           "By Type",
+           "By Need",
+           "Top Collection"
+          ],
+          "options": 0,
+          "rect": [
+           15,
+           81,
+           143,
+           256
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "li.drawer__sub"
+          }
+         ],
+         "shot": "390-003-Shop-Products-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 8,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Shop Products",
+           "By Type",
+           "By Need",
+           "Top Collection"
+          ],
+          "options": 0,
+          "rect": [
+           15,
+           81,
+           143,
+           256
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "li.drawer__sub"
+          }
+         ],
+         "shot": "390-004-Shop-Products-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": true,
+        "outside": null,
+        "toggle": true
+       },
+       "children": [
+        {
+         "name": "Shop Products",
+         "key": "shop products",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#mobile-nav-menu>ul>li:nth-of-type(2)>div>button",
+         "expanded": null,
+         "rect": [
+          15,
+          81,
+          143,
+          64
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 4,
+           "panel": {
+            "links": [
+             {
+              "text": "What’s New",
+              "href": "http://localhost:8791/en-us/latest-news"
+             },
+             {
+              "text": "Contact Us",
+              "href": "http://localhost:8791/en-us/contact-us"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Shop Products",
+             "Our Commitment",
+             "How to Wash Clothes",
+             "Coupons and Deals",
+             "Select Location",
+             "Sign in"
+            ],
+            "options": 0,
+            "rect": [
+             0,
+             61,
+             390,
+             783
+            ]
+           },
+           "expanded": null,
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "transform",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "li.drawer__sub"
+            }
+           ],
+           "shot": "390-005-Shop-Products-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 4,
+           "panel": {
+            "links": [
+             {
+              "text": "What’s New",
+              "href": "http://localhost:8791/en-us/latest-news"
+             },
+             {
+              "text": "Contact Us",
+              "href": "http://localhost:8791/en-us/contact-us"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Shop Products",
+             "Our Commitment",
+             "How to Wash Clothes",
+             "Coupons and Deals",
+             "Select Location",
+             "Sign in"
+            ],
+            "options": 0,
+            "rect": [
+             0,
+             61,
+             390,
+             783
+            ]
+           },
+           "expanded": null,
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "transform",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "li.drawer__sub"
+            }
+           ],
+           "shot": "390-006-Shop-Products-key.png",
+           "tabReachesPanel": false
+          }
+         },
+         "returns": true
+        },
+        {
+         "name": "By Type",
+         "key": "by type",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#mobile-nav-menu>ul>li:nth-of-type(2)>div>ul>li:nth-of-type(1)>button",
+         "expanded": "false",
+         "rect": [
+          15,
+          145,
+          85,
+          64
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 4,
+           "panel": {
+            "links": [
+             {
+              "text": "Pacs",
+              "href": "http://localhost:8791/en-us/shop/type/laundry-pods"
+             },
+             {
+              "text": "Liquid",
+              "href": "http://localhost:8791/en-us/shop/type/liquid"
+             },
+             {
+              "text": "Powder",
+              "href": "http://localhost:8791/en-us/shop/type/powder"
+             },
+             {
+              "text": "Stain Remover",
+              "href": "http://localhost:8791/en-us/shop/type/stain-remover"
+             },
+             {
+              "text": "Laundry Booster",
+              "href": "http://localhost:8791/en-us/shop/type/laundry-booster"
+             },
+             {
+              "text": "Fabric Care",
+              "href": "http://localhost:8791/en-us/shop/type/fabric-care"
+             },
+             {
+              "text": "Fabric Rinse",
+              "href": "http://localhost:8791/en-us/shop/type/fabric-rinse"
+             },
+             {
+              "text": "Laundry Tiles",
+              "href": "http://localhost:8791/en-us/shop/type/laundry-tiles"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "By Type"
+            ],
+            "options": 0,
+            "rect": [
+             15,
+             81,
+             129,
+             576
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "transform",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "li.drawer__sub"
+            }
+           ],
+           "shot": "390-007-By-Type-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 4,
+           "panel": {
+            "links": [
+             {
+              "text": "Pacs",
+              "href": "http://localhost:8791/en-us/shop/type/laundry-pods"
+             },
+             {
+              "text": "Liquid",
+              "href": "http://localhost:8791/en-us/shop/type/liquid"
+             },
+             {
+              "text": "Powder",
+              "href": "http://localhost:8791/en-us/shop/type/powder"
+             },
+             {
+              "text": "Stain Remover",
+              "href": "http://localhost:8791/en-us/shop/type/stain-remover"
+             },
+             {
+              "text": "Laundry Booster",
+              "href": "http://localhost:8791/en-us/shop/type/laundry-booster"
+             },
+             {
+              "text": "Fabric Care",
+              "href": "http://localhost:8791/en-us/shop/type/fabric-care"
+             },
+             {
+              "text": "Fabric Rinse",
+              "href": "http://localhost:8791/en-us/shop/type/fabric-rinse"
+             },
+             {
+              "text": "Laundry Tiles",
+              "href": "http://localhost:8791/en-us/shop/type/laundry-tiles"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "By Type"
+            ],
+            "options": 0,
+            "rect": [
+             15,
+             81,
+             129,
+             576
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "transform",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "li.drawer__sub"
+            }
+           ],
+           "shot": "390-008-By-Type-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": true,
+          "focusReturn": true,
+          "outside": null,
+          "toggle": false
+         },
+         "children": [
+          {
+           "name": "By Type",
+           "key": "by type",
+           "role": "toggle",
+           "kind": "menu",
+           "sel": "#mobile-nav-menu>ul>li:nth-of-type(2)>div>ul>li:nth-of-type(2)>div>button",
+           "expanded": null,
+           "rect": [
+            15,
+            81,
+            89,
+            64
+           ],
+           "actions": {
+            "click": {
+             "opened": true,
+             "hidden": 9,
+             "panel": {
+              "links": [],
+              "headings": [],
+              "images": 0,
+              "inputs": [],
+              "buttons": [
+               "Shop Products",
+               "By Type",
+               "By Need",
+               "Top Collection"
+              ],
+              "options": 0,
+              "rect": [
+               15,
+               81,
+               143,
+               256
+              ]
+             },
+             "expanded": null,
+             "focus": "trigger",
+             "scrollLock": true,
+             "motion": [
+              {
+               "kind": "transition",
+               "prop": "transform",
+               "ms": 300,
+               "delay": 0,
+               "easing": "ease",
+               "target": "li.drawer__sub"
+              }
+             ],
+             "shot": "390-009-By-Type-click.png"
+            },
+            "key": {
+             "opened": true,
+             "hidden": 9,
+             "panel": {
+              "links": [],
+              "headings": [],
+              "images": 0,
+              "inputs": [],
+              "buttons": [
+               "Shop Products",
+               "By Type",
+               "By Need",
+               "Top Collection"
+              ],
+              "options": 0,
+              "rect": [
+               15,
+               81,
+               143,
+               256
+              ]
+             },
+             "expanded": null,
+             "focus": "trigger",
+             "scrollLock": true,
+             "motion": [
+              {
+               "kind": "transition",
+               "prop": "transform",
+               "ms": 300,
+               "delay": 0,
+               "easing": "ease",
+               "target": "li.drawer__sub"
+              }
+             ],
+             "shot": "390-010-By-Type-key.png",
+             "tabReachesPanel": false
+            }
+           },
+           "returns": true
+          }
+         ]
+        },
+        {
+         "name": "By Need",
+         "key": "by need",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#mobile-nav-menu>ul>li:nth-of-type(2)>div>ul>li:nth-of-type(3)>button",
+         "expanded": "false",
+         "rect": [
+          15,
+          209,
+          89,
+          64
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 4,
+           "panel": {
+            "links": [
+             {
+              "text": "Stain Removal",
+              "href": "http://localhost:8791/en-us/shop/special-needs/stain-removal"
+             },
+             {
+              "text": "Odor Removal",
+              "href": "http://localhost:8791/en-us/shop/special-needs/odor-removal"
+             },
+             {
+              "text": "Freshness/Scent",
+              "href": "http://localhost:8791/en-us/shop/special-needs/freshness"
+             },
+             {
+              "text": "Whiteness",
+              "href": "http://localhost:8791/en-us/shop/special-needs/whiteness"
+             },
+             {
+              "text": "Bright Colors",
+              "href": "http://localhost:8791/en-us/shop/special-needs/bright-colors"
+             },
+             {
+              "text": "Sensitive",
+              "href": "http://localhost:8791/en-us/shop/special-needs/sensitive"
+             },
+             {
+              "text": "Additives",
+              "href": "http://localhost:8791/en-us/shop/special-needs/additives"
+             },
+             {
+              "text": "Deep Clean",
+              "href": "http://localhost:8791/en-us/shop/special-needs/deep-clean"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "By Need"
+            ],
+            "options": 0,
+            "rect": [
+             15,
+             81,
+             131,
+             576
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "transform",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "li.drawer__sub"
+            }
+           ],
+           "shot": "390-011-By-Need-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 4,
+           "panel": {
+            "links": [
+             {
+              "text": "Stain Removal",
+              "href": "http://localhost:8791/en-us/shop/special-needs/stain-removal"
+             },
+             {
+              "text": "Odor Removal",
+              "href": "http://localhost:8791/en-us/shop/special-needs/odor-removal"
+             },
+             {
+              "text": "Freshness/Scent",
+              "href": "http://localhost:8791/en-us/shop/special-needs/freshness"
+             },
+             {
+              "text": "Whiteness",
+              "href": "http://localhost:8791/en-us/shop/special-needs/whiteness"
+             },
+             {
+              "text": "Bright Colors",
+              "href": "http://localhost:8791/en-us/shop/special-needs/bright-colors"
+             },
+             {
+              "text": "Sensitive",
+              "href": "http://localhost:8791/en-us/shop/special-needs/sensitive"
+             },
+             {
+              "text": "Additives",
+              "href": "http://localhost:8791/en-us/shop/special-needs/additives"
+             },
+             {
+              "text": "Deep Clean",
+              "href": "http://localhost:8791/en-us/shop/special-needs/deep-clean"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "By Need"
+            ],
+            "options": 0,
+            "rect": [
+             15,
+             81,
+             131,
+             576
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "transform",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "li.drawer__sub"
+            }
+           ],
+           "shot": "390-012-By-Need-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": true,
+          "focusReturn": true,
+          "outside": null,
+          "toggle": false
+         },
+         "children": [
+          {
+           "name": "By Need",
+           "key": "by need",
+           "role": "toggle",
+           "kind": "menu",
+           "sel": "#mobile-nav-menu>ul>li:nth-of-type(2)>div>ul>li:nth-of-type(4)>div>button",
+           "expanded": null,
+           "rect": [
+            15,
+            81,
+            90,
+            64
+           ],
+           "actions": {
+            "click": {
+             "opened": true,
+             "hidden": 9,
+             "panel": {
+              "links": [],
+              "headings": [],
+              "images": 0,
+              "inputs": [],
+              "buttons": [
+               "Shop Products",
+               "By Type",
+               "By Need",
+               "Top Collection"
+              ],
+              "options": 0,
+              "rect": [
+               15,
+               81,
+               143,
+               256
+              ]
+             },
+             "expanded": null,
+             "focus": "trigger",
+             "scrollLock": true,
+             "motion": [
+              {
+               "kind": "transition",
+               "prop": "transform",
+               "ms": 300,
+               "delay": 0,
+               "easing": "ease",
+               "target": "li.drawer__sub"
+              }
+             ],
+             "shot": "390-013-By-Need-click.png"
+            },
+            "key": {
+             "opened": true,
+             "hidden": 9,
+             "panel": {
+              "links": [],
+              "headings": [],
+              "images": 0,
+              "inputs": [],
+              "buttons": [
+               "Shop Products",
+               "By Type",
+               "By Need",
+               "Top Collection"
+              ],
+              "options": 0,
+              "rect": [
+               15,
+               81,
+               143,
+               256
+              ]
+             },
+             "expanded": null,
+             "focus": "trigger",
+             "scrollLock": true,
+             "motion": [
+              {
+               "kind": "transition",
+               "prop": "transform",
+               "ms": 300,
+               "delay": 0,
+               "easing": "ease",
+               "target": "li.drawer__sub"
+              }
+             ],
+             "shot": "390-014-By-Need-key.png",
+             "tabReachesPanel": false
+            }
+           },
+           "returns": true
+          }
+         ]
+        },
+        {
+         "name": "Top Collection",
+         "key": "top collection",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#mobile-nav-menu>ul>li:nth-of-type(2)>div>ul>li:nth-of-type(5)>button",
+         "expanded": "false",
+         "rect": [
+          15,
+          273,
+          133,
+          64
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 4,
+           "panel": {
+            "links": [
+             {
+              "text": "Tide Free & Gentle",
+              "href": "http://localhost:8791/en-us/shop/top-collections/tide-free-and-gentle"
+             },
+             {
+              "text": "Tide Plus Febreze",
+              "href": "http://localhost:8791/en-us/shop/top-collections/tide-plus-febreze"
+             },
+             {
+              "text": "Tide Simply",
+              "href": "http://localhost:8791/en-us/shop/top-collections/tide-simply"
+             },
+             {
+              "text": "Tide Plus Downy",
+              "href": "http://localhost:8791/en-us/shop/top-collections/tide-plus-downy"
+             },
+             {
+              "text": "Tide Ultra OXI",
+              "href": "http://localhost:8791/en-us/shop/top-collections/tide-ultra-oxi"
+             },
+             {
+              "text": "Tide POWER PODS®",
+              "href": "http://localhost:8791/en-us/shop/top-collections/tide-power-pods"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Top Collection"
+            ],
+            "options": 0,
+            "rect": [
+             15,
+             81,
+             143,
+             496
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "transform",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "li.drawer__sub"
+            }
+           ],
+           "shot": "390-015-Top-Collection-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 4,
+           "panel": {
+            "links": [
+             {
+              "text": "Tide Free & Gentle",
+              "href": "http://localhost:8791/en-us/shop/top-collections/tide-free-and-gentle"
+             },
+             {
+              "text": "Tide Plus Febreze",
+              "href": "http://localhost:8791/en-us/shop/top-collections/tide-plus-febreze"
+             },
+             {
+              "text": "Tide Simply",
+              "href": "http://localhost:8791/en-us/shop/top-collections/tide-simply"
+             },
+             {
+              "text": "Tide Plus Downy",
+              "href": "http://localhost:8791/en-us/shop/top-collections/tide-plus-downy"
+             },
+             {
+              "text": "Tide Ultra OXI",
+              "href": "http://localhost:8791/en-us/shop/top-collections/tide-ultra-oxi"
+             },
+             {
+              "text": "Tide POWER PODS®",
+              "href": "http://localhost:8791/en-us/shop/top-collections/tide-power-pods"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Top Collection"
+            ],
+            "options": 0,
+            "rect": [
+             15,
+             81,
+             143,
+             496
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "transform",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "li.drawer__sub"
+            }
+           ],
+           "shot": "390-016-Top-Collection-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": true,
+          "focusReturn": true,
+          "outside": null,
+          "toggle": false
+         },
+         "children": [
+          {
+           "name": "Top Collection",
+           "key": "top collection",
+           "role": "toggle",
+           "kind": "menu",
+           "sel": "#mobile-nav-menu>ul>li:nth-of-type(2)>div>ul>li:nth-of-type(6)>div>button",
+           "expanded": null,
+           "rect": [
+            15,
+            81,
+            139,
+            64
+           ],
+           "actions": {
+            "click": {
+             "opened": true,
+             "hidden": 7,
+             "panel": {
+              "links": [],
+              "headings": [],
+              "images": 0,
+              "inputs": [],
+              "buttons": [
+               "Shop Products",
+               "By Type",
+               "By Need",
+               "Top Collection"
+              ],
+              "options": 0,
+              "rect": [
+               15,
+               81,
+               143,
+               256
+              ]
+             },
+             "expanded": null,
+             "focus": "trigger",
+             "scrollLock": true,
+             "motion": [
+              {
+               "kind": "transition",
+               "prop": "transform",
+               "ms": 300,
+               "delay": 0,
+               "easing": "ease",
+               "target": "li.drawer__sub"
+              }
+             ],
+             "shot": "390-017-Top-Collection-click.png"
+            },
+            "key": {
+             "opened": true,
+             "hidden": 7,
+             "panel": {
+              "links": [],
+              "headings": [],
+              "images": 0,
+              "inputs": [],
+              "buttons": [
+               "Shop Products",
+               "By Type",
+               "By Need",
+               "Top Collection"
+              ],
+              "options": 0,
+              "rect": [
+               15,
+               81,
+               143,
+               256
+              ]
+             },
+             "expanded": null,
+             "focus": "trigger",
+             "scrollLock": true,
+             "motion": [
+              {
+               "kind": "transition",
+               "prop": "transform",
+               "ms": 300,
+               "delay": 0,
+               "easing": "ease",
+               "target": "li.drawer__sub"
+              }
+             ],
+             "shot": "390-018-Top-Collection-key.png",
+             "tabReachesPanel": false
+            }
+           },
+           "returns": true
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Our Commitment",
+       "key": "our commitment",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#mobile-nav-menu>ul>li:nth-of-type(3)>button",
+       "expanded": "false",
+       "rect": [
+        15,
+        145,
+        165,
+        64
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 8,
+         "panel": {
+          "links": [
+           {
+            "text": "Tide Coming Clean",
+            "href": "http://localhost:8791/en-us/our-commitment/superbowlLX"
+           },
+           {
+            "text": "Tide Boosted",
+            "href": "http://localhost:8791/en-us/our-commitment/tide-boosted"
+           },
+           {
+            "text": "Turn to Cold",
+            "href": "http://localhost:8791/en-us/our-commitment/turn-to-cold"
+           },
+           {
+            "text": "Tide evo",
+            "href": "http://localhost:8791/en-us/our-commitment/tide-evo"
+           },
+           {
+            "text": "Don’t Pay for Water, Pay for Clean",
+            "href": "http://localhost:8791/en-us/our-commitment/dont-pay-for-water"
+           },
+           {
+            "text": "Tide in Space",
+            "href": "http://localhost:8791/en-us/our-commitment/tide-in-space"
+           },
+           {
+            "text": "America’s #1 Detergent",
+            "href": "http://localhost:8791/en-us/our-commitment/americas-number-one-detergent"
+           },
+           {
+            "text": "Loads of Hope",
+            "href": "http://localhost:8791/en-us/our-commitment/loads-of-hope"
+           },
+           {
+            "text": "Ingredients and Safety",
+            "href": "http://localhost:8791/en-us/our-commitment/ingredients-and-safety"
+           },
+           {
+            "text": "Tide Cleaners",
+            "href": "http://localhost:8791/en-us/our-commitment/tide-cleaners-laundry-service"
+           },
+           {
+            "text": "Sustainability",
+            "href": "http://localhost:8791/en-us/our-commitment/sustainability"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Our Commitment"
+          ],
+          "options": 0,
+          "rect": [
+           15,
+           81,
+           264,
+           763
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "li.drawer__sub"
+          }
+         ],
+         "shot": "390-019-Our-Commitment-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 8,
+         "panel": {
+          "links": [
+           {
+            "text": "Tide Coming Clean",
+            "href": "http://localhost:8791/en-us/our-commitment/superbowlLX"
+           },
+           {
+            "text": "Tide Boosted",
+            "href": "http://localhost:8791/en-us/our-commitment/tide-boosted"
+           },
+           {
+            "text": "Turn to Cold",
+            "href": "http://localhost:8791/en-us/our-commitment/turn-to-cold"
+           },
+           {
+            "text": "Tide evo",
+            "href": "http://localhost:8791/en-us/our-commitment/tide-evo"
+           },
+           {
+            "text": "Don’t Pay for Water, Pay for Clean",
+            "href": "http://localhost:8791/en-us/our-commitment/dont-pay-for-water"
+           },
+           {
+            "text": "Tide in Space",
+            "href": "http://localhost:8791/en-us/our-commitment/tide-in-space"
+           },
+           {
+            "text": "America’s #1 Detergent",
+            "href": "http://localhost:8791/en-us/our-commitment/americas-number-one-detergent"
+           },
+           {
+            "text": "Loads of Hope",
+            "href": "http://localhost:8791/en-us/our-commitment/loads-of-hope"
+           },
+           {
+            "text": "Ingredients and Safety",
+            "href": "http://localhost:8791/en-us/our-commitment/ingredients-and-safety"
+           },
+           {
+            "text": "Tide Cleaners",
+            "href": "http://localhost:8791/en-us/our-commitment/tide-cleaners-laundry-service"
+           },
+           {
+            "text": "Sustainability",
+            "href": "http://localhost:8791/en-us/our-commitment/sustainability"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Our Commitment"
+          ],
+          "options": 0,
+          "rect": [
+           15,
+           81,
+           264,
+           763
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "li.drawer__sub"
+          }
+         ],
+         "shot": "390-020-Our-Commitment-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": true,
+        "outside": null,
+        "toggle": false
+       },
+       "children": [
+        {
+         "name": "Our Commitment",
+         "key": "our commitment",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#mobile-nav-menu>ul>li:nth-of-type(4)>div>button",
+         "expanded": null,
+         "rect": [
+          15,
+          81,
+          165,
+          64
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 12,
+           "panel": {
+            "links": [
+             {
+              "text": "What’s New",
+              "href": "http://localhost:8791/en-us/latest-news"
+             },
+             {
+              "text": "Contact Us",
+              "href": "http://localhost:8791/en-us/contact-us"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Shop Products",
+             "Our Commitment",
+             "How to Wash Clothes",
+             "Coupons and Deals",
+             "Select Location",
+             "Sign in"
+            ],
+            "options": 0,
+            "rect": [
+             0,
+             61,
+             390,
+             783
+            ]
+           },
+           "expanded": null,
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "transform",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "li.drawer__sub"
+            }
+           ],
+           "shot": "390-021-Our-Commitment-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 12,
+           "panel": {
+            "links": [
+             {
+              "text": "What’s New",
+              "href": "http://localhost:8791/en-us/latest-news"
+             },
+             {
+              "text": "Contact Us",
+              "href": "http://localhost:8791/en-us/contact-us"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Shop Products",
+             "Our Commitment",
+             "How to Wash Clothes",
+             "Coupons and Deals",
+             "Select Location",
+             "Sign in"
+            ],
+            "options": 0,
+            "rect": [
+             0,
+             61,
+             390,
+             783
+            ]
+           },
+           "expanded": null,
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "transform",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "li.drawer__sub"
+            }
+           ],
+           "shot": "390-022-Our-Commitment-key.png",
+           "tabReachesPanel": false
+          }
+         },
+         "returns": true
+        }
+       ]
+      },
+      {
+       "name": "How to Wash Clothes",
+       "key": "how to wash clothes",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#mobile-nav-menu>ul>li:nth-of-type(5)>button",
+       "expanded": "false",
+       "rect": [
+        15,
+        209,
+        196,
+        64
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 8,
+         "panel": {
+          "links": [
+           {
+            "text": "How to Remove Stains",
+            "href": "http://localhost:8791/en-us/how-to-wash-clothes/how-to-remove-stains"
+           },
+           {
+            "text": "How to Do Laundry",
+            "href": "http://localhost:8791/en-us/how-to-wash-clothes/how-to-do-laundry"
+           },
+           {
+            "text": "Washing Different Fabrics and Colors",
+            "href": "http://localhost:8791/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors"
+           },
+           {
+            "text": "Washing Machine 101",
+            "href": "http://localhost:8791/en-us/how-to-wash-clothes/washing-machine-101"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "How to Wash Clothes"
+          ],
+          "options": 0,
+          "rect": [
+           15,
+           81,
+           289,
+           320
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "li.drawer__sub"
+          }
+         ],
+         "shot": "390-023-How-to-Wash-Clothes-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 8,
+         "panel": {
+          "links": [
+           {
+            "text": "How to Remove Stains",
+            "href": "http://localhost:8791/en-us/how-to-wash-clothes/how-to-remove-stains"
+           },
+           {
+            "text": "How to Do Laundry",
+            "href": "http://localhost:8791/en-us/how-to-wash-clothes/how-to-do-laundry"
+           },
+           {
+            "text": "Washing Different Fabrics and Colors",
+            "href": "http://localhost:8791/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors"
+           },
+           {
+            "text": "Washing Machine 101",
+            "href": "http://localhost:8791/en-us/how-to-wash-clothes/washing-machine-101"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "How to Wash Clothes"
+          ],
+          "options": 0,
+          "rect": [
+           15,
+           81,
+           289,
+           320
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "li.drawer__sub"
+          }
+         ],
+         "shot": "390-024-How-to-Wash-Clothes-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": true,
+        "outside": null,
+        "toggle": false
+       },
+       "children": [
+        {
+         "name": "How to Wash Clothes",
+         "key": "how to wash clothes",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#mobile-nav-menu>ul>li:nth-of-type(6)>div>button",
+         "expanded": null,
+         "rect": [
+          15,
+          81,
+          196,
+          64
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 5,
+           "panel": {
+            "links": [
+             {
+              "text": "What’s New",
+              "href": "http://localhost:8791/en-us/latest-news"
+             },
+             {
+              "text": "Contact Us",
+              "href": "http://localhost:8791/en-us/contact-us"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Shop Products",
+             "Our Commitment",
+             "How to Wash Clothes",
+             "Coupons and Deals",
+             "Select Location",
+             "Sign in"
+            ],
+            "options": 0,
+            "rect": [
+             0,
+             61,
+             390,
+             783
+            ]
+           },
+           "expanded": null,
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "transform",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "li.drawer__sub"
+            }
+           ],
+           "shot": "390-025-How-to-Wash-Clothes-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 5,
+           "panel": {
+            "links": [
+             {
+              "text": "What’s New",
+              "href": "http://localhost:8791/en-us/latest-news"
+             },
+             {
+              "text": "Contact Us",
+              "href": "http://localhost:8791/en-us/contact-us"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Shop Products",
+             "Our Commitment",
+             "How to Wash Clothes",
+             "Coupons and Deals",
+             "Select Location",
+             "Sign in"
+            ],
+            "options": 0,
+            "rect": [
+             0,
+             61,
+             390,
+             783
+            ]
+           },
+           "expanded": null,
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "transform",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "li.drawer__sub"
+            }
+           ],
+           "shot": "390-026-How-to-Wash-Clothes-key.png",
+           "tabReachesPanel": false
+          }
+         },
+         "returns": true
+        }
+       ]
+      },
+      {
+       "name": "Coupons and Deals",
+       "key": "coupons and deals",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#mobile-nav-menu>ul>li:nth-of-type(8)>button",
+       "expanded": "false",
+       "rect": [
+        15,
+        337,
+        177,
+        64
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 8,
+         "panel": {
+          "links": [
+           {
+            "text": "Coupons and Rewards",
+            "href": "http://localhost:8791/en-us/rewards"
+           },
+           {
+            "text": "Laundry Deals",
+            "href": "https://jebbit.tide.com/wljshvha?L=Full+Page&JC=TideNAV"
+           },
+           {
+            "text": "Laundry Tips",
+            "href": "http://localhost:8791/en-us/rewards/laundrytips"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Coupons and Deals"
+          ],
+          "options": 0,
+          "rect": [
+           15,
+           81,
+           177,
+           256
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "li.drawer__sub"
+          }
+         ],
+         "shot": "390-027-Coupons-and-Deals-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 8,
+         "panel": {
+          "links": [
+           {
+            "text": "Coupons and Rewards",
+            "href": "http://localhost:8791/en-us/rewards"
+           },
+           {
+            "text": "Laundry Deals",
+            "href": "https://jebbit.tide.com/wljshvha?L=Full+Page&JC=TideNAV"
+           },
+           {
+            "text": "Laundry Tips",
+            "href": "http://localhost:8791/en-us/rewards/laundrytips"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Coupons and Deals"
+          ],
+          "options": 0,
+          "rect": [
+           15,
+           81,
+           177,
+           256
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "li.drawer__sub"
+          }
+         ],
+         "shot": "390-028-Coupons-and-Deals-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": true,
+        "outside": null,
+        "toggle": false
+       },
+       "children": [
+        {
+         "name": "Coupons and Deals",
+         "key": "coupons and deals",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#mobile-nav-menu>ul>li:nth-of-type(9)>div>button",
+         "expanded": null,
+         "rect": [
+          15,
+          81,
+          177,
+          64
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 4,
+           "panel": {
+            "links": [
+             {
+              "text": "What’s New",
+              "href": "http://localhost:8791/en-us/latest-news"
+             },
+             {
+              "text": "Contact Us",
+              "href": "http://localhost:8791/en-us/contact-us"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Shop Products",
+             "Our Commitment",
+             "How to Wash Clothes",
+             "Coupons and Deals",
+             "Select Location",
+             "Sign in"
+            ],
+            "options": 0,
+            "rect": [
+             0,
+             61,
+             390,
+             783
+            ]
+           },
+           "expanded": null,
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "transform",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "li.drawer__sub"
+            }
+           ],
+           "shot": "390-029-Coupons-and-Deals-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 4,
+           "panel": {
+            "links": [
+             {
+              "text": "What’s New",
+              "href": "http://localhost:8791/en-us/latest-news"
+             },
+             {
+              "text": "Contact Us",
+              "href": "http://localhost:8791/en-us/contact-us"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Shop Products",
+             "Our Commitment",
+             "How to Wash Clothes",
+             "Coupons and Deals",
+             "Select Location",
+             "Sign in"
+            ],
+            "options": 0,
+            "rect": [
+             0,
+             61,
+             390,
+             783
+            ]
+           },
+           "expanded": null,
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "transform",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "li.drawer__sub"
+            }
+           ],
+           "shot": "390-030-Coupons-and-Deals-key.png",
+           "tabReachesPanel": false
+          }
+         },
+         "returns": true
+        }
+       ]
+      },
+      {
+       "name": "Select Location",
+       "key": "select location",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#mobile-nav-menu>button",
+       "expanded": null,
+       "rect": [
+        15,
+        532,
+        119,
+        20
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "US - English",
+            "href": "http://localhost:8791/"
+           },
+           {
+            "text": "US - Spanish",
+            "href": "https://tide.com/es-us"
+           },
+           {
+            "text": "Canada - English",
+            "href": "https://tide.ca/"
+           },
+           {
+            "text": "Canada - French",
+            "href": "https://tide.ca/fr-ca"
+           }
+          ],
+          "headings": [
+           "Please select a location"
+          ],
+          "images": 4,
+          "inputs": [],
+          "buttons": [
+           "Please select a location"
+          ],
+          "options": 0,
+          "rect": [
+           15,
+           100,
+           360,
+           209
+          ]
+         },
+         "expanded": null,
+         "focus": "panel",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.loc-panel"
+          }
+         ],
+         "shot": "390-031-Select-Location-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "US - English",
+            "href": "http://localhost:8791/"
+           },
+           {
+            "text": "US - Spanish",
+            "href": "https://tide.com/es-us"
+           },
+           {
+            "text": "Canada - English",
+            "href": "https://tide.ca/"
+           },
+           {
+            "text": "Canada - French",
+            "href": "https://tide.ca/fr-ca"
+           }
+          ],
+          "headings": [
+           "Please select a location"
+          ],
+          "images": 4,
+          "inputs": [],
+          "buttons": [
+           "Please select a location"
+          ],
+          "options": 0,
+          "rect": [
+           15,
+           100,
+           360,
+           209
+          ]
+         },
+         "expanded": null,
+         "focus": "panel",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.loc-panel"
+          }
+         ],
+         "shot": "390-032-Select-Location-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": true,
+        "outside": null,
+        "toggle": false
+       },
+       "children": [
+        {
+         "name": "Please select a location",
+         "key": "please select a location",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#mobile-nav-menu>div>div>button",
+         "expanded": null,
+         "rect": [
+          15,
+          100,
+          261,
+          24
+         ],
+         "actions": {
+          "click": {
+           "opened": false,
+           "hides": 10
+          },
+          "key": {
+           "opened": false,
+           "hides": 10
+          }
+         }
+        }
+       ]
+      },
+      {
+       "name": "Sign in",
+       "key": "sign in",
+       "role": "toggle",
+       "kind": "account",
+       "sel": "#mobile-nav-menu>span>button",
+       "expanded": null,
+       "rect": [
+        46,
+        595,
+        55,
+        20
+       ],
+       "actions": {
+        "click": {
+         "opened": false,
+         "navigates": "https://account.tide.com/"
+        },
+        "key": {
+         "opened": false,
+         "navigates": "https://account.tide.com/"
+        }
+       }
+      }
+     ]
+    },
+    {
+     "name": "Tide logo",
+     "key": "tide logo",
+     "role": "link",
+     "kind": "link",
+     "sel": "#site-header>div:nth-of-type(2)>div>div>div:nth-of-type(1)>a",
+     "href": "http://localhost:8791/en-us",
+     "expanded": null,
+     "rect": [
+      172,
+      7,
+      47,
+      47
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Submit Search",
+     "key": "submit search",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "#site-header>div:nth-of-type(2)>div>div>div:nth-of-type(2)>form>div>button",
+     "expanded": null,
+     "rect": [
+      340,
+      15,
+      30,
+      30
+     ],
+     "actions": {
+      "click": {
+       "opened": false,
+       "navigates": "http://localhost:8791/en-us/search?q="
+      },
+      "key": {
+       "opened": false,
+       "navigates": "http://localhost:8791/en-us/search?q="
+      }
+     }
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 61,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 0,
+     "height": 61,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 61,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 61,
+     "position": "fixed",
+     "inView": true
+    }
+   ],
+   "states": 32,
+   "truncated": null,
+   "loads": 6,
+   "requests": 216,
+   "maxRequests": 0,
+   "inputsSkipped": 0,
+   "watch": {
+    "status": "not-triggered"
+   }
+  }
+ },
+ "probe": null
+}

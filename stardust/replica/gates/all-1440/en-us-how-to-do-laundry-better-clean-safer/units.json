@@ -1,0 +1,924 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-24T09:15:32.106Z",
+  "tol": 4,
+  "n": 5,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://tide.com/en-us/how-to-do-laundry/better-clean-safer",
+  "at": "2026-11-24T02:53:47.262Z",
+  "docH": 4485
+ },
+ "eds": {
+  "url": "https://main--5db7d055--aemcoder.aem.page/en-us/how-to-do-laundry/better-clean-safer",
+  "at": "2026-11-24T09:15:31.944Z",
+  "docH": 4428
+ },
+ "results": [
+  {
+   "sel": ".faqs .faq-item=.faq-accordion .faq-accordion-item",
+   "family": null,
+   "required": true,
+   "originMatches": 10,
+   "edsMatches": 10,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.faqs > div.col-12 > div.faq-item"
+     },
+     "eds": {
+      "path": "div.container > div.faq-accordion-list > div#are-natural-laundry-detergents-safer-for-sensitive-skin"
+     },
+     "rows": [
+      {
+       "key": "button:are natural laundry detergents safer for",
+       "role": "button",
+       "text": "are natural laundry detergents safer for sensitive skin?",
+       "edsText": "are natural laundry detergents safer for sensitive skin?",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 51
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 51,
+        "sel": "div.faq-accordion-question",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1115,
+        "y": 22,
+        "w": 15,
+        "h": 8
+       },
+       "eds": {
+        "x": 1115,
+        "y": 22,
+        "w": 15,
+        "h": 8,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 150,
+       "y": 2631,
+       "w": 1140,
+       "h": 51
+      },
+      "eds": {
+       "x": 150,
+       "y": 2574,
+       "w": 1140,
+       "h": 51
+      },
+      "dx": 0,
+      "dy": -57,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.faqs > div.col-12 > div.faq-item"
+     },
+     "eds": {
+      "path": "div.container > div.faq-accordion-list > div#why-does-cleaning-performance-matter-for-safety"
+     },
+     "rows": [
+      {
+       "key": "button:why does cleaning performance matter for",
+       "role": "button",
+       "text": "why does cleaning performance matter for safety?",
+       "edsText": "why does cleaning performance matter for safety?",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 51
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 51,
+        "sel": "div.faq-accordion-question",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1115,
+        "y": 22,
+        "w": 15,
+        "h": 8
+       },
+       "eds": {
+        "x": 1115,
+        "y": 22,
+        "w": 15,
+        "h": 8,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 150,
+       "y": 2712,
+       "w": 1140,
+       "h": 51
+      },
+      "eds": {
+       "x": 150,
+       "y": 2655,
+       "w": 1140,
+       "h": 51
+      },
+      "dx": 0,
+      "dy": -57,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.faqs > div.col-12 > div.faq-item"
+     },
+     "eds": {
+      "path": "div.container > div.faq-accordion-list > div#what-happens-if-detergent-doesn-t-clean-well"
+     },
+     "rows": [
+      {
+       "key": "button:what happens if detergent doesn’t clean ",
+       "role": "button",
+       "text": "what happens if detergent doesn’t clean well?",
+       "edsText": "what happens if detergent doesn’t clean well?",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 51
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 51,
+        "sel": "div.faq-accordion-question",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1115,
+        "y": 22,
+        "w": 15,
+        "h": 8
+       },
+       "eds": {
+        "x": 1115,
+        "y": 22,
+        "w": 15,
+        "h": 8,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 150,
+       "y": 2793,
+       "w": 1140,
+       "h": 51
+      },
+      "eds": {
+       "x": 150,
+       "y": 2736,
+       "w": 1140,
+       "h": 51
+      },
+      "dx": 0,
+      "dy": -57,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.faqs > div.col-12 > div.faq-item"
+     },
+     "eds": {
+      "path": "div.container > div.faq-accordion-list > div#can-detergent-residue-cause-skin-irritation"
+     },
+     "rows": [
+      {
+       "key": "button:can detergent residue cause skin irritat",
+       "role": "button",
+       "text": "can detergent residue cause skin irritation?",
+       "edsText": "can detergent residue cause skin irritation?",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 51
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 51,
+        "sel": "div.faq-accordion-question",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1115,
+        "y": 22,
+        "w": 15,
+        "h": 8
+       },
+       "eds": {
+        "x": 1115,
+        "y": 22,
+        "w": 15,
+        "h": 8,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 150,
+       "y": 2874,
+       "w": 1140,
+       "h": 51
+      },
+      "eds": {
+       "x": 150,
+       "y": 2817,
+       "w": 1140,
+       "h": 51
+      },
+      "dx": 0,
+      "dy": -57,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.faqs > div.col-12 > div.faq-item"
+     },
+     "eds": {
+      "path": "div.container > div.faq-accordion-list > div#why-do-clothes-sometimes-smell-after-washing"
+     },
+     "rows": [
+      {
+       "key": "button:why do clothes sometimes smell after was",
+       "role": "button",
+       "text": "why do clothes sometimes smell after washing?",
+       "edsText": "why do clothes sometimes smell after washing?",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 51
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 51,
+        "sel": "div.faq-accordion-question",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1115,
+        "y": 22,
+        "w": 15,
+        "h": 8
+       },
+       "eds": {
+        "x": 1115,
+        "y": 22,
+        "w": 15,
+        "h": 8,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 150,
+       "y": 2955,
+       "w": 1140,
+       "h": 51
+      },
+      "eds": {
+       "x": 150,
+       "y": 2898,
+       "w": 1140,
+       "h": 51
+      },
+      "dx": 0,
+      "dy": -57,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": "#sticky-nav li=.jump-links li",
+   "family": null,
+   "required": true,
+   "originMatches": 5,
+   "edsMatches": 5,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "nav > ul > li"
+     },
+     "eds": {
+      "path": "nav > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:the \"natural\" formulation compromise",
+       "role": "button",
+       "text": "the \"natural\" formulation compromise",
+       "edsText": "the \"natural\" formulation compromise",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 46,
+        "sel": "span.jump-links-item",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/700",
+        "eds": "14/16/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 150,
+       "y": 175,
+       "w": 275,
+       "h": 46
+      },
+      "eds": {
+       "x": 150,
+       "y": 175,
+       "w": 275,
+       "h": 46
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "nav > ul > li"
+     },
+     "eds": {
+      "path": "nav > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:what's hiding on your \"clean\" clothes?",
+       "role": "button",
+       "text": "what's hiding on your \"clean\" clothes?",
+       "edsText": "what's hiding on your \"clean\" clothes?",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 276,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 276,
+        "h": 46,
+        "sel": "span.jump-links-item",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/700",
+        "eds": "14/16/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 465,
+       "y": 175,
+       "w": 276,
+       "h": 46
+      },
+      "eds": {
+       "x": 465,
+       "y": 175,
+       "w": 276,
+       "h": 46
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "nav > ul > li"
+     },
+     "eds": {
+      "path": "nav > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:a better clean is part of a commitment t",
+       "role": "button",
+       "text": "a better clean is part of a commitment to safety",
+       "edsText": "a better clean is part of a commitment to safety",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 347,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 347,
+        "h": 46,
+        "sel": "span.jump-links-item",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/700",
+        "eds": "14/16/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 781,
+       "y": 175,
+       "w": 347,
+       "h": 46
+      },
+      "eds": {
+       "x": 781,
+       "y": 175,
+       "w": 347,
+       "h": 46
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "nav > ul > li"
+     },
+     "eds": {
+      "path": "nav > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:key takeaways",
+       "role": "button",
+       "text": "key takeaways",
+       "edsText": "key takeaways",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 106,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 106,
+        "h": 46,
+        "sel": "span.jump-links-item",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/700",
+        "eds": "14/16/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1167,
+       "y": 175,
+       "w": 106,
+       "h": 46
+      },
+      "eds": {
+       "x": 1167,
+       "y": 175,
+       "w": 106,
+       "h": 46
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "nav > ul > li"
+     },
+     "eds": {
+      "path": "nav > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:faqs",
+       "role": "button",
+       "text": "faqs",
+       "edsText": "faqs",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 37,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 37,
+        "h": 46,
+        "sel": "span.jump-links-item",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/700",
+        "eds": "14/16/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1313,
+       "y": 175,
+       "w": 37,
+       "h": 46
+      },
+      "eds": {
+       "x": 1313,
+       "y": 175,
+       "w": 37,
+       "h": 46
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 10,
+  "within": 15,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

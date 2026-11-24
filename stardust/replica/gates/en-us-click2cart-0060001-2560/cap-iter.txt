@@ -1,0 +1,14 @@
+cap-probe  base 1440 → probe 2560 (from stardust/current/DESIGN.json)
+live   https://tide.com/en-us/click2cart/0060001
+  shell      450px  max-width #shopper-choice-container  (tier 0, holds 100% of the text)
+  modules  2 sections: capped 407 ×1 · full-bleed ×1
+  contentMaxWidth 450px (shell) · shellMaxWidth 450px · root #shopper-choice-container
+build  http://localhost:8791/en-us-click2cart-0060001-proposed.html
+  shell      450px  max-width #shopper-choice-container  (tier 0, holds 100% of the text)
+  modules  2 sections: capped 407 ×1 · full-bleed ×1
+  contentMaxWidth 450px (shell) · shellMaxWidth 450px · root #shopper-choice-container
+rows
+  ✓ wrapper cap: live 450px = build 450px (±20)
+  ✓ module 1/2: 407px = 407px
+  ✓ module 2/2: full-bleed on both
+cap-probe: PASS at 2560 — 0 of 3 rows failed (evidence stardust/replica/gates/en-us-click2cart-0060001-2560/cap-iter.json)

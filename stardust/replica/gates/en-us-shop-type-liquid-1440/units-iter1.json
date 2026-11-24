@@ -1,0 +1,1690 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-23T22:11:51.634Z",
+  "tol": 4,
+  "n": 3,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://tide.com/en-us/shop/type/liquid",
+  "at": "2026-11-23T22:11:34.707Z",
+  "docH": 5290
+ },
+ "eds": {
+  "url": "http://localhost:8791/en-us-shop-type-liquid-proposed.html",
+  "at": "2026-11-23T22:11:51.500Z",
+  "docH": 5290
+ },
+ "results": [
+  {
+   "sel": ".plp-product-previews-wrapper .product .product-preview=.plp-grid .product .product-card",
+   "family": "plp-product-card",
+   "required": true,
+   "originMatches": 7,
+   "edsMatches": 7,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.row > div.col-lg-4.product > div.product-preview"
+     },
+     "eds": {
+      "path": "div.plp-grid > div.plp-grid__col.product > div.product-card"
+     },
+     "rows": [
+      {
+       "key": "link:a#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 10,
+        "w": 350,
+        "h": 260
+       },
+       "eds": {
+        "x": 0,
+        "y": 10,
+        "w": 350,
+        "h": 260,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 10,
+        "w": 350,
+        "h": 260
+       },
+       "eds": {
+        "x": 0,
+        "y": 10,
+        "w": 350,
+        "h": 260,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:bottle of tide original scent liquid lau",
+       "role": "image",
+       "text": "bottle of tide original scent liquid laundry detergent",
+       "edsText": "bottle of tide original scent liquid laundry detergent",
+       "byPosition": false,
+       "origin": {
+        "x": 45,
+        "y": 10,
+        "w": 260,
+        "h": 260
+       },
+       "eds": {
+        "x": 45,
+        "y": 10,
+        "w": 260,
+        "h": 260,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "link:tide original liquid laundry detergent",
+       "role": "link",
+       "text": "tide original liquid laundry detergent",
+       "edsText": "tide original liquid laundry detergent",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 280,
+        "w": 350,
+        "h": 52
+       },
+       "eds": {
+        "x": 0,
+        "y": 280,
+        "w": 350,
+        "h": 52,
+        "sel": "a.product-card__title",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:tide liquid laundry detergent",
+       "role": "text",
+       "text": "tide liquid laundry detergent",
+       "edsText": "tide liquid laundry detergent",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 280,
+        "w": 350,
+        "h": 52
+       },
+       "eds": {
+        "x": 0,
+        "y": 280,
+        "w": 350,
+        "h": 52,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/26/400",
+        "eds": "20/26/400"
+       }
+      },
+      {
+       "key": "text:original",
+       "role": "text",
+       "text": "original",
+       "edsText": "original",
+       "byPosition": false,
+       "origin": {
+        "x": 51,
+        "y": 281,
+        "w": 84,
+        "h": 24
+       },
+       "eds": {
+        "x": 51,
+        "y": 281,
+        "w": 84,
+        "h": 24,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/26/700",
+        "eds": "20/26/700"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 343,
+        "w": 13,
+        "h": 13
+       },
+       "eds": {
+        "x": 0,
+        "y": 343,
+        "w": 13,
+        "h": 13,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:svg#2",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 17,
+        "y": 343,
+        "w": 13,
+        "h": 13
+       },
+       "eds": {
+        "x": 17,
+        "y": 343,
+        "w": 13,
+        "h": 13,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:svg#3",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 34,
+        "y": 343,
+        "w": 13,
+        "h": 13
+       },
+       "eds": {
+        "x": 34,
+        "y": 343,
+        "w": 13,
+        "h": 13,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:svg#4",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 51,
+        "y": 343,
+        "w": 13,
+        "h": 13
+       },
+       "eds": {
+        "x": 51,
+        "y": 343,
+        "w": 13,
+        "h": 13,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:svg#5",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 68,
+        "y": 343,
+        "w": 13,
+        "h": 13
+       },
+       "eds": {
+        "x": 68,
+        "y": 343,
+        "w": 13,
+        "h": 13,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:svg#6",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 68,
+        "y": 343,
+        "w": 13,
+        "h": 13
+       },
+       "eds": {
+        "x": 68,
+        "y": 343,
+        "w": 13,
+        "h": 13,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:( 3206 )",
+       "role": "text",
+       "text": "( 3206 )",
+       "edsText": "(3206)",
+       "byPosition": true,
+       "origin": {
+        "x": 93,
+        "y": 343,
+        "w": 45,
+        "h": 16
+       },
+       "eds": {
+        "x": 93,
+        "y": 343,
+        "w": 45,
+        "h": 16,
+        "sel": "span.product-card__count",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "button:find retailers",
+       "role": "button",
+       "text": "find retailers",
+       "edsText": "find retailers",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 382,
+        "w": 196,
+        "h": 42
+       },
+       "eds": {
+        "x": 0,
+        "y": 382,
+        "w": 196,
+        "h": 42,
+        "sel": "button.retailer-btn",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/22/700",
+        "eds": "20/22/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 165,
+       "y": 525,
+       "w": 350,
+       "h": 504
+      },
+      "eds": {
+       "x": 165,
+       "y": 526,
+       "w": 350,
+       "h": 504
+      },
+      "dx": 0,
+      "dy": 1,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 14,
+      "within": 14,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.row > div.col-lg-4.product > div.product-preview"
+     },
+     "eds": {
+      "path": "div.plp-grid > div.plp-grid__col.product > div.product-card"
+     },
+     "rows": [
+      {
+       "key": "link:a#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 10,
+        "w": 350,
+        "h": 260
+       },
+       "eds": {
+        "x": 0,
+        "y": 10,
+        "w": 350,
+        "h": 260,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 10,
+        "w": 350,
+        "h": 260
+       },
+       "eds": {
+        "x": 0,
+        "y": 10,
+        "w": 350,
+        "h": 260,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:tide free and gentle liquid laundry dete",
+       "role": "image",
+       "text": "tide free and gentle liquid laundry detergent - 92 ounces, c",
+       "edsText": "tide free and gentle liquid laundry detergent - 92 ounces, c",
+       "byPosition": false,
+       "origin": {
+        "x": 45,
+        "y": 10,
+        "w": 260,
+        "h": 260
+       },
+       "eds": {
+        "x": 45,
+        "y": 10,
+        "w": 260,
+        "h": 260,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "link:tide free and gentle liquid laundry dete",
+       "role": "link",
+       "text": "tide free and gentle liquid laundry detergent",
+       "edsText": "tide free and gentle liquid laundry detergent",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 280,
+        "w": 350,
+        "h": 52
+       },
+       "eds": {
+        "x": 0,
+        "y": 280,
+        "w": 350,
+        "h": 52,
+        "sel": "a.product-card__title",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:tide liquid laundry detergent",
+       "role": "text",
+       "text": "tide liquid laundry detergent",
+       "edsText": "tide liquid laundry detergent",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 280,
+        "w": 350,
+        "h": 52
+       },
+       "eds": {
+        "x": 0,
+        "y": 280,
+        "w": 350,
+        "h": 52,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/26/400",
+        "eds": "20/26/400"
+       }
+      },
+      {
+       "key": "text:free and gentle",
+       "role": "text",
+       "text": "free and gentle",
+       "edsText": "free and gentle",
+       "byPosition": false,
+       "origin": {
+        "x": 51,
+        "y": 281,
+        "w": 169,
+        "h": 24
+       },
+       "eds": {
+        "x": 51,
+        "y": 281,
+        "w": 169,
+        "h": 24,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/26/700",
+        "eds": "20/26/700"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 343,
+        "w": 13,
+        "h": 13
+       },
+       "eds": {
+        "x": 0,
+        "y": 343,
+        "w": 13,
+        "h": 13,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:svg#2",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 17,
+        "y": 343,
+        "w": 13,
+        "h": 13
+       },
+       "eds": {
+        "x": 17,
+        "y": 343,
+        "w": 13,
+        "h": 13,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:svg#3",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 34,
+        "y": 343,
+        "w": 13,
+        "h": 13
+       },
+       "eds": {
+        "x": 34,
+        "y": 343,
+        "w": 13,
+        "h": 13,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:svg#4",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 51,
+        "y": 343,
+        "w": 13,
+        "h": 13
+       },
+       "eds": {
+        "x": 51,
+        "y": 343,
+        "w": 13,
+        "h": 13,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:svg#5",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 68,
+        "y": 343,
+        "w": 13,
+        "h": 13
+       },
+       "eds": {
+        "x": 68,
+        "y": 343,
+        "w": 13,
+        "h": 13,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:svg#6",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 68,
+        "y": 343,
+        "w": 13,
+        "h": 13
+       },
+       "eds": {
+        "x": 68,
+        "y": 343,
+        "w": 13,
+        "h": 13,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:( 1106 )",
+       "role": "text",
+       "text": "( 1106 )",
+       "edsText": "(1106)",
+       "byPosition": true,
+       "origin": {
+        "x": 93,
+        "y": 343,
+        "w": 39,
+        "h": 16
+       },
+       "eds": {
+        "x": 93,
+        "y": 343,
+        "w": 39,
+        "h": 16,
+        "sel": "span.product-card__count",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "button:find retailers",
+       "role": "button",
+       "text": "find retailers",
+       "edsText": "find retailers",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 382,
+        "w": 196,
+        "h": 42
+       },
+       "eds": {
+        "x": 0,
+        "y": 382,
+        "w": 196,
+        "h": 42,
+        "sel": "button.retailer-btn",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/22/700",
+        "eds": "20/22/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 545,
+       "y": 525,
+       "w": 350,
+       "h": 504
+      },
+      "eds": {
+       "x": 545,
+       "y": 526,
+       "w": 350,
+       "h": 504
+      },
+      "dx": 0,
+      "dy": 1,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 14,
+      "within": 14,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.row > div.col-lg-4.product > div.product-preview"
+     },
+     "eds": {
+      "path": "div.plp-grid > div.plp-grid__col.product > div.product-card"
+     },
+     "rows": [
+      {
+       "key": "link:a#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 10,
+        "w": 350,
+        "h": 260
+       },
+       "eds": {
+        "x": 0,
+        "y": 10,
+        "w": 350,
+        "h": 260,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 10,
+        "w": 350,
+        "h": 260
+       },
+       "eds": {
+        "x": 0,
+        "y": 10,
+        "w": 350,
+        "h": 260,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:tide ultra oxi high efficiency liquid la",
+       "role": "image",
+       "text": "tide ultra oxi high efficiency liquid laundry detergent",
+       "edsText": "tide ultra oxi high efficiency liquid laundry detergent",
+       "byPosition": false,
+       "origin": {
+        "x": 45,
+        "y": 10,
+        "w": 260,
+        "h": 260
+       },
+       "eds": {
+        "x": 45,
+        "y": 10,
+        "w": 260,
+        "h": 260,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "link:tide ultra oxi boost high efficiency liq",
+       "role": "link",
+       "text": "tide ultra oxi boost high efficiency liquid laundry detergen",
+       "edsText": "tide ultra oxi boost high efficiency liquid laundry detergen",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 280,
+        "w": 350,
+        "h": 78
+       },
+       "eds": {
+        "x": 0,
+        "y": 280,
+        "w": 350,
+        "h": 78,
+        "sel": "a.product-card__title",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:tide high efficiency liquid laundry dete",
+       "role": "text",
+       "text": "tide high efficiency liquid laundry detergent",
+       "edsText": "tide high efficiency liquid laundry detergent",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 280,
+        "w": 350,
+        "h": 78
+       },
+       "eds": {
+        "x": 0,
+        "y": 280,
+        "w": 350,
+        "h": 78,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/26/400",
+        "eds": "20/26/400"
+       }
+      },
+      {
+       "key": "text:ultra oxi boost",
+       "role": "text",
+       "text": "ultra oxi boost",
+       "edsText": "ultra oxi boost",
+       "byPosition": false,
+       "origin": {
+        "x": 51,
+        "y": 281,
+        "w": 165,
+        "h": 24
+       },
+       "eds": {
+        "x": 51,
+        "y": 281,
+        "w": 165,
+        "h": 24,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/26/700",
+        "eds": "20/26/700"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 369,
+        "w": 13,
+        "h": 13
+       },
+       "eds": {
+        "x": 0,
+        "y": 369,
+        "w": 13,
+        "h": 13,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:svg#2",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 17,
+        "y": 369,
+        "w": 13,
+        "h": 13
+       },
+       "eds": {
+        "x": 17,
+        "y": 369,
+        "w": 13,
+        "h": 13,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:svg#3",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 34,
+        "y": 369,
+        "w": 13,
+        "h": 13
+       },
+       "eds": {
+        "x": 34,
+        "y": 369,
+        "w": 13,
+        "h": 13,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:svg#4",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 51,
+        "y": 369,
+        "w": 13,
+        "h": 13
+       },
+       "eds": {
+        "x": 51,
+        "y": 369,
+        "w": 13,
+        "h": 13,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:svg#5",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 68,
+        "y": 369,
+        "w": 13,
+        "h": 13
+       },
+       "eds": {
+        "x": 68,
+        "y": 369,
+        "w": 13,
+        "h": 13,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:svg#6",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 68,
+        "y": 369,
+        "w": 13,
+        "h": 13
+       },
+       "eds": {
+        "x": 68,
+        "y": 369,
+        "w": 13,
+        "h": 13,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:( 452 )",
+       "role": "text",
+       "text": "( 452 )",
+       "edsText": "(452)",
+       "byPosition": true,
+       "origin": {
+        "x": 93,
+        "y": 369,
+        "w": 36,
+        "h": 16
+       },
+       "eds": {
+        "x": 93,
+        "y": 369,
+        "w": 36,
+        "h": 16,
+        "sel": "span.product-card__count",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "button:find retailers",
+       "role": "button",
+       "text": "find retailers",
+       "edsText": "find retailers",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 408,
+        "w": 196,
+        "h": 42
+       },
+       "eds": {
+        "x": 0,
+        "y": 408,
+        "w": 196,
+        "h": 42,
+        "sel": "button.retailer-btn",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/22/700",
+        "eds": "20/22/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 165,
+       "y": 1029,
+       "w": 350,
+       "h": 530
+      },
+      "eds": {
+       "x": 165,
+       "y": 1030,
+       "w": 350,
+       "h": 530
+      },
+      "dx": 0,
+      "dy": 1,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 14,
+      "within": 14,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".dynamic-content-wrapper > .row picture=.plp-features .feature-banner picture",
+   "family": "plp-feature-banner",
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.row.justify-content-center > div.col-lg-12.col-12 > picture"
+     },
+     "eds": {
+      "path": "div.container > div.feature-banner__inner > picture"
+     },
+     "rows": [
+      {
+       "key": "image:washing machine in operation",
+       "role": "image",
+       "text": "washing machine in operation",
+       "edsText": "washing machine in operation",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 564
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 564,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 150,
+       "y": 2472,
+       "w": 1140,
+       "h": 564
+      },
+      "eds": {
+       "x": 150,
+       "y": 2472,
+       "w": 1140,
+       "h": 564
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.row.justify-content-center > div.col-lg-12.col-12 > picture"
+     },
+     "eds": {
+      "path": "div.container > div.feature-banner__inner > picture"
+     },
+     "rows": [
+      {
+       "key": "image:a person pouring tide liquid detergent i",
+       "role": "image",
+       "text": "a person pouring tide liquid detergent into the detergent di",
+       "edsText": "a person pouring tide liquid detergent into the detergent di",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 564
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 564,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 150,
+       "y": 3096,
+       "w": 1140,
+       "h": 564
+      },
+      "eds": {
+       "x": 150,
+       "y": 3097,
+       "w": 1140,
+       "h": 564
+      },
+      "dx": 0,
+      "dy": 1,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.row.justify-content-center > div.col-lg-12.col-12 > picture"
+     },
+     "eds": {
+      "path": "div.container > div.feature-banner__inner > picture"
+     },
+     "rows": [
+      {
+       "key": "image:a pile of neatly folded, colorful clothe",
+       "role": "image",
+       "text": "a pile of neatly folded, colorful clothes",
+       "edsText": "a pile of neatly folded, colorful clothes",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 564
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 564,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 150,
+       "y": 3720,
+       "w": 1140,
+       "h": 564
+      },
+      "eds": {
+       "x": 150,
+       "y": 3721,
+       "w": 1140,
+       "h": 564
+      },
+      "dx": 0,
+      "dy": 1,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 6,
+  "within": 45,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

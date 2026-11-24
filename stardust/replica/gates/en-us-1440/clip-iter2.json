@@ -1,0 +1,10352 @@
+{
+ "url": "http://localhost:8791/en-us-proposed.html",
+ "at": "2026-11-23T20:32:42.044Z",
+ "width": 1440,
+ "status": 200,
+ "settlePasses": 2,
+ "docH": 6139,
+ "pageW": 1440,
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 414,
+  "horizontal": 3,
+  "offPage": 0,
+  "textNodes": 306,
+  "controls": 283,
+  "total": 0
+ },
+ "findings": [
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "path": "div.rail__viewport > ul.rail__track > li.rail__item > a.card",
+   "text": "tide signs space act agreement with nasalearn more",
+   "clipper": "div.rail__viewport",
+   "rect": {
+    "l": 1243,
+    "t": 1968,
+    "r": 1565,
+    "b": 2358,
+    "w": 322,
+    "h": 390
+   },
+   "clip": {
+    "l": 207,
+    "t": 1968,
+    "r": 1233,
+    "b": 2388,
+    "w": 1026,
+    "h": 420
+   }
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "cut": 49,
+   "path": "div.card__content > div.card__text > p > strong",
+   "text": "tide signs space act agreement with nasa",
+   "clipper": "a.card",
+   "rect": {
+    "l": 1263,
+    "t": 2202,
+    "r": 1470,
+    "b": 2226,
+    "w": 207,
+    "h": 24
+   },
+   "clip": {
+    "l": 1243,
+    "t": 1968,
+    "r": 1565,
+    "b": 2358,
+    "w": 322,
+    "h": 390
+   },
+   "lines": 2
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "cut": 0,
+   "path": "a.card > div.card__content > div.card__cta > span",
+   "text": "learn more",
+   "clipper": "a.card",
+   "rect": {
+    "l": 1293,
+    "t": 2317,
+    "r": 1383,
+    "b": 2336,
+    "w": 90,
+    "h": 19
+   },
+   "clip": {
+    "l": 1243,
+    "t": 1968,
+    "r": 1565,
+    "b": 2358,
+    "w": 322,
+    "h": 390
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "tough stains",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": -1928,
+    "r": 710,
+    "b": -1878,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "tough stains",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 456,
+    "t": -1913,
+    "r": 604,
+    "b": -1884,
+    "w": 148,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "acne",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": -1878,
+    "r": 710,
+    "b": -1828,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "acne",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 502,
+    "t": -1863,
+    "r": 558,
+    "b": -1834,
+    "w": 56,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "baby food",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": -1828,
+    "r": 710,
+    "b": -1778,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "baby food",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 469,
+    "t": -1813,
+    "r": 591,
+    "b": -1784,
+    "w": 123,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "bbq",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": -1778,
+    "r": 710,
+    "b": -1728,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "bbq",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 506,
+    "t": -1763,
+    "r": 554,
+    "b": -1734,
+    "w": 48,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "beer",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": -1728,
+    "r": 710,
+    "b": -1678,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "beer",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 503,
+    "t": -1713,
+    "r": 558,
+    "b": -1684,
+    "w": 55,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "blood",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": -1678,
+    "r": 710,
+    "b": -1628,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "blood",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 496,
+    "t": -1663,
+    "r": 565,
+    "b": -1634,
+    "w": 69,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "butter",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": -1628,
+    "r": 710,
+    "b": -1578,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "butter",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 492,
+    "t": -1613,
+    "r": 568,
+    "b": -1584,
+    "w": 76,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "candy",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": -1578,
+    "r": 710,
+    "b": -1528,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "candy",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 494,
+    "t": -1563,
+    "r": 566,
+    "b": -1534,
+    "w": 72,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "chewing gum",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": -1528,
+    "r": 710,
+    "b": -1478,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "chewing gum",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 450,
+    "t": -1513,
+    "r": 610,
+    "b": -1484,
+    "w": 160,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "chocolate",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": -1478,
+    "r": 710,
+    "b": -1428,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "chocolate",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 472,
+    "t": -1463,
+    "r": 588,
+    "b": -1434,
+    "w": 116,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "clay",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": -1428,
+    "r": 710,
+    "b": -1378,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "clay",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 507,
+    "t": -1413,
+    "r": 554,
+    "b": -1384,
+    "w": 47,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "coffee",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": -1378,
+    "r": 710,
+    "b": -1328,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "coffee",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 492,
+    "t": -1363,
+    "r": 568,
+    "b": -1334,
+    "w": 76,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "collar",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": -1328,
+    "r": 710,
+    "b": -1278,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "collar",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 498,
+    "t": -1313,
+    "r": 563,
+    "b": -1284,
+    "w": 65,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "cough syrup",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": -1278,
+    "r": 710,
+    "b": -1228,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "cough syrup",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 456,
+    "t": -1263,
+    "r": 604,
+    "b": -1234,
+    "w": 148,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "crayon",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": -1228,
+    "r": 710,
+    "b": -1178,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "crayon",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 490,
+    "t": -1213,
+    "r": 570,
+    "b": -1184,
+    "w": 80,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "dairy",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": -1178,
+    "r": 710,
+    "b": -1128,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "dairy",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 500,
+    "t": -1163,
+    "r": 561,
+    "b": -1134,
+    "w": 61,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "deodorant",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": -1128,
+    "r": 710,
+    "b": -1078,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "deodorant",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 467,
+    "t": -1113,
+    "r": 593,
+    "b": -1084,
+    "w": 125,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "dingy whites",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": -1078,
+    "r": 710,
+    "b": -1028,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "dingy whites",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 453,
+    "t": -1063,
+    "r": 607,
+    "b": -1034,
+    "w": 153,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "dirt",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": -1028,
+    "r": 710,
+    "b": -978,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "dirt",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 509,
+    "t": -1013,
+    "r": 552,
+    "b": -984,
+    "w": 43,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "dye transfer",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": -978,
+    "r": 710,
+    "b": -928,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "dye transfer",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 457,
+    "t": -963,
+    "r": 603,
+    "b": -934,
+    "w": 146,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "egg",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": -928,
+    "r": 710,
+    "b": -878,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "egg",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 507,
+    "t": -913,
+    "r": 553,
+    "b": -884,
+    "w": 45,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "fabric softener",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": -878,
+    "r": 710,
+    "b": -828,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "fabric softener",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 442,
+    "t": -863,
+    "r": 619,
+    "b": -834,
+    "w": 177,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "facial mask",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": -828,
+    "r": 710,
+    "b": -778,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "facial mask",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 463,
+    "t": -813,
+    "r": 597,
+    "b": -784,
+    "w": 134,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "fruit",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": -778,
+    "r": 710,
+    "b": -728,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "fruit",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 504,
+    "t": -763,
+    "r": 556,
+    "b": -734,
+    "w": 52,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "fruit juice",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": -728,
+    "r": 710,
+    "b": -678,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "fruit juice",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 474,
+    "t": -713,
+    "r": 587,
+    "b": -684,
+    "w": 113,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "gelatin",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": -678,
+    "r": 710,
+    "b": -628,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "gelatin",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 490,
+    "t": -663,
+    "r": 571,
+    "b": -634,
+    "w": 81,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "glue",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": -628,
+    "r": 710,
+    "b": -578,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "glue",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 505,
+    "t": -613,
+    "r": 556,
+    "b": -584,
+    "w": 51,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "grass",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": -578,
+    "r": 710,
+    "b": -528,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "grass",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 498,
+    "t": -563,
+    "r": 562,
+    "b": -534,
+    "w": 64,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "gravy",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": -528,
+    "r": 710,
+    "b": -478,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "gravy",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 496,
+    "t": -513,
+    "r": 564,
+    "b": -484,
+    "w": 67,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "grease",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": -478,
+    "r": 710,
+    "b": -428,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "grease",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 490,
+    "t": -463,
+    "r": 570,
+    "b": -434,
+    "w": 81,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "hair dye",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": -428,
+    "r": 710,
+    "b": -378,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "hair dye",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 482,
+    "t": -413,
+    "r": 578,
+    "b": -384,
+    "w": 96,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "hot chocolate",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": -378,
+    "r": 710,
+    "b": -328,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "hot chocolate",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 449,
+    "t": -363,
+    "r": 611,
+    "b": -334,
+    "w": 163,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "ink",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": -328,
+    "r": 710,
+    "b": -278,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "ink",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 512,
+    "t": -313,
+    "r": 548,
+    "b": -284,
+    "w": 35,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "ketchup",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": -278,
+    "r": 710,
+    "b": -228,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "ketchup",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 482,
+    "t": -263,
+    "r": 578,
+    "b": -234,
+    "w": 96,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "makeup",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": -228,
+    "r": 710,
+    "b": -178,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "makeup",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 482,
+    "t": -213,
+    "r": 578,
+    "b": -184,
+    "w": 96,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "marker",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": -178,
+    "r": 710,
+    "b": -128,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "marker",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 487,
+    "t": -163,
+    "r": 573,
+    "b": -134,
+    "w": 86,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "mayonnaise",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": -128,
+    "r": 710,
+    "b": -78,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "mayonnaise",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 459,
+    "t": -113,
+    "r": 602,
+    "b": -84,
+    "w": 143,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "mildew",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": -78,
+    "r": 710,
+    "b": -28,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "mildew",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 487,
+    "t": -63,
+    "r": 574,
+    "b": -34,
+    "w": 87,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "motor oil",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": -28,
+    "r": 710,
+    "b": 22,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "motor oil",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 476,
+    "t": -13,
+    "r": 584,
+    "b": 16,
+    "w": 108,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "mouthwash",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 22,
+    "r": 710,
+    "b": 72,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "mouthwash",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 460,
+    "t": 37,
+    "r": 600,
+    "b": 66,
+    "w": 140,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "mud",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 72,
+    "r": 710,
+    "b": 122,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "mud",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 503,
+    "t": 87,
+    "r": 557,
+    "b": 116,
+    "w": 54,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "mustard",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 122,
+    "r": 710,
+    "b": 172,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "mustard",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 480,
+    "t": 137,
+    "r": 580,
+    "b": 166,
+    "w": 100,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "mystery",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 172,
+    "r": 710,
+    "b": 222,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "mystery",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 481,
+    "t": 187,
+    "r": 580,
+    "b": 216,
+    "w": 99,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "nail polish",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 222,
+    "r": 710,
+    "b": 272,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "nail polish",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 470,
+    "t": 237,
+    "r": 590,
+    "b": 266,
+    "w": 119,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "oil",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 272,
+    "r": 710,
+    "b": 322,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "oil",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 516,
+    "t": 287,
+    "r": 544,
+    "b": 316,
+    "w": 28,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "oily road",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 322,
+    "r": 710,
+    "b": 372,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "oily road",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 478,
+    "t": 337,
+    "r": 582,
+    "b": 366,
+    "w": 104,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "ointment",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 372,
+    "r": 710,
+    "b": 422,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "ointment",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 476,
+    "t": 387,
+    "r": 584,
+    "b": 416,
+    "w": 109,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "paint",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 422,
+    "r": 710,
+    "b": 472,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "paint",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 500,
+    "t": 437,
+    "r": 561,
+    "b": 466,
+    "w": 61,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "perfume",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 472,
+    "r": 710,
+    "b": 522,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "perfume",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 478,
+    "t": 487,
+    "r": 582,
+    "b": 516,
+    "w": 104,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "pet",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 522,
+    "r": 710,
+    "b": 572,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "pet",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 510,
+    "t": 537,
+    "r": 550,
+    "b": 566,
+    "w": 40,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "plaster",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 572,
+    "r": 710,
+    "b": 622,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "plaster",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 488,
+    "t": 587,
+    "r": 572,
+    "b": 616,
+    "w": 83,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "play-doh",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 622,
+    "r": 710,
+    "b": 672,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "play-doh",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 477,
+    "t": 637,
+    "r": 583,
+    "b": 666,
+    "w": 105,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "pollen",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 672,
+    "r": 710,
+    "b": 722,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "pollen",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 494,
+    "t": 687,
+    "r": 567,
+    "b": 716,
+    "w": 73,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "poop",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 722,
+    "r": 710,
+    "b": 772,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "poop",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 499,
+    "t": 737,
+    "r": 562,
+    "b": 766,
+    "w": 63,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "pudding",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 772,
+    "r": 710,
+    "b": 822,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "pudding",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 480,
+    "t": 787,
+    "r": 580,
+    "b": 816,
+    "w": 100,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "rust",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 822,
+    "r": 710,
+    "b": 872,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "rust",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 506,
+    "t": 837,
+    "r": 554,
+    "b": 866,
+    "w": 48,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "salsa",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 872,
+    "r": 710,
+    "b": 922,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "salsa",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 500,
+    "t": 887,
+    "r": 560,
+    "b": 916,
+    "w": 59,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "shoe polish",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 922,
+    "r": 710,
+    "b": 972,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "shoe polish",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 462,
+    "t": 937,
+    "r": 598,
+    "b": 966,
+    "w": 135,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "skunk odor",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 972,
+    "r": 710,
+    "b": 1022,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "skunk odor",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 463,
+    "t": 987,
+    "r": 598,
+    "b": 1016,
+    "w": 135,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "soft drink",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 1022,
+    "r": 710,
+    "b": 1072,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "soft drink",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 472,
+    "t": 1037,
+    "r": 588,
+    "b": 1066,
+    "w": 116,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "soot",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 1072,
+    "r": 710,
+    "b": 1122,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "soot",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 504,
+    "t": 1087,
+    "r": 557,
+    "b": 1116,
+    "w": 53,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "spaghetti",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 1122,
+    "r": 710,
+    "b": 1172,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "spaghetti",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 473,
+    "t": 1137,
+    "r": 587,
+    "b": 1166,
+    "w": 114,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "sport drink",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 1172,
+    "r": 710,
+    "b": 1222,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "sport drink",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 463,
+    "t": 1187,
+    "r": 597,
+    "b": 1216,
+    "w": 133,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "sunscreen",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 1222,
+    "r": 710,
+    "b": 1272,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "sunscreen",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 469,
+    "t": 1237,
+    "r": 591,
+    "b": 1266,
+    "w": 121,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "sweat",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 1272,
+    "r": 710,
+    "b": 1322,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "sweat",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 494,
+    "t": 1287,
+    "r": 566,
+    "b": 1316,
+    "w": 72,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "toothpaste",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 1322,
+    "r": 710,
+    "b": 1372,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "toothpaste",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 464,
+    "t": 1337,
+    "r": 596,
+    "b": 1366,
+    "w": 132,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "tree sap",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 1372,
+    "r": 710,
+    "b": 1422,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "tree sap",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 481,
+    "t": 1387,
+    "r": 579,
+    "b": 1416,
+    "w": 98,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "underwear",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 1422,
+    "r": 710,
+    "b": 1472,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "underwear",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 465,
+    "t": 1437,
+    "r": 595,
+    "b": 1466,
+    "w": 130,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "urine",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 1472,
+    "r": 710,
+    "b": 1522,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "urine",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 500,
+    "t": 1487,
+    "r": 560,
+    "b": 1516,
+    "w": 61,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "vegetable",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 1522,
+    "r": 710,
+    "b": 1572,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "vegetable",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 471,
+    "t": 1537,
+    "r": 590,
+    "b": 1566,
+    "w": 119,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "wax",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 1572,
+    "r": 710,
+    "b": 1622,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "wax",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 506,
+    "t": 1587,
+    "r": 554,
+    "b": 1616,
+    "w": 49,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "wine",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 1622,
+    "r": 710,
+    "b": 1672,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "wine",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 502,
+    "t": 1637,
+    "r": 559,
+    "b": 1666,
+    "w": 57,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "tough stains",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 1672,
+    "r": 710,
+    "b": 1722,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "tough stains",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 456,
+    "t": 1687,
+    "r": 604,
+    "b": 1716,
+    "w": 148,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "acne",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 1722,
+    "r": 710,
+    "b": 1772,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "acne",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 502,
+    "t": 1737,
+    "r": 558,
+    "b": 1766,
+    "w": 56,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "baby food",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 1772,
+    "r": 710,
+    "b": 1822,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "baby food",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 469,
+    "t": 1787,
+    "r": 591,
+    "b": 1816,
+    "w": 123,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "bbq",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 1822,
+    "r": 710,
+    "b": 1872,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "bbq",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 506,
+    "t": 1837,
+    "r": 554,
+    "b": 1866,
+    "w": 48,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "beer",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 1872,
+    "r": 710,
+    "b": 1922,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "beer",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 503,
+    "t": 1887,
+    "r": 558,
+    "b": 1916,
+    "w": 55,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "blood",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 1922,
+    "r": 710,
+    "b": 1972,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "blood",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 496,
+    "t": 1937,
+    "r": 565,
+    "b": 1966,
+    "w": 69,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "butter",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 1972,
+    "r": 710,
+    "b": 2022,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "butter",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 492,
+    "t": 1987,
+    "r": 568,
+    "b": 2016,
+    "w": 76,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "candy",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 2022,
+    "r": 710,
+    "b": 2072,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "candy",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 494,
+    "t": 2037,
+    "r": 566,
+    "b": 2066,
+    "w": 72,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "chewing gum",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 2072,
+    "r": 710,
+    "b": 2122,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "chewing gum",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 450,
+    "t": 2087,
+    "r": 610,
+    "b": 2116,
+    "w": 160,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "chocolate",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 2122,
+    "r": 710,
+    "b": 2172,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "chocolate",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 472,
+    "t": 2137,
+    "r": 588,
+    "b": 2166,
+    "w": 116,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "clay",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 2172,
+    "r": 710,
+    "b": 2222,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "clay",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 507,
+    "t": 2187,
+    "r": 554,
+    "b": 2216,
+    "w": 47,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "coffee",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 2222,
+    "r": 710,
+    "b": 2272,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "coffee",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 492,
+    "t": 2237,
+    "r": 568,
+    "b": 2266,
+    "w": 76,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "collar",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 2272,
+    "r": 710,
+    "b": 2322,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "collar",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 498,
+    "t": 2287,
+    "r": 563,
+    "b": 2316,
+    "w": 65,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "cough syrup",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 2322,
+    "r": 710,
+    "b": 2372,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "cough syrup",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 456,
+    "t": 2337,
+    "r": 604,
+    "b": 2366,
+    "w": 148,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "crayon",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 2372,
+    "r": 710,
+    "b": 2422,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "crayon",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 490,
+    "t": 2387,
+    "r": 570,
+    "b": 2416,
+    "w": 80,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "dairy",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 2422,
+    "r": 710,
+    "b": 2472,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "dairy",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 500,
+    "t": 2437,
+    "r": 561,
+    "b": 2466,
+    "w": 61,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "deodorant",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 2472,
+    "r": 710,
+    "b": 2522,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "deodorant",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 467,
+    "t": 2487,
+    "r": 593,
+    "b": 2516,
+    "w": 125,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "dingy whites",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 2522,
+    "r": 710,
+    "b": 2572,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "dingy whites",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 453,
+    "t": 2537,
+    "r": 607,
+    "b": 2566,
+    "w": 153,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "dirt",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 2572,
+    "r": 710,
+    "b": 2622,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "dirt",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 509,
+    "t": 2587,
+    "r": 552,
+    "b": 2616,
+    "w": 43,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "dye transfer",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 2622,
+    "r": 710,
+    "b": 2672,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "dye transfer",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 457,
+    "t": 2637,
+    "r": 603,
+    "b": 2666,
+    "w": 146,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "egg",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 2672,
+    "r": 710,
+    "b": 2722,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "egg",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 507,
+    "t": 2687,
+    "r": 553,
+    "b": 2716,
+    "w": 45,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "fabric softener",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 2722,
+    "r": 710,
+    "b": 2772,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "fabric softener",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 442,
+    "t": 2737,
+    "r": 619,
+    "b": 2766,
+    "w": 177,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "facial mask",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 2772,
+    "r": 710,
+    "b": 2822,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "facial mask",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 463,
+    "t": 2787,
+    "r": 597,
+    "b": 2816,
+    "w": 134,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "fruit",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 2822,
+    "r": 710,
+    "b": 2872,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "fruit",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 504,
+    "t": 2837,
+    "r": 556,
+    "b": 2866,
+    "w": 52,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "fruit juice",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 2872,
+    "r": 710,
+    "b": 2922,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "fruit juice",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 474,
+    "t": 2887,
+    "r": 587,
+    "b": 2916,
+    "w": 113,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "gelatin",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 2922,
+    "r": 710,
+    "b": 2972,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "gelatin",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 490,
+    "t": 2937,
+    "r": 571,
+    "b": 2966,
+    "w": 81,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "glue",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 2972,
+    "r": 710,
+    "b": 3022,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "glue",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 505,
+    "t": 2987,
+    "r": 556,
+    "b": 3016,
+    "w": 51,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "grass",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 3022,
+    "r": 710,
+    "b": 3072,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "grass",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 498,
+    "t": 3037,
+    "r": 562,
+    "b": 3066,
+    "w": 64,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "gravy",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 3072,
+    "r": 710,
+    "b": 3122,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "gravy",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 496,
+    "t": 3087,
+    "r": 564,
+    "b": 3116,
+    "w": 67,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "grease",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 3122,
+    "r": 710,
+    "b": 3172,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "grease",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 490,
+    "t": 3137,
+    "r": 570,
+    "b": 3166,
+    "w": 81,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "hair dye",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 3172,
+    "r": 710,
+    "b": 3222,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "hair dye",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 482,
+    "t": 3187,
+    "r": 578,
+    "b": 3216,
+    "w": 96,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "hot chocolate",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 3222,
+    "r": 710,
+    "b": 3272,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "hot chocolate",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 449,
+    "t": 3237,
+    "r": 611,
+    "b": 3266,
+    "w": 163,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "mustard",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 3724,
+    "r": 710,
+    "b": 3774,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "mustard",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 480,
+    "t": 3739,
+    "r": 580,
+    "b": 3768,
+    "w": 100,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "mystery",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 3774,
+    "r": 710,
+    "b": 3824,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "mystery",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 481,
+    "t": 3789,
+    "r": 580,
+    "b": 3818,
+    "w": 99,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "nail polish",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 3824,
+    "r": 710,
+    "b": 3874,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "nail polish",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 470,
+    "t": 3839,
+    "r": 590,
+    "b": 3868,
+    "w": 119,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "oil",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 3874,
+    "r": 710,
+    "b": 3924,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "oil",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 516,
+    "t": 3889,
+    "r": 544,
+    "b": 3918,
+    "w": 28,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "oily road",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 3924,
+    "r": 710,
+    "b": 3974,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "oily road",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 478,
+    "t": 3939,
+    "r": 582,
+    "b": 3968,
+    "w": 104,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "ointment",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 3974,
+    "r": 710,
+    "b": 4024,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "ointment",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 476,
+    "t": 3989,
+    "r": 584,
+    "b": 4018,
+    "w": 109,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "paint",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 4024,
+    "r": 710,
+    "b": 4074,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "paint",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 500,
+    "t": 4039,
+    "r": 561,
+    "b": 4068,
+    "w": 61,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "perfume",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 4074,
+    "r": 710,
+    "b": 4124,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "perfume",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 478,
+    "t": 4089,
+    "r": 582,
+    "b": 4118,
+    "w": 104,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "pet",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 4124,
+    "r": 710,
+    "b": 4174,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "pet",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 510,
+    "t": 4139,
+    "r": 550,
+    "b": 4168,
+    "w": 40,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "plaster",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 4174,
+    "r": 710,
+    "b": 4224,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "plaster",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 488,
+    "t": 4189,
+    "r": 572,
+    "b": 4218,
+    "w": 83,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "play-doh",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 4224,
+    "r": 710,
+    "b": 4274,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "play-doh",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 477,
+    "t": 4239,
+    "r": 583,
+    "b": 4268,
+    "w": 105,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "pollen",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 4274,
+    "r": 710,
+    "b": 4324,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "pollen",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 494,
+    "t": 4289,
+    "r": 567,
+    "b": 4318,
+    "w": 73,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "poop",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 4324,
+    "r": 710,
+    "b": 4374,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "poop",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 499,
+    "t": 4339,
+    "r": 562,
+    "b": 4368,
+    "w": 63,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "pudding",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 4374,
+    "r": 710,
+    "b": 4424,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "pudding",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 480,
+    "t": 4389,
+    "r": 580,
+    "b": 4418,
+    "w": 100,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "rust",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 4424,
+    "r": 710,
+    "b": 4474,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "rust",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 506,
+    "t": 4439,
+    "r": 554,
+    "b": 4468,
+    "w": 48,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "salsa",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 4474,
+    "r": 710,
+    "b": 4524,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "salsa",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 500,
+    "t": 4489,
+    "r": 560,
+    "b": 4518,
+    "w": 59,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "shoe polish",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 4524,
+    "r": 710,
+    "b": 4574,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "shoe polish",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 462,
+    "t": 4539,
+    "r": 598,
+    "b": 4568,
+    "w": 135,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "skunk odor",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 4574,
+    "r": 710,
+    "b": 4624,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "skunk odor",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 463,
+    "t": 4589,
+    "r": 598,
+    "b": 4618,
+    "w": 135,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "soft drink",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 4624,
+    "r": 710,
+    "b": 4674,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "soft drink",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 472,
+    "t": 4639,
+    "r": 588,
+    "b": 4668,
+    "w": 116,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "soot",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 4674,
+    "r": 710,
+    "b": 4724,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "soot",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 504,
+    "t": 4689,
+    "r": 557,
+    "b": 4718,
+    "w": 53,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "spaghetti",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 4724,
+    "r": 710,
+    "b": 4774,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "spaghetti",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 473,
+    "t": 4739,
+    "r": 587,
+    "b": 4768,
+    "w": 114,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "sport drink",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 4774,
+    "r": 710,
+    "b": 4824,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "sport drink",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 463,
+    "t": 4789,
+    "r": 597,
+    "b": 4818,
+    "w": 133,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "sunscreen",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 4824,
+    "r": 710,
+    "b": 4874,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "sunscreen",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 469,
+    "t": 4839,
+    "r": 591,
+    "b": 4868,
+    "w": 121,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "sweat",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 4874,
+    "r": 710,
+    "b": 4924,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "sweat",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 494,
+    "t": 4889,
+    "r": 566,
+    "b": 4918,
+    "w": 72,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "toothpaste",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 4924,
+    "r": 710,
+    "b": 4974,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "toothpaste",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 464,
+    "t": 4939,
+    "r": 596,
+    "b": 4968,
+    "w": 132,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "tree sap",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 4974,
+    "r": 710,
+    "b": 5024,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "tree sap",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 481,
+    "t": 4989,
+    "r": 579,
+    "b": 5018,
+    "w": 98,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "underwear",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 5024,
+    "r": 710,
+    "b": 5074,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "underwear",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 465,
+    "t": 5039,
+    "r": 595,
+    "b": 5068,
+    "w": 130,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "urine",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 5074,
+    "r": 710,
+    "b": 5124,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "urine",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 500,
+    "t": 5089,
+    "r": 560,
+    "b": 5118,
+    "w": 61,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "vegetable",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 5124,
+    "r": 710,
+    "b": 5174,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "vegetable",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 471,
+    "t": 5139,
+    "r": 590,
+    "b": 5168,
+    "w": 119,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "wax",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 5174,
+    "r": 710,
+    "b": 5224,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "wax",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 506,
+    "t": 5189,
+    "r": 554,
+    "b": 5218,
+    "w": 49,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "wine",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 5224,
+    "r": 710,
+    "b": 5274,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "wine",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 502,
+    "t": 5239,
+    "r": 559,
+    "b": 5268,
+    "w": 57,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "tough stains",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 5274,
+    "r": 710,
+    "b": 5324,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "tough stains",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 456,
+    "t": 5289,
+    "r": 604,
+    "b": 5318,
+    "w": 148,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "acne",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 5324,
+    "r": 710,
+    "b": 5374,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "acne",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 502,
+    "t": 5339,
+    "r": 558,
+    "b": 5368,
+    "w": 56,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "baby food",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 5374,
+    "r": 710,
+    "b": 5424,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "baby food",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 469,
+    "t": 5389,
+    "r": 591,
+    "b": 5418,
+    "w": 123,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "bbq",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 5424,
+    "r": 710,
+    "b": 5474,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "bbq",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 506,
+    "t": 5439,
+    "r": 554,
+    "b": 5468,
+    "w": 48,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "beer",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 5474,
+    "r": 710,
+    "b": 5524,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "beer",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 503,
+    "t": 5489,
+    "r": 558,
+    "b": 5518,
+    "w": 55,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "blood",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 5524,
+    "r": 710,
+    "b": 5574,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "blood",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 496,
+    "t": 5539,
+    "r": 565,
+    "b": 5568,
+    "w": 69,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "butter",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 5574,
+    "r": 710,
+    "b": 5624,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "butter",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 492,
+    "t": 5589,
+    "r": 568,
+    "b": 5618,
+    "w": 76,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "candy",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 5624,
+    "r": 710,
+    "b": 5674,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "candy",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 494,
+    "t": 5639,
+    "r": 566,
+    "b": 5668,
+    "w": 72,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "chewing gum",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 5674,
+    "r": 710,
+    "b": 5724,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "chewing gum",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 450,
+    "t": 5689,
+    "r": 610,
+    "b": 5718,
+    "w": 160,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "chocolate",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 5724,
+    "r": 710,
+    "b": 5774,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "chocolate",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 472,
+    "t": 5739,
+    "r": 588,
+    "b": 5768,
+    "w": 116,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "clay",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 5774,
+    "r": 710,
+    "b": 5824,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "clay",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 507,
+    "t": 5789,
+    "r": 554,
+    "b": 5818,
+    "w": 47,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "coffee",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 5824,
+    "r": 710,
+    "b": 5874,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "coffee",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 492,
+    "t": 5839,
+    "r": 568,
+    "b": 5868,
+    "w": 76,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "collar",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 5874,
+    "r": 710,
+    "b": 5924,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "collar",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 498,
+    "t": 5889,
+    "r": 563,
+    "b": 5918,
+    "w": 65,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "cough syrup",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 5924,
+    "r": 710,
+    "b": 5974,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "cough syrup",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 456,
+    "t": 5939,
+    "r": 604,
+    "b": 5968,
+    "w": 148,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "crayon",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 5974,
+    "r": 710,
+    "b": 6024,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "crayon",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 490,
+    "t": 5989,
+    "r": 570,
+    "b": 6018,
+    "w": 80,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "dairy",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 6024,
+    "r": 710,
+    "b": 6074,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "dairy",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 500,
+    "t": 6039,
+    "r": 561,
+    "b": 6068,
+    "w": 61,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "deodorant",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 6074,
+    "r": 710,
+    "b": 6124,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "deodorant",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 467,
+    "t": 6089,
+    "r": 593,
+    "b": 6118,
+    "w": 125,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "dingy whites",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 6124,
+    "r": 710,
+    "b": 6174,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "dingy whites",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 453,
+    "t": 6139,
+    "r": 607,
+    "b": 6168,
+    "w": 153,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "dirt",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 6174,
+    "r": 710,
+    "b": 6224,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "dirt",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 509,
+    "t": 6189,
+    "r": 552,
+    "b": 6218,
+    "w": 43,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "dye transfer",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 6224,
+    "r": 710,
+    "b": 6274,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "dye transfer",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 457,
+    "t": 6239,
+    "r": 603,
+    "b": 6268,
+    "w": 146,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "egg",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 6274,
+    "r": 710,
+    "b": 6324,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "egg",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 507,
+    "t": 6289,
+    "r": 553,
+    "b": 6318,
+    "w": 45,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "fabric softener",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 6324,
+    "r": 710,
+    "b": 6374,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "fabric softener",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 442,
+    "t": 6339,
+    "r": 619,
+    "b": 6368,
+    "w": 177,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "facial mask",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 6374,
+    "r": 710,
+    "b": 6424,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "facial mask",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 463,
+    "t": 6389,
+    "r": 597,
+    "b": 6418,
+    "w": 134,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "fruit",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 6424,
+    "r": 710,
+    "b": 6474,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "fruit",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 504,
+    "t": 6439,
+    "r": 556,
+    "b": 6468,
+    "w": 52,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "fruit juice",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 6474,
+    "r": 710,
+    "b": 6524,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "fruit juice",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 474,
+    "t": 6489,
+    "r": 587,
+    "b": 6518,
+    "w": 113,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "gelatin",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 6524,
+    "r": 710,
+    "b": 6574,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "gelatin",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 490,
+    "t": 6539,
+    "r": 571,
+    "b": 6568,
+    "w": 81,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "glue",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 6574,
+    "r": 710,
+    "b": 6624,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "glue",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 505,
+    "t": 6589,
+    "r": 556,
+    "b": 6618,
+    "w": 51,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "grass",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 6624,
+    "r": 710,
+    "b": 6674,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "grass",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 498,
+    "t": 6639,
+    "r": 562,
+    "b": 6668,
+    "w": 64,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "gravy",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 6674,
+    "r": 710,
+    "b": 6724,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "gravy",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 496,
+    "t": 6689,
+    "r": 564,
+    "b": 6718,
+    "w": 67,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "grease",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 6724,
+    "r": 710,
+    "b": 6774,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "grease",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 490,
+    "t": 6739,
+    "r": 570,
+    "b": 6768,
+    "w": 81,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "hair dye",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 6774,
+    "r": 710,
+    "b": 6824,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "hair dye",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 482,
+    "t": 6789,
+    "r": 578,
+    "b": 6818,
+    "w": 96,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "hot chocolate",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 6824,
+    "r": 710,
+    "b": 6874,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "hot chocolate",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 449,
+    "t": 6839,
+    "r": 611,
+    "b": 6868,
+    "w": 163,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "ink",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 6874,
+    "r": 710,
+    "b": 6924,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "ink",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 512,
+    "t": 6889,
+    "r": 548,
+    "b": 6918,
+    "w": 35,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "ketchup",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 6924,
+    "r": 710,
+    "b": 6974,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "ketchup",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 482,
+    "t": 6939,
+    "r": 578,
+    "b": 6968,
+    "w": 96,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "makeup",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 6974,
+    "r": 710,
+    "b": 7024,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "makeup",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 482,
+    "t": 6989,
+    "r": 578,
+    "b": 7018,
+    "w": 96,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "marker",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 7024,
+    "r": 710,
+    "b": 7074,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "marker",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 487,
+    "t": 7039,
+    "r": 573,
+    "b": 7068,
+    "w": 86,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "mayonnaise",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 7074,
+    "r": 710,
+    "b": 7124,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "mayonnaise",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 459,
+    "t": 7089,
+    "r": 602,
+    "b": 7118,
+    "w": 143,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "mildew",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 7124,
+    "r": 710,
+    "b": 7174,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "mildew",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 487,
+    "t": 7139,
+    "r": 574,
+    "b": 7168,
+    "w": 87,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "motor oil",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 7174,
+    "r": 710,
+    "b": 7224,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "motor oil",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 476,
+    "t": 7189,
+    "r": 584,
+    "b": 7218,
+    "w": 108,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "mouthwash",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 7224,
+    "r": 710,
+    "b": 7274,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "mouthwash",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 460,
+    "t": 7239,
+    "r": 600,
+    "b": 7268,
+    "w": 140,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "mud",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 7274,
+    "r": 710,
+    "b": 7324,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "mud",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 503,
+    "t": 7289,
+    "r": 557,
+    "b": 7318,
+    "w": 54,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "mustard",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 7324,
+    "r": 710,
+    "b": 7374,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "mustard",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 480,
+    "t": 7339,
+    "r": 580,
+    "b": 7368,
+    "w": 100,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "mystery",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 7374,
+    "r": 710,
+    "b": 7424,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "mystery",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 481,
+    "t": 7389,
+    "r": 580,
+    "b": 7418,
+    "w": 99,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "nail polish",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 7424,
+    "r": 710,
+    "b": 7474,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "nail polish",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 470,
+    "t": 7439,
+    "r": 590,
+    "b": 7468,
+    "w": 119,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "oil",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 7474,
+    "r": 710,
+    "b": 7524,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "oil",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 516,
+    "t": 7489,
+    "r": 544,
+    "b": 7518,
+    "w": 28,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "oily road",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 7524,
+    "r": 710,
+    "b": 7574,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "oily road",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 478,
+    "t": 7539,
+    "r": 582,
+    "b": 7568,
+    "w": 104,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "ointment",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 7574,
+    "r": 710,
+    "b": 7624,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "ointment",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 476,
+    "t": 7589,
+    "r": 584,
+    "b": 7618,
+    "w": 109,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "paint",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 7624,
+    "r": 710,
+    "b": 7674,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "paint",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 500,
+    "t": 7639,
+    "r": 561,
+    "b": 7668,
+    "w": 61,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "perfume",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 7674,
+    "r": 710,
+    "b": 7724,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "perfume",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 478,
+    "t": 7689,
+    "r": 582,
+    "b": 7718,
+    "w": 104,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "pet",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 7724,
+    "r": 710,
+    "b": 7774,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "pet",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 510,
+    "t": 7739,
+    "r": 550,
+    "b": 7768,
+    "w": 40,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "plaster",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 7774,
+    "r": 710,
+    "b": 7824,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "plaster",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 488,
+    "t": 7789,
+    "r": 572,
+    "b": 7818,
+    "w": 83,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "play-doh",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 7824,
+    "r": 710,
+    "b": 7874,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "play-doh",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 477,
+    "t": 7839,
+    "r": 583,
+    "b": 7868,
+    "w": 105,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "pollen",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 7874,
+    "r": 710,
+    "b": 7924,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "pollen",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 494,
+    "t": 7889,
+    "r": 567,
+    "b": 7918,
+    "w": 73,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "poop",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 7924,
+    "r": 710,
+    "b": 7974,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "poop",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 499,
+    "t": 7939,
+    "r": 562,
+    "b": 7968,
+    "w": 63,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "pudding",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 7974,
+    "r": 710,
+    "b": 8024,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "pudding",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 480,
+    "t": 7989,
+    "r": 580,
+    "b": 8018,
+    "w": 100,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "rust",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 8024,
+    "r": 710,
+    "b": 8074,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "rust",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 506,
+    "t": 8039,
+    "r": 554,
+    "b": 8068,
+    "w": 48,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "salsa",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 8074,
+    "r": 710,
+    "b": 8124,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "salsa",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 500,
+    "t": 8089,
+    "r": 560,
+    "b": 8118,
+    "w": 59,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "shoe polish",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 8124,
+    "r": 710,
+    "b": 8174,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "shoe polish",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 462,
+    "t": 8139,
+    "r": 598,
+    "b": 8168,
+    "w": 135,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "skunk odor",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 8174,
+    "r": 710,
+    "b": 8224,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "skunk odor",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 463,
+    "t": 8189,
+    "r": 598,
+    "b": 8218,
+    "w": 135,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "soft drink",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 8224,
+    "r": 710,
+    "b": 8274,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "soft drink",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 472,
+    "t": 8239,
+    "r": 588,
+    "b": 8268,
+    "w": 116,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "soot",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 8274,
+    "r": 710,
+    "b": 8324,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "soot",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 504,
+    "t": 8289,
+    "r": 557,
+    "b": 8318,
+    "w": 53,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "spaghetti",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 8324,
+    "r": 710,
+    "b": 8374,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "spaghetti",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 473,
+    "t": 8339,
+    "r": 587,
+    "b": 8368,
+    "w": 114,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "sport drink",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 8374,
+    "r": 710,
+    "b": 8424,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "hiddenLines": 1,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "sport drink",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 463,
+    "t": 8389,
+    "r": 597,
+    "b": 8418,
+    "w": 133,
+    "h": 29
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "sunscreen",
+   "clipper": "div.picker__scroll",
+   "rect": {
+    "l": 350,
+    "t": 8424,
+    "r": 710,
+    "b": 8474,
+    "w": 360,
+    "h": 50
+   },
+   "clip": {
+    "l": 350,
+    "t": 3272,
+    "r": 710,
+    "b": 3722,
+    "w": 360,
+    "h": 450
+   }
+  }
+ ],
+ "textBoxes": [
+  {
+   "x": 667,
+   "y": -31,
+   "w": 106,
+   "h": 16
+  },
+  {
+   "x": 150,
+   "y": 16,
+   "w": 154,
+   "h": 16
+  },
+  {
+   "x": 954,
+   "y": 18,
+   "w": 64,
+   "h": 13
+  },
+  {
+   "x": 1058,
+   "y": 18,
+   "w": 70,
+   "h": 13
+  },
+  {
+   "x": 1251,
+   "y": 18,
+   "w": 39,
+   "h": 13
+  },
+  {
+   "x": 472,
+   "y": 144,
+   "w": 103,
+   "h": 16
+  },
+  {
+   "x": 625,
+   "y": 144,
+   "w": 122,
+   "h": 16
+  },
+  {
+   "x": 797,
+   "y": 144,
+   "w": 150,
+   "h": 16
+  },
+  {
+   "x": 997,
+   "y": 144,
+   "w": 84,
+   "h": 16
+  },
+  {
+   "x": 1131,
+   "y": 144,
+   "w": 134,
+   "h": 16
+  },
+  {
+   "x": 166,
+   "y": 306,
+   "w": 106,
+   "h": 62
+  },
+  {
+   "x": 272,
+   "y": 308,
+   "w": 222,
+   "h": 57
+  },
+  {
+   "x": 166,
+   "y": 364,
+   "w": 394,
+   "h": 57
+  },
+  {
+   "x": 166,
+   "y": 419,
+   "w": 141,
+   "h": 57
+  },
+  {
+   "x": 331,
+   "y": 508,
+   "w": 103,
+   "h": 24
+  },
+  {
+   "x": 246,
+   "y": 752,
+   "w": 311,
+   "h": 69
+  },
+  {
+   "x": 246,
+   "y": 814,
+   "w": 383,
+   "h": 69
+  },
+  {
+   "x": 246,
+   "y": 884,
+   "w": 266,
+   "h": 13
+  },
+  {
+   "x": 416,
+   "y": 936,
+   "w": 126,
+   "h": 24
+  },
+  {
+   "x": 886,
+   "y": 1129,
+   "w": 82,
+   "h": 46
+  },
+  {
+   "x": 886,
+   "y": 1168,
+   "w": 289,
+   "h": 87
+  },
+  {
+   "x": 886,
+   "y": 1243,
+   "w": 213,
+   "h": 87
+  },
+  {
+   "x": 1099,
+   "y": 1243,
+   "w": 28,
+   "h": 87
+  },
+  {
+   "x": 886,
+   "y": 1383,
+   "w": 448,
+   "h": 24
+  },
+  {
+   "x": 886,
+   "y": 1409,
+   "w": 129,
+   "h": 24
+  },
+  {
+   "x": 1016,
+   "y": 1408,
+   "w": 7,
+   "h": 25
+  },
+  {
+   "x": 1023,
+   "y": 1409,
+   "w": 353,
+   "h": 24
+  },
+  {
+   "x": 886,
+   "y": 1435,
+   "w": 318,
+   "h": 24
+  },
+  {
+   "x": 1204,
+   "y": 1434,
+   "w": 7,
+   "h": 25
+  },
+  {
+   "x": 1211,
+   "y": 1435,
+   "w": 161,
+   "h": 24
+  },
+  {
+   "x": 886,
+   "y": 1461,
+   "w": 57,
+   "h": 24
+  },
+  {
+   "x": 916,
+   "y": 1527,
+   "w": 156,
+   "h": 24
+  },
+  {
+   "x": 150,
+   "y": 1888,
+   "w": 799,
+   "h": 49
+  },
+  {
+   "x": 237,
+   "y": 2202,
+   "w": 252,
+   "h": 24
+  },
+  {
+   "x": 237,
+   "y": 2226,
+   "w": 226,
+   "h": 24
+  },
+  {
+   "x": 267,
+   "y": 2317,
+   "w": 90,
+   "h": 19
+  },
+  {
+   "x": 579,
+   "y": 2202,
+   "w": 280,
+   "h": 24
+  },
+  {
+   "x": 579,
+   "y": 2226,
+   "w": 36,
+   "h": 24
+  },
+  {
+   "x": 609,
+   "y": 2317,
+   "w": 90,
+   "h": 19
+  },
+  {
+   "x": 921,
+   "y": 2202,
+   "w": 184,
+   "h": 23
+  },
+  {
+   "x": 1105,
+   "y": 2202,
+   "w": 22,
+   "h": 24
+  },
+  {
+   "x": 921,
+   "y": 2226,
+   "w": 263,
+   "h": 24
+  },
+  {
+   "x": 921,
+   "y": 2250,
+   "w": 271,
+   "h": 23
+  },
+  {
+   "x": 951,
+   "y": 2317,
+   "w": 90,
+   "h": 19
+  },
+  {
+   "x": 1263,
+   "y": 2202,
+   "w": 207,
+   "h": 24
+  },
+  {
+   "x": 1263,
+   "y": 2226,
+   "w": 226,
+   "h": 24
+  },
+  {
+   "x": 1293,
+   "y": 2317,
+   "w": 90,
+   "h": 19
+  },
+  {
+   "x": 150,
+   "y": 2477,
+   "w": 272,
+   "h": 46
+  },
+  {
+   "x": 422,
+   "y": 2476,
+   "w": 422,
+   "h": 49
+  },
+  {
+   "x": 215,
+   "y": 2612,
+   "w": 256,
+   "h": 39
+  },
+  {
+   "x": 215,
+   "y": 2654,
+   "w": 243,
+   "h": 18
+  },
+  {
+   "x": 800,
+   "y": 2612,
+   "w": 261,
+   "h": 39
+  },
+  {
+   "x": 800,
+   "y": 2654,
+   "w": 424,
+   "h": 18
+  },
+  {
+   "x": 150,
+   "y": 3186,
+   "w": 491,
+   "h": 59
+  },
+  {
+   "x": 150,
+   "y": 3470,
+   "w": 180,
+   "h": 55
+  },
+  {
+   "x": 512,
+   "y": 3287,
+   "w": 35,
+   "h": 29
+  },
+  {
+   "x": 482,
+   "y": 3337,
+   "w": 96,
+   "h": 29
+  },
+  {
+   "x": 482,
+   "y": 3387,
+   "w": 96,
+   "h": 29
+  },
+  {
+   "x": 487,
+   "y": 3437,
+   "w": 86,
+   "h": 29
+  },
+  {
+   "x": 383,
+   "y": 3468,
+   "w": 295,
+   "h": 59
+  },
+  {
+   "x": 487,
+   "y": 3539,
+   "w": 87,
+   "h": 29
+  },
+  {
+   "x": 476,
+   "y": 3589,
+   "w": 108,
+   "h": 29
+  },
+  {
+   "x": 460,
+   "y": 3639,
+   "w": 140,
+   "h": 29
+  },
+  {
+   "x": 503,
+   "y": 3689,
+   "w": 54,
+   "h": 29
+  },
+  {
+   "x": 740,
+   "y": 3468,
+   "w": 122,
+   "h": 59
+  },
+  {
+   "x": 975,
+   "y": 3486,
+   "w": 112,
+   "h": 24
+  },
+  {
+   "x": 931,
+   "y": 3555,
+   "w": 200,
+   "h": 19
+  },
+  {
+   "x": 150,
+   "y": 3902,
+   "w": 247,
+   "h": 55
+  },
+  {
+   "x": 150,
+   "y": 3952,
+   "w": 190,
+   "h": 59
+  },
+  {
+   "x": 150,
+   "y": 4049,
+   "w": 457,
+   "h": 24
+  },
+  {
+   "x": 150,
+   "y": 4075,
+   "w": 455,
+   "h": 24
+  },
+  {
+   "x": 150,
+   "y": 4101,
+   "w": 104,
+   "h": 24
+  },
+  {
+   "x": 180,
+   "y": 4181,
+   "w": 112,
+   "h": 24
+  },
+  {
+   "x": 150,
+   "y": 4490,
+   "w": 280,
+   "h": 59
+  },
+  {
+   "x": 230,
+   "y": 4875,
+   "w": 192,
+   "h": 32
+  },
+  {
+   "x": 230,
+   "y": 4959,
+   "w": 394,
+   "h": 18
+  },
+  {
+   "x": 230,
+   "y": 4983,
+   "w": 387,
+   "h": 18
+  },
+  {
+   "x": 260,
+   "y": 5055,
+   "w": 107,
+   "h": 24
+  },
+  {
+   "x": 815,
+   "y": 4876,
+   "w": 363,
+   "h": 32
+  },
+  {
+   "x": 815,
+   "y": 4906,
+   "w": 246,
+   "h": 32
+  },
+  {
+   "x": 815,
+   "y": 4960,
+   "w": 363,
+   "h": 18
+  },
+  {
+   "x": 815,
+   "y": 4984,
+   "w": 290,
+   "h": 18
+  },
+  {
+   "x": 845,
+   "y": 5056,
+   "w": 107,
+   "h": 24
+  },
+  {
+   "x": 150,
+   "y": 5257,
+   "w": 255,
+   "h": 25
+  },
+  {
+   "x": 150,
+   "y": 5345,
+   "w": 196,
+   "h": 32
+  },
+  {
+   "x": 150,
+   "y": 5400,
+   "w": 101,
+   "h": 30
+  },
+  {
+   "x": 410,
+   "y": 5400,
+   "w": 103,
+   "h": 30
+  },
+  {
+   "x": 670,
+   "y": 5400,
+   "w": 175,
+   "h": 30
+  },
+  {
+   "x": 930,
+   "y": 5395,
+   "w": 282,
+   "h": 32
+  },
+  {
+   "x": 930,
+   "y": 5468,
+   "w": 177,
+   "h": 18
+  },
+  {
+   "x": 930,
+   "y": 5500,
+   "w": 153,
+   "h": 18
+  },
+  {
+   "x": 930,
+   "y": 5532,
+   "w": 289,
+   "h": 18
+  },
+  {
+   "x": 930,
+   "y": 5564,
+   "w": 163,
+   "h": 18
+  },
+  {
+   "x": 930,
+   "y": 5628,
+   "w": 203,
+   "h": 32
+  },
+  {
+   "x": 930,
+   "y": 5701,
+   "w": 85,
+   "h": 18
+  },
+  {
+   "x": 150,
+   "y": 5763,
+   "w": 49,
+   "h": 15
+  },
+  {
+   "x": 204,
+   "y": 5765,
+   "w": 70,
+   "h": 13
+  },
+  {
+   "x": 287,
+   "y": 5765,
+   "w": 48,
+   "h": 13
+  },
+  {
+   "x": 349,
+   "y": 5765,
+   "w": 41,
+   "h": 13
+  },
+  {
+   "x": 404,
+   "y": 5765,
+   "w": 44,
+   "h": 13
+  },
+  {
+   "x": 461,
+   "y": 5765,
+   "w": 83,
+   "h": 13
+  },
+  {
+   "x": 150,
+   "y": 5964,
+   "w": 135,
+   "h": 13
+  },
+  {
+   "x": 298,
+   "y": 5964,
+   "w": 113,
+   "h": 13
+  },
+  {
+   "x": 425,
+   "y": 5964,
+   "w": 209,
+   "h": 13
+  },
+  {
+   "x": 648,
+   "y": 5964,
+   "w": 45,
+   "h": 13
+  },
+  {
+   "x": 706,
+   "y": 5964,
+   "w": 42,
+   "h": 13
+  },
+  {
+   "x": 762,
+   "y": 5964,
+   "w": 215,
+   "h": 13
+  },
+  {
+   "x": 991,
+   "y": 5964,
+   "w": 122,
+   "h": 13
+  },
+  {
+   "x": 150,
+   "y": 5996,
+   "w": 293,
+   "h": 13
+  },
+  {
+   "x": 457,
+   "y": 5996,
+   "w": 468,
+   "h": 13
+  },
+  {
+   "x": 939,
+   "y": 5996,
+   "w": 149,
+   "h": 13
+  },
+  {
+   "x": 1242,
+   "y": 5964,
+   "w": 48,
+   "h": 13
+  }
+ ],
+ "groups": [
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "n": 199,
+   "clipper": "div.picker__scroll",
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "tough stains",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "n": 198,
+   "clipper": "div.picker__scroll",
+   "path": "div.picker.picker--desktop > div.picker__scroll > div.picker__list > button.picker__item",
+   "text": "tough stains",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.rail__viewport",
+   "path": "div.rail__viewport > ul.rail__track > li.rail__item > a.card",
+   "text": "tide signs space act agreement with nasalearn more",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "a.card",
+   "path": "div.card__content > div.card__text > p > strong",
+   "text": "tide signs space act agreement with nasa",
+   "cutMin": 49,
+   "cutMax": 49
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "a.card",
+   "path": "a.card > div.card__content > div.card__cta > span",
+   "text": "learn more",
+   "cutMin": 0,
+   "cutMax": 0
+  }
+ ],
+ "tier": "chrome"
+}

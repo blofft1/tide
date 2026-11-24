@@ -1,0 +1,157 @@
+{
+  "a": "stardust/replica/gates/all-360/en-us-shop-type-laundry-booster/origin.png",
+  "b": "stardust/replica/gates/all-360/en-us-shop-type-laundry-booster/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 4435,
+    "mode": "overlap"
+  },
+  "heightDelta": -30,
+  "differingPixels": 64238,
+  "pct": 4.02,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/en-us-shop-type-laundry-booster/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 6.65,
+  "textBoxes": 93,
+  "textPixels": 332315,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.7
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0.1
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 14.9
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 6.6
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 8.8
+    },
+    {
+      "y0": 4000,
+      "y1": 4435,
+      "pct": 5.4
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 0.76,
+    "differingPixels": 12208,
+    "compared": {
+      "width": 360,
+      "height": 4465,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 2775,
+        "shift": 30,
+        "cumulative": 30
+      }
+    ],
+    "maxOffset": 30,
+    "totalShift": 30,
+    "insertedRows": 30,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.7,
+        "unaligned": 0.7
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 5.7,
+        "unaligned": 14.9
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 6.6
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0,
+        "unaligned": 8.8
+      },
+      {
+        "y0": 4000,
+        "y1": 4435,
+        "pct": 0,
+        "unaligned": 5.4
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/en-us-shop-type-laundry-booster/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 44,
+    "totalShift": 30,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/laundry-booster"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "stages": {
+    "prototype": {
+      "rounds": [
+        {
+          "label": "compare-1",
+          "at": "2026-11-23T21:06:42.799Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "compare-2",
+          "at": "2026-11-23T21:13:48.030Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "compare-3",
+          "at": "2026-11-23T21:20:49.297Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "compare-4",
+          "at": "2026-11-23T21:27:54.005Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "extend",
+          "reason": "instrument defect: compare-3 read build crops from stardust/.work/chrome/header-build/ while the per-width explore runs wrote them to header-build-390/ and header-build-1440/ (merged record) — 9 panel-visual 'no crop' errors are a path artefact; evidence stardust/chrome/header-parity.json",
+          "at": "2026-11-23T21:21:40.210Z",
+          "counted": 3
+        }
+      ]
+    }
+  }
+}

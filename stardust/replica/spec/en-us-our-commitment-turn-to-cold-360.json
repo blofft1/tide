@@ -1,0 +1,449 @@
+{
+ "_provenance": {
+  "writtenBy": "skills/replica/scripts/source-spec.mjs",
+  "writtenAt": "2026-11-24T07:09:21.255Z",
+  "url": "https://tide.com/en-us/our-commitment/turn-to-cold",
+  "width": 360,
+  "main": "main",
+  "locale": "en-US"
+ },
+ "page": {
+  "url": "https://tide.com/en-us/our-commitment/turn-to-cold",
+  "width": 360,
+  "viewport": 360,
+  "docHeight": 9424,
+  "scrollWidth": 360,
+  "root": "main",
+  "rootFallback": false,
+  "records": [
+   "scroll",
+   "shape"
+  ],
+  "rootWrapsChrome": false,
+  "tier": "chrome"
+ },
+ "tokens": {
+  "fonts": [
+   {
+    "stack": "Tide, sans-serif",
+    "n": 73
+   }
+  ],
+  "loadedFaces": [
+   "Tide 400 normal",
+   "Tide 700 normal",
+   "Tide 800 normal"
+  ],
+  "textStyles": [
+   {
+    "key": "16/32 400 Tide",
+    "fontSize": 16,
+    "lineHeight": 32,
+    "fontWeight": "400",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 20,
+    "roles": {
+     "link": 18,
+     "div": 2
+    },
+    "sample": "How to Remove Stains"
+   },
+   {
+    "key": "16/20 400 Tide",
+    "fontSize": 16,
+    "lineHeight": 20,
+    "fontWeight": "400",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 15,
+    "roles": {
+     "p": 15
+    },
+    "sample": "*In non-HE top load washer, deep fill setting, 6 loads/wk from hot to cold, avg…"
+   },
+   {
+    "key": "40/44 800 Tide",
+    "fontSize": 40,
+    "lineHeight": 44,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 6,
+    "roles": {
+     "h2": 6
+    },
+    "sample": "Benefits of washing in cold"
+   },
+   {
+    "key": "22/26 800 Tide",
+    "fontSize": 22,
+    "lineHeight": 26,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 6,
+    "roles": {
+     "link": 3,
+     "p": 3
+    },
+    "sample": "Save money"
+   },
+   {
+    "key": "14/16 700 Tide",
+    "fontSize": 14,
+    "lineHeight": 16,
+    "fontWeight": "700",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 4,
+    "roles": {
+     "li": 2,
+     "button": 2
+    },
+    "sample": "Benefits of washing in cold"
+   },
+   {
+    "key": "28/32 800 Tide",
+    "fontSize": 28,
+    "lineHeight": 32,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 3,
+    "roles": {
+     "span": 3
+    },
+    "sample": "$8,756,467.20"
+   },
+   {
+    "key": "19/24 800 Tide",
+    "fontSize": 19,
+    "lineHeight": 24,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 3,
+    "roles": {
+     "button": 3
+    },
+    "sample": "By Type"
+   },
+   {
+    "key": "16/18 400 Tide",
+    "fontSize": 16,
+    "lineHeight": 18,
+    "fontWeight": "400",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 3,
+    "roles": {
+     "p": 3
+    },
+    "sample": "Savings:"
+   },
+   {
+    "key": "24/32 400 Tide",
+    "fontSize": 24,
+    "lineHeight": 32,
+    "fontWeight": "400",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 2,
+    "roles": {
+     "p": 2
+    },
+    "sample": "How many times would you be willing to wash in cold a week?"
+   },
+   {
+    "key": "20/22 700 Tide",
+    "fontSize": 20,
+    "lineHeight": 22,
+    "fontWeight": "700",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 2,
+    "roles": {
+     "button": 2
+    },
+    "sample": "Calculate"
+   },
+   {
+    "key": "112/124 800 Tide",
+    "fontSize": 112,
+    "lineHeight": 124,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "div": 1
+    },
+    "sample": "?"
+   },
+   {
+    "key": "42/52 800 Tide",
+    "fontSize": 42,
+    "lineHeight": 52,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "label": 1
+    },
+    "sample": "times"
+   },
+   {
+    "key": "40/48 700 Tide",
+    "fontSize": 40,
+    "lineHeight": 48,
+    "fontWeight": "700",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "h1": 1
+    },
+    "sample": "Turn to cold"
+   },
+   {
+    "key": "40/38 800 Tide",
+    "fontSize": 40,
+    "lineHeight": 38,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "p": 1
+    },
+    "sample": "Let’s #TurnToCold together!"
+   },
+   {
+    "key": "24/32 700 Tide",
+    "fontSize": 24,
+    "lineHeight": 32,
+    "fontWeight": "700",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "field": 1
+    },
+    "sample": ""
+   },
+   {
+    "key": "20/26 400 Tide",
+    "fontSize": 20,
+    "lineHeight": 26,
+    "fontWeight": "400",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "p": 1
+    },
+    "sample": "A surprisingly powerful clean in one step—even in cold water. Tide PODS and Tid…"
+   },
+   {
+    "key": "20/24 800 Tide",
+    "fontSize": 20,
+    "lineHeight": 24,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "p": 1
+    },
+    "sample": "Best products for washing in cold"
+   },
+   {
+    "key": "19/19 800 Tide",
+    "fontSize": 19,
+    "lineHeight": 19,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "span": 1
+    },
+    "sample": "Ways to connect with us:"
+   },
+   {
+    "key": "19/26.6 800 Tide",
+    "fontSize": 19,
+    "lineHeight": 26.6,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "span": 1
+    },
+    "sample": "Related:"
+   },
+   {
+    "key": "16/19.2 400 Tide",
+    "fontSize": 16,
+    "lineHeight": 19.2,
+    "fontWeight": "400",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "a": 1
+    },
+    "sample": "In partnership with NFL, we partnered with 16 NFL teams to wash 1 million pound…"
+   }
+  ],
+  "colours": [
+   {
+    "color": "rgb(27, 51, 146)",
+    "n": 22
+   },
+   {
+    "color": "rgb(19, 37, 156)",
+    "n": 20
+   },
+   {
+    "color": "rgb(251, 76, 6)",
+    "n": 16
+   },
+   {
+    "color": "rgb(255, 255, 255)",
+    "n": 15
+   },
+   {
+    "color": "rgb(171, 225, 250)",
+    "n": 1
+   }
+  ],
+  "container": {
+   "left": 0,
+   "right": 0,
+   "content": 360,
+   "leftCommon": {
+    "x": 15,
+    "n": 25
+   }
+  }
+ },
+ "truncated": {
+  "text": 0,
+  "image": 0
+ },
+ "sections": [
+  {"i":0,"region":"header","y":0,"h":61,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"header#site-header","firstText":""},
+  {"i":1,"region":"main","y":61,"h":47,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div#sticky-nav.row.no-gutters","firstText":"Benefits of washing in cold"},
+  {"i":2,"region":"main","y":108,"h":7601,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.dynamic-content-wrapper","firstText":"Turn to cold"},
+  {"i":3,"region":"footer","y":7764,"h":1660,"background":"none","paddingTop":0,"paddingBottom":50,"selectorHint":"footer#site-footer.site-footer","firstText":"Ways to connect with us:"}
+ ],
+ "nodes": [
+  {"section":0,"region":"header","kind":"image","tag":"img","role":"link","text":"Tide logo","x":157,"y":7,"w":47,"h":47,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[150,150],"src":"https://tide.com/images/brand_main_logo.svg","href":"/en-us","scroll":"fixed 0"},
+  {"section":0,"region":"header","kind":"image","tag":"svg","role":"button","text":"","x":310,"y":15,"w":30,"h":30,"fit":"fill","shape":{"pos":"50% 50%"},"scroll":"fixed 0"},
+  {"section":1,"region":"main","kind":"text","tag":"li","role":null,"text":"Benefits of washing in cold","x":15,"y":61,"w":188,"h":46,"fontFamily":"Tide","fontSize":14,"lineHeight":16,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":1,"region":"main","kind":"control","tag":"span","role":"button","text":"Benefits of washing in cold","x":15,"y":61,"w":188,"h":46,"fontFamily":"Tide","fontSize":14,"lineHeight":16,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"li","role":null,"text":"Joining forces to drive next impactful eco-habit","x":243,"y":61,"w":332,"h":46,"fontFamily":"Tide","fontSize":14,"lineHeight":16,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":1,"region":"main","kind":"control","tag":"span","role":"button","text":"Joining forces to drive next impactful eco-habit","x":243,"y":61,"w":332,"h":46,"fontFamily":"Tide","fontSize":14,"lineHeight":16,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":2,"region":"main","kind":"image","tag":"picture","role":null,"text":"Turn to Cold with Tide","x":0,"y":108,"w":575,"h":400,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[575,400],"src":"https://images.ctfassets.net/ajjw8wywicb3/2Lkq479uvbX9gP9Tdbewsz/f77cae9c9b9846160d7643de8f28213c/Tide_turn-to-cold_hero_20240409_default.jpg?fm=webp"},
+  {"section":2,"region":"main","kind":"text","tag":"h1","role":"h1","text":"Turn to cold","x":15,"y":328,"w":239,"h":100,"fontFamily":"Tide","fontSize":40,"lineHeight":48,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"A surprisingly powerful clean in one step—even in cold water. Tide PODS and Tid…","x":40,"y":483,"w":280,"h":312,"fontFamily":"Tide","fontSize":20,"lineHeight":26,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":12},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"*In non-HE top load washer, deep fill setting, 6 loads/wk from hot to cold, avg…","x":15,"y":825,"w":330,"h":60,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":3},
+  {"section":2,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Benefits of washing in cold","x":15,"y":920,"w":330,"h":88,"fontFamily":"Tide","fontSize":40,"lineHeight":44,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":2},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Washing in cold is not only beneficial for you and your wallet, but for the env…","x":15,"y":1028,"w":330,"h":60,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":3},
+  {"section":2,"region":"main","kind":"image","tag":"picture","role":null,"text":"Woman with a piggy bank","x":0,"y":1118,"w":360,"h":302,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[370,310],"src":"https://images.ctfassets.net/ajjw8wywicb3/3iZk8V20YpHZLq0HjX7tz4/df5576df5ca3029e8132d66acaff0cd4/TIDE_ColdWater_Landing_DT_img_01.jpg?fm=webp"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Save money","x":40,"y":1395,"w":280,"h":26,"fontFamily":"Tide","fontSize":22,"lineHeight":26,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1,"href":"/en-us/our-commitment"},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Every load adds up on your energy bill, especially for families. With Tide, you…","x":40,"y":1436,"w":280,"h":160,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":8},
+  {"section":2,"region":"main","kind":"image","tag":"picture","role":null,"text":"How to save energy","x":0,"y":1651,"w":360,"h":311,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[370,320],"src":"https://images.ctfassets.net/ajjw8wywicb3/72jyEmLVqwkPNsNCPvf2II/0a8778d11437500effbeb815500ba33e/Wash_05_370x320.jpg?fm=webp"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Save energy","x":40,"y":1937,"w":280,"h":26,"fontFamily":"Tide","fontSize":22,"lineHeight":26,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-do-laundry"},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Washing in cold is a small act that can add up to big impact. Switching from ho…","x":40,"y":1978,"w":280,"h":140,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":7},
+  {"section":2,"region":"main","kind":"image","tag":"picture","role":null,"text":"Tide Hygienic Clean Heavy Duty 10X Power PODS® Original Scent - 48 count, color…","x":0,"y":2173,"w":360,"h":302,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[370,310],"src":"https://images.ctfassets.net/ajjw8wywicb3/IWJvB84t6cdxTmB2mqxzs/925e2e6dd0f6058cc5e86cc3c2ffa21f/TIDE_ColdWater_Landing_img03_20240304.jpg?fm=webp"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Get a powerful clean","x":40,"y":2450,"w":280,"h":26,"fontFamily":"Tide","fontSize":22,"lineHeight":26,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1,"href":"/en-us/shop"},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Get great results, no matter the water temperature. Tide is specially designed …","x":40,"y":2491,"w":280,"h":140,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":7},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"**In non-HE top load washer, deep fill setting, 6 loads/wk from hot to cold, av…","x":15,"y":2691,"w":330,"h":60,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":3},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"***On average, when switching from hot to cold,and warm to cold water","x":15,"y":2767,"w":330,"h":40,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":2},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"****Tide Power PODS® in cold vs. leading bargain detergent in warm.","x":15,"y":2823,"w":330,"h":41,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":2},
+  {"section":2,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Turn to Cold with Tide","x":15,"y":2899,"w":330,"h":88,"fontFamily":"Tide","fontSize":40,"lineHeight":44,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":2},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Did you know that washing in cold water can reduce your energy use by 90%?* Put…","x":15,"y":3007,"w":330,"h":160,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":8},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"*on average, when switching from hot to cold water","x":15,"y":3183,"w":330,"h":40,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":2},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"**based on average American household electricity consumption, as reported by t…","x":15,"y":3239,"w":330,"h":80,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":4},
+  {"section":2,"region":"main","kind":"image","tag":"picture","role":null,"text":"Turn to Cold with Tide","x":15,"y":3349,"w":330,"h":152,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[894,412],"src":"https://images.ctfassets.net/ajjw8wywicb3/6E1QT7rMtxVY2MINU1Wn0T/ecc0e46f8d9f2f69be10b8545ade9c76/Tide_Doubtfire_Hero_DT_894x412.jpg?fm=webp"},
+  {"section":2,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Try the personal calculator and save money","x":15,"y":3536,"w":330,"h":176,"fontFamily":"Tide","fontSize":40,"lineHeight":44,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":4},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"If you’ve been thinking about washing in cold water, here’s how you can calcula…","x":15,"y":3732,"w":330,"h":140,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":7},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"How many times would you be willing to wash in cold a week?","x":15,"y":3956,"w":330,"h":96,"fontFamily":"Tide","fontSize":24,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":3},
+  {"section":2,"region":"main","kind":"control","tag":"input","role":"field","text":"","x":49,"y":4079,"w":120,"h":46,"fontFamily":"Tide","fontSize":24,"lineHeight":32,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(27, 51, 146)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"label","role":null,"text":"times","x":189,"y":4076,"w":122,"h":52,"fontFamily":"Tide","fontSize":42,"lineHeight":52,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":2,"region":"main","kind":"control","tag":"button","role":"button","text":"Calculate","x":105,"y":4168,"w":151,"h":42,"fontFamily":"Tide","fontSize":20,"lineHeight":22,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Based on average electricity rate, the amount you saved this week by switching …","x":15,"y":4234,"w":330,"h":128,"fontFamily":"Tide","fontSize":24,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":4},
+  {"section":2,"region":"main","kind":"text","tag":"div","role":null,"text":"?","x":0,"y":4386,"w":360,"h":124,"fontFamily":"Tide","fontSize":112,"lineHeight":124,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":2,"region":"main","kind":"image","tag":"picture","role":null,"text":"A blue piggy bank","x":15,"y":4540,"w":330,"h":153,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[375,174],"src":"https://images.ctfassets.net/ajjw8wywicb3/1uBuuOni4x8npqItB6QHog/89b4fcacbee43e5c49ce34af0d58a719/turn-to-cold-piggy-mobile.png?fm=webp"},
+  {"section":2,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Joining forces to drive next impactful eco-habit: washing in cold","x":15,"y":4728,"w":330,"h":220,"fontFamily":"Tide","fontSize":40,"lineHeight":44,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":5},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Tide and WWF have an answer for the 3 in 4 Americans who say they are looking f…","x":15,"y":4968,"w":330,"h":220,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":11},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"*Based on an April 2022 survey commissioned by Tide and WWF","x":15,"y":5204,"w":330,"h":40,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":2},
+  {"section":2,"region":"main","kind":"image","tag":"picture","role":null,"text":"Joining forces","x":15,"y":5274,"w":330,"h":152,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[894,412],"src":"https://images.ctfassets.net/ajjw8wywicb3/4Ocyy2cs4xWlH4mFUv0m7H/ff29d977f7efe26da4ea8d090699e824/shutterstock_1320289265_894x412_144dpi_0413.jpg?fm=webp"},
+  {"section":2,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Starting a #TurntoCold Movement","x":15,"y":5461,"w":330,"h":132,"fontFamily":"Tide","fontSize":40,"lineHeight":44,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":3},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"We’ve engaged some of the most iconic, influential brands and organizations in …","x":15,"y":5613,"w":330,"h":100,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":5},
+  {"section":2,"region":"main","kind":"image","tag":"picture","role":null,"text":"","x":42,"y":5778,"w":277,"h":180,"fit":"cover","shape":{"pos":"50% 50%","r":"14px","by":[277,390]},"natural":[360,302],"src":"https://images.ctfassets.net/ajjw8wywicb3/3Kl92TXfWSx6UEoOHWpBSh/c07911db1565d972d8427edc3e2e8be7/Tide_NFL_logo_1.jpg?fm=webp"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":null,"text":"In partnership with NFL, we partnered with 16 NFL teams to wash 1 million pound…","x":42,"y":5748,"w":277,"h":390,"fontFamily":"Tide","fontSize":16,"lineHeight":19.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":8},
+  {"section":2,"region":"main","kind":"image","tag":"svg","role":"button","text":"","x":31,"y":5938,"w":11,"h":18,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":2,"region":"main","kind":"image","tag":"svg","role":"button","text":"","x":318,"y":5938,"w":11,"h":18,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":2,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Take the pledge","x":15,"y":6203,"w":330,"h":44,"fontFamily":"Tide","fontSize":40,"lineHeight":44,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Let’s #TurnToCold together!","x":15,"y":6307,"w":330,"h":114,"fontFamily":"Tide","fontSize":40,"lineHeight":38,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(171, 225, 250)","lines":3},
+  {"section":2,"region":"main","kind":"image","tag":"picture","role":null,"text":"Turn to Cold dial","x":68,"y":6466,"w":225,"h":211,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[451,423],"src":"https://tide.com/images/turn-to-cold-dial.png"},
+  {"section":2,"region":"main","kind":"image","tag":"picture","role":null,"text":"Turn to Cold button","x":70,"y":6461,"w":251,"h":252,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[398,395],"src":"https://tide.com/images/turn-to-cold-button.png"},
+  {"section":2,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":19,"y":6723,"w":46,"h":70,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Savings:","x":97,"y":6729,"w":198,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"span","role":null,"text":"$8,756,467.20","x":97,"y":6754,"w":198,"h":34,"fontFamily":"Tide","fontSize":28,"lineHeight":32,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1},
+  {"section":2,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":29,"y":6818,"w":26,"h":73,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Phones recharged:","x":97,"y":6826,"w":245,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"span","role":null,"text":"2,356,949,088.00","x":97,"y":6851,"w":245,"h":34,"fontFamily":"Tide","fontSize":28,"lineHeight":32,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1},
+  {"section":2,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":19,"y":6919,"w":46,"h":53,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"CO2 saved:","x":97,"y":6916,"w":191,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"span","role":null,"text":"18,426,001.92","x":97,"y":6941,"w":191,"h":34,"fontFamily":"Tide","fontSize":28,"lineHeight":32,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1},
+  {"section":2,"region":"main","kind":"control","tag":"button","role":"button","text":"Take the Pledge","x":70,"y":6999,"w":219,"h":42,"fontFamily":"Tide","fontSize":20,"lineHeight":22,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Best products for washing in cold","x":15,"y":7126,"w":330,"h":48,"fontFamily":"Tide","fontSize":20,"lineHeight":24,"fontWeight":"800","letterSpacing":0.75,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":2},
+  {"section":2,"region":"main","kind":"image","tag":"picture","role":"link","text":"","x":50,"y":7364,"w":260,"h":260,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[520,520],"src":"https://images.ctfassets.net/ajjw8wywicb3/56wEsEYwsCzaEjNcEAwsac/0cb139918bbf538950aabdcc60333aa3/Tide_Value_SUD_HC_EN-US_listing_520x520.png?fm=webp","href":"/en-us/shop/type/laundry-pods/tide-hygienic-clean-heavy-duty-10x-power-pods-original"},
+  {"section":3,"region":"footer","kind":"text","tag":"span","role":null,"text":"Ways to connect with us:","x":15,"y":7784,"w":242,"h":19,"fontFamily":"Tide","fontSize":19,"lineHeight":19,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":3,"region":"footer","kind":"image","tag":"img","role":"link","text":"Facebook icon","x":15,"y":7823,"w":32,"h":32,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[32,32],"src":"https://tide.com/images/social_facebook.svg","href":"https://www.facebook.com/Tide?fref=ts"},
+  {"section":3,"region":"footer","kind":"image","tag":"img","role":"link","text":"Twitter icon","x":62,"y":7823,"w":32,"h":32,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[32,32],"src":"https://tide.com/images/social_twitter.svg","href":"https://twitter.com/tide"},
+  {"section":3,"region":"footer","kind":"image","tag":"img","role":"link","text":"Pinterest icon","x":109,"y":7823,"w":32,"h":32,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[32,32],"src":"https://tide.com/images/social_pinterest.svg","href":"https://www.pinterest.com/tide/"},
+  {"section":3,"region":"footer","kind":"image","tag":"img","role":"link","text":"YouTube icon","x":156,"y":7823,"w":32,"h":32,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[32,32],"src":"https://tide.com/images/social_youtube.svg","href":"https://www.youtube.com/channel/UCEPeWPjaF1CWCKXa3xTp7vw"},
+  {"section":3,"region":"footer","kind":"text","tag":"p","role":null,"text":"Shop Products","x":15,"y":7915,"w":330,"h":51,"fontFamily":"Tide","fontSize":22,"lineHeight":26,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1},
+  {"section":3,"region":"footer","kind":"control","tag":"div","role":"button","text":"By Type","x":15,"y":8008,"w":330,"h":24,"fontFamily":"Tide","fontSize":19,"lineHeight":24,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(251, 76, 6)","lines":1},
+  {"section":3,"region":"footer","kind":"image","tag":"svg","role":"button","text":"","x":310,"y":8016,"w":15,"h":8,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":3,"region":"footer","kind":"control","tag":"div","role":"button","text":"By Need","x":15,"y":8092,"w":330,"h":24,"fontFamily":"Tide","fontSize":19,"lineHeight":24,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(251, 76, 6)","lines":1},
+  {"section":3,"region":"footer","kind":"image","tag":"svg","role":"button","text":"","x":310,"y":8100,"w":15,"h":8,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":3,"region":"footer","kind":"control","tag":"div","role":"button","text":"Top Collection","x":15,"y":8176,"w":330,"h":24,"fontFamily":"Tide","fontSize":19,"lineHeight":24,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(251, 76, 6)","lines":1},
+  {"section":3,"region":"footer","kind":"image","tag":"svg","role":"button","text":"","x":310,"y":8184,"w":15,"h":8,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":3,"region":"footer","kind":"text","tag":"p","role":null,"text":"How to Wash Clothes","x":15,"y":8268,"w":330,"h":51,"fontFamily":"Tide","fontSize":22,"lineHeight":26,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"How to Remove Stains","x":15,"y":8336,"w":177,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"How to Do Laundry","x":15,"y":8368,"w":153,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-do-laundry"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Washing Different Fabrics and Colors","x":15,"y":8400,"w":289,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Washing Machine 101","x":15,"y":8432,"w":163,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/how-to-wash-clothes/washing-machine-101"},
+  {"section":3,"region":"footer","kind":"text","tag":"p","role":null,"text":"Help & Support","x":15,"y":8497,"w":330,"h":51,"fontFamily":"Tide","fontSize":22,"lineHeight":26,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Contact Us","x":15,"y":8565,"w":85,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/contact-us"},
+  {"section":3,"region":"footer","kind":"text","tag":"span","role":null,"text":"Related:","x":15,"y":8661,"w":81,"h":24,"fontFamily":"Tide","fontSize":19,"lineHeight":26.6,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"P&G Brands","x":15,"y":8694,"w":93,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"http://pg.com/en_US"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"MrClean","x":123,"y":8694,"w":64,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://www.mrclean.com/en-us"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Downy","x":202,"y":8694,"w":54,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"http://www.downy.com/en-us"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Bounce","x":271,"y":8694,"w":58,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"http://www.bouncefresh.com/"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"P&G Everyday","x":15,"y":8726,"w":110,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"http://www.pgeveryday.com/tag/tide"},
+  {"section":3,"region":"footer","kind":"image","tag":"picture","role":"link","text":"Good Housekeeping icon","x":18,"y":8796,"w":82,"h":62,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[82,62],"src":"https://tide.com/images/footer_GoodHousekeeping.webp","href":"http://www.goodhousekeeping.com/product-reviews/history/welcome-gh-seal"},
+  {"section":3,"region":"footer","kind":"image","tag":"picture","role":"link","text":"BBB icon","x":130,"y":8796,"w":38,"h":62,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[38,62],"src":"https://tide.com/images/footer_BBB.webp","href":"https://www.bbb.org/cincinnati/business-reviews/detergent/the-procter-gamble-company-in-cincinnati-oh-3036"},
+  {"section":3,"region":"footer","kind":"image","tag":"picture","role":"link","text":"Junk Food icon","x":198,"y":8796,"w":58,"h":62,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[58,62],"src":"https://tide.com/images/footer_JunkFood.webp","href":"http://www.junkfoodclothing.com/"},
+  {"section":3,"region":"footer","kind":"image","tag":"picture","role":"link","text":"Tide Cleaners icon","x":286,"y":8796,"w":56,"h":62,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[56,62],"src":"https://tide.com/images/footer_TideCleaners.webp","href":"https://www.tidecleaners.com/"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Accessibility Statement","x":15,"y":8915,"w":179,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://accessibility.pg.com/en-US"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Terms & Conditions","x":15,"y":8947,"w":150,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://termsandconditions.pg.com/en-us/"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Tide Rewards Terms and Conditions","x":15,"y":8979,"w":279,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/rewards/loyalty/terms-and-conditions"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Careers","x":15,"y":9011,"w":60,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://www.pgcareers.com/"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Privacy","x":90,"y":9011,"w":56,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://privacypolicy.pg.com/en-US/#statePrivacyNotice"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Consumer Health Data Privacy Policy","x":15,"y":9043,"w":287,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://privacypolicy.pg.com/CHD-en"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Your Privacy Choices","x":15,"y":9075,"w":187,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://preferencecenter.pg.com/"},
+  {"section":3,"region":"footer","kind":"text","tag":"div","role":null,"text":"NOTICE: We may sell your sensitive personal data.","x":15,"y":9100,"w":325,"h":64,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":2},
+  {"section":3,"region":"footer","kind":"text","tag":"div","role":null,"text":"© 2026 Procter & Gamble","x":15,"y":9260,"w":199,"h":32,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Sitemap","x":15,"y":9342,"w":64,"h":32,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/sitemap"}
+ ]
+}

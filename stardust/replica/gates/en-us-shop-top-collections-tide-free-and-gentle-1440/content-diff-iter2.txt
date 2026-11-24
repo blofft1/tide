@@ -1,0 +1,20 @@
+
+Content diff @ 1440px (profile "generic", roots: .tide-collection-page, header, footer)
+root ".tide-collection-page"
+  source: 87 text nodes — 7 headings, 0 eyebrows, 8 CTAs, 72 body; 16 img
+  build: 87 text nodes — 7 headings, 0 eyebrows, 8 CTAs, 72 body; 16 img
+  editable texts (outermost h*/p/ul/ol): source 28 / build 28
+  attributes (placeholder/aria-label/title): source 57 / build 57; icons: source 36 / build 36
+root "header"
+  source: 53 text nodes — 0 headings, 0 eyebrows, 47 CTAs, 6 body; 4 img
+  build: 53 text nodes — 0 headings, 0 eyebrows, 47 CTAs, 6 body; 4 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 0
+  attributes (placeholder/aria-label/title): source 51 / build 51; icons: source 6 / build 6
+root "footer"
+  source: 29 text nodes — 0 headings, 0 eyebrows, 18 CTAs, 11 body; 8 img
+  build: 29 text nodes — 0 headings, 0 eyebrows, 18 CTAs, 11 body; 8 img
+  editable texts (outermost h*/p/ul/ol): source 3 / build 3
+  attributes (placeholder/aria-label/title): source 25 / build 25; icons: source 10 / build 10
+
+Findings: none — content + roles match
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 0

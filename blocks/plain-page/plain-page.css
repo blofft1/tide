@@ -1,0 +1,31 @@
+/* plain-page — a bare source document (tide.com /health-probe): no header, no footer,
+   no site stylesheet; the browser's default rendering (body margin 8px, serif 16px, UA h1). */
+body.plain-page {
+  margin: 8px;
+  color: canvastext;
+  background: canvas;
+  font: revert;
+}
+
+body.plain-page > header,
+body.plain-page > footer {
+  display: none;
+}
+
+body.plain-page main {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+body.plain-page main > .section.plain-page-section,
+.plain-page-wrapper,
+.plain-page,
+.plain-page > div,
+.plain-page > div > div {
+  display: contents;
+}
+
+.plain-page :is(h1, h2, h3, h4, h5, h6, p) {
+  all: revert;
+}

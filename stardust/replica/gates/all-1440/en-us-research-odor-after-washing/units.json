@@ -1,0 +1,924 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-24T09:41:15.754Z",
+  "tol": 4,
+  "n": 5,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://tide.com/en-us/research/odor-after-washing",
+  "at": "2026-11-24T03:15:13.859Z",
+  "docH": 6395
+ },
+ "eds": {
+  "url": "https://main--5db7d055--aemcoder.aem.page/en-us/research/odor-after-washing",
+  "at": "2026-11-24T09:41:15.636Z",
+  "docH": 6364
+ },
+ "results": [
+  {
+   "sel": ".faqs .faq-item=.faq-accordion .faq-accordion-item",
+   "family": null,
+   "required": true,
+   "originMatches": 7,
+   "edsMatches": 7,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.faqs > div.col-12 > div.faq-item"
+     },
+     "eds": {
+      "path": "div.container > div.faq-accordion-list > div#what-are-the-primary-chemical-pathways-responsible-for-the-generation-of-malodor"
+     },
+     "rows": [
+      {
+       "key": "button:what are the primary chemical pathways r",
+       "role": "button",
+       "text": "what are the primary chemical pathways responsible for the g",
+       "edsText": "what are the primary chemical pathways responsible for the g",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 81
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 81,
+        "sel": "div.faq-accordion-question",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1115,
+        "y": 52,
+        "w": 15,
+        "h": 8
+       },
+       "eds": {
+        "x": 1115,
+        "y": 52,
+        "w": 15,
+        "h": 8,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 150,
+       "y": 4468,
+       "w": 1140,
+       "h": 81
+      },
+      "eds": {
+       "x": 150,
+       "y": 4489,
+       "w": 1140,
+       "h": 81
+      },
+      "dx": 0,
+      "dy": 21,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.faqs > div.col-12 > div.faq-item"
+     },
+     "eds": {
+      "path": "div.container > div.faq-accordion-list > div#how-does-the-presence-of-copper-cu2-accelerate-malodor-formation"
+     },
+     "rows": [
+      {
+       "key": "button:how does the presence of copper (cu2+) a",
+       "role": "button",
+       "text": "how does the presence of copper (cu2+) accelerate malodor fo",
+       "edsText": "how does the presence of copper (cu2+) accelerate malodor fo",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 51
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 51,
+        "sel": "div.faq-accordion-question",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1115,
+        "y": 22,
+        "w": 15,
+        "h": 8
+       },
+       "eds": {
+        "x": 1115,
+        "y": 22,
+        "w": 15,
+        "h": 8,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 150,
+       "y": 4579,
+       "w": 1140,
+       "h": 51
+      },
+      "eds": {
+       "x": 150,
+       "y": 4600,
+       "w": 1140,
+       "h": 51
+      },
+      "dx": 0,
+      "dy": 21,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.faqs > div.col-12 > div.faq-item"
+     },
+     "eds": {
+      "path": "div.container > div.faq-accordion-list > div#what-is-the-specific-function-of-each-part-of-this-dual-strategy-approach-to-rem"
+     },
+     "rows": [
+      {
+       "key": "button:what is the specific function of each pa",
+       "role": "button",
+       "text": "what is the specific function of each part of this “dual-str",
+       "edsText": "what is the specific function of each part of this “dual-str",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 81
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 81,
+        "sel": "div.faq-accordion-question",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1115,
+        "y": 52,
+        "w": 15,
+        "h": 8
+       },
+       "eds": {
+        "x": 1115,
+        "y": 52,
+        "w": 15,
+        "h": 8,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 150,
+       "y": 4660,
+       "w": 1140,
+       "h": 81
+      },
+      "eds": {
+       "x": 150,
+       "y": 4681,
+       "w": 1140,
+       "h": 81
+      },
+      "dx": 0,
+      "dy": 21,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.faqs > div.col-12 > div.faq-item"
+     },
+     "eds": {
+      "path": "div.container > div.faq-accordion-list > div#why-are-oleophilic-textiles-like-synthetics-more-susceptible-to-malodor-retentio"
+     },
+     "rows": [
+      {
+       "key": "button:why are oleophilic textiles like synthet",
+       "role": "button",
+       "text": "why are oleophilic textiles like synthetics more susceptible",
+       "edsText": "why are oleophilic textiles like synthetics more susceptible",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 51
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 51,
+        "sel": "div.faq-accordion-question",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1115,
+        "y": 22,
+        "w": 15,
+        "h": 8
+       },
+       "eds": {
+        "x": 1115,
+        "y": 22,
+        "w": 15,
+        "h": 8,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 150,
+       "y": 4771,
+       "w": 1140,
+       "h": 51
+      },
+      "eds": {
+       "x": 150,
+       "y": 4792,
+       "w": 1140,
+       "h": 51
+      },
+      "dx": 0,
+      "dy": 21,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.faqs > div.col-12 > div.faq-item"
+     },
+     "eds": {
+      "path": "div.container > div.faq-accordion-list > div#what-are-the-limitations-of-using-acetic-acid-vinegar-for-malodor-control-compar"
+     },
+     "rows": [
+      {
+       "key": "button:what are the limitations of using acetic",
+       "role": "button",
+       "text": "what are the limitations of using acetic acid (vinegar) for ",
+       "edsText": "what are the limitations of using acetic acid (vinegar) for ",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 81
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 81,
+        "sel": "div.faq-accordion-question",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1115,
+        "y": 52,
+        "w": 15,
+        "h": 8
+       },
+       "eds": {
+        "x": 1115,
+        "y": 52,
+        "w": 15,
+        "h": 8,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 150,
+       "y": 4852,
+       "w": 1140,
+       "h": 81
+      },
+      "eds": {
+       "x": 150,
+       "y": 4873,
+       "w": 1140,
+       "h": 81
+      },
+      "dx": 0,
+      "dy": 21,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": "#sticky-nav li=.jump-links li",
+   "family": null,
+   "required": true,
+   "originMatches": 8,
+   "edsMatches": 8,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "nav > ul > li"
+     },
+     "eds": {
+      "path": "nav > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:executive summary:",
+       "role": "button",
+       "text": "executive summary:",
+       "edsText": "executive summary:",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 143,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 143,
+        "h": 46,
+        "sel": "span.jump-links-item",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/700",
+        "eds": "14/16/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 150,
+       "y": 175,
+       "w": 143,
+       "h": 46
+      },
+      "eds": {
+       "x": 150,
+       "y": 175,
+       "w": 143,
+       "h": 46
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "nav > ul > li"
+     },
+     "eds": {
+      "path": "nav > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:1.0 introduction: redefining \"clean\" in ",
+       "role": "button",
+       "text": "1.0 introduction: redefining \"clean\" in modern laundry",
+       "edsText": "1.0 introduction: redefining \"clean\" in modern laundry",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 382,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 382,
+        "h": 46,
+        "sel": "span.jump-links-item",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/700",
+        "eds": "14/16/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 333,
+       "y": 175,
+       "w": 382,
+       "h": 46
+      },
+      "eds": {
+       "x": 333,
+       "y": 175,
+       "w": 382,
+       "h": 46
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "nav > ul > li"
+     },
+     "eds": {
+      "path": "nav > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:2.0 the dual pathways of malodor formati",
+       "role": "button",
+       "text": "2.0 the dual pathways of malodor formation",
+       "edsText": "2.0 the dual pathways of malodor formation",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 46,
+        "sel": "span.jump-links-item",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/700",
+        "eds": "14/16/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 755,
+       "y": 175,
+       "w": 312,
+       "h": 46
+      },
+      "eds": {
+       "x": 755,
+       "y": 175,
+       "w": 312,
+       "h": 46
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "nav > ul > li"
+     },
+     "eds": {
+      "path": "nav > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:3.0 the influence of modern textiles",
+       "role": "button",
+       "text": "3.0 the influence of modern textiles",
+       "edsText": "3.0 the influence of modern textiles",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 251,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 251,
+        "h": 46,
+        "sel": "span.jump-links-item",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/700",
+        "eds": "14/16/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1107,
+       "y": 175,
+       "w": 251,
+       "h": 46
+      },
+      "eds": {
+       "x": 1107,
+       "y": 175,
+       "w": 251,
+       "h": 46
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "nav > ul > li"
+     },
+     "eds": {
+      "path": "nav > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:4.0 a systematic approach to malodor con",
+       "role": "button",
+       "text": "4.0 a systematic approach to malodor control: inhibition, re",
+       "edsText": "4.0 a systematic approach to malodor control: inhibition, re",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 581,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 581,
+        "h": 46,
+        "sel": "span.jump-links-item",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/700",
+        "eds": "14/16/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1398,
+       "y": 175,
+       "w": 581,
+       "h": 46
+      },
+      "eds": {
+       "x": 1398,
+       "y": 175,
+       "w": 581,
+       "h": 46
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 10,
+  "within": 15,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

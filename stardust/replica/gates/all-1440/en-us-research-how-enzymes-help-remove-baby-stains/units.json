@@ -1,0 +1,821 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-24T09:37:59.430Z",
+  "tol": 4,
+  "n": 5,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://tide.com/en-us/research/how-enzymes-help-remove-baby-stains",
+  "at": "2026-11-24T03:10:06.782Z",
+  "docH": 3302
+ },
+ "eds": {
+  "url": "https://main--5db7d055--aemcoder.aem.page/en-us/research/how-enzymes-help-remove-baby-stains",
+  "at": "2026-11-24T09:37:59.151Z",
+  "docH": 3303
+ },
+ "results": [
+  {
+   "sel": ".faqs .faq-item=.faq-accordion .faq-accordion-item",
+   "family": null,
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.faqs > div.col-12 > div.faq-item"
+     },
+     "eds": {
+      "path": "div.container > div.faq-accordion-list > div#how-do-enzymes-help-remove-baby-stains"
+     },
+     "rows": [
+      {
+       "key": "button:how do enzymes help remove baby stains?",
+       "role": "button",
+       "text": "how do enzymes help remove baby stains?",
+       "edsText": "how do enzymes help remove baby stains?",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 51
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 51,
+        "sel": "div.faq-accordion-question",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1115,
+        "y": 22,
+        "w": 15,
+        "h": 8
+       },
+       "eds": {
+        "x": 1115,
+        "y": 22,
+        "w": 15,
+        "h": 8,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 150,
+       "y": 1934,
+       "w": 1140,
+       "h": 51
+      },
+      "eds": {
+       "x": 150,
+       "y": 1934,
+       "w": 1140,
+       "h": 51
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.faqs > div.col-12 > div.faq-item"
+     },
+     "eds": {
+      "path": "div.container > div.faq-accordion-list > div#which-baby-stains-may-contain-protein"
+     },
+     "rows": [
+      {
+       "key": "button:which baby stains may contain protein?",
+       "role": "button",
+       "text": "which baby stains may contain protein?",
+       "edsText": "which baby stains may contain protein?",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 51
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 51,
+        "sel": "div.faq-accordion-question",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1115,
+        "y": 22,
+        "w": 15,
+        "h": 8
+       },
+       "eds": {
+        "x": 1115,
+        "y": 22,
+        "w": 15,
+        "h": 8,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 150,
+       "y": 2015,
+       "w": 1140,
+       "h": 51
+      },
+      "eds": {
+       "x": 150,
+       "y": 2015,
+       "w": 1140,
+       "h": 51
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.faqs > div.col-12 > div.faq-item"
+     },
+     "eds": {
+      "path": "div.container > div.faq-accordion-list > div#are-enzymes-enough-to-clean-baby-stains-by-themselves"
+     },
+     "rows": [
+      {
+       "key": "button:are enzymes enough to clean baby stains ",
+       "role": "button",
+       "text": "are enzymes enough to clean baby stains by themselves?",
+       "edsText": "are enzymes enough to clean baby stains by themselves?",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 51
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 51,
+        "sel": "div.faq-accordion-question",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1115,
+        "y": 22,
+        "w": 15,
+        "h": 8
+       },
+       "eds": {
+        "x": 1115,
+        "y": 22,
+        "w": 15,
+        "h": 8,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 150,
+       "y": 2096,
+       "w": 1140,
+       "h": 51
+      },
+      "eds": {
+       "x": 150,
+       "y": 2096,
+       "w": 1140,
+       "h": 51
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.faqs > div.col-12 > div.faq-item"
+     },
+     "eds": {
+      "path": "div.container > div.faq-accordion-list > div#can-an-enzyme-containing-detergent-still-be-gentle"
+     },
+     "rows": [
+      {
+       "key": "button:can an enzyme-containing detergent still",
+       "role": "button",
+       "text": "can an enzyme-containing detergent still be gentle?",
+       "edsText": "can an enzyme-containing detergent still be gentle?",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 51
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 51,
+        "sel": "div.faq-accordion-question",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1115,
+        "y": 22,
+        "w": 15,
+        "h": 8
+       },
+       "eds": {
+        "x": 1115,
+        "y": 22,
+        "w": 15,
+        "h": 8,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 150,
+       "y": 2177,
+       "w": 1140,
+       "h": 51
+      },
+      "eds": {
+       "x": 150,
+       "y": 2177,
+       "w": 1140,
+       "h": 51
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": "#sticky-nav li=.jump-links li",
+   "family": null,
+   "required": true,
+   "originMatches": 5,
+   "edsMatches": 5,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "nav > ul > li"
+     },
+     "eds": {
+      "path": "nav > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:baby stains are mixed soils",
+       "role": "button",
+       "text": "baby stains are mixed soils",
+       "edsText": "baby stains are mixed soils",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 188,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 188,
+        "h": 46,
+        "sel": "span.jump-links-item",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/700",
+        "eds": "14/16/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 150,
+       "y": 175,
+       "w": 188,
+       "h": 46
+      },
+      "eds": {
+       "x": 150,
+       "y": 175,
+       "w": 188,
+       "h": 46
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "nav > ul > li"
+     },
+     "eds": {
+      "path": "nav > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:why formulation matters more than a sing",
+       "role": "button",
+       "text": "why formulation matters more than a single ingredient",
+       "edsText": "why formulation matters more than a single ingredient",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 46,
+        "sel": "span.jump-links-item",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/700",
+        "eds": "14/16/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 378,
+       "y": 175,
+       "w": 384,
+       "h": 46
+      },
+      "eds": {
+       "x": 378,
+       "y": 175,
+       "w": 384,
+       "h": 46
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "nav > ul > li"
+     },
+     "eds": {
+      "path": "nav > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:cleaning performance is part of fabric c",
+       "role": "button",
+       "text": "cleaning performance is part of fabric care",
+       "edsText": "cleaning performance is part of fabric care",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 299,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 299,
+        "h": 46,
+        "sel": "span.jump-links-item",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/700",
+        "eds": "14/16/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 802,
+       "y": 175,
+       "w": 299,
+       "h": 46
+      },
+      "eds": {
+       "x": 802,
+       "y": 175,
+       "w": 299,
+       "h": 46
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "nav > ul > li"
+     },
+     "eds": {
+      "path": "nav > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:key takeaway",
+       "role": "button",
+       "text": "key takeaway",
+       "edsText": "key takeaway",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 97,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 97,
+        "h": 46,
+        "sel": "span.jump-links-item",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/700",
+        "eds": "14/16/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1142,
+       "y": 175,
+       "w": 97,
+       "h": 46
+      },
+      "eds": {
+       "x": 1142,
+       "y": 175,
+       "w": 97,
+       "h": 46
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "nav > ul > li"
+     },
+     "eds": {
+      "path": "nav > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:frequently asked questions",
+       "role": "button",
+       "text": "frequently asked questions",
+       "edsText": "frequently asked questions",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 198,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 198,
+        "h": 46,
+        "sel": "span.jump-links-item",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/700",
+        "eds": "14/16/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1278,
+       "y": 175,
+       "w": 198,
+       "h": 46
+      },
+      "eds": {
+       "x": 1278,
+       "y": 175,
+       "w": 198,
+       "h": 46
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 9,
+  "within": 13,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

@@ -1,0 +1,273 @@
+{
+ "_provenance": {
+  "writtenBy": "skills/replica/scripts/source-spec.mjs",
+  "writtenAt": "2026-11-23T23:09:02.164Z",
+  "url": "https://tide.com/en-us/click2cart/0060001",
+  "width": 360,
+  "main": "main",
+  "locale": "en-US"
+ },
+ "page": {
+  "url": "https://tide.com/en-us/click2cart/0060001",
+  "width": 360,
+  "viewport": 360,
+  "docHeight": 2575,
+  "scrollWidth": 360,
+  "root": "main, [role=\"main\"]",
+  "rootFallback": true,
+  "records": [
+   "scroll",
+   "shape"
+  ],
+  "rootWrapsChrome": false,
+  "tier": "chrome"
+ },
+ "tokens": {
+  "fonts": [
+   {
+    "stack": "Tide, sans-serif",
+    "n": 28
+   },
+   {
+    "stack": "Poppins",
+    "n": 8
+   }
+  ],
+  "loadedFaces": [
+   "FontAwesome 400 normal",
+   "Poppins 400 normal",
+   "Poppins 700 normal",
+   "Poppins 300 normal",
+   "Tide 400 normal",
+   "Tide 800 normal"
+  ],
+  "textStyles": [
+   {
+    "key": "16/32 400 Tide",
+    "fontSize": 16,
+    "lineHeight": 32,
+    "fontWeight": "400",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 20,
+    "roles": {
+     "link": 18,
+     "div": 2
+    },
+    "sample": "How to Remove Stains"
+   },
+   {
+    "key": "18/24 400 Poppins",
+    "fontSize": 18,
+    "lineHeight": 24,
+    "fontWeight": "400",
+    "fontFamily": "Poppins",
+    "textTransform": "none",
+    "n": 4,
+    "roles": {
+     "button": 4
+    },
+    "sample": "TARGET"
+   },
+   {
+    "key": "22/26 800 Tide",
+    "fontSize": 22,
+    "lineHeight": 26,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 3,
+    "roles": {
+     "p": 3
+    },
+    "sample": "Shop Products"
+   },
+   {
+    "key": "19/24 800 Tide",
+    "fontSize": 19,
+    "lineHeight": 24,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 3,
+    "roles": {
+     "div": 3
+    },
+    "sample": "By Type"
+   },
+   {
+    "key": "24/28.8 400 Poppins",
+    "fontSize": 24,
+    "lineHeight": 28.8,
+    "fontWeight": "400",
+    "fontFamily": "Poppins",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "h1": 1
+    },
+    "sample": "Grab Tide from your favorite store!"
+   },
+   {
+    "key": "19/19 800 Tide",
+    "fontSize": 19,
+    "lineHeight": 19,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "span": 1
+    },
+    "sample": "Ways to connect with us:"
+   },
+   {
+    "key": "19/26.6 800 Tide",
+    "fontSize": 19,
+    "lineHeight": 26.6,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "span": 1
+    },
+    "sample": "Related:"
+   },
+   {
+    "key": "16/22.4 400 Poppins",
+    "fontSize": 16,
+    "lineHeight": 22.4,
+    "fontWeight": "400",
+    "fontFamily": "Poppins",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "button": 1
+    },
+    "sample": "95141"
+   },
+   {
+    "key": "14/24 400 Poppins",
+    "fontSize": 14,
+    "lineHeight": 24,
+    "fontWeight": "400",
+    "fontFamily": "Poppins",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "button": 1
+    },
+    "sample": "45 ct"
+   },
+   {
+    "key": "12/16.8 300 Poppins",
+    "fontSize": 12,
+    "lineHeight": 16.8,
+    "fontWeight": "300",
+    "fontFamily": "Poppins",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "link": 1
+    },
+    "sample": "Privacy Policy"
+   }
+  ],
+  "colours": [
+   {
+    "color": "rgb(19, 37, 156)",
+    "n": 20
+   },
+   {
+    "color": "rgb(251, 76, 6)",
+    "n": 8
+   },
+   {
+    "color": "rgb(255, 255, 255)",
+    "n": 6
+   },
+   {
+    "color": "rgb(0, 0, 0)",
+    "n": 1
+   },
+   {
+    "color": "rgb(77, 77, 77)",
+    "n": 1
+   }
+  ],
+  "container": {
+   "left": 20,
+   "right": 20,
+   "content": 320,
+   "leftCommon": {
+    "x": 26,
+    "n": 3
+   }
+  }
+ },
+ "truncated": {
+  "text": 0,
+  "image": 0
+ },
+ "sections": [
+  {"i":0,"region":"main","y":0,"h":845,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div#scrolling-container.scrolling-container","firstText":"Grab Tide from your favorite store!"},
+  {"i":1,"region":"main","y":845,"h":55,"background":"rgb(255, 255, 255)","paddingTop":0,"paddingBottom":0,"selectorHint":"app-enhanced-footer","firstText":"95141"},
+  {"i":2,"region":"footer","y":920,"h":1655,"background":"rgb(255, 255, 255)","paddingTop":0,"paddingBottom":50,"selectorHint":"footer#site-footer.site-footer","firstText":"Ways to connect with us:"}
+ ],
+ "nodes": [
+  {"section":0,"region":"main","kind":"image","tag":"img","role":null,"text":"ShopperChoice Hero asset","x":0,"y":0,"w":360,"h":360,"fit":"fill","shape":{"pos":"50% 50%","r":"4px 4px 0px 0px"},"natural":[2000,2000],"src":"https://s3-us-west-2.amazonaws.com/smartcommerce.co/images_sc_background/6/4357b8d6-90f6-4b4c-96c6-bf03b6a6e6a6.jpeg"},
+  {"section":0,"region":"main","kind":"text","tag":"p","role":"h1","text":"Grab Tide from your favorite store!","x":20,"y":391,"w":320,"h":58,"fontFamily":"Poppins","fontSize":24,"lineHeight":28.8,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(0, 0, 0)","lines":2},
+  {"section":0,"region":"main","kind":"image","tag":"img","role":"button","text":"Target logo","x":26,"y":475,"w":60,"h":60,"fit":"fill","shape":{"pos":"50% 50%","r":"5px"},"natural":[127,127],"src":"https://click2cart.com/img/supers/sc/us/small/target_usa_dark.svg"},
+  {"section":0,"region":"main","kind":"control","tag":"div","role":"button","text":"TARGET","x":26,"y":475,"w":308,"h":60,"fontFamily":"Poppins","fontSize":18,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1},
+  {"section":0,"region":"main","kind":"image","tag":"img","role":"button","text":"Instacart logo","x":26,"y":555,"w":60,"h":60,"fit":"fill","shape":{"pos":"50% 50%","r":"5px"},"natural":[150,150],"src":"https://click2cart.com/img/supers/sc/us/small/instacart_usa_dark.svg"},
+  {"section":0,"region":"main","kind":"text","tag":"span","role":"button","text":"INSTACART","x":98,"y":562,"w":96,"h":48,"fontFamily":"Poppins","fontSize":18,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":2},
+  {"section":0,"region":"main","kind":"text","tag":"span","role":"button","text":"45 ct","x":98,"y":586,"w":35,"h":24,"fontFamily":"Poppins","fontSize":14,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1},
+  {"section":0,"region":"main","kind":"image","tag":"img","role":"button","text":"Amazon logo","x":26,"y":635,"w":60,"h":60,"fit":"fill","shape":{"pos":"50% 50%","r":"5px"},"natural":[150,150],"src":"https://click2cart.com/img/supers/sc/us/small/amazon_usa_dark.svg"},
+  {"section":0,"region":"main","kind":"control","tag":"div","role":"button","text":"AMAZON","x":26,"y":635,"w":308,"h":60,"fontFamily":"Poppins","fontSize":18,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1},
+  {"section":0,"region":"main","kind":"image","tag":"img","role":"button","text":"Walmart logo","x":26,"y":715,"w":60,"h":60,"fit":"fill","shape":{"pos":"50% 50%","r":"5px"},"natural":[150,150],"src":"https://click2cart.com/img/supers/sc/us/small/walmart_usa_dark.svg"},
+  {"section":0,"region":"main","kind":"control","tag":"div","role":"button","text":"WALMART","x":26,"y":715,"w":308,"h":60,"fontFamily":"Poppins","fontSize":18,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"span","role":"button","text":"95141","x":34,"y":850,"w":40,"h":22,"fontFamily":"Poppins","fontSize":16,"lineHeight":22.4,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1},
+  {"section":1,"region":"main","kind":"image","tag":"img","role":null,"text":"Click2Cart logo","x":223,"y":850,"w":107,"h":20,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[145,27],"src":"https://click2cart.com/assets/img/c2c-logo.svg?20261113T073522707015"},
+  {"section":1,"region":"main","kind":"control","tag":"a","role":"link","text":"Privacy Policy","x":140,"y":875,"w":80,"h":17,"fontFamily":"Poppins","fontSize":12,"lineHeight":16.8,"fontWeight":"300","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(77, 77, 77)","lines":1,"href":"https://www.smartcommerce.com/privacy-policy"},
+  {"section":2,"region":"footer","kind":"text","tag":"span","role":null,"text":"Ways to connect with us:","x":15,"y":940,"w":242,"h":19,"fontFamily":"Tide","fontSize":19,"lineHeight":19,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":2,"region":"footer","kind":"image","tag":"img","role":"link","text":"Facebook icon","x":15,"y":979,"w":32,"h":32,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[32,32],"src":"https://tide.com/images/social_facebook.svg","href":"https://www.facebook.com/Tide?fref=ts"},
+  {"section":2,"region":"footer","kind":"image","tag":"img","role":"link","text":"Twitter icon","x":62,"y":979,"w":32,"h":32,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[32,32],"src":"https://tide.com/images/social_twitter.svg","href":"https://twitter.com/tide"},
+  {"section":2,"region":"footer","kind":"image","tag":"img","role":"link","text":"Pinterest icon","x":109,"y":979,"w":32,"h":32,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[32,32],"src":"https://tide.com/images/social_pinterest.svg","href":"https://www.pinterest.com/tide/"},
+  {"section":2,"region":"footer","kind":"image","tag":"img","role":"link","text":"YouTube icon","x":156,"y":979,"w":32,"h":32,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[32,32],"src":"https://tide.com/images/social_youtube.svg","href":"https://www.youtube.com/channel/UCEPeWPjaF1CWCKXa3xTp7vw"},
+  {"section":2,"region":"footer","kind":"text","tag":"p","role":null,"text":"Shop Products","x":15,"y":1071,"w":330,"h":51,"fontFamily":"Tide","fontSize":22,"lineHeight":26,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1},
+  {"section":2,"region":"footer","kind":"text","tag":"div","role":null,"text":"By Type","x":15,"y":1164,"w":330,"h":24,"fontFamily":"Tide","fontSize":19,"lineHeight":24,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(251, 76, 6)","lines":1},
+  {"section":2,"region":"footer","kind":"image","tag":"svg","role":null,"text":"","x":310,"y":1172,"w":15,"h":8,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":2,"region":"footer","kind":"text","tag":"div","role":null,"text":"By Need","x":15,"y":1248,"w":330,"h":24,"fontFamily":"Tide","fontSize":19,"lineHeight":24,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(251, 76, 6)","lines":1},
+  {"section":2,"region":"footer","kind":"image","tag":"svg","role":null,"text":"","x":310,"y":1256,"w":15,"h":8,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":2,"region":"footer","kind":"text","tag":"div","role":null,"text":"Top Collection","x":15,"y":1332,"w":330,"h":24,"fontFamily":"Tide","fontSize":19,"lineHeight":24,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(251, 76, 6)","lines":1},
+  {"section":2,"region":"footer","kind":"image","tag":"svg","role":null,"text":"","x":310,"y":1340,"w":15,"h":8,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":2,"region":"footer","kind":"text","tag":"p","role":null,"text":"How to Wash Clothes","x":15,"y":1424,"w":330,"h":51,"fontFamily":"Tide","fontSize":22,"lineHeight":26,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1},
+  {"section":2,"region":"footer","kind":"control","tag":"a","role":"link","text":"How to Remove Stains","x":15,"y":1492,"w":177,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains"},
+  {"section":2,"region":"footer","kind":"control","tag":"a","role":"link","text":"How to Do Laundry","x":15,"y":1524,"w":153,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-do-laundry"},
+  {"section":2,"region":"footer","kind":"control","tag":"a","role":"link","text":"Washing Different Fabrics and Colors","x":15,"y":1556,"w":289,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors"},
+  {"section":2,"region":"footer","kind":"control","tag":"a","role":"link","text":"Washing Machine 101","x":15,"y":1588,"w":163,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/how-to-wash-clothes/washing-machine-101"},
+  {"section":2,"region":"footer","kind":"text","tag":"p","role":null,"text":"Help & Support","x":15,"y":1653,"w":330,"h":51,"fontFamily":"Tide","fontSize":22,"lineHeight":26,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1},
+  {"section":2,"region":"footer","kind":"control","tag":"a","role":"link","text":"Contact Us","x":15,"y":1721,"w":85,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/contact-us"},
+  {"section":2,"region":"footer","kind":"text","tag":"span","role":null,"text":"Related:","x":15,"y":1817,"w":81,"h":24,"fontFamily":"Tide","fontSize":19,"lineHeight":26.6,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1},
+  {"section":2,"region":"footer","kind":"control","tag":"a","role":"link","text":"P&G Brands","x":15,"y":1850,"w":93,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"http://pg.com/en_US"},
+  {"section":2,"region":"footer","kind":"control","tag":"a","role":"link","text":"MrClean","x":123,"y":1850,"w":64,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://www.mrclean.com/en-us"},
+  {"section":2,"region":"footer","kind":"control","tag":"a","role":"link","text":"Downy","x":202,"y":1850,"w":54,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"http://www.downy.com/en-us"},
+  {"section":2,"region":"footer","kind":"control","tag":"a","role":"link","text":"Bounce","x":271,"y":1850,"w":58,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"http://www.bouncefresh.com/"},
+  {"section":2,"region":"footer","kind":"control","tag":"a","role":"link","text":"P&G Everyday","x":15,"y":1882,"w":110,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"http://www.pgeveryday.com/tag/tide"},
+  {"section":2,"region":"footer","kind":"image","tag":"picture","role":"link","text":"Good Housekeeping icon","x":18,"y":1952,"w":82,"h":62,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[82,62],"src":"https://tide.com/images/footer_GoodHousekeeping.webp","href":"http://www.goodhousekeeping.com/product-reviews/history/welcome-gh-seal"},
+  {"section":2,"region":"footer","kind":"image","tag":"picture","role":"link","text":"BBB icon","x":130,"y":1952,"w":38,"h":62,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[38,62],"src":"https://tide.com/images/footer_BBB.webp","href":"https://www.bbb.org/cincinnati/business-reviews/detergent/the-procter-gamble-company-in-cincinnati-oh-3036"},
+  {"section":2,"region":"footer","kind":"image","tag":"picture","role":"link","text":"Junk Food icon","x":198,"y":1952,"w":58,"h":62,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[58,62],"src":"https://tide.com/images/footer_JunkFood.webp","href":"http://www.junkfoodclothing.com/"},
+  {"section":2,"region":"footer","kind":"image","tag":"picture","role":"link","text":"Tide Cleaners icon","x":286,"y":1952,"w":56,"h":62,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[56,62],"src":"https://tide.com/images/footer_TideCleaners.webp","href":"https://www.tidecleaners.com/"},
+  {"section":2,"region":"footer","kind":"control","tag":"a","role":"link","text":"Accessibility Statement","x":15,"y":2066,"w":179,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":""},
+  {"section":2,"region":"footer","kind":"control","tag":"a","role":"link","text":"Terms & Conditions","x":15,"y":2098,"w":150,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://termsandconditions.pg.com/en-us/"},
+  {"section":2,"region":"footer","kind":"control","tag":"a","role":"link","text":"Tide Rewards Terms and Conditions","x":15,"y":2130,"w":279,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/rewards/loyalty/terms-and-conditions"},
+  {"section":2,"region":"footer","kind":"control","tag":"a","role":"link","text":"Careers","x":15,"y":2162,"w":60,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://www.pgcareers.com/"},
+  {"section":2,"region":"footer","kind":"control","tag":"a","role":"link","text":"Privacy","x":90,"y":2162,"w":56,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://privacypolicy.pg.com/en-US/#statePrivacyNotice"},
+  {"section":2,"region":"footer","kind":"control","tag":"a","role":"link","text":"Consumer Health Data Privacy Policy","x":15,"y":2194,"w":287,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://privacypolicy.pg.com/CHD-en"},
+  {"section":2,"region":"footer","kind":"control","tag":"a","role":"link","text":"Your Privacy Choices","x":15,"y":2226,"w":187,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://preferencecenter.pg.com/"},
+  {"section":2,"region":"footer","kind":"text","tag":"div","role":null,"text":"NOTICE: We may sell your sensitive personal data.","x":15,"y":2251,"w":325,"h":64,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":2},
+  {"section":2,"region":"footer","kind":"text","tag":"div","role":null,"text":"© 2026 Procter & Gamble","x":15,"y":2411,"w":199,"h":32,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1},
+  {"section":2,"region":"footer","kind":"control","tag":"a","role":"link","text":"Sitemap","x":15,"y":2493,"w":64,"h":32,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/sitemap"}
+ ]
+}

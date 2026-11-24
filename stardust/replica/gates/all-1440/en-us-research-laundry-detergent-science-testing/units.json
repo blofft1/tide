@@ -1,0 +1,924 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-24T09:39:13.397Z",
+  "tol": 4,
+  "n": 5,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://tide.com/en-us/research/laundry-detergent-science-testing",
+  "at": "2026-11-24T03:11:50.156Z",
+  "docH": 5130
+ },
+ "eds": {
+  "url": "https://main--5db7d055--aemcoder.aem.page/en-us/research/laundry-detergent-science-testing",
+  "at": "2026-11-24T09:39:13.262Z",
+  "docH": 5002
+ },
+ "results": [
+  {
+   "sel": ".faqs .faq-item=.faq-accordion .faq-accordion-item",
+   "family": null,
+   "required": true,
+   "originMatches": 10,
+   "edsMatches": 10,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.faqs > div.col-12 > div.faq-item"
+     },
+     "eds": {
+      "path": "div.container > div.faq-accordion-list > div#is-tide-safe-to-use-for-everyday-laundry"
+     },
+     "rows": [
+      {
+       "key": "button:is tide safe to use for everyday laundry",
+       "role": "button",
+       "text": "is tide safe to use for everyday laundry?",
+       "edsText": "is tide safe to use for everyday laundry?",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 51
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 51,
+        "sel": "div.faq-accordion-question",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1115,
+        "y": 22,
+        "w": 15,
+        "h": 8
+       },
+       "eds": {
+        "x": 1115,
+        "y": 22,
+        "w": 15,
+        "h": 8,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 150,
+       "y": 3276,
+       "w": 1140,
+       "h": 51
+      },
+      "eds": {
+       "x": 150,
+       "y": 3147,
+       "w": 1140,
+       "h": 51
+      },
+      "dx": 0,
+      "dy": -129,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.faqs > div.col-12 > div.faq-item"
+     },
+     "eds": {
+      "path": "div.container > div.faq-accordion-list > div#how-does-tide-test-its-ingredients-for-safety"
+     },
+     "rows": [
+      {
+       "key": "button:how does tide test its ingredients for s",
+       "role": "button",
+       "text": "how does tide test its ingredients for safety?",
+       "edsText": "how does tide test its ingredients for safety?",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 51
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 51,
+        "sel": "div.faq-accordion-question",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1115,
+        "y": 22,
+        "w": 15,
+        "h": 8
+       },
+       "eds": {
+        "x": 1115,
+        "y": 22,
+        "w": 15,
+        "h": 8,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 150,
+       "y": 3357,
+       "w": 1140,
+       "h": 51
+      },
+      "eds": {
+       "x": 150,
+       "y": 3228,
+       "w": 1140,
+       "h": 51
+      },
+      "dx": 0,
+      "dy": -129,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.faqs > div.col-12 > div.faq-item"
+     },
+     "eds": {
+      "path": "div.container > div.faq-accordion-list > div#what-is-hazard-identification-in-detergent-safety"
+     },
+     "rows": [
+      {
+       "key": "button:what is hazard identification in deterge",
+       "role": "button",
+       "text": "what is hazard identification in detergent safety?",
+       "edsText": "what is hazard identification in detergent safety?",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 51
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 51,
+        "sel": "div.faq-accordion-question",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1115,
+        "y": 22,
+        "w": 15,
+        "h": 8
+       },
+       "eds": {
+        "x": 1115,
+        "y": 22,
+        "w": 15,
+        "h": 8,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 150,
+       "y": 3438,
+       "w": 1140,
+       "h": 51
+      },
+      "eds": {
+       "x": 150,
+       "y": 3309,
+       "w": 1140,
+       "h": 51
+      },
+      "dx": 0,
+      "dy": -129,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.faqs > div.col-12 > div.faq-item"
+     },
+     "eds": {
+      "path": "div.container > div.faq-accordion-list > div#what-does-noel-mean-in-product-safety-testing"
+     },
+     "rows": [
+      {
+       "key": "button:what does noel mean in product safety te",
+       "role": "button",
+       "text": "what does noel mean in product safety testing?",
+       "edsText": "what does noel mean in product safety testing?",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 51
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 51,
+        "sel": "div.faq-accordion-question",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1115,
+        "y": 22,
+        "w": 15,
+        "h": 8
+       },
+       "eds": {
+        "x": 1115,
+        "y": 22,
+        "w": 15,
+        "h": 8,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 150,
+       "y": 3519,
+       "w": 1140,
+       "h": 51
+      },
+      "eds": {
+       "x": 150,
+       "y": 3390,
+       "w": 1140,
+       "h": 51
+      },
+      "dx": 0,
+      "dy": -129,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.faqs > div.col-12 > div.faq-item"
+     },
+     "eds": {
+      "path": "div.container > div.faq-accordion-list > div#how-do-scientists-determine-safe-exposure-from-laundry-detergents"
+     },
+     "rows": [
+      {
+       "key": "button:how do scientists determine safe exposur",
+       "role": "button",
+       "text": "how do scientists determine safe exposure from laundry deter",
+       "edsText": "how do scientists determine safe exposure from laundry deter",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 51
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 51,
+        "sel": "div.faq-accordion-question",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1115,
+        "y": 22,
+        "w": 15,
+        "h": 8
+       },
+       "eds": {
+        "x": 1115,
+        "y": 22,
+        "w": 15,
+        "h": 8,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 150,
+       "y": 3600,
+       "w": 1140,
+       "h": 51
+      },
+      "eds": {
+       "x": 150,
+       "y": 3471,
+       "w": 1140,
+       "h": 51
+      },
+      "dx": 0,
+      "dy": -129,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": "#sticky-nav li=.jump-links li",
+   "family": null,
+   "required": true,
+   "originMatches": 6,
+   "edsMatches": 6,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "nav > ul > li"
+     },
+     "eds": {
+      "path": "nav > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:the four-step safety promise",
+       "role": "button",
+       "text": "the four-step safety promise",
+       "edsText": "the four-step safety promise",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 209,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 209,
+        "h": 46,
+        "sel": "span.jump-links-item",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/700",
+        "eds": "14/16/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 150,
+       "y": 175,
+       "w": 209,
+       "h": 46
+      },
+      "eds": {
+       "x": 150,
+       "y": 175,
+       "w": 209,
+       "h": 46
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "nav > ul > li"
+     },
+     "eds": {
+      "path": "nav > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:practicing responsible chemistry",
+       "role": "button",
+       "text": "practicing responsible chemistry",
+       "edsText": "practicing responsible chemistry",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 234,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 234,
+        "h": 46,
+        "sel": "span.jump-links-item",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/700",
+        "eds": "14/16/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 399,
+       "y": 175,
+       "w": 234,
+       "h": 46
+      },
+      "eds": {
+       "x": 399,
+       "y": 175,
+       "w": 234,
+       "h": 46
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "nav > ul > li"
+     },
+     "eds": {
+      "path": "nav > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:a note on safe storage",
+       "role": "button",
+       "text": "a note on safe storage",
+       "edsText": "a note on safe storage",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 164,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 164,
+        "h": 46,
+        "sel": "span.jump-links-item",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/700",
+        "eds": "14/16/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 673,
+       "y": 175,
+       "w": 164,
+       "h": 46
+      },
+      "eds": {
+       "x": 673,
+       "y": 175,
+       "w": 164,
+       "h": 46
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "nav > ul > li"
+     },
+     "eds": {
+      "path": "nav > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:key highlights",
+       "role": "button",
+       "text": "key highlights",
+       "edsText": "key highlights",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 100,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 100,
+        "h": 46,
+        "sel": "span.jump-links-item",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/700",
+        "eds": "14/16/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 877,
+       "y": 175,
+       "w": 100,
+       "h": 46
+      },
+      "eds": {
+       "x": 877,
+       "y": 175,
+       "w": 100,
+       "h": 46
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "nav > ul > li"
+     },
+     "eds": {
+      "path": "nav > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:4-step safety assessment process summary",
+       "role": "button",
+       "text": "4-step safety assessment process summary",
+       "edsText": "4-step safety assessment process summary",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 315,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 315,
+        "h": 46,
+        "sel": "span.jump-links-item",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/700",
+        "eds": "14/16/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1017,
+       "y": 175,
+       "w": 315,
+       "h": 46
+      },
+      "eds": {
+       "x": 1017,
+       "y": 175,
+       "w": 315,
+       "h": 46
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 10,
+  "within": 15,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

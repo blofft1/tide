@@ -1,0 +1,45 @@
+[live-session] waiting to pace live navigations to tide.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+unit-geometry @ 1440px, tol 4px — https://tide.com/en-us/research/best-quality-detergent vs http://localhost:8791/en-us-research-best-quality-detergent-proposed.html
+unit 1 of article-faq-item (required) .single-column-faq .faq-item=.faqs .faq: origin 150,8243 1140×51 vs served 150,8243 1140×51 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "in simple terms, what is the best qu" | 0,0 1140×51 | 0,0 1140×51 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 1115,22 15×8 | 1115,22 15×8 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of article-faq-item (required) .single-column-faq .faq-item=.faqs .faq: origin 150,8324 1140×51 vs served 150,8324 1140×51 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "do more "suds" or "foam" mean a dete" | 0,0 1140×51 | 0,0 1140×51 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 1115,22 15×8 | 1115,22 15×8 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of article-faq-item (required) .single-column-faq .faq-item=.faqs .faq: origin 150,8405 1140×51 vs served 150,8405 1140×51 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "if a detergent has a strong, pleasan" | 0,0 1140×51 | 0,0 1140×51 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 1115,22 15×8 | 1115,22 15×8 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of article-faq-item (required) .single-column-faq .faq-item=.faqs .faq: origin 150,8486 1140×51 vs served 150,8486 1140×51 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "why are enzymes like cellulase, amyl" | 0,0 1140×51 | 0,0 1140×51 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 1115,22 15×8 | 1115,22 15×8 | 0 | 0 | 0 | 0 | ✓ |
+unit 5 of article-faq-item (required) .single-column-faq .faq-item=.faqs .faq: origin 150,8567 1140×51 vs served 150,8567 1140×51 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "is a "mild" or "natural" detergent a" | 0,0 1140×51 | 0,0 1140×51 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 1115,22 15×8 | 1115,22 15×8 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of article-jump-nav-item (required) #sticky-nav li=#sticky-nav li: origin 150,175 279×46 vs served 150,175 279×46 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "1. what defines a high-quality deter" | 0,0 279×46 | 0,0 279×46 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of article-jump-nav-item (required) #sticky-nav li=#sticky-nav li: origin 469,175 358×46 vs served 469,175 358×46 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "2. technical foundations of a high-q" | 0,0 358×46 | 0,0 358×46 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of article-jump-nav-item (required) #sticky-nav li=#sticky-nav li: origin 868,175 386×46 vs served 868,175 386×46 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "3. how to recognize a high-quality d" | 0,0 386×46 | 0,0 386×46 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of article-jump-nav-item (required) #sticky-nav li=#sticky-nav li: origin 1294,175 460×46 vs served 1294,175 460×46 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "4. persistent myths about detergent " | 0,0 460×46 | 0,0 460×46 | 0 | 0 | 0 | 0 | ✓ clipped on both sides |
+Units: 9 compared; elements within 14, off 0, hidden 0, missing 0 → PASS
+json → stardust/replica/gates/en-us-research-best-quality-detergent-1440/units-iter1.json

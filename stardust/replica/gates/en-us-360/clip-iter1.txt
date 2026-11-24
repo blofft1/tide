@@ -1,0 +1,4 @@
+clip-probe http://localhost:8791/en-us-proposed.html @ 360px — docH 7471, 297 text nodes, 268 controls (HTTP 200, chrome)
+  🔴 CONTROL HIDDEN         ×213   in div.picker.picker--mobile  div.stains__mobile > div.picker.picker--mobile > div.picker__list > button.picker__item  "tough stains"  cut 50px
+Clipped: 213 (text clipped 0, text hidden 0, controls hidden 213, controls clipped 0; advisory: clamped 0, collapsed 0, scroll-hidden 0, horizontal 2)
+json → stardust/replica/gates/en-us-360/clip-iter1.json

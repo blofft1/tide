@@ -1,0 +1,502 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-24T11:07:15.773Z",
+  "tol": 4,
+  "n": 5,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://tide.com/en-us/how-to-wash-clothes/effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry",
+  "at": "2026-11-24T04:51:21.208Z",
+  "docH": 6423
+ },
+ "eds": {
+  "url": "https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry",
+  "at": "2026-11-24T11:07:15.654Z",
+  "docH": 6448
+ },
+ "results": [
+  {
+   "sel": ".faqs .faq-item=.faq-accordion .faq-accordion-item",
+   "family": null,
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.faqs > div.col-12 > div.faq-item"
+     },
+     "eds": {
+      "path": "div.container > div.faq-accordion-list > div#how-can-i-identify-stains-and-odors-for-effective-removal"
+     },
+     "rows": [
+      {
+       "key": "button:how can i identify stains and odors for ",
+       "role": "button",
+       "text": "how can i identify stains and odors for effective removal?",
+       "edsText": "how can i identify stains and odors for effective removal?",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 330,
+        "h": 99
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 330,
+        "h": 99,
+        "sel": "div.faq-accordion-question",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/26/800",
+        "eds": "22/26/800"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 305,
+        "y": 70,
+        "w": 15,
+        "h": 8
+       },
+       "eds": {
+        "x": 305,
+        "y": 70,
+        "w": 15,
+        "h": 8,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/26/800",
+        "eds": "22/26/800"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 15,
+       "y": 3003,
+       "w": 330,
+       "h": 99
+      },
+      "eds": {
+       "x": 15,
+       "y": 3003,
+       "w": 330,
+       "h": 99
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.faqs > div.col-12 > div.faq-item"
+     },
+     "eds": {
+      "path": "div.container > div.faq-accordion-list > div#what-are-the-steps-to-pre-treat-stains-and-odors"
+     },
+     "rows": [
+      {
+       "key": "button:what are the steps to pre-treat stains a",
+       "role": "button",
+       "text": "what are the steps to pre-treat stains and odors?",
+       "edsText": "what are the steps to pre-treat stains and odors?",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 330,
+        "h": 73
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 330,
+        "h": 73,
+        "sel": "div.faq-accordion-question",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/26/800",
+        "eds": "22/26/800"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 305,
+        "y": 44,
+        "w": 15,
+        "h": 8
+       },
+       "eds": {
+        "x": 305,
+        "y": 44,
+        "w": 15,
+        "h": 8,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/26/800",
+        "eds": "22/26/800"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 15,
+       "y": 3122,
+       "w": 330,
+       "h": 73
+      },
+      "eds": {
+       "x": 15,
+       "y": 3122,
+       "w": 330,
+       "h": 73
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.faqs > div.col-12 > div.faq-item"
+     },
+     "eds": {
+      "path": "div.container > div.faq-accordion-list > div#which-tide-products-are-best-for-removing-tough-stains-and-odors"
+     },
+     "rows": [
+      {
+       "key": "button:which tide products are best for removin",
+       "role": "button",
+       "text": "which tide products are best for removing tough stains and o",
+       "edsText": "which tide products are best for removing tough stains and o",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 330,
+        "h": 99
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 330,
+        "h": 99,
+        "sel": "div.faq-accordion-question",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/26/800",
+        "eds": "22/26/800"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 305,
+        "y": 70,
+        "w": 15,
+        "h": 8
+       },
+       "eds": {
+        "x": 305,
+        "y": 70,
+        "w": 15,
+        "h": 8,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/26/800",
+        "eds": "22/26/800"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 15,
+       "y": 3215,
+       "w": 330,
+       "h": 99
+      },
+      "eds": {
+       "x": 15,
+       "y": 3215,
+       "w": 330,
+       "h": 99
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": "#sticky-nav li=.jump-links li",
+   "family": null,
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "nav > ul > li"
+     },
+     "eds": {
+      "path": "nav > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:how to classify stains and smells",
+       "role": "button",
+       "text": "how to classify stains and smells",
+       "edsText": "how to classify stains and smells",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 235,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 235,
+        "h": 46,
+        "sel": "span.jump-links-item",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/700",
+        "eds": "14/16/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 15,
+       "y": 61,
+       "w": 235,
+       "h": 46
+      },
+      "eds": {
+       "x": 15,
+       "y": 61,
+       "w": 235,
+       "h": 46
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "nav > ul > li"
+     },
+     "eds": {
+      "path": "nav > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:how to pre-treat stains and odors",
+       "role": "button",
+       "text": "how to pre-treat stains and odors",
+       "edsText": "how to pre-treat stains and odors",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 244,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 244,
+        "h": 46,
+        "sel": "span.jump-links-item",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/700",
+        "eds": "14/16/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 290,
+       "y": 61,
+       "w": 244,
+       "h": 46
+      },
+      "eds": {
+       "x": 290,
+       "y": 61,
+       "w": 244,
+       "h": 46
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 5,
+  "within": 8,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

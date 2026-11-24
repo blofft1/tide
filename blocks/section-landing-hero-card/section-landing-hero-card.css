@@ -1,0 +1,185 @@
+/* section-landing-hero-card — live .banner-card.image-appearance-Cover.
+   Spec: stardust/prototypes/en-us-our-commitment.css (.commitment-hero). Mobile-first; 992px. */
+.section-landing-hero-card {
+  position: relative;
+  margin: 0;
+}
+
+.section-landing-hero-card .slhc-image {
+  overflow: hidden;
+}
+
+.section-landing-hero-card .slhc-image picture {
+  display: flex;
+  align-items: flex-start;
+  margin: 0;
+}
+
+.section-landing-hero-card .slhc-image img {
+  width: var(--slhc-img-width, auto);
+  max-width: none;
+  height: auto;
+  min-height: 400px;
+}
+
+.section-landing-hero-card .slhc-box,
+.section-landing-hero-card .slhc-head {
+  position: relative;
+}
+
+.section-landing-hero-card .slhc-title {
+  position: absolute;
+  left: 0;
+  bottom: 80px;
+  width: max-content;
+  max-width: calc(100% - 15px);
+  overflow: scroll;
+  scrollbar-width: none;
+}
+
+.section-landing-hero-card .slhc-title::-webkit-scrollbar {
+  display: none;
+}
+
+.section-landing-hero-card .slhc-title :is(h1, h2) {
+  min-height: 100px;
+  margin: 20px 0 0;
+  color: #fff;
+  font-family: var(--font);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.section-landing-hero-card .slhc-deck {
+  position: relative;
+  margin: -50px 0 0;
+  border-radius: 8px;
+  padding: 25px 25px 30px;
+  background-color: #fff;
+}
+
+.section-landing-hero-card .slhc-deck p {
+  margin: 0;
+  color: var(--tide-navy);
+  letter-spacing: 0;
+  font-family: var(--font);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+/* section-landing rows of the reused learn-more-card-grid (live .generic-page
+   .dynamic-content-wrapper > .row: 35px / 80px; .article-preview picture margin-top 30px) */
+body.section-landing .learn-more-card-grid {
+  margin: 35px 0;
+  padding-bottom: 0;
+}
+
+body.section-landing .learn-more-card-grid .lmc-grid {
+  margin-top: 0;
+}
+
+/* live .our-commitment-small-articles rows start left (only the 1-up row is centred) */
+body.section-landing .learn-more-card-grid.three-up .lmc-grid {
+  justify-content: flex-start;
+}
+
+/* live .margin-vertical-none rows (learn-more-card-grid flush) */
+body.section-landing .learn-more-card-grid.flush {
+  margin: 0;
+}
+
+/* no-box variant: live .banner-no-white-box (deck card hidden) */
+.section-landing-hero-card.no-box .slhc-deck {
+  display: none;
+}
+
+/* section-landing rich-text rows (live .article-info-box .richtext-container, col-lg-12):
+   default content, Section Metadata Style section-landing-text (+ large = .font-size-lg) */
+body.section-landing main .section.section-landing-text {
+  margin: 35px 0;
+}
+
+/* an empty live rich-text row keeps its row margins (a flex row does not self-collapse):
+   authored as a section holding only Section Metadata (Style section-landing-text, empty) */
+body.section-landing main .section.section-landing-text.empty {
+  display: flow-root;
+}
+
+body.section-landing main .section.section-landing-text .default-content-wrapper p {
+  margin: 16px 0 0;
+  color: var(--tide-navy);
+  letter-spacing: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+body.section-landing main .section.section-landing-text .default-content-wrapper p:first-of-type {
+  margin-top: 0;
+}
+
+body.section-landing main .section.section-landing-text .default-content-wrapper a:any-link {
+  color: var(--tide-navy);
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+body.section-landing main .section.section-landing-text.large .default-content-wrapper p {
+  font-size: 22px;
+  line-height: 32px;
+}
+
+/* live main contains its last row's margin (footer margin-top 40px adds below it) */
+body.section-landing main {
+  display: flow-root;
+}
+
+@media (width >= 992px) {
+  .section-landing-hero-card .slhc-image img {
+    width: 100%;
+  }
+
+  .section-landing-hero-card .slhc-title :is(h1, h2) {
+    margin-top: 15px;
+    font-size: 68px;
+    line-height: 64px;
+  }
+
+  .section-landing-hero-card .slhc-deck {
+    padding: 30px 80px;
+  }
+
+  .section-landing-hero-card .slhc-deck p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  body.section-landing .learn-more-card-grid {
+    margin: 80px 0;
+  }
+
+  body.section-landing .learn-more-card-grid.flush {
+    margin: 0;
+  }
+
+  .section-landing-hero-card.no-box .slhc-title {
+    bottom: 110px;
+  }
+
+  body.section-landing main .section.section-landing-text {
+    margin: 80px 0;
+  }
+
+  body.section-landing main .section.section-landing-text .default-content-wrapper p {
+    line-height: 24px;
+  }
+
+  body.section-landing main .section.section-landing-text.large .default-content-wrapper p {
+    font-size: 36px;
+    line-height: 40px;
+  }
+}

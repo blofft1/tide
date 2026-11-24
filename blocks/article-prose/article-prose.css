@@ -1,0 +1,170 @@
+/* stylelint-disable no-descending-specificity -- variant rules follow their base rules */
+
+/* article-prose — live article rich-text row variants (spec: tide.com article rows measured
+   1440/360: col-lg-N columns, section-*-bg-white-text bands, .article-info-box, h3/h4). */
+
+.article-prose > .default-content-wrapper {
+  margin-top: 30px;
+}
+
+.article-prose .article-prose-col > :first-child {
+  margin-top: 0;
+}
+
+/* sub-headings (live richtext h3/h4) */
+.article-prose h3,
+.article-prose h4 {
+  margin: 0 0 20px;
+  color: var(--tide-orange);
+  font-weight: 800;
+  letter-spacing: 0;
+}
+
+.article-prose h3 {
+  font-size: 32px;
+  line-height: 36px;
+}
+
+.article-prose h4 {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+main:has(.article-title-band) .article-prose :is(h3, h4) + p {
+  margin-top: 0;
+}
+
+/* coloured bands: full-bleed, white text, live padding 40px 0, my-0 */
+main:has(.article-title-band) > .section.article-prose-container:has(.article-prose:is(.orange, .blue)) {
+  margin: 0;
+}
+
+.article-prose:is(.orange, .blue) {
+  padding: 40px 0;
+}
+
+.article-prose.orange {
+  background-color: var(--tide-orange);
+}
+
+.article-prose.blue {
+  background-color: rgb(19 37 156);
+}
+
+.article-prose:is(.orange, .blue) > .default-content-wrapper {
+  margin-top: 0;
+}
+
+main:has(.article-title-band) .article-prose:is(.orange, .blue) :is(h2, h3, h4, p, li, a) {
+  color: #fff;
+}
+
+main:has(.article-title-band) .article-prose.lead p {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+main:has(.article-title-band) .article-prose.lead p + p {
+  margin-top: 19px;
+}
+
+/* info box (live .article-info-box: grey box, "!" mark, text indented) */
+.article-prose.info > .default-content-wrapper {
+  position: relative;
+  padding: 55px 22px 25px 37px;
+  background-color: #f3f3f3;
+}
+
+main:has(.article-title-band) .article-prose.info p {
+  position: relative;
+  margin: 0;
+  padding-left: 50px;
+}
+
+.article-prose.info .article-prose-col::before {
+  content: "!";
+  position: absolute;
+  top: 50%;
+  left: 37px;
+  width: 40px;
+  height: 40px;
+  box-sizing: border-box;
+  border: 3px solid var(--tide-orange);
+  border-radius: 50%;
+  color: var(--tide-orange);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 34px;
+  text-align: center;
+  transform: translateY(-50%);
+}
+
+@media (width >= 992px) {
+  .article-prose > .default-content-wrapper {
+    margin-top: 0;
+  }
+
+  .article-prose h3 {
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  .article-prose h4 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  /* live col-lg-N inside a 1170px container: N/12 of (content + gutter) minus the gutter */
+  .article-prose.w5 .article-prose-col {
+    width: calc((100% + 30px) * 5 / 12 - 30px);
+  }
+
+  .article-prose.w9 .article-prose-col {
+    width: calc((100% + 30px) * 9 / 12 - 30px);
+  }
+
+  .article-prose.w10 .article-prose-col {
+    width: calc((100% + 30px) * 10 / 12 - 30px);
+  }
+
+  .article-prose.center .article-prose-col {
+    margin: 0 auto;
+  }
+
+  main:has(.article-title-band) .article-prose.lead p {
+    line-height: 24px;
+  }
+
+  .article-prose.info > .default-content-wrapper {
+    padding: 22px 0;
+  }
+
+  .article-prose.info .article-prose-col {
+    position: relative;
+    width: calc((100% + 30px) * 8 / 12);
+    margin: 0 auto;
+  }
+
+  main:has(.article-title-band) .article-prose.info p {
+    padding-left: 110px;
+  }
+
+  .article-prose.info .article-prose-col::before {
+    left: 30px;
+    width: 46px;
+    height: 46px;
+    font-size: 28px;
+    line-height: 40px;
+  }
+}
+
+/* live guide step titles are h4 (26/30, margin 0 0 20px): step-timeline sizes its title
+   cell; the authored heading takes those metrics (article pages carry article-prose) */
+.step-timeline .step-timeline-title h4 {
+  margin: 0 0 20px;
+  color: inherit;
+  font-size: inherit;
+  font-weight: 800;
+  line-height: inherit;
+}

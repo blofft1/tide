@@ -1,0 +1,519 @@
+{
+  "units": {
+    "foundation": {
+      "status": "done",
+      "kind": "foundation",
+      "templates": [
+        "shell"
+      ],
+      "pages": 0,
+      "startedAt": "2026-11-23T23:44:40Z",
+      "blocks": 2,
+      "endedAt": "2026-11-24T00:23:44.019Z",
+      "gates": {
+        "360": {
+          "chromeParity": "header quiet, footer 6 ICON renames only"
+        },
+        "1440": {
+          "chromeParity": "header 1 (ICON rename only), footer quiet"
+        },
+        "crop": "deferred to archetype-home (shell has no content band)",
+        "chrome": "0 style deltas"
+      },
+      "verdict": "foundation: chrome docs /nav, /footer live, blocks header/footer, fonts 8, lint 0, shell /drafts/foundation-shell"
+    },
+    "archetype-home": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "home"
+      ],
+      "startedAt": "2026-11-24T00:24:39.671Z",
+      "pages": 1,
+      "blocks": 5,
+      "endedAt": "2026-11-24T01:17:17.891Z",
+      "gates": {
+        "360": {
+          "pixel": "0.51%",
+          "dh": 1
+        },
+        "1440": {
+          "pixel": "0.34%",
+          "dh": 1
+        },
+        "contentDiff": "0/0",
+        "chrome": "foundation chrome"
+      },
+      "verdict": "archetype-home: pages 1/1 live, blocks 5, gate 1440 0.34% Δh 1 / 360 0.51% Δh 1, content-diff 0/0 (main), requests 1"
+    },
+    "archetype-article": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "article"
+      ],
+      "startedAt": "2026-11-24T00:24:39.671Z",
+      "pages": 1,
+      "blocks": 5,
+      "endedAt": "2026-11-24T01:09:29.856Z",
+      "gates": {
+        "360": {
+          "pixel": "0.25%",
+          "dh": 0
+        },
+        "1440": {
+          "pixel": "0.45%",
+          "dh": -1
+        },
+        "contentDiff": "0/0",
+        "chrome": "foundation chrome"
+      },
+      "verdict": "archetype-article: pages 1/1 live, blocks 5, gate 1440 0.45% Δh -1 / 360 0.25% Δh 0, content-diff 0/0, requests 2"
+    },
+    "archetype-product-listing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "product-listing"
+      ],
+      "pages": 1,
+      "blocks": 3,
+      "startedAt": "2026-11-24T01:12:00.000Z",
+      "endedAt": "2026-11-24T01:53:41.796Z",
+      "gates": {
+        "360": {
+          "pixel": "0.04%",
+          "dh": 0
+        },
+        "1440": {
+          "pixel": "0.14%",
+          "dh": 0
+        },
+        "contentDiff": "0/0",
+        "chrome": "foundation chrome"
+      },
+      "verdict": "archetype-product-listing: pages 1/1 live, blocks 3, gate 1440 0.14% Δh 0 / 360 0.04% Δh 0, content-diff 0/0 (main, both widths), requests 1"
+    },
+    "archetype-collection-landing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "collection-landing"
+      ],
+      "pages": 1,
+      "blocks": 3,
+      "startedAt": "2026-11-24T01:12:00.000Z",
+      "endedAt": "2026-11-24T01:48:54.749Z",
+      "gates": {
+        "360": {
+          "pixel": "0.7%",
+          "dh": 0
+        },
+        "1440": {
+          "pixel": "0.7%",
+          "dh": -1
+        },
+        "contentDiff": "0/0",
+        "chrome": "foundation chrome"
+      },
+      "verdict": "archetype-collection-landing: pages 1/1 live, blocks 3, gate 1440 0.7% Δh -1 / 360 0.7% Δh 0, content-diff 0/0, requests 2"
+    },
+    "archetype-section-landing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "section-landing"
+      ],
+      "pages": 1,
+      "blocks": 2,
+      "startedAt": "2026-11-24T01:22:00.000Z",
+      "endedAt": "2026-11-24T01:42:18.356Z",
+      "gates": {
+        "360": {
+          "pixel": "0.30%",
+          "dh": 0
+        },
+        "1440": {
+          "pixel": "0.45%",
+          "dh": 0
+        },
+        "contentDiff": "0/0",
+        "chrome": "foundation chrome"
+      },
+      "verdict": "archetype-section-landing: pages 1/1 live, blocks 2, gate 1440 0.45% Δh 0 / 360 0.30% Δh 0, content-diff 0/0 (main), requests 0"
+    },
+    "archetype-topic-hub": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "topic-hub"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-24T01:49:14.623Z",
+      "blocks": 5,
+      "endedAt": "2026-11-24T02:33:18.448Z",
+      "gates": {
+        "360": {
+          "pixel": "0.87%",
+          "dh": 3
+        },
+        "1440": {
+          "pixel": "0.66%",
+          "dh": 0
+        },
+        "contentDiff": "0/0",
+        "chrome": "foundation chrome"
+      },
+      "verdict": "archetype-topic-hub: pages 1/1 live, blocks 5, gate 1440 0.66% Δh 0 / 360 0.87% Δh +3, content-diff 0/0 (main), requests 1"
+    },
+    "archetype-sustainability-topic": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "sustainability-topic"
+      ],
+      "startedAt": "2026-11-24T03:44:08.564Z",
+      "pages": 1,
+      "blocks": 1,
+      "endedAt": "2026-11-24T04:05:12.494Z",
+      "gates": {
+        "360": {
+          "pixel": "1.9%",
+          "dh": -1
+        },
+        "1440": {
+          "pixel": "1.38%",
+          "dh": 0
+        },
+        "contentDiff": "0/0",
+        "chrome": "foundation chrome"
+      },
+      "verdict": "archetype-sustainability-topic: pages 1/1 live, blocks 1, gate 1440 1.38% Δh 0 / 360 1.9% Δh −1, content-diff 0/0, requests 1",
+      "encoder": "stardust/.work/archetype-sustainability-topic/encode.mjs <workdir> <slug…>",
+      "note": "sustainability-split centered variant untested (saving-energy needs it)"
+    },
+    "archetype-click2cart": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "click2cart"
+      ],
+      "startedAt": "2026-11-24T00:24:39.671Z",
+      "pages": 1,
+      "blocks": 1,
+      "endedAt": "2026-11-24T00:54:53.065Z",
+      "gates": {
+        "360": {
+          "pixel": "35.55% (invalid reference: live body-scroller stall, 1440 crawl shot used)",
+          "dh": -735,
+          "substitute": "content-diff 0/0, measure root/h1/img Δ0"
+        },
+        "1440": {
+          "pixel": "4.44%",
+          "dh": 0
+        },
+        "crop": "footer band not judgeable (blank reference)",
+        "chrome": "header suppressed per source (no header on click2cart)"
+      },
+      "verdict": "archetype-click2cart: pages 1/1 live, blocks 1, gate 1440 4.44% Δh 0 / 360 residual (body-scroller stall; content-diff 0/0, measure Δ0), requests 1"
+    },
+    "cluster-article": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "article"
+      ],
+      "pages": 37,
+      "startedAt": "2026-11-24T01:42:28.744Z",
+      "resumedAt": "2026-11-24T03:44:08.564Z",
+      "endedAt": "2026-11-24T06:57:46.932Z",
+      "blocks": 4,
+      "gates": {
+        "360": {
+          "maxPixel": "6.31%",
+          "pass": "37/37"
+        },
+        "1440": {
+          "maxPixel": "8.89%",
+          "pass": "37/37"
+        },
+        "contentDiff": "0 🔴 / 0 🟡 on 37/37"
+      },
+      "fixList": [
+        "article-prose h3 rows",
+        "article-guide live height",
+        "article-related mobile",
+        "everyday-items curtains row as numbered columns",
+        "table cells: live bullet-paragraph runs as lists (pva pages)",
+        "table rows variant (live .tide-table, terms-and-conditions)"
+      ],
+      "verdict": "cluster-article: pages 37/37 live, blocks 4 changed (article-prose, article-guide, article-related, table; no new blocks), gate 1440 37/37 pass (max 8.89%) / 360 37/37 pass (max 6.31%), content-diff 0/0, requests 0"
+    },
+    "cluster-product-listing": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "product-listing"
+      ],
+      "pages": 14,
+      "startedAt": "2026-11-24T01:53:55.497Z",
+      "endedAt": "2026-11-24T04:50:35.954Z",
+      "blocks": 4,
+      "gates": {
+        "360": {
+          "maxPixel": "7.2%",
+          "pass": "14/14"
+        },
+        "1440": {
+          "maxPixel": "7.52%",
+          "pass": "14/14"
+        },
+        "archetypeRegate": {
+          "360": "0.04%",
+          "1440": "0.32%"
+        },
+        "contentDiff": "0 🔴 / 0 🟡 on re-checked pages"
+      },
+      "verdict": "cluster-product-listing: pages 14/14 live, blocks 1 (new safety-band; plp-related, product-grid and feature-band-alternating changed), gate 1440 14/14 pass (max 7.52%) / 360 14/14 pass (max 7.2%), archetype re-gate 1440 0.32% / 360 0.04%, requests 0",
+      "fixList": [
+        "safety row block (powder, laundry-pods, laundry-booster)",
+        "plp-related desktop variant when no promo positions (fabric-rinse, laundry-tiles)",
+        "product-grid card title shrink-to-text (additives, stain-removal, stain-remover, /en-us/shop)",
+        "feature-band-alternating `right` variant (6 bands)",
+        "units.json: feature-band/product families optional on pages without them",
+        "full gate-all run to fill sidecar pixel evidence"
+      ],
+      "fixStartedAt": "2026-11-24T03:44:08.564Z",
+      "fixListResolved": true
+    },
+    "cluster-collection-landing": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "collection-landing"
+      ],
+      "pages": 4,
+      "startedAt": "2026-11-24T04:50:58.946Z",
+      "blocks": 2,
+      "endedAt": "2026-11-24T06:02:17.292Z",
+      "gates": {
+        "360": {
+          "maxPixel": "1.23%",
+          "pass": "4/4"
+        },
+        "1440": {
+          "maxPixel": "1.13%",
+          "pass": "4/4"
+        },
+        "contentDiff": "0 🔴 / 0 🟡 on 4/4"
+      },
+      "verdict": "cluster-collection-landing: pages 4/4 live, blocks 2 (collection-hero and collection-banner got new variant classes, no new blocks), gate 1440 4/4 pass (max 1.13%) / 360 4/4 pass (max 1.23%), requests 0"
+    },
+    "cluster-section-landing": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "section-landing"
+      ],
+      "startedAt": "2026-11-24T06:19:31.807Z",
+      "pages": 5,
+      "endedAt": "2026-11-24T07:00:41.041Z",
+      "blocks": 2,
+      "gates": {
+        "360": {
+          "maxPixel": "0.48%",
+          "pass": "5/5"
+        },
+        "1440": {
+          "maxPixel": "1.17%",
+          "pass": "5/5"
+        },
+        "contentDiff": "0 🔴 / 0 🟡 on 5/5"
+      },
+      "verdict": "cluster-section-landing: pages 5/5 live, blocks 2 changed (learn-more-card-grid, section-landing-hero-card variants; no new blocks), gate 1440 5/5 pass (max 1.17%) / 360 5/5 pass (max 0.48%), requests 0"
+    },
+    "cluster-topic-hub": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "topic-hub"
+      ],
+      "pages": 3,
+      "startedAt": "2026-11-24T04:31:37.643Z",
+      "endedAt": "2026-11-24T06:18:10.425Z",
+      "blocks": 2,
+      "gates": {
+        "360": {
+          "maxPixel": "0.97%",
+          "pass": "3/3 (1 documented override: units)"
+        },
+        "1440": {
+          "maxPixel": "0.96%",
+          "pass": "3/3 (1 documented override: units)"
+        },
+        "contentDiff": "0 🔴 / 0 🟡 on 3/3"
+      },
+      "residuals": [
+        "how-to-do-laundry step 2 timeline line −21px (1440) / −22px (360): source stepText has an empty <h1></h1> the EDS pipeline drops; overrides.json waives units at both widths"
+      ],
+      "verdict": "cluster-topic-hub: pages 3/3 live, blocks 2 changed (topic-hub step-timeline/step-text fixes, no new blocks), gate 1440 3/3 (max 0.96%) / 360 3/3 (max 0.97%), 1 documented units override, requests 0"
+    },
+    "cluster-sustainability-topic": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "sustainability-topic"
+      ],
+      "pages": 2,
+      "startedAt": "2026-11-24T04:05:37.862Z",
+      "blocks": 1,
+      "endedAt": "2026-11-24T04:31:06.104Z",
+      "gates": {
+        "360": {
+          "maxPixel": "3.76%",
+          "pass": "2/2"
+        },
+        "1440": {
+          "maxPixel": "5.9%",
+          "pass": "2/2"
+        },
+        "contentDiff": "materials 0/0; saving-energy 0 🔴 (7 carousel clone links accepted), 4 🟡 article-related dot buttons (request filed)"
+      },
+      "verdict": "cluster-sustainability-topic: pages 2/2 live, blocks 0 new (sustainability-split extended), gate 1440 2/2 pass (max 5.9%) / 360 2/2 pass (max 3.76%), requests 1"
+    },
+    "cluster-click2cart": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "click2cart"
+      ],
+      "startedAt": "2026-11-24T06:19:31.807Z",
+      "pages": 7,
+      "endedAt": "2026-11-24T07:31:51.574Z",
+      "blocks": 1,
+      "gates": {
+        "360": {
+          "maxPixel": "n/a (invalid live reference, as archetype)",
+          "pass": "7/7 via documented overrides (capture,pixel,height)",
+          "substitute": "content-diff 0/0, measure panel/hero Δ0"
+        },
+        "1440": {
+          "maxPixel": "4.68%",
+          "pass": "7/7"
+        },
+        "contentDiff": "0 🔴 / 0 🟡 on 7/7"
+      },
+      "residuals": [
+        "live retailer order randomised per load",
+        "live 360 capture stalls (body scroller) — overrides waive capture/pixel/height only"
+      ],
+      "verdict": "cluster-click2cart: pages 7/7 live, blocks 1 changed (shopper-choice variants, no new blocks), gate 1440 7/7 pass (max 4.68%) / 360 7/7 via documented overrides (invalid live reference; content 0/0), requests 0"
+    },
+    "cluster-unique": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "unique"
+      ],
+      "startedAt": "2026-11-24T06:58:15.462Z",
+      "pages": 14,
+      "split": {
+        "unique-a": [
+          "our-heritage",
+          "dont-pay-for-water",
+          "superbowlLX",
+          "tide-boosted",
+          "tide-cleaners-laundry-service",
+          "tide-evo",
+          "tide-in-space",
+          "turn-to-cold"
+        ],
+        "unique-b": [
+          "contact-us",
+          "acne-cream-stains",
+          "latest-news",
+          "rewards",
+          "sitemap",
+          "health-probe"
+        ]
+      },
+      "groupB": {
+        "status": "done",
+        "endedAt": "2026-11-24T08:14:37.197Z",
+        "pages": "6/6 live",
+        "gates": {
+          "360": "6/6 pass (max 7.08%)",
+          "1440": "6/6 pass (max 8.79%)"
+        },
+        "blocks": "7 new (plain-page, embed-frame, sitemap, news-banner, rewards-module, stain-intro, stain-steps)",
+        "notes": [
+          "contact-us and rewards have no h1 on source (delivery-lint P0 kept as captured)",
+          "acne content-diff 8 red = live hidden mobile duplicate Recommended blocks authored once"
+        ]
+      },
+      "groupA": {
+        "status": "done",
+        "endedAt": "2026-11-24T08:30:49.163Z",
+        "pages": "8/8 live",
+        "gates": {
+          "360": "8/8 pass (turn-to-cold 1.11%)",
+          "1440": "8/8 pass (turn-to-cold 1.16%)"
+        },
+        "blocks": "2 new (campaign-row, video-carousel)",
+        "notes": [
+          "tide-in-space and superbowlLX: first h2 promoted to h1 (no h1 on live; delivery-lint)",
+          "superbowlLX served at /superbowllx",
+          "our-heritage clip-allow 12 (live clips the same)"
+        ]
+      },
+      "resumeState": null,
+      "endedAt": "2026-11-24T08:53:01.955Z",
+      "gates": {
+        "360": "14/14 pass",
+        "1440": "14/14 pass"
+      },
+      "notes": [
+        "turn-to-cold passed over the round cap (1440 round 6, 360 round 4); accept-residual recorded per width (hero band of the shared hero card, mobile partner-card dots)"
+      ]
+    },
+    "gate-all": {
+      "status": "done",
+      "kind": "final",
+      "startedAt": "2026-11-24T08:53:29.634Z",
+      "templates": [
+        "all"
+      ],
+      "pages": 94,
+      "endedAt": "2026-11-24T12:08:48.601Z",
+      "gates": {
+        "360": {
+          "pass": "85 measured + 9 documented overrides (8 click2cart invalid 360 reference, 1 units) = 94/94",
+          "fail": 0,
+          "error": 0
+        },
+        "1440": {
+          "pass": "93 measured + 1 documented override (units) = 94/94",
+          "fail": 0,
+          "error": 0
+        },
+        "wide": "2560 report stopped after 18 of 94 pages (advisory, ~1 min per page; not a delivery criterion)"
+      },
+      "verdict": "gate-all: 94/94 delivered at 1440 (93 PASS + 1 override) and 360 (85 PASS + 9 overrides); coverage --gate written both widths, 0 flips; wide 2560 report partial (advisory)"
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "templates": [
+        "all"
+      ],
+      "pages": 94,
+      "startedAt": "2026-11-24T12:09:07.976Z",
+      "endedAt": "2026-11-24T12:09:07.976Z",
+      "gates": {
+        "freeze": "foundation-freeze check: unchanged (22 files)",
+        "requests": "18 queued lines reviewed once: every entry already ships as a scoped block-level override or block variant that passed the 1440/360 table (e.g. feature-band overlay right is styled); relocating them into frozen styles.css would re-open 94 gated pages for no measured gain — kept in place, listed for the owner backlog; no frozen file changed, so no archetype re-gate"
+      },
+      "verdict": "final: freeze clean, request queue reviewed (0 applied, all shipped scoped and gated), coverage --gate both widths written"
+    }
+  }
+}

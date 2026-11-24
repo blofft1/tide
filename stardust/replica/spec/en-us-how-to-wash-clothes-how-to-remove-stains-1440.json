@@ -1,0 +1,656 @@
+{
+ "_provenance": {
+  "writtenBy": "skills/replica/scripts/source-spec.mjs",
+  "writtenAt": "2026-11-23T22:46:07.052Z",
+  "url": "https://tide.com/en-us/how-to-wash-clothes/how-to-remove-stains",
+  "width": 1440,
+  "main": "main",
+  "locale": "en-US"
+ },
+ "page": {
+  "url": "https://tide.com/en-us/how-to-wash-clothes/how-to-remove-stains",
+  "width": 1440,
+  "viewport": 1440,
+  "docHeight": 7481,
+  "scrollWidth": 1440,
+  "root": "main",
+  "rootFallback": false,
+  "records": [
+   "scroll",
+   "shape"
+  ],
+  "rootWrapsChrome": false,
+  "tier": "chrome"
+ },
+ "tokens": {
+  "fonts": [
+   {
+    "stack": "Tide, sans-serif",
+    "n": 183
+   }
+  ],
+  "loadedFaces": [
+   "Tide 400 normal",
+   "Tide 700 normal",
+   "Tide 800 normal"
+  ],
+  "textStyles": [
+   {
+    "key": "16/24 400 Tide",
+    "fontSize": 16,
+    "lineHeight": 24,
+    "fontWeight": "400",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 86,
+    "roles": {
+     "p": 13,
+     "link": 73
+    },
+    "sample": "It’s important to know what type of stains you’re facing before choosing the mo…"
+   },
+   {
+    "key": "26/30 800 Tide",
+    "fontSize": 26,
+    "lineHeight": 30,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 16,
+    "roles": {
+     "field": 1,
+     "button": 6,
+     "h5": 1,
+     "div": 5,
+     "p": 3
+    },
+    "sample": "ex: grease"
+   },
+   {
+    "key": "12/32 400 Tide",
+    "fontSize": 12,
+    "lineHeight": 32,
+    "fontWeight": "400",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 15,
+    "roles": {
+     "link": 13,
+     "div": 2
+    },
+    "sample": "P&G Brands"
+   },
+   {
+    "key": "14/16 700 Tide",
+    "fontSize": 14,
+    "lineHeight": 16,
+    "fontWeight": "700",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 10,
+    "roles": {
+     "link": 5,
+     "li": 2,
+     "button": 3
+    },
+    "sample": "Shop Products"
+   },
+   {
+    "key": "24/60 700 Tide lowercase",
+    "fontSize": 24,
+    "lineHeight": 60,
+    "fontWeight": "700",
+    "fontFamily": "Tide",
+    "textTransform": "lowercase",
+    "n": 8,
+    "roles": {
+     "button": 8
+    },
+    "sample": "ink"
+   },
+   {
+    "key": "19/24 700 Tide",
+    "fontSize": 19,
+    "lineHeight": 24,
+    "fontWeight": "700",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 6,
+    "roles": {
+     "link": 2,
+     "span": 1,
+     "p": 3
+    },
+    "sample": "Home"
+   },
+   {
+    "key": "20/24 800 Tide",
+    "fontSize": 20,
+    "lineHeight": 24,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 5,
+    "roles": {
+     "h6": 5
+    },
+    "sample": "Blood or Grass stains"
+   },
+   {
+    "key": "20/26 800 Tide",
+    "fontSize": 20,
+    "lineHeight": 26,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 5,
+    "roles": {
+     "p": 5
+    },
+    "sample": "Enzymatic stains."
+   },
+   {
+    "key": "16/32 400 Tide",
+    "fontSize": 16,
+    "lineHeight": 32,
+    "fontWeight": "400",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 5,
+    "roles": {
+     "link": 5
+    },
+    "sample": "How to Remove Stains"
+   },
+   {
+    "key": "48/52 800 Tide",
+    "fontSize": 48,
+    "lineHeight": 52,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 4,
+    "roles": {
+     "h1": 1,
+     "h2": 2,
+     "span": 1
+    },
+    "sample": "How to remove stains"
+   },
+   {
+    "key": "24/28 800 Tide",
+    "fontSize": 24,
+    "lineHeight": 28,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 3,
+    "roles": {
+     "div": 3
+    },
+    "sample": "By Type"
+   },
+   {
+    "key": "16/24 700 Tide",
+    "fontSize": 16,
+    "lineHeight": 24,
+    "fontWeight": "700",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 3,
+    "roles": {
+     "link": 3
+    },
+    "sample": "liquid detergent"
+   },
+   {
+    "key": "20/26 700 Tide",
+    "fontSize": 20,
+    "lineHeight": 26,
+    "fontWeight": "700",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 2,
+    "roles": {
+     "p": 1,
+     "span": 1
+    },
+    "sample": "It’s a fact of life that not all stains are created equal."
+   },
+   {
+    "key": "16/20 800 Tide",
+    "fontSize": 16,
+    "lineHeight": 20,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 2,
+    "roles": {
+     "h5": 2
+    },
+    "sample": "Recommended Products:"
+   },
+   {
+    "key": "16/20 700 Tide",
+    "fontSize": 16,
+    "lineHeight": 20,
+    "fontWeight": "700",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 2,
+    "roles": {
+     "link": 2
+    },
+    "sample": "wash temperature"
+   },
+   {
+    "key": "14/20 400 Tide",
+    "fontSize": 14,
+    "lineHeight": 20,
+    "fontWeight": "400",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 2,
+    "roles": {
+     "link": 2
+    },
+    "sample": "Tide Ultra Stain Release Liquid Laundry Detergent"
+   },
+   {
+    "key": "12/13.8 400 Tide",
+    "fontSize": 12,
+    "lineHeight": 13.8,
+    "fontWeight": "400",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 2,
+    "roles": {
+     "button": 2
+    },
+    "sample": "US - English"
+   },
+   {
+    "key": "48/52 400 Tide",
+    "fontSize": 48,
+    "lineHeight": 52,
+    "fontWeight": "400",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "div": 1
+    },
+    "sample": "I have a"
+   },
+   {
+    "key": "48/52 800 Tide lowercase",
+    "fontSize": 48,
+    "lineHeight": 52,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "lowercase",
+    "n": 1,
+    "roles": {
+     "button": 1
+    },
+    "sample": "mayonnaise"
+   },
+   {
+    "key": "40/44 800 Tide",
+    "fontSize": 40,
+    "lineHeight": 44,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "h3": 1
+    },
+    "sample": "How do you get rid of stains?"
+   },
+   {
+    "key": "20/22 700 Tide",
+    "fontSize": 20,
+    "lineHeight": 22,
+    "fontWeight": "700",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "button": 1
+    },
+    "sample": "Learn More"
+   },
+   {
+    "key": "20/19 800 Tide",
+    "fontSize": 20,
+    "lineHeight": 19,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "span": 1
+    },
+    "sample": "Ways to connect with us:"
+   },
+   {
+    "key": "14/19.6 400 Tide",
+    "fontSize": 14,
+    "lineHeight": 19.6,
+    "fontWeight": "400",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "span": 1
+    },
+    "sample": "Part of the P&G Family"
+   },
+   {
+    "key": "14/16.1 400 Tide",
+    "fontSize": 14,
+    "lineHeight": 16.1,
+    "fontWeight": "400",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "field": 1
+    },
+    "sample": "Search"
+   },
+   {
+    "key": "12/16.8 400 Tide",
+    "fontSize": 12,
+    "lineHeight": 16.8,
+    "fontWeight": "400",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "link": 1
+    },
+    "sample": "Contact Us"
+   },
+   {
+    "key": "12/16.8 700 Tide",
+    "fontSize": 12,
+    "lineHeight": 16.8,
+    "fontWeight": "700",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "span": 1
+    },
+    "sample": "Related:"
+   }
+  ],
+  "colours": [
+   {
+    "color": "rgb(27, 51, 146)",
+    "n": 103
+   },
+   {
+    "color": "rgb(255, 255, 255)",
+    "n": 30
+   },
+   {
+    "color": "rgb(251, 76, 6)",
+    "n": 26
+   },
+   {
+    "color": "rgb(19, 37, 156)",
+    "n": 25
+   },
+   {
+    "color": "rgb(0, 0, 0)",
+    "n": 1
+   }
+  ],
+  "container": {
+   "left": 150,
+   "right": 150,
+   "content": 1140,
+   "leftCommon": {
+    "x": 443,
+    "n": 34
+   }
+  }
+ },
+ "truncated": {
+  "text": 0,
+  "image": 0
+ },
+ "sections": [
+  {"i":0,"region":"header","y":0,"h":175,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"header#site-header","firstText":"Part of the P&G Family"},
+  {"i":1,"region":"main","y":175,"h":857,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.alp-intro","firstText":"Home"},
+  {"i":2,"region":"main","y":1031,"h":5292,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.dynamic-content-wrapper","firstText":"Stain removal guide"},
+  {"i":3,"region":"main","y":6423,"h":57,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.scroll-to-top-wrapper","firstText":"Back to Top"},
+  {"i":4,"region":"footer","y":6575,"h":906,"background":"none","paddingTop":0,"paddingBottom":120,"selectorHint":"footer#site-footer.site-footer","firstText":"Ways to connect with us:"}
+ ],
+ "nodes": [
+  {"section":0,"region":"header","kind":"text","tag":"span","role":null,"text":"Part of the P&G Family","x":150,"y":15,"w":154,"h":20,"fontFamily":"Tide","fontSize":14,"lineHeight":19.6,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1},
+  {"section":0,"region":"header","kind":"image","tag":"picture","role":"link","text":"P&G icon","x":364,"y":3,"w":32,"h":41,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[32,41],"src":"https://tide.com/images/header_logo_png.webp","href":"https://us.pg.com"},
+  {"section":0,"region":"header","kind":"image","tag":"picture","role":"link","text":"Downy icon","x":411,"y":3,"w":43,"h":41,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[43,41],"src":"https://tide.com/images/header_logo_downy.webp","href":"https://downy.com/en-us"},
+  {"section":0,"region":"header","kind":"image","tag":"picture","role":"link","text":"Bounce icon","x":469,"y":3,"w":47,"h":41,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[47,41],"src":"https://tide.com/images/header_logo_bounce.webp","href":"https://www.bouncefresh.com/en-us"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"Contact Us","x":954,"y":16,"w":64,"h":17,"fontFamily":"Tide","fontSize":12,"lineHeight":16.8,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/contact-us"},
+  {"section":0,"region":"header","kind":"control","tag":"button","role":"button","text":"US - English","x":1058,"y":18,"w":91,"h":14,"fontFamily":"Tide","fontSize":12,"lineHeight":13.8,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(19, 37, 156)","lines":1},
+  {"section":0,"region":"header","kind":"image","tag":"svg","role":"button","text":"","x":1138,"y":19,"w":11,"h":10,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":0,"region":"header","kind":"image","tag":"svg","role":null,"text":"","x":1220,"y":12,"w":24,"h":25,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":0,"region":"header","kind":"control","tag":"button","role":"button","text":"Sign in","x":1251,"y":18,"w":39,"h":14,"fontFamily":"Tide","fontSize":12,"lineHeight":13.8,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(19, 37, 156)","lines":1},
+  {"section":0,"region":"header","kind":"image","tag":"img","role":"link","text":"Tide logo","x":150,"y":50,"w":71,"h":111,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[150,150],"src":"https://tide.com/images/brand_main_logo.svg","href":"/en-us"},
+  {"section":0,"region":"header","kind":"control","tag":"input","role":"field","text":"Search","x":1020,"y":70,"w":270,"h":34,"fontFamily":"Tide","fontSize":14,"lineHeight":16.1,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(0, 0, 0)","lines":1},
+  {"section":0,"region":"header","kind":"image","tag":"svg","role":"button","text":"","x":1250,"y":77,"w":20,"h":20,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"Shop Products","x":447,"y":129,"w":153,"h":46,"fontFamily":"Tide","fontSize":14,"lineHeight":16,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"/en-us/shop"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"Our Commitment","x":600,"y":129,"w":172,"h":46,"fontFamily":"Tide","fontSize":14,"lineHeight":16,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"/en-us/our-commitment"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"How to Wash Clothes","x":772,"y":129,"w":200,"h":46,"fontFamily":"Tide","fontSize":14,"lineHeight":16,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"/en-us/how-to-wash-clothes"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"What’s New","x":972,"y":129,"w":134,"h":46,"fontFamily":"Tide","fontSize":14,"lineHeight":16,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"/en-us/latest-news"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"Coupons and Deals","x":1106,"y":129,"w":184,"h":46,"fontFamily":"Tide","fontSize":14,"lineHeight":16,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"/en-us/rewards"},
+  {"section":1,"region":"main","kind":"image","tag":"picture","role":null,"text":"A person pouring Tide liquid detergent on stained shirt","x":0,"y":175,"w":1440,"h":400,"fit":"cover","shape":{"pos":"50% 50%"},"natural":[1437,400],"src":"https://images.ctfassets.net/ajjw8wywicb3/1cEx3Lk5lJHyMYOljWvUtG/921e6a144d56d65c0bd779221ba57862/ALP_header_1_How_to_remove_stains_1437x400.jpg?fm=webp"},
+  {"section":1,"region":"main","kind":"control","tag":"a","role":"link","text":"Home","x":150,"y":611,"w":57,"h":22,"fontFamily":"Tide","fontSize":19,"lineHeight":24,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us"},
+  {"section":1,"region":"main","kind":"control","tag":"a","role":"link","text":"How to Wash Clothes","x":226,"y":611,"w":203,"h":22,"fontFamily":"Tide","fontSize":19,"lineHeight":24,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes"},
+  {"section":1,"region":"main","kind":"text","tag":"span","role":null,"text":"How to Remove Stains","x":449,"y":611,"w":214,"h":22,"fontFamily":"Tide","fontSize":19,"lineHeight":24,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":"link","text":"","x":1140,"y":610,"w":22,"h":22,"fit":"fill","shape":{"pos":"50% 50%"},"href":"/"},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":"link","text":"","x":1172,"y":610,"w":22,"h":22,"fit":"fill","shape":{"pos":"50% 50%"},"href":"/"},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":"link","text":"","x":1204,"y":610,"w":22,"h":22,"fit":"fill","shape":{"pos":"50% 50%"},"href":"/"},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":"link","text":"","x":1236,"y":610,"w":22,"h":22,"fit":"fill","shape":{"pos":"50% 50%"},"href":"/"},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":"link","text":"","x":1268,"y":610,"w":22,"h":22,"fit":"fill","shape":{"pos":"50% 50%"},"href":"/"},
+  {"section":1,"region":"main","kind":"text","tag":"h1","role":"h1","text":"How to remove stains","x":150,"y":662,"w":652,"h":52,"fontFamily":"Tide","fontSize":48,"lineHeight":52,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"It’s a fact of life that not all stains are created equal.","x":150,"y":724,"w":652,"h":26,"fontFamily":"Tide","fontSize":20,"lineHeight":26,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"It’s important to know what type of stains you’re facing before choosing the mo…","x":150,"y":770,"w":652,"h":144,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":6},
+  {"section":1,"region":"main","kind":"text","tag":"li","role":null,"text":"Browse by stain type","x":150,"y":984,"w":148,"h":46,"fontFamily":"Tide","fontSize":14,"lineHeight":16,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":1,"region":"main","kind":"control","tag":"span","role":"button","text":"Browse by stain type","x":150,"y":984,"w":148,"h":46,"fontFamily":"Tide","fontSize":14,"lineHeight":16,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"li","role":null,"text":"Stain Removal Guide","x":338,"y":984,"w":144,"h":46,"fontFamily":"Tide","fontSize":14,"lineHeight":16,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":1,"region":"main","kind":"control","tag":"span","role":"button","text":"Stain Removal Guide","x":338,"y":984,"w":144,"h":46,"fontFamily":"Tide","fontSize":14,"lineHeight":16,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":2,"region":"main","kind":"image","tag":"picture","role":null,"text":"A white T-shirt with brown liquid stains on it","x":1060,"y":929,"w":784,"h":772,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[874,861],"src":"https://images.ctfassets.net/ajjw8wywicb3/jrwLVFSOxSUBsy0zpk2vk/b060c46ea3aed4795b097a43932dd8a7/how_to_remove_stains.png?fm=webp"},
+  {"section":2,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Stain removal guide","x":150,"y":1071,"w":1140,"h":52,"fontFamily":"Tide","fontSize":48,"lineHeight":52,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(255, 255, 255)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"div","role":null,"text":"I have a","x":150,"y":1353,"w":180,"h":52,"fontFamily":"Tide","fontSize":48,"lineHeight":52,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":2,"region":"main","kind":"control","tag":"button","role":"button","text":"ink","x":350,"y":1153,"w":360,"h":50,"fontFamily":"Tide","fontSize":24,"lineHeight":60,"fontWeight":"700","letterSpacing":0,"textTransform":"lowercase","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":2,"region":"main","kind":"control","tag":"button","role":"button","text":"ketchup","x":350,"y":1203,"w":360,"h":50,"fontFamily":"Tide","fontSize":24,"lineHeight":60,"fontWeight":"700","letterSpacing":0,"textTransform":"lowercase","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":2,"region":"main","kind":"control","tag":"button","role":"button","text":"makeup","x":350,"y":1253,"w":360,"h":50,"fontFamily":"Tide","fontSize":24,"lineHeight":60,"fontWeight":"700","letterSpacing":0,"textTransform":"lowercase","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":2,"region":"main","kind":"control","tag":"button","role":"button","text":"marker","x":350,"y":1303,"w":360,"h":50,"fontFamily":"Tide","fontSize":24,"lineHeight":60,"fontWeight":"700","letterSpacing":0,"textTransform":"lowercase","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":2,"region":"main","kind":"control","tag":"button","role":"button","text":"mayonnaise","x":350,"y":1353,"w":360,"h":52,"fontFamily":"Tide","fontSize":48,"lineHeight":52,"fontWeight":"800","letterSpacing":0,"textTransform":"lowercase","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":2,"region":"main","kind":"control","tag":"button","role":"button","text":"mildew","x":350,"y":1405,"w":360,"h":50,"fontFamily":"Tide","fontSize":24,"lineHeight":60,"fontWeight":"700","letterSpacing":0,"textTransform":"lowercase","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":2,"region":"main","kind":"control","tag":"button","role":"button","text":"motor oil","x":350,"y":1455,"w":360,"h":50,"fontFamily":"Tide","fontSize":24,"lineHeight":60,"fontWeight":"700","letterSpacing":0,"textTransform":"lowercase","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":2,"region":"main","kind":"control","tag":"button","role":"button","text":"mouthwash","x":350,"y":1505,"w":360,"h":50,"fontFamily":"Tide","fontSize":24,"lineHeight":60,"fontWeight":"700","letterSpacing":0,"textTransform":"lowercase","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":2,"region":"main","kind":"control","tag":"button","role":"button","text":"mud","x":350,"y":1555,"w":360,"h":50,"fontFamily":"Tide","fontSize":24,"lineHeight":60,"fontWeight":"700","letterSpacing":0,"textTransform":"lowercase","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"span","role":null,"text":"stain","x":740,"y":1353,"w":122,"h":52,"fontFamily":"Tide","fontSize":48,"lineHeight":52,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":2,"region":"main","kind":"control","tag":"button","role":"button","text":"Learn More","x":906,"y":1358,"w":250,"h":42,"fontFamily":"Tide","fontSize":20,"lineHeight":22,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":2,"region":"main","kind":"image","tag":"picture","role":null,"text":"Tomato","x":0,"y":1633,"w":246,"h":362,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[246,362],"src":"https://images.ctfassets.net/ajjw8wywicb3/3Inf9VSmJ8RXhj2AozgoWl/7572768cf15a20ef5e9edf5c7195c386/Stain-L1.png?fm=webp"},
+  {"section":2,"region":"main","kind":"image","tag":"picture","role":null,"text":"A picture of a glass of red wine being spilled on a white garment","x":1190,"y":1835,"w":250,"h":268,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[371,397],"src":"https://images.ctfassets.net/ajjw8wywicb3/4GkT84KewG8hPVPs2OUC0P/6a437027df9292bdcefaa1416bc8a814/Stain-R1.png?fm=webp"},
+  {"section":2,"region":"main","kind":"image","tag":"picture","role":null,"text":"A picture of some charcoal","x":0,"y":2187,"w":250,"h":378,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[330,499],"src":"https://images.ctfassets.net/ajjw8wywicb3/6vWr9tnLhjgvv7noBqPf1V/1636fb0a29f4980e94171ea8c8c8036d/Stain-L2.png?fm=webp"},
+  {"section":2,"region":"main","kind":"image","tag":"picture","role":null,"text":"Grass","x":1190,"y":2394,"w":250,"h":410,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[368,604],"src":"https://images.ctfassets.net/ajjw8wywicb3/1Kg0PAJiBE1myJA3sxKcuZ/89f67d57da375cf3015d06442599876d/Stain-R2.png?fm=webp"},
+  {"section":2,"region":"main","kind":"image","tag":"picture","role":null,"text":"A picture of brown dirt","x":0,"y":2966,"w":250,"h":426,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[431,734],"src":"https://images.ctfassets.net/ajjw8wywicb3/4C1F7uz7H5fzxoVflPXlpz/67ac01d07f04890acac78f28db2d8ec3/Stain-L3.png?fm=webp"},
+  {"section":2,"region":"main","kind":"image","tag":"picture","role":null,"text":"Spinach stain on a white garment","x":1190,"y":3308,"w":250,"h":281,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[351,395],"src":"https://images.ctfassets.net/ajjw8wywicb3/2EBAfOQEV2hkg5y80cn1dR/784376918c8d20a85db50523e79c3c27/Stain-R3.png?fm=webp"},
+  {"section":2,"region":"main","kind":"text","tag":"span","role":null,"text":"Type the stain you’re looking to remove","x":380,"y":1668,"w":220,"h":56,"fontFamily":"Tide","fontSize":20,"lineHeight":26,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":2},
+  {"section":2,"region":"main","kind":"control","tag":"input","role":"field","text":"ex: grease","x":635,"y":1668,"w":425,"h":56,"fontFamily":"Tide","fontSize":26,"lineHeight":30,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1},
+  {"section":2,"region":"main","kind":"control","tag":"div","role":"button","text":"Beauty stains","x":443,"y":1864,"w":555,"h":41,"fontFamily":"Tide","fontSize":26,"lineHeight":30,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(251, 76, 6)","lines":1},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Facial Mask","x":443,"y":1935,"w":88,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/facial-mask-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Wax","x":627,"y":1935,"w":35,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/wax-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Acne Cream","x":812,"y":1935,"w":96,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/acne-cream-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Hair Dye","x":443,"y":1974,"w":67,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/hair-dye-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Nail Polish","x":627,"y":1974,"w":79,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/nail-polish-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Deodorant","x":812,"y":1974,"w":83,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/deodorant-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Perfume","x":443,"y":2013,"w":66,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/perfume-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Makeup","x":627,"y":2013,"w":61,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/makeup-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Sunscreen","x":812,"y":2013,"w":81,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/sunscreen-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Toothpaste","x":443,"y":2052,"w":87,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/toothpaste-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Ointment","x":627,"y":2052,"w":72,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/ointment-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Mouthwash","x":812,"y":2052,"w":90,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/mouthwash-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"div","role":"button","text":"Tough stains","x":443,"y":2116,"w":555,"h":41,"fontFamily":"Tide","fontSize":26,"lineHeight":30,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(251, 76, 6)","lines":1},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Tough Stains","x":443,"y":2187,"w":100,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/tackle-tough-stains-tide"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Mildew","x":627,"y":2187,"w":55,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/mildew-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Paint","x":812,"y":2187,"w":38,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/paint-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Chewing Gum","x":443,"y":2226,"w":110,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/chewing-gum-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Motor Oil","x":627,"y":2226,"w":72,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/motor-oil-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Dingy Whites","x":812,"y":2226,"w":104,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/dingy-whites-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Crayon","x":443,"y":2265,"w":55,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/crayon-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Play-Doh/Silly Putty","x":627,"y":2265,"w":155,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/play-doh-or-silly-putty-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Glue","x":812,"y":2265,"w":35,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/glue-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Oil","x":443,"y":2304,"w":21,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/general-oil-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Ink","x":627,"y":2304,"w":23,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/ink-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Fabric Softener","x":812,"y":2304,"w":119,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/fabric-softener-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Collar/Cuff Soil","x":443,"y":2343,"w":120,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/collar-or-cuff-soil-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Colored Marker","x":627,"y":2343,"w":121,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/colored-marker-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Clay","x":812,"y":2343,"w":33,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/clay-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Soot","x":443,"y":2382,"w":36,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/soot-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Sweat","x":627,"y":2382,"w":48,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/sweat-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Blood","x":812,"y":2382,"w":46,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/blood-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Correction Fluid","x":443,"y":2421,"w":124,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/correction-fluid-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Cough Syrup","x":627,"y":2421,"w":102,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/cough-syrup-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Dye Transfer","x":812,"y":2421,"w":98,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/dye-transfer-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Underwear","x":443,"y":2460,"w":86,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/underwear-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Shoe Polish","x":627,"y":2460,"w":89,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/shoe-polish-liquid-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Pet","x":812,"y":2460,"w":26,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/pet-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"div","role":"button","text":"Drink stains","x":443,"y":2524,"w":555,"h":41,"fontFamily":"Tide","fontSize":26,"lineHeight":30,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(251, 76, 6)","lines":1},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Coffee","x":443,"y":2595,"w":51,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/coffee-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Fruit Juice","x":627,"y":2595,"w":81,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/fruit-juice-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Sport Drink","x":812,"y":2595,"w":89,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/sport-drink-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Hot Chocolate","x":443,"y":2634,"w":111,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/hot-chocolate-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Wine","x":627,"y":2634,"w":41,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/wine-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Soft Drink","x":812,"y":2634,"w":78,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/soft-drink-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Beer","x":443,"y":2673,"w":36,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/beer-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"div","role":"button","text":"Food stains","x":443,"y":2737,"w":555,"h":41,"fontFamily":"Tide","fontSize":26,"lineHeight":30,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(251, 76, 6)","lines":1},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Spaghetti","x":443,"y":2808,"w":75,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/spaghetti-sauce-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Ketchup","x":627,"y":2808,"w":65,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/ketchup-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Chocolate","x":812,"y":2808,"w":78,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/chocolate-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Dairy","x":443,"y":2847,"w":40,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/dairy-products-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"BBQ Sauce","x":627,"y":2847,"w":88,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/bbq-sauce-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Cooking Oil","x":812,"y":2847,"w":90,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/oil-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Pudding","x":443,"y":2886,"w":64,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/pudding-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Fruit","x":627,"y":2886,"w":36,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/fruit-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Grease","x":812,"y":2886,"w":55,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/grease-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Mayonnaise","x":443,"y":2925,"w":92,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/mayonnaise-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Mustard","x":627,"y":2925,"w":64,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/mustard-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Salsa","x":812,"y":2925,"w":40,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/salsa-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Vegetable","x":443,"y":2964,"w":79,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/vegetable-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Butter","x":627,"y":2964,"w":48,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/butter-or-margarine-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Candy","x":812,"y":2964,"w":50,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/candy-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Egg","x":443,"y":3003,"w":30,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/egg-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Gelatin Dessert","x":627,"y":3003,"w":118,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/gelatin-dessert-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Gravy","x":812,"y":3003,"w":46,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/gravy-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"div","role":"button","text":"Outdoor stains","x":443,"y":3067,"w":555,"h":41,"fontFamily":"Tide","fontSize":26,"lineHeight":30,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(251, 76, 6)","lines":1},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Mud","x":443,"y":3138,"w":34,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/how-to-remove-mud-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Tree Sap","x":627,"y":3138,"w":69,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/tree-sap-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Oily Road","x":812,"y":3138,"w":75,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/oily-road-water-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Plaster","x":443,"y":3177,"w":53,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/plaster-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Dirt","x":627,"y":3177,"w":28,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/dirt-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Pollen","x":812,"y":3177,"w":47,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/pollen-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Rust","x":443,"y":3216,"w":35,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/rust-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Grass","x":627,"y":3216,"w":44,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/grass-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Skunk Odor","x":812,"y":3216,"w":93,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/skunk-odor-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"div","role":"button","text":"Baby stains","x":443,"y":3280,"w":555,"h":41,"fontFamily":"Tide","fontSize":26,"lineHeight":30,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(251, 76, 6)","lines":1},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Urine","x":443,"y":3351,"w":41,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/urine-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Poop","x":627,"y":3351,"w":41,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/poop-stains"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Baby Food","x":812,"y":3351,"w":84,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/baby-food-stains"},
+  {"section":2,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Your Comprehensive Stain Removal Guide","x":150,"y":3515,"w":570,"h":104,"fontFamily":"Tide","fontSize":48,"lineHeight":52,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":2},
+  {"section":2,"region":"main","kind":"text","tag":"h5","role":"h5","text":"What are the different types of stains?","x":150,"y":3639,"w":570,"h":30,"fontFamily":"Tide","fontSize":26,"lineHeight":30,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1},
+  {"section":2,"region":"main","kind":"image","tag":"picture","role":null,"text":"A pictogram of liquid stains getting on a T-shirt","x":294,"y":3729,"w":91,"h":100,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[91,100],"src":"https://images.ctfassets.net/ajjw8wywicb3/Z502evwrcup2sl4SJP8GS/2fedeec678b3fca18efa7ec909077188/alp-blood-and-grass-icon-v2.png?fm=webp"},
+  {"section":2,"region":"main","kind":"text","tag":"h6","role":"h6","text":"Blood or Grass stains","x":275,"y":3874,"w":130,"h":72,"fontFamily":"Tide","fontSize":20,"lineHeight":24,"fontWeight":"800","letterSpacing":0.75,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":3},
+  {"section":2,"region":"main","kind":"image","tag":"picture","role":null,"text":"A pictogram of liquid stains getting on a T-shirt","x":484,"y":3729,"w":91,"h":100,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[91,100],"src":"https://images.ctfassets.net/ajjw8wywicb3/Z502evwrcup2sl4SJP8GS/2fedeec678b3fca18efa7ec909077188/alp-blood-and-grass-icon-v2.png?fm=webp"},
+  {"section":2,"region":"main","kind":"text","tag":"h6","role":"h6","text":"Grease","x":465,"y":3874,"w":130,"h":24,"fontFamily":"Tide","fontSize":20,"lineHeight":24,"fontWeight":"800","letterSpacing":0.75,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Butter or other oily stains","x":465,"y":3913,"w":130,"h":72,"fontFamily":"Tide","fontSize":19,"lineHeight":24,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":3},
+  {"section":2,"region":"main","kind":"image","tag":"picture","role":null,"text":"A pictogram of a T-shirt with sweat stains on it","x":675,"y":3729,"w":90,"h":100,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[90,100],"src":"https://images.ctfassets.net/ajjw8wywicb3/22P4EvvjzrLlDWrR1c6k6h/ffad06b80178f8f6675dd170eb64648e/alp-body-soils-icon-v2.png?fm=webp"},
+  {"section":2,"region":"main","kind":"text","tag":"h6","role":"h6","text":"Body soils","x":655,"y":3874,"w":130,"h":24,"fontFamily":"Tide","fontSize":20,"lineHeight":24,"fontWeight":"800","letterSpacing":0.75,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Collar and sweat stains","x":655,"y":3913,"w":130,"h":48,"fontFamily":"Tide","fontSize":19,"lineHeight":24,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":2},
+  {"section":2,"region":"main","kind":"image","tag":"picture","role":null,"text":"A pictogram of liquid laundry detergent being poured on a stained T-shirt","x":854,"y":3729,"w":111,"h":104,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[111,104],"src":"https://images.ctfassets.net/ajjw8wywicb3/5GSLcphVlyNpZcyPjGBDJV/563d84a041d119c0c8100c05ed810696/alp-bleachable-icon.png?fm=webp"},
+  {"section":2,"region":"main","kind":"text","tag":"h6","role":"h6","text":"Bleachable","x":845,"y":3878,"w":130,"h":24,"fontFamily":"Tide","fontSize":20,"lineHeight":24,"fontWeight":"800","letterSpacing":0.75,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Stains from coffee and tea","x":845,"y":3917,"w":130,"h":72,"fontFamily":"Tide","fontSize":19,"lineHeight":24,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":3},
+  {"section":2,"region":"main","kind":"image","tag":"picture","role":null,"text":"Test ALP/Guide Header/Icons/Clay soil or dirt stains/Image","x":1054,"y":3729,"w":91,"h":100,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[91,100],"src":"https://images.ctfassets.net/ajjw8wywicb3/7asFnV0vl0QyTsJlATtlYn/04b05027ab31c891588c1802cc5fcea3/alp-clay-soil-dirt-icon-v2.png?fm=webp"},
+  {"section":2,"region":"main","kind":"text","tag":"h6","role":"h6","text":"Clay, soil or dirt stains","x":1035,"y":3874,"w":130,"h":48,"fontFamily":"Tide","fontSize":20,"lineHeight":24,"fontWeight":"800","letterSpacing":0.75,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":2},
+  {"section":2,"region":"main","kind":"text","tag":"h3","role":"h3","text":"How do you get rid of stains?","x":443,"y":4079,"w":555,"h":88,"fontFamily":"Tide","fontSize":40,"lineHeight":44,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":2},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Different stains can require different removal processes. Now that you have an …","x":443,"y":4187,"w":555,"h":120,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":5},
+  {"section":2,"region":"main","kind":"text","tag":"div","role":null,"text":"Step 1. Remove the excess stain","x":533,"y":4342,"w":465,"h":30,"fontFamily":"Tide","fontSize":26,"lineHeight":30,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Use a paper towel, a fork, or a brush to get rid of as much of the stain as pos…","x":533,"y":4382,"w":465,"h":72,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":3},
+  {"section":2,"region":"main","kind":"text","tag":"div","role":null,"text":"Step 2. Pre-treat stains","x":533,"y":4514,"w":465,"h":30,"fontFamily":"Tide","fontSize":26,"lineHeight":30,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Here it’s important to know the type of stain you are dealing with, because eac…","x":533,"y":4554,"w":465,"h":72,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":3},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Enzymatic stains.","x":578,"y":4661,"w":420,"h":26,"fontFamily":"Tide","fontSize":20,"lineHeight":26,"fontWeight":"800","letterSpacing":0.75,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Pour liquid detergent directly onto the stain. Gently rub the fabric together, …","x":578,"y":4697,"w":420,"h":97,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":4},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"liquid detergent","x":619,"y":4700,"w":128,"h":19,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/shop/type/liquid/tide-ultra-stain-release-liquid"},
+  {"section":2,"region":"main","kind":"text","tag":"h5","role":"h5","text":"Recommended Products:","x":578,"y":4814,"w":420,"h":20,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"800","letterSpacing":0.6,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":2,"region":"main","kind":"image","tag":"picture","role":"link","text":"Tide Ultra Stain Release Liquid","x":595,"y":4864,"w":100,"h":100,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[1200,1200],"src":"https://images.ctfassets.net/ajjw8wywicb3/5BLwGWse29FFmBYyGU5ADY/8d2f4e0c7eb1816cab65a25762ac3378/92OZ_UltraStainRelease_v01_smpl_1200x1200.png?fm=webp","href":"/en-us/shop/type/liquid/tide-plus-bleach-alternative-liquid"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Tide Ultra Stain Release Liquid Laundry Detergent","x":578,"y":4854,"w":135,"h":215,"fontFamily":"Tide","fontSize":14,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":4,"href":"/en-us/shop/type/liquid/tide-plus-bleach-alternative-liquid"},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Greasy or oily stains.","x":578,"y":5089,"w":420,"h":26,"fontFamily":"Tide","fontSize":20,"lineHeight":26,"fontWeight":"800","letterSpacing":0.75,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Presoak in a soaking solution of detergent and warm water, or pretreat them wit…","x":578,"y":5125,"w":420,"h":48,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":2},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Body-soil stains.","x":578,"y":5193,"w":420,"h":26,"fontFamily":"Tide","fontSize":20,"lineHeight":26,"fontWeight":"800","letterSpacing":0.75,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Rinse garments affected by body-soil stains under cold water.","x":578,"y":5229,"w":420,"h":48,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":2},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Bleachable stains.","x":578,"y":5297,"w":420,"h":26,"fontFamily":"Tide","fontSize":20,"lineHeight":26,"fontWeight":"800","letterSpacing":0.75,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Presoak and wash with powder detergent.","x":578,"y":5333,"w":420,"h":25,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"powder detergent","x":762,"y":5336,"w":145,"h":19,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/shop/type/powder/tide-plus-bleach-powder"},
+  {"section":2,"region":"main","kind":"text","tag":"h5","role":"h5","text":"Recommended Products:","x":578,"y":5378,"w":420,"h":20,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"800","letterSpacing":0.6,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":2,"region":"main","kind":"image","tag":"picture","role":"link","text":"Tide Plus Bleach Powder Laundry Detergent","x":595,"y":5432,"w":100,"h":92,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[521,480],"src":"https://images.ctfassets.net/ajjw8wywicb3/6t3XI2dWZMFlybbDtW53aH/96cd3153da746b0ca1892f3834923f3d/Tide_Plus_Bleach_Powder_hero_521x480.png?fm=webp","href":"/en-us/shop/type/powder/tide-plus-bleach-powder"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Tide Plus Bleach Powder Laundry Detergent","x":578,"y":5418,"w":135,"h":195,"fontFamily":"Tide","fontSize":14,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":3,"href":"/en-us/shop/type/powder/tide-plus-bleach-powder"},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Clay or dirt stains.","x":578,"y":5633,"w":420,"h":26,"fontFamily":"Tide","fontSize":20,"lineHeight":26,"fontWeight":"800","letterSpacing":0.75,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Presoak in cold water with liquid detergent.","x":578,"y":5669,"w":420,"h":24,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"div","role":null,"text":"Step 3. Add detergent","x":533,"y":5753,"w":465,"h":30,"fontFamily":"Tide","fontSize":26,"lineHeight":30,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Measure the correct amount of detergent according to the product labels and you…","x":533,"y":5793,"w":465,"h":48,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":2},
+  {"section":2,"region":"main","kind":"text","tag":"div","role":null,"text":"Step 4. Wash your garments","x":533,"y":5901,"w":465,"h":30,"fontFamily":"Tide","fontSize":26,"lineHeight":30,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Choose the most appropriate wash temperature and cycle setting according to the…","x":533,"y":5941,"w":465,"h":72,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":3},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"wash temperature","x":765,"y":5944,"w":146,"h":19,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/stain-removal-cold-water-tide"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"the garment's fabric-care label","x":533,"y":5968,"w":382,"h":43,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":2,"href":"/en-us/how-to-wash-clothes/how-to-do-laundry/how-to-read-laundry-symbols"},
+  {"section":2,"region":"main","kind":"text","tag":"div","role":null,"text":"Step 5. Check garments before drying","x":533,"y":6073,"w":465,"h":60,"fontFamily":"Tide","fontSize":26,"lineHeight":30,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":2},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Don't put the clothes into the drier until the stain is completely removed, as …","x":533,"y":6143,"w":465,"h":48,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":2},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"To prevent stains from setting in, remember to soak the garment in cold water a…","x":443,"y":6226,"w":555,"h":97,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":4},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"cold water","x":592,"y":6277,"w":84,"h":19,"fontFamily":"Tide","fontSize":16,"lineHeight":24,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains/stain-removal-cold-water-tide"},
+  {"section":3,"region":"main","kind":"image","tag":"svg","role":"button","text":"","x":657,"y":6443,"w":30,"h":17,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":3,"region":"main","kind":"control","tag":"button","role":"button","text":"Back to Top","x":637,"y":6423,"w":166,"h":57,"fontFamily":"Tide","fontSize":14,"lineHeight":16,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":4,"region":"footer","kind":"text","tag":"span","role":null,"text":"Ways to connect with us:","x":150,"y":6602,"w":255,"h":19,"fontFamily":"Tide","fontSize":20,"lineHeight":19,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(255, 255, 255)","lines":1},
+  {"section":4,"region":"footer","kind":"image","tag":"img","role":"link","text":"Facebook icon","x":485,"y":6595,"w":32,"h":32,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[32,32],"src":"https://tide.com/images/social_facebook.svg","href":"https://www.facebook.com/Tide?fref=ts"},
+  {"section":4,"region":"footer","kind":"image","tag":"img","role":"link","text":"Twitter icon","x":532,"y":6595,"w":32,"h":32,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[32,32],"src":"https://tide.com/images/social_twitter.svg","href":"https://twitter.com/tide"},
+  {"section":4,"region":"footer","kind":"image","tag":"img","role":"link","text":"Pinterest icon","x":579,"y":6595,"w":32,"h":32,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[32,32],"src":"https://tide.com/images/social_pinterest.svg","href":"https://www.pinterest.com/tide/"},
+  {"section":4,"region":"footer","kind":"image","tag":"img","role":"link","text":"YouTube icon","x":626,"y":6595,"w":32,"h":32,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[32,32],"src":"https://tide.com/images/social_youtube.svg","href":"https://www.youtube.com/channel/UCEPeWPjaF1CWCKXa3xTp7vw"},
+  {"section":4,"region":"footer","kind":"text","tag":"p","role":null,"text":"Shop Products","x":150,"y":6687,"w":750,"h":30,"fontFamily":"Tide","fontSize":26,"lineHeight":30,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1},
+  {"section":4,"region":"footer","kind":"text","tag":"div","role":null,"text":"By Type","x":150,"y":6742,"w":230,"h":28,"fontFamily":"Tide","fontSize":24,"lineHeight":28,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(251, 76, 6)","lines":1},
+  {"section":4,"region":"footer","kind":"text","tag":"div","role":null,"text":"By Need","x":410,"y":6742,"w":230,"h":28,"fontFamily":"Tide","fontSize":24,"lineHeight":28,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(251, 76, 6)","lines":1},
+  {"section":4,"region":"footer","kind":"text","tag":"div","role":null,"text":"Top Collection","x":670,"y":6742,"w":230,"h":28,"fontFamily":"Tide","fontSize":24,"lineHeight":28,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(251, 76, 6)","lines":1},
+  {"section":4,"region":"footer","kind":"text","tag":"p","role":null,"text":"How to Wash Clothes","x":930,"y":6737,"w":360,"h":55,"fontFamily":"Tide","fontSize":26,"lineHeight":30,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1},
+  {"section":4,"region":"footer","kind":"control","tag":"a","role":"link","text":"How to Remove Stains","x":930,"y":6809,"w":177,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains"},
+  {"section":4,"region":"footer","kind":"control","tag":"a","role":"link","text":"How to Do Laundry","x":930,"y":6841,"w":153,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-do-laundry"},
+  {"section":4,"region":"footer","kind":"control","tag":"a","role":"link","text":"Washing Different Fabrics and Colors","x":930,"y":6873,"w":289,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors"},
+  {"section":4,"region":"footer","kind":"control","tag":"a","role":"link","text":"Washing Machine 101","x":930,"y":6905,"w":163,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/how-to-wash-clothes/washing-machine-101"},
+  {"section":4,"region":"footer","kind":"text","tag":"p","role":null,"text":"Help & Support","x":930,"y":6970,"w":360,"h":55,"fontFamily":"Tide","fontSize":26,"lineHeight":30,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1},
+  {"section":4,"region":"footer","kind":"control","tag":"a","role":"link","text":"Contact Us","x":930,"y":7042,"w":85,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/contact-us"},
+  {"section":4,"region":"footer","kind":"text","tag":"span","role":null,"text":"Related:","x":150,"y":7105,"w":49,"h":17,"fontFamily":"Tide","fontSize":12,"lineHeight":16.8,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1},
+  {"section":4,"region":"footer","kind":"control","tag":"a","role":"link","text":"P&G Brands","x":204,"y":7106,"w":70,"h":13,"fontFamily":"Tide","fontSize":12,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"http://pg.com/en_US"},
+  {"section":4,"region":"footer","kind":"control","tag":"a","role":"link","text":"MrClean","x":287,"y":7106,"w":48,"h":13,"fontFamily":"Tide","fontSize":12,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://www.mrclean.com/en-us"},
+  {"section":4,"region":"footer","kind":"control","tag":"a","role":"link","text":"Downy","x":349,"y":7106,"w":41,"h":13,"fontFamily":"Tide","fontSize":12,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"http://www.downy.com/en-us"},
+  {"section":4,"region":"footer","kind":"control","tag":"a","role":"link","text":"Bounce","x":404,"y":7106,"w":44,"h":13,"fontFamily":"Tide","fontSize":12,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"http://www.bouncefresh.com/"},
+  {"section":4,"region":"footer","kind":"control","tag":"a","role":"link","text":"P&G Everyday","x":461,"y":7106,"w":83,"h":13,"fontFamily":"Tide","fontSize":12,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"http://www.pgeveryday.com/tag/tide"},
+  {"section":4,"region":"footer","kind":"image","tag":"picture","role":"link","text":"Good Housekeeping icon","x":150,"y":7209,"w":82,"h":62,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[82,62],"src":"https://tide.com/images/footer_GoodHousekeeping.webp","href":"http://www.goodhousekeeping.com/product-reviews/history/welcome-gh-seal"},
+  {"section":4,"region":"footer","kind":"image","tag":"picture","role":"link","text":"BBB icon","x":262,"y":7209,"w":38,"h":62,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[38,62],"src":"https://tide.com/images/footer_BBB.webp","href":"https://www.bbb.org/cincinnati/business-reviews/detergent/the-procter-gamble-company-in-cincinnati-oh-3036"},
+  {"section":4,"region":"footer","kind":"image","tag":"picture","role":"link","text":"Junk Food icon","x":330,"y":7209,"w":58,"h":62,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[58,62],"src":"https://tide.com/images/footer_JunkFood.webp","href":"http://www.junkfoodclothing.com/"},
+  {"section":4,"region":"footer","kind":"image","tag":"picture","role":"link","text":"Tide Cleaners icon","x":418,"y":7209,"w":56,"h":62,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[56,62],"src":"https://tide.com/images/footer_TideCleaners.webp","href":"https://www.tidecleaners.com/"},
+  {"section":4,"region":"footer","kind":"control","tag":"a","role":"link","text":"Accessibility Statement","x":150,"y":7306,"w":135,"h":13,"fontFamily":"Tide","fontSize":12,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://accessibility.pg.com/en-US"},
+  {"section":4,"region":"footer","kind":"control","tag":"a","role":"link","text":"Terms & Conditions","x":298,"y":7306,"w":113,"h":13,"fontFamily":"Tide","fontSize":12,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://termsandconditions.pg.com/en-us/"},
+  {"section":4,"region":"footer","kind":"control","tag":"a","role":"link","text":"Tide Rewards Terms and Conditions","x":425,"y":7306,"w":209,"h":13,"fontFamily":"Tide","fontSize":12,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/rewards/loyalty/terms-and-conditions"},
+  {"section":4,"region":"footer","kind":"control","tag":"a","role":"link","text":"Careers","x":648,"y":7306,"w":45,"h":13,"fontFamily":"Tide","fontSize":12,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://www.pgcareers.com/"},
+  {"section":4,"region":"footer","kind":"control","tag":"a","role":"link","text":"Privacy","x":706,"y":7306,"w":42,"h":13,"fontFamily":"Tide","fontSize":12,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://privacypolicy.pg.com/en-US/#statePrivacyNotice"},
+  {"section":4,"region":"footer","kind":"control","tag":"a","role":"link","text":"Consumer Health Data Privacy Policy","x":762,"y":7306,"w":215,"h":13,"fontFamily":"Tide","fontSize":12,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://privacypolicy.pg.com/CHD-en"},
+  {"section":4,"region":"footer","kind":"control","tag":"a","role":"link","text":"Your Privacy Choices","x":991,"y":7306,"w":152,"h":13,"fontFamily":"Tide","fontSize":12,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://preferencecenter.pg.com/"},
+  {"section":4,"region":"footer","kind":"text","tag":"div","role":null,"text":"NOTICE: We may sell your sensitive personal data.","x":150,"y":7329,"w":302,"h":32,"fontFamily":"Tide","fontSize":12,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1},
+  {"section":4,"region":"footer","kind":"text","tag":"div","role":null,"text":"© 2026 Procter & Gamble","x":939,"y":7329,"w":149,"h":32,"fontFamily":"Tide","fontSize":12,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1},
+  {"section":4,"region":"footer","kind":"control","tag":"a","role":"link","text":"Sitemap","x":1242,"y":7297,"w":48,"h":64,"fontFamily":"Tide","fontSize":12,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/sitemap"}
+ ]
+}

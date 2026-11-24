@@ -1,0 +1,352 @@
+/* stain-guide-widget — stain wheel. Spec: stardust/prototypes/en-us.css (.stains, .picker) */
+
+/* the CTA, help link and wheel links are disjoint elements: order carries no specificity risk */
+/* stylelint-disable no-descending-specificity */
+.stain-guide-widget {
+  position: relative;
+  overflow: hidden;
+  padding-top: 33px;
+  background: var(--tide-navy);
+  color: #fff;
+  text-align: center;
+}
+
+.stain-guide-widget .sg-image {
+  display: none;
+}
+
+.stain-guide-widget .container {
+  display: flow-root;
+  padding: 0 15px;
+}
+
+.stain-guide-widget .sg-heading :is(h2, h3) {
+  margin: 0;
+  color: #fff;
+  letter-spacing: 0;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 44px;
+}
+
+.stain-guide-widget .sg-row {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin: 0 -15px;
+  padding: 10px 0 50px;
+}
+
+.stain-guide-widget .sg-left p {
+  margin: 0;
+  letter-spacing: 0;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 44px;
+}
+
+.stain-guide-widget .sg-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stain-guide-widget .sg-right p {
+  margin: 0;
+  letter-spacing: 0;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 44px;
+}
+
+.stain-guide-widget .sg-actions {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin-top: 35px;
+}
+
+.stain-guide-widget .sg-right .sg-actions p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 0;
+}
+
+.stain-guide-widget .sg-actions .sg-cta p {
+  display: block;
+  position: relative;
+  border: 0;
+  border-radius: 25px;
+  padding: 10px 30px;
+  background-color: var(--tide-orange);
+  color: #fff;
+  font-family: var(--font);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.stain-guide-widget .sg-actions .sg-cta p:hover {
+  background-color: var(--tide-orange-hover);
+}
+
+.stain-guide-widget .sg-help a:any-link {
+  display: inline-block;
+  margin-top: 15px;
+  color: #fff;
+  letter-spacing: 0;
+  white-space: nowrap;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  text-decoration: underline;
+}
+
+/* wheel */
+.stain-guide-widget .sg-picker {
+  position: relative;
+  height: 150px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.stain-guide-widget .sg-mobile .sg-picker {
+  width: 100%;
+  min-width: 300px;
+  margin: 20px 0;
+}
+
+.stain-guide-widget .sg-picker-wrap {
+  display: block;
+  position: relative;
+  min-width: 360px;
+  margin: 0 20px;
+}
+
+.stain-guide-widget .sg-picker-wrap .sg-picker {
+  display: none;
+}
+
+.stain-guide-widget .sg-scroll {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.stain-guide-widget .sg-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.stain-guide-widget .sg-mask {
+  position: absolute;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+  height: 50px;
+  pointer-events: none;
+}
+
+.stain-guide-widget .sg-mask-top {
+  top: 0;
+  background-image: linear-gradient(#1b3392, #1b339200);
+}
+
+.stain-guide-widget .sg-mask-bottom {
+  bottom: 0;
+  background-image: linear-gradient(#1b339200, #1b3392);
+}
+
+.stain-guide-widget .sg-indicator {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+  height: 50px;
+  margin: auto 0;
+  border-top: 1px solid #7481b4;
+  border-bottom: 1px solid #7481b4;
+  pointer-events: none;
+}
+
+.stain-guide-widget .sg-lists {
+  position: relative;
+  width: 100%;
+}
+
+.stain-guide-widget .sg-lists :is(ul, ol) {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.stain-guide-widget .sg-lists li {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: 50px;
+  padding: 0 10px;
+  color: #fff;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-transform: lowercase;
+  font-family: var(--font);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+.stain-guide-widget .sg-lists li a:any-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.stain-guide-widget .sg-lists li.is-selected {
+  overflow: visible;
+  font-size: 40px;
+  font-weight: 800;
+  transition: font-size 0.1s linear;
+}
+
+.stain-guide-widget .sg-arrow {
+  display: none;
+}
+
+@media (width >= 992px) {
+  .stain-guide-widget {
+    padding-top: 40px;
+  }
+
+  .stain-guide-widget .sg-heading :is(h2, h3) {
+    text-align: left;
+    font-size: 48px;
+    line-height: 52px;
+  }
+
+  .stain-guide-widget .sg-row {
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 0;
+    padding: 30px 0;
+  }
+
+  .stain-guide-widget .sg-left {
+    margin-top: 200px;
+  }
+
+  .stain-guide-widget .sg-left p {
+    font-size: 48px;
+    line-height: 52px;
+  }
+
+  .stain-guide-widget .sg-mobile {
+    display: none;
+  }
+
+  .stain-guide-widget .sg-picker-wrap .sg-picker {
+    display: block;
+    width: 100%;
+    height: 450px;
+  }
+
+  .stain-guide-widget .sg-mask {
+    height: 200px;
+  }
+
+  .stain-guide-widget .sg-indicator {
+    height: 60px;
+  }
+
+  .stain-guide-widget .sg-lists li {
+    line-height: 60px;
+  }
+
+  .stain-guide-widget .sg-lists li.is-selected {
+    height: 52px;
+    font-size: 48px;
+    line-height: 52px;
+  }
+
+  .stain-guide-widget .sg-arrow {
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+    z-index: 4;
+    width: 9px;
+    height: 9px;
+    padding: 3px;
+    border: 3px solid var(--tide-yellow);
+    border-width: 0 3px 3px 0;
+    background: 0 0;
+    cursor: pointer;
+  }
+
+  .stain-guide-widget .sg-arrow-up {
+    top: calc(50% - 16px);
+    transform: rotate(-135deg);
+  }
+
+  .stain-guide-widget .sg-arrow-down {
+    top: calc(50% + 4px);
+    transform: rotate(45deg);
+  }
+
+  .stain-guide-widget .sg-right {
+    flex-direction: row;
+    margin-top: 200px;
+  }
+
+  .stain-guide-widget .sg-right p {
+    margin: 0 44px 0 10px;
+    font-size: 48px;
+    line-height: 52px;
+  }
+
+  .stain-guide-widget .sg-actions {
+    z-index: 10;
+    flex-direction: row;
+    margin-top: 0;
+  }
+
+  .stain-guide-widget .sg-help {
+    position: absolute;
+    bottom: -55px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .stain-guide-widget .sg-help a:any-link {
+    margin-top: 0;
+  }
+}
+
+@media (width >= 1200px) {
+  .stain-guide-widget .sg-image {
+    display: block;
+    position: absolute;
+    top: -102px;
+    right: -404px;
+    z-index: 0;
+    width: 784px;
+  }
+
+  .stain-guide-widget .sg-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .stain-guide-widget .sg-actions .sg-cta p {
+    min-width: 250px;
+  }
+}

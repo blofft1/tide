@@ -1,0 +1,282 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-us-research-scientific-guide-laundry-sensitive-skin/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-us-research-scientific-guide-laundry-sensitive-skin/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 9072,
+    "mode": "overlap"
+  },
+  "heightDelta": 47,
+  "differingPixels": 719219,
+  "pct": 5.51,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/en-us-research-scientific-guide-laundry-sensitive-skin/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 11.07,
+  "textBoxes": 355,
+  "textPixels": 3615478,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 6.9
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 9.9
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 0
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 0
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 0.7
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 6.5
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 7.9
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 9.6
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 8.8
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 5.2
+    },
+    {
+      "y0": 7000,
+      "y1": 7500,
+      "pct": 9.6
+    },
+    {
+      "y0": 7500,
+      "y1": 8000,
+      "pct": 10.4
+    },
+    {
+      "y0": 8000,
+      "y1": 8500,
+      "pct": 21.2
+    },
+    {
+      "y0": 8500,
+      "y1": 9000,
+      "pct": 3.1
+    },
+    {
+      "y0": 9000,
+      "y1": 9072,
+      "pct": 0
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 1.62,
+    "differingPixels": 212341,
+    "compared": {
+      "width": 1440,
+      "height": 9120,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 4593,
+        "shift": -16,
+        "cumulative": -16
+      },
+      {
+        "y": 6379,
+        "shift": -16,
+        "cumulative": -32
+      },
+      {
+        "y": 8182,
+        "shift": -16,
+        "cumulative": -48
+      },
+      {
+        "y": 8944,
+        "shift": 1,
+        "cumulative": -47
+      }
+    ],
+    "maxOffset": 48,
+    "totalShift": 49,
+    "insertedRows": 1,
+    "deletedRows": 48,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 6.9,
+        "unaligned": 6.9
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 9.9,
+        "unaligned": 9.9
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0.7,
+        "unaligned": 0.7
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 3.5,
+        "unaligned": 6.5
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 0,
+        "unaligned": 7.9
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 0,
+        "unaligned": 9.6
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 3.8,
+        "unaligned": 8.8
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 0,
+        "unaligned": 5.2
+      },
+      {
+        "y0": 7000,
+        "y1": 7500,
+        "pct": 0.2,
+        "unaligned": 9.6
+      },
+      {
+        "y0": 7500,
+        "y1": 8000,
+        "pct": 0.9,
+        "unaligned": 10.4
+      },
+      {
+        "y0": 8000,
+        "y1": 8500,
+        "pct": 3.4,
+        "unaligned": 21.2
+      },
+      {
+        "y0": 8500,
+        "y1": 9000,
+        "pct": 0.2,
+        "unaligned": 3.1
+      },
+      {
+        "y0": 9000,
+        "y1": 9119,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/en-us-research-scientific-guide-laundry-sensitive-skin/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 91,
+    "totalShift": 49,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/scientific-guide-laundry-sensitive-skin"
+  }
+}

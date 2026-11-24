@@ -1,0 +1,22 @@
+cap-probe  base 1440 → probe 2560 (from stardust/current/DESIGN.json)
+live   https://tide.com/en-us
+  shell     1920px  max-width #page-wrapper  (tier -1, holds 100% of the text)
+  modules  10 sections: capped 1170 ×9 · full-bleed ×1
+  contentMaxWidth 1920px (shell) · shellMaxWidth 1920px · root #site-content
+build  http://localhost:8791/en-us-proposed.html
+  shell     1920px  max-width #page-wrapper  (tier -1, holds 100% of the text)
+  modules  10 sections: capped 1170 ×9 · full-bleed ×1
+  contentMaxWidth 1920px (shell) · shellMaxWidth 1920px · root #site-content
+rows
+  ✓ wrapper cap: live 1920px = build 1920px (±20)
+  ✓ module 1/10: 1170px = 1170px
+  ✓ module 2/10: 1170px = 1170px
+  ✓ module 3/10: full-bleed on both
+  ✓ module 4/10: 1170px = 1170px
+  ✓ module 5/10: 1170px = 1170px
+  ✓ module 6/10: 1170px = 1170px
+  ✓ module 7/10: 1170px = 1170px
+  ✓ module 8/10: 1170px = 1170px
+  ✓ module 9/10: 1170px = 1170px
+  ✓ module 10/10: 1170px = 1170px
+cap-probe: PASS at 2560 — 0 of 11 rows failed (evidence stardust/replica/gates/en-us-2560/cap-iter.json)

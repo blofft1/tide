@@ -1,0 +1,281 @@
+/* rewards-module — tide.com /en-us/rewards rows. Values from measure.mjs on the live page
+   (stardust/.work/cluster-unique-b/spec/meas-rewards.json) and source-spec
+   (spec/en-us-rewards-{1440,360}.json). Mobile-first; 992px. */
+.rewards-module {
+  position: relative;
+}
+
+.rewards-module .rm-image picture {
+  display: block;
+}
+
+.rewards-module .rm-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* hero: the text card sits on the image bottom (< 992) / centred left (>= 992) */
+.rewards-module.hero .rm-box {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-width: none;
+  padding: 0;
+}
+
+.rewards-module.hero .rm-card {
+  border-radius: 10px;
+  padding: 25px 15px;
+  background: #fff;
+  color: var(--tide-navy);
+}
+
+.rewards-module.hero .rm-text h2 {
+  margin: 0 0 20px;
+  color: var(--tide-orange);
+  font-family: var(--font);
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 44px;
+  letter-spacing: 0;
+}
+
+.rewards-module.hero .rm-text p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.rewards-module.image {
+  padding-top: 30px;
+}
+
+/* tiles: live .grid-type-basic.grid-col3 .list-card */
+.rewards-module.tiles {
+  margin: 30px 15px 40px;
+}
+
+.rewards-module.tiles .rm-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rewards-module.tiles .rm-tile {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: calc(100% - 20px);
+  margin: 10px;
+  border-radius: 14px;
+  overflow: hidden;
+  background: #f0f0f0;
+  color: #13259c;
+  text-decoration: none;
+}
+
+.rewards-module.tiles .rm-tile-image {
+  position: relative;
+  height: 210px;
+}
+
+.rewards-module.tiles .rm-tile-image picture {
+  display: block;
+  height: 100%;
+}
+
+.rewards-module.tiles .rm-tile-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.rewards-module.tiles .rm-tile-content {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  line-height: 14px;
+}
+
+.rewards-module.tiles .rm-tile-title p {
+  margin: 0 0 3px;
+  color: #13259c;
+  font-family: var(--font);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.rewards-module.tiles .rm-tile-text p {
+  margin: 0 0 4px;
+  color: var(--tide-navy);
+  font-size: 16px;
+  line-height: 19.2px;
+}
+
+.rewards-module.tiles .rm-tile-button {
+  padding-top: 10px;
+}
+
+.rewards-module.tiles .rm-tile-button span {
+  display: inline-block;
+  border-radius: 21px;
+  padding: 10px 20px;
+  background: var(--tide-navy);
+  color: #fff;
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+/* page sections (Template | rewards): "Discover Tide" rich text and the blue card band */
+body.rewards main .section.rewards-intro {
+  margin-top: 35px;
+}
+
+body.rewards main .section.rewards-intro .default-content-wrapper h2 {
+  margin: 0 0 20px;
+  color: var(--tide-orange);
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 44px;
+  letter-spacing: 0;
+}
+
+body.rewards main .section.rewards-intro .default-content-wrapper p {
+  margin: 0;
+  color: var(--tide-navy);
+  font-size: 16px;
+  line-height: 20px;
+}
+
+body.rewards main .section.rewards-blue {
+  padding: 40px 0;
+  background: var(--tide-navy);
+}
+
+body.rewards main .section .learn-more-card-grid.contained {
+  padding: 0;
+}
+
+body.rewards main .section .learn-more-card-grid.contained .lmc-grid {
+  justify-content: flex-start;
+  margin-top: 0;
+}
+
+body.rewards main .section .learn-more-card-grid.contained .lmc-card {
+  margin: 20px 0;
+  border-radius: 16px;
+  padding-top: 40px;
+  background: #fff;
+}
+
+body.rewards main .section .learn-more-card-grid.contained .lmc-body {
+  margin-top: 0;
+  padding: 0;
+}
+
+body.rewards main .section .learn-more-card-grid.contained .lmc-content {
+  border-radius: 0 0 16px 16px;
+  padding: 20px;
+}
+
+body.rewards main .section .learn-more-card-grid.contained .lmc-title {
+  padding-bottom: 20px;
+}
+
+body.rewards main .section .learn-more-card-grid.contained .lmc-title :is(p, a) {
+  min-height: 0;
+  color: var(--tide-navy);
+  font-size: 20px;
+  line-height: 20px;
+}
+
+body.rewards main .section .learn-more-card-grid.contained .lmc-text p {
+  min-height: 0;
+  margin-top: 15px;
+}
+
+@media (width >= 992px) {
+  .rewards-module.hero .rm-box {
+    top: 0;
+    display: flex;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .rewards-module.hero .rm-card {
+    width: 500px;
+    border-radius: 13px;
+    padding: 60px 45px;
+  }
+
+  .rewards-module.hero .rm-text h2 {
+    font-size: 48px;
+    line-height: 52px;
+  }
+
+  .rewards-module.hero .rm-text p {
+    line-height: 24px;
+  }
+
+  .rewards-module.image {
+    padding-top: 0;
+  }
+
+  .rewards-module.tiles {
+    max-width: 930px;
+    margin: 40px auto;
+  }
+
+  .rewards-module.tiles .rm-tile {
+    width: calc(33.3333% - 20px);
+    border-radius: 16px;
+  }
+
+  .rewards-module.tiles .rm-tile-content {
+    padding: 20px;
+  }
+
+  .rewards-module.tiles .rm-tile-title p {
+    line-height: 26px;
+  }
+
+  body.rewards main .section.rewards-intro {
+    margin-top: 80px;
+  }
+
+  body.rewards main .section.rewards-intro .default-content-wrapper h2 {
+    font-size: 48px;
+    line-height: 52px;
+  }
+
+  body.rewards main .section.rewards-intro .default-content-wrapper p {
+    line-height: 24px;
+  }
+
+  body.rewards main .section.rewards-blue {
+    padding: 80px 0;
+  }
+
+  body.rewards main .section .learn-more-card-grid.contained .lmc-text p {
+    min-height: 75px;
+    margin-top: 5px;
+    line-height: 24px;
+  }
+}
+
+@media (width >= 1200px) {
+  .rewards-module.hero .rm-box {
+    max-width: var(--container);
+  }
+
+  .rewards-module.tiles {
+    max-width: 1140px;
+  }
+}

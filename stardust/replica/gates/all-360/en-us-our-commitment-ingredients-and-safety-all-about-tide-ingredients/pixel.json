@@ -1,0 +1,211 @@
+{
+  "a": "stardust/replica/gates/all-360/en-us-our-commitment-ingredients-and-safety-all-about-tide-ingredients/origin.png",
+  "b": "stardust/replica/gates/all-360/en-us-our-commitment-ingredients-and-safety-all-about-tide-ingredients/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 6330,
+    "mode": "overlap"
+  },
+  "heightDelta": -1,
+  "differingPixels": 264849,
+  "pct": 11.62,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-360/en-us-our-commitment-ingredients-and-safety-all-about-tide-ingredients/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 18.18,
+  "textBoxes": 194,
+  "textPixels": 846272,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1.6
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 14.2
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 13.1
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 18.5
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 12.7
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 11.2
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 12.9
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 31.7
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 19.9
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 4.2
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 1.9
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 3.7
+    },
+    {
+      "y0": 6000,
+      "y1": 6330,
+      "pct": 2.1
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 3.68,
+    "differingPixels": 84340,
+    "compared": {
+      "width": 360,
+      "height": 6366,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 403,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 693,
+        "shift": -35,
+        "cumulative": -34
+      },
+      {
+        "y": 4670,
+        "shift": 35,
+        "cumulative": 1
+      }
+    ],
+    "maxOffset": 34,
+    "totalShift": 71,
+    "insertedRows": 36,
+    "deletedRows": 35,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.8,
+        "unaligned": 1.6
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 16.6,
+        "unaligned": 14.2
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 4.5,
+        "unaligned": 13.1
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 2.9,
+        "unaligned": 18.5
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 4.3,
+        "unaligned": 12.7
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 4,
+        "unaligned": 11.2
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 3.5,
+        "unaligned": 12.9
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 2.9,
+        "unaligned": 31.7
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0.3,
+        "unaligned": 19.9
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 6.6,
+        "unaligned": 4.2
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 0,
+        "unaligned": 1.9
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 0,
+        "unaligned": 3.7
+      },
+      {
+        "y0": 6000,
+        "y1": 6330,
+        "pct": 0,
+        "unaligned": 2.1
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/en-us-our-commitment-ingredients-and-safety-all-about-tide-ingredients/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 63,
+    "totalShift": 71,
+    "pass": false
+  },
+  "reason": "offsets: 3 step(s), 71px total — +1px at y=403, −35px at y=693, +35px at y=4670 (bound 63px)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/ingredients-and-safety/all-about-tide-ingredients"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-us-our-commitment-dont-pay-for-water/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-us-our-commitment-dont-pay-for-water/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 2193,
+    "mode": "overlap"
+  },
+  "heightDelta": -1,
+  "differingPixels": 6888,
+  "pct": 0.22,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/en-us-our-commitment-dont-pay-for-water/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 2.02,
+  "textBoxes": 57,
+  "textPixels": 332394,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0.3
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2193,
+      "pct": 1.4
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 0.14,
+    "differingPixels": 4400,
+    "compared": {
+      "width": 1440,
+      "height": 2194,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 2018,
+        "shift": 1,
+        "cumulative": 1
+      }
+    ],
+    "maxOffset": 1,
+    "totalShift": 1,
+    "insertedRows": 1,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0.3,
+        "unaligned": 0.3
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2000,
+        "y1": 2193,
+        "pct": 0.5,
+        "unaligned": 1.4
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/en-us-our-commitment-dont-pay-for-water/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 22,
+    "totalShift": 1,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/dont-pay-for-water"
+  }
+}

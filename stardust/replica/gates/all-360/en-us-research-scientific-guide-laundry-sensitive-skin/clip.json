@@ -1,0 +1,67 @@
+{
+ "url": "https://main--5db7d055--aemcoder.aem.page/en-us/research/scientific-guide-laundry-sensitive-skin",
+ "at": "2026-11-24T11:34:40.766Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 10,
+  "offPage": 14,
+  "textNodes": 267,
+  "controls": 63,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 8,
+   "clipper": null,
+   "path": "div.section.faq-accordion-container > div.default-content-wrapper > p > a",
+   "text": "https://pubmed.ncbi.nlm.nih.gov/11150607/",
+   "cutMin": 7,
+   "cutMax": 1234
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "nav",
+   "path": "nav > ul > li > span.jump-links-item",
+   "text": "2. what \"safe\" means for detergents",
+   "cutMin": 184,
+   "cutMax": 184
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "nav",
+   "path": "nav > ul > li > span.jump-links-item",
+   "text": "2. what \"safe\" means for detergents",
+   "cutMin": 184,
+   "cutMax": 184
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 1,
+   "scrollHidden": 0,
+   "horizontal": 18,
+   "offPage": 14,
+   "textNodes": 268,
+   "controls": 66,
+   "total": 0
+  }
+ }
+}

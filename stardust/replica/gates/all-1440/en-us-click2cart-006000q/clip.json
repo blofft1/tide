@@ -1,0 +1,57 @@
+{
+ "url": "https://main--5db7d055--aemcoder.aem.page/en-us/click2cart/006000q",
+ "at": "2026-11-24T09:13:13.311Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 2,
+  "horizontal": 0,
+  "offPage": 0,
+  "textNodes": 39,
+  "controls": 31,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.action-ui",
+   "path": "div#retailer-buttons-wrapper > div.retailer.retailer-amazon > div.retailer-button-container > div.retailer-button",
+   "text": "amazon",
+   "cutMin": 51,
+   "cutMax": 51
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.action-ui",
+   "path": "div.retailer-button-content > div.main-text > div.retailer-name > p",
+   "text": "amazon",
+   "cutMin": null,
+   "cutMax": null
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 2,
+   "horizontal": 0,
+   "offPage": 0,
+   "textNodes": 40,
+   "controls": 31,
+   "total": 0
+  }
+ }
+}

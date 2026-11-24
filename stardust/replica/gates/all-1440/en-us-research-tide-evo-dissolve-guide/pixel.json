@@ -1,0 +1,184 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-us-research-tide-evo-dissolve-guide/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-us-research-tide-evo-dissolve-guide/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 5169,
+    "mode": "overlap"
+  },
+  "heightDelta": 47,
+  "differingPixels": 602409,
+  "pct": 8.09,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/en-us-research-tide-evo-dissolve-guide/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 21.7,
+  "textBoxes": 152,
+  "textPixels": 1434879,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 7.6
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 9.2
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 3.5
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 8.5
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 6.1
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 9
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 5.9
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 9
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 21.5
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 2.5
+    },
+    {
+      "y0": 5000,
+      "y1": 5169,
+      "pct": 2.5
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 2.52,
+    "differingPixels": 189311,
+    "compared": {
+      "width": 1440,
+      "height": 5216,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1097,
+        "shift": -19,
+        "cumulative": -19
+      },
+      {
+        "y": 4069,
+        "shift": -28,
+        "cumulative": -47
+      }
+    ],
+    "maxOffset": 47,
+    "totalShift": 47,
+    "insertedRows": 0,
+    "deletedRows": 47,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 7.6,
+        "unaligned": 7.6
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 9.2,
+        "unaligned": 9.2
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 3.8,
+        "unaligned": 3.5
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 8.5
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 6.1
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 9
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 5.9
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0,
+        "unaligned": 9
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 5.7,
+        "unaligned": 21.5
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0,
+        "unaligned": 2.5
+      },
+      {
+        "y0": 5000,
+        "y1": 5216,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/en-us-research-tide-evo-dissolve-guide/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 52,
+    "totalShift": 47,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/tide-evo-dissolve-guide"
+  }
+}

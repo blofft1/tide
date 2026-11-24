@@ -1,0 +1,5 @@
+clip-probe http://localhost:8791/en-us-how-to-wash-clothes-how-to-remove-stains-proposed.html @ 1440px — docH 7481, 399 text nodes, 360 controls (HTTP 200, chrome)
+  🔴 CONTROL HIDDEN         ×207   in div.alp-picker.alp-picker--desktop  div.alp-spinner__desktop > div.alp-picker.alp-picker--desktop > div.alp-picker__list > button.alp-picker__item  "tough stains"  cut 50px
+  🔴 TEXT CLIPPED           ×1     in button.alp-picker__item.is-selected  div.alp-spinner__desktop > div.alp-picker.alp-picker--desktop > div.alp-picker__list > button.alp-picker__item.is-selected  "mayonnaise"  cut 7px
+Clipped: 208 (text clipped 1, text hidden 0, controls hidden 207, controls clipped 0; advisory: clamped 0, collapsed 1, scroll-hidden 0, horizontal 0)
+json → stardust/replica/gates/en-us-how-to-wash-clothes-how-to-remove-stains-1440/clip-iter1.json

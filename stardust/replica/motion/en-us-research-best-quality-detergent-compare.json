@@ -1,0 +1,124 @@
+{
+  "live": "stardust/replica/motion/en-us-research-best-quality-detergent-live.json",
+  "build": "stardust/replica/motion/en-us-research-best-quality-detergent-build.json",
+  "toleranceMs": 150,
+  "tolerancePx": 8,
+  "advisory": true,
+  "findings": 2,
+  "counts": {
+    "behaviors": 15,
+    "parity": 4,
+    "missing": 2,
+    "extra": 0,
+    "tolerance": 0,
+    "dead": 7,
+    "advisory": 2
+  },
+  "verdicts": [
+    {
+      "cls": "header",
+      "name": "scroll-morph",
+      "state": "dead",
+      "note": "header static across the scroll traversal on both sides",
+      "line": "motion header scroll-morph: dead on live — not required (header static across the scroll traversal on both sides)"
+    },
+    {
+      "cls": "widget",
+      "name": ".faq-item .expandable-content-header → .faqs .faq__q",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget .faq-item .expandable-content-header → .faqs .faq__q: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "widget",
+      "name": "#sticky-nav li:nth-child(2) span",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget #sticky-nav li:nth-child(2) span: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "hover",
+      "name": "#sticky-nav li span",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover #sticky-nav li span: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "hover",
+      "name": ".faq-item .expandable-content-header → .faqs .faq__q",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover .faq-item .expandable-content-header → .faqs .faq__q: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "hover",
+      "name": ".article-intro .share-buttons-item → .article-intro .share__item",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover .article-intro .share-buttons-item → .article-intro .share__item: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "hover",
+      "name": ".richtext-container p a → .rt p a",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover .richtext-container p a → .rt p a: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "transition",
+      "name": "background-color",
+      "state": "parity",
+      "note": "30 event(s) on live, 26 on build, 0ms",
+      "line": "motion transition background-color: parity (30 event(s) on live, 26 on build, 0ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "box-shadow",
+      "state": "parity",
+      "note": "3 event(s) on live, 3 on build, 300ms",
+      "line": "motion transition box-shadow: parity (3 event(s) on live, 3 on build, 300ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "transform",
+      "state": "parity",
+      "note": "1 event(s) on live, 1 on build, 300ms",
+      "line": "motion transition transform: parity (1 event(s) on live, 1 on build, 300ms)"
+    },
+    {
+      "cls": "class",
+      "name": "active",
+      "state": "parity",
+      "note": "added 15× on live, 13× on build",
+      "line": "motion class active: parity (added 15× on live, 13× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "anchor-navigation-frozen",
+      "state": "missing",
+      "note": "trigger class added 2× on live, never on build",
+      "line": "motion class anchor-navigation-frozen: MISSING on build (trigger class added 2× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "expandable-content-opened",
+      "state": "missing",
+      "note": "trigger class added 1× on live, never on build",
+      "line": "motion class expandable-content-opened: MISSING on build (trigger class added 1× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "is-frozen",
+      "state": "advisory",
+      "note": "added 2× on build, never on live — check it drives no invented behavior",
+      "line": "motion class is-frozen: extra on build — advisory (added 2× on build, never on live — check it drives no invented behavior)"
+    },
+    {
+      "cls": "class",
+      "name": "is-open",
+      "state": "advisory",
+      "note": "added 1× on build, never on live — check it drives no invented behavior",
+      "line": "motion class is-open: extra on build — advisory (added 1× on build, never on live — check it drives no invented behavior)"
+    }
+  ]
+}

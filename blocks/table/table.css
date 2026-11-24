@@ -1,0 +1,99 @@
+/* table — live rich-text table (.rich-text table): grey cell rules, bold first column */
+.table {
+  color: var(--tide-navy);
+}
+
+.table .table-scroller {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.table table {
+  margin-top: 24px;
+  border-collapse: collapse;
+}
+
+.table :is(td, th) {
+  padding: 10px;
+  border: 1px solid gray;
+  text-align: left;
+  vertical-align: middle;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+}
+
+.table :is(td, th) p {
+  margin: 1em 0 0;
+}
+
+.table :is(td, th) p:first-child {
+  margin-top: 0;
+}
+
+.table td:first-child,
+.table td:first-child p {
+  font-weight: 700;
+}
+
+.table a:any-link {
+  color: var(--tide-navy);
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+@media (width >= 992px) {
+  .table :is(td, th) {
+    line-height: 24px;
+  }
+}
+
+/* live p.bullet-paragraph runs, authored as a list */
+.table :is(td, th) ul {
+  margin: 1em 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.table :is(td, th) ul:first-child {
+  margin-top: 0;
+}
+
+.table :is(td, th) li {
+  padding-left: 40px;
+}
+
+.table :is(td, th) li::before {
+  content: "•";
+  display: inline-block;
+  position: absolute;
+  margin-left: -16px;
+}
+
+/* rows — live .tide-table: row rules only, no cell borders, 140px columns below 992 */
+.table.rows table {
+  margin-top: 0;
+}
+
+.table.rows tr {
+  border-bottom: 1px solid #c4c8e6;
+}
+
+.table.rows :is(td, th) {
+  min-width: 140px;
+  padding: 20px 10px 15px 0;
+  border: 0;
+  color: #1b3392;
+}
+
+.table.rows td:first-child,
+.table.rows td:first-child p {
+  font-weight: 400;
+}
+
+@media (width >= 992px) {
+  .table.rows :is(td, th) {
+    min-width: auto;
+  }
+}

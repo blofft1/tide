@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Click2Cart</title>
+<link rel="icon" href="assets/favicon.ico">
+<link rel="stylesheet" href="canon/canon.css">
+<link rel="stylesheet" href="en-us-click2cart-0060001.css">
+</head>
+<body>
+<div id="app-root">
+<main class="shopper-choice">
+<div class="container bordered" id="shopper-choice-container" role="main">
+<div class="scrolling-container" id="scrolling-container">
+ <div class="header-container">
+  <div class="custom-banner-wrapper"><div class="banner-img"><img id="asset-banner-image" src="assets/img/c2c/shopper-choice-hero.jpeg" alt="ShopperChoice Hero asset" width="2000" height="2000"></div></div>
+  <div class="custom-header-wrapper"><div class="header-text"><h1><p><span class="h1-strut"></span>Grab Tide from your favorite store!</p></h1></div></div>
+ </div>
+ <div class="sc-content" id="branded-sc-container" role="complementary" aria-label="Product availability and purchase options">
+  <div class="overflow-wrapper" id="retailer-buttons-wrapper" role="region" aria-label="Retailer buttons list container">
+<div class="retailer">
+ <div class="retailer-button-container" style="background-color: rgb(0, 113, 220);">
+  <div class="retailer-button" role="button" tabindex="0" aria-label="">
+   <div class="retailer-button-logo"><img src="assets/img/c2c/walmart_usa_dark.svg" alt="Walmart logo" width="60" height="60"></div>
+   <div class="retailer-button-content"><span class="main-text"><span class="retailer-name"> WALMART </span><br></span></div>
+   <div class="retailer-type-icon disabled"><i class="fa fa-angle-right" aria-hidden="true" style="-webkit-text-stroke: 1px rgb(157, 157, 157);"></i></div>
+  </div>
+ </div>
+ <div class="break"></div>
+ <div class="retailer-button-accordion"><div class="accordion-body"><div class="accordion-wrapper"></div></div></div>
+ <div class="sc-modal" role="dialog" aria-label="Walmart oauth info modal"></div>
+</div>
+<div class="retailer">
+ <div class="retailer-button-container" style="background-color: rgb(0, 62, 41);">
+  <div class="retailer-button" role="button" tabindex="0" aria-label="Click or press enter to trigger Instacart's transfer process" data-retailer="Instacart">
+   <div class="retailer-button-logo"><img src="assets/img/c2c/instacart_usa_dark.svg" alt="Instacart logo" width="60" height="60"></div>
+   <div class="retailer-button-content"><span class="main-text"><span class="retailer-name"> INSTACART <br><p class="single-offer-info"><span> 45 ct </span></p></span><br></span></div>
+   <div class="retailer-type-icon"><i class="fa fa-angle-right" aria-hidden="true" style="-webkit-text-stroke: 1px rgb(0, 62, 41);"></i></div>
+  </div>
+ </div>
+ <div class="break"></div>
+ <div class="retailer-button-accordion"><div class="accordion-body"><div class="accordion-wrapper"><div class="product-container"><div class="product-image"></div><div class="product-content"><div class="product-description"><div class="product-name"> Tide OXI Boost Power PODS 45 ct</div></div><div class="product-input"><div class="quantity"><div class="number-action up"><i class="fa fa-caret-up" aria-hidden="true"></i></div><span class="sr-only">Add quantity to Tide OXI Boost Power PODS 45 ct</span><input aria-label="Quantity. Use your arrow keys to add or subtract." type="number" value="1" min="1"><div class="number-action down"><i class="fa fa-caret-down" aria-hidden="true"></i><span class="sr-only">Subtract quantity to Tide OXI Boost Power PODS 45 ct</span></div></div></div></div></div></div></div></div>
+ <div class="sc-modal" role="dialog" aria-label="Instacart oauth info modal"></div>
+</div>
+<div class="retailer">
+ <div class="retailer-button-container" style="background-color: rgb(0, 0, 0);">
+  <div class="retailer-button" role="button" tabindex="0" aria-label="">
+   <div class="retailer-button-logo"><img src="assets/img/c2c/amazon_usa_dark.svg" alt="Amazon logo" width="60" height="60"></div>
+   <div class="retailer-button-content"><span class="main-text"><span class="retailer-name"> AMAZON </span><br></span></div>
+   <div class="retailer-type-icon disabled"><i class="fa fa-angle-right" aria-hidden="true" style="-webkit-text-stroke: 1px rgb(157, 157, 157);"></i></div>
+  </div>
+ </div>
+ <div class="break"></div>
+ <div class="retailer-button-accordion"><div class="accordion-body"><div class="accordion-wrapper"></div></div></div>
+ <div class="sc-modal" role="dialog" aria-label="Amazon oauth info modal"></div>
+</div>
+<div class="retailer">
+ <div class="retailer-button-container" style="background-color: rgb(205, 32, 39);">
+  <div class="retailer-button" role="button" tabindex="0" aria-label="">
+   <div class="retailer-button-logo"><img src="assets/img/c2c/target_usa_dark.svg" alt="Target logo" width="60" height="60"></div>
+   <div class="retailer-button-content"><span class="main-text"><span class="retailer-name"> TARGET </span><br></span></div>
+   <div class="retailer-type-icon disabled"><i class="fa fa-angle-right" aria-hidden="true" style="-webkit-text-stroke: 1px rgb(157, 157, 157);"></i></div>
+  </div>
+ </div>
+ <div class="break"></div>
+ <div class="retailer-button-accordion"><div class="accordion-body"><div class="accordion-wrapper"></div></div></div>
+ <div class="sc-modal" role="dialog" aria-label="Target oauth info modal"></div>
+</div>
+  </div>
+ </div>
+</div>
+<div class="footer-content" id="sc-footer-content">
+ <div class="bottom-footer-actions">
+  <div class="change-zip"><div class="zip-code-change-container" role="button" tabindex="0"><i class="fa fa-map-marker zip-code-icon" aria-hidden="true"></i><span class="sr-only">Open zip code change dialog</span><span class="current-zip">95141</span></div><div class="sc-modal" role="dialog" aria-label="Zipcode change modal"></div></div>
+  <div class="smartcommerce-brand"><img src="assets/img/c2c/c2c-logo.svg" alt="Click2Cart logo" width="145" height="27"></div>
+ </div>
+ <div class="footer-links"><a class="privacy-policy-link" href="https://www.smartcommerce.com/privacy-policy">Privacy Policy</a></div>
+</div>
+</div>
+</main>
+<footer class="site-footer" id="site-footer">
+<div class="footer-social"><div class="container"><span>Ways to connect with us:</span><ul>
+ <li><a href="https://www.facebook.com/Tide?fref=ts" aria-label="Facebook"><img src="assets/img/social_facebook.svg" alt="Facebook icon"></a></li>
+ <li><a href="https://twitter.com/tide" aria-label="Twitter"><img src="assets/img/social_twitter.svg" alt="Twitter icon"></a></li>
+ <li><a href="https://www.pinterest.com/tide/" aria-label="Pinterest"><img src="assets/img/social_pinterest.svg" alt="Pinterest icon"></a></li>
+ <li><a href="https://www.youtube.com/channel/UCEPeWPjaF1CWCKXa3xTp7vw" aria-label="YouTube"><img src="assets/img/social_youtube.svg" alt="YouTube icon"></a></li>
+</ul></div></div>
+<div class="container"><div class="row">
+ <div class="col col-lg-8 footer-nav"><div class="row">
+  <div class="col"><p class="footer-nav__title">Shop Products</p></div>
+  <div class="col col-md-4"><div class="expandable" id="by-type"><div class="expandable__header" role="heading" aria-level="4" aria-label="By Type" aria-expanded="false" tabindex="0">By Type<svg xmlns="http://www.w3.org/2000/svg" width="17" height="10" viewBox="0 0 17 10" aria-hidden="true"><path d="M8.571,17a1.431,1.431,0,0,1-1.01-.415L.419,9.5a1.407,1.407,0,0,1,0-2L7.561.415a1.435,1.435,0,0,1,2.02,0,1.407,1.407,0,0,1,0,2L3.449,8.5l6.132,6.082a1.407,1.407,0,0,1,0,2A1.431,1.431,0,0,1,8.571,17" transform="translate(0 10) rotate(-90)" fill="#13259c"/></svg></div><div class="expandable__content"></div></div></div>
+  <div class="col col-md-4"><div class="expandable" id="by-need"><div class="expandable__header" role="heading" aria-level="4" aria-label="By Need" aria-expanded="false" tabindex="0">By Need<svg xmlns="http://www.w3.org/2000/svg" width="17" height="10" viewBox="0 0 17 10" aria-hidden="true"><path d="M8.571,17a1.431,1.431,0,0,1-1.01-.415L.419,9.5a1.407,1.407,0,0,1,0-2L7.561.415a1.435,1.435,0,0,1,2.02,0,1.407,1.407,0,0,1,0,2L3.449,8.5l6.132,6.082a1.407,1.407,0,0,1,0,2A1.431,1.431,0,0,1,8.571,17" transform="translate(0 10) rotate(-90)" fill="#13259c"/></svg></div><div class="expandable__content"></div></div></div>
+  <div class="col col-md-4"><div class="expandable" id="top-collection"><div class="expandable__header" role="heading" aria-level="4" aria-label="Top Collection" aria-expanded="false" tabindex="0">Top Collection<svg xmlns="http://www.w3.org/2000/svg" width="17" height="10" viewBox="0 0 17 10" aria-hidden="true"><path d="M8.571,17a1.431,1.431,0,0,1-1.01-.415L.419,9.5a1.407,1.407,0,0,1,0-2L7.561.415a1.435,1.435,0,0,1,2.02,0,1.407,1.407,0,0,1,0,2L3.449,8.5l6.132,6.082a1.407,1.407,0,0,1,0,2A1.431,1.431,0,0,1,8.571,17" transform="translate(0 10) rotate(-90)" fill="#13259c"/></svg></div><div class="expandable__content"></div></div></div>
+ </div></div>
+ <div class="col col-lg-4 footer-nav"><div class="row">
+  <div class="col col-md-6 col-lg-12" role="menu"><p class="footer-nav__title" id="footer-washing-machine-title">How to Wash Clothes</p><div class="menu-item"><a href="/en-us/how-to-wash-clothes/how-to-remove-stains" role="menuitem" aria-label="How to Remove Stains">How to Remove Stains</a></div><div class="menu-item"><a href="/en-us/how-to-wash-clothes/how-to-do-laundry" role="menuitem" aria-label="How to Do Laundry">How to Do Laundry</a></div><div class="menu-item"><a href="/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors" role="menuitem" aria-label="Washing Different Fabrics and Colors">Washing Different Fabrics and Colors</a></div><div class="menu-item"><a href="/en-us/how-to-wash-clothes/washing-machine-101" role="menuitem" aria-label="Washing Machine 101">Washing Machine 101</a></div></div>
+  <div class="col col-md-6 col-lg-12" role="menu"><p class="footer-nav__title" id="footer-help-support-title">Help &amp; Support</p><div class="menu-item"><a href="/en-us/contact-us" role="menuitem">Contact Us</a></div></div>
+ </div></div>
+ <div class="col footer-related" role="menu"><span id="footer-related-title">Related:</span><div class="footer-related-nav"><div class="menu-item"><a href="http://pg.com/en_US" role="menuitem" aria-label="P&amp;G Brands">P&amp;G Brands</a></div><div class="menu-item"><a href="https://www.mrclean.com/en-us" role="menuitem" aria-label="MrClean">MrClean</a></div><div class="menu-item"><a href="http://www.downy.com/en-us" role="menuitem" aria-label="Downy">Downy</a></div><div class="menu-item"><a href="http://www.bouncefresh.com/" role="menuitem" aria-label="Bounce">Bounce</a></div><div class="menu-item"><a href="http://www.pgeveryday.com/tag/tide" role="menuitem" aria-label="P&amp;G Everyday">P&amp;G Everyday</a></div></div></div>
+ <div class="col footer-icons"><div>
+  <a href="http://www.goodhousekeeping.com/product-reviews/history/welcome-gh-seal"><picture><img src="assets/img/footer_GoodHousekeeping.webp" alt="Good Housekeeping icon" width="82" height="62"></picture></a><a href="https://www.bbb.org/cincinnati/business-reviews/detergent/the-procter-gamble-company-in-cincinnati-oh-3036"><picture><img src="assets/img/footer_BBB.webp" alt="BBB icon" width="38" height="62"></picture></a><a href="http://www.junkfoodclothing.com/"><picture><img src="assets/img/footer_JunkFood.webp" alt="Junk Food icon" width="58" height="62"></picture></a><a href="https://www.tidecleaners.com/"><picture><img src="assets/img/footer_TideCleaners.webp" alt="Tide Cleaners icon" width="56" height="62"></picture></a>
+ </div></div>
+ <div class="col footer-general" role="menu" aria-label="General navigation"><div>
+  <div class="menu-item"><a href="https://accessibility.pg.com/en-US" role="menuitem" aria-label="Accessibility Statement">Accessibility Statement</a></div><div class="menu-item"><a href="https://termsandconditions.pg.com/en-us/" role="menuitem" aria-label="Terms &amp; Conditions">Terms &amp; Conditions</a></div><div class="menu-item"><a href="/en-us/rewards/loyalty/terms-and-conditions" role="menuitem" aria-label="Tide Rewards Terms and Conditions">Tide Rewards Terms and Conditions</a></div><div class="menu-item"><a href="https://www.pgcareers.com/" role="menuitem" aria-label="Careers">Careers</a></div><div class="menu-item"><a href="https://privacypolicy.pg.com/en-US/#statePrivacyNotice" role="menuitem" aria-label="Privacy">Privacy</a></div><div class="menu-item"><a href="https://privacypolicy.pg.com/CHD-en" role="menuitem" aria-label="Consumer Health Data Privacy Policy">Consumer Health Data Privacy Policy</a></div><div class="menu-item"><a class="with-ccpa-logo" href="https://preferencecenter.pg.com/" role="menuitem" aria-label="Your Privacy Choices">Your Privacy Choices</a></div><div class="menu-item"><span>NOTICE: We may sell your sensitive personal data.</span></div><div class="menu-item"><button type="button" role="menuitem" aria-label="Do Not Sell or Share My Personal Information / Opt-Out of Targeted Advertising">Do Not Sell or Share My Personal Information / Opt-Out of Targeted Advertising</button></div><div class="menu-item footer-copyright"><div>© 2026 Procter &amp; Gamble</div></div>
+ </div><div class="menu-item"><a href="/en-us/sitemap" role="menuitem">Sitemap</a></div></div>
+</div></div>
+</footer></div>
+<script src="canon/canon.js" defer></script>
+<script src="en-us-click2cart-0060001.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,243 @@
+{
+  "live": "stardust/replica/motion/en-us-shop-top-collections-tide-free-and-gentle-live.json",
+  "build": "stardust/replica/motion/en-us-shop-top-collections-tide-free-and-gentle-build.json",
+  "toleranceMs": 150,
+  "tolerancePx": 8,
+  "advisory": true,
+  "findings": 20,
+  "counts": {
+    "behaviors": 32,
+    "parity": 5,
+    "missing": 20,
+    "extra": 0,
+    "tolerance": 0,
+    "dead": 6,
+    "advisory": 1
+  },
+  "verdicts": [
+    {
+      "cls": "header",
+      "name": "scroll-morph",
+      "state": "dead",
+      "note": "header static across the scroll traversal on both sides",
+      "line": "motion header scroll-morph: dead on live — not required (header static across the scroll traversal on both sides)"
+    },
+    {
+      "cls": "widget",
+      "name": "#sticky-nav li:nth-child(2) span",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget #sticky-nav li:nth-child(2) span: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "hover",
+      "name": ".collection-fg-first-banner-content .richtext-container p a → .cl-hero__rt p a",
+      "state": "parity",
+      "note": "self.background; 200ms; paired by order",
+      "line": "motion hover .collection-fg-first-banner-content .richtext-container p a → .cl-hero__rt p a: parity (self.background; 200ms; paired by order)"
+    },
+    {
+      "cls": "hover",
+      "name": ".fresh-gentle-rt a → .fresh__rt a",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover .fresh-gentle-rt a → .fresh__rt a: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "hover",
+      "name": ".product-preview-content-wrapper > .ps-widget → .product-card__body > .retailer-btn",
+      "state": "parity",
+      "note": "self.background; 200ms; paired by order",
+      "line": "motion hover .product-preview-content-wrapper > .ps-widget → .product-card__body > .retailer-btn: parity (self.background; 200ms; paired by order)"
+    },
+    {
+      "cls": "hover",
+      "name": ".product-preview-title → .product-card__title",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover .product-preview-title → .product-card__title: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "hover",
+      "name": ".product-preview-image a → .product-card__image a",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover .product-preview-image a → .product-card__image a: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "hover",
+      "name": "#sticky-nav li span",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover #sticky-nav li span: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "transition",
+      "name": "background-color",
+      "state": "parity",
+      "note": "18 event(s) on live, 17 on build, 200ms",
+      "line": "motion transition background-color: parity (18 event(s) on live, 17 on build, 200ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "border-bottom-color",
+      "state": "missing",
+      "note": "1 event(s) on live, 200ms",
+      "line": "motion transition border-bottom-color: MISSING on build (1 event(s) on live, 200ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "border-bottom-left-radius",
+      "state": "missing",
+      "note": "1 event(s) on live, 200ms",
+      "line": "motion transition border-bottom-left-radius: MISSING on build (1 event(s) on live, 200ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "border-bottom-right-radius",
+      "state": "missing",
+      "note": "1 event(s) on live, 200ms",
+      "line": "motion transition border-bottom-right-radius: MISSING on build (1 event(s) on live, 200ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "border-left-color",
+      "state": "missing",
+      "note": "1 event(s) on live, 200ms",
+      "line": "motion transition border-left-color: MISSING on build (1 event(s) on live, 200ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "border-right-color",
+      "state": "missing",
+      "note": "1 event(s) on live, 200ms",
+      "line": "motion transition border-right-color: MISSING on build (1 event(s) on live, 200ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "border-top-color",
+      "state": "missing",
+      "note": "1 event(s) on live, 200ms",
+      "line": "motion transition border-top-color: MISSING on build (1 event(s) on live, 200ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "border-top-left-radius",
+      "state": "missing",
+      "note": "1 event(s) on live, 200ms",
+      "line": "motion transition border-top-left-radius: MISSING on build (1 event(s) on live, 200ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "border-top-right-radius",
+      "state": "missing",
+      "note": "1 event(s) on live, 200ms",
+      "line": "motion transition border-top-right-radius: MISSING on build (1 event(s) on live, 200ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "box-shadow",
+      "state": "parity",
+      "note": "5 event(s) on live, 5 on build, 300ms",
+      "line": "motion transition box-shadow: parity (5 event(s) on live, 5 on build, 300ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "font-size",
+      "state": "missing",
+      "note": "1 event(s) on live, 200ms",
+      "line": "motion transition font-size: MISSING on build (1 event(s) on live, 200ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "font-weight",
+      "state": "missing",
+      "note": "1 event(s) on live, 200ms",
+      "line": "motion transition font-weight: MISSING on build (1 event(s) on live, 200ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "line-height",
+      "state": "missing",
+      "note": "1 event(s) on live, 200ms",
+      "line": "motion transition line-height: MISSING on build (1 event(s) on live, 200ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "margin-top",
+      "state": "missing",
+      "note": "1 event(s) on live, 200ms",
+      "line": "motion transition margin-top: MISSING on build (1 event(s) on live, 200ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "padding-bottom",
+      "state": "missing",
+      "note": "1 event(s) on live, 200ms",
+      "line": "motion transition padding-bottom: MISSING on build (1 event(s) on live, 200ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "padding-left",
+      "state": "missing",
+      "note": "1 event(s) on live, 200ms",
+      "line": "motion transition padding-left: MISSING on build (1 event(s) on live, 200ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "padding-right",
+      "state": "missing",
+      "note": "1 event(s) on live, 200ms",
+      "line": "motion transition padding-right: MISSING on build (1 event(s) on live, 200ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "padding-top",
+      "state": "missing",
+      "note": "1 event(s) on live, 200ms",
+      "line": "motion transition padding-top: MISSING on build (1 event(s) on live, 200ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "text-indent",
+      "state": "missing",
+      "note": "1 event(s) on live, 200ms",
+      "line": "motion transition text-indent: MISSING on build (1 event(s) on live, 200ms)"
+    },
+    {
+      "cls": "class",
+      "name": "active",
+      "state": "parity",
+      "note": "added 7× on live, 7× on build",
+      "line": "motion class active: parity (added 7× on live, 7× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "anchor-navigation-frozen",
+      "state": "missing",
+      "note": "trigger class added 3× on live, never on build",
+      "line": "motion class anchor-navigation-frozen: MISSING on build (trigger class added 3× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "ps-enabled",
+      "state": "missing",
+      "note": "trigger class added 4× on live, never on build",
+      "line": "motion class ps-enabled: MISSING on build (trigger class added 4× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "is-frozen",
+      "state": "advisory",
+      "note": "added 3× on build, never on live — check it drives no invented behavior",
+      "line": "motion class is-frozen: extra on build — advisory (added 3× on build, never on live — check it drives no invented behavior)"
+    },
+    {
+      "cls": "media",
+      "name": "auto-advance",
+      "state": "missing",
+      "note": "4 class mutation(s) fired unpoked on live (timer-driven rotation), none on build",
+      "line": "motion media auto-advance: MISSING on build (4 class mutation(s) fired unpoked on live (timer-driven rotation), none on build)"
+    }
+  ]
+}

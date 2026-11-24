@@ -1,0 +1,4384 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-24T11:39:48.051Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://tide.com/en-us/research/why-cost-per-load-isnt-whole-story",
+  "at": "2026-11-24T11:39:26.865Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 5413,
+  "root": "main#site-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div#page-wrapper > header#site-header > a.skip-to-content-link",
+    "x": 119,
+    "y": -44,
+    "w": 122,
+    "h": 44,
+    "text": "skip to content",
+    "href": "/en-us/research/why-cost-per-load-isnt-whole-story"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.row.no-gutters > button.burger-menu",
+    "x": 20,
+    "y": 18,
+    "w": 30,
+    "h": 26,
+    "text": "navigation menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.row.no-gutters > button.burger-menu",
+    "x": 20,
+    "y": 18,
+    "w": 30,
+    "h": 26,
+    "label": "navigation menu",
+    "value": "navigation menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row.no-gutters > div > a.header-logo.d-flex",
+    "x": 157,
+    "y": 7,
+    "w": 47,
+    "h": 47,
+    "text": "tide logo",
+    "href": "/en-us"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > a.header-logo.d-flex > img",
+    "x": 157,
+    "y": 7,
+    "w": 47,
+    "h": 47,
+    "text": "tide logo",
+    "file": "brand_main_logo"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "form.header-search > div.input-wrap > button",
+    "x": 310,
+    "y": 15,
+    "w": 30,
+    "h": 33,
+    "text": "submit search"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > span",
+    "x": 15,
+    "y": 61,
+    "w": 301,
+    "h": 46,
+    "text": "what is the best value laundry detergent?"
+   },
+   {
+    "kind": "button",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > span",
+    "x": 356,
+    "y": 61,
+    "w": 225,
+    "h": 46,
+    "text": "why cost per load is incomplete"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.breadcrumbs-list > li.breadcrumbs-list-item > a",
+    "x": 15,
+    "y": 129,
+    "w": 57,
+    "h": 22,
+    "text": "home",
+    "href": "/en-us"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.breadcrumbs-list > li.breadcrumbs-list-item > span",
+    "x": 15,
+    "y": 129,
+    "w": 312,
+    "h": 47,
+    "label": "current",
+    "value": "why cost per load does not tell the whole story",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.breadcrumbs-list-item > span > span",
+    "x": 15,
+    "y": 129,
+    "w": 312,
+    "h": 47,
+    "text": "Why Cost Per Load Does Not Tell the Whole Story"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.row > div.col-12.col-lg-9 > h1.article-intro-title",
+    "x": 15,
+    "y": 197,
+    "w": 330,
+    "h": 176,
+    "level": 1,
+    "text": "why cost per load does not tell the whole story"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.share-block.d-lg-none > div.share-buttons > a.share-buttons-item.event_socialmedia_post",
+    "x": 15,
+    "y": 422,
+    "w": 22,
+    "h": 16,
+    "text": "share on facebook",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.share-block.d-lg-none > div.share-buttons > a.share-buttons-item.event_socialmedia_post",
+    "x": 57,
+    "y": 422,
+    "w": 22,
+    "h": 16,
+    "text": "share on twitter",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.share-block.d-lg-none > div.share-buttons > a.share-buttons-item.event_socialmedia_post",
+    "x": 99,
+    "y": 422,
+    "w": 22,
+    "h": 16,
+    "text": "share on pinterest",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.share-block.d-lg-none > div.share-buttons > a.share-buttons-item.event_share",
+    "x": 141,
+    "y": 422,
+    "w": 22,
+    "h": 16,
+    "text": "share by email",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.share-block.d-lg-none > div.share-buttons > a.share-buttons-item.event_print_page",
+    "x": 183,
+    "y": 422,
+    "w": 22,
+    "h": 16,
+    "text": "print",
+    "href": "/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-12.col-12 > div.richtext-container > h2#what-is-the-best-value-laundry-detergent",
+    "x": 15,
+    "y": 606,
+    "w": 330,
+    "h": 176,
+    "level": 2,
+    "text": "what is the best value laundry detergent?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-12.col-12 > div.richtext-container > p",
+    "x": 15,
+    "y": 802,
+    "w": 330,
+    "h": 180,
+    "text": "The best value laundry detergent is not necessarily the product with the lowest "
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-12.col-12 > div.richtext-container > h2#why-cost-per-load-is-incomplete",
+    "x": 15,
+    "y": 1047,
+    "w": 330,
+    "h": 132,
+    "level": 2,
+    "text": "why cost per load is incomplete"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-12.col-12 > div.richtext-container > p",
+    "x": 15,
+    "y": 1199,
+    "w": 330,
+    "h": 140,
+    "text": "Cost per load is useful for comparing the detergent portion of a wash, but it do"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-12.col-12 > div.richtext-container > h2#the-total-cost-of-use-framework",
+    "x": 15,
+    "y": 1404,
+    "w": 330,
+    "h": 132,
+    "level": 2,
+    "text": "the total cost of use framework"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-12.col-12 > div.richtext-container > p",
+    "x": 15,
+    "y": 1556,
+    "w": 330,
+    "h": 60,
+    "text": "Total Cost of Use, or TCU, is a framework for evaluating the broader economic pi"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 34,
+    "y": 1630,
+    "w": 311,
+    "h": 40,
+    "text": "Detergent cost: the cost of the recommended dose for the load."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 34,
+    "y": 1670,
+    "w": 311,
+    "h": 60,
+    "text": "Energy cost: the electricity used by the washer, including energy used to heat w"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 34,
+    "y": 1730,
+    "w": 311,
+    "h": 60,
+    "text": "Re-wash cost: the added detergent, water, and energy used when another cycle is "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 34,
+    "y": 1790,
+    "w": 311,
+    "h": 60,
+    "text": "Garment lifespan cost: a qualitative consideration for how repeated wash conditi"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-12.col-12 > div.richtext-container > p",
+    "x": 15,
+    "y": 1866,
+    "w": 330,
+    "h": 100,
+    "text": "TCU is a comparison framework, not a universal price calculator. Household utili"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-12.col-12 > div.richtext-container > h2#the-role-of-performance-efficacy",
+    "x": 15,
+    "y": 2031,
+    "w": 330,
+    "h": 132,
+    "level": 2,
+    "text": "the role of performance efficacy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-12.col-12 > div.richtext-container > p",
+    "x": 15,
+    "y": 2183,
+    "w": 330,
+    "h": 200,
+    "text": "Performance Efficacy describes a detergent’s ability to remove a broad range of "
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-12.col-12 > div.richtext-container > h2#from-total-cost-of-use-to-cost-per-effective-wash",
+    "x": 15,
+    "y": 2448,
+    "w": 330,
+    "h": 176,
+    "level": 2,
+    "text": "from total cost of use to cost per effective wash"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-12.col-12 > div.richtext-container > p",
+    "x": 15,
+    "y": 2644,
+    "w": 330,
+    "h": 140,
+    "text": "Cost Per Effective Wash, or CPEW, relates Total Cost of Use to the number of suc"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-12.col-12 > div.richtext-container > h2#key-takeaway",
+    "x": 15,
+    "y": 2849,
+    "w": 330,
+    "h": 44,
+    "level": 2,
+    "text": "key takeaway"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-12.col-12 > div.richtext-container > p",
+    "x": 15,
+    "y": 2913,
+    "w": 330,
+    "h": 100,
+    "text": "Compare detergent value using the complete wash, not shelf price alone. The most"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-12.col-12 > div.richtext-container > h2#frequently-asked-questions",
+    "x": 15,
+    "y": 3078,
+    "w": 330,
+    "h": 132,
+    "level": 2,
+    "text": "frequently asked questions"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-item > div#why-does-cost-per-load-not-tell-the-whole-story > div.expandable-content-header",
+    "x": 15,
+    "y": 3290,
+    "w": 330,
+    "h": 73,
+    "text": "why does cost per load not tell the whole story?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-item > div#why-does-cost-per-load-not-tell-the-whole-story > div.expandable-content-header",
+    "x": 15,
+    "y": 3290,
+    "w": 330,
+    "h": 73,
+    "label": "why does cost per load not tell the whole story?",
+    "value": "why does cost per load not tell the whole story?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-item > div#what-is-total-cost-of-use-for-laundry-detergent > div.expandable-content-header",
+    "x": 15,
+    "y": 3383,
+    "w": 330,
+    "h": 73,
+    "text": "what is total cost of use for laundry detergent?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-item > div#what-is-total-cost-of-use-for-laundry-detergent > div.expandable-content-header",
+    "x": 15,
+    "y": 3383,
+    "w": 330,
+    "h": 73,
+    "label": "what is total cost of use for laundry detergent?",
+    "value": "what is total cost of use for laundry detergent?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-item > div#what-is-cost-per-effective-wash > div.expandable-content-header",
+    "x": 15,
+    "y": 3476,
+    "w": 330,
+    "h": 73,
+    "text": "what is cost per effective wash?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-item > div#what-is-cost-per-effective-wash > div.expandable-content-header",
+    "x": 15,
+    "y": 3476,
+    "w": 330,
+    "h": 73,
+    "label": "what is cost per effective wash?",
+    "value": "what is cost per effective wash?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-item > div#is-the-lowest-priced-detergent-always-the-best-value > div.expandable-content-header",
+    "x": 15,
+    "y": 3569,
+    "w": 330,
+    "h": 99,
+    "text": "is the lowest-priced detergent always the best value?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-item > div#is-the-lowest-priced-detergent-always-the-best-value > div.expandable-content-header",
+    "x": 15,
+    "y": 3569,
+    "w": 330,
+    "h": 99,
+    "label": "is the lowest-priced detergent always the best value?",
+    "value": "is the lowest-priced detergent always the best value?",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-links-wrapper > div.container > span",
+    "x": 15,
+    "y": 3773,
+    "w": 242,
+    "h": 19,
+    "text": "Ways to connect with us:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-links > li > a.footer-social-links-item.event_socialmedia_exit",
+    "x": 15,
+    "y": 3812,
+    "w": 32,
+    "h": 32,
+    "text": "facebook icon",
+    "href": "/Tide"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > a.footer-social-links-item.event_socialmedia_exit > img",
+    "x": 15,
+    "y": 3812,
+    "w": 32,
+    "h": 32,
+    "text": "facebook icon",
+    "file": "social_facebook"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-links > li > a.footer-social-links-item.event_socialmedia_exit",
+    "x": 62,
+    "y": 3812,
+    "w": 32,
+    "h": 32,
+    "text": "twitter icon",
+    "href": "/tide"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > a.footer-social-links-item.event_socialmedia_exit > img",
+    "x": 62,
+    "y": 3812,
+    "w": 32,
+    "h": 32,
+    "text": "twitter icon",
+    "file": "social_twitter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-links > li > a.footer-social-links-item.event_socialmedia_exit",
+    "x": 109,
+    "y": 3812,
+    "w": 32,
+    "h": 32,
+    "text": "pinterest icon",
+    "href": "/tide/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > a.footer-social-links-item.event_socialmedia_exit > img",
+    "x": 109,
+    "y": 3812,
+    "w": 32,
+    "h": 32,
+    "text": "pinterest icon",
+    "file": "social_pinterest"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-links > li > a.footer-social-links-item.event_socialmedia_exit",
+    "x": 156,
+    "y": 3812,
+    "w": 32,
+    "h": 32,
+    "text": "youtube icon",
+    "href": "/channel/UCEPeWPjaF1CWCKXa3xTp7vw"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > a.footer-social-links-item.event_socialmedia_exit > img",
+    "x": 156,
+    "y": 3812,
+    "w": 32,
+    "h": 32,
+    "text": "youtube icon",
+    "file": "social_youtube"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row > div.col-12 > p.footer-navigation-title",
+    "x": 15,
+    "y": 3904,
+    "w": 330,
+    "h": 51,
+    "text": "Shop Products"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-4 > div#by-type > div.expandable-content-header",
+    "x": 15,
+    "y": 3997,
+    "w": 330,
+    "h": 24,
+    "text": "by type"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-4 > div#by-type > div.expandable-content-header",
+    "x": 15,
+    "y": 3997,
+    "w": 330,
+    "h": 24,
+    "label": "by type",
+    "value": "by type",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-4 > div#by-need > div.expandable-content-header",
+    "x": 15,
+    "y": 4081,
+    "w": 330,
+    "h": 24,
+    "text": "by need"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-4 > div#by-need > div.expandable-content-header",
+    "x": 15,
+    "y": 4081,
+    "w": 330,
+    "h": 24,
+    "label": "by need",
+    "value": "by need",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-4 > div#top-collection > div.expandable-content-header",
+    "x": 15,
+    "y": 4165,
+    "w": 330,
+    "h": 24,
+    "text": "top collection"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-4 > div#top-collection > div.expandable-content-header",
+    "x": 15,
+    "y": 4165,
+    "w": 330,
+    "h": 24,
+    "label": "top collection",
+    "value": "top collection",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row > div.col-12.col-md-6 > p#footer-washing-machine-title",
+    "x": 15,
+    "y": 4257,
+    "w": 330,
+    "h": 51,
+    "text": "How to Wash Clothes"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-6 > div.menu-item > a.event_menu_click",
+    "x": 15,
+    "y": 4325,
+    "w": 177,
+    "h": 18,
+    "text": "how to remove stains",
+    "href": "/en-us/how-to-wash-clothes/how-to-remove-stains"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-6 > div.menu-item > a.event_menu_click",
+    "x": 15,
+    "y": 4357,
+    "w": 153,
+    "h": 18,
+    "text": "how to do laundry",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-6 > div.menu-item > a.event_menu_click",
+    "x": 15,
+    "y": 4389,
+    "w": 289,
+    "h": 18,
+    "text": "washing different fabrics and colors",
+    "href": "/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-6 > div.menu-item > a.event_outbound_link",
+    "x": 15,
+    "y": 4421,
+    "w": 163,
+    "h": 18,
+    "text": "washing machine 101",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row > div.col-12.col-md-6 > p#footer-help-support-title",
+    "x": 15,
+    "y": 4486,
+    "w": 330,
+    "h": 51,
+    "text": "Help & Support"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-6 > div.menu-item > a.event_menu_click",
+    "x": 15,
+    "y": 4554,
+    "w": 85,
+    "h": 18,
+    "text": "contact us",
+    "href": "/en-us/contact-us"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row > div.col-12.footer-related > span#footer-related-title",
+    "x": 15,
+    "y": 4650,
+    "w": 81,
+    "h": 24,
+    "text": "Related:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-related-navigation > div.menu-item > a.event_outbound_link",
+    "x": 15,
+    "y": 4682,
+    "w": 93,
+    "h": 18,
+    "text": "p&g brands",
+    "href": "/en_US"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-related-navigation > div.menu-item > a.event_outbound_link",
+    "x": 123,
+    "y": 4682,
+    "w": 64,
+    "h": 18,
+    "text": "mrclean",
+    "href": "/en-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-related-navigation > div.menu-item > a.event_outbound_link",
+    "x": 202,
+    "y": 4682,
+    "w": 54,
+    "h": 18,
+    "text": "downy",
+    "href": "/en-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-related-navigation > div.menu-item > a.event_outbound_link",
+    "x": 271,
+    "y": 4682,
+    "w": 58,
+    "h": 18,
+    "text": "bounce",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-related-navigation > div.menu-item > a.event_outbound_link",
+    "x": 15,
+    "y": 4714,
+    "w": 110,
+    "h": 18,
+    "text": "p&g everyday",
+    "href": "/tag/tide"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.footer-icons > div > a.footer-icon",
+    "x": 18,
+    "y": 4784,
+    "w": 82,
+    "h": 68,
+    "text": "good housekeeping icon",
+    "href": "/product-reviews/history/welcome-gh-seal"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.footer-icon > picture > img",
+    "x": 18,
+    "y": 4784,
+    "w": 82,
+    "h": 62,
+    "text": "good housekeeping icon",
+    "file": "footer_GoodHousekeeping"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.footer-icons > div > a.footer-icon",
+    "x": 130,
+    "y": 4784,
+    "w": 38,
+    "h": 68,
+    "text": "bbb icon",
+    "href": "/cincinnati/business-reviews/detergent/the-procter-gamble-company-in-cincinnati-oh-3036"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.footer-icon > picture > img",
+    "x": 130,
+    "y": 4784,
+    "w": 38,
+    "h": 62,
+    "text": "bbb icon",
+    "file": "footer_BBB"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.footer-icons > div > a.footer-icon",
+    "x": 198,
+    "y": 4784,
+    "w": 58,
+    "h": 68,
+    "text": "junk food icon",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.footer-icon > picture > img",
+    "x": 198,
+    "y": 4784,
+    "w": 58,
+    "h": 62,
+    "text": "junk food icon",
+    "file": "footer_JunkFood"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.footer-icons > div > a.footer-icon",
+    "x": 286,
+    "y": 4784,
+    "w": 56,
+    "h": 68,
+    "text": "tide cleaners icon",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.footer-icon > picture > img",
+    "x": 286,
+    "y": 4784,
+    "w": 56,
+    "h": 62,
+    "text": "tide cleaners icon",
+    "file": "footer_TideCleaners"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > a.event_outbound_link",
+    "x": 15,
+    "y": 4904,
+    "w": 179,
+    "h": 18,
+    "text": "accessibility statement",
+    "href": "/en-US"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > a.event_outbound_link",
+    "x": 15,
+    "y": 4936,
+    "w": 150,
+    "h": 18,
+    "text": "terms & conditions",
+    "href": "/en-us/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > a.event_menu_click",
+    "x": 15,
+    "y": 4968,
+    "w": 279,
+    "h": 18,
+    "text": "tide rewards terms and conditions",
+    "href": "/en-us/rewards/loyalty/terms-and-conditions"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > a.event_outbound_link",
+    "x": 15,
+    "y": 5000,
+    "w": 60,
+    "h": 18,
+    "text": "careers",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > a.event_outbound_link",
+    "x": 90,
+    "y": 5000,
+    "w": 56,
+    "h": 18,
+    "text": "privacy",
+    "href": "/en-US/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > a.event_outbound_link",
+    "x": 15,
+    "y": 5032,
+    "w": 287,
+    "h": 18,
+    "text": "consumer health data privacy policy",
+    "href": "/CHD-en"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > a.event_outbound_link.with-ccpa-logo",
+    "x": 15,
+    "y": 5064,
+    "w": 187,
+    "h": 18,
+    "text": "your privacy choices",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > span",
+    "x": 15,
+    "y": 5096,
+    "w": 276,
+    "h": 50,
+    "text": "NOTICE: We may sell your sensitive personal data."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.copyright > div.self-center.font-medium",
+    "x": 15,
+    "y": 5249,
+    "w": 199,
+    "h": 32,
+    "text": "© 2026 Procter & Gamble"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.footer-general-navigation > div.menu-item > a.event_menu_click",
+    "x": 15,
+    "y": 5331,
+    "w": 64,
+    "h": 32,
+    "text": "sitemap",
+    "href": "/en-us/sitemap"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 1,
+    "scrollHidden": 0,
+    "horizontal": 2,
+    "offPage": 10,
+    "textNodes": 67,
+    "controls": 50,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "CONTROL COLLAPSED",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div#page-wrapper",
+     "path": "div#__next > div#page-wrapper > header#site-header > a.skip-to-content-link",
+     "text": "skip to content",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "CONTROL X-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "nav",
+     "path": "nav > ul > li > span",
+     "text": "why cost per load is incomplete",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT X-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "nav",
+     "path": "nav > ul > li > span",
+     "text": "why cost per load is incomplete",
+     "cutMin": 221,
+     "cutMax": 221
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--5db7d055--aemcoder.aem.page/en-us/research/why-cost-per-load-isnt-whole-story",
+  "at": "2026-11-24T11:39:47.935Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 5393,
+  "root": "main#site-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header.block > div#site-header > a.skip-to-content-link",
+    "x": 119,
+    "y": -44,
+    "w": 122,
+    "h": 44,
+    "text": "skip to content",
+    "href": "/en-us/research/why-cost-per-load-isnt-whole-story"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.searchbar-row > button.burger",
+    "x": 20,
+    "y": 18,
+    "w": 30,
+    "h": 26,
+    "text": "navigation menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.searchbar-row > button.burger",
+    "x": 20,
+    "y": 18,
+    "w": 30,
+    "h": 26,
+    "label": "navigation menu",
+    "value": "navigation menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-logo > p > a",
+    "x": 157,
+    "y": 7,
+    "w": 47,
+    "h": 47,
+    "text": "tide logo",
+    "href": "/en-us"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 157,
+    "y": 7,
+    "w": 47,
+    "h": 47,
+    "text": "tide logo",
+    "file": "media_1657180466c60da96dcbb2d8123d7c9b94"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "form > div.input-wrap > button",
+    "x": 310,
+    "y": 15,
+    "w": 30,
+    "h": 30,
+    "text": "submit search"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > span.jump-links-item",
+    "x": 15,
+    "y": 61,
+    "w": 301,
+    "h": 46,
+    "text": "what is the best value laundry detergent?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > span.jump-links-item",
+    "x": 356,
+    "y": 61,
+    "w": 225,
+    "h": 46,
+    "text": "why cost per load is incomplete"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 129,
+    "w": 57,
+    "h": 22,
+    "text": "home",
+    "href": "/en-us"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav > ul > li",
+    "x": 15,
+    "y": 129,
+    "w": 316,
+    "h": 47,
+    "label": "current",
+    "value": "why cost per load does not tell the whole story",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav > ul > li",
+    "x": 15,
+    "y": 129,
+    "w": 316,
+    "h": 47,
+    "text": "Why Cost Per Load Does Not Tell the Whole Story"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-title-band-content > div.article-title-band-headline > h1#why-cost-per-load-does-not-tell-the-whole-story",
+    "x": 15,
+    "y": 197,
+    "w": 330,
+    "h": 176,
+    "level": 1,
+    "text": "why cost per load does not tell the whole story"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-title-band-content > div.article-title-band-share.mobile > a.article-title-band-share-item.share-facebook",
+    "x": 15,
+    "y": 413,
+    "w": 22,
+    "h": 28,
+    "text": "share on facebook",
+    "href": "/sharer/sharer.php"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-title-band-content > div.article-title-band-share.mobile > a.article-title-band-share-item.share-twitter",
+    "x": 57,
+    "y": 413,
+    "w": 22,
+    "h": 28,
+    "text": "share on twitter",
+    "href": "/intent/tweet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-title-band-content > div.article-title-band-share.mobile > a.article-title-band-share-item.share-pinterest",
+    "x": 99,
+    "y": 413,
+    "w": 22,
+    "h": 28,
+    "text": "share on pinterest",
+    "href": "/pin/create/button/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-title-band-content > div.article-title-band-share.mobile > a.article-title-band-share-item.share-email",
+    "x": 141,
+    "y": 413,
+    "w": 22,
+    "h": 28,
+    "text": "share by email",
+    "href": ""
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-title-band-content > div.article-title-band-share.mobile > a.article-title-band-share-item.share-print",
+    "x": 183,
+    "y": 413,
+    "w": 22,
+    "h": 28,
+    "text": "print",
+    "href": "/en-us/research/why-cost-per-load-isnt-whole-story"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section > div.default-content-wrapper > h2#what-is-the-best-value-laundry-detergent",
+    "x": 15,
+    "y": 586,
+    "w": 330,
+    "h": 176,
+    "level": 2,
+    "text": "what is the best value laundry detergent?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section > div.default-content-wrapper > p",
+    "x": 15,
+    "y": 782,
+    "w": 330,
+    "h": 180,
+    "text": "The best value laundry detergent is not necessarily the product with the lowest "
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section > div.default-content-wrapper > h2#why-cost-per-load-is-incomplete",
+    "x": 15,
+    "y": 1027,
+    "w": 330,
+    "h": 132,
+    "level": 2,
+    "text": "why cost per load is incomplete"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section > div.default-content-wrapper > p",
+    "x": 15,
+    "y": 1179,
+    "w": 330,
+    "h": 140,
+    "text": "Cost per load is useful for comparing the detergent portion of a wash, but it do"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section > div.default-content-wrapper > h2#the-total-cost-of-use-framework",
+    "x": 15,
+    "y": 1384,
+    "w": 330,
+    "h": 132,
+    "level": 2,
+    "text": "the total cost of use framework"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section > div.default-content-wrapper > p",
+    "x": 15,
+    "y": 1536,
+    "w": 330,
+    "h": 60,
+    "text": "Total Cost of Use, or TCU, is a framework for evaluating the broader economic pi"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 34,
+    "y": 1610,
+    "w": 311,
+    "h": 40,
+    "text": "Detergent cost: the cost of the recommended dose for the load."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 34,
+    "y": 1650,
+    "w": 311,
+    "h": 60,
+    "text": "Energy cost: the electricity used by the washer, including energy used to heat w"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 34,
+    "y": 1710,
+    "w": 311,
+    "h": 60,
+    "text": "Re-wash cost: the added detergent, water, and energy used when another cycle is "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 34,
+    "y": 1770,
+    "w": 311,
+    "h": 60,
+    "text": "Garment lifespan cost: a qualitative consideration for how repeated wash conditi"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section > div.default-content-wrapper > p",
+    "x": 15,
+    "y": 1846,
+    "w": 330,
+    "h": 100,
+    "text": "TCU is a comparison framework, not a universal price calculator. Household utili"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section > div.default-content-wrapper > h2#the-role-of-performance-efficacy",
+    "x": 15,
+    "y": 2011,
+    "w": 330,
+    "h": 132,
+    "level": 2,
+    "text": "the role of performance efficacy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section > div.default-content-wrapper > p",
+    "x": 15,
+    "y": 2163,
+    "w": 330,
+    "h": 200,
+    "text": "Performance Efficacy describes a detergent’s ability to remove a broad range of "
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section > div.default-content-wrapper > h2#from-total-cost-of-use-to-cost-per-effective-wash",
+    "x": 15,
+    "y": 2428,
+    "w": 330,
+    "h": 176,
+    "level": 2,
+    "text": "from total cost of use to cost per effective wash"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section > div.default-content-wrapper > p",
+    "x": 15,
+    "y": 2624,
+    "w": 330,
+    "h": 140,
+    "text": "Cost Per Effective Wash, or CPEW, relates Total Cost of Use to the number of suc"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section > div.default-content-wrapper > h2#key-takeaway",
+    "x": 15,
+    "y": 2829,
+    "w": 330,
+    "h": 44,
+    "level": 2,
+    "text": "key takeaway"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section > div.default-content-wrapper > p",
+    "x": 15,
+    "y": 2893,
+    "w": 330,
+    "h": 100,
+    "text": "Compare detergent value using the complete wash, not shelf price alone. The most"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.faq-accordion-container > div.default-content-wrapper > h2#frequently-asked-questions",
+    "x": 15,
+    "y": 3058,
+    "w": 330,
+    "h": 132,
+    "level": 2,
+    "text": "frequently asked questions"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-accordion-list > div#why-does-cost-per-load-not-tell-the-whole-story > div.faq-accordion-question",
+    "x": 15,
+    "y": 3270,
+    "w": 330,
+    "h": 73,
+    "text": "why does cost per load not tell the whole story?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-accordion-list > div#why-does-cost-per-load-not-tell-the-whole-story > div.faq-accordion-question",
+    "x": 15,
+    "y": 3270,
+    "w": 330,
+    "h": 73,
+    "label": "why does cost per load not tell the whole story?",
+    "value": "why does cost per load not tell the whole story?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-accordion-list > div#what-is-total-cost-of-use-for-laundry-detergent > div.faq-accordion-question",
+    "x": 15,
+    "y": 3363,
+    "w": 330,
+    "h": 73,
+    "text": "what is total cost of use for laundry detergent?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-accordion-list > div#what-is-total-cost-of-use-for-laundry-detergent > div.faq-accordion-question",
+    "x": 15,
+    "y": 3363,
+    "w": 330,
+    "h": 73,
+    "label": "what is total cost of use for laundry detergent?",
+    "value": "what is total cost of use for laundry detergent?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-accordion-list > div#what-is-cost-per-effective-wash > div.faq-accordion-question",
+    "x": 15,
+    "y": 3456,
+    "w": 330,
+    "h": 73,
+    "text": "what is cost per effective wash?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-accordion-list > div#what-is-cost-per-effective-wash > div.faq-accordion-question",
+    "x": 15,
+    "y": 3456,
+    "w": 330,
+    "h": 73,
+    "label": "what is cost per effective wash?",
+    "value": "what is cost per effective wash?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-accordion-list > div#is-the-lowest-priced-detergent-always-the-best-value > div.faq-accordion-question",
+    "x": 15,
+    "y": 3549,
+    "w": 330,
+    "h": 99,
+    "text": "is the lowest-priced detergent always the best value?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-accordion-list > div#is-the-lowest-priced-detergent-always-the-best-value > div.faq-accordion-question",
+    "x": 15,
+    "y": 3549,
+    "w": 330,
+    "h": 99,
+    "label": "is the lowest-priced detergent always the best value?",
+    "value": "is the lowest-priced detergent always the best value?",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.footer-social-label > p",
+    "x": 15,
+    "y": 3753,
+    "w": 242,
+    "h": 19,
+    "text": "Ways to connect with us:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 3792,
+    "w": 32,
+    "h": 32,
+    "text": "facebook icon",
+    "href": "/Tide"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 15,
+    "y": 3792,
+    "w": 32,
+    "h": 32,
+    "text": "facebook icon",
+    "file": "media_1bff7d59c4067314b47f0571184d0ed529"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 62,
+    "y": 3792,
+    "w": 32,
+    "h": 32,
+    "text": "twitter icon",
+    "href": "/tide"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 62,
+    "y": 3792,
+    "w": 32,
+    "h": 32,
+    "text": "twitter icon",
+    "file": "media_1d4bf414ff3eeeb8a169b214b0c8bbf72a"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 109,
+    "y": 3792,
+    "w": 32,
+    "h": 32,
+    "text": "pinterest icon",
+    "href": "/tide/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 109,
+    "y": 3792,
+    "w": 32,
+    "h": 32,
+    "text": "pinterest icon",
+    "file": "media_18cdbba8bc0f0f7a172257ff84fa5200d5"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 156,
+    "y": 3792,
+    "w": 32,
+    "h": 32,
+    "text": "youtube icon",
+    "href": "/channel/UCEPeWPjaF1CWCKXa3xTp7vw"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 156,
+    "y": 3792,
+    "w": 32,
+    "h": 32,
+    "text": "youtube icon",
+    "file": "media_11266d14e9b1e9a4b88cdddb13b60dadbd"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col > div.footer-nav-title > p",
+    "x": 15,
+    "y": 3884,
+    "w": 330,
+    "h": 51,
+    "text": "Shop Products"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > div.expandable > div.expandable-header",
+    "x": 15,
+    "y": 3977,
+    "w": 330,
+    "h": 24,
+    "level": 4,
+    "text": "by type"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > div.expandable > div.expandable-header",
+    "x": 15,
+    "y": 4061,
+    "w": 330,
+    "h": 24,
+    "level": 4,
+    "text": "by need"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > div.expandable > div.expandable-header",
+    "x": 15,
+    "y": 4145,
+    "w": 330,
+    "h": 24,
+    "level": 4,
+    "text": "top collection"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col.col-md-6 > div.footer-nav-title > p",
+    "x": 15,
+    "y": 4237,
+    "w": 330,
+    "h": 51,
+    "text": "How to Wash Clothes"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 4305,
+    "w": 177,
+    "h": 18,
+    "text": "how to remove stains",
+    "href": "/en-us/how-to-wash-clothes/how-to-remove-stains"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 4337,
+    "w": 153,
+    "h": 18,
+    "text": "how to do laundry",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 4369,
+    "w": 289,
+    "h": 18,
+    "text": "washing different fabrics and colors",
+    "href": "/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 4401,
+    "w": 163,
+    "h": 18,
+    "text": "washing machine 101",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col.col-md-6 > div.footer-nav-title > p",
+    "x": 15,
+    "y": 4466,
+    "w": 330,
+    "h": 51,
+    "text": "Help & Support"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 4534,
+    "w": 85,
+    "h": 18,
+    "text": "contact us",
+    "href": "/en-us/contact-us"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col.footer-related > div.footer-related-label > p",
+    "x": 15,
+    "y": 4630,
+    "w": 81,
+    "h": 24,
+    "text": "Related:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 4663,
+    "w": 93,
+    "h": 18,
+    "text": "p&g brands",
+    "href": "/en_US"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 123,
+    "y": 4663,
+    "w": 64,
+    "h": 18,
+    "text": "mrclean",
+    "href": "/en-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 202,
+    "y": 4663,
+    "w": 54,
+    "h": 18,
+    "text": "downy",
+    "href": "/en-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 271,
+    "y": 4663,
+    "w": 58,
+    "h": 18,
+    "text": "bounce",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 4695,
+    "w": 110,
+    "h": 18,
+    "text": "p&g everyday",
+    "href": "/tag/tide"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 18,
+    "y": 4814,
+    "w": 82,
+    "h": 16,
+    "text": "good housekeeping icon",
+    "href": "/product-reviews/history/welcome-gh-seal"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 18,
+    "y": 4765,
+    "w": 82,
+    "h": 62,
+    "text": "good housekeeping icon",
+    "file": "media_1915c270d4d20b18fb25a1cc6c49da3f7d"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 130,
+    "y": 4814,
+    "w": 38,
+    "h": 16,
+    "text": "bbb icon",
+    "href": "/cincinnati/business-reviews/detergent/the-procter-gamble-company-in-cincinnati-oh-3036"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 130,
+    "y": 4765,
+    "w": 38,
+    "h": 62,
+    "text": "bbb icon",
+    "file": "media_152462ed6c7d03edb0c9b2df4a3225edd6"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 198,
+    "y": 4814,
+    "w": 58,
+    "h": 16,
+    "text": "junk food icon",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 198,
+    "y": 4765,
+    "w": 58,
+    "h": 62,
+    "text": "junk food icon",
+    "file": "media_174cf4b58ab063651ffe4f10a66e62cdaf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 286,
+    "y": 4814,
+    "w": 56,
+    "h": 16,
+    "text": "tide cleaners icon",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 286,
+    "y": 4765,
+    "w": 56,
+    "h": 62,
+    "text": "tide cleaners icon",
+    "file": "media_124ea7973b6834e8157f4329ff2eee77c6"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 4884,
+    "w": 179,
+    "h": 18,
+    "text": "accessibility statement",
+    "href": "/en-US"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 4916,
+    "w": 150,
+    "h": 18,
+    "text": "terms & conditions",
+    "href": "/en-us/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 4948,
+    "w": 279,
+    "h": 18,
+    "text": "tide rewards terms and conditions",
+    "href": "/en-us/rewards/loyalty/terms-and-conditions"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 4980,
+    "w": 60,
+    "h": 18,
+    "text": "careers",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 90,
+    "y": 4980,
+    "w": 56,
+    "h": 18,
+    "text": "privacy",
+    "href": "/en-US/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 5012,
+    "w": 287,
+    "h": 18,
+    "text": "consumer health data privacy policy",
+    "href": "/CHD-en"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 5044,
+    "w": 187,
+    "h": 18,
+    "text": "your privacy choices",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > span",
+    "x": 15,
+    "y": 5076,
+    "w": 276,
+    "h": 50,
+    "text": "NOTICE: We may sell your sensitive personal data."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col.footer-general > ul > li",
+    "x": 15,
+    "y": 5229,
+    "w": 199,
+    "h": 32,
+    "text": "© 2026 Procter & Gamble"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 5311,
+    "w": 64,
+    "h": 32,
+    "text": "sitemap",
+    "href": "/en-us/sitemap"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 2,
+    "offPage": 10,
+    "textNodes": 66,
+    "controls": 47,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "CONTROL X-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "nav",
+     "path": "nav > ul > li > span.jump-links-item",
+     "text": "why cost per load is incomplete",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT X-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "nav",
+     "path": "nav > ul > li > span.jump-links-item",
+     "text": "why cost per load is incomplete",
+     "cutMin": 221,
+     "cutMax": 221
+    }
+   ],
+   "findings": [
+    {
+     "kind": "CONTROL X-HIDDEN",
+     "advisory": true,
+     "path": "nav > ul > li > span.jump-links-item",
+     "text": "why cost per load is incomplete",
+     "clipper": "nav",
+     "rect": {
+      "l": 356,
+      "t": 61,
+      "r": 581,
+      "b": 107,
+      "w": 225,
+      "h": 46
+     },
+     "clip": {
+      "l": 15,
+      "t": 61,
+      "r": 345,
+      "b": 107,
+      "w": 330,
+      "h": 46
+     }
+    },
+    {
+     "kind": "TEXT X-HIDDEN",
+     "advisory": true,
+     "cut": 221,
+     "path": "nav > ul > li > span.jump-links-item",
+     "text": "why cost per load is incomplete",
+     "clipper": "nav",
+     "rect": {
+      "l": 356,
+      "t": 76,
+      "r": 581,
+      "b": 92,
+      "w": 225,
+      "h": 16
+     },
+     "clip": {
+      "l": 15,
+      "t": 61,
+      "r": 345,
+      "b": 107,
+      "w": 330,
+      "h": 46
+     },
+     "lines": 1
+    }
+   ]
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 1,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 2,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK"
+   ]
+  },
+  {
+   "index": 1,
+   "heading": "why cost per load does not tell the whole story",
+   "variable": false,
+   "origin": {
+    "link": 5,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 5,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "what is the best value laundry detergent?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "why cost per load is incomplete",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "the total cost of use framework",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 6,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 6,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "the role of performance efficacy",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "from total cost of use to cost per effective wash",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "key takeaway",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "frequently asked questions",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 4,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 4,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"why cost per load is incomplete\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 1,
+   "text": "why cost per load is incomplete"
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 1,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 1,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 15,
+    "y": 76,
+    "w": 301,
+    "h": 16
+   },
+   {
+    "x": 356,
+    "y": 76,
+    "w": 225,
+    "h": 16
+   },
+   {
+    "x": 15,
+    "y": 129,
+    "w": 57,
+    "h": 22
+   },
+   {
+    "x": 91,
+    "y": 129,
+    "w": 236,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 154,
+    "w": 233,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 194,
+    "w": 277,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 238,
+    "w": 298,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 282,
+    "w": 292,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 326,
+    "w": 114,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 603,
+    "w": 235,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 647,
+    "w": 217,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 691,
+    "w": 170,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 735,
+    "w": 230,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 803,
+    "w": 303,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 823,
+    "w": 305,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 843,
+    "w": 320,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 863,
+    "w": 307,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 883,
+    "w": 313,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 903,
+    "w": 312,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 923,
+    "w": 293,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 943,
+    "w": 310,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 963,
+    "w": 84,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1044,
+    "w": 270,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 1088,
+    "w": 132,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 1132,
+    "w": 230,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 1200,
+    "w": 317,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1220,
+    "w": 310,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1240,
+    "w": 299,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1260,
+    "w": 290,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1280,
+    "w": 310,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1300,
+    "w": 310,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1320,
+    "w": 63,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1401,
+    "w": 294,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 1445,
+    "w": 129,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 1489,
+    "w": 226,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 1557,
+    "w": 318,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1577,
+    "w": 282,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1597,
+    "w": 58,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 1631,
+    "w": 237,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 1651,
+    "w": 254,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 1671,
+    "w": 301,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 1691,
+    "w": 293,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 1711,
+    "w": 47,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 1731,
+    "w": 277,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 1751,
+    "w": 293,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 1771,
+    "w": 123,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 1791,
+    "w": 272,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 1811,
+    "w": 290,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 1831,
+    "w": 306,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1867,
+    "w": 297,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1887,
+    "w": 329,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1907,
+    "w": 300,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1927,
+    "w": 301,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1947,
+    "w": 282,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2028,
+    "w": 221,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 2072,
+    "w": 268,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 2116,
+    "w": 168,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 2184,
+    "w": 260,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2204,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2224,
+    "w": 284,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2244,
+    "w": 302,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2264,
+    "w": 251,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2284,
+    "w": 305,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2304,
+    "w": 259,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2324,
+    "w": 283,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2344,
+    "w": 305,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2364,
+    "w": 43,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2445,
+    "w": 324,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 2489,
+    "w": 287,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 2533,
+    "w": 269,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 2577,
+    "w": 112,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 2645,
+    "w": 328,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2665,
+    "w": 269,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2685,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2705,
+    "w": 268,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2725,
+    "w": 283,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2745,
+    "w": 292,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2765,
+    "w": 184,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2846,
+    "w": 285,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 2914,
+    "w": 274,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2934,
+    "w": 320,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2954,
+    "w": 281,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2974,
+    "w": 249,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2994,
+    "w": 84,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3075,
+    "w": 225,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 3119,
+    "w": 128,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 3163,
+    "w": 207,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 3289,
+    "w": 263,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 3315,
+    "w": 274,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 3382,
+    "w": 281,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 3408,
+    "w": 257,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 3475,
+    "w": 296,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 3501,
+    "w": 72,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 3568,
+    "w": 223,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 3594,
+    "w": 296,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 3620,
+    "w": 72,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 3770,
+    "w": 242,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 3903,
+    "w": 166,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 3997,
+    "w": 80,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 4081,
+    "w": 81,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 4165,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 4256,
+    "w": 239,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 4325,
+    "w": 177,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4357,
+    "w": 153,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4389,
+    "w": 289,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4421,
+    "w": 163,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4485,
+    "w": 172,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 4554,
+    "w": 85,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4650,
+    "w": 81,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 4682,
+    "w": 93,
+    "h": 18
+   },
+   {
+    "x": 123,
+    "y": 4682,
+    "w": 64,
+    "h": 18
+   },
+   {
+    "x": 202,
+    "y": 4682,
+    "w": 54,
+    "h": 18
+   },
+   {
+    "x": 271,
+    "y": 4682,
+    "w": 58,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4714,
+    "w": 110,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4904,
+    "w": 179,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4936,
+    "w": 150,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4968,
+    "w": 279,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 5000,
+    "w": 60,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 5000,
+    "w": 56,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 5032,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 5064,
+    "w": 162,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 5096,
+    "w": 276,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 5128,
+    "w": 110,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 5160,
+    "w": 258,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 5192,
+    "w": 268,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 5224,
+    "w": 88,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 5256,
+    "w": 56,
+    "h": 18
+   },
+   {
+    "x": 71,
+    "y": 5256,
+    "w": 143,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 5338,
+    "w": 64,
+    "h": 18
+   }
+  ],
+  "eds": [
+   {
+    "x": 127,
+    "y": -31,
+    "w": 106,
+    "h": 16
+   },
+   {
+    "x": 15,
+    "y": 76,
+    "w": 301,
+    "h": 16
+   },
+   {
+    "x": 356,
+    "y": 76,
+    "w": 225,
+    "h": 16
+   },
+   {
+    "x": 15,
+    "y": 129,
+    "w": 57,
+    "h": 22
+   },
+   {
+    "x": 95,
+    "y": 129,
+    "w": 236,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 154,
+    "w": 233,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 194,
+    "w": 277,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 238,
+    "w": 298,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 282,
+    "w": 292,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 326,
+    "w": 114,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 583,
+    "w": 235,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 627,
+    "w": 217,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 671,
+    "w": 170,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 715,
+    "w": 230,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 783,
+    "w": 303,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 803,
+    "w": 305,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 823,
+    "w": 320,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 843,
+    "w": 307,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 863,
+    "w": 313,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 883,
+    "w": 312,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 903,
+    "w": 293,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 923,
+    "w": 310,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 943,
+    "w": 84,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1024,
+    "w": 270,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 1068,
+    "w": 132,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 1112,
+    "w": 230,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 1180,
+    "w": 317,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1200,
+    "w": 310,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1220,
+    "w": 299,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1240,
+    "w": 290,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1260,
+    "w": 310,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1280,
+    "w": 310,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1300,
+    "w": 63,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1381,
+    "w": 294,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 1425,
+    "w": 129,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 1469,
+    "w": 226,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 1537,
+    "w": 318,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1557,
+    "w": 282,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1577,
+    "w": 58,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 1611,
+    "w": 237,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 1631,
+    "w": 254,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 1651,
+    "w": 301,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 1671,
+    "w": 293,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 1691,
+    "w": 47,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 1711,
+    "w": 277,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 1731,
+    "w": 293,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 1751,
+    "w": 123,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 1771,
+    "w": 272,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 1791,
+    "w": 290,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 1811,
+    "w": 306,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1847,
+    "w": 297,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1867,
+    "w": 329,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1887,
+    "w": 300,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1907,
+    "w": 301,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1927,
+    "w": 282,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2008,
+    "w": 221,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 2052,
+    "w": 268,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 2096,
+    "w": 168,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 2164,
+    "w": 260,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2184,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2204,
+    "w": 284,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2224,
+    "w": 302,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2244,
+    "w": 251,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2264,
+    "w": 305,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2284,
+    "w": 259,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2304,
+    "w": 283,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2324,
+    "w": 305,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2344,
+    "w": 43,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2425,
+    "w": 324,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 2469,
+    "w": 287,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 2513,
+    "w": 269,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 2557,
+    "w": 112,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 2625,
+    "w": 328,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2645,
+    "w": 269,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2665,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2685,
+    "w": 268,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2705,
+    "w": 283,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2725,
+    "w": 292,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2745,
+    "w": 184,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2826,
+    "w": 285,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 2894,
+    "w": 274,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2914,
+    "w": 320,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2934,
+    "w": 281,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2954,
+    "w": 249,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2974,
+    "w": 84,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3055,
+    "w": 225,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 3099,
+    "w": 128,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 3143,
+    "w": 207,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 3269,
+    "w": 263,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 3295,
+    "w": 274,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 3362,
+    "w": 281,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 3388,
+    "w": 257,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 3455,
+    "w": 296,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 3481,
+    "w": 72,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 3548,
+    "w": 223,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 3574,
+    "w": 296,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 3600,
+    "w": 72,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 3750,
+    "w": 242,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 3883,
+    "w": 166,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 3977,
+    "w": 80,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 4061,
+    "w": 81,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 4145,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 4236,
+    "w": 239,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 4305,
+    "w": 177,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4337,
+    "w": 153,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4369,
+    "w": 289,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4401,
+    "w": 163,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4465,
+    "w": 172,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 4534,
+    "w": 85,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4630,
+    "w": 81,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 4663,
+    "w": 93,
+    "h": 18
+   },
+   {
+    "x": 123,
+    "y": 4663,
+    "w": 64,
+    "h": 18
+   },
+   {
+    "x": 202,
+    "y": 4663,
+    "w": 54,
+    "h": 18
+   },
+   {
+    "x": 271,
+    "y": 4663,
+    "w": 58,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4695,
+    "w": 110,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4884,
+    "w": 179,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4916,
+    "w": 150,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4948,
+    "w": 279,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4980,
+    "w": 60,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 4980,
+    "w": 56,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 5012,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 5044,
+    "w": 162,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 5076,
+    "w": 276,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 5108,
+    "w": 110,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 5140,
+    "w": 258,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 5172,
+    "w": 268,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 5204,
+    "w": 88,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 5236,
+    "w": 199,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 5318,
+    "w": 64,
+    "h": 18
+   }
+  ]
+ }
+}

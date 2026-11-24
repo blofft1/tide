@@ -1,0 +1,101 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-us-click2cart-006000b/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-us-click2cart-006000b/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 1840,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 117038,
+  "pct": 4.42,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/en-us-click2cart-006000b/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 15.57,
+  "textBoxes": 39,
+  "textPixels": 112601,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 11.3
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 3.9
+    },
+    {
+      "y0": 1500,
+      "y1": 1840,
+      "pct": 1.6
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": false,
+    "pct": 4.42,
+    "differingPixels": 117038,
+    "compared": {
+      "width": 1440,
+      "height": 1840,
+      "mode": "overlap"
+    },
+    "steps": [],
+    "maxOffset": 0,
+    "totalShift": 0,
+    "insertedRows": 0,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 11.3,
+        "unaligned": 11.3
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 3.9,
+        "unaligned": 3.9
+      },
+      {
+        "y0": 1500,
+        "y1": 1840,
+        "pct": 1.6,
+        "unaligned": 1.6
+      }
+    ],
+    "diff": null,
+    "reason": "no offset step found",
+    "candidate": {
+      "pct": 4.42,
+      "steps": 0,
+      "totalShift": 0
+    }
+  },
+  "offsets": {
+    "bound": null,
+    "totalShift": 0,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/click2cart/006000b"
+  }
+}

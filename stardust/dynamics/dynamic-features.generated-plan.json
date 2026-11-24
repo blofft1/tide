@@ -1,0 +1,1115 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics plan",
+  "writtenAt": "2026-11-23T23:44:04.081Z",
+  "input": "stardust/current/_dynamics.json",
+  "target": null,
+  "migrated": "stardust/migrated",
+  "knowledge": null,
+  "chrome": "stardust/chrome/header-contract.json"
+ },
+ "rows": [
+  {
+   "id": "a-unknown-third-party-host-www-google-com",
+   "class": "A",
+   "feature": "unknown third-party host www.google.com",
+   "pages": 10,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "www.google.com"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-cms-app-settings-object-datalayer",
+   "class": "A",
+   "feature": "CMS / app settings object dataLayer",
+   "pages": 10,
+   "probed": 10,
+   "reach": null,
+   "evidence": [],
+   "pattern": "read-settings",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "— (keys name endpoints, ids, vendors)"
+  },
+  {
+   "id": "a-cms-app-settings-object-next-data",
+   "class": "A",
+   "feature": "CMS / app settings object __NEXT_DATA__",
+   "pages": 9,
+   "probed": 10,
+   "reach": null,
+   "evidence": [],
+   "pattern": "read-settings",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "— (keys name endpoints, ids, vendors)"
+  },
+  {
+   "id": "a-unknown-third-party-host-api-rudderstack-com",
+   "class": "A",
+   "feature": "unknown third-party host api.rudderstack.com",
+   "pages": 9,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "api.rudderstack.com"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-unknown-third-party-host-c-lytics-io",
+   "class": "A",
+   "feature": "unknown third-party host c.lytics.io",
+   "pages": 9,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "c.lytics.io"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-unknown-third-party-host-rudderstacdaco-dataplane-rudderst",
+   "class": "A",
+   "feature": "unknown third-party host rudderstacdaco.dataplane.rudderstack.com",
+   "pages": 9,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "rudderstacdaco.dataplane.rudderstack.com"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-unknown-third-party-host-script-crazyegg-com",
+   "class": "A",
+   "feature": "unknown third-party host script.crazyegg.com",
+   "pages": 6,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "script.crazyegg.com"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-unknown-third-party-host-tracking-crazyegg-com",
+   "class": "A",
+   "feature": "unknown third-party host tracking.crazyegg.com",
+   "pages": 6,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "tracking.crazyegg.com"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-unknown-third-party-host-click2cart-com",
+   "class": "A",
+   "feature": "unknown third-party host click2cart.com",
+   "pages": 1,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "click2cart.com"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-unknown-third-party-host-sc-api-click2cart-com",
+   "class": "A",
+   "feature": "unknown third-party host sc-api.click2cart.com",
+   "pages": 1,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "sc-api.click2cart.com"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-unknown-third-party-host-consumersupport-pg-com",
+   "class": "A",
+   "feature": "unknown third-party host consumersupport.pg.com",
+   "pages": 1,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "consumersupport.pg.com"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "cr-client-framework-next",
+   "class": "CR",
+   "feature": "client framework next",
+   "pages": 10,
+   "probed": 10,
+   "reach": null,
+   "evidence": [],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-main-empty-at-load-filled-after-client-rendered-page",
+   "class": "CR",
+   "feature": "main empty at load, filled after (client-rendered page)",
+   "pages": 1,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "text at load 0 → settled 725"
+   ],
+   "pattern": "client-rendered-page",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "human-browser capture; never migrate blank"
+  },
+  {
+   "id": "f-form-backend-salesforce-pardot",
+   "class": "F",
+   "feature": "form backend: Salesforce / Pardot",
+   "pages": 1,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "pg-lex.file.force.com"
+   ],
+   "pattern": "forms",
+   "disposition": "rebuild-native",
+   "target": "block",
+   "reproducibility": "needs-backend",
+   "status": "pending",
+   "phase": "forms",
+   "decision": "production backend (vendor form id + field mapping)"
+  },
+  {
+   "id": "i18n-locale-variants-en-us-en-us",
+   "class": "I18N",
+   "feature": "locale variants en-US,en-US",
+   "pages": 2,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "https://accessibility.pg.com/en-US",
+    "https://privacypolicy.pg.com/en-US/#statePrivacyNotice"
+   ],
+   "pattern": "locale-tree",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "needs-business-decision",
+   "status": "delivered-by-capture",
+   "phase": "locale wave",
+   "decision": "scope of the locale trees",
+   "alreadyDelivered": "output already carries \"https://termsandconditions.pg.com/en-us/\""
+  },
+  {
+   "id": "i18n-locale-variants-en-us-en-us",
+   "class": "I18N",
+   "feature": "locale variants en-us,en-us",
+   "pages": 1,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "https://termsandconditions.pg.com/en-us/",
+    "https://preferencecenter.pg.com/en-us/"
+   ],
+   "pattern": "locale-tree",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "needs-business-decision",
+   "status": "delivered-by-capture",
+   "phase": "locale wave",
+   "decision": "scope of the locale trees",
+   "alreadyDelivered": "output already carries \"https://termsandconditions.pg.com/en-us/\""
+  },
+  {
+   "id": "i18n-locale-variants-en-us",
+   "class": "I18N",
+   "feature": "locale variants en-US",
+   "pages": 1,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "https://privacypolicy.pg.com/en-US/#statePrivacyNotice"
+   ],
+   "pattern": "locale-tree",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "needs-business-decision",
+   "status": "delivered-by-capture",
+   "phase": "locale wave",
+   "decision": "scope of the locale trees",
+   "alreadyDelivered": "output already carries \"https://accessibility.pg.com/en-US\""
+  },
+  {
+   "id": "i18n-locale-variants-en-us-es-us-en-ca-fr-ca-en-gb-en-in-de-",
+   "class": "I18N",
+   "feature": "locale variants en-us,es-us,en-ca,fr-ca,en-gb,en-in,de-de,ar-sa",
+   "pages": 1,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "https://accessibility.pg.com/en-US",
+    "https://privacypolicy.pg.com/en-US/#statePrivacyNotice"
+   ],
+   "pattern": "locale-tree",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "needs-business-decision",
+   "status": "delivered-by-capture",
+   "phase": "locale wave",
+   "decision": "scope of the locale trees",
+   "alreadyDelivered": "output already carries \"https://accessibility.pg.com/en-US\""
+  },
+  {
+   "id": "i18n-locale-variants-en-us-es-us-en-ca-fr-ca-en-gb-en-in-ar-",
+   "class": "I18N",
+   "feature": "locale variants en-us,es-us,en-ca,fr-ca,en-gb,en-in,ar-sa,en-sa",
+   "pages": 1,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "https://accessibility.pg.com/en-US",
+    "https://privacypolicy.pg.com/en-US/#statePrivacyNotice"
+   ],
+   "pattern": "locale-tree",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "needs-business-decision",
+   "status": "delivered-by-capture",
+   "phase": "locale wave",
+   "decision": "scope of the locale trees",
+   "alreadyDelivered": "output already carries \"https://accessibility.pg.com/en-US\""
+  },
+  {
+   "id": "i18n-locale-variants-en-us-es-us-en-ca-fr-ca-en-gb-ar-sa-en-",
+   "class": "I18N",
+   "feature": "locale variants en-us,es-us,en-ca,fr-ca,en-gb,ar-sa,en-sa",
+   "pages": 1,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "https://accessibility.pg.com/en-US",
+    "https://privacypolicy.pg.com/en-US/#statePrivacyNotice"
+   ],
+   "pattern": "locale-tree",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "needs-business-decision",
+   "status": "delivered-by-capture",
+   "phase": "locale wave",
+   "decision": "scope of the locale trees",
+   "alreadyDelivered": "output already carries \"https://accessibility.pg.com/en-US\""
+  },
+  {
+   "id": "i18n-locale-variants-en-us-es-us-en-ca-fr-ca",
+   "class": "I18N",
+   "feature": "locale variants en-us,es-us,en-ca,fr-ca",
+   "pages": 1,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "https://accessibility.pg.com/en-US",
+    "https://privacypolicy.pg.com/en-US/#statePrivacyNotice"
+   ],
+   "pattern": "locale-tree",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "needs-business-decision",
+   "status": "delivered-by-capture",
+   "phase": "locale wave",
+   "decision": "scope of the locale trees",
+   "alreadyDelivered": "output already carries \"https://accessibility.pg.com/en-US\""
+  },
+  {
+   "id": "i18n-locale-variants-en-us",
+   "class": "I18N",
+   "feature": "locale variants en-us",
+   "pages": 1,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "https://accessibility.pg.com/en-US",
+    "https://privacypolicy.pg.com/en-US/#statePrivacyNotice"
+   ],
+   "pattern": "locale-tree",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "needs-business-decision",
+   "status": "delivered-by-capture",
+   "phase": "locale wave",
+   "decision": "scope of the locale trees",
+   "alreadyDelivered": "output already carries \"https://accessibility.pg.com/en-US\""
+  },
+  {
+   "id": "i18n-locale-variants-en-us-es-us-en-ca-fr-ca-en-gb-en-in-de-",
+   "class": "I18N",
+   "feature": "locale variants en-us,es-us,en-ca,fr-ca,en-gb,en-in,de-de,ar-sa,en-sa,pt-br",
+   "pages": 1,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "https://accessibility.pg.com/en-US",
+    "https://privacypolicy.pg.com/en-US/#statePrivacyNotice"
+   ],
+   "pattern": "locale-tree",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "needs-business-decision",
+   "status": "delivered-by-capture",
+   "phase": "locale wave",
+   "decision": "scope of the locale trees",
+   "alreadyDelivered": "output already carries \"https://accessibility.pg.com/en-US\""
+  },
+  {
+   "id": "l-listing-candidate-row-justify-content-start-66-cards",
+   "class": "L",
+   "feature": "listing candidate row justify-content-start (66 cards)",
+   "pages": 1,
+   "probed": 10,
+   "reach": null,
+   "evidence": [],
+   "pattern": "listing-index-backed",
+   "disposition": "index-backed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "listings",
+   "decision": "index-driven or editorially curated?"
+  },
+  {
+   "id": "l-listing-candidate-row-6-cards",
+   "class": "L",
+   "feature": "listing candidate row (6 cards)",
+   "pages": 1,
+   "probed": 10,
+   "reach": null,
+   "evidence": [],
+   "pattern": "listing-index-backed",
+   "disposition": "index-backed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "listings",
+   "decision": "index-driven or editorially curated?"
+  },
+  {
+   "id": "m-modal-trigger-aria-haspopup-chrome-only-target-outside-dom",
+   "class": "M",
+   "feature": "modal trigger aria-haspopup (chrome only) → target outside DOM at capture",
+   "pages": 1,
+   "probed": 10,
+   "reach": {
+    "pages": 1,
+    "of": 99
+   },
+   "evidence": [
+    "English - United States"
+   ],
+   "pattern": "chrome-interaction",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "interactive",
+   "decision": "none (the header contract is the spec)"
+  },
+  {
+   "id": "m-modal-trigger-youtube-video-preview-overlay-target-outside",
+   "class": "M",
+   "feature": "modal trigger youtube-video-preview-overlay → target outside DOM at capture",
+   "pages": 1,
+   "probed": 10,
+   "reach": null,
+   "evidence": [],
+   "pattern": "modal-loader",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "interactive",
+   "decision": "none"
+  },
+  {
+   "id": "m-modal-trigger-modal-card-target-outside-dom-at-capture",
+   "class": "M",
+   "feature": "modal trigger modal-card → target outside DOM at capture",
+   "pages": 1,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "Browse by typePacs, Liquid, Powder and more.",
+    "Browse by needStain removal, Deep Cleaning, Bright Colors an"
+   ],
+   "pattern": "modal-loader",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "interactive",
+   "decision": "none"
+  },
+  {
+   "id": "s-site-search-form-en-us-search",
+   "class": "S",
+   "feature": "site search form → /en-us/search",
+   "pages": 8,
+   "probed": 10,
+   "reach": {
+    "pages": 89,
+    "of": 99
+   },
+   "evidence": [
+    "search:q"
+   ],
+   "pattern": "search-index-backed",
+   "disposition": "index-backed",
+   "target": "widget",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "search",
+   "decision": "none (corpus = the migrated pages; second corpora stay out)"
+  },
+  {
+   "id": "t-tag-manager-google-tag-manager",
+   "class": "T",
+   "feature": "tag manager: Google Tag Manager",
+   "pages": 10,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "www.googletagmanager.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-consent-onetrust",
+   "class": "T",
+   "feature": "consent: OneTrust",
+   "pages": 10,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "cdn.cookielaw.org",
+    "geolocation.onetrust.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "CMP domain script reuse on the new host"
+  },
+  {
+   "id": "t-unknown-third-party-host-pghub-io",
+   "class": "T",
+   "feature": "unknown third-party host pghub.io",
+   "pages": 10,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "pghub.io"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-marketing-ad-retargeting-pixel",
+   "class": "T",
+   "feature": "marketing: ad / retargeting pixel",
+   "pages": 10,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "ad.doubleclick.net",
+    "match.adsrvr.org",
+    "js.adsrvr.org",
+    "insight.adsrvr.org"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-analytics-google-analytics-ads",
+   "class": "T",
+   "feature": "analytics: Google Analytics / Ads",
+   "pages": 10,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "www.google-analytics.com",
+    "analytics.google.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-pixel-tapad-com",
+   "class": "T",
+   "feature": "unknown third-party host pixel.tapad.com",
+   "pages": 10,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "pixel.tapad.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-simage2-pubmatic-com",
+   "class": "T",
+   "feature": "unknown third-party host simage2.pubmatic.com",
+   "pages": 9,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "simage2.pubmatic.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-dsum-sec-casalemedia-com",
+   "class": "T",
+   "feature": "unknown third-party host dsum-sec.casalemedia.com",
+   "pages": 9,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "dsum-sec.casalemedia.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-cdn-pricespider-com",
+   "class": "T",
+   "feature": "unknown third-party host cdn.pricespider.com",
+   "pages": 9,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "cdn.pricespider.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-x-bidswitch-net",
+   "class": "T",
+   "feature": "unknown third-party host x.bidswitch.net",
+   "pages": 9,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "x.bidswitch.net"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-cdn-rudderlabs-com",
+   "class": "T",
+   "feature": "unknown third-party host cdn.rudderlabs.com",
+   "pages": 9,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "cdn.rudderlabs.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-cdn-scaleflex-it",
+   "class": "T",
+   "feature": "unknown third-party host cdn.scaleflex.it",
+   "pages": 8,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "cdn.scaleflex.it"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-wtbevents-pricespider-com",
+   "class": "T",
+   "feature": "unknown third-party host wtbevents.pricespider.com",
+   "pages": 8,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "wtbevents.pricespider.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-images-ctfassets-net",
+   "class": "T",
+   "feature": "unknown third-party host images.ctfassets.net",
+   "pages": 7,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "images.ctfassets.net"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-adservice-google-com",
+   "class": "T",
+   "feature": "unknown third-party host adservice.google.com",
+   "pages": 3,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "adservice.google.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-locate-pricespider-com",
+   "class": "T",
+   "feature": "unknown third-party host locate.pricespider.com",
+   "pages": 2,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "locate.pricespider.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-omni-pricespider-com",
+   "class": "T",
+   "feature": "unknown third-party host omni.pricespider.com",
+   "pages": 2,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "omni.pricespider.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-third-party-mount-div-data-action-detail-tag-manager-injec",
+   "class": "T",
+   "feature": "third-party mount <div data-action-detail> (tag-manager-injected widget)",
+   "pages": 2,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "data-action-detail"
+   ],
+   "pattern": "embed-passthrough",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-credential",
+   "status": "delivered-by-capture",
+   "phase": "embeds",
+   "decision": "vendor account ids stay the owner's",
+   "alreadyDelivered": "output already carries \"data-action-detail\""
+  },
+  {
+   "id": "t-unknown-third-party-host-accessibility-pg-com",
+   "class": "T",
+   "feature": "unknown third-party host accessibility.pg.com",
+   "pages": 1,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "accessibility.pg.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "delivered-by-capture",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids",
+   "alreadyDelivered": "output already carries \"accessibility.pg.com\""
+  },
+  {
+   "id": "t-unknown-third-party-host-feed-pghub-io",
+   "class": "T",
+   "feature": "unknown third-party host feed.pghub.io",
+   "pages": 1,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "feed.pghub.io"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-pandg-tapad-com",
+   "class": "T",
+   "feature": "unknown third-party host pandg.tapad.com",
+   "pages": 1,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "pandg.tapad.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-s3-us-west-2-amazonaws-com",
+   "class": "T",
+   "feature": "unknown third-party host s3.us-west-2.amazonaws.com",
+   "pages": 1,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "s3.us-west-2.amazonaws.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-s3-us-west-2-amazonaws-com",
+   "class": "T",
+   "feature": "unknown third-party host s3-us-west-2.amazonaws.com",
+   "pages": 1,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "s3-us-west-2.amazonaws.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-b-videoamp-com",
+   "class": "T",
+   "feature": "unknown third-party host b.videoamp.com",
+   "pages": 1,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "b.videoamp.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "v-iframe-without-src-runtime-injected-embed",
+   "class": "V",
+   "feature": "iframe without src (runtime-injected embed)",
+   "pages": 9,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "0×0",
+    "CrazyEgg Tracking iframe"
+   ],
+   "pattern": "embed-passthrough",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "embeds",
+   "decision": "resolve the runtime src from a rendered capture"
+  },
+  {
+   "id": "v-video-youtube",
+   "class": "V",
+   "feature": "video: YouTube",
+   "pages": 1,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "i1.ytimg.com"
+   ],
+   "pattern": "media-as-url",
+   "disposition": "embed-passthrough",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "media",
+   "decision": "none (player ids are public)"
+  },
+  {
+   "id": "x-commerce-signals-cart-true-prices-0",
+   "class": "X",
+   "feature": "commerce signals (cart: true, prices: 0)",
+   "pages": 1,
+   "probed": 10,
+   "reach": null,
+   "evidence": [],
+   "pattern": "decided-out",
+   "disposition": "decided-out",
+   "target": null,
+   "reproducibility": "needs-backend",
+   "status": "pending",
+   "phase": "register",
+   "decision": "auth / commerce on the new host?"
+  },
+  {
+   "id": "x-sign-in-account-links",
+   "class": "X",
+   "feature": "sign-in / account links",
+   "pages": 1,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "https://tide.com/en-us/research/tide-evo-dissolve-guide"
+   ],
+   "pattern": "decided-out",
+   "disposition": "decided-out",
+   "target": null,
+   "reproducibility": "needs-backend",
+   "status": "pending",
+   "phase": "register",
+   "decision": "auth / commerce on the new host?"
+  },
+  {
+   "id": "chrome-drawer",
+   "source": "header-contract",
+   "class": "M",
+   "feature": "header drawer: navigation menu (chrome only)",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "390 click/key"
+   ],
+   "pattern": "chrome-interaction",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "interactive",
+   "decision": "none (the header contract is the spec)"
+  },
+  {
+   "id": "chrome-menu",
+   "source": "header-contract",
+   "class": "M",
+   "feature": "header menu: US - English, Shop Products (chrome only)",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "1440 click/key",
+    "1440 hover/click/key"
+   ],
+   "pattern": "chrome-interaction",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "interactive",
+   "decision": "none (the header contract is the spec)"
+  },
+  {
+   "id": "chrome-search",
+   "source": "header-contract",
+   "class": "S",
+   "feature": "header search: Search (chrome only)",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "1440 type"
+   ],
+   "pattern": "search-index-backed",
+   "disposition": "index-backed",
+   "target": "widget",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "interactive",
+   "decision": "none (results from the query index; overlay and typeahead per the contract)"
+  }
+ ]
+}

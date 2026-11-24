@@ -1,0 +1,1590 @@
+{
+ "tool": "chrome-explore",
+ "url": "http://localhost:8791/en-us-proposed.html",
+ "at": "2026-11-23T21:21:57.107Z",
+ "shots": "stardust/.work/chrome/header-build",
+ "widths": {
+  "1440": {
+   "root": "#site-header",
+   "controls": [
+    {
+     "name": "P&G icon",
+     "key": "pg icon",
+     "role": "link",
+     "kind": "link",
+     "sel": "#site-header>div:nth-of-type(1)>div>div>div:nth-of-type(1)>div>a:nth-of-type(1)",
+     "href": "https://us.pg.com/",
+     "expanded": null,
+     "rect": [
+      364,
+      3,
+      32,
+      47
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Downy icon",
+     "key": "downy icon",
+     "role": "link",
+     "kind": "link",
+     "sel": "#site-header>div:nth-of-type(1)>div>div>div:nth-of-type(1)>div>a:nth-of-type(2)",
+     "href": "https://downy.com/en-us",
+     "expanded": null,
+     "rect": [
+      411,
+      3,
+      43,
+      47
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Bounce icon",
+     "key": "bounce icon",
+     "role": "link",
+     "kind": "link",
+     "sel": "#site-header>div:nth-of-type(1)>div>div>div:nth-of-type(1)>div>a:nth-of-type(3)",
+     "href": "https://www.bouncefresh.com/en-us",
+     "expanded": null,
+     "rect": [
+      469,
+      3,
+      47,
+      47
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Contact Us",
+     "key": "contact us",
+     "role": "link",
+     "kind": "link",
+     "sel": "#site-header>div:nth-of-type(1)>div>div>div:nth-of-type(2)>a",
+     "href": "http://localhost:8791/en-us/contact-us",
+     "expanded": null,
+     "rect": [
+      954,
+      17,
+      64,
+      17
+     ],
+     "actions": {}
+    },
+    {
+     "name": "US - English",
+     "key": "us english",
+     "role": "toggle",
+     "kind": "locale",
+     "sel": "#site-header>div:nth-of-type(1)>div>div>div:nth-of-type(2)>button",
+     "expanded": null,
+     "rect": [
+      1058,
+      18,
+      91,
+      14
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "US - English",
+          "href": "http://localhost:8791/"
+         },
+         {
+          "text": "US - Spanish",
+          "href": "https://tide.com/es-us"
+         },
+         {
+          "text": "Canada - English",
+          "href": "https://tide.ca/"
+         },
+         {
+          "text": "Canada - French",
+          "href": "https://tide.ca/fr-ca"
+         }
+        ],
+        "headings": [
+         "Please select a location"
+        ],
+        "images": 4,
+        "inputs": [],
+        "buttons": [
+         "Close"
+        ],
+        "options": 0,
+        "rect": [
+         573,
+         349,
+         311,
+         186
+        ]
+       },
+       "expanded": null,
+       "focus": "elsewhere",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.locale-overlay"
+        }
+       ],
+       "shot": "1440-001-US---English-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "US - English",
+          "href": "http://localhost:8791/"
+         },
+         {
+          "text": "US - Spanish",
+          "href": "https://tide.com/es-us"
+         },
+         {
+          "text": "Canada - English",
+          "href": "https://tide.ca/"
+         },
+         {
+          "text": "Canada - French",
+          "href": "https://tide.ca/fr-ca"
+         }
+        ],
+        "headings": [
+         "Please select a location"
+        ],
+        "images": 4,
+        "inputs": [],
+        "buttons": [
+         "Close"
+        ],
+        "options": 0,
+        "rect": [
+         573,
+         349,
+         311,
+         186
+        ]
+       },
+       "expanded": null,
+       "focus": "elsewhere",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.locale-overlay"
+        }
+       ],
+       "shot": "1440-002-US---English-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "toggle": true
+     }
+    },
+    {
+     "name": "Sign in",
+     "key": "sign in",
+     "role": "toggle",
+     "kind": "account",
+     "sel": "#site-header>div:nth-of-type(1)>div>div>div:nth-of-type(2)>span>button",
+     "expanded": null,
+     "rect": [
+      1251,
+      18,
+      39,
+      14
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": false,
+       "navigates": "https://account.tide.com/"
+      },
+      "key": {
+       "opened": false,
+       "navigates": "https://account.tide.com/"
+      }
+     }
+    },
+    {
+     "name": "Tide logo",
+     "key": "tide logo",
+     "role": "link",
+     "kind": "link",
+     "sel": "#site-header>div:nth-of-type(2)>div>div>div:nth-of-type(1)>a",
+     "href": "http://localhost:8791/en-us",
+     "expanded": null,
+     "rect": [
+      150,
+      50,
+      71,
+      111
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Search",
+     "key": "search",
+     "role": "input",
+     "kind": "search",
+     "sel": "#site-header>div:nth-of-type(2)>div>div>div:nth-of-type(2)>form>div>input",
+     "expanded": null,
+     "rect": [
+      1020,
+      70,
+      270,
+      34
+     ],
+     "actions": {},
+     "search": {
+      "probe": "skip",
+      "typeahead": {
+       "links": 0,
+       "options": 0
+      },
+      "submit": "http://localhost:8791/en-us/search?q={q}"
+     }
+    },
+    {
+     "name": "Submit Search",
+     "key": "submit search",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "#site-header>div:nth-of-type(2)>div>div>div:nth-of-type(2)>form>div>button",
+     "expanded": null,
+     "rect": [
+      1245,
+      72,
+      30,
+      30
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": false,
+       "navigates": "http://localhost:8791/en-us/search?q="
+      },
+      "key": {
+       "opened": false,
+       "navigates": "http://localhost:8791/en-us/search?q="
+      }
+     }
+    },
+    {
+     "name": "Shop Products",
+     "key": "shop products",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#site-header>div:nth-of-type(3)>div>div>div>div:nth-of-type(1)",
+     "expanded": "false",
+     "rect": [
+      447,
+      129,
+      153,
+      46
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Pacs",
+          "href": "http://localhost:8791/en-us/shop/type/laundry-pods"
+         },
+         {
+          "text": "Liquid",
+          "href": "http://localhost:8791/en-us/shop/type/liquid"
+         },
+         {
+          "text": "Powder",
+          "href": "http://localhost:8791/en-us/shop/type/powder"
+         },
+         {
+          "text": "Stain Remover",
+          "href": "http://localhost:8791/en-us/shop/type/stain-remover"
+         },
+         {
+          "text": "Laundry Booster",
+          "href": "http://localhost:8791/en-us/shop/type/laundry-booster"
+         },
+         {
+          "text": "Fabric Care",
+          "href": "http://localhost:8791/en-us/shop/type/fabric-care"
+         },
+         {
+          "text": "Fabric Rinse",
+          "href": "http://localhost:8791/en-us/shop/type/fabric-rinse"
+         },
+         {
+          "text": "Laundry Tiles",
+          "href": "http://localhost:8791/en-us/shop/type/laundry-tiles"
+         },
+         {
+          "text": "Stain Removal",
+          "href": "http://localhost:8791/en-us/shop/special-needs/stain-removal"
+         },
+         {
+          "text": "Odor Removal",
+          "href": "http://localhost:8791/en-us/shop/special-needs/odor-removal"
+         },
+         {
+          "text": "Freshness/Scent",
+          "href": "http://localhost:8791/en-us/shop/special-needs/freshness"
+         },
+         {
+          "text": "Whiteness",
+          "href": "http://localhost:8791/en-us/shop/special-needs/whiteness"
+         },
+         {
+          "text": "Bright Colors",
+          "href": "http://localhost:8791/en-us/shop/special-needs/bright-colors"
+         },
+         {
+          "text": "Sensitive",
+          "href": "http://localhost:8791/en-us/shop/special-needs/sensitive"
+         },
+         {
+          "text": "Additives",
+          "href": "http://localhost:8791/en-us/shop/special-needs/additives"
+         },
+         {
+          "text": "Deep Clean",
+          "href": "http://localhost:8791/en-us/shop/special-needs/deep-clean"
+         },
+         {
+          "text": "Tide Free & Gentle",
+          "href": "http://localhost:8791/en-us/shop/top-collections/tide-free-and-gentle"
+         },
+         {
+          "text": "Tide Plus Febreze",
+          "href": "http://localhost:8791/en-us/shop/top-collections/tide-plus-febreze"
+         },
+         {
+          "text": "Tide Simply",
+          "href": "http://localhost:8791/en-us/shop/top-collections/tide-simply"
+         },
+         {
+          "text": "Tide Plus Downy",
+          "href": "http://localhost:8791/en-us/shop/top-collections/tide-plus-downy"
+         },
+         {
+          "text": "Tide Ultra OXI",
+          "href": "http://localhost:8791/en-us/shop/top-collections/tide-ultra-oxi"
+         },
+         {
+          "text": "Tide POWER PODS®",
+          "href": "http://localhost:8791/en-us/shop/top-collections/tide-power-pods"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         447,
+         175,
+         843,
+         363
+        ]
+       },
+       "expanded": "true",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.btn"
+        },
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.menu-item"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.submenu"
+        }
+       ],
+       "shot": "1440-003-Shop-Products-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Pacs",
+          "href": "http://localhost:8791/en-us/shop/type/laundry-pods"
+         },
+         {
+          "text": "Liquid",
+          "href": "http://localhost:8791/en-us/shop/type/liquid"
+         },
+         {
+          "text": "Powder",
+          "href": "http://localhost:8791/en-us/shop/type/powder"
+         },
+         {
+          "text": "Stain Remover",
+          "href": "http://localhost:8791/en-us/shop/type/stain-remover"
+         },
+         {
+          "text": "Laundry Booster",
+          "href": "http://localhost:8791/en-us/shop/type/laundry-booster"
+         },
+         {
+          "text": "Fabric Care",
+          "href": "http://localhost:8791/en-us/shop/type/fabric-care"
+         },
+         {
+          "text": "Fabric Rinse",
+          "href": "http://localhost:8791/en-us/shop/type/fabric-rinse"
+         },
+         {
+          "text": "Laundry Tiles",
+          "href": "http://localhost:8791/en-us/shop/type/laundry-tiles"
+         },
+         {
+          "text": "Stain Removal",
+          "href": "http://localhost:8791/en-us/shop/special-needs/stain-removal"
+         },
+         {
+          "text": "Odor Removal",
+          "href": "http://localhost:8791/en-us/shop/special-needs/odor-removal"
+         },
+         {
+          "text": "Freshness/Scent",
+          "href": "http://localhost:8791/en-us/shop/special-needs/freshness"
+         },
+         {
+          "text": "Whiteness",
+          "href": "http://localhost:8791/en-us/shop/special-needs/whiteness"
+         },
+         {
+          "text": "Bright Colors",
+          "href": "http://localhost:8791/en-us/shop/special-needs/bright-colors"
+         },
+         {
+          "text": "Sensitive",
+          "href": "http://localhost:8791/en-us/shop/special-needs/sensitive"
+         },
+         {
+          "text": "Additives",
+          "href": "http://localhost:8791/en-us/shop/special-needs/additives"
+         },
+         {
+          "text": "Deep Clean",
+          "href": "http://localhost:8791/en-us/shop/special-needs/deep-clean"
+         },
+         {
+          "text": "Tide Free & Gentle",
+          "href": "http://localhost:8791/en-us/shop/top-collections/tide-free-and-gentle"
+         },
+         {
+          "text": "Tide Plus Febreze",
+          "href": "http://localhost:8791/en-us/shop/top-collections/tide-plus-febreze"
+         },
+         {
+          "text": "Tide Simply",
+          "href": "http://localhost:8791/en-us/shop/top-collections/tide-simply"
+         },
+         {
+          "text": "Tide Plus Downy",
+          "href": "http://localhost:8791/en-us/shop/top-collections/tide-plus-downy"
+         },
+         {
+          "text": "Tide Ultra OXI",
+          "href": "http://localhost:8791/en-us/shop/top-collections/tide-ultra-oxi"
+         },
+         {
+          "text": "Tide POWER PODS®",
+          "href": "http://localhost:8791/en-us/shop/top-collections/tide-power-pods"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         447,
+         175,
+         843,
+         363
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.menu-item"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.submenu"
+        }
+       ],
+       "shot": "1440-004-Shop-Products-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Pacs",
+          "href": "http://localhost:8791/en-us/shop/type/laundry-pods"
+         },
+         {
+          "text": "Liquid",
+          "href": "http://localhost:8791/en-us/shop/type/liquid"
+         },
+         {
+          "text": "Powder",
+          "href": "http://localhost:8791/en-us/shop/type/powder"
+         },
+         {
+          "text": "Stain Remover",
+          "href": "http://localhost:8791/en-us/shop/type/stain-remover"
+         },
+         {
+          "text": "Laundry Booster",
+          "href": "http://localhost:8791/en-us/shop/type/laundry-booster"
+         },
+         {
+          "text": "Fabric Care",
+          "href": "http://localhost:8791/en-us/shop/type/fabric-care"
+         },
+         {
+          "text": "Fabric Rinse",
+          "href": "http://localhost:8791/en-us/shop/type/fabric-rinse"
+         },
+         {
+          "text": "Laundry Tiles",
+          "href": "http://localhost:8791/en-us/shop/type/laundry-tiles"
+         },
+         {
+          "text": "Stain Removal",
+          "href": "http://localhost:8791/en-us/shop/special-needs/stain-removal"
+         },
+         {
+          "text": "Odor Removal",
+          "href": "http://localhost:8791/en-us/shop/special-needs/odor-removal"
+         },
+         {
+          "text": "Freshness/Scent",
+          "href": "http://localhost:8791/en-us/shop/special-needs/freshness"
+         },
+         {
+          "text": "Whiteness",
+          "href": "http://localhost:8791/en-us/shop/special-needs/whiteness"
+         },
+         {
+          "text": "Bright Colors",
+          "href": "http://localhost:8791/en-us/shop/special-needs/bright-colors"
+         },
+         {
+          "text": "Sensitive",
+          "href": "http://localhost:8791/en-us/shop/special-needs/sensitive"
+         },
+         {
+          "text": "Additives",
+          "href": "http://localhost:8791/en-us/shop/special-needs/additives"
+         },
+         {
+          "text": "Deep Clean",
+          "href": "http://localhost:8791/en-us/shop/special-needs/deep-clean"
+         },
+         {
+          "text": "Tide Free & Gentle",
+          "href": "http://localhost:8791/en-us/shop/top-collections/tide-free-and-gentle"
+         },
+         {
+          "text": "Tide Plus Febreze",
+          "href": "http://localhost:8791/en-us/shop/top-collections/tide-plus-febreze"
+         },
+         {
+          "text": "Tide Simply",
+          "href": "http://localhost:8791/en-us/shop/top-collections/tide-simply"
+         },
+         {
+          "text": "Tide Plus Downy",
+          "href": "http://localhost:8791/en-us/shop/top-collections/tide-plus-downy"
+         },
+         {
+          "text": "Tide Ultra OXI",
+          "href": "http://localhost:8791/en-us/shop/top-collections/tide-ultra-oxi"
+         },
+         {
+          "text": "Tide POWER PODS®",
+          "href": "http://localhost:8791/en-us/shop/top-collections/tide-power-pods"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         447,
+         175,
+         843,
+         363
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.submenu"
+        }
+       ],
+       "shot": "1440-005-Shop-Products-key.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": false
+     }
+    },
+    {
+     "name": "Shop Products",
+     "key": "shop products",
+     "role": "link",
+     "kind": "link",
+     "sel": "#site-header>div:nth-of-type(3)>div>div>div>div:nth-of-type(1)>a",
+     "href": "http://localhost:8791/en-us/shop",
+     "expanded": null,
+     "rect": [
+      447,
+      129,
+      153,
+      46
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Pacs",
+          "href": "http://localhost:8791/en-us/shop/type/laundry-pods"
+         },
+         {
+          "text": "Liquid",
+          "href": "http://localhost:8791/en-us/shop/type/liquid"
+         },
+         {
+          "text": "Powder",
+          "href": "http://localhost:8791/en-us/shop/type/powder"
+         },
+         {
+          "text": "Stain Remover",
+          "href": "http://localhost:8791/en-us/shop/type/stain-remover"
+         },
+         {
+          "text": "Laundry Booster",
+          "href": "http://localhost:8791/en-us/shop/type/laundry-booster"
+         },
+         {
+          "text": "Fabric Care",
+          "href": "http://localhost:8791/en-us/shop/type/fabric-care"
+         },
+         {
+          "text": "Fabric Rinse",
+          "href": "http://localhost:8791/en-us/shop/type/fabric-rinse"
+         },
+         {
+          "text": "Laundry Tiles",
+          "href": "http://localhost:8791/en-us/shop/type/laundry-tiles"
+         },
+         {
+          "text": "Stain Removal",
+          "href": "http://localhost:8791/en-us/shop/special-needs/stain-removal"
+         },
+         {
+          "text": "Odor Removal",
+          "href": "http://localhost:8791/en-us/shop/special-needs/odor-removal"
+         },
+         {
+          "text": "Freshness/Scent",
+          "href": "http://localhost:8791/en-us/shop/special-needs/freshness"
+         },
+         {
+          "text": "Whiteness",
+          "href": "http://localhost:8791/en-us/shop/special-needs/whiteness"
+         },
+         {
+          "text": "Bright Colors",
+          "href": "http://localhost:8791/en-us/shop/special-needs/bright-colors"
+         },
+         {
+          "text": "Sensitive",
+          "href": "http://localhost:8791/en-us/shop/special-needs/sensitive"
+         },
+         {
+          "text": "Additives",
+          "href": "http://localhost:8791/en-us/shop/special-needs/additives"
+         },
+         {
+          "text": "Deep Clean",
+          "href": "http://localhost:8791/en-us/shop/special-needs/deep-clean"
+         },
+         {
+          "text": "Tide Free & Gentle",
+          "href": "http://localhost:8791/en-us/shop/top-collections/tide-free-and-gentle"
+         },
+         {
+          "text": "Tide Plus Febreze",
+          "href": "http://localhost:8791/en-us/shop/top-collections/tide-plus-febreze"
+         },
+         {
+          "text": "Tide Simply",
+          "href": "http://localhost:8791/en-us/shop/top-collections/tide-simply"
+         },
+         {
+          "text": "Tide Plus Downy",
+          "href": "http://localhost:8791/en-us/shop/top-collections/tide-plus-downy"
+         },
+         {
+          "text": "Tide Ultra OXI",
+          "href": "http://localhost:8791/en-us/shop/top-collections/tide-ultra-oxi"
+         },
+         {
+          "text": "Tide POWER PODS®",
+          "href": "http://localhost:8791/en-us/shop/top-collections/tide-power-pods"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         447,
+         175,
+         843,
+         363
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.btn"
+        },
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.menu-item"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.submenu"
+        }
+       ],
+       "shot": "1440-006-Shop-Products-hover.png"
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": false,
+      "outside": true,
+      "leave": true
+     }
+    },
+    {
+     "name": "Our Commitment",
+     "key": "our commitment",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#site-header>div:nth-of-type(3)>div>div>div>div:nth-of-type(2)",
+     "expanded": "false",
+     "rect": [
+      600,
+      129,
+      172,
+      46
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Tide Coming Clean",
+          "href": "http://localhost:8791/en-us/our-commitment/superbowlLX"
+         },
+         {
+          "text": "Tide Boosted",
+          "href": "http://localhost:8791/en-us/our-commitment/tide-boosted"
+         },
+         {
+          "text": "Turn to Cold",
+          "href": "http://localhost:8791/en-us/our-commitment/turn-to-cold"
+         },
+         {
+          "text": "Tide evo",
+          "href": "http://localhost:8791/en-us/our-commitment/tide-evo"
+         },
+         {
+          "text": "Don’t Pay for Water, Pay for Clean",
+          "href": "http://localhost:8791/en-us/our-commitment/dont-pay-for-water"
+         },
+         {
+          "text": "Tide in Space",
+          "href": "http://localhost:8791/en-us/our-commitment/tide-in-space"
+         },
+         {
+          "text": "America’s #1 Detergent",
+          "href": "http://localhost:8791/en-us/our-commitment/americas-number-one-detergent"
+         },
+         {
+          "text": "Loads of Hope",
+          "href": "http://localhost:8791/en-us/our-commitment/loads-of-hope"
+         },
+         {
+          "text": "Ingredients and Safety",
+          "href": "http://localhost:8791/en-us/our-commitment/ingredients-and-safety"
+         },
+         {
+          "text": "Tide Cleaners",
+          "href": "http://localhost:8791/en-us/our-commitment/tide-cleaners-laundry-service"
+         },
+         {
+          "text": "Sustainability",
+          "href": "http://localhost:8791/en-us/our-commitment/sustainability"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         447,
+         175,
+         843,
+         415
+        ]
+       },
+       "expanded": "true",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.btn"
+        },
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.menu-item"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.submenu"
+        }
+       ],
+       "shot": "1440-007-Our-Commitment-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Tide Coming Clean",
+          "href": "http://localhost:8791/en-us/our-commitment/superbowlLX"
+         },
+         {
+          "text": "Tide Boosted",
+          "href": "http://localhost:8791/en-us/our-commitment/tide-boosted"
+         },
+         {
+          "text": "Turn to Cold",
+          "href": "http://localhost:8791/en-us/our-commitment/turn-to-cold"
+         },
+         {
+          "text": "Tide evo",
+          "href": "http://localhost:8791/en-us/our-commitment/tide-evo"
+         },
+         {
+          "text": "Don’t Pay for Water, Pay for Clean",
+          "href": "http://localhost:8791/en-us/our-commitment/dont-pay-for-water"
+         },
+         {
+          "text": "Tide in Space",
+          "href": "http://localhost:8791/en-us/our-commitment/tide-in-space"
+         },
+         {
+          "text": "America’s #1 Detergent",
+          "href": "http://localhost:8791/en-us/our-commitment/americas-number-one-detergent"
+         },
+         {
+          "text": "Loads of Hope",
+          "href": "http://localhost:8791/en-us/our-commitment/loads-of-hope"
+         },
+         {
+          "text": "Ingredients and Safety",
+          "href": "http://localhost:8791/en-us/our-commitment/ingredients-and-safety"
+         },
+         {
+          "text": "Tide Cleaners",
+          "href": "http://localhost:8791/en-us/our-commitment/tide-cleaners-laundry-service"
+         },
+         {
+          "text": "Sustainability",
+          "href": "http://localhost:8791/en-us/our-commitment/sustainability"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         447,
+         175,
+         843,
+         415
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.menu-item"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.submenu"
+        }
+       ],
+       "shot": "1440-008-Our-Commitment-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Tide Coming Clean",
+          "href": "http://localhost:8791/en-us/our-commitment/superbowlLX"
+         },
+         {
+          "text": "Tide Boosted",
+          "href": "http://localhost:8791/en-us/our-commitment/tide-boosted"
+         },
+         {
+          "text": "Turn to Cold",
+          "href": "http://localhost:8791/en-us/our-commitment/turn-to-cold"
+         },
+         {
+          "text": "Tide evo",
+          "href": "http://localhost:8791/en-us/our-commitment/tide-evo"
+         },
+         {
+          "text": "Don’t Pay for Water, Pay for Clean",
+          "href": "http://localhost:8791/en-us/our-commitment/dont-pay-for-water"
+         },
+         {
+          "text": "Tide in Space",
+          "href": "http://localhost:8791/en-us/our-commitment/tide-in-space"
+         },
+         {
+          "text": "America’s #1 Detergent",
+          "href": "http://localhost:8791/en-us/our-commitment/americas-number-one-detergent"
+         },
+         {
+          "text": "Loads of Hope",
+          "href": "http://localhost:8791/en-us/our-commitment/loads-of-hope"
+         },
+         {
+          "text": "Ingredients and Safety",
+          "href": "http://localhost:8791/en-us/our-commitment/ingredients-and-safety"
+         },
+         {
+          "text": "Tide Cleaners",
+          "href": "http://localhost:8791/en-us/our-commitment/tide-cleaners-laundry-service"
+         },
+         {
+          "text": "Sustainability",
+          "href": "http://localhost:8791/en-us/our-commitment/sustainability"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         447,
+         175,
+         843,
+         415
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.submenu"
+        }
+       ],
+       "shot": "1440-009-Our-Commitment-key.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": false
+     }
+    },
+    {
+     "name": "Our Commitment",
+     "key": "our commitment",
+     "role": "link",
+     "kind": "link",
+     "sel": "#site-header>div:nth-of-type(3)>div>div>div>div:nth-of-type(2)>a",
+     "href": "http://localhost:8791/en-us/our-commitment",
+     "expanded": null,
+     "rect": [
+      600,
+      129,
+      172,
+      46
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Tide Coming Clean",
+          "href": "http://localhost:8791/en-us/our-commitment/superbowlLX"
+         },
+         {
+          "text": "Tide Boosted",
+          "href": "http://localhost:8791/en-us/our-commitment/tide-boosted"
+         },
+         {
+          "text": "Turn to Cold",
+          "href": "http://localhost:8791/en-us/our-commitment/turn-to-cold"
+         },
+         {
+          "text": "Tide evo",
+          "href": "http://localhost:8791/en-us/our-commitment/tide-evo"
+         },
+         {
+          "text": "Don’t Pay for Water, Pay for Clean",
+          "href": "http://localhost:8791/en-us/our-commitment/dont-pay-for-water"
+         },
+         {
+          "text": "Tide in Space",
+          "href": "http://localhost:8791/en-us/our-commitment/tide-in-space"
+         },
+         {
+          "text": "America’s #1 Detergent",
+          "href": "http://localhost:8791/en-us/our-commitment/americas-number-one-detergent"
+         },
+         {
+          "text": "Loads of Hope",
+          "href": "http://localhost:8791/en-us/our-commitment/loads-of-hope"
+         },
+         {
+          "text": "Ingredients and Safety",
+          "href": "http://localhost:8791/en-us/our-commitment/ingredients-and-safety"
+         },
+         {
+          "text": "Tide Cleaners",
+          "href": "http://localhost:8791/en-us/our-commitment/tide-cleaners-laundry-service"
+         },
+         {
+          "text": "Sustainability",
+          "href": "http://localhost:8791/en-us/our-commitment/sustainability"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         447,
+         175,
+         843,
+         415
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.btn"
+        },
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.menu-item"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.submenu"
+        }
+       ],
+       "shot": "1440-010-Our-Commitment-hover.png"
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": false,
+      "outside": true,
+      "leave": true
+     }
+    },
+    {
+     "name": "How to Wash Clothes",
+     "key": "how to wash clothes",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#site-header>div:nth-of-type(3)>div>div>div>div:nth-of-type(3)",
+     "expanded": "false",
+     "rect": [
+      772,
+      129,
+      200,
+      46
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "How to Remove Stains",
+          "href": "http://localhost:8791/en-us/how-to-wash-clothes/how-to-remove-stains"
+         },
+         {
+          "text": "How to Do Laundry",
+          "href": "http://localhost:8791/en-us/how-to-wash-clothes/how-to-do-laundry"
+         },
+         {
+          "text": "Washing Different Fabrics and Colors",
+          "href": "http://localhost:8791/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors"
+         },
+         {
+          "text": "Washing Machine 101",
+          "href": "http://localhost:8791/en-us/how-to-wash-clothes/washing-machine-101"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         447,
+         175,
+         843,
+         191
+        ]
+       },
+       "expanded": "true",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.btn"
+        },
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.menu-item"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.submenu"
+        }
+       ],
+       "shot": "1440-011-How-to-Wash-Clothes-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "How to Remove Stains",
+          "href": "http://localhost:8791/en-us/how-to-wash-clothes/how-to-remove-stains"
+         },
+         {
+          "text": "How to Do Laundry",
+          "href": "http://localhost:8791/en-us/how-to-wash-clothes/how-to-do-laundry"
+         },
+         {
+          "text": "Washing Different Fabrics and Colors",
+          "href": "http://localhost:8791/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors"
+         },
+         {
+          "text": "Washing Machine 101",
+          "href": "http://localhost:8791/en-us/how-to-wash-clothes/washing-machine-101"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         447,
+         175,
+         843,
+         191
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.menu-item"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.submenu"
+        }
+       ],
+       "shot": "1440-012-How-to-Wash-Clothes-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "How to Remove Stains",
+          "href": "http://localhost:8791/en-us/how-to-wash-clothes/how-to-remove-stains"
+         },
+         {
+          "text": "How to Do Laundry",
+          "href": "http://localhost:8791/en-us/how-to-wash-clothes/how-to-do-laundry"
+         },
+         {
+          "text": "Washing Different Fabrics and Colors",
+          "href": "http://localhost:8791/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors"
+         },
+         {
+          "text": "Washing Machine 101",
+          "href": "http://localhost:8791/en-us/how-to-wash-clothes/washing-machine-101"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         447,
+         175,
+         843,
+         191
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.submenu"
+        }
+       ],
+       "shot": "1440-013-How-to-Wash-Clothes-key.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": false
+     }
+    },
+    {
+     "name": "How to Wash Clothes",
+     "key": "how to wash clothes",
+     "role": "link",
+     "kind": "link",
+     "sel": "#site-header>div:nth-of-type(3)>div>div>div>div:nth-of-type(3)>a",
+     "href": "http://localhost:8791/en-us/how-to-wash-clothes",
+     "expanded": null,
+     "rect": [
+      772,
+      129,
+      200,
+      46
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "How to Remove Stains",
+          "href": "http://localhost:8791/en-us/how-to-wash-clothes/how-to-remove-stains"
+         },
+         {
+          "text": "How to Do Laundry",
+          "href": "http://localhost:8791/en-us/how-to-wash-clothes/how-to-do-laundry"
+         },
+         {
+          "text": "Washing Different Fabrics and Colors",
+          "href": "http://localhost:8791/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors"
+         },
+         {
+          "text": "Washing Machine 101",
+          "href": "http://localhost:8791/en-us/how-to-wash-clothes/washing-machine-101"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         447,
+         175,
+         843,
+         191
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.btn"
+        },
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.menu-item"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.submenu"
+        }
+       ],
+       "shot": "1440-014-How-to-Wash-Clothes-hover.png"
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": false,
+      "outside": true,
+      "leave": true
+     }
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 175,
+     "position": "relative",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": -1000,
+     "height": 175,
+     "position": "relative",
+     "inView": false
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": -700,
+     "height": 175,
+     "position": "relative",
+     "inView": false
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 175,
+     "position": "relative",
+     "inView": true
+    }
+   ],
+   "states": 14,
+   "truncated": "depth 1 at US - English",
+   "loads": 1,
+   "requests": 36,
+   "maxRequests": 0,
+   "inputsSkipped": 0,
+   "watch": {
+    "status": "ran",
+    "ms": 8314,
+    "samples": 15,
+    "excluded": 0,
+    "regions": []
+   }
+  }
+ },
+ "probe": "skip"
+}

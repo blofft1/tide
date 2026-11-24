@@ -1,0 +1,67 @@
+{
+ "url": "https://main--5db7d055--aemcoder.aem.page/en-us/research/tide-environment-safety",
+ "at": "2026-11-24T11:36:02.456Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 7,
+  "offPage": 4,
+  "textNodes": 95,
+  "controls": 51,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 5,
+   "clipper": null,
+   "path": "ul > li > p > a",
+   "text": "https://www.researchgate.net/publication/378833652_the_impac",
+   "cutMin": 34,
+   "cutMax": 889
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "nav",
+   "path": "nav > ul > li > span.jump-links-item",
+   "text": "apply the same five questions to tide and other detergents",
+   "cutMin": 372,
+   "cutMax": 372
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "nav",
+   "path": "nav > ul > li > span.jump-links-item",
+   "text": "apply the same five questions to tide and other detergents",
+   "cutMin": 372,
+   "cutMax": 372
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 1,
+   "scrollHidden": 0,
+   "horizontal": 21,
+   "offPage": 6,
+   "textNodes": 96,
+   "controls": 54,
+   "total": 0
+  }
+ }
+}

@@ -1,0 +1,721 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-24T11:16:54.109Z",
+  "tol": 4,
+  "n": 3,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://tide.com/en-us/our-commitment/ingredients-and-safety",
+  "at": "2026-11-24T06:51:29.748Z",
+  "docH": 5623
+ },
+ "eds": {
+  "url": "https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/ingredients-and-safety",
+  "at": "2026-11-24T11:16:54.014Z",
+  "docH": 5623
+ },
+ "results": [
+  {
+   "sel": ".our-commitment-small-articles .article-preview=.learn-more-card-grid.three-up .lmc-card",
+   "family": null,
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.row.justify-content-start > div.col-lg-4.col-12 > div.article-preview.preview-box"
+     },
+     "eds": {
+      "path": "div.lmc-grid > div.lmc-col > div.lmc-card"
+     },
+     "rows": [
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 311
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 311,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:keeping you and your family safe – our i",
+       "role": "image",
+       "text": "keeping you and your family safe – our ingredient safety pro",
+       "edsText": "keeping you and your family safe – our ingredient safety pro",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 311
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 311,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "box:div.article-preview-content#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 15,
+        "y": 261,
+        "w": 330,
+        "h": 306
+       },
+       "eds": {
+        "x": 15,
+        "y": 261,
+        "w": 330,
+        "h": 306,
+        "sel": "div.lmc-content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "link:keeping you and your family safe – our i",
+       "role": "link",
+       "text": "keeping you and your family safe – our ingredient safety pro",
+       "edsText": "keeping you and your family safe – our ingredient safety pro",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 286,
+        "w": 280,
+        "h": 104
+       },
+       "eds": {
+        "x": 40,
+        "y": 286,
+        "w": 280,
+        "h": 104,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "22/26/800"
+       }
+      },
+      {
+       "key": "text:for more than 70 years, we’ve been commi",
+       "role": "text",
+       "text": "for more than 70 years, we’ve been committed to making every",
+       "edsText": "for more than 70 years, we’ve been committed to making every",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 405,
+        "w": 280,
+        "h": 80
+       },
+       "eds": {
+        "x": 40,
+        "y": 405,
+        "w": 280,
+        "h": 80,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/400",
+        "eds": "16/20/400"
+       }
+      },
+      {
+       "key": "link:learn more",
+       "role": "link",
+       "text": "learn more",
+       "edsText": "learn more",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 500,
+        "w": 172,
+        "h": 42
+       },
+       "eds": {
+        "x": 40,
+        "y": 500,
+        "w": 172,
+        "h": 42,
+        "sel": "a.button.secondary",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/22/700",
+        "eds": "20/22/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 1953,
+       "w": 360,
+       "h": 567
+      },
+      "eds": {
+       "x": 0,
+       "y": 1953,
+       "w": 360,
+       "h": 567
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.row.justify-content-start > div.col-lg-4.col-12 > div.article-preview.preview-box"
+     },
+     "eds": {
+      "path": "div.lmc-grid > div.lmc-col > div.lmc-card"
+     },
+     "rows": [
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 311
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 311,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:a tide pods capsule being filled up with",
+       "role": "image",
+       "text": "a tide pods capsule being filled up with colorful liquid com",
+       "edsText": "a tide pods capsule being filled up with colorful liquid com",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 311
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 311,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "box:div.article-preview-content#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 15,
+        "y": 261,
+        "w": 330,
+        "h": 214
+       },
+       "eds": {
+        "x": 15,
+        "y": 261,
+        "w": 330,
+        "h": 214,
+        "sel": "div.lmc-content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "link:tide detergent ingredients a-z",
+       "role": "link",
+       "text": "tide detergent ingredients a-z",
+       "edsText": "tide detergent ingredients a-z",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 286,
+        "w": 280,
+        "h": 52
+       },
+       "eds": {
+        "x": 40,
+        "y": 286,
+        "w": 280,
+        "h": 52,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "22/26/800"
+       }
+      },
+      {
+       "key": "text:every bottle of tide is the product of y",
+       "role": "text",
+       "text": "every bottle of tide is the product of years of scientific r",
+       "edsText": "every bottle of tide is the product of years of scientific r",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 353,
+        "w": 280,
+        "h": 40
+       },
+       "eds": {
+        "x": 40,
+        "y": 353,
+        "w": 280,
+        "h": 40,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/400",
+        "eds": "16/20/400"
+       }
+      },
+      {
+       "key": "link:learn more",
+       "role": "link",
+       "text": "learn more",
+       "edsText": "learn more",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 408,
+        "w": 172,
+        "h": 42
+       },
+       "eds": {
+        "x": 40,
+        "y": 408,
+        "w": 172,
+        "h": 42,
+        "sel": "a.button.secondary",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/22/700",
+        "eds": "20/22/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 2550,
+       "w": 360,
+       "h": 475
+      },
+      "eds": {
+       "x": 0,
+       "y": 2550,
+       "w": 360,
+       "h": 475
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.row.justify-content-start > div.col-lg-4.col-12 > div.article-preview.preview-box"
+     },
+     "eds": {
+      "path": "div.lmc-grid > div.lmc-col > div.lmc-card"
+     },
+     "rows": [
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 311
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 311,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:at tide safety comes first, and it never",
+       "role": "image",
+       "text": "at tide safety comes first, and it never stops",
+       "edsText": "at tide safety comes first, and it never stops",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 311
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 311,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "box:div.article-preview-content#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 15,
+        "y": 261,
+        "w": 330,
+        "h": 234
+       },
+       "eds": {
+        "x": 15,
+        "y": 261,
+        "w": 330,
+        "h": 234,
+        "sel": "div.lmc-content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "link:at tide safety comes first, and it never",
+       "role": "link",
+       "text": "at tide safety comes first, and it never stops",
+       "edsText": "at tide safety comes first, and it never stops",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 286,
+        "w": 280,
+        "h": 52
+       },
+       "eds": {
+        "x": 40,
+        "y": 286,
+        "w": 280,
+        "h": 52,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "22/26/800"
+       }
+      },
+      {
+       "key": "text:keeping loved ones safe is a joint effor",
+       "role": "text",
+       "text": "keeping loved ones safe is a joint effort. we’ve been workin",
+       "edsText": "keeping loved ones safe is a joint effort. we’ve been workin",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 353,
+        "w": 280,
+        "h": 60
+       },
+       "eds": {
+        "x": 40,
+        "y": 353,
+        "w": 280,
+        "h": 60,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/400",
+        "eds": "16/20/400"
+       }
+      },
+      {
+       "key": "link:learn more",
+       "role": "link",
+       "text": "learn more",
+       "edsText": "learn more",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 428,
+        "w": 172,
+        "h": 42
+       },
+       "eds": {
+        "x": 40,
+        "y": 428,
+        "w": 172,
+        "h": 42,
+        "sel": "a.button.secondary",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/22/700",
+        "eds": "20/22/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 3055,
+       "w": 360,
+       "h": 495
+      },
+      "eds": {
+       "x": 0,
+       "y": 3055,
+       "w": 360,
+       "h": 495
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 3,
+  "within": 18,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

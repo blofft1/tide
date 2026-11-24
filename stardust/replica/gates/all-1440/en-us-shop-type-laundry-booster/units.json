@@ -1,0 +1,184 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-24T09:57:52.235Z",
+  "tol": 4,
+  "n": 3,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://tide.com/en-us/shop/type/laundry-booster",
+  "at": "2026-11-24T04:00:35.384Z",
+  "docH": 3466
+ },
+ "eds": {
+  "url": "https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/laundry-booster",
+  "at": "2026-11-24T09:57:52.103Z",
+  "docH": 3526
+ },
+ "results": [
+  {
+   "sel": ".dynamic-content-wrapper > .row picture=.feature-band-alternating.overlay .fba-media picture",
+   "family": null,
+   "required": true,
+   "originMatches": 5,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.row.justify-content-center > div.col-lg-12.col-12 > picture"
+     },
+     "eds": {
+      "path": "div.fba-media.fba-media-art > div.fba-media-wide > picture"
+     },
+     "rows": [
+      {
+       "key": "image:a washing machine with open door",
+       "role": "image",
+       "text": "a washing machine with open door",
+       "edsText": "a washing machine with open door",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 564
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 564,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 150,
+       "y": 754,
+       "w": 1140,
+       "h": 564
+      },
+      "eds": {
+       "x": 150,
+       "y": 754,
+       "w": 1140,
+       "h": 564
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.row.justify-content-center > div.col-lg-12.col-12 > picture"
+     },
+     "eds": {
+      "path": "div.fba-media.fba-media-art > div.fba-media-wide > picture"
+     },
+     "rows": [
+      {
+       "key": "image:a pile of neatly folded, colorful clothe",
+       "role": "image",
+       "text": "a pile of neatly folded, colorful clothes",
+       "edsText": "a pile of neatly folded, colorful clothes",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 564
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1140,
+        "h": 564,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 150,
+       "y": 1378,
+       "w": 1140,
+       "h": 564
+      },
+      "eds": {
+       "x": 150,
+       "y": 1378,
+       "w": 1140,
+       "h": 564
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 2,
+  "within": 2,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

@@ -1,0 +1,3130 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-23T23:20:01.395Z",
+  "tol": 4,
+  "n": 6,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://tide.com/en-us/how-to-wash-clothes/how-to-remove-stains",
+  "at": "2026-11-23T23:04:37.576Z",
+  "docH": 7480
+ },
+ "eds": {
+  "url": "http://localhost:8791/en-us-how-to-wash-clothes-how-to-remove-stains-proposed.html",
+  "at": "2026-11-23T23:20:00.750Z",
+  "docH": 7480
+ },
+ "results": [
+  {
+   "sel": ".article-listing-links-container > div=.alp-cat__links > div",
+   "family": "hub-stain-link",
+   "required": true,
+   "originMatches": 73,
+   "edsMatches": 73,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div#beauty-stains-content > div.article-listing-links-container > div"
+     },
+     "eds": {
+      "path": "div#beauty-stains-content > div.alp-cat__links > div"
+     },
+     "rows": [
+      {
+       "key": "link:facial mask",
+       "role": "link",
+       "text": "facial mask",
+       "edsText": "facial mask",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 88,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 88,
+        "h": 24,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 443,
+       "y": 1935,
+       "w": 185,
+       "h": 24
+      },
+      "eds": {
+       "x": 443,
+       "y": 1935,
+       "w": 185,
+       "h": 24
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div#beauty-stains-content > div.article-listing-links-container > div"
+     },
+     "eds": {
+      "path": "div#beauty-stains-content > div.alp-cat__links > div"
+     },
+     "rows": [
+      {
+       "key": "link:wax",
+       "role": "link",
+       "text": "wax",
+       "edsText": "wax",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 35,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 35,
+        "h": 24,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 627,
+       "y": 1935,
+       "w": 185,
+       "h": 24
+      },
+      "eds": {
+       "x": 627,
+       "y": 1935,
+       "w": 185,
+       "h": 24
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div#beauty-stains-content > div.article-listing-links-container > div"
+     },
+     "eds": {
+      "path": "div#beauty-stains-content > div.alp-cat__links > div"
+     },
+     "rows": [
+      {
+       "key": "link:acne cream",
+       "role": "link",
+       "text": "acne cream",
+       "edsText": "acne cream",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 24,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 812,
+       "y": 1935,
+       "w": 185,
+       "h": 24
+      },
+      "eds": {
+       "x": 812,
+       "y": 1935,
+       "w": 185,
+       "h": 24
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div#beauty-stains-content > div.article-listing-links-container > div"
+     },
+     "eds": {
+      "path": "div#beauty-stains-content > div.alp-cat__links > div"
+     },
+     "rows": [
+      {
+       "key": "link:hair dye",
+       "role": "link",
+       "text": "hair dye",
+       "edsText": "hair dye",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 67,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 67,
+        "h": 24,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 443,
+       "y": 1974,
+       "w": 185,
+       "h": 24
+      },
+      "eds": {
+       "x": 443,
+       "y": 1974,
+       "w": 185,
+       "h": 24
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div#beauty-stains-content > div.article-listing-links-container > div"
+     },
+     "eds": {
+      "path": "div#beauty-stains-content > div.alp-cat__links > div"
+     },
+     "rows": [
+      {
+       "key": "link:nail polish",
+       "role": "link",
+       "text": "nail polish",
+       "edsText": "nail polish",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 79,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 79,
+        "h": 24,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 627,
+       "y": 1974,
+       "w": 185,
+       "h": 24
+      },
+      "eds": {
+       "x": 627,
+       "y": 1974,
+       "w": 185,
+       "h": 24
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div#beauty-stains-content > div.article-listing-links-container > div"
+     },
+     "eds": {
+      "path": "div#beauty-stains-content > div.alp-cat__links > div"
+     },
+     "rows": [
+      {
+       "key": "link:deodorant",
+       "role": "link",
+       "text": "deodorant",
+       "edsText": "deodorant",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 83,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 83,
+        "h": 24,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 812,
+       "y": 1974,
+       "w": 185,
+       "h": 24
+      },
+      "eds": {
+       "x": 812,
+       "y": 1974,
+       "w": 185,
+       "h": 24
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".alp-icons-section > .col-12 > .container > .row > div=.alp-types__icon",
+   "family": "hub-stain-type-icon",
+   "required": true,
+   "originMatches": 5,
+   "edsMatches": 5,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.container > div.row.justify-content-start > div.col-lg-12.col-12"
+     },
+     "eds": {
+      "path": "div.container > div.alp-types__icons > div.alp-types__icon"
+     },
+     "rows": [
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 130,
+        "h": 100
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 130,
+        "h": 100,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:a pictogram of liquid stains getting on ",
+       "role": "image",
+       "text": "a pictogram of liquid stains getting on a t-shirt",
+       "edsText": "a pictogram of liquid stains getting on a t-shirt",
+       "byPosition": false,
+       "origin": {
+        "x": 50,
+        "y": 0,
+        "w": 91,
+        "h": 100
+       },
+       "eds": {
+        "x": 50,
+        "y": 0,
+        "w": 91,
+        "h": 100,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "heading:blood or grass stains",
+       "role": "heading",
+       "text": "blood or grass stains",
+       "edsText": "blood or grass stains",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 145,
+        "w": 130,
+        "h": 72
+       },
+       "eds": {
+        "x": 30,
+        "y": 145,
+        "w": 130,
+        "h": 72,
+        "sel": "h6",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/24/800",
+        "eds": "20/24/800"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 245,
+       "y": 3729,
+       "w": 190,
+       "h": 260
+      },
+      "eds": {
+       "x": 245,
+       "y": 3729,
+       "w": 190,
+       "h": 260
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.container > div.row.justify-content-start > div.col-lg-12.col-12"
+     },
+     "eds": {
+      "path": "div.container > div.alp-types__icons > div.alp-types__icon"
+     },
+     "rows": [
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 130,
+        "h": 100
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 130,
+        "h": 100,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:a pictogram of liquid stains getting on ",
+       "role": "image",
+       "text": "a pictogram of liquid stains getting on a t-shirt",
+       "edsText": "a pictogram of liquid stains getting on a t-shirt",
+       "byPosition": false,
+       "origin": {
+        "x": 50,
+        "y": 0,
+        "w": 91,
+        "h": 100
+       },
+       "eds": {
+        "x": 50,
+        "y": 0,
+        "w": 91,
+        "h": 100,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "heading:grease",
+       "role": "heading",
+       "text": "grease",
+       "edsText": "grease",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 145,
+        "w": 130,
+        "h": 24
+       },
+       "eds": {
+        "x": 30,
+        "y": 145,
+        "w": 130,
+        "h": 24,
+        "sel": "h6",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/24/800",
+        "eds": "20/24/800"
+       }
+      },
+      {
+       "key": "text:butter or other oily stains",
+       "role": "text",
+       "text": "butter or other oily stains",
+       "edsText": "butter or other oily stains",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 185,
+        "w": 90,
+        "h": 70
+       },
+       "eds": {
+        "x": 30,
+        "y": 185,
+        "w": 90,
+        "h": 70,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "19/24/700",
+        "eds": "19/24/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 435,
+       "y": 3729,
+       "w": 190,
+       "h": 260
+      },
+      "eds": {
+       "x": 435,
+       "y": 3729,
+       "w": 190,
+       "h": 260
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.container > div.row.justify-content-start > div.col-lg-12.col-12"
+     },
+     "eds": {
+      "path": "div.container > div.alp-types__icons > div.alp-types__icon"
+     },
+     "rows": [
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 130,
+        "h": 100
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 130,
+        "h": 100,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:a pictogram of a t-shirt with sweat stai",
+       "role": "image",
+       "text": "a pictogram of a t-shirt with sweat stains on it",
+       "edsText": "a pictogram of a t-shirt with sweat stains on it",
+       "byPosition": false,
+       "origin": {
+        "x": 50,
+        "y": 0,
+        "w": 90,
+        "h": 100
+       },
+       "eds": {
+        "x": 50,
+        "y": 0,
+        "w": 90,
+        "h": 100,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "heading:body soils",
+       "role": "heading",
+       "text": "body soils",
+       "edsText": "body soils",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 145,
+        "w": 130,
+        "h": 24
+       },
+       "eds": {
+        "x": 30,
+        "y": 145,
+        "w": 130,
+        "h": 24,
+        "sel": "h6",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/24/800",
+        "eds": "20/24/800"
+       }
+      },
+      {
+       "key": "text:collar and sweat stains",
+       "role": "text",
+       "text": "collar and sweat stains",
+       "edsText": "collar and sweat stains",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 185,
+        "w": 118,
+        "h": 46
+       },
+       "eds": {
+        "x": 30,
+        "y": 185,
+        "w": 118,
+        "h": 46,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "19/24/700",
+        "eds": "19/24/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 625,
+       "y": 3729,
+       "w": 190,
+       "h": 260
+      },
+      "eds": {
+       "x": 625,
+       "y": 3729,
+       "w": 190,
+       "h": 260
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.container > div.row.justify-content-start > div.col-lg-12.col-12"
+     },
+     "eds": {
+      "path": "div.container > div.alp-types__icons > div.alp-types__icon"
+     },
+     "rows": [
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 130,
+        "h": 104
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 130,
+        "h": 104,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:a pictogram of liquid laundry detergent ",
+       "role": "image",
+       "text": "a pictogram of liquid laundry detergent being poured on a st",
+       "edsText": "a pictogram of liquid laundry detergent being poured on a st",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 0,
+        "w": 111,
+        "h": 104
+       },
+       "eds": {
+        "x": 40,
+        "y": 0,
+        "w": 111,
+        "h": 104,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "heading:bleachable",
+       "role": "heading",
+       "text": "bleachable",
+       "edsText": "bleachable",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 149,
+        "w": 130,
+        "h": 24
+       },
+       "eds": {
+        "x": 30,
+        "y": 149,
+        "w": 130,
+        "h": 24,
+        "sel": "h6",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/24/800",
+        "eds": "20/24/800"
+       }
+      },
+      {
+       "key": "text:stains from coffee and tea",
+       "role": "text",
+       "text": "stains from coffee and tea",
+       "edsText": "stains from coffee and tea",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 189,
+        "w": 109,
+        "h": 70
+       },
+       "eds": {
+        "x": 30,
+        "y": 189,
+        "w": 109,
+        "h": 70,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "19/24/700",
+        "eds": "19/24/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 815,
+       "y": 3729,
+       "w": 190,
+       "h": 260
+      },
+      "eds": {
+       "x": 815,
+       "y": 3729,
+       "w": 190,
+       "h": 260
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.container > div.row.justify-content-start > div.col-lg-12.col-12"
+     },
+     "eds": {
+      "path": "div.container > div.alp-types__icons > div.alp-types__icon"
+     },
+     "rows": [
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 130,
+        "h": 100
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 130,
+        "h": 100,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:test alp/guide header/icons/clay soil or",
+       "role": "image",
+       "text": "test alp/guide header/icons/clay soil or dirt stains/image",
+       "edsText": "test alp/guide header/icons/clay soil or dirt stains/image",
+       "byPosition": false,
+       "origin": {
+        "x": 50,
+        "y": 0,
+        "w": 91,
+        "h": 100
+       },
+       "eds": {
+        "x": 50,
+        "y": 0,
+        "w": 91,
+        "h": 100,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "heading:clay, soil or dirt stains",
+       "role": "heading",
+       "text": "clay, soil or dirt stains",
+       "edsText": "clay, soil or dirt stains",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 145,
+        "w": 130,
+        "h": 48
+       },
+       "eds": {
+        "x": 30,
+        "y": 145,
+        "w": 130,
+        "h": 48,
+        "sel": "h6",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/24/800",
+        "eds": "20/24/800"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1005,
+       "y": 3729,
+       "w": 190,
+       "h": 260
+      },
+      "eds": {
+       "x": 1005,
+       "y": 3729,
+       "w": 190,
+       "h": 260
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".guide-step-wrapper=.alp-step",
+   "family": "hub-guide-step",
+   "required": true,
+   "originMatches": 5,
+   "edsMatches": 5,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.col-12.col-lg-6 > div.guide-steps-container > div.guide-step-wrapper"
+     },
+     "eds": {
+      "path": "div.container > div.alp-steps > div.alp-step"
+     },
+     "rows": [
+      {
+       "key": "text:step 1. remove the excess stain",
+       "role": "text",
+       "text": "step 1. remove the excess stain",
+       "edsText": "step 1. remove the excess stain",
+       "byPosition": false,
+       "origin": {
+        "x": 90,
+        "y": 0,
+        "w": 419,
+        "h": 30
+       },
+       "eds": {
+        "x": 90,
+        "y": 0,
+        "w": 419,
+        "h": 30,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      },
+      {
+       "key": "box:div.guide-progress-bar-mark#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": true,
+       "origin": {
+        "x": 36,
+        "y": 3,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 36,
+        "y": 3,
+        "w": 24,
+        "h": 24,
+        "sel": "span.alp-step__mark",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "box:div.guide-progress-bar-bottom-line#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": true,
+       "origin": {
+        "x": 46,
+        "y": 27,
+        "w": 4,
+        "h": 145
+       },
+       "eds": {
+        "x": 46,
+        "y": 27,
+        "w": 4,
+        "h": 145,
+        "sel": "span.alp-step__bottom",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:use a paper towel, a fork, or a brush to",
+       "role": "text",
+       "text": "use a paper towel, a fork, or a brush to get rid of as much ",
+       "edsText": "use a paper towel, a fork, or a brush to get rid of as much ",
+       "byPosition": false,
+       "origin": {
+        "x": 90,
+        "y": 40,
+        "w": 465,
+        "h": 72
+       },
+       "eds": {
+        "x": 90,
+        "y": 40,
+        "w": 465,
+        "h": 72,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 443,
+       "y": 4342,
+       "w": 555,
+       "h": 172
+      },
+      "eds": {
+       "x": 443,
+       "y": 4342,
+       "w": 555,
+       "h": 172
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.col-12.col-lg-6 > div.guide-steps-container > div.guide-step-wrapper"
+     },
+     "eds": {
+      "path": "div.container > div.alp-steps > div.alp-step"
+     },
+     "rows": [
+      {
+       "key": "box:div.guide-progress-bar-top-line#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": true,
+       "origin": {
+        "x": 46,
+        "y": 0,
+        "w": 4,
+        "h": 3
+       },
+       "eds": {
+        "x": 46,
+        "y": 0,
+        "w": 4,
+        "h": 3,
+        "sel": "span.alp-step__top",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:step 2. pre-treat stains",
+       "role": "text",
+       "text": "step 2. pre-treat stains",
+       "edsText": "step 2. pre-treat stains",
+       "byPosition": false,
+       "origin": {
+        "x": 90,
+        "y": 0,
+        "w": 308,
+        "h": 30
+       },
+       "eds": {
+        "x": 90,
+        "y": 0,
+        "w": 308,
+        "h": 30,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      },
+      {
+       "key": "box:div.guide-progress-bar-mark#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": true,
+       "origin": {
+        "x": 36,
+        "y": 3,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 36,
+        "y": 3,
+        "w": 24,
+        "h": 24,
+        "sel": "span.alp-step__mark",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "box:div.guide-progress-bar-bottom-line#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": true,
+       "origin": {
+        "x": 46,
+        "y": 27,
+        "w": 4,
+        "h": 1212
+       },
+       "eds": {
+        "x": 46,
+        "y": 27,
+        "w": 4,
+        "h": 1212,
+        "sel": "span.alp-step__bottom",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:here it’s important to know the type of ",
+       "role": "text",
+       "text": "here it’s important to know the type of stain you are dealin",
+       "edsText": "here it’s important to know the type of stain you are dealin",
+       "byPosition": false,
+       "origin": {
+        "x": 90,
+        "y": 40,
+        "w": 465,
+        "h": 72
+       },
+       "eds": {
+        "x": 90,
+        "y": 40,
+        "w": 465,
+        "h": 72,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:enzymatic stains.",
+       "role": "text",
+       "text": "enzymatic stains.",
+       "edsText": "enzymatic stains.",
+       "byPosition": false,
+       "origin": {
+        "x": 135,
+        "y": 147,
+        "w": 420,
+        "h": 26
+       },
+       "eds": {
+        "x": 135,
+        "y": 147,
+        "w": 420,
+        "h": 26,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/26/800",
+        "eds": "20/26/800"
+       }
+      },
+      {
+       "key": "text:pour directly onto the stain. gently rub",
+       "role": "text",
+       "text": "pour directly onto the stain. gently rub the fabric together",
+       "edsText": "pour directly onto the stain. gently rub the fabric together",
+       "byPosition": false,
+       "origin": {
+        "x": 135,
+        "y": 183,
+        "w": 420,
+        "h": 97
+       },
+       "eds": {
+        "x": 135,
+        "y": 183,
+        "w": 420,
+        "h": 97,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:liquid detergent",
+       "role": "link",
+       "text": "liquid detergent",
+       "edsText": "liquid detergent",
+       "byPosition": false,
+       "origin": {
+        "x": 176,
+        "y": 186,
+        "w": 128,
+        "h": 19
+       },
+       "eds": {
+        "x": 176,
+        "y": 186,
+        "w": 128,
+        "h": 19,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/700",
+        "eds": "16/24/700"
+       }
+      },
+      {
+       "key": "heading:recommended products:",
+       "role": "heading",
+       "text": "recommended products:",
+       "edsText": "recommended products:",
+       "byPosition": false,
+       "origin": {
+        "x": 135,
+        "y": 300,
+        "w": 420,
+        "h": 20
+       },
+       "eds": {
+        "x": 135,
+        "y": 300,
+        "w": 420,
+        "h": 20,
+        "sel": "h5",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/800",
+        "eds": "16/20/800"
+       }
+      },
+      {
+       "key": "link:tide ultra stain release liquid laundry ",
+       "role": "link",
+       "text": "tide ultra stain release liquid laundry detergent",
+       "edsText": "tide ultra stain release liquid laundry detergent",
+       "byPosition": false,
+       "origin": {
+        "x": 135,
+        "y": 340,
+        "w": 135,
+        "h": 215
+       },
+       "eds": {
+        "x": 135,
+        "y": 340,
+        "w": 135,
+        "h": 215,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 153,
+        "y": 350,
+        "w": 100,
+        "h": 100
+       },
+       "eds": {
+        "x": 153,
+        "y": 350,
+        "w": 100,
+        "h": 100,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:tide ultra stain release liquid",
+       "role": "image",
+       "text": "tide ultra stain release liquid",
+       "edsText": "tide ultra stain release liquid",
+       "byPosition": false,
+       "origin": {
+        "x": 153,
+        "y": 350,
+        "w": 100,
+        "h": 100
+       },
+       "eds": {
+        "x": 153,
+        "y": 350,
+        "w": 100,
+        "h": 100,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:tide liquid laundry detergent",
+       "role": "text",
+       "text": "tide liquid laundry detergent",
+       "edsText": "tide liquid laundry detergent",
+       "byPosition": false,
+       "origin": {
+        "x": 140,
+        "y": 475,
+        "w": 125,
+        "h": 80
+       },
+       "eds": {
+        "x": 140,
+        "y": 475,
+        "w": 125,
+        "h": 80,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:ultra stain release",
+       "role": "text",
+       "text": "ultra stain release",
+       "edsText": "ultra stain release",
+       "byPosition": false,
+       "origin": {
+        "x": 140,
+        "y": 477,
+        "w": 106,
+        "h": 36
+       },
+       "eds": {
+        "x": 140,
+        "y": 477,
+        "w": 106,
+        "h": 36,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/700",
+        "eds": "14/20/700"
+       }
+      },
+      {
+       "key": "text:greasy or oily stains.",
+       "role": "text",
+       "text": "greasy or oily stains.",
+       "edsText": "greasy or oily stains.",
+       "byPosition": false,
+       "origin": {
+        "x": 135,
+        "y": 575,
+        "w": 420,
+        "h": 26
+       },
+       "eds": {
+        "x": 135,
+        "y": 575,
+        "w": 420,
+        "h": 26,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/26/800",
+        "eds": "20/26/800"
+       }
+      },
+      {
+       "key": "text:presoak in a soaking solution of deterge",
+       "role": "text",
+       "text": "presoak in a soaking solution of detergent and warm water, o",
+       "edsText": "presoak in a soaking solution of detergent and warm water, o",
+       "byPosition": false,
+       "origin": {
+        "x": 135,
+        "y": 611,
+        "w": 420,
+        "h": 48
+       },
+       "eds": {
+        "x": 135,
+        "y": 611,
+        "w": 420,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:body-soil stains.",
+       "role": "text",
+       "text": "body-soil stains.",
+       "edsText": "body-soil stains.",
+       "byPosition": false,
+       "origin": {
+        "x": 135,
+        "y": 679,
+        "w": 420,
+        "h": 26
+       },
+       "eds": {
+        "x": 135,
+        "y": 679,
+        "w": 420,
+        "h": 26,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/26/800",
+        "eds": "20/26/800"
+       }
+      },
+      {
+       "key": "text:rinse garments affected by body-soil sta",
+       "role": "text",
+       "text": "rinse garments affected by body-soil stains under cold water",
+       "edsText": "rinse garments affected by body-soil stains under cold water",
+       "byPosition": false,
+       "origin": {
+        "x": 135,
+        "y": 715,
+        "w": 420,
+        "h": 48
+       },
+       "eds": {
+        "x": 135,
+        "y": 715,
+        "w": 420,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:bleachable stains.",
+       "role": "text",
+       "text": "bleachable stains.",
+       "edsText": "bleachable stains.",
+       "byPosition": false,
+       "origin": {
+        "x": 135,
+        "y": 783,
+        "w": 420,
+        "h": 26
+       },
+       "eds": {
+        "x": 135,
+        "y": 783,
+        "w": 420,
+        "h": 26,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/26/800",
+        "eds": "20/26/800"
+       }
+      },
+      {
+       "key": "text:presoak and wash with .",
+       "role": "text",
+       "text": "presoak and wash with .",
+       "edsText": "presoak and wash with .",
+       "byPosition": false,
+       "origin": {
+        "x": 135,
+        "y": 819,
+        "w": 420,
+        "h": 25
+       },
+       "eds": {
+        "x": 135,
+        "y": 819,
+        "w": 420,
+        "h": 25,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:powder detergent",
+       "role": "link",
+       "text": "powder detergent",
+       "edsText": "powder detergent",
+       "byPosition": false,
+       "origin": {
+        "x": 320,
+        "y": 822,
+        "w": 145,
+        "h": 19
+       },
+       "eds": {
+        "x": 320,
+        "y": 822,
+        "w": 145,
+        "h": 19,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/700",
+        "eds": "16/24/700"
+       }
+      },
+      {
+       "key": "heading:recommended products: #2",
+       "role": "heading",
+       "text": "recommended products:",
+       "edsText": "recommended products:",
+       "byPosition": false,
+       "origin": {
+        "x": 135,
+        "y": 864,
+        "w": 420,
+        "h": 20
+       },
+       "eds": {
+        "x": 135,
+        "y": 864,
+        "w": 420,
+        "h": 20,
+        "sel": "h5",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/800",
+        "eds": "16/20/800"
+       }
+      },
+      {
+       "key": "link:tide plus bleach powder laundry detergen",
+       "role": "link",
+       "text": "tide plus bleach powder laundry detergent",
+       "edsText": "tide plus bleach powder laundry detergent",
+       "byPosition": false,
+       "origin": {
+        "x": 135,
+        "y": 904,
+        "w": 135,
+        "h": 195
+       },
+       "eds": {
+        "x": 135,
+        "y": 904,
+        "w": 135,
+        "h": 195,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:picture#2",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 153,
+        "y": 918,
+        "w": 100,
+        "h": 92
+       },
+       "eds": {
+        "x": 153,
+        "y": 918,
+        "w": 100,
+        "h": 92,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:tide plus bleach powder laundry detergen",
+       "role": "image",
+       "text": "tide plus bleach powder laundry detergent",
+       "edsText": "tide plus bleach powder laundry detergent",
+       "byPosition": false,
+       "origin": {
+        "x": 153,
+        "y": 918,
+        "w": 100,
+        "h": 92
+       },
+       "eds": {
+        "x": 153,
+        "y": 918,
+        "w": 100,
+        "h": 92,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:tide powder laundry detergent",
+       "role": "text",
+       "text": "tide powder laundry detergent",
+       "edsText": "tide powder laundry detergent",
+       "byPosition": false,
+       "origin": {
+        "x": 140,
+        "y": 1039,
+        "w": 125,
+        "h": 60
+       },
+       "eds": {
+        "x": 140,
+        "y": 1039,
+        "w": 125,
+        "h": 60,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:plus bleach",
+       "role": "text",
+       "text": "plus bleach",
+       "edsText": "plus bleach",
+       "byPosition": false,
+       "origin": {
+        "x": 173,
+        "y": 1041,
+        "w": 80,
+        "h": 16
+       },
+       "eds": {
+        "x": 173,
+        "y": 1041,
+        "w": 80,
+        "h": 16,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/700",
+        "eds": "14/20/700"
+       }
+      },
+      {
+       "key": "text:clay or dirt stains.",
+       "role": "text",
+       "text": "clay or dirt stains.",
+       "edsText": "clay or dirt stains.",
+       "byPosition": false,
+       "origin": {
+        "x": 135,
+        "y": 1119,
+        "w": 420,
+        "h": 26
+       },
+       "eds": {
+        "x": 135,
+        "y": 1119,
+        "w": 420,
+        "h": 26,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/26/800",
+        "eds": "20/26/800"
+       }
+      },
+      {
+       "key": "text:presoak in cold water with liquid deterg",
+       "role": "text",
+       "text": "presoak in cold water with liquid detergent.",
+       "edsText": "presoak in cold water with liquid detergent.",
+       "byPosition": false,
+       "origin": {
+        "x": 135,
+        "y": 1155,
+        "w": 420,
+        "h": 24
+       },
+       "eds": {
+        "x": 135,
+        "y": 1155,
+        "w": 420,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 443,
+       "y": 4514,
+       "w": 555,
+       "h": 1239
+      },
+      "eds": {
+       "x": 443,
+       "y": 4514,
+       "w": 555,
+       "h": 1239
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 29,
+      "within": 29,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.col-12.col-lg-6 > div.guide-steps-container > div.guide-step-wrapper"
+     },
+     "eds": {
+      "path": "div.container > div.alp-steps > div.alp-step"
+     },
+     "rows": [
+      {
+       "key": "box:div.guide-progress-bar-top-line#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": true,
+       "origin": {
+        "x": 46,
+        "y": 0,
+        "w": 4,
+        "h": 3
+       },
+       "eds": {
+        "x": 46,
+        "y": 0,
+        "w": 4,
+        "h": 3,
+        "sel": "span.alp-step__top",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:step 3. add detergent",
+       "role": "text",
+       "text": "step 3. add detergent",
+       "edsText": "step 3. add detergent",
+       "byPosition": false,
+       "origin": {
+        "x": 90,
+        "y": 0,
+        "w": 294,
+        "h": 30
+       },
+       "eds": {
+        "x": 90,
+        "y": 0,
+        "w": 294,
+        "h": 30,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      },
+      {
+       "key": "box:div.guide-progress-bar-mark#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": true,
+       "origin": {
+        "x": 36,
+        "y": 3,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 36,
+        "y": 3,
+        "w": 24,
+        "h": 24,
+        "sel": "span.alp-step__mark",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "box:div.guide-progress-bar-bottom-line#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": true,
+       "origin": {
+        "x": 46,
+        "y": 27,
+        "w": 4,
+        "h": 121
+       },
+       "eds": {
+        "x": 46,
+        "y": 27,
+        "w": 4,
+        "h": 121,
+        "sel": "span.alp-step__bottom",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:measure the correct amount of detergent ",
+       "role": "text",
+       "text": "measure the correct amount of detergent according to the pro",
+       "edsText": "measure the correct amount of detergent according to the pro",
+       "byPosition": false,
+       "origin": {
+        "x": 90,
+        "y": 40,
+        "w": 465,
+        "h": 48
+       },
+       "eds": {
+        "x": 90,
+        "y": 40,
+        "w": 465,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 443,
+       "y": 5753,
+       "w": 555,
+       "h": 148
+      },
+      "eds": {
+       "x": 443,
+       "y": 5753,
+       "w": 555,
+       "h": 148
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.col-12.col-lg-6 > div.guide-steps-container > div.guide-step-wrapper"
+     },
+     "eds": {
+      "path": "div.container > div.alp-steps > div.alp-step"
+     },
+     "rows": [
+      {
+       "key": "box:div.guide-progress-bar-top-line#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": true,
+       "origin": {
+        "x": 46,
+        "y": 0,
+        "w": 4,
+        "h": 3
+       },
+       "eds": {
+        "x": 46,
+        "y": 0,
+        "w": 4,
+        "h": 3,
+        "sel": "span.alp-step__top",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:step 4. wash your garments",
+       "role": "text",
+       "text": "step 4. wash your garments",
+       "edsText": "step 4. wash your garments",
+       "byPosition": false,
+       "origin": {
+        "x": 90,
+        "y": 0,
+        "w": 375,
+        "h": 30
+       },
+       "eds": {
+        "x": 90,
+        "y": 0,
+        "w": 375,
+        "h": 30,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      },
+      {
+       "key": "box:div.guide-progress-bar-mark#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": true,
+       "origin": {
+        "x": 36,
+        "y": 3,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 36,
+        "y": 3,
+        "w": 24,
+        "h": 24,
+        "sel": "span.alp-step__mark",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "box:div.guide-progress-bar-bottom-line#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": true,
+       "origin": {
+        "x": 46,
+        "y": 27,
+        "w": 4,
+        "h": 145
+       },
+       "eds": {
+        "x": 46,
+        "y": 27,
+        "w": 4,
+        "h": 145,
+        "sel": "span.alp-step__bottom",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:choose the most appropriate and cycle se",
+       "role": "text",
+       "text": "choose the most appropriate and cycle setting according to t",
+       "edsText": "choose the most appropriate and cycle setting according to t",
+       "byPosition": false,
+       "origin": {
+        "x": 90,
+        "y": 40,
+        "w": 465,
+        "h": 72
+       },
+       "eds": {
+        "x": 90,
+        "y": 40,
+        "w": 465,
+        "h": 72,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:wash temperature",
+       "role": "link",
+       "text": "wash temperature",
+       "edsText": "wash temperature",
+       "byPosition": false,
+       "origin": {
+        "x": 323,
+        "y": 43,
+        "w": 146,
+        "h": 19
+       },
+       "eds": {
+        "x": 323,
+        "y": 43,
+        "w": 146,
+        "h": 19,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/700",
+        "eds": "16/20/700"
+       }
+      },
+      {
+       "key": "link:the garment's fabric-care label",
+       "role": "link",
+       "text": "the garment's fabric-care label",
+       "edsText": "the garment's fabric-care label",
+       "byPosition": false,
+       "origin": {
+        "x": 90,
+        "y": 67,
+        "w": 382,
+        "h": 43
+       },
+       "eds": {
+        "x": 90,
+        "y": 67,
+        "w": 382,
+        "h": 43,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/700",
+        "eds": "16/20/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 443,
+       "y": 5901,
+       "w": 555,
+       "h": 172
+      },
+      "eds": {
+       "x": 443,
+       "y": 5901,
+       "w": 555,
+       "h": 172
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 7,
+      "within": 7,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.col-12.col-lg-6 > div.guide-steps-container > div.guide-step-wrapper"
+     },
+     "eds": {
+      "path": "div.container > div.alp-steps > div.alp-step"
+     },
+     "rows": [
+      {
+       "key": "box:div.guide-progress-bar-top-line#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": true,
+       "origin": {
+        "x": 46,
+        "y": 0,
+        "w": 4,
+        "h": 3
+       },
+       "eds": {
+        "x": 46,
+        "y": 0,
+        "w": 4,
+        "h": 3,
+        "sel": "span.alp-step__top",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:step 5. check garments before drying",
+       "role": "text",
+       "text": "step 5. check garments before drying",
+       "edsText": "step 5. check garments before drying",
+       "byPosition": false,
+       "origin": {
+        "x": 90,
+        "y": 0,
+        "w": 465,
+        "h": 60
+       },
+       "eds": {
+        "x": 90,
+        "y": 0,
+        "w": 465,
+        "h": 60,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      },
+      {
+       "key": "box:div.guide-progress-bar-mark#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": true,
+       "origin": {
+        "x": 36,
+        "y": 3,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 36,
+        "y": 3,
+        "w": 24,
+        "h": 24,
+        "sel": "span.alp-step__mark",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:don't put the clothes into the drier unt",
+       "role": "text",
+       "text": "don't put the clothes into the drier until the stain is comp",
+       "edsText": "don't put the clothes into the drier until the stain is comp",
+       "byPosition": false,
+       "origin": {
+        "x": 90,
+        "y": 70,
+        "w": 465,
+        "h": 48
+       },
+       "eds": {
+        "x": 90,
+        "y": 70,
+        "w": 465,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 443,
+       "y": 6073,
+       "w": 555,
+       "h": 118
+      },
+      "eds": {
+       "x": 443,
+       "y": 6073,
+       "w": 555,
+       "h": 118
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": "#sticky-nav li=#sticky-nav li",
+   "family": "hub-jump-nav-item",
+   "required": true,
+   "originMatches": 2,
+   "edsMatches": 2,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "nav > ul > li"
+     },
+     "eds": {
+      "path": "nav > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:browse by stain type",
+       "role": "button",
+       "text": "browse by stain type",
+       "edsText": "browse by stain type",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 148,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 148,
+        "h": 46,
+        "sel": "span",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/700",
+        "eds": "14/16/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 150,
+       "y": 984,
+       "w": 148,
+       "h": 46
+      },
+      "eds": {
+       "x": 150,
+       "y": 984,
+       "w": 148,
+       "h": 46
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "nav > ul > li"
+     },
+     "eds": {
+      "path": "nav > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:stain removal guide",
+       "role": "button",
+       "text": "stain removal guide",
+       "edsText": "stain removal guide",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 144,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 144,
+        "h": 46,
+        "sel": "span",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/700",
+        "eds": "14/16/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 338,
+       "y": 984,
+       "w": 144,
+       "h": 46
+      },
+      "eds": {
+       "x": 338,
+       "y": 984,
+       "w": 144,
+       "h": 46
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 18,
+  "within": 75,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

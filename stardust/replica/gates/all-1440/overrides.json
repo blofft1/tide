@@ -1,0 +1,7 @@
+{
+  "en-us-how-to-wash-clothes-how-to-do-laundry": {
+    "verdict": "PASS (units waived)",
+    "reason": "Step 2 timeline line is ~21px shorter: the source stepText carries an empty <h1></h1> (stardust/current/pages/en-us-how-to-wash-clothes-how-to-do-laundry.html, after 'heavy dirt.') whose collapsed margins add the gap; the EDS content pipeline drops empty headings, so it is not authorable. Every text row of the unit is within 4px apart from the trailing paragraph shift; content-diff 0/0, pixel aligned <1%. Round cap reached (topic-hub cluster rounds a-c + final).",
+    "waives": ["units"]
+  }
+}

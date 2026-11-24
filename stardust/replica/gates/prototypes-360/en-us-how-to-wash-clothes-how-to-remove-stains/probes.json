@@ -1,0 +1,67 @@
+{
+ "writtenBy": "gate-all.mjs",
+ "at": "2026-11-23T23:38:46.099Z",
+ "clip": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 1,
+   "scrollHidden": 426,
+   "horizontal": 1,
+   "offPage": 0,
+   "textNodes": 389,
+   "controls": 343,
+   "total": 0
+  },
+  "groups": [
+   {
+    "kind": "CONTROL SCROLL-HIDDEN",
+    "advisory": true,
+    "n": 200,
+    "clipper": "div.alp-picker__scroll",
+    "path": "div.alp-picker.alp-picker--mobile > div.alp-picker__scroll > div.alp-picker__list > button.alp-picker__item",
+    "text": "tough stains",
+    "cutMin": null,
+    "cutMax": null
+   },
+   {
+    "kind": "TEXT SCROLL-HIDDEN",
+    "advisory": true,
+    "n": 199,
+    "clipper": "div.alp-picker__scroll",
+    "path": "div.alp-picker.alp-picker--mobile > div.alp-picker__scroll > div.alp-picker__list > button.alp-picker__item",
+    "text": "tough stains",
+    "cutMin": null,
+    "cutMax": null
+   },
+   {
+    "kind": "CONTROL COLLAPSED",
+    "advisory": true,
+    "n": 1,
+    "clipper": "div#page-wrapper",
+    "path": "div#page-wrapper > header#site-header > a.skip-to-content-link",
+    "text": "skip to content",
+    "cutMin": null,
+    "cutMax": null
+   }
+  ],
+  "source": "clip-probe",
+  "tier": "chrome"
+ },
+ "units": {
+  "verdict": {
+   "units": 18,
+   "within": 69,
+   "off": 0,
+   "hidden": 0,
+   "missing": 0,
+   "errors": 0,
+   "requiredOff": 0
+  },
+  "required": true,
+  "errors": []
+ }
+}

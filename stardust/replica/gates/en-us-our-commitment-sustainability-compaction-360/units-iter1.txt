@@ -1,0 +1,24 @@
+[live-session] waiting to pace live navigations to tide.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+unit-geometry @ 360px, tol 4px — https://tide.com/en-us/our-commitment/sustainability/compaction vs http://localhost:8791/en-us-our-commitment-sustainability-compaction-proposed.html
+unit 1 of topic-jump-nav-item (required) .anchor-navigation li=.anchor-nav li: origin 15,61 163×46 vs served 15,61 163×46 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "how does tide do this?" | 0,0 163×46 | 0,0 163×46 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of topic-jump-nav-item (required) .anchor-navigation li=.anchor-nav li: origin 218,61 164×46 vs served 218,61 164×46 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "why does tide do this?" | 0,0 164×46 | 0,0 164×46 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of topic-checklist-item (required) .list-checkmarks-secondary li=.checklist li: origin 15,1729 330×80 vs served 15,1729 330×80 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "concentrated detergents can deliver " | 85,0 245×80 | 85,0 245×80 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of topic-checklist-item (required) .list-checkmarks-secondary li=.checklist li: origin 15,1834 330×65 vs served 15,1834 330×65 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "smaller packages result in less pack" | 85,0 245×65 | 85,0 245×65 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of topic-checklist-item (required) .list-checkmarks-secondary li=.checklist li: origin 15,1924 330×65 vs served 15,1924 330×65 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "lighter packages help reduce emissio" | 85,0 245×65 | 85,0 245×65 | 0 | 0 | 0 | 0 | ✓ |
+Units: 5 compared; elements within 5, off 0, hidden 0, missing 0 → PASS
+json → stardust/replica/gates/en-us-our-commitment-sustainability-compaction-360/units-iter1.json

@@ -1,0 +1,412 @@
+{
+  "a": "stardust/replica/gates/all-360/en-us-research-what-is-best-eco-detergent/origin.png",
+  "b": "stardust/replica/gates/all-360/en-us-research-what-is-best-eco-detergent/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 14391,
+    "mode": "overlap"
+  },
+  "heightDelta": -199,
+  "differingPixels": 833836,
+  "pct": 16.09,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-360/en-us-research-what-is-best-eco-detergent/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 24.22,
+  "textBoxes": 567,
+  "textPixels": 2895140,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.6
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 14.4
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 13.7
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 15.5
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 15.9
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 24.1
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 15.6
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 16.6
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 21.3
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 13.9
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 14.6
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 16.1
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 13.2
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 15.4
+    },
+    {
+      "y0": 7000,
+      "y1": 7500,
+      "pct": 24.3
+    },
+    {
+      "y0": 7500,
+      "y1": 8000,
+      "pct": 15.1
+    },
+    {
+      "y0": 8000,
+      "y1": 8500,
+      "pct": 19.5
+    },
+    {
+      "y0": 8500,
+      "y1": 9000,
+      "pct": 17.6
+    },
+    {
+      "y0": 9000,
+      "y1": 9500,
+      "pct": 14.5
+    },
+    {
+      "y0": 9500,
+      "y1": 10000,
+      "pct": 16.7
+    },
+    {
+      "y0": 10000,
+      "y1": 10500,
+      "pct": 15.2
+    },
+    {
+      "y0": 10500,
+      "y1": 11000,
+      "pct": 17.9
+    },
+    {
+      "y0": 11000,
+      "y1": 11500,
+      "pct": 15.7
+    },
+    {
+      "y0": 11500,
+      "y1": 12000,
+      "pct": 16.1
+    },
+    {
+      "y0": 12000,
+      "y1": 12500,
+      "pct": 17
+    },
+    {
+      "y0": 12500,
+      "y1": 13000,
+      "pct": 35.7
+    },
+    {
+      "y0": 13000,
+      "y1": 13500,
+      "pct": 13.6
+    },
+    {
+      "y0": 13500,
+      "y1": 14000,
+      "pct": 8.5
+    },
+    {
+      "y0": 14000,
+      "y1": 14391,
+      "pct": 6.1
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 2.45,
+    "differingPixels": 129107,
+    "compared": {
+      "width": 360,
+      "height": 14611,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 747,
+        "shift": -19,
+        "cumulative": -19
+      },
+      {
+        "y": 11423,
+        "shift": 40,
+        "cumulative": 21
+      },
+      {
+        "y": 11526,
+        "shift": 80,
+        "cumulative": 101
+      },
+      {
+        "y": 11588,
+        "shift": 60,
+        "cumulative": 161
+      },
+      {
+        "y": 12067,
+        "shift": 20,
+        "cumulative": 181
+      },
+      {
+        "y": 12169,
+        "shift": 20,
+        "cumulative": 201
+      },
+      {
+        "y": 12708,
+        "shift": -1,
+        "cumulative": 200
+      },
+      {
+        "y": 13658,
+        "shift": -1,
+        "cumulative": 199
+      }
+    ],
+    "maxOffset": 201,
+    "totalShift": 241,
+    "insertedRows": 220,
+    "deletedRows": 21,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.6,
+        "unaligned": 0.6
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 11.7,
+        "unaligned": 14.4
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 13.7
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 15.5
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 15.9
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 24.1
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 15.6
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0,
+        "unaligned": 16.6
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0,
+        "unaligned": 21.3
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0,
+        "unaligned": 13.9
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 0,
+        "unaligned": 14.6
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 0,
+        "unaligned": 16.1
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 0,
+        "unaligned": 13.2
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 0,
+        "unaligned": 15.4
+      },
+      {
+        "y0": 7000,
+        "y1": 7500,
+        "pct": 0,
+        "unaligned": 24.3
+      },
+      {
+        "y0": 7500,
+        "y1": 8000,
+        "pct": 0,
+        "unaligned": 15.1
+      },
+      {
+        "y0": 8000,
+        "y1": 8500,
+        "pct": 0,
+        "unaligned": 19.5
+      },
+      {
+        "y0": 8500,
+        "y1": 9000,
+        "pct": 0,
+        "unaligned": 17.6
+      },
+      {
+        "y0": 9000,
+        "y1": 9500,
+        "pct": 0,
+        "unaligned": 14.5
+      },
+      {
+        "y0": 9500,
+        "y1": 10000,
+        "pct": 0,
+        "unaligned": 16.7
+      },
+      {
+        "y0": 10000,
+        "y1": 10500,
+        "pct": 0,
+        "unaligned": 15.2
+      },
+      {
+        "y0": 10500,
+        "y1": 11000,
+        "pct": 0,
+        "unaligned": 17.9
+      },
+      {
+        "y0": 11000,
+        "y1": 11500,
+        "pct": 9.6,
+        "unaligned": 15.7
+      },
+      {
+        "y0": 11500,
+        "y1": 12000,
+        "pct": 23.8,
+        "unaligned": 16.1
+      },
+      {
+        "y0": 12000,
+        "y1": 12500,
+        "pct": 13.1,
+        "unaligned": 17
+      },
+      {
+        "y0": 12500,
+        "y1": 13000,
+        "pct": 4.1,
+        "unaligned": 35.7
+      },
+      {
+        "y0": 13000,
+        "y1": 13500,
+        "pct": 0,
+        "unaligned": 13.6
+      },
+      {
+        "y0": 13500,
+        "y1": 14000,
+        "pct": 0.2,
+        "unaligned": 8.5
+      },
+      {
+        "y0": 14000,
+        "y1": 14391,
+        "pct": 0,
+        "unaligned": 6.1
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/en-us-research-what-is-best-eco-detergent/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 144,
+    "totalShift": 241,
+    "pass": false
+  },
+  "reason": "offsets: 8 step(s), 241px total — −19px at y=747, +40px at y=11423, +80px at y=11526, +60px at y=11588, +20px at y=12067, +20px at y=12169, … 2 more (bound 144px)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/what-is-best-eco-detergent"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "writtenBy": "skills/replica/scripts/reference.mjs freeze",
+  "schema": 1,
+  "capturedAt": "2026-11-24T03:19:15.422Z",
+  "url": "https://tide.com/en-us/research/signs-of-fragrance-safety",
+  "width": 1440,
+  "vh": 900,
+  "height": 3372,
+  "settle": true,
+  "chunks": 4,
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 2,
+    "late": 1
+  },
+  "timers": {
+    "hold": 2000,
+    "held": 10,
+    "intervals": 4,
+    "chains": 6,
+    "delays": [
+      2000,
+      3000,
+      4999.89999999851,
+      5000,
+      86400000
+    ]
+  },
+  "primed": true,
+  "prime": {
+    "height": 3372,
+    "pct": 0,
+    "heightDelta": 0
+  },
+  "captures": 2,
+  "heights": [
+    3372,
+    3372
+  ],
+  "noiseFloor": 0,
+  "heightSpread": 0,
+  "outside": 0,
+  "variable": [],
+  "variableShare": 0,
+  "maskArg": "",
+  "stable": true,
+  "reason": null,
+  "frozenAt": "2026-11-24T03:20:10.291Z",
+  "flags": {
+    "consent": null,
+    "dismiss": null,
+    "noDismiss": false,
+    "locale": "en-US",
+    "vh": null,
+    "headed": true,
+    "holdTimers": 2000
+  },
+  "thresholds": {
+    "floorMax": 1,
+    "heightMax": 8,
+    "variableMax": 50,
+    "band": 20,
+    "bandMin": 0.5,
+    "pad": 8
+  }
+}

@@ -1,0 +1,765 @@
+[live-session] waiting to pace live navigations to tide.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 204 ms
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/en-us-360/vdiff-iter2/
+
+build red flags (advisory): none
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 5791,
+  "textLen": 3051,
+  "images": [
+   {
+    "src": "header_logo_png.webp",
+    "natural": "32x41",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "header_logo_downy.webp",
+    "natural": "43x41",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "header_logo_bounce.webp",
+    "natural": "47x41",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "brand_main_logo.svg",
+    "natural": "150x150",
+    "rendered": "47x47",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Tide_EVO_enahncement_HP_hero_20260205_default.jpg?fm=webp",
+    "natural": "576x800",
+    "rendered": "360x680",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Tide_TheRock_HP_hero_20250812_default_taller.jpg?fm=webp",
+    "natural": "576x800",
+    "rendered": "360x680",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Tide_Power_Pods_module2_20250320_default.png?fm=webp",
+    "natural": "828x762",
+    "rendered": "330x304",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Tide_BlackWidow_LP_20240308_322x210_blue.png?fm=webp",
+    "natural": "322x210",
+    "rendered": "277x210",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Tide_hygenic_clean_Card_322x210_144ppi_20250513.jpg?fm=webp",
+    "natural": "644x420",
+    "rendered": "277x210",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "TIDE_most_trusted_Card_322x210_144ppi_20240513.jpg?fm=webp",
+    "natural": "644x420",
+    "rendered": "277x210",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Tide_Nasa_3722x210.jpg?fm=webp",
+    "natural": "322x210",
+    "rendered": "277x210",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Tide_HP_Product_by_type_20250513.png?fm=webp",
+    "natural": "420x291",
+    "rendered": "250x173",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "browse_by_need.png?fm=webp",
+    "natural": "427x291",
+    "rendered": "250x170",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "how_to_remove_stains.png?fm=png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Tide_how_to_do_laundry_below428_202209191119.png?fm=webp",
+    "natural": "250x177",
+    "rendered": "250x177",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Tide_LoH-hero_570x310_v2.jpg?fm=webp",
+    "natural": "570x309",
+    "rendered": "360x195",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Tide_Safety_preview_570x310.jpg?fm=webp",
+    "natural": "570x310",
+    "rendered": "360x196",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social_facebook.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social_twitter.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social_pinterest.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social_youtube.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "footer_GoodHousekeeping.webp",
+    "natural": "82x62",
+    "rendered": "82x62",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "footer_BBB.webp",
+    "natural": "38x62",
+    "rendered": "38x62",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "footer_JunkFood.webp",
+    "natural": "58x62",
+    "rendered": "58x62",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "footer_TideCleaners.webp",
+    "natural": "56x62",
+    "rendered": "56x62",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "new Tide evo",
+    "color": "rgb(19, 37, 156)",
+    "fontSize": "40px",
+    "family": "Tide",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "6x concentrated layers",
+    "color": "rgb(19, 37, 156)",
+    "fontSize": "40px",
+    "family": "Tide",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "Less Work, Better Clean*",
+    "color": "rgb(251, 76, 6)",
+    "fontSize": "44px",
+    "family": "Tide",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "POWER\nPODS®",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "70px",
+    "family": "Tide",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "See what we've been working on l",
+    "color": "rgb(251, 76, 6)",
+    "fontSize": "32px",
+    "family": "Tide",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Find the right Tide product for ",
+    "color": "rgb(251, 76, 6)",
+    "fontSize": "32px",
+    "family": "Tide",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Browse by type",
+    "color": "rgb(27, 51, 146)",
+    "fontSize": "26px",
+    "family": "Tide",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Browse by need",
+    "color": "rgb(27, 51, 146)",
+    "fontSize": "26px",
+    "family": "Tide",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Stain removal guide",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "40px",
+    "family": "Tide",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "How to do\nlaundry",
+    "color": "rgb(251, 76, 6)",
+    "fontSize": "40px",
+    "family": "Tide",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Learn more",
+    "color": "rgb(251, 76, 6)",
+    "fontSize": "40px",
+    "family": "Tide",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "richtext-container",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "richtext-container",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "richtext-container",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "richtext-container",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "text",
+    "width": 257,
+    "left": 52
+   },
+   {
+    "sel": "text",
+    "width": 257,
+    "left": 349
+   },
+   {
+    "sel": "text",
+    "width": 257,
+    "left": 646
+   },
+   {
+    "sel": "text",
+    "width": 257,
+    "left": 943
+   },
+   {
+    "sel": "richtext-container",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "modal-card",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "modal-card",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "container",
+    "width": 360,
+    "left": 0
+   }
+  ]
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 5791,
+  "textLen": 3071,
+  "images": [
+   {
+    "src": "header_logo_png.webp",
+    "natural": "32x41",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "header_logo_downy.webp",
+    "natural": "43x41",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "header_logo_bounce.webp",
+    "natural": "47x41",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "brand_main_logo.svg",
+    "natural": "150x150",
+    "rendered": "47x47",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "CountrFlag_USA.jpg",
+    "natural": "32x20",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "CountrFlag_USA.jpg",
+    "natural": "32x20",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "CountrFlag_Canada.jpg",
+    "natural": "32x20",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "CountrFlag_Canada.jpg",
+    "natural": "32x20",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Tide_EVO_enahncement_HP_hero_20260205_default.webp",
+    "natural": "576x800",
+    "rendered": "360x680",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Tide_TheRock_HP_hero_20250812_default_taller.webp",
+    "natural": "576x800",
+    "rendered": "360x680",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Tide_Power_Pods_module2_20250320_default.webp",
+    "natural": "828x762",
+    "rendered": "330x304",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Tide_BlackWidow_LP_20240308_322x210_blue.webp",
+    "natural": "322x210",
+    "rendered": "277x210",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Tide_hygenic_clean_Card_322x210_144ppi_20250513.webp",
+    "natural": "644x420",
+    "rendered": "277x210",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "TIDE_most_trusted_Card_322x210_144ppi_20240513.webp",
+    "natural": "644x420",
+    "rendered": "277x210",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Tide_Nasa_3722x210.webp",
+    "natural": "322x210",
+    "rendered": "277x210",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Tide_HP_Product_by_type_20250513.webp",
+    "natural": "420x291",
+    "rendered": "250x173",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "browse_by_need.webp",
+    "natural": "427x291",
+    "rendered": "250x170",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "how_to_remove_stains.webp",
+    "natural": "874x861",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Tide_how_to_do_laundry_below428_202209191119.webp",
+    "natural": "250x177",
+    "rendered": "250x177",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Tide_LoH-hero_570x310_v2.webp",
+    "natural": "570x309",
+    "rendered": "360x195",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Tide_Safety_preview_570x310.webp",
+    "natural": "570x310",
+    "rendered": "360x196",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social_facebook.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social_twitter.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social_pinterest.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social_youtube.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "footer_GoodHousekeeping.webp",
+    "natural": "82x62",
+    "rendered": "82x62",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "footer_BBB.webp",
+    "natural": "38x62",
+    "rendered": "38x62",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "footer_JunkFood.webp",
+    "natural": "58x62",
+    "rendered": "58x62",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "footer_TideCleaners.webp",
+    "natural": "56x62",
+    "rendered": "56x62",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "new Tide evo",
+    "color": "rgb(19, 37, 156)",
+    "fontSize": "40px",
+    "family": "Tide",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "6x concentrated layers",
+    "color": "rgb(19, 37, 156)",
+    "fontSize": "40px",
+    "family": "Tide",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "Less Work, Better Clean*",
+    "color": "rgb(251, 76, 6)",
+    "fontSize": "44px",
+    "family": "Tide",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "POWER\nPODS®",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "70px",
+    "family": "Tide",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "See what we've been working on l",
+    "color": "rgb(251, 76, 6)",
+    "fontSize": "32px",
+    "family": "Tide",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Find the right Tide product for ",
+    "color": "rgb(251, 76, 6)",
+    "fontSize": "32px",
+    "family": "Tide",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Browse by type",
+    "color": "rgb(27, 51, 146)",
+    "fontSize": "26px",
+    "family": "Tide",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Browse by need",
+    "color": "rgb(27, 51, 146)",
+    "fontSize": "26px",
+    "family": "Tide",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Stain removal guide",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "40px",
+    "family": "Tide",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "How to do\nlaundry",
+    "color": "rgb(251, 76, 6)",
+    "fontSize": "40px",
+    "family": "Tide",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Learn more",
+    "color": "rgb(251, 76, 6)",
+    "fontSize": "40px",
+    "family": "Tide",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "banner__box",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "banner__box",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "rt",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "container",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "card__text",
+    "width": 257,
+    "left": 52
+   },
+   {
+    "sel": "card__text",
+    "width": 257,
+    "left": 349
+   },
+   {
+    "sel": "card__text",
+    "width": 257,
+    "left": 646
+   },
+   {
+    "sel": "card__text",
+    "width": 257,
+    "left": 943
+   },
+   {
+    "sel": "modal-card",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "modal-card",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "container",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "rt",
+    "width": 330,
+    "left": 15
+   }
+  ]
+ }
+}

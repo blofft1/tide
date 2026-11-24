@@ -1,0 +1,57 @@
+{
+ "writtenBy": "gate-all.mjs",
+ "at": "2026-11-23T23:40:55.545Z",
+ "clip": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 10,
+   "scrollHidden": 0,
+   "horizontal": 0,
+   "offPage": 0,
+   "textNodes": 113,
+   "controls": 68,
+   "total": 0
+  },
+  "groups": [
+   {
+    "kind": "CONTROL COLLAPSED",
+    "advisory": true,
+    "n": 9,
+    "clipper": "div.plp-filter-bar__buttons",
+    "path": "div.container.plp-top > div.plp-filter-bar > div.plp-filter-bar__buttons > a.plp-filter-btn",
+    "text": "odor removal",
+    "cutMin": null,
+    "cutMax": null
+   },
+   {
+    "kind": "CONTROL COLLAPSED",
+    "advisory": true,
+    "n": 1,
+    "clipper": "div#page-wrapper",
+    "path": "div#page-wrapper > header#site-header > a.skip-to-content-link",
+    "text": "skip to content",
+    "cutMin": null,
+    "cutMax": null
+   }
+  ],
+  "source": "clip-probe",
+  "tier": "chrome"
+ },
+ "units": {
+  "verdict": {
+   "units": 6,
+   "within": 45,
+   "off": 0,
+   "hidden": 0,
+   "missing": 0,
+   "errors": 0,
+   "requiredOff": 0
+  },
+  "required": true,
+  "errors": []
+ }
+}

@@ -1,0 +1,146 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-us-research-why-rewashes-make-laundry-more-expensive/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-us-research-why-rewashes-make-laundry-more-expensive/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 3524,
+    "mode": "overlap"
+  },
+  "heightDelta": -1,
+  "differingPixels": 109450,
+  "pct": 2.16,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/en-us-research-why-rewashes-make-laundry-more-expensive/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 6.16,
+  "textBoxes": 75,
+  "textPixels": 707266,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 4.9
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 9.7
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 0.6
+    },
+    {
+      "y0": 3500,
+      "y1": 3524,
+      "pct": 0
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 2.11,
+    "differingPixels": 106963,
+    "compared": {
+      "width": 1440,
+      "height": 3525,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 3349,
+        "shift": 1,
+        "cumulative": 1
+      }
+    ],
+    "maxOffset": 1,
+    "totalShift": 1,
+    "insertedRows": 1,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 4.9,
+        "unaligned": 4.9
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 9.7,
+        "unaligned": 9.7
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0.2,
+        "unaligned": 0.6
+      },
+      {
+        "y0": 3500,
+        "y1": 3524,
+        "pct": 0,
+        "unaligned": 0
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/en-us-research-why-rewashes-make-laundry-more-expensive/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 35,
+    "totalShift": 1,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/why-rewashes-make-laundry-more-expensive"
+  }
+}

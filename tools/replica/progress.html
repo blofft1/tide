@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Migration result</title>
+<link rel="stylesheet" href="spectrum.css">
+<style>
+  body { background-color: var(--spectrum-bg-app); }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 24px 64px; }
+  header { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+  .meta { color: var(--spectrum-text-subdued); margin: 0 0 24px; }
+  .spectrum-panel { margin-bottom: 16px; }
+  .spectrum-panel-header { margin: 0; padding: 0 16px; }
+  details.spectrum-panel > summary { cursor: pointer; list-style: none; }
+  details.spectrum-panel > summary::-webkit-details-marker { display: none; }
+  details.spectrum-panel > summary > h2 { margin: 0; font: inherit; }
+  details.spectrum-panel > summary > h2::before { content: "\25B8"; display: inline-block; width: 1em; margin-right: 6px; color: var(--spectrum-text-subdued); }
+  details.spectrum-panel[open] > summary > h2::before { content: "\25BE"; }
+  .panel-body { padding: 16px; }
+  .panel-body > :last-child { margin-bottom: 0; }
+  .bar { height: 8px; border-radius: 9999px; background-color: var(--spectrum-gray-200); overflow: hidden; }
+  .bar span { display: block; height: 100%; background-color: var(--spectrum-accent-bg); }
+  ol.steps { list-style: none; padding: 0; margin: 0; }
+  ol.steps li { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 0; }
+  ol.steps li + li { border-top: 1px solid var(--spectrum-gray-200); }
+  details summary { cursor: pointer; }
+  table.pages { margin-top: 8px; }
+  table.pages td { word-break: break-all; }
+  table.pages td .spectrum-badge { word-break: normal; }
+  @media (max-width: 400px) { table.pages th, table.pages td { padding: 8px 4px; } }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { padding: 8px; text-align: left; border-bottom: 1px solid var(--spectrum-gray-200); }
+  th { color: var(--spectrum-text-subdued); font-weight: 700; }
+  .panel-body h3 { margin: 16px 0 4px; }
+  ol.todo { padding-left: 20px; margin: 0 0 16px; }
+  ol.todo li { margin: 6px 0; }
+  ul.all { columns: 2; margin: 4px 0; padding-left: 18px; }
+  .spectrum-panel-header .spectrum-badge { margin-left: 8px; vertical-align: middle; }
+  #blocks-used table.blocks { table-layout: fixed; }
+  #blocks-used table.blocks th:nth-child(1) { width: 26%; }
+  #blocks-used table.blocks th:nth-child(2) { width: 32%; }
+  #blocks-used td { overflow-wrap: break-word; vertical-align: top; }
+  #blocks-used td:last-child { overflow-wrap: anywhere; }
+  #blocks-used tr.group td { border-top: 1px solid var(--spectrum-gray-300); }
+  #blocks-used td.block { font-weight: 700; }
+  #blocks-used .block-pages { display: block; font-weight: 400; color: var(--spectrum-text-subdued); }
+  #blocks-used .variant { display: inline-block; padding: 0 6px; margin: 0 4px 2px 0; border: 1px solid var(--spectrum-gray-300); border-radius: var(--spectrum-radius-sm); font-family: var(--spectrum-font-code); }
+  #blocks-used .variant-inline { font-family: var(--spectrum-font-code); font-weight: 400; color: var(--spectrum-text-subdued); }
+  #blocks-used .default, #blocks-used .blocks-count { color: var(--spectrum-text-subdued); }
+  #blocks-used .default { font-style: italic; }
+  #blocks-used .blocks-count { margin: 0; }
+  #blocks-used button.more { padding: 0; border: 0; background: none; color: var(--spectrum-text-accent); font: inherit; cursor: pointer; text-decoration: underline; }
+  #blocks-used .blocks-popover { width: min(520px, 90vw); max-height: 80vh; overflow: auto; overflow-wrap: anywhere; padding: 16px 20px; border: 1px solid var(--spectrum-gray-300); border-radius: var(--spectrum-radius-lg); background-color: var(--spectrum-bg-layer-1); box-shadow: var(--spectrum-shadow-elevated); }
+  #blocks-used .blocks-popover::backdrop { background-color: color-mix(in srgb, var(--spectrum-gray-900) 35%, transparent); }
+  #blocks-used .popover-head { display: flex; justify-content: space-between; align-items: start; gap: 12px; }
+  #blocks-used .popover-head h3 { margin: 0; }
+  #blocks-used ul.popover-pages { columns: 2; padding-left: 20px; margin: 12px 0 0; }
+  #blocks-used ul.popover-pages li { padding: 4px 0; break-inside: avoid; }
+  /* A browser without the popover API would show every page list inline; ':popover-open' is invalid there. */
+  @supports not selector(:popover-open) {
+    #blocks-used .blocks-popover, #blocks-used .more { display: none; }
+  }
+  #blocks-used .bp-radio { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  #blocks-used .bp-page, #blocks-used .bp-range { display: none; }
+  #blocks-used .pager { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 12px; flex-wrap: wrap; }
+  #blocks-used .labels { display: flex; flex-wrap: wrap; gap: 4px; }
+  #blocks-used .bp-radio:focus-visible ~ .pager label { outline: 2px solid var(--spectrum-focus-ring); }
+  #bp-1:checked ~ table .bp-page-1 { display: table-row-group; }
+  #bp-1:checked ~ .pager .bp-range-1 { display: inline; }
+  #bp-1:checked ~ .pager label[for="bp-1"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-2:checked ~ table .bp-page-2 { display: table-row-group; }
+  #bp-2:checked ~ .pager .bp-range-2 { display: inline; }
+  #bp-2:checked ~ .pager label[for="bp-2"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-3:checked ~ table .bp-page-3 { display: table-row-group; }
+  #bp-3:checked ~ .pager .bp-range-3 { display: inline; }
+  #bp-3:checked ~ .pager label[for="bp-3"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-4:checked ~ table .bp-page-4 { display: table-row-group; }
+  #bp-4:checked ~ .pager .bp-range-4 { display: inline; }
+  #bp-4:checked ~ .pager label[for="bp-4"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-5:checked ~ table .bp-page-5 { display: table-row-group; }
+  #bp-5:checked ~ .pager .bp-range-5 { display: inline; }
+  #bp-5:checked ~ .pager label[for="bp-5"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-6:checked ~ table .bp-page-6 { display: table-row-group; }
+  #bp-6:checked ~ .pager .bp-range-6 { display: inline; }
+  #bp-6:checked ~ .pager label[for="bp-6"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-7:checked ~ table .bp-page-7 { display: table-row-group; }
+  #bp-7:checked ~ .pager .bp-range-7 { display: inline; }
+  #bp-7:checked ~ .pager label[for="bp-7"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-8:checked ~ table .bp-page-8 { display: table-row-group; }
+  #bp-8:checked ~ .pager .bp-range-8 { display: inline; }
+  #bp-8:checked ~ .pager label[for="bp-8"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Migration result</h1>
+    <span class="spectrum-badge spectrum-badge--positive">Ready</span>
+  </header>
+  <p class="meta">Source site: <a href="https://tide.com/" target="_blank" rel="noopener">https://tide.com/</a><br>Preview site: <a href="https://main--5db7d055--aemcoder.aem.page/" target="_blank" rel="noopener">https://main--5db7d055--aemcoder.aem.page/</a><br>Finished: 2026-11-24 12:57 UTC</p>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>What's done</h2></summary>
+    <div class="panel-body">
+      <p>The move is complete: all 94 pages are live on the new platform, match tide.com on desktop and mobile, and passed every final check. Links, older web addresses, search-engine details and interactive features all carry over, and your analytics and consent setup is in place, switched off until you choose to turn it on.</p>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>Next steps</h2></summary>
+    <div class="panel-body">
+      <p>Over the next couple of hours the last small header update reaches every visitor, and then the site is ready for your review and sign-off.</p>
+      <ol class="todo">
+        <li><strong>Make it yours.</strong> Move this result into your own site and GitHub repository: use <strong>Make it yours</strong> on this migration in AEM Coder.</li>
+        <li><strong>Review the pages</strong> on the <a href="https://main--5db7d055--aemcoder.aem.page/" target="_blank" rel="noopener">preview site</a>.</li>
+        <li><strong>Switch on analytics and tags</strong> when you are ready: see <em>Before you switch them on</em> under Analytics and tags.</li>
+      </ol>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>Pages</h2></summary>
+    <div class="panel-body">
+      <p>This migration covers 100 pages, chosen from the 464 we found on your site. 94 of 100 are published on the preview site; 94 have passed the side-by-side check against the original.</p>
+      <details>
+        <summary>100 pages in this migration</summary>
+        <table class="pages">
+          <thead><tr><th>Source page</th><th>On the preview site</th><th>Status</th></tr></thead>
+          <tbody>
+          <tr><td><a href="https://tide.com/" target="_blank" rel="noopener">https://tide.com/</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/accessibility" target="_blank" rel="noopener">https://tide.com/en-us/accessibility</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us" target="_blank" rel="noopener">https://tide.com/en-us</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us" target="_blank" rel="noopener">Laundry Detergent and Fabric Care Products - Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/health-probe" target="_blank" rel="noopener">https://tide.com/health-probe</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/health-probe" target="_blank" rel="noopener">Health probe page</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/sitemap" target="_blank" rel="noopener">https://tide.com/en-us/sitemap</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/sitemap" target="_blank" rel="noopener">Laundry Detergent and Fabric Care Products - Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/rewards" target="_blank" rel="noopener">https://tide.com/en-us/rewards</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/rewards" target="_blank" rel="noopener">Laundry Detergent Pods Coupons and Rewards | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/shop" target="_blank" rel="noopener">https://tide.com/en-us/shop</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop" target="_blank" rel="noopener">Laundry Detergent and Fabric Care Products - Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/latest-news" target="_blank" rel="noopener">https://tide.com/en-us/latest-news</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/latest-news" target="_blank" rel="noopener">Discover Tide&#39;s Latest News | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/loyalty" target="_blank" rel="noopener">https://tide.com/en-us/loyalty</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/our-commitment" target="_blank" rel="noopener">https://tide.com/en-us/our-commitment</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment" target="_blank" rel="noopener">Our Commitment - Learn More About The Brand | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/contact-us" target="_blank" rel="noopener">https://tide.com/en-us/contact-us</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/contact-us" target="_blank" rel="noopener">Laundry Detergent and Fabric Care Products - Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/coupons-and-rewards" target="_blank" rel="noopener">https://tide.com/en-us/coupons-and-rewards</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/how-to-wash-clothes" target="_blank" rel="noopener">https://tide.com/en-us/how-to-wash-clothes</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes" target="_blank" rel="noopener">How to Wash Clothes - Laundry Tips and Tricks | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/click2cart/006000p" target="_blank" rel="noopener">https://tide.com/en-us/click2cart/006000p</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/click2cart/006000p" target="_blank" rel="noopener">Click2Cart</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/click2cart/00600bt" target="_blank" rel="noopener">https://tide.com/en-us/click2cart/00600bt</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/click2cart/00600bt" target="_blank" rel="noopener">Click2Cart</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/click2cart/006000Q" target="_blank" rel="noopener">https://tide.com/en-us/click2cart/006000Q</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/click2cart/006000q" target="_blank" rel="noopener">Click2Cart</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/click2cart/006000Z" target="_blank" rel="noopener">https://tide.com/en-us/click2cart/006000Z</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/click2cart/006000z" target="_blank" rel="noopener">Click2Cart</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/click2cart/006000I" target="_blank" rel="noopener">https://tide.com/en-us/click2cart/006000I</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/click2cart/006000i" target="_blank" rel="noopener">Click2Cart</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/click2cart/006000H" target="_blank" rel="noopener">https://tide.com/en-us/click2cart/006000H</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/click2cart/006000h" target="_blank" rel="noopener">Click2Cart</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/click2cart/0060001" target="_blank" rel="noopener">https://tide.com/en-us/click2cart/0060001</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/click2cart/0060001" target="_blank" rel="noopener">Click2Cart</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/click2cart/006000B" target="_blank" rel="noopener">https://tide.com/en-us/click2cart/006000B</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/click2cart/006000b" target="_blank" rel="noopener">Click2Cart</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/rewards/laundrytips" target="_blank" rel="noopener">https://tide.com/en-us/rewards/laundrytips</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/rewards/laundrytips" target="_blank" rel="noopener">Learn New Laundry Tips and Advice | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/research/are-detergents-toxic-science" target="_blank" rel="noopener">https://tide.com/en-us/research/are-detergents-toxic-science</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/are-detergents-toxic-science" target="_blank" rel="noopener">Are Detergents Toxic? See What Science Says | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/our-commitment/americas-number-one-detergent" target="_blank" rel="noopener">https://tide.com/en-us/our-commitment/americas-number-one-detergent</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/americas-number-one-detergent" target="_blank" rel="noopener">America&#39;s #1 Detergent - Liquid, PODS® and More | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/how-to-wash-clothes/effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry" target="_blank" rel="noopener">https://tide.com/en-us/how-to-wash-clothes/effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry" target="_blank" rel="noopener">Effective Stain and Odor Solutions with Tide: Your Guide to Fresh Laundry</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/how-to-do-laundry/better-clean-safer" target="_blank" rel="noopener">https://tide.com/en-us/how-to-do-laundry/better-clean-safer</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-do-laundry/better-clean-safer" target="_blank" rel="noopener">Why a Better Clean Is Essential for a Safer Clean (Especially for Sensitive Skin) | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/research/scientific-guide-laundry-sensitive-skin" target="_blank" rel="noopener">https://tide.com/en-us/research/scientific-guide-laundry-sensitive-skin</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/scientific-guide-laundry-sensitive-skin" target="_blank" rel="noopener">Laundry for Sensitive Skin: The Science of Detergents | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/research/signs-of-fragrance-safety" target="_blank" rel="noopener">https://tide.com/en-us/research/signs-of-fragrance-safety</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/signs-of-fragrance-safety" target="_blank" rel="noopener">3 Signs a Company Takes Fragrance Safety Seriously | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/research/tide-environment-safety" target="_blank" rel="noopener">https://tide.com/en-us/research/tide-environment-safety</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/tide-environment-safety" target="_blank" rel="noopener">Is Tide Bad for the Environment? | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/research/tide-evo-dissolve-guide" target="_blank" rel="noopener">https://tide.com/en-us/research/tide-evo-dissolve-guide</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/tide-evo-dissolve-guide" target="_blank" rel="noopener">Does Tide Evo Fully Dissolve? The Complete Guide to Preventing Residue</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/research/tide-value-framework" target="_blank" rel="noopener">https://tide.com/en-us/research/tide-value-framework</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/tide-value-framework" target="_blank" rel="noopener">Evaluating Tide Through the Value Framework | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/research/vocs-laundry-products-airborne-emissions" target="_blank" rel="noopener">https://tide.com/en-us/research/vocs-laundry-products-airborne-emissions</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/vocs-laundry-products-airborne-emissions" target="_blank" rel="noopener">Volatile Organic Compounds (VOCs) in Laundry Products: Does VOC Content Translate to Airborne Emissions? | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/research/what-is-best-eco-detergent" target="_blank" rel="noopener">https://tide.com/en-us/research/what-is-best-eco-detergent</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/what-is-best-eco-detergent" target="_blank" rel="noopener">What is the Best Eco Detergent? Detergent’s Impact on the Environment | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/research/what-makes-laundry-scent-safe" target="_blank" rel="noopener">https://tide.com/en-us/research/what-makes-laundry-scent-safe</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/what-makes-laundry-scent-safe" target="_blank" rel="noopener">What Makes a Laundry Scent Safe? | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/research/why-cost-per-load-isnt-whole-story" target="_blank" rel="noopener">https://tide.com/en-us/research/why-cost-per-load-isnt-whole-story</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/why-cost-per-load-isnt-whole-story" target="_blank" rel="noopener">Why Cost Per Load Does Not Tell the Whole Story | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/research/why-rewashes-make-laundry-more-expensive" target="_blank" rel="noopener">https://tide.com/en-us/research/why-rewashes-make-laundry-more-expensive</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/why-rewashes-make-laundry-more-expensive" target="_blank" rel="noopener">Why Re-Washes Make Laundry More Expensive | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/research/laundry-scent-and-indoor-air" target="_blank" rel="noopener">https://tide.com/en-us/research/laundry-scent-and-indoor-air</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/laundry-scent-and-indoor-air" target="_blank" rel="noopener">If You Can Smell Your Laundry Scent, Is It Harming Your Air? | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/research/natural-detergent-baby-clothes" target="_blank" rel="noopener">https://tide.com/en-us/research/natural-detergent-baby-clothes</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/natural-detergent-baby-clothes" target="_blank" rel="noopener">Is a Natural Detergent Best for Baby Clothes? | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/research/odor-after-washing" target="_blank" rel="noopener">https://tide.com/en-us/research/odor-after-washing</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/odor-after-washing" target="_blank" rel="noopener">Why Does Laundry Retain Odor After Washing? | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/research/pva-technical-review" target="_blank" rel="noopener">https://tide.com/en-us/research/pva-technical-review</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/pva-technical-review" target="_blank" rel="noopener">Fact-Check: Why the Rolsky (2021) PVA Study is Flawed</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/research/best-laundry-detergent-baby-clothes" target="_blank" rel="noopener">https://tide.com/en-us/research/best-laundry-detergent-baby-clothes</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/best-laundry-detergent-baby-clothes" target="_blank" rel="noopener">What Is the Best Laundry Detergent for Baby Clothes? | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/research/best-quality-detergent" target="_blank" rel="noopener">https://tide.com/en-us/research/best-quality-detergent</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/best-quality-detergent" target="_blank" rel="noopener">What Is the Best Detergent in Terms of Quality? What the Science Actually Shows</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/research/cold-water-vs-laundry-cost" target="_blank" rel="noopener">https://tide.com/en-us/research/cold-water-vs-laundry-cost</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/cold-water-vs-laundry-cost" target="_blank" rel="noopener">How Cold-Water Performance Can Affect Laundry Cost | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/research/detergent-sheets-pods-liquid" target="_blank" rel="noopener">https://tide.com/en-us/research/detergent-sheets-pods-liquid</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/detergent-sheets-pods-liquid" target="_blank" rel="noopener">Are Detergent Sheets or Pods Better for the Environment Than Liquid? | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/research/do-you-need-special-baby-detergent" target="_blank" rel="noopener">https://tide.com/en-us/research/do-you-need-special-baby-detergent</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/do-you-need-special-baby-detergent" target="_blank" rel="noopener">Do You Need a Special Baby Detergent? | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/research/environmentally-friendly-way-laundry" target="_blank" rel="noopener">https://tide.com/en-us/research/environmentally-friendly-way-laundry</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/environmentally-friendly-way-laundry" target="_blank" rel="noopener">What Is the Most Environmentally Friendly Way to Do Laundry? | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/research/evaluate-true-value-laundry-detergent" target="_blank" rel="noopener">https://tide.com/en-us/research/evaluate-true-value-laundry-detergent</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/evaluate-true-value-laundry-detergent" target="_blank" rel="noopener">Beyond the Shelf Price: A Comprehensive Economic Framework for Evaluating Laundry Detergent Value | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/research/fragrance-meaning-on-ingredient-label" target="_blank" rel="noopener">https://tide.com/en-us/research/fragrance-meaning-on-ingredient-label</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/fragrance-meaning-on-ingredient-label" target="_blank" rel="noopener">What Does &#39;Fragrance&#39; on a Label Actually Mean? | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/research/hazard-vs-risk-laundry-detergent" target="_blank" rel="noopener">https://tide.com/en-us/research/hazard-vs-risk-laundry-detergent</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/hazard-vs-risk-laundry-detergent" target="_blank" rel="noopener">Hazard vs. Risk in Laundry Detergent: How Exposure Changes What “Toxic” Really Means | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/research/how-enzymes-help-remove-baby-stains" target="_blank" rel="noopener">https://tide.com/en-us/research/how-enzymes-help-remove-baby-stains</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/how-enzymes-help-remove-baby-stains" target="_blank" rel="noopener">How Enzymes Help Remove Baby Stains | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/research/how-to-choose-detergent-for-value" target="_blank" rel="noopener">https://tide.com/en-us/research/how-to-choose-detergent-for-value</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/how-to-choose-detergent-for-value" target="_blank" rel="noopener">How to Choose a Detergent for Value | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/research/laundry-detergent-science-testing" target="_blank" rel="noopener">https://tide.com/en-us/research/laundry-detergent-science-testing</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/laundry-detergent-science-testing" target="_blank" rel="noopener">Is Tide Safe? The Science Behind Laundry Detergent Safety and Ingredient Testing | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/research/best-eco-laundry-detergent" target="_blank" rel="noopener">https://tide.com/en-us/research/best-eco-laundry-detergent</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/best-eco-laundry-detergent" target="_blank" rel="noopener">What Is the Best Eco-Friendly Laundry Detergent? | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/our-commitment/loads-of-hope" target="_blank" rel="noopener">https://tide.com/en-us/our-commitment/loads-of-hope</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/our-commitment/pva-in-tide-pods" target="_blank" rel="noopener">https://tide.com/en-us/our-commitment/pva-in-tide-pods</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/pva-in-tide-pods" target="_blank" rel="noopener">Polyvinyl Alcohol (PVA) in Tide PODS</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/our-commitment/superbowlLX" target="_blank" rel="noopener">https://tide.com/en-us/our-commitment/superbowlLX</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/superbowllx" target="_blank" rel="noopener">NFL Gameday Clean: Stain Removal for Every Fan | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/our-commitment/sustainability" target="_blank" rel="noopener">https://tide.com/en-us/our-commitment/sustainability</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/our-commitment/tide-boosted" target="_blank" rel="noopener">https://tide.com/en-us/our-commitment/tide-boosted</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/tide-boosted" target="_blank" rel="noopener">Fight Against Tough Stains with Tide Original Boosted | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/our-commitment/tide-cleaners-laundry-service" target="_blank" rel="noopener">https://tide.com/en-us/our-commitment/tide-cleaners-laundry-service</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/tide-cleaners-laundry-service" target="_blank" rel="noopener">Tide Cleaners - 24/7 Dry Cleaning and Laundry Service | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/our-commitment/tide-evo" target="_blank" rel="noopener">https://tide.com/en-us/our-commitment/tide-evo</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/tide-evo" target="_blank" rel="noopener">Tide evo - Detergent Entirely Made of Clean | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/our-commitment/tide-in-space" target="_blank" rel="noopener">https://tide.com/en-us/our-commitment/tide-in-space</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/tide-in-space" target="_blank" rel="noopener">Resource-constrained laundry solutions for astronauts | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/our-commitment/turn-to-cold" target="_blank" rel="noopener">https://tide.com/en-us/our-commitment/turn-to-cold</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/turn-to-cold" target="_blank" rel="noopener">Washing in Cold Water | #TurnToCold with Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/our-commitment/dont-pay-for-water" target="_blank" rel="noopener">https://tide.com/en-us/our-commitment/dont-pay-for-water</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/dont-pay-for-water" target="_blank" rel="noopener">Tide PODS® | Don’t Pay for Water, Pay for Clean | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/our-commitment/ingredients-and-safety" target="_blank" rel="noopener">https://tide.com/en-us/our-commitment/ingredients-and-safety</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/ingredients-and-safety" target="_blank" rel="noopener">The Tide Clean You Can Trust | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/how-to-wash-clothes/washing-machine-101" target="_blank" rel="noopener">https://tide.com/en-us/how-to-wash-clothes/washing-machine-101</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/washing-machine-101" target="_blank" rel="noopener">How to Use a Washing Machine - Washer Care | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors" target="_blank" rel="noopener">https://tide.com/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors" target="_blank" rel="noopener">How to Wash Different Fabrics &amp; Colors - Fabric care | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/how-to-wash-clothes/how-to-remove-stains" target="_blank" rel="noopener">https://tide.com/en-us/how-to-wash-clothes/how-to-remove-stains</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/how-to-remove-stains" target="_blank" rel="noopener">How to Remove Stains - Stain Removal Guide | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/how-to-wash-clothes/how-to-do-laundry" target="_blank" rel="noopener">https://tide.com/en-us/how-to-wash-clothes/how-to-do-laundry</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/how-to-do-laundry" target="_blank" rel="noopener">How to Do Laundry: Your Comprehensive Guide | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/research/are-scented-laundry-products-safe" target="_blank" rel="noopener">https://tide.com/en-us/research/are-scented-laundry-products-safe</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/are-scented-laundry-products-safe" target="_blank" rel="noopener">Are Scented Laundry Products Safe? A Comprehensive Scientific Review | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/how-to-do-laundry/detergent-residue-safety" target="_blank" rel="noopener">https://tide.com/en-us/how-to-do-laundry/detergent-residue-safety</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-do-laundry/detergent-residue-safety" target="_blank" rel="noopener">What’s Really on Your Clothes? The Truth About Detergent Residue and Safety | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/shop/top-collections/tide-free-and-gentle" target="_blank" rel="noopener">https://tide.com/en-us/shop/top-collections/tide-free-and-gentle</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-free-and-gentle" target="_blank" rel="noopener">Free &amp;amp; Gentle - Laundry Detergent Collections | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/rewards/laundrytips/how-to-remove-armpit-stains" target="_blank" rel="noopener">https://tide.com/en-us/rewards/laundrytips/how-to-remove-armpit-stains</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/rewards/laundrytips/how-to-remove-armpit-stains" target="_blank" rel="noopener">How to Remove Armpit Sweat Stains Easily | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/our-commitment/ingredients-and-safety/all-about-tide-ingredients" target="_blank" rel="noopener">https://tide.com/en-us/our-commitment/ingredients-and-safety/all-about-tide-ingredients</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/ingredients-and-safety/all-about-tide-ingredients" target="_blank" rel="noopener">All About Tide Ingredients | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/our-commitment/sustainability/compaction" target="_blank" rel="noopener">https://tide.com/en-us/our-commitment/sustainability/compaction</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/sustainability/compaction" target="_blank" rel="noopener">Compaction - Sustainability | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/our-commitment/americas-number-one-detergent/our-heritage" target="_blank" rel="noopener">https://tide.com/en-us/our-commitment/americas-number-one-detergent/our-heritage</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/americas-number-one-detergent/our-heritage" target="_blank" rel="noopener">Our Heritage - Learn About Tide’s History | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/how-to-wash-clothes/how-to-do-laundry/about-tide-pods-pva-film" target="_blank" rel="noopener">https://tide.com/en-us/how-to-wash-clothes/how-to-do-laundry/about-tide-pods-pva-film</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/how-to-do-laundry/about-tide-pods-pva-film" target="_blank" rel="noopener">Learn More About Tide PODs Innovative Water-Soluble Smart Film</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/how-to-wash-clothes/how-to-remove-stains/acne-cream-stains" target="_blank" rel="noopener">https://tide.com/en-us/how-to-wash-clothes/how-to-remove-stains/acne-cream-stains</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/how-to-remove-stains/acne-cream-stains" target="_blank" rel="noopener">How to Remove Acne Cream Stains | Stain Removal - Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors/everyday-items-to-wash-regularly" target="_blank" rel="noopener">https://tide.com/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors/everyday-items-to-wash-regularly</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors/everyday-items-to-wash-regularly" target="_blank" rel="noopener">12 Everyday Items You Should Wash Regularly | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine" target="_blank" rel="noopener">https://tide.com/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine" target="_blank" rel="noopener">A Basic Guide to How to Use a Washing Machine | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/rewards/loyalty/terms-and-conditions" target="_blank" rel="noopener">https://tide.com/en-us/rewards/loyalty/terms-and-conditions</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/rewards/loyalty/terms-and-conditions" target="_blank" rel="noopener">Loyalty Program Terms and Conditions | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/shop/special-needs/additives" target="_blank" rel="noopener">https://tide.com/en-us/shop/special-needs/additives</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/additives" target="_blank" rel="noopener">Browse Laundry Additives | Shop Products - Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/shop/type/stain-remover" target="_blank" rel="noopener">https://tide.com/en-us/shop/type/stain-remover</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/stain-remover" target="_blank" rel="noopener">Buy Stain Removal Products - Stain Remover | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/shop/type/powder" target="_blank" rel="noopener">https://tide.com/en-us/shop/type/powder</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/powder" target="_blank" rel="noopener">Shop or Buy Laundry Powder | Laundry Products - Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/shop/type/liquid" target="_blank" rel="noopener">https://tide.com/en-us/shop/type/liquid</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/liquid" target="_blank" rel="noopener">Shop Liquid and HE Liquid Laundry Detergents - Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/shop/type/laundry-tiles" target="_blank" rel="noopener">https://tide.com/en-us/shop/type/laundry-tiles</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/laundry-tiles" target="_blank" rel="noopener">Laundry Detergent and Fabric Care Products - Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/shop/type/laundry-booster" target="_blank" rel="noopener">https://tide.com/en-us/shop/type/laundry-booster</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/laundry-booster" target="_blank" rel="noopener">Shop Laundry Boosters | Additives - Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/shop/type/laundry-pods" target="_blank" rel="noopener">https://tide.com/en-us/shop/type/laundry-pods</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/laundry-pods" target="_blank" rel="noopener">Shop Pacs and Tide PODS® | Laundry Detergent - Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/shop/type/fabric-rinse" target="_blank" rel="noopener">https://tide.com/en-us/shop/type/fabric-rinse</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/fabric-rinse" target="_blank" rel="noopener">Shop Tide Fabric Rinse Products | Laundry Products - Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/shop/top-collections/tide-plus-febreze" target="_blank" rel="noopener">https://tide.com/en-us/shop/top-collections/tide-plus-febreze</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-plus-febreze" target="_blank" rel="noopener">Tide Plus Febreze Freshness Collection - Long Lasting | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/shop/top-collections/tide-power-pods" target="_blank" rel="noopener">https://tide.com/en-us/shop/top-collections/tide-power-pods</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-power-pods" target="_blank" rel="noopener">Tide Power PODS® collection page</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/shop/top-collections/tide-simply" target="_blank" rel="noopener">https://tide.com/en-us/shop/top-collections/tide-simply</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-simply" target="_blank" rel="noopener">Tide Simply - Laundry Detergent Collections | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/shop/top-collections/tide-ultra-oxi" target="_blank" rel="noopener">https://tide.com/en-us/shop/top-collections/tide-ultra-oxi</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-ultra-oxi" target="_blank" rel="noopener">Tide Ultra OXI | Laundry Detergent Collections - Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/shop/special-needs/stain-removal" target="_blank" rel="noopener">https://tide.com/en-us/shop/special-needs/stain-removal</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/stain-removal" target="_blank" rel="noopener">Buy Laundry Detergents for Stain Removal | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/shop/special-needs/whiteness" target="_blank" rel="noopener">https://tide.com/en-us/shop/special-needs/whiteness</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/whiteness" target="_blank" rel="noopener">Laundry Detergents For White Clothes - Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/shop/special-needs/odor-removal" target="_blank" rel="noopener">https://tide.com/en-us/shop/special-needs/odor-removal</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/odor-removal" target="_blank" rel="noopener">Browse Laundry Products for Odor Removal | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/shop/special-needs/sensitive" target="_blank" rel="noopener">https://tide.com/en-us/shop/special-needs/sensitive</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/sensitive" target="_blank" rel="noopener">Buy Laundry Detergents for Sensitive Skin - Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/shop/special-needs/freshness" target="_blank" rel="noopener">https://tide.com/en-us/shop/special-needs/freshness</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/freshness" target="_blank" rel="noopener">Browse or Buy Fresh Scented Laundry Detergents - Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/shop/special-needs/deep-clean" target="_blank" rel="noopener">https://tide.com/en-us/shop/special-needs/deep-clean</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/deep-clean" target="_blank" rel="noopener">Browse Laundry Detergents for Deep Clean - Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/our-commitment/sustainability/materials" target="_blank" rel="noopener">https://tide.com/en-us/our-commitment/sustainability/materials</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/sustainability/materials" target="_blank" rel="noopener">Materials - Sustainability | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://tide.com/en-us/our-commitment/sustainability/saving-energy" target="_blank" rel="noopener">https://tide.com/en-us/our-commitment/sustainability/saving-energy</a></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/sustainability/saving-energy" target="_blank" rel="noopener">How to Save Energy - Sustainability | Tide</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          </tbody>
+        </table>
+      </details>
+    </div>
+  </details>
+
+  <details class="spectrum-panel">
+    <summary class="spectrum-panel-header"><h2>Page templates</h2></summary>
+    <div class="panel-body">
+      <table>
+        <thead><tr><th>Template</th><th>Pages</th><th>Desktop</th><th>Mobile</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td>Home page</td><td>1</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Laundry tips and research articles</td><td>38</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Buy-now product pages</td><td>8</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Product collections</td><td>5</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Product listing pages</td><td>15</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Redirected addresses</td><td>5</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Section landing pages</td><td>6</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Sustainability stories</td><td>3</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>How-to-wash guides</td><td>4</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>One-of-a-kind pages</td><td>14</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" id="blocks-used">
+    <summary class="spectrum-panel-header"><h2>Blocks used</h2></summary>
+    <div class="panel-body">
+      <p>39 blocks in 148 variants across 94 pages. These are the building blocks your authors will work with.</p>
+      <input type="radio" name="blocks-page" id="bp-1" class="bp-radio" checked>
+      <input type="radio" name="blocks-page" id="bp-2" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-3" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-4" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-5" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-6" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-7" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-8" class="bp-radio">
+      <table class="blocks">
+        <thead><tr><th>Block</th><th>Variant</th><th>Pages</th></tr></thead>
+        <tbody class="bp-page bp-page-1">
+          <tr class="group"><td class="block">breadcrumb<span class="block-pages">60 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-0-0">View 60 pages</button></td></tr>
+          <tr class="group"><td class="block">jump-links<span class="block-pages">49 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-1-0">View 49 pages</button></td></tr>
+          <tr class="group"><td class="block">article-title-band<span class="block-pages">42 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-2-0">View 42 pages</button></td></tr>
+          <tr class="group"><td class="block">faq-accordion<span class="block-pages">31 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-3-0">View 31 pages</button></td></tr>
+          <tr class="group"><td class="block" rowspan="2">product-grid<span class="block-pages">20 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-4-0">View 15 pages</button></td></tr>
+          <tr><td><span class="variant">collection</span></td><td><button class="more" popovertarget="blocks-pages-4-1">View 5 pages</button></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-2">
+          <tr class="group"><td class="block" rowspan="2">plp-related<span class="block-pages">17 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-5-0">View 12 pages</button></td></tr>
+          <tr><td><span class="variant">desktop</span></td><td><button class="more" popovertarget="blocks-pages-5-1">View 5 pages</button></td></tr>
+          <tr class="group"><td class="block">plp-title-bar<span class="block-pages">15 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-6-0">View 15 pages</button></td></tr>
+          <tr class="group"><td class="block" rowspan="7">article-prose<span class="block-pages">13 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-7-0">View 10 pages</button></td></tr>
+          <tr><td><span class="variant">w9</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/rewards/laundrytips/how-to-remove-armpit-stains" target="_blank" rel="noopener">How to Remove Armpit Sweat Stains Easily | Tide</a> <span class="blocks-count">×3</span>, <a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/ingredients-and-safety/all-about-tide-ingredients" target="_blank" rel="noopener">All About Tide Ingredients | Tide</a> <span class="blocks-count">×5</span></td></tr>
+          <tr><td><span class="variant">blue</span><span class="variant">w9</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/rewards/laundrytips/how-to-remove-armpit-stains" target="_blank" rel="noopener">How to Remove Armpit Sweat Stains Easily | Tide</a></td></tr>
+          <tr><td><span class="variant">w10</span><span class="variant">center</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry" target="_blank" rel="noopener">Effective Stain and Odor Solutions with Tide: Your Guide to Fresh Laundry</a> <span class="blocks-count">×3</span></td></tr>
+          <tr><td><span class="variant">info</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors/everyday-items-to-wash-regularly" target="_blank" rel="noopener">12 Everyday Items You Should Wash Regularly | Tide</a> <span class="blocks-count">×3</span></td></tr>
+          <tr><td><span class="variant">orange</span><span class="variant">lead</span><span class="variant">w9</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/rewards/laundrytips/how-to-remove-armpit-stains" target="_blank" rel="noopener">How to Remove Armpit Sweat Stains Easily | Tide</a></td></tr>
+          <tr><td><span class="variant">w5</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors/everyday-items-to-wash-regularly" target="_blank" rel="noopener">12 Everyday Items You Should Wash Regularly | Tide</a> <span class="blocks-count">×5</span></td></tr>
+          <tr class="group"><td class="block" rowspan="11">feature-band-alternating<span class="block-pages">13 pages</span></td><td><span class="variant">overlay</span><span class="variant">orange</span></td><td><button class="more" popovertarget="blocks-pages-8-0">View 7 pages</button></td></tr>
+          <tr><td><span class="variant">overlay</span><span class="variant">orange</span><span class="variant">stacked</span><span class="variant">right</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/stain-remover" target="_blank" rel="noopener">Buy Stain Removal Products - Stain Remover | Tide</a>, <a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/laundry-pods" target="_blank" rel="noopener">Shop Pacs and Tide PODS® | Laundry Detergent - Tide</a>, <a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/deep-clean" target="_blank" rel="noopener">Browse Laundry Detergents for Deep Clean - Tide</a></td></tr>
+          <tr><td><span class="variant">overlay</span><span class="variant">white</span><span class="variant">stacked</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/liquid" target="_blank" rel="noopener">Shop Liquid and HE Liquid Laundry Detergents - Tide</a>, <a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/laundry-booster" target="_blank" rel="noopener">Shop Laundry Boosters | Additives - Tide</a>, <a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/laundry-pods" target="_blank" rel="noopener">Shop Pacs and Tide PODS® | Laundry Detergent - Tide</a></td></tr>
+          <tr><td><span class="variant">overlay</span><span class="variant">white</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/stain-remover" target="_blank" rel="noopener">Buy Stain Removal Products - Stain Remover | Tide</a>, <a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/laundry-pods" target="_blank" rel="noopener">Shop Pacs and Tide PODS® | Laundry Detergent - Tide</a>, <a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/odor-removal" target="_blank" rel="noopener">Browse Laundry Products for Odor Removal | Tide</a></td></tr>
+          <tr><td><span class="variant">overlay</span><span class="variant">orange</span><span class="variant">stacked</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/liquid" target="_blank" rel="noopener">Shop Liquid and HE Liquid Laundry Detergents - Tide</a>, <a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/stain-removal" target="_blank" rel="noopener">Buy Laundry Detergents for Stain Removal | Tide</a></td></tr>
+          <tr><td><span class="variant">boxed</span><span class="variant">blue</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us" target="_blank" rel="noopener">Laundry Detergent and Fabric Care Products - Tide</a></td></tr>
+          <tr><td><span class="variant">boxed</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us" target="_blank" rel="noopener">Laundry Detergent and Fabric Care Products - Tide</a></td></tr>
+          <tr><td><span class="variant">navy</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us" target="_blank" rel="noopener">Laundry Detergent and Fabric Care Products - Tide</a></td></tr>
+          <tr><td><span class="variant">overlay</span><span class="variant">orange</span><span class="variant">right</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/laundry-booster" target="_blank" rel="noopener">Shop Laundry Boosters | Additives - Tide</a></td></tr>
+          <tr><td><span class="variant">overlay</span><span class="variant">white</span><span class="variant">right</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/deep-clean" target="_blank" rel="noopener">Browse Laundry Detergents for Deep Clean - Tide</a></td></tr>
+          <tr><td><span class="variant">split</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us" target="_blank" rel="noopener">Laundry Detergent and Fabric Care Products - Tide</a></td></tr>
+          <tr class="group"><td class="block">collection-anchor<span class="block-pages">11 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-9-0">View 11 pages</button></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-3">
+          <tr class="group"><td class="block" rowspan="9">learn-more-card-grid<span class="block-pages">11 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us" target="_blank" rel="noopener">Laundry Detergent and Fabric Care Products - Tide</a>, <a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment" target="_blank" rel="noopener">Our Commitment - Learn More About The Brand | Tide</a></td></tr>
+          <tr><td><span class="variant">flush</span></td><td><button class="more" popovertarget="blocks-pages-10-1">View 4 pages</button></td></tr>
+          <tr><td><span class="variant">three-up</span><span class="variant">flush</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes" target="_blank" rel="noopener">How to Wash Clothes - Laundry Tips and Tricks | Tide</a>, <a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/americas-number-one-detergent" target="_blank" rel="noopener">America&#39;s #1 Detergent - Liquid, PODS® and More | Tide</a>, <a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/ingredients-and-safety" target="_blank" rel="noopener">The Tide Clean You Can Trust | Tide</a></td></tr>
+          <tr><td><span class="variant">three-up</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/latest-news" target="_blank" rel="noopener">Discover Tide&#39;s Latest News | Tide</a> <span class="blocks-count">×2</span>, <a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment" target="_blank" rel="noopener">Our Commitment - Learn More About The Brand | Tide</a></td></tr>
+          <tr><td><span class="variant">three-up</span><span class="variant">contained</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/rewards" target="_blank" rel="noopener">Laundry Detergent Pods Coupons and Rewards | Tide</a></td></tr>
+          <tr><td><span class="variant">three-up</span><span class="variant">flush</span><span class="variant">small</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/turn-to-cold" target="_blank" rel="noopener">Washing in Cold Water | #TurnToCold with Tide</a></td></tr>
+          <tr><td><span class="variant">three-up</span><span class="variant">flush</span><span class="variant">wide-art</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/tide-cleaners-laundry-service" target="_blank" rel="noopener">Tide Cleaners - 24/7 Dry Cleaning and Laundry Service | Tide</a></td></tr>
+          <tr><td><span class="variant">three-up</span><span class="variant">main-row</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/rewards/laundrytips" target="_blank" rel="noopener">Learn New Laundry Tips and Advice | Tide</a></td></tr>
+          <tr><td><span class="variant">three-up</span><span class="variant">products</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/latest-news" target="_blank" rel="noopener">Discover Tide&#39;s Latest News | Tide</a> <span class="blocks-count">×2</span></td></tr>
+          <tr class="group"><td class="block" rowspan="39">campaign-row<span class="block-pages">8 pages</span></td><td><span class="variant">app-band</span><span class="variant">no-art</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/tide-cleaners-laundry-service" target="_blank" rel="noopener">Tide Cleaners - 24/7 Dry Cleaning and Laundry Service | Tide</a></td></tr>
+          <tr><td><span class="variant">split</span><span class="variant">w5-6</span><span class="variant">center</span><span class="variant">reverse-mobile</span><span class="variant">art-576</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/dont-pay-for-water" target="_blank" rel="noopener">Tide PODS® | Don’t Pay for Water, Pay for Clean | Tide</a></td></tr>
+          <tr><td><span class="variant">nasa-box</span><span class="variant">art-576</span><span class="variant">left</span><span class="variant">mobile-box</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/tide-in-space" target="_blank" rel="noopener">Resource-constrained laundry solutions for astronauts | Tide</a></td></tr>
+          <tr><td><span class="variant">nasa-box</span><span class="variant">art-576</span><span class="variant">left</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/tide-in-space" target="_blank" rel="noopener">Resource-constrained laundry solutions for astronauts | Tide</a></td></tr>
+          <tr><td><span class="variant">nasa-box</span><span class="variant">art-576</span><span class="variant">right</span><span class="variant">mobile-box</span><span class="variant">pic-gap</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/tide-in-space" target="_blank" rel="noopener">Resource-constrained laundry solutions for astronauts | Tide</a></td></tr>
+          <tr><td><span class="variant">nasa-box</span><span class="variant">art-576</span><span class="variant">right</span><span class="variant">mobile-box</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/tide-in-space" target="_blank" rel="noopener">Resource-constrained laundry solutions for astronauts | Tide</a></td></tr>
+          <tr><td><span class="variant">nasa-hero</span><span class="variant">art-576</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/tide-in-space" target="_blank" rel="noopener">Resource-constrained laundry solutions for astronauts | Tide</a></td></tr>
+          <tr><td><span class="variant">heritage</span><span class="variant">art-768</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/americas-number-one-detergent/our-heritage" target="_blank" rel="noopener">Our Heritage - Learn About Tide’s History | Tide</a> <span class="blocks-count">×4</span></td></tr>
+          <tr><td><span class="variant">heritage</span><span class="variant">art-768</span><span class="variant">primary</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/americas-number-one-detergent/our-heritage" target="_blank" rel="noopener">Our Heritage - Learn About Tide’s History | Tide</a> <span class="blocks-count">×4</span></td></tr>
+          <tr><td><span class="variant">heritage</span><span class="variant">art-768</span><span class="variant">secondary</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/americas-number-one-detergent/our-heritage" target="_blank" rel="noopener">Our Heritage - Learn About Tide’s History | Tide</a> <span class="blocks-count">×4</span></td></tr>
+          <tr><td><span class="variant">split</span><span class="variant">band-orange</span><span class="variant">w3-9</span><span class="variant">lead</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/tide-cleaners-laundry-service" target="_blank" rel="noopener">Tide Cleaners - 24/7 Dry Cleaning and Laundry Service | Tide</a></td></tr>
+          <tr><td><span class="variant">boosted-check</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/tide-boosted" target="_blank" rel="noopener">Fight Against Tough Stains with Tide Original Boosted | Tide</a></td></tr>
+          <tr><td><span class="variant">boosted-hero</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/tide-boosted" target="_blank" rel="noopener">Fight Against Tough Stains with Tide Original Boosted | Tide</a></td></tr>
+          <tr><td><span class="variant">boosted-six</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/tide-boosted" target="_blank" rel="noopener">Fight Against Tough Stains with Tide Original Boosted | Tide</a></td></tr>
+          <tr><td><span class="variant">boosted-test</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/tide-boosted" target="_blank" rel="noopener">Fight Against Tough Stains with Tide Original Boosted | Tide</a></td></tr>
+          <tr><td><span class="variant">calculator</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/turn-to-cold" target="_blank" rel="noopener">Washing in Cold Water | #TurnToCold with Tide</a></td></tr>
+          <tr><td><span class="variant">text</span><span class="variant">center</span><span class="variant">find</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/tide-cleaners-laundry-service" target="_blank" rel="noopener">Tide Cleaners - 24/7 Dry Cleaning and Laundry Service | Tide</a></td></tr>
+          <tr><td><span class="variant">split</span><span class="variant">w5-6</span><span class="variant">center</span><span class="variant">natural</span><span class="variant">pic-gap</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/tide-in-space" target="_blank" rel="noopener">Resource-constrained laundry solutions for astronauts | Tide</a></td></tr>
+          <tr><td><span class="variant">split</span><span class="variant">w6-6</span><span class="variant">center</span><span class="variant">pic-gap</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/turn-to-cold" target="_blank" rel="noopener">Washing in Cold Water | #TurnToCold with Tide</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">hero-box</span><span class="variant">cleaners</span><span class="variant">pic-gap</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/tide-cleaners-laundry-service" target="_blank" rel="noopener">Tide Cleaners - 24/7 Dry Cleaning and Laundry Service | Tide</a></td></tr>
+          <tr><td><span class="variant">promo-embed</span><span class="variant">embed</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/superbowllx" target="_blank" rel="noopener">NFL Gameday Clean: Stain Removal for Every Fan | Tide</a></td></tr>
+          <tr><td><span class="variant">evo-benefits</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/tide-evo" target="_blank" rel="noopener">Tide evo - Detergent Entirely Made of Clean | Tide</a></td></tr>
+          <tr><td><span class="variant">evo-hero</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/tide-evo" target="_blank" rel="noopener">Tide evo - Detergent Entirely Made of Clean | Tide</a></td></tr>
+          <tr><td><span class="variant">text</span><span class="variant">flush</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/turn-to-cold" target="_blank" rel="noopener">Washing in Cold Water | #TurnToCold with Tide</a></td></tr>
+          <tr><td><span class="variant">hero-box</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/superbowllx" target="_blank" rel="noopener">NFL Gameday Clean: Stain Removal for Every Fan | Tide</a></td></tr>
+          <tr><td><span class="variant">list-cards</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/turn-to-cold" target="_blank" rel="noopener">Washing in Cold Water | #TurnToCold with Tide</a></td></tr>
+          <tr><td><span class="variant">text</span><span class="variant">m-sm</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/turn-to-cold" target="_blank" rel="noopener">Washing in Cold Water | #TurnToCold with Tide</a></td></tr>
+          <tr><td><span class="variant">text</span><span class="variant">mt-0</span><span class="variant">mb-0</span><span class="variant">note</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/turn-to-cold" target="_blank" rel="noopener">Washing in Cold Water | #TurnToCold with Tide</a></td></tr>
+          <tr><td><span class="variant">text</span><span class="variant">mb-0</span><span class="variant">w9</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/turn-to-cold" target="_blank" rel="noopener">Washing in Cold Water | #TurnToCold with Tide</a></td></tr>
+          <tr><td><span class="variant">nfl-intro</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/superbowllx" target="_blank" rel="noopener">NFL Gameday Clean: Stain Removal for Every Fan | Tide</a></td></tr>
+          <tr><td><span class="variant">pledge</span><span class="variant">no-art</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/turn-to-cold" target="_blank" rel="noopener">Washing in Cold Water | #TurnToCold with Tide</a></td></tr>
+          <tr><td><span class="variant">text</span><span class="variant">note</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/turn-to-cold" target="_blank" rel="noopener">Washing in Cold Water | #TurnToCold with Tide</a></td></tr>
+          <tr><td><span class="variant">text</span><span class="variant">options</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/tide-cleaners-laundry-service" target="_blank" rel="noopener">Tide Cleaners - 24/7 Dry Cleaning and Laundry Service | Tide</a></td></tr>
+          <tr><td><span class="variant">products-orange</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/turn-to-cold" target="_blank" rel="noopener">Washing in Cold Water | #TurnToCold with Tide</a></td></tr>
+          <tr><td><span class="variant">split</span><span class="variant">w4-8</span><span class="variant">top</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/tide-cleaners-laundry-service" target="_blank" rel="noopener">Tide Cleaners - 24/7 Dry Cleaning and Laundry Service | Tide</a></td></tr>
+          <tr><td><span class="variant">split</span><span class="variant">w6-6</span><span class="variant">top</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/tide-cleaners-laundry-service" target="_blank" rel="noopener">Tide Cleaners - 24/7 Dry Cleaning and Laundry Service | Tide</a></td></tr>
+          <tr><td><span class="variant">text</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/americas-number-one-detergent/our-heritage" target="_blank" rel="noopener">Our Heritage - Learn About Tide’s History | Tide</a></td></tr>
+          <tr><td><span class="variant">text</span><span class="variant">w9</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/turn-to-cold" target="_blank" rel="noopener">Washing in Cold Water | #TurnToCold with Tide</a></td></tr>
+          <tr><td><span class="variant">video-banner</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/dont-pay-for-water" target="_blank" rel="noopener">Tide PODS® | Don’t Pay for Water, Pay for Clean | Tide</a></td></tr>
+          <tr class="group"><td class="block" rowspan="7">shopper-choice<span class="block-pages">8 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/click2cart/0060001" target="_blank" rel="noopener">Click2Cart</a></td></tr>
+          <tr><td><span class="variant">ground-grey</span><span class="variant">ink-grey</span><span class="variant">accent-teal</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/click2cart/006000i" target="_blank" rel="noopener">Click2Cart</a>, <a href="https://main--5db7d055--aemcoder.aem.page/en-us/click2cart/006000b" target="_blank" rel="noopener">Click2Cart</a></td></tr>
+          <tr><td><span class="variant">ground-image</span><span class="variant">ink-grey</span><span class="variant">accent-navy</span><span class="variant">panel-white</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/click2cart/00600bt" target="_blank" rel="noopener">Click2Cart</a></td></tr>
+          <tr><td><span class="variant">ground-grey</span><span class="variant">ink-grey</span><span class="variant">accent-teal</span><span class="variant">rating</span><span class="variant">desktop</span><span class="variant">muted</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/click2cart/006000q" target="_blank" rel="noopener">Click2Cart</a></td></tr>
+          <tr><td><span class="variant">ground-grey</span><span class="variant">ink-grey</span><span class="variant">accent-teal</span><span class="variant">panel-white</span><span class="variant">products</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/click2cart/006000p" target="_blank" rel="noopener">Click2Cart</a></td></tr>
+          <tr><td><span class="variant">ground-grey</span><span class="variant">ink-grey</span><span class="variant">accent-teal</span><span class="variant">rating</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/click2cart/006000h" target="_blank" rel="noopener">Click2Cart</a></td></tr>
+          <tr><td><span class="variant">ground-grey</span><span class="variant">ink-grey</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/click2cart/006000z" target="_blank" rel="noopener">Click2Cart</a></td></tr>
+          <tr class="group"><td class="block" rowspan="2">section-landing-hero-card<span class="block-pages">7 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-13-0">View 6 pages</button></td></tr>
+          <tr><td><span class="variant">no-box</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/rewards/laundrytips" target="_blank" rel="noopener">Learn New Laundry Tips and Advice | Tide</a></td></tr>
+          <tr class="group"><td class="block" rowspan="3">article-related<span class="block-pages">6 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-14-0">View 4 pages</button></td></tr>
+          <tr><td><span class="variant">products</span></td><td><button class="more" popovertarget="blocks-pages-14-1">View 5 pages</button></td></tr>
+          <tr><td><span class="variant">products</span><span class="variant">orange</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/how-to-remove-stains/acne-cream-stains" target="_blank" rel="noopener">How to Remove Acne Cream Stains | Stain Removal - Tide</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-4">
+          <tr class="group"><td class="block" rowspan="3">table<span class="block-pages">6 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/best-quality-detergent" target="_blank" rel="noopener">What Is the Best Detergent in Terms of Quality? What the Science Actually Shows</a>, <a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/laundry-detergent-science-testing" target="_blank" rel="noopener">Is Tide Safe? The Science Behind Laundry Detergent Safety and Ingredient Testing | Tide</a></td></tr>
+          <tr><td><span class="variant">header</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/scientific-guide-laundry-sensitive-skin" target="_blank" rel="noopener">Laundry for Sensitive Skin: The Science of Detergents | Tide</a> <span class="blocks-count">×2</span>, <a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/pva-in-tide-pods" target="_blank" rel="noopener">Polyvinyl Alcohol (PVA) in Tide PODS</a>, <a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/how-to-do-laundry/about-tide-pods-pva-film" target="_blank" rel="noopener">Learn More About Tide PODs Innovative Water-Soluble Smart Film</a></td></tr>
+          <tr><td><span class="variant">rows</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/rewards/loyalty/terms-and-conditions" target="_blank" rel="noopener">Loyalty Program Terms and Conditions | Tide</a></td></tr>
+          <tr class="group"><td class="block" rowspan="15">collection-banner<span class="block-pages">5 pages</span></td><td><span class="variant">scents</span><span class="variant">display-h2</span><span class="variant">blue</span><span class="variant">p-ultra</span><span class="variant">p-upper</span><span class="variant">mt-5</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-simply" target="_blank" rel="noopener">Tide Simply - Laundry Detergent Collections | Tide</a></td></tr>
+          <tr><td><span class="variant">blue-split</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-power-pods" target="_blank" rel="noopener">Tide Power PODS® collection page</a></td></tr>
+          <tr><td><span class="variant">centered</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-free-and-gentle" target="_blank" rel="noopener">Free &amp;amp; Gentle - Laundry Detergent Collections | Tide</a></td></tr>
+          <tr><td><span class="variant">closing</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-free-and-gentle" target="_blank" rel="noopener">Free &amp;amp; Gentle - Laundry Detergent Collections | Tide</a></td></tr>
+          <tr><td><span class="variant">works</span><span class="variant">image-left</span><span class="variant">display-h2</span><span class="variant">no-border</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-plus-febreze" target="_blank" rel="noopener">Tide Plus Febreze Freshness Collection - Long Lasting | Tide</a></td></tr>
+          <tr><td><span class="variant">scents</span><span class="variant">display-h2</span><span class="variant">p-ultra</span><span class="variant">p-upper</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-plus-febreze" target="_blank" rel="noopener">Tide Plus Febreze Freshness Collection - Long Lasting | Tide</a></td></tr>
+          <tr><td><span class="variant">right</span><span class="variant">top-30</span><span class="variant">display-h2-small</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-simply" target="_blank" rel="noopener">Tide Simply - Laundry Detergent Collections | Tide</a></td></tr>
+          <tr><td><span class="variant">intro</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-free-and-gentle" target="_blank" rel="noopener">Free &amp;amp; Gentle - Laundry Detergent Collections | Tide</a></td></tr>
+          <tr><td><span class="variant">works</span><span class="variant">narrow</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-power-pods" target="_blank" rel="noopener">Tide Power PODS® collection page</a></td></tr>
+          <tr><td><span class="variant">overlay</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-ultra-oxi" target="_blank" rel="noopener">Tide Ultra OXI | Laundry Detergent Collections - Tide</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">works</span><span class="variant">pb-5</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-simply" target="_blank" rel="noopener">Tide Simply - Laundry Detergent Collections | Tide</a></td></tr>
+          <tr><td><span class="variant">pods</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-power-pods" target="_blank" rel="noopener">Tide Power PODS® collection page</a></td></tr>
+          <tr><td><span class="variant">right</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-free-and-gentle" target="_blank" rel="noopener">Free &amp;amp; Gentle - Laundry Detergent Collections | Tide</a></td></tr>
+          <tr><td><span class="variant">split</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-free-and-gentle" target="_blank" rel="noopener">Free &amp;amp; Gentle - Laundry Detergent Collections | Tide</a></td></tr>
+          <tr><td><span class="variant">works</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-free-and-gentle" target="_blank" rel="noopener">Free &amp;amp; Gentle - Laundry Detergent Collections | Tide</a></td></tr>
+          <tr class="group"><td class="block" rowspan="11">collection-hero<span class="block-pages">5 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-free-and-gentle" target="_blank" rel="noopener">Free &amp;amp; Gentle - Laundry Detergent Collections | Tide</a></td></tr>
+          <tr><td><span class="variant">orange-ground</span><span class="variant">v-center</span><span class="variant">blue-cta</span><span class="variant">white-h1</span><span class="variant">white-h2</span><span class="variant">half</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-power-pods" target="_blank" rel="noopener">Tide Power PODS® collection page</a></td></tr>
+          <tr><td><span class="variant">orange-ground</span><span class="variant">blue-cta</span><span class="variant">white-h1</span><span class="variant">white-h2</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-ultra-oxi" target="_blank" rel="noopener">Tide Ultra OXI | Laundry Detergent Collections - Tide</a></td></tr>
+          <tr><td><span class="variant">blue-cta</span><span class="variant">white-h1</span><span class="variant">white-h2</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-plus-febreze" target="_blank" rel="noopener">Tide Plus Febreze Freshness Collection - Long Lasting | Tide</a></td></tr>
+          <tr><td><span class="variant">middle</span><span class="variant">margin-lg</span><span class="variant">display-h2</span><span class="variant">orange</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-plus-febreze" target="_blank" rel="noopener">Tide Plus Febreze Freshness Collection - Long Lasting | Tide</a></td></tr>
+          <tr><td><span class="variant">middle</span><span class="variant">display-h2</span><span class="variant">p-bigger</span><span class="variant">p-top</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-plus-febreze" target="_blank" rel="noopener">Tide Plus Febreze Freshness Collection - Long Lasting | Tide</a></td></tr>
+          <tr><td><span class="variant">top-150</span><span class="variant">display-h2-small</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-simply" target="_blank" rel="noopener">Tide Simply - Laundry Detergent Collections | Tide</a></td></tr>
+          <tr><td><span class="variant">lg-center</span><span class="variant">shirt</span><span class="variant">white-h2</span><span class="variant">h2-bigger</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-power-pods" target="_blank" rel="noopener">Tide Power PODS® collection page</a></td></tr>
+          <tr><td><span class="variant">lg-center</span><span class="variant">white-h2</span><span class="variant">h2-bigger</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-ultra-oxi" target="_blank" rel="noopener">Tide Ultra OXI | Laundry Detergent Collections - Tide</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">middle</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-simply" target="_blank" rel="noopener">Tide Simply - Laundry Detergent Collections | Tide</a></td></tr>
+          <tr><td><span class="variant">theme-orange</span><span class="variant">navy-h1</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-simply" target="_blank" rel="noopener">Tide Simply - Laundry Detergent Collections | Tide</a></td></tr>
+          <tr class="group"><td class="block">step-timeline<span class="block-pages">5 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-18-0">View 5 pages</button></td></tr>
+          <tr class="group"><td class="block">topic-hub-back-to-top<span class="block-pages">5 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-19-0">View 5 pages</button></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-5">
+          <tr class="group"><td class="block">topic-hub-guide-header<span class="block-pages">4 pages</span></td><td><span class="variant">orange</span></td><td><button class="more" popovertarget="blocks-pages-20-0">View 4 pages</button></td></tr>
+          <tr class="group"><td class="block">topic-hub-intro<span class="block-pages">4 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-21-0">View 4 pages</button></td></tr>
+          <tr class="group"><td class="block">safety-band<span class="block-pages">3 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/powder" target="_blank" rel="noopener">Shop or Buy Laundry Powder | Laundry Products - Tide</a>, <a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/laundry-booster" target="_blank" rel="noopener">Shop Laundry Boosters | Additives - Tide</a>, <a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/laundry-pods" target="_blank" rel="noopener">Shop Pacs and Tide PODS® | Laundry Detergent - Tide</a></td></tr>
+          <tr class="group"><td class="block">section-landing-video<span class="block-pages">3 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment" target="_blank" rel="noopener">Our Commitment - Learn More About The Brand | Tide</a>, <a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/ingredients-and-safety" target="_blank" rel="noopener">The Tide Clean You Can Trust | Tide</a>, <a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/how-to-do-laundry" target="_blank" rel="noopener">How to Do Laundry: Your Comprehensive Guide | Tide</a></td></tr>
+          <tr class="group"><td class="block" rowspan="3">sustainability-split<span class="block-pages">3 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/sustainability/compaction" target="_blank" rel="noopener">Compaction - Sustainability | Tide</a> <span class="blocks-count">×4</span>, <a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/sustainability/materials" target="_blank" rel="noopener">Materials - Sustainability | Tide</a> <span class="blocks-count">×5</span></td></tr>
+          <tr><td><span class="variant">centered</span><span class="variant">band</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/sustainability/saving-energy" target="_blank" rel="noopener">How to Save Energy - Sustainability | Tide</a></td></tr>
+          <tr><td><span class="variant">centered</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/sustainability/saving-energy" target="_blank" rel="noopener">How to Save Energy - Sustainability | Tide</a> <span class="blocks-count">×7</span></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-6">
+          <tr class="group"><td class="block" rowspan="2">stain-guide-widget<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us" target="_blank" rel="noopener">Laundry Detergent and Fabric Care Products - Tide</a></td></tr>
+          <tr><td><span class="variant">orange</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/how-to-remove-stains" target="_blank" rel="noopener">How to Remove Stains - Stain Removal Guide | Tide</a></td></tr>
+          <tr class="group"><td class="block" rowspan="2">video-carousel<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/tide-evo" target="_blank" rel="noopener">Tide evo - Detergent Entirely Made of Clean | Tide</a></td></tr>
+          <tr><td><span class="variant">vertical</span><span class="variant">white</span><span class="variant">mute</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/superbowllx" target="_blank" rel="noopener">NFL Gameday Clean: Stain Removal for Every Fan | Tide</a></td></tr>
+          <tr class="group"><td class="block">article-guide<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry" target="_blank" rel="noopener">Effective Stain and Odor Solutions with Tide: Your Guide to Fresh Laundry</a></td></tr>
+          <tr class="group"><td class="block">browse-tiles<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us" target="_blank" rel="noopener">Laundry Detergent and Fabric Care Products - Tide</a></td></tr>
+          <tr class="group"><td class="block" rowspan="3">columns<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors/everyday-items-to-wash-regularly" target="_blank" rel="noopener">12 Everyday Items You Should Wash Regularly | Tide</a> <span class="blocks-count">×9</span></td></tr>
+          <tr><td><span class="variant">numbered</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors/everyday-items-to-wash-regularly" target="_blank" rel="noopener">12 Everyday Items You Should Wash Regularly | Tide</a></td></tr>
+          <tr><td><span class="variant">top</span><span class="variant">numbered</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors/everyday-items-to-wash-regularly" target="_blank" rel="noopener">12 Everyday Items You Should Wash Regularly | Tide</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-7">
+          <tr class="group"><td class="block">embed-frame<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/contact-us" target="_blank" rel="noopener">Laundry Detergent and Fabric Care Products - Tide</a></td></tr>
+          <tr class="group"><td class="block">home-promo-carousel<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us" target="_blank" rel="noopener">Laundry Detergent and Fabric Care Products - Tide</a></td></tr>
+          <tr class="group"><td class="block" rowspan="3">news-banner<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/latest-news" target="_blank" rel="noopener">Discover Tide&#39;s Latest News | Tide</a> <span class="blocks-count">×3</span></td></tr>
+          <tr><td><span class="variant">card</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/latest-news" target="_blank" rel="noopener">Discover Tide&#39;s Latest News | Tide</a></td></tr>
+          <tr><td><span class="variant">right</span><span class="variant">orange</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/latest-news" target="_blank" rel="noopener">Discover Tide&#39;s Latest News | Tide</a></td></tr>
+          <tr class="group"><td class="block">plain-page<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/health-probe" target="_blank" rel="noopener">Health probe page</a></td></tr>
+          <tr class="group"><td class="block" rowspan="3">rewards-module<span class="block-pages">1 page</span></td><td><span class="variant">hero</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/rewards" target="_blank" rel="noopener">Laundry Detergent Pods Coupons and Rewards | Tide</a></td></tr>
+          <tr><td><span class="variant">image</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/rewards" target="_blank" rel="noopener">Laundry Detergent Pods Coupons and Rewards | Tide</a></td></tr>
+          <tr><td><span class="variant">tiles</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/rewards" target="_blank" rel="noopener">Laundry Detergent Pods Coupons and Rewards | Tide</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-8">
+          <tr class="group"><td class="block">sitemap<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/sitemap" target="_blank" rel="noopener">Laundry Detergent and Fabric Care Products - Tide</a></td></tr>
+          <tr class="group"><td class="block">stain-intro<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/how-to-remove-stains/acne-cream-stains" target="_blank" rel="noopener">How to Remove Acne Cream Stains | Stain Removal - Tide</a></td></tr>
+          <tr class="group"><td class="block">stain-steps<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/how-to-remove-stains/acne-cream-stains" target="_blank" rel="noopener">How to Remove Acne Cream Stains | Stain Removal - Tide</a></td></tr>
+          <tr class="group"><td class="block">topic-hub-stain-index<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/how-to-remove-stains" target="_blank" rel="noopener">How to Remove Stains - Stain Removal Guide | Tide</a></td></tr>
+        </tbody>
+      </table>
+      <nav class="pager" aria-label="Pages of blocks"><span class="bp-range bp-range-1">Blocks 1–5 of 39</span><span class="bp-range bp-range-2">Blocks 6–10 of 39</span><span class="bp-range bp-range-3">Blocks 11–15 of 39</span><span class="bp-range bp-range-4">Blocks 16–20 of 39</span><span class="bp-range bp-range-5">Blocks 21–25 of 39</span><span class="bp-range bp-range-6">Blocks 26–30 of 39</span><span class="bp-range bp-range-7">Blocks 31–35 of 39</span><span class="bp-range bp-range-8">Blocks 36–39 of 39</span><div class="labels"><label for="bp-1" class="spectrum-button spectrum-button--quiet">1</label><label for="bp-2" class="spectrum-button spectrum-button--quiet">2</label><label for="bp-3" class="spectrum-button spectrum-button--quiet">3</label><label for="bp-4" class="spectrum-button spectrum-button--quiet">4</label><label for="bp-5" class="spectrum-button spectrum-button--quiet">5</label><label for="bp-6" class="spectrum-button spectrum-button--quiet">6</label><label for="bp-7" class="spectrum-button spectrum-button--quiet">7</label><label for="bp-8" class="spectrum-button spectrum-button--quiet">8</label></div></nav>
+      <div popover id="blocks-pages-0-0" class="blocks-popover" aria-labelledby="blocks-pages-0-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-0-0-title">breadcrumb <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 60 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-0-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop" target="_blank" rel="noopener">Laundry Detergent and Fabric Care Products - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/are-detergents-toxic-science" target="_blank" rel="noopener">Are Detergents Toxic? See What Science Says | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry" target="_blank" rel="noopener">Effective Stain and Odor Solutions with Tide: Your Guide to Fresh Laundry</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-do-laundry/better-clean-safer" target="_blank" rel="noopener">Why a Better Clean Is Essential for a Safer Clean (Especially for Sensitive Skin) | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/scientific-guide-laundry-sensitive-skin" target="_blank" rel="noopener">Laundry for Sensitive Skin: The Science of Detergents | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/signs-of-fragrance-safety" target="_blank" rel="noopener">3 Signs a Company Takes Fragrance Safety Seriously | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/tide-environment-safety" target="_blank" rel="noopener">Is Tide Bad for the Environment? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/tide-evo-dissolve-guide" target="_blank" rel="noopener">Does Tide Evo Fully Dissolve? The Complete Guide to Preventing Residue</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/tide-value-framework" target="_blank" rel="noopener">Evaluating Tide Through the Value Framework | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/vocs-laundry-products-airborne-emissions" target="_blank" rel="noopener">Volatile Organic Compounds (VOCs) in Laundry Products: Does VOC Content Translate to Airborne Emissions? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/what-is-best-eco-detergent" target="_blank" rel="noopener">What is the Best Eco Detergent? Detergent’s Impact on the Environment | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/what-makes-laundry-scent-safe" target="_blank" rel="noopener">What Makes a Laundry Scent Safe? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/why-cost-per-load-isnt-whole-story" target="_blank" rel="noopener">Why Cost Per Load Does Not Tell the Whole Story | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/why-rewashes-make-laundry-more-expensive" target="_blank" rel="noopener">Why Re-Washes Make Laundry More Expensive | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/laundry-scent-and-indoor-air" target="_blank" rel="noopener">If You Can Smell Your Laundry Scent, Is It Harming Your Air? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/natural-detergent-baby-clothes" target="_blank" rel="noopener">Is a Natural Detergent Best for Baby Clothes? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/odor-after-washing" target="_blank" rel="noopener">Why Does Laundry Retain Odor After Washing? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/pva-technical-review" target="_blank" rel="noopener">Fact-Check: Why the Rolsky (2021) PVA Study is Flawed</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/best-laundry-detergent-baby-clothes" target="_blank" rel="noopener">What Is the Best Laundry Detergent for Baby Clothes? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/best-quality-detergent" target="_blank" rel="noopener">What Is the Best Detergent in Terms of Quality? What the Science Actually Shows</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/cold-water-vs-laundry-cost" target="_blank" rel="noopener">How Cold-Water Performance Can Affect Laundry Cost | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/detergent-sheets-pods-liquid" target="_blank" rel="noopener">Are Detergent Sheets or Pods Better for the Environment Than Liquid? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/do-you-need-special-baby-detergent" target="_blank" rel="noopener">Do You Need a Special Baby Detergent? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/environmentally-friendly-way-laundry" target="_blank" rel="noopener">What Is the Most Environmentally Friendly Way to Do Laundry? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/evaluate-true-value-laundry-detergent" target="_blank" rel="noopener">Beyond the Shelf Price: A Comprehensive Economic Framework for Evaluating Laundry Detergent Value | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/fragrance-meaning-on-ingredient-label" target="_blank" rel="noopener">What Does &#39;Fragrance&#39; on a Label Actually Mean? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/hazard-vs-risk-laundry-detergent" target="_blank" rel="noopener">Hazard vs. Risk in Laundry Detergent: How Exposure Changes What “Toxic” Really Means | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/how-enzymes-help-remove-baby-stains" target="_blank" rel="noopener">How Enzymes Help Remove Baby Stains | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/how-to-choose-detergent-for-value" target="_blank" rel="noopener">How to Choose a Detergent for Value | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/laundry-detergent-science-testing" target="_blank" rel="noopener">Is Tide Safe? The Science Behind Laundry Detergent Safety and Ingredient Testing | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/best-eco-laundry-detergent" target="_blank" rel="noopener">What Is the Best Eco-Friendly Laundry Detergent? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/pva-in-tide-pods" target="_blank" rel="noopener">Polyvinyl Alcohol (PVA) in Tide PODS</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/tide-cleaners-laundry-service" target="_blank" rel="noopener">Tide Cleaners - 24/7 Dry Cleaning and Laundry Service | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/tide-evo" target="_blank" rel="noopener">Tide evo - Detergent Entirely Made of Clean | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/are-scented-laundry-products-safe" target="_blank" rel="noopener">Are Scented Laundry Products Safe? A Comprehensive Scientific Review | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-do-laundry/detergent-residue-safety" target="_blank" rel="noopener">What’s Really on Your Clothes? The Truth About Detergent Residue and Safety | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/rewards/laundrytips/how-to-remove-armpit-stains" target="_blank" rel="noopener">How to Remove Armpit Sweat Stains Easily | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/ingredients-and-safety/all-about-tide-ingredients" target="_blank" rel="noopener">All About Tide Ingredients | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/sustainability/compaction" target="_blank" rel="noopener">Compaction - Sustainability | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/americas-number-one-detergent/our-heritage" target="_blank" rel="noopener">Our Heritage - Learn About Tide’s History | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/how-to-do-laundry/about-tide-pods-pva-film" target="_blank" rel="noopener">Learn More About Tide PODs Innovative Water-Soluble Smart Film</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/how-to-remove-stains/acne-cream-stains" target="_blank" rel="noopener">How to Remove Acne Cream Stains | Stain Removal - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors/everyday-items-to-wash-regularly" target="_blank" rel="noopener">12 Everyday Items You Should Wash Regularly | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/rewards/loyalty/terms-and-conditions" target="_blank" rel="noopener">Loyalty Program Terms and Conditions | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/additives" target="_blank" rel="noopener">Browse Laundry Additives | Shop Products - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/stain-remover" target="_blank" rel="noopener">Buy Stain Removal Products - Stain Remover | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/powder" target="_blank" rel="noopener">Shop or Buy Laundry Powder | Laundry Products - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/liquid" target="_blank" rel="noopener">Shop Liquid and HE Liquid Laundry Detergents - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/laundry-tiles" target="_blank" rel="noopener">Laundry Detergent and Fabric Care Products - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/laundry-booster" target="_blank" rel="noopener">Shop Laundry Boosters | Additives - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/laundry-pods" target="_blank" rel="noopener">Shop Pacs and Tide PODS® | Laundry Detergent - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/fabric-rinse" target="_blank" rel="noopener">Shop Tide Fabric Rinse Products | Laundry Products - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/stain-removal" target="_blank" rel="noopener">Buy Laundry Detergents for Stain Removal | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/whiteness" target="_blank" rel="noopener">Laundry Detergents For White Clothes - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/odor-removal" target="_blank" rel="noopener">Browse Laundry Products for Odor Removal | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/sensitive" target="_blank" rel="noopener">Buy Laundry Detergents for Sensitive Skin - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/freshness" target="_blank" rel="noopener">Browse or Buy Fresh Scented Laundry Detergents - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/deep-clean" target="_blank" rel="noopener">Browse Laundry Detergents for Deep Clean - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/sustainability/materials" target="_blank" rel="noopener">Materials - Sustainability | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/sustainability/saving-energy" target="_blank" rel="noopener">How to Save Energy - Sustainability | Tide</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-1-0" class="blocks-popover" aria-labelledby="blocks-pages-1-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-1-0-title">jump-links <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 49 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-1-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/latest-news" target="_blank" rel="noopener">Discover Tide&#39;s Latest News | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/are-detergents-toxic-science" target="_blank" rel="noopener">Are Detergents Toxic? See What Science Says | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry" target="_blank" rel="noopener">Effective Stain and Odor Solutions with Tide: Your Guide to Fresh Laundry</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-do-laundry/better-clean-safer" target="_blank" rel="noopener">Why a Better Clean Is Essential for a Safer Clean (Especially for Sensitive Skin) | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/scientific-guide-laundry-sensitive-skin" target="_blank" rel="noopener">Laundry for Sensitive Skin: The Science of Detergents | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/signs-of-fragrance-safety" target="_blank" rel="noopener">3 Signs a Company Takes Fragrance Safety Seriously | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/tide-environment-safety" target="_blank" rel="noopener">Is Tide Bad for the Environment? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/tide-evo-dissolve-guide" target="_blank" rel="noopener">Does Tide Evo Fully Dissolve? The Complete Guide to Preventing Residue</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/tide-value-framework" target="_blank" rel="noopener">Evaluating Tide Through the Value Framework | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/vocs-laundry-products-airborne-emissions" target="_blank" rel="noopener">Volatile Organic Compounds (VOCs) in Laundry Products: Does VOC Content Translate to Airborne Emissions? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/what-is-best-eco-detergent" target="_blank" rel="noopener">What is the Best Eco Detergent? Detergent’s Impact on the Environment | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/what-makes-laundry-scent-safe" target="_blank" rel="noopener">What Makes a Laundry Scent Safe? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/why-cost-per-load-isnt-whole-story" target="_blank" rel="noopener">Why Cost Per Load Does Not Tell the Whole Story | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/why-rewashes-make-laundry-more-expensive" target="_blank" rel="noopener">Why Re-Washes Make Laundry More Expensive | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/laundry-scent-and-indoor-air" target="_blank" rel="noopener">If You Can Smell Your Laundry Scent, Is It Harming Your Air? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/natural-detergent-baby-clothes" target="_blank" rel="noopener">Is a Natural Detergent Best for Baby Clothes? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/odor-after-washing" target="_blank" rel="noopener">Why Does Laundry Retain Odor After Washing? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/pva-technical-review" target="_blank" rel="noopener">Fact-Check: Why the Rolsky (2021) PVA Study is Flawed</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/best-laundry-detergent-baby-clothes" target="_blank" rel="noopener">What Is the Best Laundry Detergent for Baby Clothes? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/best-quality-detergent" target="_blank" rel="noopener">What Is the Best Detergent in Terms of Quality? What the Science Actually Shows</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/cold-water-vs-laundry-cost" target="_blank" rel="noopener">How Cold-Water Performance Can Affect Laundry Cost | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/detergent-sheets-pods-liquid" target="_blank" rel="noopener">Are Detergent Sheets or Pods Better for the Environment Than Liquid? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/do-you-need-special-baby-detergent" target="_blank" rel="noopener">Do You Need a Special Baby Detergent? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/environmentally-friendly-way-laundry" target="_blank" rel="noopener">What Is the Most Environmentally Friendly Way to Do Laundry? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/evaluate-true-value-laundry-detergent" target="_blank" rel="noopener">Beyond the Shelf Price: A Comprehensive Economic Framework for Evaluating Laundry Detergent Value | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/fragrance-meaning-on-ingredient-label" target="_blank" rel="noopener">What Does &#39;Fragrance&#39; on a Label Actually Mean? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/hazard-vs-risk-laundry-detergent" target="_blank" rel="noopener">Hazard vs. Risk in Laundry Detergent: How Exposure Changes What “Toxic” Really Means | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/how-enzymes-help-remove-baby-stains" target="_blank" rel="noopener">How Enzymes Help Remove Baby Stains | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/how-to-choose-detergent-for-value" target="_blank" rel="noopener">How to Choose a Detergent for Value | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/laundry-detergent-science-testing" target="_blank" rel="noopener">Is Tide Safe? The Science Behind Laundry Detergent Safety and Ingredient Testing | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/best-eco-laundry-detergent" target="_blank" rel="noopener">What Is the Best Eco-Friendly Laundry Detergent? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/turn-to-cold" target="_blank" rel="noopener">Washing in Cold Water | #TurnToCold with Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors" target="_blank" rel="noopener">How to Wash Different Fabrics &amp; Colors - Fabric care | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/how-to-remove-stains" target="_blank" rel="noopener">How to Remove Stains - Stain Removal Guide | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/how-to-do-laundry" target="_blank" rel="noopener">How to Do Laundry: Your Comprehensive Guide | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/are-scented-laundry-products-safe" target="_blank" rel="noopener">Are Scented Laundry Products Safe? A Comprehensive Scientific Review | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-do-laundry/detergent-residue-safety" target="_blank" rel="noopener">What’s Really on Your Clothes? The Truth About Detergent Residue and Safety | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-free-and-gentle" target="_blank" rel="noopener">Free &amp;amp; Gentle - Laundry Detergent Collections | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/ingredients-and-safety/all-about-tide-ingredients" target="_blank" rel="noopener">All About Tide Ingredients | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/sustainability/compaction" target="_blank" rel="noopener">Compaction - Sustainability | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/how-to-do-laundry/about-tide-pods-pva-film" target="_blank" rel="noopener">Learn More About Tide PODs Innovative Water-Soluble Smart Film</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/how-to-remove-stains/acne-cream-stains" target="_blank" rel="noopener">How to Remove Acne Cream Stains | Stain Removal - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors/everyday-items-to-wash-regularly" target="_blank" rel="noopener">12 Everyday Items You Should Wash Regularly | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine" target="_blank" rel="noopener">A Basic Guide to How to Use a Washing Machine | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-plus-febreze" target="_blank" rel="noopener">Tide Plus Febreze Freshness Collection - Long Lasting | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-power-pods" target="_blank" rel="noopener">Tide Power PODS® collection page</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-simply" target="_blank" rel="noopener">Tide Simply - Laundry Detergent Collections | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-ultra-oxi" target="_blank" rel="noopener">Tide Ultra OXI | Laundry Detergent Collections - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/sustainability/materials" target="_blank" rel="noopener">Materials - Sustainability | Tide</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-2-0" class="blocks-popover" aria-labelledby="blocks-pages-2-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-2-0-title">article-title-band <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 42 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-2-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/are-detergents-toxic-science" target="_blank" rel="noopener">Are Detergents Toxic? See What Science Says | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry" target="_blank" rel="noopener">Effective Stain and Odor Solutions with Tide: Your Guide to Fresh Laundry</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-do-laundry/better-clean-safer" target="_blank" rel="noopener">Why a Better Clean Is Essential for a Safer Clean (Especially for Sensitive Skin) | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/scientific-guide-laundry-sensitive-skin" target="_blank" rel="noopener">Laundry for Sensitive Skin: The Science of Detergents | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/signs-of-fragrance-safety" target="_blank" rel="noopener">3 Signs a Company Takes Fragrance Safety Seriously | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/tide-environment-safety" target="_blank" rel="noopener">Is Tide Bad for the Environment? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/tide-evo-dissolve-guide" target="_blank" rel="noopener">Does Tide Evo Fully Dissolve? The Complete Guide to Preventing Residue</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/tide-value-framework" target="_blank" rel="noopener">Evaluating Tide Through the Value Framework | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/vocs-laundry-products-airborne-emissions" target="_blank" rel="noopener">Volatile Organic Compounds (VOCs) in Laundry Products: Does VOC Content Translate to Airborne Emissions? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/what-is-best-eco-detergent" target="_blank" rel="noopener">What is the Best Eco Detergent? Detergent’s Impact on the Environment | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/what-makes-laundry-scent-safe" target="_blank" rel="noopener">What Makes a Laundry Scent Safe? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/why-cost-per-load-isnt-whole-story" target="_blank" rel="noopener">Why Cost Per Load Does Not Tell the Whole Story | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/why-rewashes-make-laundry-more-expensive" target="_blank" rel="noopener">Why Re-Washes Make Laundry More Expensive | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/laundry-scent-and-indoor-air" target="_blank" rel="noopener">If You Can Smell Your Laundry Scent, Is It Harming Your Air? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/natural-detergent-baby-clothes" target="_blank" rel="noopener">Is a Natural Detergent Best for Baby Clothes? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/odor-after-washing" target="_blank" rel="noopener">Why Does Laundry Retain Odor After Washing? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/pva-technical-review" target="_blank" rel="noopener">Fact-Check: Why the Rolsky (2021) PVA Study is Flawed</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/best-laundry-detergent-baby-clothes" target="_blank" rel="noopener">What Is the Best Laundry Detergent for Baby Clothes? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/best-quality-detergent" target="_blank" rel="noopener">What Is the Best Detergent in Terms of Quality? What the Science Actually Shows</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/cold-water-vs-laundry-cost" target="_blank" rel="noopener">How Cold-Water Performance Can Affect Laundry Cost | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/detergent-sheets-pods-liquid" target="_blank" rel="noopener">Are Detergent Sheets or Pods Better for the Environment Than Liquid? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/do-you-need-special-baby-detergent" target="_blank" rel="noopener">Do You Need a Special Baby Detergent? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/environmentally-friendly-way-laundry" target="_blank" rel="noopener">What Is the Most Environmentally Friendly Way to Do Laundry? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/evaluate-true-value-laundry-detergent" target="_blank" rel="noopener">Beyond the Shelf Price: A Comprehensive Economic Framework for Evaluating Laundry Detergent Value | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/fragrance-meaning-on-ingredient-label" target="_blank" rel="noopener">What Does &#39;Fragrance&#39; on a Label Actually Mean? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/hazard-vs-risk-laundry-detergent" target="_blank" rel="noopener">Hazard vs. Risk in Laundry Detergent: How Exposure Changes What “Toxic” Really Means | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/how-enzymes-help-remove-baby-stains" target="_blank" rel="noopener">How Enzymes Help Remove Baby Stains | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/how-to-choose-detergent-for-value" target="_blank" rel="noopener">How to Choose a Detergent for Value | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/laundry-detergent-science-testing" target="_blank" rel="noopener">Is Tide Safe? The Science Behind Laundry Detergent Safety and Ingredient Testing | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/best-eco-laundry-detergent" target="_blank" rel="noopener">What Is the Best Eco-Friendly Laundry Detergent? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/pva-in-tide-pods" target="_blank" rel="noopener">Polyvinyl Alcohol (PVA) in Tide PODS</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/are-scented-laundry-products-safe" target="_blank" rel="noopener">Are Scented Laundry Products Safe? A Comprehensive Scientific Review | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-do-laundry/detergent-residue-safety" target="_blank" rel="noopener">What’s Really on Your Clothes? The Truth About Detergent Residue and Safety | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/rewards/laundrytips/how-to-remove-armpit-stains" target="_blank" rel="noopener">How to Remove Armpit Sweat Stains Easily | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/ingredients-and-safety/all-about-tide-ingredients" target="_blank" rel="noopener">All About Tide Ingredients | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/sustainability/compaction" target="_blank" rel="noopener">Compaction - Sustainability | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/americas-number-one-detergent/our-heritage" target="_blank" rel="noopener">Our Heritage - Learn About Tide’s History | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/how-to-do-laundry/about-tide-pods-pva-film" target="_blank" rel="noopener">Learn More About Tide PODs Innovative Water-Soluble Smart Film</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors/everyday-items-to-wash-regularly" target="_blank" rel="noopener">12 Everyday Items You Should Wash Regularly | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/rewards/loyalty/terms-and-conditions" target="_blank" rel="noopener">Loyalty Program Terms and Conditions | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/sustainability/materials" target="_blank" rel="noopener">Materials - Sustainability | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/sustainability/saving-energy" target="_blank" rel="noopener">How to Save Energy - Sustainability | Tide</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-3-0" class="blocks-popover" aria-labelledby="blocks-pages-3-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-3-0-title">faq-accordion <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 31 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-3-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/are-detergents-toxic-science" target="_blank" rel="noopener">Are Detergents Toxic? See What Science Says | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry" target="_blank" rel="noopener">Effective Stain and Odor Solutions with Tide: Your Guide to Fresh Laundry</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-do-laundry/better-clean-safer" target="_blank" rel="noopener">Why a Better Clean Is Essential for a Safer Clean (Especially for Sensitive Skin) | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/scientific-guide-laundry-sensitive-skin" target="_blank" rel="noopener">Laundry for Sensitive Skin: The Science of Detergents | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/signs-of-fragrance-safety" target="_blank" rel="noopener">3 Signs a Company Takes Fragrance Safety Seriously | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/tide-environment-safety" target="_blank" rel="noopener">Is Tide Bad for the Environment? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/tide-evo-dissolve-guide" target="_blank" rel="noopener">Does Tide Evo Fully Dissolve? The Complete Guide to Preventing Residue</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/tide-value-framework" target="_blank" rel="noopener">Evaluating Tide Through the Value Framework | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/vocs-laundry-products-airborne-emissions" target="_blank" rel="noopener">Volatile Organic Compounds (VOCs) in Laundry Products: Does VOC Content Translate to Airborne Emissions? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/what-is-best-eco-detergent" target="_blank" rel="noopener">What is the Best Eco Detergent? Detergent’s Impact on the Environment | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/what-makes-laundry-scent-safe" target="_blank" rel="noopener">What Makes a Laundry Scent Safe? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/why-cost-per-load-isnt-whole-story" target="_blank" rel="noopener">Why Cost Per Load Does Not Tell the Whole Story | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/why-rewashes-make-laundry-more-expensive" target="_blank" rel="noopener">Why Re-Washes Make Laundry More Expensive | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/laundry-scent-and-indoor-air" target="_blank" rel="noopener">If You Can Smell Your Laundry Scent, Is It Harming Your Air? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/natural-detergent-baby-clothes" target="_blank" rel="noopener">Is a Natural Detergent Best for Baby Clothes? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/odor-after-washing" target="_blank" rel="noopener">Why Does Laundry Retain Odor After Washing? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/best-laundry-detergent-baby-clothes" target="_blank" rel="noopener">What Is the Best Laundry Detergent for Baby Clothes? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/best-quality-detergent" target="_blank" rel="noopener">What Is the Best Detergent in Terms of Quality? What the Science Actually Shows</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/cold-water-vs-laundry-cost" target="_blank" rel="noopener">How Cold-Water Performance Can Affect Laundry Cost | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/detergent-sheets-pods-liquid" target="_blank" rel="noopener">Are Detergent Sheets or Pods Better for the Environment Than Liquid? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/do-you-need-special-baby-detergent" target="_blank" rel="noopener">Do You Need a Special Baby Detergent? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/environmentally-friendly-way-laundry" target="_blank" rel="noopener">What Is the Most Environmentally Friendly Way to Do Laundry? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/fragrance-meaning-on-ingredient-label" target="_blank" rel="noopener">What Does &#39;Fragrance&#39; on a Label Actually Mean? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/hazard-vs-risk-laundry-detergent" target="_blank" rel="noopener">Hazard vs. Risk in Laundry Detergent: How Exposure Changes What “Toxic” Really Means | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/how-enzymes-help-remove-baby-stains" target="_blank" rel="noopener">How Enzymes Help Remove Baby Stains | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/how-to-choose-detergent-for-value" target="_blank" rel="noopener">How to Choose a Detergent for Value | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/laundry-detergent-science-testing" target="_blank" rel="noopener">Is Tide Safe? The Science Behind Laundry Detergent Safety and Ingredient Testing | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/best-eco-laundry-detergent" target="_blank" rel="noopener">What Is the Best Eco-Friendly Laundry Detergent? | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/are-scented-laundry-products-safe" target="_blank" rel="noopener">Are Scented Laundry Products Safe? A Comprehensive Scientific Review | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-do-laundry/detergent-residue-safety" target="_blank" rel="noopener">What’s Really on Your Clothes? The Truth About Detergent Residue and Safety | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/rewards/laundrytips/how-to-remove-armpit-stains" target="_blank" rel="noopener">How to Remove Armpit Sweat Stains Easily | Tide</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-4-0" class="blocks-popover" aria-labelledby="blocks-pages-4-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-4-0-title">product-grid <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 15 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-4-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop" target="_blank" rel="noopener">Laundry Detergent and Fabric Care Products - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/additives" target="_blank" rel="noopener">Browse Laundry Additives | Shop Products - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/stain-remover" target="_blank" rel="noopener">Buy Stain Removal Products - Stain Remover | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/powder" target="_blank" rel="noopener">Shop or Buy Laundry Powder | Laundry Products - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/liquid" target="_blank" rel="noopener">Shop Liquid and HE Liquid Laundry Detergents - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/laundry-tiles" target="_blank" rel="noopener">Laundry Detergent and Fabric Care Products - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/laundry-booster" target="_blank" rel="noopener">Shop Laundry Boosters | Additives - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/laundry-pods" target="_blank" rel="noopener">Shop Pacs and Tide PODS® | Laundry Detergent - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/fabric-rinse" target="_blank" rel="noopener">Shop Tide Fabric Rinse Products | Laundry Products - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/stain-removal" target="_blank" rel="noopener">Buy Laundry Detergents for Stain Removal | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/whiteness" target="_blank" rel="noopener">Laundry Detergents For White Clothes - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/odor-removal" target="_blank" rel="noopener">Browse Laundry Products for Odor Removal | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/sensitive" target="_blank" rel="noopener">Buy Laundry Detergents for Sensitive Skin - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/freshness" target="_blank" rel="noopener">Browse or Buy Fresh Scented Laundry Detergents - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/deep-clean" target="_blank" rel="noopener">Browse Laundry Detergents for Deep Clean - Tide</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-4-1" class="blocks-popover" aria-labelledby="blocks-pages-4-1-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-4-1-title">product-grid <span class="variant-inline">collection</span></h3>
+            <p class="blocks-count">Used on 5 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-4-1" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-free-and-gentle" target="_blank" rel="noopener">Free &amp;amp; Gentle - Laundry Detergent Collections | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-plus-febreze" target="_blank" rel="noopener">Tide Plus Febreze Freshness Collection - Long Lasting | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-power-pods" target="_blank" rel="noopener">Tide Power PODS® collection page</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-simply" target="_blank" rel="noopener">Tide Simply - Laundry Detergent Collections | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-ultra-oxi" target="_blank" rel="noopener">Tide Ultra OXI | Laundry Detergent Collections - Tide</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-5-0" class="blocks-popover" aria-labelledby="blocks-pages-5-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-5-0-title">plp-related <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 12 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-5-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/additives" target="_blank" rel="noopener">Browse Laundry Additives | Shop Products - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/stain-remover" target="_blank" rel="noopener">Buy Stain Removal Products - Stain Remover | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/powder" target="_blank" rel="noopener">Shop or Buy Laundry Powder | Laundry Products - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/liquid" target="_blank" rel="noopener">Shop Liquid and HE Liquid Laundry Detergents - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/laundry-booster" target="_blank" rel="noopener">Shop Laundry Boosters | Additives - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/laundry-pods" target="_blank" rel="noopener">Shop Pacs and Tide PODS® | Laundry Detergent - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/stain-removal" target="_blank" rel="noopener">Buy Laundry Detergents for Stain Removal | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/whiteness" target="_blank" rel="noopener">Laundry Detergents For White Clothes - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/odor-removal" target="_blank" rel="noopener">Browse Laundry Products for Odor Removal | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/sensitive" target="_blank" rel="noopener">Buy Laundry Detergents for Sensitive Skin - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/freshness" target="_blank" rel="noopener">Browse or Buy Fresh Scented Laundry Detergents - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/deep-clean" target="_blank" rel="noopener">Browse Laundry Detergents for Deep Clean - Tide</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-5-1" class="blocks-popover" aria-labelledby="blocks-pages-5-1-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-5-1-title">plp-related <span class="variant-inline">desktop</span></h3>
+            <p class="blocks-count">Used on 5 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-5-1" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors" target="_blank" rel="noopener">How to Wash Different Fabrics &amp; Colors - Fabric care | Tide</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/how-to-do-laundry" target="_blank" rel="noopener">How to Do Laundry: Your Comprehensive Guide | Tide</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine" target="_blank" rel="noopener">A Basic Guide to How to Use a Washing Machine | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/laundry-tiles" target="_blank" rel="noopener">Laundry Detergent and Fabric Care Products - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/fabric-rinse" target="_blank" rel="noopener">Shop Tide Fabric Rinse Products | Laundry Products - Tide</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-6-0" class="blocks-popover" aria-labelledby="blocks-pages-6-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-6-0-title">plp-title-bar <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 15 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-6-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop" target="_blank" rel="noopener">Laundry Detergent and Fabric Care Products - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/additives" target="_blank" rel="noopener">Browse Laundry Additives | Shop Products - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/stain-remover" target="_blank" rel="noopener">Buy Stain Removal Products - Stain Remover | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/powder" target="_blank" rel="noopener">Shop or Buy Laundry Powder | Laundry Products - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/liquid" target="_blank" rel="noopener">Shop Liquid and HE Liquid Laundry Detergents - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/laundry-tiles" target="_blank" rel="noopener">Laundry Detergent and Fabric Care Products - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/laundry-booster" target="_blank" rel="noopener">Shop Laundry Boosters | Additives - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/laundry-pods" target="_blank" rel="noopener">Shop Pacs and Tide PODS® | Laundry Detergent - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/fabric-rinse" target="_blank" rel="noopener">Shop Tide Fabric Rinse Products | Laundry Products - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/stain-removal" target="_blank" rel="noopener">Buy Laundry Detergents for Stain Removal | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/whiteness" target="_blank" rel="noopener">Laundry Detergents For White Clothes - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/odor-removal" target="_blank" rel="noopener">Browse Laundry Products for Odor Removal | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/sensitive" target="_blank" rel="noopener">Buy Laundry Detergents for Sensitive Skin - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/freshness" target="_blank" rel="noopener">Browse or Buy Fresh Scented Laundry Detergents - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/deep-clean" target="_blank" rel="noopener">Browse Laundry Detergents for Deep Clean - Tide</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-7-0" class="blocks-popover" aria-labelledby="blocks-pages-7-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-7-0-title">article-prose <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 10 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-7-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/are-detergents-toxic-science" target="_blank" rel="noopener">Are Detergents Toxic? See What Science Says | Tide</a> <span class="blocks-count">×8</span></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-do-laundry/better-clean-safer" target="_blank" rel="noopener">Why a Better Clean Is Essential for a Safer Clean (Especially for Sensitive Skin) | Tide</a> <span class="blocks-count">×4</span></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/pva-technical-review" target="_blank" rel="noopener">Fact-Check: Why the Rolsky (2021) PVA Study is Flawed</a> <span class="blocks-count">×5</span></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/evaluate-true-value-laundry-detergent" target="_blank" rel="noopener">Beyond the Shelf Price: A Comprehensive Economic Framework for Evaluating Laundry Detergent Value | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/hazard-vs-risk-laundry-detergent" target="_blank" rel="noopener">Hazard vs. Risk in Laundry Detergent: How Exposure Changes What “Toxic” Really Means | Tide</a> <span class="blocks-count">×4</span></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/research/laundry-detergent-science-testing" target="_blank" rel="noopener">Is Tide Safe? The Science Behind Laundry Detergent Safety and Ingredient Testing | Tide</a> <span class="blocks-count">×4</span></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/pva-in-tide-pods" target="_blank" rel="noopener">Polyvinyl Alcohol (PVA) in Tide PODS</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-do-laundry/detergent-residue-safety" target="_blank" rel="noopener">What’s Really on Your Clothes? The Truth About Detergent Residue and Safety | Tide</a> <span class="blocks-count">×3</span></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/rewards/laundrytips/how-to-remove-armpit-stains" target="_blank" rel="noopener">How to Remove Armpit Sweat Stains Easily | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/how-to-do-laundry/about-tide-pods-pva-film" target="_blank" rel="noopener">Learn More About Tide PODs Innovative Water-Soluble Smart Film</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-8-0" class="blocks-popover" aria-labelledby="blocks-pages-8-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-8-0-title">feature-band-alternating <span class="variant-inline">overlay orange</span></h3>
+            <p class="blocks-count">Used on 7 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-8-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/additives" target="_blank" rel="noopener">Browse Laundry Additives | Shop Products - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/powder" target="_blank" rel="noopener">Shop or Buy Laundry Powder | Laundry Products - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/liquid" target="_blank" rel="noopener">Shop Liquid and HE Liquid Laundry Detergents - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/stain-removal" target="_blank" rel="noopener">Buy Laundry Detergents for Stain Removal | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/whiteness" target="_blank" rel="noopener">Laundry Detergents For White Clothes - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/sensitive" target="_blank" rel="noopener">Buy Laundry Detergents for Sensitive Skin - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/freshness" target="_blank" rel="noopener">Browse or Buy Fresh Scented Laundry Detergents - Tide</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-9-0" class="blocks-popover" aria-labelledby="blocks-pages-9-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-9-0-title">collection-anchor <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 11 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-9-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/latest-news" target="_blank" rel="noopener">Discover Tide&#39;s Latest News | Tide</a> <span class="blocks-count">×3</span></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors" target="_blank" rel="noopener">How to Wash Different Fabrics &amp; Colors - Fabric care | Tide</a> <span class="blocks-count">×3</span></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/how-to-remove-stains" target="_blank" rel="noopener">How to Remove Stains - Stain Removal Guide | Tide</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/how-to-do-laundry" target="_blank" rel="noopener">How to Do Laundry: Your Comprehensive Guide | Tide</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-free-and-gentle" target="_blank" rel="noopener">Free &amp;amp; Gentle - Laundry Detergent Collections | Tide</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/how-to-remove-stains/acne-cream-stains" target="_blank" rel="noopener">How to Remove Acne Cream Stains | Stain Removal - Tide</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine" target="_blank" rel="noopener">A Basic Guide to How to Use a Washing Machine | Tide</a> <span class="blocks-count">×3</span></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-plus-febreze" target="_blank" rel="noopener">Tide Plus Febreze Freshness Collection - Long Lasting | Tide</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-power-pods" target="_blank" rel="noopener">Tide Power PODS® collection page</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-simply" target="_blank" rel="noopener">Tide Simply - Laundry Detergent Collections | Tide</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-ultra-oxi" target="_blank" rel="noopener">Tide Ultra OXI | Laundry Detergent Collections - Tide</a> <span class="blocks-count">×2</span></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-10-1" class="blocks-popover" aria-labelledby="blocks-pages-10-1-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-10-1-title">learn-more-card-grid <span class="variant-inline">flush</span></h3>
+            <p class="blocks-count">Used on 4 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-10-1" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes" target="_blank" rel="noopener">How to Wash Clothes - Laundry Tips and Tricks | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/americas-number-one-detergent" target="_blank" rel="noopener">America&#39;s #1 Detergent - Liquid, PODS® and More | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/ingredients-and-safety" target="_blank" rel="noopener">The Tide Clean You Can Trust | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/washing-machine-101" target="_blank" rel="noopener">How to Use a Washing Machine - Washer Care | Tide</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-13-0" class="blocks-popover" aria-labelledby="blocks-pages-13-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-13-0-title">section-landing-hero-card <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 6 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-13-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment" target="_blank" rel="noopener">Our Commitment - Learn More About The Brand | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes" target="_blank" rel="noopener">How to Wash Clothes - Laundry Tips and Tricks | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/americas-number-one-detergent" target="_blank" rel="noopener">America&#39;s #1 Detergent - Liquid, PODS® and More | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/turn-to-cold" target="_blank" rel="noopener">Washing in Cold Water | #TurnToCold with Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/ingredients-and-safety" target="_blank" rel="noopener">The Tide Clean You Can Trust | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/washing-machine-101" target="_blank" rel="noopener">How to Use a Washing Machine - Washer Care | Tide</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-14-0" class="blocks-popover" aria-labelledby="blocks-pages-14-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-14-0-title">article-related <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 4 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-14-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry" target="_blank" rel="noopener">Effective Stain and Odor Solutions with Tide: Your Guide to Fresh Laundry</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/ingredients-and-safety/all-about-tide-ingredients" target="_blank" rel="noopener">All About Tide Ingredients | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/how-to-remove-stains/acne-cream-stains" target="_blank" rel="noopener">How to Remove Acne Cream Stains | Stain Removal - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors/everyday-items-to-wash-regularly" target="_blank" rel="noopener">12 Everyday Items You Should Wash Regularly | Tide</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-14-1" class="blocks-popover" aria-labelledby="blocks-pages-14-1-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-14-1-title">article-related <span class="variant-inline">products</span></h3>
+            <p class="blocks-count">Used on 5 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-14-1" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry" target="_blank" rel="noopener">Effective Stain and Odor Solutions with Tide: Your Guide to Fresh Laundry</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/rewards/laundrytips/how-to-remove-armpit-stains" target="_blank" rel="noopener">How to Remove Armpit Sweat Stains Easily | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/ingredients-and-safety/all-about-tide-ingredients" target="_blank" rel="noopener">All About Tide Ingredients | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors/everyday-items-to-wash-regularly" target="_blank" rel="noopener">12 Everyday Items You Should Wash Regularly | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/sustainability/saving-energy" target="_blank" rel="noopener">How to Save Energy - Sustainability | Tide</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-18-0" class="blocks-popover" aria-labelledby="blocks-pages-18-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-18-0-title">step-timeline <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 5 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-18-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors" target="_blank" rel="noopener">How to Wash Different Fabrics &amp; Colors - Fabric care | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/how-to-remove-stains" target="_blank" rel="noopener">How to Remove Stains - Stain Removal Guide | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/how-to-do-laundry" target="_blank" rel="noopener">How to Do Laundry: Your Comprehensive Guide | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/rewards/laundrytips/how-to-remove-armpit-stains" target="_blank" rel="noopener">How to Remove Armpit Sweat Stains Easily | Tide</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine" target="_blank" rel="noopener">A Basic Guide to How to Use a Washing Machine | Tide</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-19-0" class="blocks-popover" aria-labelledby="blocks-pages-19-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-19-0-title">topic-hub-back-to-top <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 5 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-19-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors" target="_blank" rel="noopener">How to Wash Different Fabrics &amp; Colors - Fabric care | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/how-to-remove-stains" target="_blank" rel="noopener">How to Remove Stains - Stain Removal Guide | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/how-to-do-laundry" target="_blank" rel="noopener">How to Do Laundry: Your Comprehensive Guide | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/how-to-remove-stains/acne-cream-stains" target="_blank" rel="noopener">How to Remove Acne Cream Stains | Stain Removal - Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine" target="_blank" rel="noopener">A Basic Guide to How to Use a Washing Machine | Tide</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-20-0" class="blocks-popover" aria-labelledby="blocks-pages-20-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-20-0-title">topic-hub-guide-header <span class="variant-inline">orange</span></h3>
+            <p class="blocks-count">Used on 4 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-20-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors" target="_blank" rel="noopener">How to Wash Different Fabrics &amp; Colors - Fabric care | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/how-to-remove-stains" target="_blank" rel="noopener">How to Remove Stains - Stain Removal Guide | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/how-to-do-laundry" target="_blank" rel="noopener">How to Do Laundry: Your Comprehensive Guide | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine" target="_blank" rel="noopener">A Basic Guide to How to Use a Washing Machine | Tide</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-21-0" class="blocks-popover" aria-labelledby="blocks-pages-21-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-21-0-title">topic-hub-intro <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 4 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-21-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors" target="_blank" rel="noopener">How to Wash Different Fabrics &amp; Colors - Fabric care | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/how-to-remove-stains" target="_blank" rel="noopener">How to Remove Stains - Stain Removal Guide | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/how-to-do-laundry" target="_blank" rel="noopener">How to Do Laundry: Your Comprehensive Guide | Tide</a></li>
+          <li><a href="https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine" target="_blank" rel="noopener">A Basic Guide to How to Use a Washing Machine | Tide</a></li>
+        </ul>
+      </div>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>Analytics and tags</h2><span class="spectrum-badge">Switched off</span></summary>
+    <div class="panel-body">
+      <p>We carried over 5 tags and OneTrust, <strong>switched off</strong>: nothing loads on the new site until you turn it on.</p>
+      <table>
+        <thead><tr><th>Found on tide.com</th><th></th></tr></thead>
+        <tbody>
+          <tr><td>Google Tag Manager</td><td><code>GTM-N6XWT7TZ</code>, <code>GTM-NQ2Z6K78</code>, <code>GTM-MR47VR8</code>, <code>GTM-N94XXFB</code>, <code>GTM-NLPTVV8</code></td></tr>
+          <tr><td>Consent manager</td><td>OneTrust, 0 cookie categories</td></tr>
+          <tr><td>Data layers</td><td><code>dataLayer</code></td></tr>
+          <tr><td>Loaded by your tags</td><td>ad / retargeting pixel</td></tr>
+        </tbody>
+      </table>
+      <h3>Before you switch them on</h3>
+      <ol class="todo">
+        <li><strong>Switch on OneTrust together with the tags.</strong></li>
+        <li><strong>Share the setup of Google Tag Manager.</strong> We could not read its rules.</li>
+      </ol>
+      <p class="meta">Full details for your developers: <code>stardust/martech-handoff.md</code> in the repository.</p>
+    </div>
+  </details>
+
+  <details class="spectrum-panel">
+    <summary class="spectrum-panel-header"><h2>Journey</h2></summary>
+    <div class="panel-body">
+      <ol class="steps">
+        <li>Analyzing your site<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Capturing brand and design<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Rebuilding page templates<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Publishing your pages<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Checking every page against the original<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Final checks<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+      </ol>
+    </div>
+  </details>
+</main>
+</body>
+</html>

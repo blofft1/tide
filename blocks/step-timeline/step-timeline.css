@@ -1,0 +1,483 @@
+/* step-timeline — live .guide-wrapper-list-narrow + .guide-step-list-narrow. Spec: stardust/
+   prototypes/en-us-how-to-wash-clothes-how-to-remove-stains.css (.alp-guide*, .alp-step*,
+   .alp-substep*, .alp-product*) */
+
+/* the step text cells, sub-step cells and product names are disjoint: order is safe */
+/* stylelint-disable no-descending-specificity */
+.step-timeline {
+  margin-bottom: 30px;
+}
+
+.step-timeline p {
+  margin: 0;
+}
+
+/* headline: white stripe (overlaps the band above at >= 992px) + intro */
+.step-timeline .step-timeline-headline {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 -15px 30px;
+}
+
+.step-timeline .step-timeline-stripe {
+  display: none;
+}
+
+.step-timeline .step-timeline-intro {
+  width: 100%;
+  padding: 0 15px;
+}
+
+.step-timeline .step-timeline-intro > :is(h2, h3, h4) {
+  margin: 0 0 20px;
+  color: var(--tide-orange);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0;
+}
+
+.step-timeline .step-timeline-intro p {
+  color: var(--tide-navy);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+}
+
+/* steps */
+.step-timeline .step-timeline-step {
+  position: relative;
+  padding-bottom: 60px;
+}
+
+.step-timeline .step-timeline-step:last-child {
+  padding-bottom: 0;
+}
+
+.step-timeline .step-timeline-bar {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 25px;
+}
+
+.step-timeline .step-timeline-line-top,
+.step-timeline .step-timeline-line-bottom {
+  position: absolute;
+  left: 50%;
+  width: 3px;
+  background-color: #ffb89c;
+  transform: translate(-50%);
+}
+
+.step-timeline .step-timeline-line-top {
+  top: 0;
+  height: 3px;
+}
+
+.step-timeline .step-timeline-line-bottom {
+  top: 24px;
+  height: calc(100% - 24px);
+}
+
+.step-timeline .step-timeline-step:first-child .step-timeline-line-top,
+.step-timeline .step-timeline-step:last-child .step-timeline-line-bottom {
+  display: none;
+}
+
+.step-timeline .step-timeline-mark {
+  position: absolute;
+  top: 3px;
+  left: 50%;
+  width: 21px;
+  height: 21px;
+  border: 3px solid #ffb89c;
+  border-radius: 50%;
+  transform: translate(-50%);
+}
+
+.step-timeline .step-timeline-content {
+  width: 100%;
+  padding-left: 40px;
+}
+
+.step-timeline .step-timeline-title {
+  color: var(--tide-orange);
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 26px;
+  letter-spacing: 0;
+}
+
+.step-timeline .step-timeline-title p {
+  display: inline-block;
+}
+
+.step-timeline .step-timeline-text,
+.step-timeline .step-timeline-substep-text {
+  margin-top: 10px;
+  color: var(--tide-navy);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+}
+
+.step-timeline .step-timeline-text a:any-link,
+.step-timeline .step-timeline-substep-text a:any-link {
+  color: var(--tide-navy);
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.step-timeline .step-timeline-text a:any-link {
+  line-height: 24px;
+}
+
+.step-timeline .step-timeline-text :is(ul, ol) {
+  margin: 0 0 1rem;
+  padding-left: 40px;
+}
+
+/* sub-steps */
+.step-timeline .step-timeline-substeps {
+  margin: 0;
+  padding: 15px 0 0 30px;
+}
+
+.step-timeline .step-timeline-substep {
+  position: relative;
+  margin-top: 20px;
+  padding-left: 15px;
+}
+
+.step-timeline .step-timeline-substep::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--tide-orange);
+}
+
+.step-timeline .step-timeline-substep-title {
+  color: var(--tide-orange);
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 26px;
+  letter-spacing: 0.0375em;
+}
+
+/* recommended products */
+.step-timeline .step-timeline-products > :is(h4, h5, h6) {
+  margin: 20px 0 0;
+  color: var(--tide-navy);
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 20px;
+  letter-spacing: 0.0375em;
+}
+
+.step-timeline .step-timeline-product-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.step-timeline .step-timeline-product {
+  width: 135px;
+  margin-top: 20px;
+}
+
+.step-timeline .step-timeline-product-link:any-link {
+  display: block;
+  padding: 0 5px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.step-timeline .step-timeline-product-image {
+  position: relative;
+  width: 100%;
+  height: 120px;
+}
+
+.step-timeline .step-timeline-product-image picture {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  align-items: flex-start;
+  transform: translate(-50%, -50%);
+}
+
+.step-timeline .step-timeline-product-image img {
+  display: block;
+  width: 100px;
+  max-width: none;
+  height: auto;
+}
+
+.step-timeline .step-timeline-product-name {
+  margin-top: 15px;
+  color: var(--tide-navy);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+}
+
+.step-timeline .step-timeline-product-name p {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+@media (width >= 992px) {
+  .step-timeline {
+    margin-bottom: 35px;
+  }
+
+  .step-timeline .step-timeline-headline {
+    margin-bottom: 35px;
+  }
+
+  .step-timeline .step-timeline-stripe {
+    display: flex;
+    flex: 0 0 66.6667%;
+    max-width: 66.6667%;
+    height: 60px;
+    margin-top: -30px;
+    border-radius: 8px 8px 0 0;
+    background-color: #fff;
+  }
+
+  .step-timeline .step-timeline-intro {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .step-timeline .step-timeline-intro > :is(h2, h3, h4) {
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  .step-timeline .step-timeline-intro p {
+    line-height: 24px;
+  }
+
+  .step-timeline .step-timeline-steps {
+    max-width: calc((100% + 30px) / 2 - 30px);
+    margin: 0 auto;
+  }
+
+  .step-timeline .step-timeline-bar {
+    width: 95px;
+  }
+
+  .step-timeline .step-timeline-line-top,
+  .step-timeline .step-timeline-line-bottom {
+    width: 4px;
+  }
+
+  .step-timeline .step-timeline-line-bottom {
+    top: 27px;
+    height: calc(100% - 27px);
+  }
+
+  .step-timeline .step-timeline-mark {
+    width: 24px;
+    height: 24px;
+    border-width: 4px;
+  }
+
+  .step-timeline .step-timeline-content {
+    padding-left: 90px;
+  }
+
+  .step-timeline .step-timeline-title {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .step-timeline .step-timeline-text,
+  .step-timeline .step-timeline-substep-text {
+    line-height: 24px;
+  }
+
+  .step-timeline .step-timeline-text a:any-link {
+    line-height: 20px;
+  }
+}
+
+/* topic-hub closing prose (default content, section style `topic-hub-prose`; live
+   .richtext-container in a centred half column) */
+main .section.topic-hub-prose .default-content-wrapper {
+  color: var(--tide-navy);
+}
+
+main .section.topic-hub-prose .default-content-wrapper p {
+  margin: 1em auto 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+}
+
+main .section.topic-hub-prose .default-content-wrapper p:first-child {
+  margin-top: 0;
+}
+
+main .section.topic-hub-prose .default-content-wrapper a:any-link {
+  color: var(--tide-navy);
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+@media (width >= 992px) {
+  main .section.topic-hub-prose .default-content-wrapper > * {
+    max-width: calc((100% + 30px) / 2 - 30px);
+  }
+
+  main .section.topic-hub-prose .default-content-wrapper p {
+    line-height: 24px;
+  }
+}
+
+/* topic-hub rich-text rows (default content; live .richtext-container). Section styles:
+   topic-hub-prose = centred col-lg-6 (above), topic-hub-wide = col-lg-12,
+   topic-hub-heading = start-aligned col-lg-9 */
+main .section:is(.topic-hub-wide, .topic-hub-heading) .default-content-wrapper {
+  color: var(--tide-navy);
+  font-size: 14px;
+  line-height: 19.6px;
+}
+
+main .section:is(.topic-hub-wide, .topic-hub-heading) .default-content-wrapper p {
+  margin: 16px 0 0;
+  color: var(--tide-navy);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+}
+
+main .section:is(.topic-hub-wide, .topic-hub-heading) .default-content-wrapper p:first-of-type {
+  margin-top: 0;
+}
+
+main .section:is(.topic-hub-wide, .topic-hub-heading) .default-content-wrapper a:any-link {
+  color: var(--tide-navy);
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+main .section:is(.topic-hub-prose, .topic-hub-wide, .topic-hub-heading) .default-content-wrapper h2 {
+  margin-block: 17.43px;
+  color: var(--tide-navy);
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 29.4px;
+  letter-spacing: 0;
+}
+
+main .section:is(.topic-hub-prose, .topic-hub-wide, .topic-hub-heading) .default-content-wrapper h3 {
+  margin-block: 16.38px;
+  color: var(--tide-navy);
+  font-size: 16.38px;
+  font-weight: 700;
+  line-height: 22.932px;
+  letter-spacing: 0;
+}
+
+main .section:is(.topic-hub-prose, .topic-hub-wide, .topic-hub-heading) .default-content-wrapper h4 {
+  margin-block: 0;
+  color: var(--tide-orange);
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0;
+}
+
+main .section:is(.topic-hub-prose, .topic-hub-wide, .topic-hub-heading) .default-content-wrapper :is(ul, ol) {
+  margin-block: 14px;
+  font-size: 14px;
+  line-height: 19.6px;
+}
+
+main .section:is(.topic-hub-prose, .topic-hub-wide, .topic-hub-heading) .default-content-wrapper ul {
+  padding: 0;
+  list-style-position: inside;
+}
+
+main .section:is(.topic-hub-prose, .topic-hub-wide, .topic-hub-heading) .default-content-wrapper ol {
+  padding-left: 40px;
+}
+
+main .section:is(.topic-hub-prose, .topic-hub-wide, .topic-hub-heading) .default-content-wrapper li p {
+  margin: 0;
+}
+
+main .section:is(.topic-hub-prose, .topic-hub-wide, .topic-hub-heading) .default-content-wrapper ul li p {
+  display: inline;
+}
+
+/* step text: live lists (20px gutter), superscripts without line growth, h4 sub-heads */
+.step-timeline .step-timeline-text ul {
+  margin: 16px 0;
+  padding: 0 0 0 20px;
+  line-height: 24px;
+}
+
+.step-timeline .step-timeline-text sup,
+main .section:is(.topic-hub-prose, .topic-hub-wide, .topic-hub-heading) .default-content-wrapper sup {
+  font-size: 12px;
+  line-height: 0;
+}
+
+.step-timeline .step-timeline-text li p {
+  display: inline-block;
+  margin: 0;
+  line-height: 20px;
+}
+
+.step-timeline .step-timeline-text h4 {
+  margin: 0;
+  color: var(--tide-orange);
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0;
+}
+
+@media (width >= 992px) {
+  main .section:is(.topic-hub-wide, .topic-hub-heading) .default-content-wrapper p {
+    line-height: 24px;
+  }
+
+  .step-timeline .step-timeline-text ul {
+    line-height: 20px;
+  }
+
+  .step-timeline .step-timeline-text li p {
+    line-height: 24px;
+  }
+
+  main .section.topic-hub-heading .default-content-wrapper > * {
+    max-width: calc((100% + 30px) * 9 / 12 - 30px);
+  }
+
+  main .section.topic-hub-prose .default-content-wrapper > * {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  main .section:is(.topic-hub-prose, .topic-hub-wide, .topic-hub-heading) .default-content-wrapper h4,
+  .step-timeline .step-timeline-text h4 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+}

@@ -1,0 +1,685 @@
+[live-session] waiting to pace live navigations to tide.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/en-us-how-to-wash-clothes-how-to-remove-stains-360/vdiff-iter1/
+
+build red flags (advisory): none
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 5771,
+  "textLen": 5545,
+  "images": [
+   {
+    "src": "header_logo_png.webp",
+    "natural": "32x41",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "header_logo_downy.webp",
+    "natural": "43x41",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "header_logo_bounce.webp",
+    "natural": "47x41",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "brand_main_logo.svg",
+    "natural": "150x150",
+    "rendered": "47x47",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ALP_header_1_How_to_remove_stains_1437x400.jpg?fm=webp",
+    "natural": "1437x400",
+    "rendered": "360x200",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "how_to_remove_stains.png?fm=png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Stain-L1.png?fm=png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Stain-R1.png?fm=png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Stain-L2.png?fm=png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Stain-R2.png?fm=png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Stain-L3.png?fm=png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Stain-R3.png?fm=png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "alp-blood-and-grass-icon-inverted.png?fm=webp",
+    "natural": "67x64",
+    "rendered": "67x64",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "alp-blood-and-grass-icon-inverted.png?fm=webp",
+    "natural": "67x64",
+    "rendered": "67x64",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "alp-body-soils-icon-inverted.png?fm=webp",
+    "natural": "71x60",
+    "rendered": "70x59",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "alp-bleachable-icon-inverted.png?fm=webp",
+    "natural": "86x81",
+    "rendered": "70x66",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "alp-clay-soil-dirt-icon-inverted.png?fm=webp",
+    "natural": "67x56",
+    "rendered": "67x56",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "92OZ_UltraStainRelease_v01_smpl_1200x1200.png?fm=webp",
+    "natural": "1200x1200",
+    "rendered": "100x100",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Tide_Plus_Bleach_Powder_hero_521x480.png?fm=webp",
+    "natural": "521x480",
+    "rendered": "100x92",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social_facebook.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social_twitter.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social_pinterest.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social_youtube.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "footer_GoodHousekeeping.webp",
+    "natural": "82x62",
+    "rendered": "82x62",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "footer_BBB.webp",
+    "natural": "38x62",
+    "rendered": "38x62",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "footer_JunkFood.webp",
+    "natural": "58x62",
+    "rendered": "58x62",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "footer_TideCleaners.webp",
+    "natural": "56x62",
+    "rendered": "56x62",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "How to remove stains",
+    "color": "rgb(251, 76, 6)",
+    "fontSize": "36px",
+    "family": "Tide",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Stain removal guide",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "40px",
+    "family": "Tide",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Your Comprehensive Stain Removal",
+    "color": "rgb(251, 76, 6)",
+    "fontSize": "40px",
+    "family": "Tide",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "How do you get rid of stains?",
+    "color": "rgb(251, 76, 6)",
+    "fontSize": "32px",
+    "family": "Tide",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "col-12",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "container",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "richtext-container",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "richtext-container",
+    "width": 270,
+    "left": 115
+   },
+   {
+    "sel": "richtext-container",
+    "width": 270,
+    "left": 115
+   },
+   {
+    "sel": "richtext-container",
+    "width": 270,
+    "left": 115
+   },
+   {
+    "sel": "richtext-container",
+    "width": 270,
+    "left": 115
+   },
+   {
+    "sel": "richtext-container",
+    "width": 270,
+    "left": 115
+   },
+   {
+    "sel": "col-12",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "guide-step-title",
+    "width": 290,
+    "left": 55
+   },
+   {
+    "sel": "richtext-container",
+    "width": 290,
+    "left": 55
+   },
+   {
+    "sel": "guide-step-title",
+    "width": 290,
+    "left": 55
+   }
+  ]
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 5771,
+  "textLen": 5566,
+  "images": [
+   {
+    "src": "header_logo_png.webp",
+    "natural": "32x41",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "header_logo_downy.webp",
+    "natural": "43x41",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "header_logo_bounce.webp",
+    "natural": "47x41",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "brand_main_logo.svg",
+    "natural": "150x150",
+    "rendered": "47x47",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "CountrFlag_USA.jpg",
+    "natural": "32x20",
+    "rendered": "32x20",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "CountrFlag_USA.jpg",
+    "natural": "32x20",
+    "rendered": "32x20",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "CountrFlag_Canada.jpg",
+    "natural": "32x20",
+    "rendered": "32x20",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "CountrFlag_Canada.jpg",
+    "natural": "32x20",
+    "rendered": "32x20",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ALP_header_1_How_to_remove_stains_1437x400.webp",
+    "natural": "1437x400",
+    "rendered": "360x200",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "how_to_remove_stains.webp",
+    "natural": "874x861",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Stain-L1.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Stain-R1.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Stain-L2.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Stain-R2.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Stain-L3.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Stain-R3.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "alp-blood-and-grass-icon-inverted.webp",
+    "natural": "67x64",
+    "rendered": "67x64",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "alp-blood-and-grass-icon-inverted.webp",
+    "natural": "67x64",
+    "rendered": "67x64",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "alp-body-soils-icon-inverted.webp",
+    "natural": "71x60",
+    "rendered": "70x59",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "alp-bleachable-icon-inverted.webp",
+    "natural": "86x81",
+    "rendered": "70x66",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "alp-clay-soil-dirt-icon-inverted.webp",
+    "natural": "67x56",
+    "rendered": "67x56",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "92OZ_UltraStainRelease_v01_smpl_1200x1200.webp",
+    "natural": "1200x1200",
+    "rendered": "100x100",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Tide_Plus_Bleach_Powder_hero_521x480.webp",
+    "natural": "521x480",
+    "rendered": "100x92",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social_facebook.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social_twitter.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social_pinterest.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social_youtube.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "footer_GoodHousekeeping.webp",
+    "natural": "82x62",
+    "rendered": "82x62",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "footer_BBB.webp",
+    "natural": "38x62",
+    "rendered": "38x62",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "footer_JunkFood.webp",
+    "natural": "58x62",
+    "rendered": "58x62",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "footer_TideCleaners.webp",
+    "natural": "56x62",
+    "rendered": "56x62",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "How to remove stains",
+    "color": "rgb(251, 76, 6)",
+    "fontSize": "36px",
+    "family": "Tide",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Stain removal guide",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "40px",
+    "family": "Tide",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Your Comprehensive Stain Removal",
+    "color": "rgb(251, 76, 6)",
+    "fontSize": "40px",
+    "family": "Tide",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "How do you get rid of stains?",
+    "color": "rgb(251, 76, 6)",
+    "fontSize": "32px",
+    "family": "Tide",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "alp-intro__text",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "container",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "alp-types__head",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "alp-types__text",
+    "width": 285,
+    "left": 100
+   },
+   {
+    "sel": "alp-types__text",
+    "width": 285,
+    "left": 100
+   },
+   {
+    "sel": "alp-types__text",
+    "width": 285,
+    "left": 100
+   },
+   {
+    "sel": "alp-types__text",
+    "width": 285,
+    "left": 100
+   },
+   {
+    "sel": "alp-types__text",
+    "width": 285,
+    "left": 100
+   },
+   {
+    "sel": "alp-guide__intro",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "alp-step__title",
+    "width": 290,
+    "left": 55
+   },
+   {
+    "sel": "alp-step__text",
+    "width": 290,
+    "left": 55
+   },
+   {
+    "sel": "alp-step__title",
+    "width": 290,
+    "left": 55
+   }
+  ]
+ }
+}

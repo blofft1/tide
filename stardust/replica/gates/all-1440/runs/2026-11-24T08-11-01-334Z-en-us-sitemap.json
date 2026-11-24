@@ -1,0 +1,347 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-24T08:11:01.331Z",
+    "stage": "published",
+    "breakpoint": 1440,
+    "threshold": 10,
+    "offsetMax": "the larger of 8px and 1% of the origin height; roster tolerance: 5% of the origin height with no step over 200px",
+    "originReference": "frozen",
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "pixel criterion (aligned % ≤ 10 AND total offset ≤ the bound; alignment not used: unaligned % ≤ 10) AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://tide.com",
+    "eds": "https://main--5db7d055--aemcoder.aem.page",
+    "edsHostOverride": "https://main--5db7d055--aemcoder.aem.page",
+    "only": [
+      "en-us-sitemap",
+      "en-us-latest-news",
+      "en-us-how-to-wash-clothes-how-to-remove-stains-acne-cream-stains"
+    ]
+  },
+  "totals": {
+    "pages": 3,
+    "pass": 3,
+    "pixelOnlyPass": 3,
+    "overridePass": 0,
+    "fail": 0,
+    "error": 0,
+    "probeErrors": 0,
+    "failPixel": 0,
+    "failHeight": 0,
+    "failClip": 0,
+    "failContent": 0,
+    "failUnits": 0,
+    "unitsNotDeclared": 3,
+    "unitsRecordedNotDeclared": 0,
+    "fontsNotLoaded": 0,
+    "fontsDeadOnSource": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "alignedOnlyPass": 0,
+    "failOffsets": 0,
+    "offsetsWithinTolerance": 2,
+    "referenceUnstable": 0,
+    "passWithOverrides": 3
+  },
+  "rows": [
+    {
+      "slug": "en-us-how-to-wash-clothes-how-to-remove-stains-acne-cream-stains",
+      "path": "/en-us/how-to-wash-clothes/how-to-remove-stains/acne-cream-stains",
+      "template": "unique",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 9.91,
+      "textPct": 23.58,
+      "heightDelta": -4,
+      "originH": 7510,
+      "edsH": 7514,
+      "alignedPct": 8.79,
+      "alignedUsed": true,
+      "totalShift": 118,
+      "steps": [
+        {
+          "y": 987,
+          "shift": -1,
+          "cumulative": -1
+        },
+        {
+          "y": 1935,
+          "shift": 1,
+          "cumulative": 0
+        },
+        {
+          "y": 2541,
+          "shift": 1,
+          "cumulative": 1
+        },
+        {
+          "y": 5671,
+          "shift": 58,
+          "cumulative": 59
+        },
+        {
+          "y": 6416,
+          "shift": -11,
+          "cumulative": 48
+        },
+        {
+          "y": 6515,
+          "shift": -45,
+          "cumulative": 3
+        },
+        {
+          "y": 7335,
+          "shift": 1,
+          "cumulative": 4
+        }
+      ],
+      "offsetBound": 75,
+      "offsetTolerance": 375,
+      "offsetJudge": "tolerance",
+      "offsetsWithinTolerance": true,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [
+        "offsets within the roster tolerance: 118px total, largest step 58px (strict bound 75px, tolerance 375px)",
+        "units: no family declared for this page — the repeated-unit check did not run"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 0,
+        "variable": []
+      },
+      "unitsDeclared": 0,
+      "unitsRecorded": null,
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-1440/en-us-how-to-wash-clothes-how-to-remove-stains-acne-cream-stains",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "5000-5500:50%",
+        "5500-6000:53.7%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "en-us-latest-news",
+      "path": "/en-us/latest-news",
+      "template": "unique",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 5.39,
+      "textPct": 8.93,
+      "heightDelta": 92,
+      "originH": 8208,
+      "edsH": 8116,
+      "alignedPct": 1.77,
+      "alignedUsed": true,
+      "totalShift": 94,
+      "steps": [
+        {
+          "y": 1884,
+          "shift": -1,
+          "cumulative": -1
+        },
+        {
+          "y": 4013,
+          "shift": -1,
+          "cumulative": -2
+        },
+        {
+          "y": 5336,
+          "shift": -5,
+          "cumulative": -7
+        },
+        {
+          "y": 6590,
+          "shift": -6,
+          "cumulative": -13
+        },
+        {
+          "y": 7149,
+          "shift": -80,
+          "cumulative": -93
+        },
+        {
+          "y": 8033,
+          "shift": 1,
+          "cumulative": -92
+        }
+      ],
+      "offsetBound": 82,
+      "offsetTolerance": 410,
+      "offsetJudge": "tolerance",
+      "offsetsWithinTolerance": true,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [
+        "offsets within the roster tolerance: 94px total, largest step 80px (strict bound 82px, tolerance 410px)",
+        "units: no family declared for this page — the repeated-unit check did not run"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 12,
+        "variable": []
+      },
+      "unitsDeclared": 0,
+      "unitsRecorded": null,
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-1440/en-us-latest-news",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "7000-7500:29.6%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "en-us-sitemap",
+      "path": "/en-us/sitemap",
+      "template": "unique",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 0.57,
+      "textPct": 6.21,
+      "heightDelta": 0,
+      "originH": 4666,
+      "edsH": 4666,
+      "alignedPct": 0.09,
+      "alignedUsed": true,
+      "totalShift": 2,
+      "steps": [
+        {
+          "y": 911,
+          "shift": 1,
+          "cumulative": 1
+        },
+        {
+          "y": 4489,
+          "shift": -1,
+          "cumulative": 0
+        }
+      ],
+      "offsetBound": 47,
+      "offsetTolerance": 233,
+      "offsetJudge": "bound",
+      "offsetsWithinTolerance": false,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [
+        "units: no family declared for this page — the repeated-unit check did not run"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 0,
+        "variable": []
+      },
+      "unitsDeclared": 0,
+      "unitsRecorded": null,
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-1440/en-us-sitemap",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [],
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-us-rewards-laundrytips-how-to-remove-armpit-stains/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-us-rewards-laundrytips-how-to-remove-armpit-stains/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 7091,
+    "mode": "overlap"
+  },
+  "heightDelta": -28,
+  "differingPixels": 1092499,
+  "pct": 10.7,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-1440/en-us-rewards-laundrytips-how-to-remove-armpit-stains/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 24.02,
+  "textBoxes": 177,
+  "textPixels": 1841428,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 7.5
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 9.6
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 8.3
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 7.6
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 1.6
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 16.5
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 20.3
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 2.6
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 12.6
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 13
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 18.7
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 16.1
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 14.3
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 3
+    },
+    {
+      "y0": 7000,
+      "y1": 7091,
+      "pct": 0
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 3.97,
+    "differingPixels": 408422,
+    "compared": {
+      "width": 1440,
+      "height": 7151,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 226,
+        "shift": 19,
+        "cumulative": 19
+      },
+      {
+        "y": 2803,
+        "shift": 40,
+        "cumulative": 59
+      },
+      {
+        "y": 4171,
+        "shift": -30,
+        "cumulative": 29
+      },
+      {
+        "y": 5732,
+        "shift": -2,
+        "cumulative": 27
+      },
+      {
+        "y": 6916,
+        "shift": 1,
+        "cumulative": 28
+      }
+    ],
+    "maxOffset": 59,
+    "totalShift": 92,
+    "insertedRows": 60,
+    "deletedRows": 32,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 4.3,
+        "unaligned": 7.5
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.7,
+        "unaligned": 9.6
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 1.4,
+        "unaligned": 8.3
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 1.7,
+        "unaligned": 7.6
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 2.3,
+        "unaligned": 1.6
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 9.2,
+        "unaligned": 16.5
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0.3,
+        "unaligned": 20.3
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 2.7,
+        "unaligned": 2.6
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 6.7,
+        "unaligned": 12.6
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0,
+        "unaligned": 13
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 14.3,
+        "unaligned": 18.7
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 12,
+        "unaligned": 16.1
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 0,
+        "unaligned": 14.3
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 0.2,
+        "unaligned": 3
+      },
+      {
+        "y0": 7000,
+        "y1": 7091,
+        "pct": 0,
+        "unaligned": 0
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/en-us-rewards-laundrytips-how-to-remove-armpit-stains/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 71,
+    "totalShift": 92,
+    "pass": false
+  },
+  "reason": "offsets: 5 step(s), 92px total — +19px at y=226, +40px at y=2803, −30px at y=4171, −2px at y=5732, +1px at y=6916 (bound 71px)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/rewards/laundrytips/how-to-remove-armpit-stains"
+  }
+}

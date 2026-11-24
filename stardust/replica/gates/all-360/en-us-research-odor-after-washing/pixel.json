@@ -1,0 +1,316 @@
+{
+  "a": "stardust/replica/gates/all-360/en-us-research-odor-after-washing/origin.png",
+  "b": "stardust/replica/gates/all-360/en-us-research-odor-after-washing/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 11427,
+    "mode": "overlap"
+  },
+  "heightDelta": 43,
+  "differingPixels": 103273,
+  "pct": 2.51,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/en-us-research-odor-after-washing/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 2.18,
+  "textBoxes": 402,
+  "textPixels": 2078511,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.7
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 8
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 2.6
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 0
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 0
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 0
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 0
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 0
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 0
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 0
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 0
+    },
+    {
+      "y0": 7000,
+      "y1": 7500,
+      "pct": 0
+    },
+    {
+      "y0": 7500,
+      "y1": 8000,
+      "pct": 0
+    },
+    {
+      "y0": 8000,
+      "y1": 8500,
+      "pct": 0
+    },
+    {
+      "y0": 8500,
+      "y1": 9000,
+      "pct": 0
+    },
+    {
+      "y0": 9000,
+      "y1": 9500,
+      "pct": 2.7
+    },
+    {
+      "y0": 9500,
+      "y1": 10000,
+      "pct": 23.9
+    },
+    {
+      "y0": 10000,
+      "y1": 10500,
+      "pct": 6.3
+    },
+    {
+      "y0": 10500,
+      "y1": 11000,
+      "pct": 9.1
+    },
+    {
+      "y0": 11000,
+      "y1": 11427,
+      "pct": 4.7
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 0.89,
+    "differingPixels": 36752,
+    "compared": {
+      "width": 360,
+      "height": 11470,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 9419,
+        "shift": -22,
+        "cumulative": -22
+      },
+      {
+        "y": 9768,
+        "shift": -21,
+        "cumulative": -43
+      }
+    ],
+    "maxOffset": 43,
+    "totalShift": 43,
+    "insertedRows": 0,
+    "deletedRows": 43,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.7,
+        "unaligned": 0.7
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 8,
+        "unaligned": 8
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 2.6,
+        "unaligned": 2.6
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 7000,
+        "y1": 7500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 7500,
+        "y1": 8000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 8000,
+        "y1": 8500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 8500,
+        "y1": 9000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 9000,
+        "y1": 9500,
+        "pct": 4.8,
+        "unaligned": 2.7
+      },
+      {
+        "y0": 9500,
+        "y1": 10000,
+        "pct": 4.2,
+        "unaligned": 23.9
+      },
+      {
+        "y0": 10000,
+        "y1": 10500,
+        "pct": 0,
+        "unaligned": 6.3
+      },
+      {
+        "y0": 10500,
+        "y1": 11000,
+        "pct": 0,
+        "unaligned": 9.1
+      },
+      {
+        "y0": 11000,
+        "y1": 11470,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/en-us-research-odor-after-washing/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 115,
+    "totalShift": 43,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/odor-after-washing"
+  }
+}

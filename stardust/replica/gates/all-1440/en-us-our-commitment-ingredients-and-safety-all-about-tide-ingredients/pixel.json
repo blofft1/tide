@@ -1,0 +1,178 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-us-our-commitment-ingredients-and-safety-all-about-tide-ingredients/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-us-our-commitment-ingredients-and-safety-all-about-tide-ingredients/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 4874,
+    "mode": "overlap"
+  },
+  "heightDelta": -81,
+  "differingPixels": 451066,
+  "pct": 6.43,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-1440/en-us-our-commitment-ingredients-and-safety-all-about-tide-ingredients/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 10.22,
+  "textBoxes": 143,
+  "textPixels": 966647,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 4.3
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 10.4
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 1.4
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 1.9
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0.8
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 7.9
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 2.8
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 7.2
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 23.5
+    },
+    {
+      "y0": 4500,
+      "y1": 4874,
+      "pct": 3.3
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 4.66,
+    "differingPixels": 332694,
+    "compared": {
+      "width": 1440,
+      "height": 4956,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 3664,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 3968,
+        "shift": 81,
+        "cumulative": 82
+      },
+      {
+        "y": 4697,
+        "shift": -1,
+        "cumulative": 81
+      }
+    ],
+    "maxOffset": 82,
+    "totalShift": 83,
+    "insertedRows": 82,
+    "deletedRows": 1,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 4.3,
+        "unaligned": 4.3
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 10.4,
+        "unaligned": 10.4
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 1.4,
+        "unaligned": 1.4
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 1.9,
+        "unaligned": 1.9
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0.8,
+        "unaligned": 0.8
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 7.9,
+        "unaligned": 7.9
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 2.8,
+        "unaligned": 2.8
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 14.2,
+        "unaligned": 7.2
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0,
+        "unaligned": 23.5
+      },
+      {
+        "y0": 4500,
+        "y1": 4874,
+        "pct": 0.3,
+        "unaligned": 3.3
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/en-us-our-commitment-ingredients-and-safety-all-about-tide-ingredients/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 49,
+    "totalShift": 83,
+    "pass": false
+  },
+  "reason": "offsets: 3 step(s), 83px total — +1px at y=3664, +81px at y=3968, −1px at y=4697 (bound 49px)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/ingredients-and-safety/all-about-tide-ingredients"
+  }
+}

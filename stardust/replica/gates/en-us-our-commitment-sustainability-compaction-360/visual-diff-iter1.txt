@@ -1,0 +1,433 @@
+[live-session] waiting to pace live navigations to tide.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/en-us-our-commitment-sustainability-compaction-360/vdiff-iter1/
+
+build red flags (advisory): none
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 3126,
+  "textLen": 2101,
+  "images": [
+   {
+    "src": "header_logo_png.webp",
+    "natural": "32x41",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "header_logo_downy.webp",
+    "natural": "43x41",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "header_logo_bounce.webp",
+    "natural": "47x41",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "brand_main_logo.svg",
+    "natural": "150x150",
+    "rendered": "47x47",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "v4_articles_hero_image_20240304_4_CD.png?fm=jpg&fl=progressive",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "How_Does_Tide_Do_This_375x172.svg?fm=webp",
+    "natural": "375x172",
+    "rendered": "330x151",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "More_Cleaning_Power_with_Less_Product_375x312.svg?fm=webp",
+    "natural": "375x312",
+    "rendered": "330x275",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social_facebook.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social_twitter.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social_pinterest.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social_youtube.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "footer_GoodHousekeeping.webp",
+    "natural": "82x62",
+    "rendered": "82x62",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "footer_BBB.webp",
+    "natural": "38x62",
+    "rendered": "38x62",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "footer_JunkFood.webp",
+    "natural": "58x62",
+    "rendered": "58x62",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "footer_TideCleaners.webp",
+    "natural": "56x62",
+    "rendered": "56x62",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Concentrated Detergent",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "40px",
+    "family": "Tide",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "How does Tide do this?",
+    "color": "rgb(251, 76, 6)",
+    "fontSize": "40px",
+    "family": "Tide",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Why does Tide do this?",
+    "color": "rgb(251, 76, 6)",
+    "fontSize": "40px",
+    "family": "Tide",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "More cleaning power with less pr",
+    "color": "rgb(251, 76, 6)",
+    "fontSize": "40px",
+    "family": "Tide",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "article-intro-main-text",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "richtext-container",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "richtext-container",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "richtext-container",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "richtext-container",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "richtext-container",
+    "width": 330,
+    "left": 15
+   }
+  ]
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 3126,
+  "textLen": 2101,
+  "images": [
+   {
+    "src": "header_logo_png.webp",
+    "natural": "32x41",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "header_logo_downy.webp",
+    "natural": "43x41",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "header_logo_bounce.webp",
+    "natural": "47x41",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "brand_main_logo.svg",
+    "natural": "150x150",
+    "rendered": "47x47",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "CountrFlag_USA.jpg",
+    "natural": "32x20",
+    "rendered": "32x20",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "CountrFlag_USA.jpg",
+    "natural": "32x20",
+    "rendered": "32x20",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "CountrFlag_Canada.jpg",
+    "natural": "32x20",
+    "rendered": "32x20",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "CountrFlag_Canada.jpg",
+    "natural": "32x20",
+    "rendered": "32x20",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "v4_articles_hero_image_20240304_4_CD.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "How_Does_Tide_Do_This_375x172.webp",
+    "natural": "375x172",
+    "rendered": "330x151",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "More_Cleaning_Power_with_Less_Product_375x312.webp",
+    "natural": "375x312",
+    "rendered": "330x275",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social_facebook.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social_twitter.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social_pinterest.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social_youtube.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "footer_GoodHousekeeping.webp",
+    "natural": "82x62",
+    "rendered": "82x62",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "footer_BBB.webp",
+    "natural": "38x62",
+    "rendered": "38x62",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "footer_JunkFood.webp",
+    "natural": "58x62",
+    "rendered": "58x62",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "footer_TideCleaners.webp",
+    "natural": "56x62",
+    "rendered": "56x62",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Concentrated Detergent",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "40px",
+    "family": "Tide",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "How does Tide do this?",
+    "color": "rgb(251, 76, 6)",
+    "fontSize": "40px",
+    "family": "Tide",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Why does Tide do this?",
+    "color": "rgb(251, 76, 6)",
+    "fontSize": "40px",
+    "family": "Tide",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "More cleaning power with less pr",
+    "color": "rgb(251, 76, 6)",
+    "fontSize": "40px",
+    "family": "Tide",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "topic-intro__lead",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "rt",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "rt",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "rt",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "rt",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "rt",
+    "width": 330,
+    "left": 15
+   }
+  ]
+ }
+}

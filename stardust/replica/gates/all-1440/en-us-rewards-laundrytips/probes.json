@@ -1,0 +1,69 @@
+{
+ "writtenBy": "gate-all.mjs",
+ "at": "2026-11-24T09:47:48.047Z",
+ "content": {
+  "totals": {
+   "missingHeadings": 0,
+   "hiddenHeadings": 0,
+   "extraHeadings": 0,
+   "missingLinks": 0,
+   "hiddenLinks": 0,
+   "movedLinks": 0,
+   "extraLinks": 0,
+   "missingButtons": 0,
+   "hiddenButtons": 0,
+   "controlState": 0,
+   "countDeltas": 0,
+   "findings": 0,
+   "structural": 0,
+   "missing": 0,
+   "hidden": 0
+  },
+  "variable": [],
+  "reason": null,
+  "tier": "chrome"
+ },
+ "clip": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 1,
+   "horizontal": 0,
+   "offPage": 0,
+   "textNodes": 53,
+   "controls": 51,
+   "total": 0
+  },
+  "groups": [
+   {
+    "kind": "TEXT SCROLL-HIDDEN",
+    "advisory": true,
+    "n": 1,
+    "clipper": "div.slhc-title",
+    "path": "div.slhc-head > div.slhc-title > h1#learn-essential-laundry-tips-with-us > strong",
+    "text": "learn essential laundry tips with us",
+    "cutMin": 8,
+    "cutMax": 8
+   }
+  ],
+  "origin": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 1,
+   "scrollHidden": 1,
+   "horizontal": 0,
+   "offPage": 0,
+   "textNodes": 54,
+   "controls": 51,
+   "total": 0
+  },
+  "source": "content-presence"
+ }
+}

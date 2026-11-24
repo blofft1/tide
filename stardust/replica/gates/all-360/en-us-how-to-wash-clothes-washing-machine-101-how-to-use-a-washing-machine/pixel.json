@@ -1,0 +1,329 @@
+{
+  "a": "stardust/replica/gates/all-360/en-us-how-to-wash-clothes-washing-machine-101-how-to-use-a-washing-machine/origin.png",
+  "b": "stardust/replica/gates/all-360/en-us-how-to-wash-clothes-washing-machine-101-how-to-use-a-washing-machine/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 10435,
+    "mode": "overlap"
+  },
+  "heightDelta": 30,
+  "differingPixels": 585640,
+  "pct": 15.59,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/en-us-how-to-wash-clothes-washing-machine-101-how-to-use-a-washing-machine/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 21.05,
+  "textBoxes": 303,
+  "textPixels": 1364370,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 7.1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 13
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 35.7
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 22.6
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 32
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 34.2
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 8.6
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 9.1
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 18.2
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 21.3
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 12.6
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 11.8
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 13.5
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 12.6
+    },
+    {
+      "y0": 7000,
+      "y1": 7500,
+      "pct": 9
+    },
+    {
+      "y0": 7500,
+      "y1": 8000,
+      "pct": 10.4
+    },
+    {
+      "y0": 8000,
+      "y1": 8500,
+      "pct": 13.1
+    },
+    {
+      "y0": 8500,
+      "y1": 9000,
+      "pct": 20.5
+    },
+    {
+      "y0": 9000,
+      "y1": 9500,
+      "pct": 6.5
+    },
+    {
+      "y0": 9500,
+      "y1": 10000,
+      "pct": 8.7
+    },
+    {
+      "y0": 10000,
+      "y1": 10435,
+      "pct": 5.4
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 0.97,
+    "differingPixels": 36429,
+    "compared": {
+      "width": 360,
+      "height": 10466,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 371,
+        "shift": -24,
+        "cumulative": -24
+      },
+      {
+        "y": 467,
+        "shift": -1,
+        "cumulative": -25
+      },
+      {
+        "y": 2474,
+        "shift": -1,
+        "cumulative": -26
+      },
+      {
+        "y": 5077,
+        "shift": -1,
+        "cumulative": -27
+      },
+      {
+        "y": 5797,
+        "shift": -1,
+        "cumulative": -28
+      },
+      {
+        "y": 6448,
+        "shift": -1,
+        "cumulative": -29
+      },
+      {
+        "y": 7289,
+        "shift": -1,
+        "cumulative": -30
+      },
+      {
+        "y": 7890,
+        "shift": 1,
+        "cumulative": -29
+      },
+      {
+        "y": 9732,
+        "shift": -1,
+        "cumulative": -30
+      }
+    ],
+    "maxOffset": 30,
+    "totalShift": 32,
+    "insertedRows": 1,
+    "deletedRows": 31,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 7.1,
+        "unaligned": 7.1
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.7,
+        "unaligned": 13
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0.2,
+        "unaligned": 35.7
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 8.4,
+        "unaligned": 22.6
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 1.5,
+        "unaligned": 32
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0.1,
+        "unaligned": 34.2
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 8.6
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0,
+        "unaligned": 9.1
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0,
+        "unaligned": 18.2
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0,
+        "unaligned": 21.3
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 0.2,
+        "unaligned": 12.6
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 0.2,
+        "unaligned": 11.8
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 0.2,
+        "unaligned": 13.5
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 0,
+        "unaligned": 12.6
+      },
+      {
+        "y0": 7000,
+        "y1": 7500,
+        "pct": 1.3,
+        "unaligned": 9
+      },
+      {
+        "y0": 7500,
+        "y1": 8000,
+        "pct": 0.2,
+        "unaligned": 10.4
+      },
+      {
+        "y0": 8000,
+        "y1": 8500,
+        "pct": 0,
+        "unaligned": 13.1
+      },
+      {
+        "y0": 8500,
+        "y1": 9000,
+        "pct": 0,
+        "unaligned": 20.5
+      },
+      {
+        "y0": 9000,
+        "y1": 9500,
+        "pct": 0,
+        "unaligned": 6.5
+      },
+      {
+        "y0": 9500,
+        "y1": 10000,
+        "pct": 0.2,
+        "unaligned": 8.7
+      },
+      {
+        "y0": 10000,
+        "y1": 10465,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/en-us-how-to-wash-clothes-washing-machine-101-how-to-use-a-washing-machine/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 105,
+    "totalShift": 32,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine"
+  }
+}

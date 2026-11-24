@@ -1,0 +1,226 @@
+{
+  "a": "stardust/replica/gates/all-360/en-us-research-detergent-sheets-pods-liquid/origin.png",
+  "b": "stardust/replica/gates/all-360/en-us-research-detergent-sheets-pods-liquid/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 6271,
+    "mode": "overlap"
+  },
+  "heightDelta": -159,
+  "differingPixels": 197025,
+  "pct": 8.73,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-360/en-us-research-detergent-sheets-pods-liquid/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 11.66,
+  "textBoxes": 189,
+  "textPixels": 960192,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.6
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 11
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 4.9
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 5.6
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 4.1
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 2.5
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 1.3
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 6
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 16
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 39.1
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 5.8
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 9.9
+    },
+    {
+      "y0": 6000,
+      "y1": 6271,
+      "pct": 5
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 4.15,
+    "differingPixels": 96188,
+    "compared": {
+      "width": 360,
+      "height": 6432,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 535,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 3874,
+        "shift": 80,
+        "cumulative": 81
+      },
+      {
+        "y": 3936,
+        "shift": 60,
+        "cumulative": 141
+      },
+      {
+        "y": 4213,
+        "shift": 20,
+        "cumulative": 161
+      },
+      {
+        "y": 4588,
+        "shift": -1,
+        "cumulative": 160
+      },
+      {
+        "y": 5538,
+        "shift": -1,
+        "cumulative": 159
+      }
+    ],
+    "maxOffset": 161,
+    "totalShift": 163,
+    "insertedRows": 161,
+    "deletedRows": 2,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.6,
+        "unaligned": 0.6
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 8.8,
+        "unaligned": 11
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 4.9
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 5.6
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 4.1
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 2.5
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 1.3
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 23.2,
+        "unaligned": 6
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 12.5,
+        "unaligned": 16
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 1.1,
+        "unaligned": 39.1
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 0,
+        "unaligned": 5.8
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 0.2,
+        "unaligned": 9.9
+      },
+      {
+        "y0": 6000,
+        "y1": 6271,
+        "pct": 0,
+        "unaligned": 5
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/en-us-research-detergent-sheets-pods-liquid/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 63,
+    "totalShift": 163,
+    "pass": false
+  },
+  "reason": "offsets: 6 step(s), 163px total — +1px at y=535, +80px at y=3874, +60px at y=3936, +20px at y=4213, −1px at y=4588, −1px at y=5538 (bound 63px)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/detergent-sheets-pods-liquid"
+  }
+}

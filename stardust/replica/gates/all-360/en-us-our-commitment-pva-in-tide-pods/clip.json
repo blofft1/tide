@@ -1,0 +1,67 @@
+{
+ "url": "https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/pva-in-tide-pods",
+ "at": "2026-11-24T11:17:49.796Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 18,
+  "offPage": 7,
+  "textNodes": 158,
+  "controls": 74,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 11,
+   "clipper": "div.table-scroller",
+   "path": "thead > tr > th > p",
+   "text": "most common microplastics",
+   "cutMin": 91,
+   "cutMax": 101
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 6,
+   "clipper": "div.table-scroller",
+   "path": "tr > td > p > sup",
+   "text": "[32]",
+   "cutMin": 14,
+   "cutMax": 95
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.table-scroller",
+   "path": "tbody > tr > td > p",
+   "text": ".",
+   "cutMin": 3,
+   "cutMax": 3
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 1,
+   "scrollHidden": 0,
+   "horizontal": 17,
+   "offPage": 8,
+   "textNodes": 159,
+   "controls": 77,
+   "total": 0
+  }
+ }
+}

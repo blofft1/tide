@@ -1,0 +1,1034 @@
+{
+  "generatedAt": "2026-11-24T12:54:09.349Z",
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://tide.com/",
+    "liveHost": "main--5db7d055--aemcoder.aem.live"
+  },
+  "stageCount": {
+    "identified": 99,
+    "prototyped": 94,
+    "deployed": 94,
+    "optimised": 94
+  },
+  "stageExclusive": {
+    "identified": 5,
+    "prototyped": 0,
+    "deployed": 0,
+    "optimised": 94
+  },
+  "pages": [
+    {
+      "slug": "index",
+      "path": "/",
+      "stage": "identified",
+      "templateId": "redirect",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us",
+      "path": "/en-us",
+      "stage": "optimised",
+      "templateId": "en-us",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-accessibility",
+      "path": "/en-us/accessibility",
+      "stage": "identified",
+      "templateId": "redirect",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-click2cart-0060001",
+      "path": "/en-us/click2cart/0060001",
+      "stage": "optimised",
+      "templateId": "en-us-click2cart-0060001",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-click2cart-006000b",
+      "path": "/en-us/click2cart/006000b",
+      "stage": "optimised",
+      "templateId": "click2cart",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-click2cart-006000h",
+      "path": "/en-us/click2cart/006000h",
+      "stage": "optimised",
+      "templateId": "click2cart",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-click2cart-006000i",
+      "path": "/en-us/click2cart/006000i",
+      "stage": "optimised",
+      "templateId": "click2cart",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-click2cart-006000p",
+      "path": "/en-us/click2cart/006000p",
+      "stage": "optimised",
+      "templateId": "click2cart",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-click2cart-006000q",
+      "path": "/en-us/click2cart/006000q",
+      "stage": "optimised",
+      "templateId": "click2cart",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-click2cart-006000z",
+      "path": "/en-us/click2cart/006000z",
+      "stage": "optimised",
+      "templateId": "click2cart",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-click2cart-00600bt",
+      "path": "/en-us/click2cart/00600bt",
+      "stage": "optimised",
+      "templateId": "click2cart",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-contact-us",
+      "path": "/en-us/contact-us",
+      "stage": "optimised",
+      "templateId": "unique",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-coupons-and-rewards",
+      "path": "/en-us/coupons-and-rewards",
+      "stage": "identified",
+      "templateId": "redirect",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-how-to-do-laundry-better-clean-safer",
+      "path": "/en-us/how-to-do-laundry/better-clean-safer",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-how-to-do-laundry-detergent-residue-safety",
+      "path": "/en-us/how-to-do-laundry/detergent-residue-safety",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-how-to-wash-clothes",
+      "path": "/en-us/how-to-wash-clothes",
+      "stage": "optimised",
+      "templateId": "section-landing",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-how-to-wash-clothes-effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry",
+      "path": "/en-us/how-to-wash-clothes/effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-how-to-wash-clothes-how-to-do-laundry",
+      "path": "/en-us/how-to-wash-clothes/how-to-do-laundry",
+      "stage": "optimised",
+      "templateId": "topic-hub",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-how-to-wash-clothes-how-to-do-laundry-about-tide-pods-pva-film",
+      "path": "/en-us/how-to-wash-clothes/how-to-do-laundry/about-tide-pods-pva-film",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-how-to-wash-clothes-how-to-remove-stains",
+      "path": "/en-us/how-to-wash-clothes/how-to-remove-stains",
+      "stage": "optimised",
+      "templateId": "en-us-how-to-wash-clothes-how-to-remove-stains",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-how-to-wash-clothes-how-to-remove-stains-acne-cream-stains",
+      "path": "/en-us/how-to-wash-clothes/how-to-remove-stains/acne-cream-stains",
+      "stage": "optimised",
+      "templateId": "unique",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-how-to-wash-clothes-washing-different-fabrics-and-colors",
+      "path": "/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors",
+      "stage": "optimised",
+      "templateId": "topic-hub",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-how-to-wash-clothes-washing-different-fabrics-and-colors-everyday-items-to-wash-regularly",
+      "path": "/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors/everyday-items-to-wash-regularly",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-how-to-wash-clothes-washing-machine-101",
+      "path": "/en-us/how-to-wash-clothes/washing-machine-101",
+      "stage": "optimised",
+      "templateId": "section-landing",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-how-to-wash-clothes-washing-machine-101-how-to-use-a-washing-machine",
+      "path": "/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine",
+      "stage": "optimised",
+      "templateId": "topic-hub",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-latest-news",
+      "path": "/en-us/latest-news",
+      "stage": "optimised",
+      "templateId": "unique",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-our-commitment",
+      "path": "/en-us/our-commitment",
+      "stage": "optimised",
+      "templateId": "en-us-our-commitment",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-our-commitment-americas-number-one-detergent",
+      "path": "/en-us/our-commitment/americas-number-one-detergent",
+      "stage": "optimised",
+      "templateId": "section-landing",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-our-commitment-americas-number-one-detergent-our-heritage",
+      "path": "/en-us/our-commitment/americas-number-one-detergent/our-heritage",
+      "stage": "optimised",
+      "templateId": "unique",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-our-commitment-dont-pay-for-water",
+      "path": "/en-us/our-commitment/dont-pay-for-water",
+      "stage": "optimised",
+      "templateId": "unique",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-our-commitment-ingredients-and-safety",
+      "path": "/en-us/our-commitment/ingredients-and-safety",
+      "stage": "optimised",
+      "templateId": "section-landing",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-our-commitment-ingredients-and-safety-all-about-tide-ingredients",
+      "path": "/en-us/our-commitment/ingredients-and-safety/all-about-tide-ingredients",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-our-commitment-loads-of-hope",
+      "path": "/en-us/our-commitment/loads-of-hope",
+      "stage": "identified",
+      "templateId": "redirect",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-our-commitment-pva-in-tide-pods",
+      "path": "/en-us/our-commitment/pva-in-tide-pods",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-our-commitment-superbowllx",
+      "path": "/en-us/our-commitment/superbowllx",
+      "stage": "optimised",
+      "templateId": "unique",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-our-commitment-sustainability",
+      "path": "/en-us/our-commitment/sustainability",
+      "stage": "identified",
+      "templateId": "redirect",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-our-commitment-sustainability-compaction",
+      "path": "/en-us/our-commitment/sustainability/compaction",
+      "stage": "optimised",
+      "templateId": "en-us-our-commitment-sustainability-compaction",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-our-commitment-sustainability-materials",
+      "path": "/en-us/our-commitment/sustainability/materials",
+      "stage": "optimised",
+      "templateId": "sustainability-topic",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-our-commitment-sustainability-saving-energy",
+      "path": "/en-us/our-commitment/sustainability/saving-energy",
+      "stage": "optimised",
+      "templateId": "sustainability-topic",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-our-commitment-tide-boosted",
+      "path": "/en-us/our-commitment/tide-boosted",
+      "stage": "optimised",
+      "templateId": "unique",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-our-commitment-tide-cleaners-laundry-service",
+      "path": "/en-us/our-commitment/tide-cleaners-laundry-service",
+      "stage": "optimised",
+      "templateId": "unique",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-our-commitment-tide-evo",
+      "path": "/en-us/our-commitment/tide-evo",
+      "stage": "optimised",
+      "templateId": "unique",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-our-commitment-tide-in-space",
+      "path": "/en-us/our-commitment/tide-in-space",
+      "stage": "optimised",
+      "templateId": "unique",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-our-commitment-turn-to-cold",
+      "path": "/en-us/our-commitment/turn-to-cold",
+      "stage": "optimised",
+      "templateId": "unique",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-research-are-detergents-toxic-science",
+      "path": "/en-us/research/are-detergents-toxic-science",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-research-are-scented-laundry-products-safe",
+      "path": "/en-us/research/are-scented-laundry-products-safe",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-research-best-eco-laundry-detergent",
+      "path": "/en-us/research/best-eco-laundry-detergent",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-research-best-laundry-detergent-baby-clothes",
+      "path": "/en-us/research/best-laundry-detergent-baby-clothes",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-research-best-quality-detergent",
+      "path": "/en-us/research/best-quality-detergent",
+      "stage": "optimised",
+      "templateId": "en-us-research-best-quality-detergent",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-research-cold-water-vs-laundry-cost",
+      "path": "/en-us/research/cold-water-vs-laundry-cost",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-research-detergent-sheets-pods-liquid",
+      "path": "/en-us/research/detergent-sheets-pods-liquid",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-research-do-you-need-special-baby-detergent",
+      "path": "/en-us/research/do-you-need-special-baby-detergent",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-research-environmentally-friendly-way-laundry",
+      "path": "/en-us/research/environmentally-friendly-way-laundry",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-research-evaluate-true-value-laundry-detergent",
+      "path": "/en-us/research/evaluate-true-value-laundry-detergent",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-research-fragrance-meaning-on-ingredient-label",
+      "path": "/en-us/research/fragrance-meaning-on-ingredient-label",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-research-hazard-vs-risk-laundry-detergent",
+      "path": "/en-us/research/hazard-vs-risk-laundry-detergent",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-research-how-enzymes-help-remove-baby-stains",
+      "path": "/en-us/research/how-enzymes-help-remove-baby-stains",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-research-how-to-choose-detergent-for-value",
+      "path": "/en-us/research/how-to-choose-detergent-for-value",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-research-laundry-detergent-science-testing",
+      "path": "/en-us/research/laundry-detergent-science-testing",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-research-laundry-scent-and-indoor-air",
+      "path": "/en-us/research/laundry-scent-and-indoor-air",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-research-natural-detergent-baby-clothes",
+      "path": "/en-us/research/natural-detergent-baby-clothes",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-research-odor-after-washing",
+      "path": "/en-us/research/odor-after-washing",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-research-pva-technical-review",
+      "path": "/en-us/research/pva-technical-review",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-research-scientific-guide-laundry-sensitive-skin",
+      "path": "/en-us/research/scientific-guide-laundry-sensitive-skin",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-research-signs-of-fragrance-safety",
+      "path": "/en-us/research/signs-of-fragrance-safety",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-research-tide-environment-safety",
+      "path": "/en-us/research/tide-environment-safety",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-research-tide-evo-dissolve-guide",
+      "path": "/en-us/research/tide-evo-dissolve-guide",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-research-tide-value-framework",
+      "path": "/en-us/research/tide-value-framework",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-research-vocs-laundry-products-airborne-emissions",
+      "path": "/en-us/research/vocs-laundry-products-airborne-emissions",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-research-what-is-best-eco-detergent",
+      "path": "/en-us/research/what-is-best-eco-detergent",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-research-what-makes-laundry-scent-safe",
+      "path": "/en-us/research/what-makes-laundry-scent-safe",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-research-why-cost-per-load-isnt-whole-story",
+      "path": "/en-us/research/why-cost-per-load-isnt-whole-story",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-research-why-rewashes-make-laundry-more-expensive",
+      "path": "/en-us/research/why-rewashes-make-laundry-more-expensive",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-rewards",
+      "path": "/en-us/rewards",
+      "stage": "optimised",
+      "templateId": "unique",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-rewards-laundrytips",
+      "path": "/en-us/rewards/laundrytips",
+      "stage": "optimised",
+      "templateId": "section-landing",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-rewards-laundrytips-how-to-remove-armpit-stains",
+      "path": "/en-us/rewards/laundrytips/how-to-remove-armpit-stains",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-rewards-loyalty-terms-and-conditions",
+      "path": "/en-us/rewards/loyalty/terms-and-conditions",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-shop",
+      "path": "/en-us/shop",
+      "stage": "optimised",
+      "templateId": "product-listing",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-shop-special-needs-additives",
+      "path": "/en-us/shop/special-needs/additives",
+      "stage": "optimised",
+      "templateId": "product-listing",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-shop-special-needs-deep-clean",
+      "path": "/en-us/shop/special-needs/deep-clean",
+      "stage": "optimised",
+      "templateId": "product-listing",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-shop-special-needs-freshness",
+      "path": "/en-us/shop/special-needs/freshness",
+      "stage": "optimised",
+      "templateId": "product-listing",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-shop-special-needs-odor-removal",
+      "path": "/en-us/shop/special-needs/odor-removal",
+      "stage": "optimised",
+      "templateId": "product-listing",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-shop-special-needs-sensitive",
+      "path": "/en-us/shop/special-needs/sensitive",
+      "stage": "optimised",
+      "templateId": "product-listing",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-shop-special-needs-stain-removal",
+      "path": "/en-us/shop/special-needs/stain-removal",
+      "stage": "optimised",
+      "templateId": "product-listing",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-shop-special-needs-whiteness",
+      "path": "/en-us/shop/special-needs/whiteness",
+      "stage": "optimised",
+      "templateId": "product-listing",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-shop-top-collections-tide-free-and-gentle",
+      "path": "/en-us/shop/top-collections/tide-free-and-gentle",
+      "stage": "optimised",
+      "templateId": "en-us-shop-top-collections-tide-free-and-gentle",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-shop-top-collections-tide-plus-febreze",
+      "path": "/en-us/shop/top-collections/tide-plus-febreze",
+      "stage": "optimised",
+      "templateId": "collection-landing",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-shop-top-collections-tide-power-pods",
+      "path": "/en-us/shop/top-collections/tide-power-pods",
+      "stage": "optimised",
+      "templateId": "collection-landing",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-shop-top-collections-tide-simply",
+      "path": "/en-us/shop/top-collections/tide-simply",
+      "stage": "optimised",
+      "templateId": "collection-landing",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-shop-top-collections-tide-ultra-oxi",
+      "path": "/en-us/shop/top-collections/tide-ultra-oxi",
+      "stage": "optimised",
+      "templateId": "collection-landing",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-shop-type-fabric-rinse",
+      "path": "/en-us/shop/type/fabric-rinse",
+      "stage": "optimised",
+      "templateId": "product-listing",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-shop-type-laundry-booster",
+      "path": "/en-us/shop/type/laundry-booster",
+      "stage": "optimised",
+      "templateId": "product-listing",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-shop-type-laundry-pods",
+      "path": "/en-us/shop/type/laundry-pods",
+      "stage": "optimised",
+      "templateId": "product-listing",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-shop-type-laundry-tiles",
+      "path": "/en-us/shop/type/laundry-tiles",
+      "stage": "optimised",
+      "templateId": "product-listing",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-shop-type-liquid",
+      "path": "/en-us/shop/type/liquid",
+      "stage": "optimised",
+      "templateId": "en-us-shop-type-liquid",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-shop-type-powder",
+      "path": "/en-us/shop/type/powder",
+      "stage": "optimised",
+      "templateId": "product-listing",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-shop-type-stain-remover",
+      "path": "/en-us/shop/type/stain-remover",
+      "stage": "optimised",
+      "templateId": "product-listing",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-us-sitemap",
+      "path": "/en-us/sitemap",
+      "stage": "optimised",
+      "templateId": "unique",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "health-probe",
+      "path": "/health-probe",
+      "stage": "optimised",
+      "templateId": "unique",
+      "isTemplate": false,
+      "openFindings": 0
+    }
+  ],
+  "templates": [
+    {
+      "id": "article",
+      "archetype": "en-us-how-to-do-laundry-better-clean-safer",
+      "pageCount": 37,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 37
+      }
+    },
+    {
+      "id": "click2cart",
+      "archetype": "en-us-click2cart-006000b",
+      "pageCount": 7,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 7
+      }
+    },
+    {
+      "id": "collection-landing",
+      "archetype": "en-us-shop-top-collections-tide-plus-febreze",
+      "pageCount": 4,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 4
+      }
+    },
+    {
+      "id": "en-us",
+      "archetype": "en-us",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "en-us-click2cart-0060001",
+      "archetype": "en-us-click2cart-0060001",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "en-us-how-to-wash-clothes-how-to-remove-stains",
+      "archetype": "en-us-how-to-wash-clothes-how-to-remove-stains",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "en-us-our-commitment",
+      "archetype": "en-us-our-commitment",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "en-us-our-commitment-sustainability-compaction",
+      "archetype": "en-us-our-commitment-sustainability-compaction",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "en-us-research-best-quality-detergent",
+      "archetype": "en-us-research-best-quality-detergent",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "en-us-shop-top-collections-tide-free-and-gentle",
+      "archetype": "en-us-shop-top-collections-tide-free-and-gentle",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "en-us-shop-type-liquid",
+      "archetype": "en-us-shop-type-liquid",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "product-listing",
+      "archetype": "en-us-shop",
+      "pageCount": 14,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 14
+      }
+    },
+    {
+      "id": "redirect",
+      "archetype": "en-us-accessibility",
+      "pageCount": 5,
+      "stages": {
+        "identified": 5,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "section-landing",
+      "archetype": "en-us-how-to-wash-clothes",
+      "pageCount": 5,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 5
+      }
+    },
+    {
+      "id": "sustainability-topic",
+      "archetype": "en-us-our-commitment-sustainability-materials",
+      "pageCount": 2,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 2
+      }
+    },
+    {
+      "id": "topic-hub",
+      "archetype": "en-us-how-to-wash-clothes-how-to-do-laundry",
+      "pageCount": 3,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 3
+      }
+    },
+    {
+      "id": "unique",
+      "archetype": "en-us-contact-us",
+      "pageCount": 14,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 14
+      }
+    }
+  ],
+  "blocks": {
+    "total": 14,
+    "converted": 0
+  },
+  "quality": {
+    "overall": 100,
+    "dimensions": {
+      "brand-tensions": null,
+      "design-ux": null,
+      "accessibility": null,
+      "seo": 100,
+      "content-conversion": null,
+      "ai-search": 100,
+      "cross-page": 100
+    },
+    "severity": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 0
+    },
+    "history": [
+      67,
+      100
+    ]
+  },
+  "findings": {
+    "byFixability": {
+      "out-of-scope": 85
+    },
+    "byAutofix": {}
+  }
+}

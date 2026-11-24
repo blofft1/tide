@@ -1,0 +1,81 @@
+/* jump-links — live .anchor-navigation; frozen = fixed to the viewport top after scroll */
+.jump-links {
+  display: flex;
+  border-bottom: 1px solid #e3e3e3;
+  background-color: #fff;
+  box-shadow: none;
+  transition: box-shadow 0.3s;
+}
+
+.jump-links.is-frozen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  box-shadow: 0 2px 17px #0003;
+}
+
+.jump-links nav {
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.jump-links nav::-webkit-scrollbar {
+  display: none;
+}
+
+.jump-links ul,
+.jump-links ol {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.jump-links li {
+  display: inline-block;
+  margin-right: 40px;
+  list-style: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.jump-links li:last-child {
+  margin-right: 0;
+}
+
+.jump-links .jump-links-item {
+  display: inline-block;
+  position: relative;
+  padding: 15px 0;
+  color: var(--tide-navy);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0;
+}
+
+.jump-links .jump-links-item a:any-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.jump-links .jump-links-item::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: -4px;
+  width: calc(100% + 8px);
+  height: 5px;
+  background-color: transparent;
+  transition: background-color 0.3s;
+}
+
+.jump-links li.active .jump-links-item::before {
+  background-color: var(--tide-orange);
+}
+
+.jump-links .jump-links-item p {
+  display: inline;
+  margin: 0;
+}

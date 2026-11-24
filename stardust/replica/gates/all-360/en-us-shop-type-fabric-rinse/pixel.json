@@ -1,0 +1,135 @@
+{
+  "a": "stardust/replica/gates/all-360/en-us-shop-type-fabric-rinse/origin.png",
+  "b": "stardust/replica/gates/all-360/en-us-shop-type-fabric-rinse/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 3069,
+    "mode": "overlap"
+  },
+  "heightDelta": -15,
+  "differingPixels": 52823,
+  "pct": 4.78,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/en-us-shop-type-fabric-rinse/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 7.24,
+  "textBoxes": 76,
+  "textPixels": 225719,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.6
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 5.5
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 9.9
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 7.8
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 5.4
+    },
+    {
+      "y0": 3000,
+      "y1": 3069,
+      "pct": 0.9
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 0.59,
+    "differingPixels": 6521,
+    "compared": {
+      "width": 360,
+      "height": 3084,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1409,
+        "shift": 15,
+        "cumulative": 15
+      }
+    ],
+    "maxOffset": 15,
+    "totalShift": 15,
+    "insertedRows": 15,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.6,
+        "unaligned": 0.6
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 2.9,
+        "unaligned": 5.5
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 9.9
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 7.8
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 5.4
+      },
+      {
+        "y0": 3000,
+        "y1": 3069,
+        "pct": 0,
+        "unaligned": 0.9
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/en-us-shop-type-fabric-rinse/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 31,
+    "totalShift": 15,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/fabric-rinse"
+  }
+}

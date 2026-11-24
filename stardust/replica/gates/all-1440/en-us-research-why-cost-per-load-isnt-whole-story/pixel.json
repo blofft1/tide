@@ -1,0 +1,146 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-us-research-why-cost-per-load-isnt-whole-story/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-us-research-why-cost-per-load-isnt-whole-story/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 3772,
+    "mode": "overlap"
+  },
+  "heightDelta": -1,
+  "differingPixels": 108982,
+  "pct": 2.01,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/en-us-research-why-cost-per-load-isnt-whole-story/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 5.33,
+  "textBoxes": 79,
+  "textPixels": 886149,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 5
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 9.5
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 0
+    },
+    {
+      "y0": 3500,
+      "y1": 3772,
+      "pct": 1
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 1.96,
+    "differingPixels": 106495,
+    "compared": {
+      "width": 1440,
+      "height": 3773,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 3597,
+        "shift": 1,
+        "cumulative": 1
+      }
+    ],
+    "maxOffset": 1,
+    "totalShift": 1,
+    "insertedRows": 1,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 5,
+        "unaligned": 5
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 9.5,
+        "unaligned": 9.5
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 3500,
+        "y1": 3772,
+        "pct": 0.4,
+        "unaligned": 1
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/en-us-research-why-cost-per-load-isnt-whole-story/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 38,
+    "totalShift": 1,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/why-cost-per-load-isnt-whole-story"
+  }
+}

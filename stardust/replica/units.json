@@ -1,0 +1,336 @@
+{
+  "home-rail-card": {
+    "origin": ".hp_carousel .list-card",
+    "build": ".rail .card",
+    "eds": ".home-promo-carousel .hpc-card",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "en-us"
+    ],
+    "templates": [
+      "home"
+    ]
+  },
+  "home-finder-card": {
+    "origin": ".find-tide-product .modal-card",
+    "build": ".finder .modal-card",
+    "eds": ".browse-tiles .bt-tile",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "en-us"
+    ],
+    "templates": [
+      "home"
+    ]
+  },
+  "article-preview": {
+    "origin": ".homepage-articles .article-preview, .big-papa-hero-section-column-reverse .article-preview",
+    "build": ".articles .preview",
+    "eds": ".learn-more-card-grid .lmc-card",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "en-us"
+    ],
+    "templates": [
+      "home"
+    ]
+  },
+  "article-faq-item": {
+    "origin": ".faqs .faq-item",
+    "build": ".faqs .faq",
+    "eds": ".faq-accordion .faq-accordion-item",
+    "n": 5,
+    "required": true,
+    "pages": [
+      "en-us-research-best-quality-detergent",
+      "en-us-how-to-do-laundry-better-clean-safer",
+      "en-us-how-to-do-laundry-detergent-residue-safety",
+      "en-us-how-to-wash-clothes-effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry",
+      "en-us-research-are-detergents-toxic-science",
+      "en-us-research-are-scented-laundry-products-safe",
+      "en-us-research-best-eco-laundry-detergent",
+      "en-us-research-best-laundry-detergent-baby-clothes",
+      "en-us-research-cold-water-vs-laundry-cost",
+      "en-us-research-detergent-sheets-pods-liquid",
+      "en-us-research-do-you-need-special-baby-detergent",
+      "en-us-research-environmentally-friendly-way-laundry",
+      "en-us-research-fragrance-meaning-on-ingredient-label",
+      "en-us-research-hazard-vs-risk-laundry-detergent",
+      "en-us-research-how-enzymes-help-remove-baby-stains",
+      "en-us-research-how-to-choose-detergent-for-value",
+      "en-us-research-laundry-detergent-science-testing",
+      "en-us-research-laundry-scent-and-indoor-air",
+      "en-us-research-natural-detergent-baby-clothes",
+      "en-us-research-odor-after-washing",
+      "en-us-research-scientific-guide-laundry-sensitive-skin",
+      "en-us-research-signs-of-fragrance-safety",
+      "en-us-research-tide-environment-safety",
+      "en-us-research-tide-evo-dissolve-guide",
+      "en-us-research-tide-value-framework",
+      "en-us-research-vocs-laundry-products-airborne-emissions",
+      "en-us-research-what-is-best-eco-detergent",
+      "en-us-research-what-makes-laundry-scent-safe",
+      "en-us-research-why-cost-per-load-isnt-whole-story",
+      "en-us-research-why-rewashes-make-laundry-more-expensive",
+      "en-us-rewards-laundrytips-how-to-remove-armpit-stains"
+    ],
+    "templates": []
+  },
+  "article-jump-nav-item": {
+    "origin": "#sticky-nav li",
+    "build": "#sticky-nav li",
+    "eds": ".jump-links li",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "en-us-research-best-quality-detergent",
+      "en-us-how-to-do-laundry-better-clean-safer",
+      "en-us-how-to-do-laundry-detergent-residue-safety",
+      "en-us-how-to-wash-clothes-effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry",
+      "en-us-how-to-wash-clothes-how-to-do-laundry-about-tide-pods-pva-film",
+      "en-us-how-to-wash-clothes-washing-different-fabrics-and-colors-everyday-items-to-wash-regularly",
+      "en-us-our-commitment-ingredients-and-safety-all-about-tide-ingredients",
+      "en-us-research-are-detergents-toxic-science",
+      "en-us-research-are-scented-laundry-products-safe",
+      "en-us-research-best-eco-laundry-detergent",
+      "en-us-research-best-laundry-detergent-baby-clothes",
+      "en-us-research-cold-water-vs-laundry-cost",
+      "en-us-research-detergent-sheets-pods-liquid",
+      "en-us-research-do-you-need-special-baby-detergent",
+      "en-us-research-environmentally-friendly-way-laundry",
+      "en-us-research-evaluate-true-value-laundry-detergent",
+      "en-us-research-fragrance-meaning-on-ingredient-label",
+      "en-us-research-hazard-vs-risk-laundry-detergent",
+      "en-us-research-how-enzymes-help-remove-baby-stains",
+      "en-us-research-how-to-choose-detergent-for-value",
+      "en-us-research-laundry-detergent-science-testing",
+      "en-us-research-laundry-scent-and-indoor-air",
+      "en-us-research-natural-detergent-baby-clothes",
+      "en-us-research-odor-after-washing",
+      "en-us-research-pva-technical-review",
+      "en-us-research-scientific-guide-laundry-sensitive-skin",
+      "en-us-research-signs-of-fragrance-safety",
+      "en-us-research-tide-environment-safety",
+      "en-us-research-tide-evo-dissolve-guide",
+      "en-us-research-tide-value-framework",
+      "en-us-research-vocs-laundry-products-airborne-emissions",
+      "en-us-research-what-is-best-eco-detergent",
+      "en-us-research-what-makes-laundry-scent-safe",
+      "en-us-research-why-cost-per-load-isnt-whole-story",
+      "en-us-research-why-rewashes-make-laundry-more-expensive"
+    ],
+    "templates": []
+  },
+  "plp-product-card": {
+    "origin": ".plp-product-previews-wrapper .product .product-preview",
+    "build": ".plp-grid .product .product-card",
+    "eds": ".product-grid .product-grid-item.product .product-grid-card",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "en-us-shop-type-liquid",
+      "en-us-shop",
+      "en-us-shop-special-needs-additives",
+      "en-us-shop-special-needs-deep-clean",
+      "en-us-shop-special-needs-freshness",
+      "en-us-shop-special-needs-odor-removal",
+      "en-us-shop-special-needs-sensitive",
+      "en-us-shop-special-needs-stain-removal",
+      "en-us-shop-special-needs-whiteness",
+      "en-us-shop-type-fabric-rinse",
+      "en-us-shop-type-laundry-pods",
+      "en-us-shop-type-laundry-tiles",
+      "en-us-shop-type-powder",
+      "en-us-shop-type-stain-remover"
+    ],
+    "templates": [],
+    "note": "product-listing pages that carry this family (listed per page: laundry-booster has no products; en-us-shop, fabric-rinse, laundry-tiles have no feature banners)"
+  },
+  "plp-feature-banner": {
+    "origin": ".dynamic-content-wrapper > .row picture",
+    "build": ".plp-features .feature-banner picture",
+    "eds": ".feature-band-alternating.overlay .fba-media picture",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "en-us-shop-type-liquid",
+      "en-us-shop-special-needs-additives",
+      "en-us-shop-special-needs-deep-clean",
+      "en-us-shop-special-needs-freshness",
+      "en-us-shop-special-needs-odor-removal",
+      "en-us-shop-special-needs-sensitive",
+      "en-us-shop-special-needs-stain-removal",
+      "en-us-shop-special-needs-whiteness",
+      "en-us-shop-type-laundry-booster",
+      "en-us-shop-type-laundry-pods",
+      "en-us-shop-type-powder",
+      "en-us-shop-type-stain-remover"
+    ],
+    "templates": [],
+    "note": "product-listing pages that carry this family (listed per page: laundry-booster has no products; en-us-shop, fabric-rinse, laundry-tiles have no feature banners)"
+  },
+  "commitment-card": {
+    "origin": ".our-commitment-small-articles .article-preview",
+    "build": ".commitment-cards .preview",
+    "eds": ".learn-more-card-grid.three-up .lmc-card",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "en-us-our-commitment",
+      "en-us-our-commitment-americas-number-one-detergent",
+      "en-us-our-commitment-ingredients-and-safety"
+    ],
+    "templates": [],
+    "note": "section-landing pages whose .our-commitment-small-articles row holds >= 3 cards (listed per page: how-to-wash-clothes has 2, washing-machine-101 and rewards/laundrytips none)"
+  },
+  "collection-product-card": {
+    "origin": ".collection-products .product-preview",
+    "build": ".collection-grid .product-card",
+    "n": 6,
+    "required": true,
+    "pages": [
+      "en-us-shop-top-collections-tide-free-and-gentle"
+    ],
+    "templates": [
+      "collection-landing"
+    ],
+    "eds": ".product-grid.collection .product-grid-card"
+  },
+  "collection-jump-nav-item": {
+    "origin": "#sticky-nav li",
+    "build": "#sticky-nav li",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "en-us-shop-top-collections-tide-free-and-gentle"
+    ],
+    "templates": [
+      "collection-landing"
+    ],
+    "eds": ".jump-links li"
+  },
+  "collection-works-item": {
+    "origin": ".collection-fg-sixth-banner li",
+    "build": ".works__rt li",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "en-us-shop-top-collections-tide-free-and-gentle",
+      "en-us-shop-top-collections-tide-plus-febreze",
+      "en-us-shop-top-collections-tide-power-pods",
+      "en-us-shop-top-collections-tide-simply"
+    ],
+    "templates": [],
+    "eds": ".collection-banner.works li",
+    "note": "collection-landing pages that carry the \"Works in all\" band (listed per page: tide-ultra-oxi has none)"
+  },
+  "topic-jump-nav-item": {
+    "origin": ".anchor-navigation li",
+    "build": ".anchor-nav li",
+    "eds": ".jump-links li",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "en-us-our-commitment-sustainability-compaction",
+      "en-us-our-commitment-sustainability-materials"
+    ],
+    "templates": [],
+    "note": "sustainability-topic pages that carry this family (listed per page: saving-energy has no anchor navigation)"
+  },
+  "topic-checklist-item": {
+    "origin": ".list-checkmarks-secondary li",
+    "build": ".checklist li",
+    "eds": ".sustainability-split-checklist li",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "en-us-our-commitment-sustainability-compaction"
+    ],
+    "templates": [],
+    "note": "sustainability-topic pages that carry this family (listed per page: materials, saving-energy have no checkmark list)"
+  },
+  "topic-pictogram": {
+    "origin": ".content-centered-vertically .right-column img",
+    "build": ".content-centered-vertically .right-column img",
+    "eds": ".sustainability-split.centered .sustainability-split-media img",
+    "n": 7,
+    "required": true,
+    "pages": [
+      "en-us-our-commitment-sustainability-saving-energy"
+    ],
+    "templates": [],
+    "note": "centered pictogram rows (live .content-centered-vertically), natural-size icons"
+  },
+  "hub-stain-link": {
+    "origin": ".article-listing-links-container > div",
+    "build": ".alp-cat__links > div",
+    "eds": ".topic-hub-stain-index .thsi-cat-links > li",
+    "n": 6,
+    "required": true,
+    "pages": [
+      "en-us-how-to-wash-clothes-how-to-remove-stains"
+    ],
+    "templates": [],
+    "note": "stain hub only (listed per page: the other topic-hub pages have no stain index / type icons)"
+  },
+  "hub-stain-type-icon": {
+    "origin": ".alp-icons-section > .col-12 > .container > .row > div",
+    "build": ".alp-types__icon",
+    "eds": ".topic-hub-guide-header .thgh-icon",
+    "n": 5,
+    "required": true,
+    "pages": [
+      "en-us-how-to-wash-clothes-how-to-remove-stains"
+    ],
+    "templates": [],
+    "note": "stain hub only (listed per page: the other topic-hub pages have no stain index / type icons)"
+  },
+  "hub-guide-step": {
+    "origin": ".guide-step-wrapper",
+    "build": ".alp-step",
+    "eds": ".step-timeline .step-timeline-step",
+    "n": 5,
+    "required": true,
+    "pages": [
+      "en-us-how-to-wash-clothes-how-to-remove-stains",
+      "en-us-how-to-wash-clothes-how-to-do-laundry",
+      "en-us-how-to-wash-clothes-washing-different-fabrics-and-colors",
+      "en-us-how-to-wash-clothes-washing-machine-101-how-to-use-a-washing-machine"
+    ],
+    "templates": [
+      "topic-hub"
+    ]
+  },
+  "hub-jump-nav-item": {
+    "origin": "#sticky-nav li",
+    "build": "#sticky-nav li",
+    "eds": ".jump-links li",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "en-us-how-to-wash-clothes-how-to-remove-stains",
+      "en-us-how-to-wash-clothes-how-to-do-laundry",
+      "en-us-how-to-wash-clothes-washing-different-fabrics-and-colors",
+      "en-us-how-to-wash-clothes-washing-machine-101-how-to-use-a-washing-machine"
+    ],
+    "templates": [
+      "topic-hub"
+    ]
+  },
+  "c2c-retailer-pill": {
+    "origin": "app-enhanced-retailer-button .retailer-button-container",
+    "build": ".retailer .retailer-button-container",
+    "n": 4,
+    "required": false,
+    "pages": [
+      "en-us-click2cart-0060001"
+    ],
+    "templates": [
+      "click2cart"
+    ],
+    "note": "live retailer order is randomised per load (nondeterministic); unit boxes Δ0 at 1440/360, element pairing by name mismatches by order only"
+  }
+}

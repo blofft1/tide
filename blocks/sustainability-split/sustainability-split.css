@@ -1,0 +1,258 @@
+/* sustainability-split — live .dynamic-content-wrapper rows on sustainability topic pages
+   (.left-column col-lg-5 rich text | .right-column col-lg-6 offset-lg-1 picture or
+   .list-checkmarks-secondary; one-column rows col-lg-10 centered). The section margin
+   (35px / 80px) comes from the article frame in article-title-band.css. */
+.sustainability-split-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.sustainability-split-row.wide {
+  justify-content: center;
+}
+
+.sustainability-split-row > div {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-top: 30px;
+  padding: 0 15px;
+}
+
+.sustainability-split-media picture {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+.sustainability-split-media img {
+  width: 100%;
+  height: auto;
+}
+
+.sustainability-split-text {
+  color: var(--tide-navy);
+}
+
+.sustainability-split-text h2 {
+  margin: 0 0 20px;
+  color: var(--tide-orange);
+  font-family: var(--font);
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 44px;
+  letter-spacing: 0;
+}
+
+.sustainability-split-text p {
+  margin: 1em 0 0;
+  color: var(--tide-navy);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+}
+
+.sustainability-split-text h3 {
+  margin: 0 0 20px;
+  color: var(--tide-orange);
+  font-family: var(--font);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0;
+}
+
+.sustainability-split-text h2 + p,
+.sustainability-split-text h3 + p {
+  margin-top: 15px;
+}
+
+.sustainability-split-text p a:any-link {
+  color: var(--tide-navy);
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+/* checkmark list (live .list-checkmarks-secondary); the trailing 35px stands for the live
+   list's empty paragraph */
+.sustainability-split-row > .sustainability-split-checklist {
+  padding-bottom: 35px;
+}
+
+.sustainability-split-checklist ul,
+.sustainability-split-checklist ol {
+  margin: 25px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sustainability-split-checklist li {
+  display: flex;
+  position: relative;
+  min-height: 65px;
+  margin-top: 25px;
+  padding-left: 85px;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0;
+  list-style: none;
+  text-indent: 0;
+}
+
+.sustainability-split-checklist li:first-of-type {
+  margin-top: 0;
+}
+
+.sustainability-split-checklist li::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 67px;
+  height: 67px;
+  background: url("checkmark.svg") 50% no-repeat;
+}
+
+.sustainability-split-checklist li p {
+  display: inline;
+  margin: 0;
+}
+
+.sustainability-split-text > p:first-child {
+  margin-top: 35px;
+}
+
+/* live closes the body with a one-column row of two blank paragraphs; the pipeline drops
+   blank paragraphs, so an empty one-column row keeps their height (35 + 2 x 20 + 16px) */
+.sustainability-split-wide:empty {
+  height: 91px;
+}
+
+/* variant `centered` (live .content-centered-vertically): pictograms keep their natural size */
+.sustainability-split.centered .sustainability-split-media img {
+  width: auto;
+  max-width: 100%;
+}
+
+/* variant `band` (live .background-primary disclaimer row): navy band, white 16px paragraphs
+   with 12px <u> runs (no underline); the bottom padding keeps live's trailing blank paragraph
+   (dropped by the pipeline) */
+.sustainability-split.band .sustainability-split-row > .sustainability-split-wide {
+  flex: 0 0 calc(100% - 30px);
+  max-width: calc(100% - 30px);
+  margin: 30px 15px 0;
+  padding: 80px 15px 36px;
+  background-color: var(--tide-navy);
+}
+
+.sustainability-split.band .sustainability-split-text p {
+  color: #fff;
+  line-height: 20px;
+}
+
+.sustainability-split.band .sustainability-split-text p + p {
+  margin-top: 16px;
+}
+
+.sustainability-split.band .sustainability-split-text u {
+  color: #fff;
+  font-size: 12px;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+@media (width >= 992px) {
+  .sustainability-split-row > div {
+    margin-top: 0;
+  }
+
+  .sustainability-split-row > .sustainability-split-left {
+    flex: 0 0 41.6667%;
+    max-width: 41.6667%;
+  }
+
+  .sustainability-split-row > .sustainability-split-right {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-left: 8.3333%;
+  }
+
+  .sustainability-split-row > .sustainability-split-wide {
+    flex: 0 0 83.3333%;
+    max-width: 83.3333%;
+  }
+
+  .sustainability-split-media picture {
+    margin-top: 0;
+  }
+
+  .sustainability-split-text p,
+  .sustainability-split-checklist li {
+    line-height: 24px;
+  }
+
+  .sustainability-split-text > p:first-child {
+    margin-top: 0;
+  }
+
+  .sustainability-split-wide:empty {
+    height: 64px;
+  }
+
+  .sustainability-split-text h2 {
+    font-size: 48px;
+    line-height: 52px;
+  }
+
+  .sustainability-split-text h3 {
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  .sustainability-split-checklist ul,
+  .sustainability-split-checklist ol {
+    margin: 0;
+  }
+
+  .sustainability-split-checklist li {
+    margin-top: 40px;
+    padding-left: 100px;
+  }
+
+  .sustainability-split-checklist li:first-of-type {
+    margin-top: 0;
+  }
+
+  /* live .content-centered-vertically: 6/6 columns, contents vertically centered */
+  .sustainability-split.centered .sustainability-split-row {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sustainability-split.centered .sustainability-split-row > div {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-left: 0;
+  }
+
+  .sustainability-split.band .sustainability-split-row > .sustainability-split-wide {
+    flex: 0 0 calc(100% - 30px);
+    max-width: calc(100% - 30px);
+    margin: 0 15px;
+    padding: 30px 110px 46px;
+  }
+
+  .sustainability-split.band .sustainability-split-text p {
+    line-height: 24px;
+  }
+}
+
+/* sustainability intro band (live .article-intro-3): the breadcrumb is absolutely placed and
+   the band carries no top padding — scoped override of article-title-band's article frame
+   (request filed in foundation-requests.md) */
+@media (width >= 992px) {
+  main:has(.sustainability-split) .section.article-title-band-container {
+    padding-top: 0;
+  }
+}

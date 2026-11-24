@@ -1,0 +1,94 @@
+/* section-landing-video — live .youtube-video. Spec: stardust/prototypes/en-us-our-commitment.css
+   (.commitment-video, .yt). Mobile-first; 992px. */
+.section-landing-video {
+  margin: 35px 0;
+}
+
+.section-landing-video .slv-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 -15px;
+}
+
+.section-landing-video .slv-col {
+  position: relative;
+  flex: 0 0 100%;
+  width: 100%;
+  max-width: 100%;
+  padding: 0 15px;
+}
+
+.section-landing-video .slv-frame {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 0;
+  margin: 0;
+  padding-bottom: 56.25%;
+}
+
+.section-landing-video .slv-poster,
+.section-landing-video .slv-play,
+.section-landing-video .slv-play a:any-link,
+.section-landing-video iframe {
+  position: absolute;
+  inset: 0;
+}
+
+.section-landing-video .slv-poster picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.section-landing-video .slv-poster img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.section-landing-video .slv-play p {
+  margin: 0;
+}
+
+.section-landing-video .slv-play a:any-link {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  background: none;
+  color: transparent;
+  font-size: 0;
+  line-height: 0;
+  cursor: pointer;
+}
+
+.section-landing-video .slv-play a:any-link::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 70px;
+  height: 70px;
+  transform: translate(-50%, -50%);
+  background: url("play.svg") no-repeat;
+  background-size: 100%;
+}
+
+.section-landing-video iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+@media (width >= 992px) {
+  .section-landing-video {
+    margin: 80px 0;
+  }
+
+  .section-landing-video .slv-col {
+    flex: 0 0 58.3333%;
+    max-width: 58.3333%;
+  }
+}

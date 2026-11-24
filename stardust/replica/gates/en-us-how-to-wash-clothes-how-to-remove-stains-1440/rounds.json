@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "stages": {
+    "prototype": {
+      "rounds": [
+        {
+          "label": "iter1",
+          "at": "2026-11-23T23:04:57.750Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "iter2",
+          "at": "2026-11-23T23:12:17.048Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "iter3",
+          "at": "2026-11-23T23:20:27.379Z",
+          "verdict": "pass",
+          "kind": "fix"
+        }
+      ],
+      "decisions": []
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-24T02-05-57-300Z",
+          "at": "2026-11-24T02:05:57.301Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-24T02-25-51-048Z",
+          "at": "2026-11-24T02:25:51.051Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-24T02-29-01-608Z",
+          "at": "2026-11-24T02:29:01.625Z",
+          "verdict": "pass",
+          "kind": "fix"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

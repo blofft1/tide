@@ -1,0 +1,144 @@
+/* safety-band — live product-listing .section-blue-bg-white-text (blue band, white text) */
+.safety-band {
+  margin: 30px 0;
+  padding: 40px 0;
+  background-color: #13259c;
+  color: #fff;
+}
+
+.safety-band .safety-band-title :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0 0 20px;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: normal;
+}
+
+.safety-band .safety-band-left {
+  padding: 40px 0;
+}
+
+.safety-band .safety-band-icons {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0 30px;
+}
+
+.safety-band .safety-band-icon {
+  text-align: center;
+}
+
+.safety-band .safety-band-icon p {
+  margin: 16px 0 0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.safety-band .safety-band-icon .safety-band-icon-media {
+  margin-top: 35px;
+}
+
+.safety-band .safety-band-icon :is(picture, img) {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.safety-band .safety-band-text :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0 0 20px;
+  color: #fff;
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: normal;
+}
+
+.safety-band .safety-band-text :is(h1, h2, h3, h4, h5, h6) strong {
+  font-weight: inherit;
+}
+
+.safety-band .safety-band-text p {
+  margin: 16px 0 0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.safety-band .safety-band-text :is(h1, h2, h3, h4, h5, h6) + p {
+  margin-top: 0;
+}
+
+.safety-band .safety-band-text a:any-link {
+  color: #fff;
+}
+
+.safety-band .safety-band-text a.safety-band-button:any-link {
+  display: inline-block;
+  width: 100%;
+  margin: 25px 0 15px;
+  padding: 10px 30px;
+  border: 0;
+  border-radius: 25px;
+  background-color: var(--tide-orange);
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: center;
+  text-decoration: none;
+  white-space: normal;
+}
+
+@media (width >= 992px) {
+  .safety-band {
+    margin: 60px 0;
+  }
+
+  .safety-band .safety-band-title :is(h1, h2, h3, h4, h5, h6) {
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  .safety-band .safety-band-row {
+    display: flex;
+    align-items: stretch;
+    margin: 0 -15px;
+  }
+
+  .safety-band .safety-band-left {
+    flex: 0 0 41.6667%;
+    max-width: 41.6667%;
+    padding: 40px 15px;
+  }
+
+  .safety-band .safety-band-text {
+    flex: 0 0 58.3333%;
+    max-width: 58.3333%;
+    padding: 24px 15px 0;
+  }
+
+  .safety-band .safety-band-icon p {
+    line-height: 24px;
+  }
+
+  .safety-band .safety-band-icon .safety-band-icon-media {
+    margin-top: 0;
+  }
+
+  .safety-band .safety-band-text :is(h1, h2, h3, h4, h5, h6) {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .safety-band .safety-band-text p {
+    line-height: 24px;
+  }
+
+  .safety-band .safety-band-text a.safety-band-button:any-link {
+    width: auto;
+  }
+}

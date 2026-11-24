@@ -1,0 +1,313 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-11-23T23:43:47.168Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-23T23:43:47.168Z",
+  "blocks": [
+    {
+      "id": "article-title-band",
+      "label": "article-title-band",
+      "kind": "module",
+      "signature": "module:article-title-band",
+      "source": null,
+      "usedByTemplates": [
+        "en-us-our-commitment-sustainability-compaction",
+        "en-us-research-best-quality-detergent"
+      ],
+      "usedByPages": [
+        "en-us-our-commitment-sustainability-compaction",
+        "en-us-research-best-quality-detergent"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "article-title-band",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "breadcrumb",
+      "label": "breadcrumb",
+      "kind": "module",
+      "signature": "module:breadcrumb",
+      "source": null,
+      "usedByTemplates": [
+        "en-us-how-to-wash-clothes-how-to-remove-stains",
+        "en-us-our-commitment-sustainability-compaction",
+        "en-us-research-best-quality-detergent",
+        "en-us-shop-type-liquid"
+      ],
+      "usedByPages": [
+        "en-us-how-to-wash-clothes-how-to-remove-stains",
+        "en-us-our-commitment-sustainability-compaction",
+        "en-us-research-best-quality-detergent",
+        "en-us-shop-type-liquid"
+      ],
+      "instanceCount": 4,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "breadcrumb",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "browse-tiles",
+      "label": "browse-tiles",
+      "kind": "module",
+      "signature": "module:browse-tiles",
+      "source": null,
+      "usedByTemplates": [
+        "en-us"
+      ],
+      "usedByPages": [
+        "en-us"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "browse-tiles",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "collection-hero",
+      "label": "collection-hero",
+      "kind": "module",
+      "signature": "module:collection-hero",
+      "source": null,
+      "usedByTemplates": [
+        "en-us-shop-top-collections-tide-free-and-gentle"
+      ],
+      "usedByPages": [
+        "en-us-shop-top-collections-tide-free-and-gentle"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "collection-hero",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "faq-accordion",
+      "label": "faq-accordion",
+      "kind": "module",
+      "signature": "module:faq-accordion",
+      "source": null,
+      "usedByTemplates": [
+        "en-us-research-best-quality-detergent"
+      ],
+      "usedByPages": [
+        "en-us-research-best-quality-detergent"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "faq-accordion",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "feature-band-alternating",
+      "label": "feature-band-alternating",
+      "kind": "module",
+      "signature": "module:feature-band-alternating",
+      "source": null,
+      "usedByTemplates": [
+        "en-us",
+        "en-us-shop-type-liquid"
+      ],
+      "usedByPages": [
+        "en-us",
+        "en-us-shop-type-liquid"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "feature-band-alternating",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "home-promo-carousel",
+      "label": "home-promo-carousel",
+      "kind": "module",
+      "signature": "module:home-promo-carousel",
+      "source": null,
+      "usedByTemplates": [
+        "en-us"
+      ],
+      "usedByPages": [
+        "en-us"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "home-promo-carousel",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "jump-links",
+      "label": "jump-links",
+      "kind": "module",
+      "signature": "module:jump-links",
+      "source": null,
+      "usedByTemplates": [
+        "en-us-how-to-wash-clothes-how-to-remove-stains",
+        "en-us-our-commitment-sustainability-compaction",
+        "en-us-research-best-quality-detergent",
+        "en-us-shop-top-collections-tide-free-and-gentle"
+      ],
+      "usedByPages": [
+        "en-us-how-to-wash-clothes-how-to-remove-stains",
+        "en-us-our-commitment-sustainability-compaction",
+        "en-us-research-best-quality-detergent",
+        "en-us-shop-top-collections-tide-free-and-gentle"
+      ],
+      "instanceCount": 4,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "jump-links",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "learn-more-card-grid",
+      "label": "learn-more-card-grid",
+      "kind": "module",
+      "signature": "module:learn-more-card-grid",
+      "source": null,
+      "usedByTemplates": [
+        "en-us",
+        "en-us-our-commitment"
+      ],
+      "usedByPages": [
+        "en-us",
+        "en-us-our-commitment"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "learn-more-card-grid",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "product-grid",
+      "label": "product-grid",
+      "kind": "module",
+      "signature": "module:product-grid",
+      "source": null,
+      "usedByTemplates": [
+        "en-us-shop-type-liquid"
+      ],
+      "usedByPages": [
+        "en-us-shop-type-liquid"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "product-grid",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "section-landing-hero-card",
+      "label": "section-landing-hero-card",
+      "kind": "module",
+      "signature": "module:section-landing-hero-card",
+      "source": null,
+      "usedByTemplates": [
+        "en-us-our-commitment"
+      ],
+      "usedByPages": [
+        "en-us-our-commitment"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "section-landing-hero-card",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "shopper-choice",
+      "label": "shopper-choice",
+      "kind": "module",
+      "signature": "module:shopper-choice",
+      "source": null,
+      "usedByTemplates": [
+        "en-us-click2cart-0060001"
+      ],
+      "usedByPages": [
+        "en-us-click2cart-0060001"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "shopper-choice",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "stain-guide-widget",
+      "label": "stain-guide-widget",
+      "kind": "module",
+      "signature": "module:stain-guide-widget",
+      "source": null,
+      "usedByTemplates": [
+        "en-us",
+        "en-us-how-to-wash-clothes-how-to-remove-stains"
+      ],
+      "usedByPages": [
+        "en-us",
+        "en-us-how-to-wash-clothes-how-to-remove-stains"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "stain-guide-widget",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "step-timeline",
+      "label": "step-timeline",
+      "kind": "module",
+      "signature": "module:step-timeline",
+      "source": null,
+      "usedByTemplates": [
+        "en-us-how-to-wash-clothes-how-to-remove-stains"
+      ],
+      "usedByPages": [
+        "en-us-how-to-wash-clothes-how-to-remove-stains"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "step-timeline",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}

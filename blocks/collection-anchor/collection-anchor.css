@@ -1,0 +1,10 @@
+/* collection-anchor — zero-height jump target (live span.anchor-target, display: block) */
+.collection-anchor {
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+
+.collection-anchor > div {
+  display: none;
+}

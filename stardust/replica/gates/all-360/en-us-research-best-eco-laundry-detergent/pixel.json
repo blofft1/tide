@@ -1,0 +1,242 @@
+{
+  "a": "stardust/replica/gates/all-360/en-us-research-best-eco-laundry-detergent/origin.png",
+  "b": "stardust/replica/gates/all-360/en-us-research-best-eco-laundry-detergent/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 6559,
+    "mode": "overlap"
+  },
+  "heightDelta": -138,
+  "differingPixels": 259928,
+  "pct": 11.01,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-360/en-us-research-best-eco-laundry-detergent/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 15.37,
+  "textBoxes": 211,
+  "textPixels": 1004577,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.6
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 8.6
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 4.8
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 15.1
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 15.7
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 14.2
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 16.6
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 27.3
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 25.8
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 7.9
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 7.5
+    },
+    {
+      "y0": 6500,
+      "y1": 6559,
+      "pct": 2.5
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 4.29,
+    "differingPixels": 103752,
+    "compared": {
+      "width": 360,
+      "height": 6720,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 2352,
+        "shift": -21,
+        "cumulative": -21
+      },
+      {
+        "y": 4163,
+        "shift": 80,
+        "cumulative": 59
+      },
+      {
+        "y": 4225,
+        "shift": 60,
+        "cumulative": 119
+      },
+      {
+        "y": 4502,
+        "shift": 20,
+        "cumulative": 139
+      },
+      {
+        "y": 4877,
+        "shift": -1,
+        "cumulative": 138
+      },
+      {
+        "y": 5828,
+        "shift": 1,
+        "cumulative": 139
+      },
+      {
+        "y": 6048,
+        "shift": -1,
+        "cumulative": 138
+      }
+    ],
+    "maxOffset": 139,
+    "totalShift": 184,
+    "insertedRows": 161,
+    "deletedRows": 23,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.6,
+        "unaligned": 0.6
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 8.6,
+        "unaligned": 8.6
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 4.2,
+        "unaligned": 4.8
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 15.1
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 15.7
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0,
+        "unaligned": 14.2
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 25.2,
+        "unaligned": 16.6
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 11,
+        "unaligned": 27.3
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 0,
+        "unaligned": 25.8
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 0.2,
+        "unaligned": 7.9
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 0.2,
+        "unaligned": 7.5
+      },
+      {
+        "y0": 6500,
+        "y1": 6559,
+        "pct": 0,
+        "unaligned": 2.5
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/en-us-research-best-eco-laundry-detergent/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 66,
+    "totalShift": 184,
+    "pass": false
+  },
+  "reason": "offsets: 7 step(s), 184px total — −21px at y=2352, +80px at y=4163, +60px at y=4225, +20px at y=4502, −1px at y=4877, +1px at y=5828, … 1 more (bound 66px)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/best-eco-laundry-detergent"
+  }
+}

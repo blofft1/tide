@@ -1,0 +1,68 @@
+{
+  "writtenBy": "skills/replica/scripts/reference.mjs freeze",
+  "schema": 1,
+  "capturedAt": "2026-11-24T08:10:53.031Z",
+  "url": "https://tide.com/en-us/our-commitment/tide-cleaners-laundry-service",
+  "width": 360,
+  "vh": 900,
+  "height": 7279,
+  "settle": true,
+  "chunks": 9,
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 2,
+    "late": 0
+  },
+  "timers": {
+    "hold": 2000,
+    "held": 11,
+    "intervals": 4,
+    "chains": 7,
+    "delays": [
+      2000,
+      3000,
+      4999.89999999851,
+      5000,
+      86400000
+    ]
+  },
+  "primed": true,
+  "prime": {
+    "height": 7279,
+    "pct": 0,
+    "heightDelta": 0
+  },
+  "captures": 2,
+  "heights": [
+    7279,
+    7279
+  ],
+  "noiseFloor": 0,
+  "heightSpread": 0,
+  "outside": 0,
+  "variable": [],
+  "variableShare": 0,
+  "maskArg": "",
+  "stable": true,
+  "reason": null,
+  "frozenAt": "2026-11-24T08:11:41.242Z",
+  "flags": {
+    "consent": null,
+    "dismiss": null,
+    "noDismiss": false,
+    "locale": "en-US",
+    "vh": null,
+    "headed": true,
+    "holdTimers": 2000
+  },
+  "thresholds": {
+    "floorMax": 1,
+    "heightMax": 8,
+    "variableMax": 50,
+    "band": 20,
+    "bandMin": 0.5,
+    "pad": 8
+  }
+}

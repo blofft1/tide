@@ -1,0 +1,92 @@
+{
+ "writtenBy": "gate-all.mjs",
+ "at": "2026-11-24T11:09:53.891Z",
+ "content": {
+  "totals": {
+   "missingHeadings": 0,
+   "hiddenHeadings": 0,
+   "extraHeadings": 0,
+   "missingLinks": 0,
+   "hiddenLinks": 0,
+   "movedLinks": 0,
+   "extraLinks": 0,
+   "missingButtons": 4,
+   "hiddenButtons": 0,
+   "controlState": 0,
+   "countDeltas": 5,
+   "findings": 9,
+   "structural": 0,
+   "missing": 0,
+   "hidden": 0
+  },
+  "variable": [],
+  "reason": null,
+  "tier": "chrome"
+ },
+ "clip": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 213,
+   "horizontal": 1,
+   "offPage": 0,
+   "textNodes": 389,
+   "controls": 127,
+   "total": 0
+  },
+  "groups": [
+   {
+    "kind": "TEXT SCROLL-HIDDEN",
+    "advisory": true,
+    "n": 213,
+    "clipper": "div.sg-scroll",
+    "path": "div.sg-scroll > div.sg-lists > ul > li",
+    "text": "tough stains",
+    "cutMin": null,
+    "cutMax": null
+   },
+   {
+    "kind": "TEXT X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": null,
+    "path": "div.thgh-icon > div.thgh-icon-text > p > strong",
+    "text": "stains from coffee and tea",
+    "cutMin": 6,
+    "cutMax": 6
+   }
+  ],
+  "origin": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 213,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 1,
+   "scrollHidden": 0,
+   "horizontal": 1,
+   "offPage": 0,
+   "textNodes": 390,
+   "controls": 346,
+   "total": 213
+  },
+  "source": "content-presence"
+ },
+ "units": {
+  "verdict": {
+   "units": 18,
+   "within": 69,
+   "off": 0,
+   "hidden": 0,
+   "missing": 0,
+   "errors": 0,
+   "requiredOff": 0
+  },
+  "required": true,
+  "errors": []
+ }
+}

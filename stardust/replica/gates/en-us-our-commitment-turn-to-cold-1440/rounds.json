@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "stages": {
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-24T07-58-12-034Z",
+          "at": "2026-11-24T07:58:12.038Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-24T08-03-20-608Z",
+          "at": "2026-11-24T08:03:20.610Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-24T08-22-02-884Z",
+          "at": "2026-11-24T08:22:02.887Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-24T08-25-21-956Z",
+          "at": "2026-11-24T08:25:21.958Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-24T08-30-00-382Z",
+          "at": "2026-11-24T08:30:00.384Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-24T08-51-38-121Z",
+          "at": "2026-11-24T08:51:38.122Z",
+          "verdict": "pass",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "over-cap fix round 6 (all-2026-11-24T08-51-38-121Z) PASSED at aligned 1.16 % / Δh 1 / clip 0 / content 0 after one fix pass (calculator wide art + cell flex-basis, list cards, pledge knob/icons/rhythm, products band); no instrument defect, so no extend. Residual: band y500–1000 11.2 % = hero region of the shared, frozen section-landing-hero-card (unchanged by this unit); 5 steps ≤3 px.",
+          "at": "2026-11-24T08:52:00.688Z",
+          "counted": 6
+        }
+      ]
+    }
+  }
+}

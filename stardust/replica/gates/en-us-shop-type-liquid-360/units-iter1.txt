@@ -1,0 +1,66 @@
+unit-geometry @ 360px, tol 4px — https://tide.com/en-us/shop/type/liquid vs http://localhost:8791/en-us-shop-type-liquid-proposed.html
+unit 1 of plp-product-card (required) .plp-product-previews-wrapper .product .product-preview=.plp-grid .product .product-card: origin 15,436 330×199 vs served 15,435 330×199 → Δx 0 Δy -1 Δw 0 Δh 0; 14 elements: 14 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "link:a#1" | 0,10 110×110 | 0,10 110×110 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:picture#1" | 0,10 110×110 | 0,10 110×110 | 0 | 0 | 0 | 0 | ✓ |
+| image "bottle of tide original scent liquid" | 0,10 110×110 | 0,10 110×110 | 0 | 0 | 0 | 0 | ✓ |
+| link "tide original liquid laundry deterge" | 110,30 220×41 | 110,30 220×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "tide liquid laundry detergent" | 110,30 220×41 | 110,30 220×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "original" | 148,31 62×19 | 148,31 62×19 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 110,82 13×13 | 110,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#2" | 127,82 13×13 | 127,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#3" | 144,82 13×13 | 144,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#4" | 161,82 13×13 | 161,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#5" | 178,82 13×13 | 178,82 13×13 | 0 | 0 | 0 | 0 | ✓ clipped on both sides |
+| image "image:svg#6" | 178,82 13×13 | 178,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| text "( 3206 )" | 203,82 45×16 | 203,82 45×16 | 0 | 0 | 0 | 0 | ✓ |
+| button "find retailers" | 74,135 182×34 | 74,135 182×34 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of plp-product-card (required) .plp-product-previews-wrapper .product .product-preview=.plp-grid .product .product-card: origin 15,636 330×199 vs served 15,635 330×199 → Δx 0 Δy -1 Δw 0 Δh 0; 14 elements: 14 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "link:a#1" | 0,10 110×110 | 0,10 110×110 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:picture#1" | 0,10 110×110 | 0,10 110×110 | 0 | 0 | 0 | 0 | ✓ |
+| image "tide free and gentle liquid laundry " | 0,10 110×110 | 0,10 110×110 | 0 | 0 | 0 | 0 | ✓ |
+| link "tide free and gentle liquid laundry " | 110,30 220×41 | 110,30 220×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "tide liquid laundry detergent" | 110,30 220×41 | 110,30 220×41 | 0 | 0 | 0 | 0 | ✓ |
+| text "free and gentle" | 148,31 127×19 | 148,31 127×19 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 110,82 13×13 | 110,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#2" | 127,82 13×13 | 127,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#3" | 144,82 13×13 | 144,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#4" | 161,82 13×13 | 161,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#5" | 178,82 13×13 | 178,82 13×13 | 0 | 0 | 0 | 0 | ✓ clipped on both sides |
+| image "image:svg#6" | 178,82 13×13 | 178,82 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| text "( 1106 )" | 203,82 39×16 | 203,82 39×16 | 0 | 0 | 0 | 0 | ✓ |
+| button "find retailers" | 74,135 182×34 | 74,135 182×34 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of plp-product-card (required) .plp-product-previews-wrapper .product .product-preview=.plp-grid .product .product-card: origin 15,836 330×199 vs served 15,835 330×199 → Δx 0 Δy -1 Δw 0 Δh 0; 14 elements: 14 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "link:a#1" | 0,10 110×110 | 0,10 110×110 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:picture#1" | 0,10 110×110 | 0,10 110×110 | 0 | 0 | 0 | 0 | ✓ |
+| image "tide ultra oxi high efficiency liqui" | 0,10 110×110 | 0,10 110×110 | 0 | 0 | 0 | 0 | ✓ |
+| link "tide ultra oxi boost high efficiency" | 110,20 220×61 | 110,20 220×61 | 0 | 0 | 0 | 0 | ✓ |
+| text "tide high efficiency liquid laundry " | 110,20 220×61 | 110,20 220×61 | 0 | 0 | 0 | 0 | ✓ |
+| text "ultra oxi boost" | 148,21 123×19 | 148,21 123×19 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 110,92 13×13 | 110,92 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#2" | 127,92 13×13 | 127,92 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#3" | 144,92 13×13 | 144,92 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#4" | 161,92 13×13 | 161,92 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#5" | 178,92 13×13 | 178,92 13×13 | 0 | 0 | 0 | 0 | ✓ clipped on both sides |
+| image "image:svg#6" | 178,92 13×13 | 178,92 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| text "( 452 )" | 203,92 36×16 | 203,92 36×16 | 0 | 0 | 0 | 0 | ✓ |
+| button "find retailers" | 74,135 182×34 | 74,135 182×34 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of plp-feature-banner (required) .dynamic-content-wrapper > .row picture=.plp-features .feature-banner picture: origin 15,2835 330×645 vs served 15,2834 330×645 → Δx 0 Δy -1 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "washing machine in operation" | 0,0 330×645 | 0,0 330×645 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of plp-feature-banner (required) .dynamic-content-wrapper > .row picture=.plp-features .feature-banner picture: origin 15,3510 330×645 vs served 15,3509 330×645 → Δx 0 Δy -1 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "a person pouring tide liquid deterge" | 0,0 330×645 | 0,0 330×645 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of plp-feature-banner (required) .dynamic-content-wrapper > .row picture=.plp-features .feature-banner picture: origin 15,4186 330×506 vs served 15,4185 330×506 → Δx 0 Δy -1 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "a pile of neatly folded, colorful cl" | 0,0 330×506 | 0,0 330×506 | 0 | 0 | 0 | 0 | ✓ |
+Units: 6 compared; elements within 45, off 0, hidden 0, missing 0 → PASS
+json → stardust/replica/gates/en-us-shop-type-liquid-360/units-iter1.json

@@ -1,0 +1,67 @@
+{
+  "writtenBy": "skills/replica/scripts/reference.mjs freeze",
+  "schema": 1,
+  "capturedAt": "2026-11-24T04:37:39.127Z",
+  "url": "https://tide.com/en-us/research/hazard-vs-risk-laundry-detergent",
+  "width": 360,
+  "vh": 900,
+  "height": 7154,
+  "settle": true,
+  "chunks": 8,
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 3,
+    "late": 1
+  },
+  "timers": {
+    "hold": 2000,
+    "held": 9,
+    "intervals": 4,
+    "chains": 5,
+    "delays": [
+      2000,
+      3000,
+      5000,
+      86400000
+    ]
+  },
+  "primed": true,
+  "prime": {
+    "height": 7154,
+    "pct": 0,
+    "heightDelta": 0
+  },
+  "captures": 2,
+  "heights": [
+    7154,
+    7154
+  ],
+  "noiseFloor": 0,
+  "heightSpread": 0,
+  "outside": 0,
+  "variable": [],
+  "variableShare": 0,
+  "maskArg": "",
+  "stable": true,
+  "reason": null,
+  "frozenAt": "2026-11-24T04:38:29.770Z",
+  "flags": {
+    "consent": null,
+    "dismiss": null,
+    "noDismiss": false,
+    "locale": "en-US",
+    "vh": null,
+    "headed": true,
+    "holdTimers": 2000
+  },
+  "thresholds": {
+    "floorMax": 1,
+    "heightMax": 8,
+    "variableMax": 50,
+    "band": 20,
+    "bandMin": 0.5,
+    "pad": 8
+  }
+}

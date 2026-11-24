@@ -1,0 +1,499 @@
+{
+  "a": "stardust/replica/gates/all-360/en-us-research-are-detergents-toxic-science/origin.png",
+  "b": "stardust/replica/gates/all-360/en-us-research-are-detergents-toxic-science/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 17536,
+    "mode": "overlap"
+  },
+  "heightDelta": -189,
+  "differingPixels": 890634,
+  "pct": 14.11,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-360/en-us-research-are-detergents-toxic-science/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 21.58,
+  "textBoxes": 740,
+  "textPixels": 3239505,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.7
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 23.6
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 15
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 11.6
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 15.3
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 12.1
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 11.2
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 13.2
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 12.5
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 12.7
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 12.5
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 16.3
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 14.5
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 10.9
+    },
+    {
+      "y0": 7000,
+      "y1": 7500,
+      "pct": 11.4
+    },
+    {
+      "y0": 7500,
+      "y1": 8000,
+      "pct": 13.3
+    },
+    {
+      "y0": 8000,
+      "y1": 8500,
+      "pct": 10.2
+    },
+    {
+      "y0": 8500,
+      "y1": 9000,
+      "pct": 19
+    },
+    {
+      "y0": 9000,
+      "y1": 9500,
+      "pct": 21
+    },
+    {
+      "y0": 9500,
+      "y1": 10000,
+      "pct": 13.9
+    },
+    {
+      "y0": 10000,
+      "y1": 10500,
+      "pct": 15
+    },
+    {
+      "y0": 10500,
+      "y1": 11000,
+      "pct": 14.6
+    },
+    {
+      "y0": 11000,
+      "y1": 11500,
+      "pct": 12.1
+    },
+    {
+      "y0": 11500,
+      "y1": 12000,
+      "pct": 14.2
+    },
+    {
+      "y0": 12000,
+      "y1": 12500,
+      "pct": 11.4
+    },
+    {
+      "y0": 12500,
+      "y1": 13000,
+      "pct": 18.2
+    },
+    {
+      "y0": 13000,
+      "y1": 13500,
+      "pct": 14.2
+    },
+    {
+      "y0": 13500,
+      "y1": 14000,
+      "pct": 12.3
+    },
+    {
+      "y0": 14000,
+      "y1": 14500,
+      "pct": 10.7
+    },
+    {
+      "y0": 14500,
+      "y1": 15000,
+      "pct": 14.1
+    },
+    {
+      "y0": 15000,
+      "y1": 15500,
+      "pct": 17.6
+    },
+    {
+      "y0": 15500,
+      "y1": 16000,
+      "pct": 29.9
+    },
+    {
+      "y0": 16000,
+      "y1": 16500,
+      "pct": 24.1
+    },
+    {
+      "y0": 16500,
+      "y1": 17000,
+      "pct": 7.6
+    },
+    {
+      "y0": 17000,
+      "y1": 17500,
+      "pct": 7.8
+    },
+    {
+      "y0": 17500,
+      "y1": 17536,
+      "pct": 3.4
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 5.94,
+    "differingPixels": 379958,
+    "compared": {
+      "width": 360,
+      "height": 17774,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 501,
+        "shift": -20,
+        "cumulative": -20
+      },
+      {
+        "y": 14397,
+        "shift": -28,
+        "cumulative": -48
+      },
+      {
+        "y": 15051,
+        "shift": 17,
+        "cumulative": -31
+      },
+      {
+        "y": 15159,
+        "shift": 60,
+        "cumulative": 29
+      },
+      {
+        "y": 15382,
+        "shift": 20,
+        "cumulative": 49
+      },
+      {
+        "y": 15484,
+        "shift": 40,
+        "cumulative": 89
+      },
+      {
+        "y": 15565,
+        "shift": 20,
+        "cumulative": 109
+      },
+      {
+        "y": 15646,
+        "shift": 80,
+        "cumulative": 189
+      },
+      {
+        "y": 15854,
+        "shift": -1,
+        "cumulative": 188
+      },
+      {
+        "y": 16805,
+        "shift": 1,
+        "cumulative": 189
+      }
+    ],
+    "maxOffset": 189,
+    "totalShift": 287,
+    "insertedRows": 238,
+    "deletedRows": 49,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.7,
+        "unaligned": 0.7
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 15,
+        "unaligned": 23.6
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 6.4,
+        "unaligned": 15
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 4.8,
+        "unaligned": 11.6
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 4.9,
+        "unaligned": 15.3
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 4.9,
+        "unaligned": 12.1
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 5,
+        "unaligned": 11.2
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 5.9,
+        "unaligned": 13.2
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 5.6,
+        "unaligned": 12.5
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 5.3,
+        "unaligned": 12.7
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 5.7,
+        "unaligned": 12.5
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 3.2,
+        "unaligned": 16.3
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 3.1,
+        "unaligned": 14.5
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 5,
+        "unaligned": 10.9
+      },
+      {
+        "y0": 7000,
+        "y1": 7500,
+        "pct": 4.9,
+        "unaligned": 11.4
+      },
+      {
+        "y0": 7500,
+        "y1": 8000,
+        "pct": 5.4,
+        "unaligned": 13.3
+      },
+      {
+        "y0": 8000,
+        "y1": 8500,
+        "pct": 4.4,
+        "unaligned": 10.2
+      },
+      {
+        "y0": 8500,
+        "y1": 9000,
+        "pct": 3.6,
+        "unaligned": 19
+      },
+      {
+        "y0": 9000,
+        "y1": 9500,
+        "pct": 3.4,
+        "unaligned": 21
+      },
+      {
+        "y0": 9500,
+        "y1": 10000,
+        "pct": 5.9,
+        "unaligned": 13.9
+      },
+      {
+        "y0": 10000,
+        "y1": 10500,
+        "pct": 6.7,
+        "unaligned": 15
+      },
+      {
+        "y0": 10500,
+        "y1": 11000,
+        "pct": 6.1,
+        "unaligned": 14.6
+      },
+      {
+        "y0": 11000,
+        "y1": 11500,
+        "pct": 5.1,
+        "unaligned": 12.1
+      },
+      {
+        "y0": 11500,
+        "y1": 12000,
+        "pct": 3.4,
+        "unaligned": 14.2
+      },
+      {
+        "y0": 12000,
+        "y1": 12500,
+        "pct": 5.1,
+        "unaligned": 11.4
+      },
+      {
+        "y0": 12500,
+        "y1": 13000,
+        "pct": 2.5,
+        "unaligned": 18.2
+      },
+      {
+        "y0": 13000,
+        "y1": 13500,
+        "pct": 3.9,
+        "unaligned": 14.2
+      },
+      {
+        "y0": 13500,
+        "y1": 14000,
+        "pct": 5.9,
+        "unaligned": 12.3
+      },
+      {
+        "y0": 14000,
+        "y1": 14500,
+        "pct": 8.6,
+        "unaligned": 10.7
+      },
+      {
+        "y0": 14500,
+        "y1": 15000,
+        "pct": 1.4,
+        "unaligned": 14.1
+      },
+      {
+        "y0": 15000,
+        "y1": 15500,
+        "pct": 26.4,
+        "unaligned": 17.6
+      },
+      {
+        "y0": 15500,
+        "y1": 16000,
+        "pct": 21.2,
+        "unaligned": 29.9
+      },
+      {
+        "y0": 16000,
+        "y1": 16500,
+        "pct": 0,
+        "unaligned": 24.1
+      },
+      {
+        "y0": 16500,
+        "y1": 17000,
+        "pct": 0.2,
+        "unaligned": 7.6
+      },
+      {
+        "y0": 17000,
+        "y1": 17500,
+        "pct": 0,
+        "unaligned": 7.8
+      },
+      {
+        "y0": 17500,
+        "y1": 17536,
+        "pct": 0,
+        "unaligned": 3.4
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/en-us-research-are-detergents-toxic-science/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 175,
+    "totalShift": 287,
+    "pass": false
+  },
+  "reason": "offsets: 10 step(s), 287px total — −20px at y=501, −28px at y=14397, +17px at y=15051, +60px at y=15159, +20px at y=15382, +40px at y=15484, … 4 more (bound 175px)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/are-detergents-toxic-science"
+  }
+}

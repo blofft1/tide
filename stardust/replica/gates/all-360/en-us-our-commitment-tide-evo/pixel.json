@@ -1,0 +1,156 @@
+{
+  "a": "stardust/replica/gates/all-360/en-us-our-commitment-tide-evo/origin.png",
+  "b": "stardust/replica/gates/all-360/en-us-our-commitment-tide-evo/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 3639,
+    "mode": "overlap"
+  },
+  "heightDelta": 90,
+  "differingPixels": 56140,
+  "pct": 4.29,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-360/en-us-our-commitment-tide-evo/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 11.21,
+  "textBoxes": 54,
+  "textPixels": 201846,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 5
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 2.4
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 2.8
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 7.6
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 2.9
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 3
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 7.5
+    },
+    {
+      "y0": 3500,
+      "y1": 3639,
+      "pct": 0.5
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 3.39,
+    "differingPixels": 45453,
+    "compared": {
+      "width": 360,
+      "height": 3729,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 89,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 1959,
+        "shift": -1,
+        "cumulative": -2
+      },
+      {
+        "y": 3584,
+        "shift": -88,
+        "cumulative": -90
+      }
+    ],
+    "maxOffset": 90,
+    "totalShift": 90,
+    "insertedRows": 0,
+    "deletedRows": 90,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.8,
+        "unaligned": 5
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0,
+        "unaligned": 2.4
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 2.8
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 6.9,
+        "unaligned": 7.6
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 2.9
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 3
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 7.5
+      },
+      {
+        "y0": 3500,
+        "y1": 3729,
+        "pct": 38.4,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/en-us-our-commitment-tide-evo/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 37,
+    "totalShift": 90,
+    "pass": false
+  },
+  "reason": "offsets: 3 step(s), 90px total — −1px at y=89, −1px at y=1959, −88px at y=3584 (bound 37px)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/tide-evo"
+  }
+}

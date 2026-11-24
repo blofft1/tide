@@ -1,0 +1,239 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-us-research-what-is-best-eco-detergent/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-us-research-what-is-best-eco-detergent/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 7560,
+    "mode": "overlap"
+  },
+  "heightDelta": 20,
+  "differingPixels": 229646,
+  "pct": 2.11,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/en-us-research-what-is-best-eco-detergent/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 2.09,
+  "textBoxes": 262,
+  "textPixels": 3289254,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 7
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 10.4
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 0
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 0
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 0
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 0
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 0
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 0.3
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 0
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 11.5
+    },
+    {
+      "y0": 7000,
+      "y1": 7500,
+      "pct": 2.8
+    },
+    {
+      "y0": 7500,
+      "y1": 7560,
+      "pct": 0
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 1.45,
+    "differingPixels": 158737,
+    "compared": {
+      "width": 1440,
+      "height": 7581,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 6633,
+        "shift": -21,
+        "cumulative": -21
+      },
+      {
+        "y": 7405,
+        "shift": 1,
+        "cumulative": -20
+      }
+    ],
+    "maxOffset": 21,
+    "totalShift": 22,
+    "insertedRows": 1,
+    "deletedRows": 21,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 7,
+        "unaligned": 7
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 10.4,
+        "unaligned": 10.4
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 0.3,
+        "unaligned": 0.3
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 4.2,
+        "unaligned": 11.5
+      },
+      {
+        "y0": 7000,
+        "y1": 7500,
+        "pct": 0.2,
+        "unaligned": 2.8
+      },
+      {
+        "y0": 7500,
+        "y1": 7580,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/en-us-research-what-is-best-eco-detergent/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 76,
+    "totalShift": 22,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/what-is-best-eco-detergent"
+  }
+}

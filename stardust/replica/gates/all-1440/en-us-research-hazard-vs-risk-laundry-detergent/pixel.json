@@ -1,0 +1,188 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-us-research-hazard-vs-risk-laundry-detergent/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-us-research-hazard-vs-risk-laundry-detergent/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 4501,
+    "mode": "overlap"
+  },
+  "heightDelta": 214,
+  "differingPixels": 615616,
+  "pct": 9.5,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-1440/en-us-research-hazard-vs-risk-laundry-detergent/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 21.02,
+  "textBoxes": 142,
+  "textPixels": 1205687,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 7.6
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 12.3
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 7
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 6.1
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 6.4
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 6.3
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 7.7
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 29.3
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 2.7
+    },
+    {
+      "y0": 4500,
+      "y1": 4501,
+      "pct": 4.7
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 7.09,
+    "differingPixels": 481815,
+    "compared": {
+      "width": 1440,
+      "height": 4716,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1296,
+        "shift": -122,
+        "cumulative": -122
+      },
+      {
+        "y": 1758,
+        "shift": -28,
+        "cumulative": -150
+      },
+      {
+        "y": 2232,
+        "shift": -28,
+        "cumulative": -178
+      },
+      {
+        "y": 2707,
+        "shift": -37,
+        "cumulative": -215
+      },
+      {
+        "y": 4540,
+        "shift": 1,
+        "cumulative": -214
+      }
+    ],
+    "maxOffset": 215,
+    "totalShift": 216,
+    "insertedRows": 1,
+    "deletedRows": 215,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 7.6,
+        "unaligned": 7.6
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 12.3,
+        "unaligned": 12.3
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 27.5,
+        "unaligned": 7
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 5.8,
+        "unaligned": 6.1
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 5.8,
+        "unaligned": 6.4
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 7.6,
+        "unaligned": 6.3
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 7.7
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0,
+        "unaligned": 29.3
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0,
+        "unaligned": 2.7
+      },
+      {
+        "y0": 4500,
+        "y1": 4715,
+        "pct": 0.5,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/en-us-research-hazard-vs-risk-laundry-detergent/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 47,
+    "totalShift": 216,
+    "pass": false
+  },
+  "reason": "offsets: 5 step(s), 216px total — −122px at y=1296, −28px at y=1758, −28px at y=2232, −37px at y=2707, +1px at y=4540 (bound 47px)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/hazard-vs-risk-laundry-detergent"
+  }
+}

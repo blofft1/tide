@@ -1,0 +1,101 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics plan",
+  "writtenAt": "2026-11-23T23:44:04.085Z",
+  "input": "stardust/current/_dynamics.json",
+  "martech": "stardust/martech"
+ },
+ "productionHosts": [
+  "tide.com"
+ ],
+ "consent": {
+  "cmp": {
+   "vendor": "OneTrust",
+   "src": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+   "attrs": {
+    "data-domain-script": null
+   },
+   "groups": "OnetrustActiveGroups",
+   "event": "OneTrustGroupsUpdated",
+   "viaTagManager": false,
+   "enabled": false
+  },
+  "model": "owner-decision",
+  "categories": [],
+  "ruleSets": 0,
+  "consentMode": {
+   "pages": 0,
+   "of": 9,
+   "libraries": [
+    "tags/www.googletagmanager.com-gtm-GTM-MR47VR8.js",
+    "tags/www.googletagmanager.com-js-G-8BSSX2VEY0.js"
+   ]
+  }
+ },
+ "routes": [
+  {
+   "id": "google-tag-manager-1",
+   "vendor": "Google Tag Manager",
+   "src": "https://www.googletagmanager.com/gtm.js?id=GTM-N6XWT7TZ",
+   "boot": "gtm",
+   "category": null,
+   "cmpGroups": [],
+   "enabled": false
+  },
+  {
+   "id": "google-tag-manager-2",
+   "vendor": "Google Tag Manager",
+   "src": "https://www.googletagmanager.com/gtm.js?id=GTM-NQ2Z6K78",
+   "boot": "gtm",
+   "category": null,
+   "cmpGroups": [],
+   "enabled": false
+  },
+  {
+   "id": "google-tag-manager-3",
+   "vendor": "Google Tag Manager",
+   "src": "https://www.googletagmanager.com/gtm.js?id=GTM-MR47VR8",
+   "boot": "gtm",
+   "category": null,
+   "cmpGroups": [],
+   "enabled": false
+  },
+  {
+   "id": "google-tag-manager-4",
+   "vendor": "Google Tag Manager",
+   "src": "https://www.googletagmanager.com/gtm.js?id=GTM-N94XXFB",
+   "boot": "gtm",
+   "category": null,
+   "cmpGroups": [],
+   "enabled": false
+  },
+  {
+   "id": "google-tag-manager-5",
+   "vendor": "Google Tag Manager",
+   "src": "https://www.googletagmanager.com/gtm.js?id=GTM-NLPTVV8",
+   "boot": "gtm",
+   "category": null,
+   "cmpGroups": [],
+   "enabled": false
+  }
+ ],
+ "otherTags": [
+  "marketing: ad / retargeting pixel"
+ ],
+ "tagManagers": [
+  "Google Tag Manager"
+ ],
+ "dataLayers": [
+  "dataLayer"
+ ],
+ "tagNotes": {},
+ "rewrite": {
+  "library": null,
+  "rules": [],
+  "dataElements": [],
+  "dataLayer": [],
+  "dataLayerPaths": []
+ },
+ "aemMartech": null,
+ "target": null
+}

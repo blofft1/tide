@@ -1,0 +1,161 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-us-shop-special-needs-sensitive/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-us-shop-special-needs-sensitive/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 3838,
+    "mode": "overlap"
+  },
+  "heightDelta": 19,
+  "differingPixels": 120343,
+  "pct": 2.18,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/en-us-shop-special-needs-sensitive/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 5.32,
+  "textBoxes": 126,
+  "textPixels": 435916,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.5
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.7
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 1.5
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0.1
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 4.9
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 7.1
+    },
+    {
+      "y0": 3500,
+      "y1": 3838,
+      "pct": 2.9
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 0.73,
+    "differingPixels": 40730,
+    "compared": {
+      "width": 1440,
+      "height": 3859,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 881,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 1387,
+        "shift": -1,
+        "cumulative": 0
+      },
+      {
+        "y": 2912,
+        "shift": -20,
+        "cumulative": -20
+      },
+      {
+        "y": 3682,
+        "shift": 1,
+        "cumulative": -19
+      }
+    ],
+    "maxOffset": 20,
+    "totalShift": 23,
+    "insertedRows": 2,
+    "deletedRows": 21,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.5,
+        "unaligned": 0.5
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.4,
+        "unaligned": 0.7
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0.2,
+        "unaligned": 1.5
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 4.1,
+        "unaligned": 4.9
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 7.1
+      },
+      {
+        "y0": 3500,
+        "y1": 3857,
+        "pct": 0.3,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/en-us-shop-special-needs-sensitive/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 39,
+    "totalShift": 23,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/sensitive"
+  }
+}

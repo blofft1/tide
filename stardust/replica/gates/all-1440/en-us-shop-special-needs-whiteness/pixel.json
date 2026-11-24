@@ -1,0 +1,150 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-us-shop-special-needs-whiteness/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-us-shop-special-needs-whiteness/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 3333,
+    "mode": "overlap"
+  },
+  "heightDelta": 20,
+  "differingPixels": 124462,
+  "pct": 2.59,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/en-us-shop-special-needs-whiteness/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 6.1,
+  "textBoxes": 101,
+  "textPixels": 362143,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.5
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 1.1
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 1.6
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 5.2
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 6.9
+    },
+    {
+      "y0": 3000,
+      "y1": 3333,
+      "pct": 2.9
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 0.98,
+    "differingPixels": 47248,
+    "compared": {
+      "width": 1440,
+      "height": 3354,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 883,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 1292,
+        "shift": -1,
+        "cumulative": 0
+      },
+      {
+        "y": 2409,
+        "shift": -19,
+        "cumulative": -19
+      },
+      {
+        "y": 3176,
+        "shift": -1,
+        "cumulative": -20
+      }
+    ],
+    "maxOffset": 20,
+    "totalShift": 22,
+    "insertedRows": 1,
+    "deletedRows": 21,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.5,
+        "unaligned": 0.5
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.4,
+        "unaligned": 1.1
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 1,
+        "unaligned": 1.6
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 4.4,
+        "unaligned": 5.2
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 6.9
+      },
+      {
+        "y0": 3000,
+        "y1": 3353,
+        "pct": 0.3,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/en-us-shop-special-needs-whiteness/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 34,
+    "totalShift": 22,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/whiteness"
+  }
+}

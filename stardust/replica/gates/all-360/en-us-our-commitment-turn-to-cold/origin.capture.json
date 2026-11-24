@@ -1,0 +1,23 @@
+{
+  "writtenBy": "gate-all.mjs",
+  "copiedFrom": "stardust/replica/gates/all-360/en-us-our-commitment-turn-to-cold/baseline.png",
+  "fixedLayers": {
+    "capture": "once",
+    "count": 3,
+    "late": 1
+  },
+  "timers": {
+    "hold": 2000,
+    "held": 13,
+    "intervals": 4,
+    "chains": 9,
+    "delays": [
+      2000,
+      3000,
+      5000,
+      86400000
+    ]
+  },
+  "fontsFailed": [],
+  "deadFaces": []
+}

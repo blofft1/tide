@@ -1,0 +1,41 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-23T23:43:40.105Z",
+    "stardustVersion": "0.0.0"
+  },
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://tide.com/",
+    "da": {
+      "org": "aemcoder",
+      "site": "5db7d055",
+      "ref": "main"
+    },
+    "liveHost": "main--5db7d055--aemcoder.aem.live"
+  },
+  "scope": {
+    "pages": 99,
+    "discovered": 464,
+    "capped": true,
+    "pageCap": 100
+  },
+  "lastRun": {
+    "at": "2026-11-24T12:33:32.740Z",
+    "pages": {
+      "total": 94,
+      "verified": 94,
+      "deployed": 0,
+      "pending": 0,
+      "contentPending": 0,
+      "stale": 0,
+      "failed": 0
+    },
+    "blocks": {
+      "total": 14,
+      "converted": 0,
+      "pending": 14
+    },
+    "verifyFailures": 0
+  }
+}

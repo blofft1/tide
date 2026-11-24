@@ -1,0 +1,1640 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-23T19:36:11.526Z",
+    "mode": "prep",
+    "stardustVersion": "0.10.0",
+    "readArtifacts": [
+      "stardust/current/_computed-styles.json (aggregate + pages[url][1440|360], 95 urls × 2 widths)",
+      "stardust/current/pages/*.json (99 records; 6 redirects excluded from cross-page tables)",
+      "stardust/current/pages/*.html (module signature classes)",
+      "stardust/current/assets/css/0x8blnfnms9hr.css",
+      "stardust/current/assets/css/0zt2pzwsr7nl0.css",
+      "stardust/current/assets/css/203myfwh49g8s.css",
+      "stardust/current/assets/css/10zi-emgkbih2.css",
+      "stardust/current/_crawl-log.json",
+      "stardust/state.json",
+      "stardust/current/assets/logo.svg"
+    ],
+    "synthesizedInputs": [],
+    "notes": [
+      "Census logo (aggregate.logo) picked header_logo_bounce.webp (a P&G sibling-brand icon in the top bar, not in the home link). Overridden with the header logo a.header-logo img → /images/brand_main_logo.svg (census logoCandidates selector \"#site-header > div:nth-of-type(2) > div > div > div > a > img\", rect 71×111 at 1440).",
+      "Palette capped at 8. Dropped by weight: #808080 (226, table borders on research articles), #ffb89c (214, peach step-timeline marks/backgrounds), #4d4d4d (62, click2cart widget text), #000000 (56, accessibility.pg.com + click2cart), #003da7 (42, accessibility.pg.com only), #f2f2f2 (34), #4163f7 (32, click2cart dialog link), #fee500 (28, yellow carousel dot borders), #003e29, #c1c1c1, #0071dc/#cd2027 (Walmart/Target retailer logos in click2cart), #14789f, #50aded, #4e5bb4, #fc7844, #ed8e69, #00269a (2), #102086, #abe1fa.",
+      "Off-origin evidence: the census includes https://accessibility.pg.com/en-US/ (the redirect target of /en-us/accessibility). Its Montserrat headings (17) and #003da7 text are P&G, not Tide, and are excluded from type families and palette roles.",
+      "Third-party widget evidence: the 8 click2cart pages render a SmartCommerce Angular widget (Poppins, FontAwesome, rgba(0,0,0,.4) shadow, 5px/45px radii). Kept in the frequency tables as observed but not used for any brand role.",
+      "Radius divergence: count-mode is 25px (622, pill buttons/chips); area-mode is 8px (316 elements, largest area — cards/white boxes). Home agrees with cross-page (25px buttons, 8px cards). No home-vs-cross-page divergence.",
+      "Declared tokens: only --color_orange:#fb4c06 and --color_blue:#00269a (93 pages, inline custom props). --color_blue does not match the dominant navy text (#1b3392, ΔE 14.6); it clusters with #13259c (ΔE 2.1).",
+      "@font-face rules for MontserratRegular/Medium/Bold/ExtraBold/Black, Anton and IntroScriptDemo are declared in 0x8blnfnms9hr.css but no captured tide.com element renders them (census fonts[].status \"unloaded\"; aggregate.type.families has no such family on tide.com). Anton is referenced by legacy .page-header/.big-header rules.",
+      "heroImage: the home hero is a 2-slide react-multi-carousel; the first slide image is 1920×500 intrinsic (aspect 3.84, outside the [0.3,3.0] filter by intrinsic size). No per-image rect was captured, so the capture's own slots.lead-image is elevated; rendered crop is not measured.",
+      "Background-motif detection: cssBackgrounds reuse ≥2 pages only occurs on redirect pages (ytimg thumbnail of the Loads of Hope video); none on canonical pages → no background-motif system component.",
+      "containerMaxWidth taken from CSS (.container max-width 1170px @min-width:1200px, 15px gutters → 1140px content, matches measured nav width 1140 at 1440). Cap-probe (extensions.breakpoints) not yet run."
+    ]
+  },
+  "site": {
+    "name": "Tide",
+    "tagline": "Visit Tide for the greatest in laundry products. With powders, liquids and pacs on offer; learn about stain removal, fabric care, and more from Tide!",
+    "taglineSource": "pages/en-us.json#description (meta description = og:description)",
+    "originUrl": "https://tide.com",
+    "homeUrl": "https://tide.com/en-us",
+    "title": "Laundry Detergent and Fabric Care Products - Tide",
+    "parent": "P&G (header: \"Part of the P&G Family\")"
+  },
+  "origins": [
+    {
+      "origin": "https://tide.com",
+      "role": "primary",
+      "pagesCaptured": 99,
+      "pagesCanonical": 93,
+      "contributedSignals": [],
+      "note": "93 non-redirect pages; 6 redirect records (index, accessibility → accessibility.pg.com, coupons-and-rewards, loads-of-hope, sustainability, plus en-us duplicateOf index). /en-us/loyalty uncaptured (auth redirect)."
+    }
+  ],
+  "logo": {
+    "source": "img",
+    "sourceSelector": "#site-header a.header-logo img",
+    "sourceUrl": "https://tide.com/images/brand_main_logo.svg",
+    "localPath": "stardust/current/assets/logo.svg",
+    "format": "svg",
+    "intrinsicWidth": 71,
+    "intrinsicHeight": 71,
+    "viewBox": "0 0 71 71",
+    "renderedRect1440": {
+      "w": 71,
+      "h": 111,
+      "x": 150,
+      "y": 50
+    },
+    "alt": "Tide logo",
+    "fills": [
+      "#fff200",
+      "#ef4d25",
+      "#ffffff",
+      "#104ba0"
+    ],
+    "synthesized": false,
+    "synthesizedBasis": null,
+    "variantsCaptured": [
+      "svg full-color bullseye (header)"
+    ],
+    "variantsNotCaptured": [
+      "monochrome",
+      "inverted/knockout",
+      "wordmark-only"
+    ],
+    "otherBrandMarks": [
+      "/images/header_logo_png.webp (P&G)",
+      "/images/header_logo_downy.webp (Downy)",
+      "/images/header_logo_bounce.webp (Bounce)"
+    ],
+    "favicon": {
+      "localPath": "stardust/current/assets/favicon.ico",
+      "source": "https://tide.com/images/favicon.ico"
+    },
+    "appleTouchIcon": "stardust/current/assets/apple-touch-icon.png"
+  },
+  "palette": [
+    {
+      "role": "text-primary",
+      "value": "#1b3392",
+      "occurrences": 9387,
+      "bgArea": 11861494,
+      "usedAs": [
+        "text",
+        "border",
+        "background"
+      ],
+      "usedAsCounts": {
+        "text": 7159,
+        "link": 1068,
+        "border": 384,
+        "background": 250,
+        "button-text": 252,
+        "button-background": 209,
+        "heading": 65
+      },
+      "sourceSelectors": [
+        "nav > ul > li:nth-of-type(1) > span",
+        "nav > ul > li:nth-of-type(1) > a > span"
+      ],
+      "sources": [
+        {
+          "url": "https://tide.com/en-us/research/best-quality-detergent",
+          "selector": "nav > ul > li:nth-of-type(1) > span",
+          "prop": "text"
+        },
+        {
+          "url": "https://tide.com/en-us/research/are-detergents-toxic-science",
+          "selector": "nav > ul > li:nth-of-type(1) > span",
+          "prop": "text"
+        },
+        {
+          "url": "https://tide.com/en-us/how-to-wash-clothes/how-to-do-laundry",
+          "selector": "nav > ul > li:nth-of-type(1) > a > span",
+          "prop": "text"
+        }
+      ],
+      "name": "Tide navy",
+      "note": "Most frequent text color (body copy, nav, breadcrumbs, filter-chip text); also the secondary solid button fill (hover darkens to #182e83) and the blue full-bleed section ground (section-blue-bg-white-text)."
+    },
+    {
+      "role": "primary",
+      "value": "#fb4c06",
+      "occurrences": 4936,
+      "bgArea": 104135084,
+      "usedAs": [
+        "text",
+        "background",
+        "border"
+      ],
+      "usedAsCounts": {
+        "text": 2852,
+        "background": 926,
+        "button-background": 339,
+        "border": 32,
+        "heading": 787
+      },
+      "sourceSelectors": [
+        "div > div > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > div > h1",
+        "#in-short",
+        "div:nth-of-type(4) > div:nth-of-type(1) > div > div > div > div:nth-of-type(1) > div > h2"
+      ],
+      "sources": [
+        {
+          "url": "https://tide.com/en-us/how-to-wash-clothes/how-to-do-laundry",
+          "selector": "div > div > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > div > h1",
+          "prop": "text"
+        },
+        {
+          "url": "https://tide.com/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors",
+          "selector": "div > div > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > div > h1",
+          "prop": "text"
+        },
+        {
+          "url": "https://tide.com/en-us/how-to-wash-clothes/how-to-remove-stains",
+          "selector": "div > div > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > div > h1",
+          "prop": "text"
+        }
+      ],
+      "name": "Tide orange",
+      "note": "Largest background area of any color (header search bar, article title band, footer social band, PLP feature bands, primary pill buttons) and the dominant heading color. Declared as --color_orange. Cluster includes rgb(241,69,0). Hover on orange buttons = rgb(226,68,5)."
+    },
+    {
+      "role": "text-secondary",
+      "value": "#13259c",
+      "occurrences": 4655,
+      "bgArea": 11941261,
+      "usedAs": [
+        "text",
+        "background"
+      ],
+      "usedAsCounts": {
+        "text": 4222,
+        "link": 298,
+        "background": 101,
+        "button-text": 2,
+        "heading": 32
+      },
+      "sourceSelectors": [
+        "#site-header > div:nth-of-type(1) > div > div > div > div:nth-of-type(1) > span",
+        "div > div:nth-of-type(2) > div:nth-of-type(1) > div > div > div > div > h1"
+      ],
+      "sources": [
+        {
+          "url": "https://tide.com/en-us/our-commitment/tide-evo",
+          "selector": "#site-header > div:nth-of-type(1) > div > div > div > div:nth-of-type(1) > span",
+          "prop": "text"
+        },
+        {
+          "url": "https://tide.com/en-us/our-commitment/tide-evo",
+          "selector": "div > div:nth-of-type(2) > div:nth-of-type(1) > div > div > div > div > h1",
+          "prop": "text"
+        },
+        {
+          "url": "https://tide.com/en-us",
+          "selector": "#site-header > div:nth-of-type(1) > div > div > div > div:nth-of-type(1) > span",
+          "prop": "text"
+        }
+      ],
+      "name": "Deep navy",
+      "note": "Header main-nav bar background (.header-main-bar), P&G top-bar text, hero h1 text. Within ΔE 2.1 of the declared --color_blue #00269a."
+    },
+    {
+      "role": "background",
+      "value": "#ffffff",
+      "occurrences": 4607,
+      "bgArea": 78914447,
+      "usedAs": [
+        "background",
+        "text",
+        "border"
+      ],
+      "usedAsCounts": {
+        "background": 941,
+        "text": 2127,
+        "border": 373,
+        "button-text": 548,
+        "button-background": 254,
+        "link": 136,
+        "heading": 228
+      },
+      "sourceSelectors": [
+        "#site-header > div:nth-of-type(1)",
+        "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > div > div:nth-of-type(2) > div",
+        "#site-header > a"
+      ],
+      "sources": [
+        {
+          "url": "https://tide.com/en-us/how-to-wash-clothes/how-to-do-laundry",
+          "selector": "#site-header > div:nth-of-type(1)",
+          "prop": "background"
+        },
+        {
+          "url": "https://tide.com/en-us/how-to-wash-clothes/how-to-do-laundry",
+          "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > div > div:nth-of-type(2) > div",
+          "prop": "background"
+        },
+        {
+          "url": "https://tide.com/en-us/shop/type/laundry-pods",
+          "selector": "#site-header > a",
+          "prop": "text"
+        }
+      ],
+      "name": "White",
+      "note": "Page ground, header top bar, cards; text on orange/navy; cluster includes #f5f5f5/#f6f6f6."
+    },
+    {
+      "role": "border",
+      "value": "#7481b4",
+      "occurrences": 507,
+      "bgArea": 0,
+      "usedAs": [
+        "border"
+      ],
+      "usedAsCounts": {
+        "border": 255,
+        "button-border": 252
+      },
+      "sourceSelectors": [
+        "div > div > div:nth-of-type(1) > div:nth-of-type(4) > div > div > div:nth-of-type(2) > a:nth-of-type(1)"
+      ],
+      "sources": [
+        {
+          "url": "https://tide.com/en-us/shop/special-needs/additives",
+          "selector": "div > div > div:nth-of-type(1) > div:nth-of-type(4) > div > div > div:nth-of-type(2) > a:nth-of-type(1)",
+          "prop": "border"
+        },
+        {
+          "url": "https://tide.com/en-us/shop/special-needs/deep-clean",
+          "selector": "div > div > div:nth-of-type(1) > div:nth-of-type(4) > div > div > div:nth-of-type(2) > a:nth-of-type(1)",
+          "prop": "border"
+        },
+        {
+          "url": "https://tide.com/en-us/shop/special-needs/freshness",
+          "selector": "div > div > div:nth-of-type(1) > div:nth-of-type(4) > div > div > div:nth-of-type(2) > a:nth-of-type(1)",
+          "prop": "border"
+        }
+      ],
+      "name": "Muted periwinkle",
+      "note": "2px border on PLP filter chips (white chip, navy text; hover fills navy)."
+    },
+    {
+      "role": "accent-1",
+      "value": "#0000ee",
+      "occurrences": 346,
+      "bgArea": 0,
+      "usedAs": [
+        "text"
+      ],
+      "usedAsCounts": {
+        "link": 346
+      },
+      "sourceSelectors": [
+        "div > div > div > div:nth-of-type(1) > div > div:nth-of-type(2) > div > a:nth-of-type(1)",
+        "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > div > div > a",
+        "div > div > div > div > div > div:nth-of-type(2) > div > a:nth-of-type(1)"
+      ],
+      "sources": [
+        {
+          "url": "https://tide.com/en-us/latest-news",
+          "selector": "div > div > div > div:nth-of-type(1) > div > div:nth-of-type(2) > div > a:nth-of-type(1)",
+          "prop": "link"
+        },
+        {
+          "url": "https://tide.com/en-us/our-commitment/sustainability/saving-energy",
+          "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > div > div > a",
+          "prop": "link"
+        },
+        {
+          "url": "https://tide.com/en-us/our-commitment",
+          "selector": "div > div > div > div > div > div:nth-of-type(2) > div > a:nth-of-type(1)",
+          "prop": "link"
+        }
+      ],
+      "name": "UA default link blue",
+      "note": "Unstyled inline links inside rich text (browser default #0000EE) on latest-news / our-commitment pages — not a declared brand color."
+    },
+    {
+      "role": "border-subtle",
+      "value": "#c4c8e6",
+      "occurrences": 269,
+      "bgArea": 0,
+      "usedAs": [
+        "border",
+        "text"
+      ],
+      "usedAsCounts": {
+        "border": 261,
+        "text": 8
+      },
+      "sourceSelectors": [
+        "#site-content > div > div > div > div:nth-of-type(1) > div:nth-of-type(3) > div > div"
+      ],
+      "sources": [
+        {
+          "url": "https://tide.com/en-us/shop/special-needs/freshness",
+          "selector": "#site-content > div > div > div > div:nth-of-type(1) > div:nth-of-type(3) > div > div",
+          "prop": "border"
+        },
+        {
+          "url": "https://tide.com/en-us/shop/special-needs/odor-removal",
+          "selector": "#site-content > div > div > div > div:nth-of-type(1) > div:nth-of-type(3) > div > div",
+          "prop": "border"
+        },
+        {
+          "url": "https://tide.com/en-us/shop/special-needs/sensitive",
+          "selector": "#site-content > div > div > div > div:nth-of-type(1) > div:nth-of-type(3) > div > div",
+          "prop": "border"
+        }
+      ],
+      "name": "Pale lavender",
+      "note": "Divider/border inside PLP and product cards."
+    },
+    {
+      "role": "divider",
+      "value": "#e3e3e3",
+      "occurrences": 259,
+      "bgArea": 9729164,
+      "usedAs": [
+        "border",
+        "background"
+      ],
+      "usedAsCounts": {
+        "border": 235,
+        "background": 24
+      },
+      "sourceSelectors": [
+        "#sticky-nav",
+        "app-retailer-product-choice > div > div > div:nth-of-type(1) > div > div:nth-of-type(1) > app-product-choice-button > div",
+        "#retailer-buttons-wrapper > app-enhanced-retailer-button:nth-of-type(1) > div:nth-of-type(1)"
+      ],
+      "sources": [
+        {
+          "url": "https://tide.com/en-us/latest-news",
+          "selector": "#sticky-nav",
+          "prop": "border"
+        },
+        {
+          "url": "https://tide.com/en-us/click2cart/006000p",
+          "selector": "app-retailer-product-choice > div > div > div:nth-of-type(1) > div > div:nth-of-type(1) > app-product-choice-button > div",
+          "prop": "border"
+        },
+        {
+          "url": "https://tide.com/en-us/click2cart/0060001",
+          "selector": "#retailer-buttons-wrapper > app-enhanced-retailer-button:nth-of-type(1) > div:nth-of-type(1)",
+          "prop": "border"
+        }
+      ],
+      "name": "Light grey",
+      "note": "#sticky-nav bottom border, related-article dividers, click2cart retailer buttons."
+    }
+  ],
+  "type": {
+    "headingFamily": {
+      "name": "Tide",
+      "stack": "Tide, sans-serif",
+      "weights": [
+        800,
+        400,
+        300,
+        700
+      ],
+      "dominantWeight": 800,
+      "levels": {
+        "h1": {
+          "fontSize": "48px",
+          "fontWeight": 800,
+          "count": 46,
+          "score": 651.1
+        },
+        "h2": {
+          "fontSize": "48px",
+          "fontWeight": 800,
+          "count": 235,
+          "score": 1471.65
+        },
+        "h3": {
+          "fontSize": "40px",
+          "fontWeight": 800,
+          "count": 96,
+          "score": 783.84
+        },
+        "h4": {
+          "fontSize": "32px",
+          "fontWeight": 800,
+          "count": 46,
+          "score": 434.07
+        },
+        "h5": {
+          "fontSize": "26px",
+          "fontWeight": 800,
+          "count": 6,
+          "score": 127.37
+        },
+        "h6": {
+          "fontSize": "20px",
+          "fontWeight": 800,
+          "count": 10,
+          "score": 126.49
+        }
+      },
+      "sizes": [
+        "68px",
+        "48px",
+        "40px",
+        "32px",
+        "26px",
+        "20px"
+      ],
+      "lineHeights": [
+        "64px",
+        "52px",
+        "44px",
+        "38px",
+        "30px",
+        "24px"
+      ],
+      "letterSpacing": [
+        "normal",
+        "0.6px (h5 16px)",
+        "0.75px (h6 20px)"
+      ],
+      "textTransform": "none",
+      "sizes360": {
+        "h1": "40px/44px",
+        "h2": "40px/44px",
+        "h3": "32px/36px",
+        "h4": "26px/30px"
+      },
+      "displayVariant": {
+        "fontSize": "68px",
+        "fontWeight": 400,
+        "lineHeight": "64px",
+        "count": 16,
+        "source": {
+          "url": "https://tide.com/en-us/how-to-wash-clothes/washing-machine-101",
+          "selector": "div > div > section > div:nth-of-type(2) > div:nth-of-type(1) > div > div > h1"
+        }
+      },
+      "sourceSelectors": [
+        "h2 (235× 48/52 800)",
+        "h3 (96× 40/44 800)",
+        "h1 (46× 48/52 800)",
+        "h4 (46× 32/38 800)"
+      ],
+      "sources": [
+        {
+          "url": "https://tide.com/en-us/rewards",
+          "selector": "#tide-is-here-to-help-you"
+        },
+        {
+          "url": "https://tide.com/en-us/how-to-do-laundry/better-clean-safer",
+          "selector": "div:nth-of-type(4) > div:nth-of-type(2) > div > div > div > div > div > h3"
+        },
+        {
+          "url": "https://tide.com/en-us/how-to-wash-clothes/how-to-do-laundry",
+          "selector": "div > div > div > div:nth-of-type(7) > div:nth-of-type(2) > div > div:nth-of-type(2) > h4:nth-of-type(1)"
+        }
+      ]
+    },
+    "bodyFamily": {
+      "name": "Tide",
+      "stack": "Tide, sans-serif",
+      "weights": [
+        400,
+        700
+      ],
+      "sizes": [
+        "16px",
+        "14px",
+        "20px",
+        "19px"
+      ],
+      "lineHeights": [
+        "24px (1.5)",
+        "19.6px (1.4)",
+        "26px (1.3)",
+        "24px"
+      ],
+      "lineHeights360": [
+        "20px for 16px p"
+      ],
+      "letterSpacing": [
+        "normal"
+      ],
+      "rootRule": "body { font-family: Tide,sans-serif; font-size: 14px; line-height: 1.4 } (0x8blnfnms9hr.css @647656)",
+      "sourceSelectors": [
+        "p (336× 16/24 400)",
+        "li nav (238× 14/19.6)",
+        "p (101× 20/26 400)",
+        "breadcrumbs-list-item 19/24"
+      ],
+      "sources": [
+        {
+          "url": "https://tide.com/en-us/rewards",
+          "selector": "div > div > div > div > div > div > div > p"
+        },
+        {
+          "url": "https://tide.com/en-us/how-to-do-laundry/better-clean-safer",
+          "selector": "nav > ul > li:nth-of-type(1)"
+        }
+      ]
+    },
+    "uiFamily": {
+      "name": "Tide",
+      "weights": [
+        700
+      ],
+      "sizes": [
+        "20px (pill buttons)",
+        "14px (chips, top bar)"
+      ],
+      "source": {
+        "url": "https://tide.com/en-us/rewards",
+        "selector": "div > div > div > div:nth-of-type(1) > div > div:nth-of-type(2) > div > a:nth-of-type(2)"
+      }
+    },
+    "monoFamily": null,
+    "familiesObserved": [
+      {
+        "family": "Tide",
+        "count": 3648,
+        "headings": 1108,
+        "text": 1738,
+        "buttons": 802,
+        "scope": "tide.com (all canonical pages)"
+      },
+      {
+        "family": "Montserrat",
+        "count": 34,
+        "headings": 18,
+        "text": 16,
+        "buttons": 0,
+        "scope": "accessibility.pg.com only (off-origin)"
+      },
+      {
+        "family": "Poppins",
+        "count": 27,
+        "headings": 15,
+        "text": 12,
+        "buttons": 0,
+        "scope": "click2cart SmartCommerce widget only"
+      },
+      {
+        "family": "Times New Roman",
+        "count": 2,
+        "headings": 2,
+        "text": 0,
+        "buttons": 0,
+        "scope": "health-probe (unstyled)"
+      }
+    ],
+    "weightsObserved": [
+      {
+        "weight": "400",
+        "count": 1752,
+        "headings": 124,
+        "text": 1458,
+        "buttons": 170
+      },
+      {
+        "weight": "800",
+        "count": 1089,
+        "headings": 972,
+        "text": 117,
+        "buttons": 0
+      },
+      {
+        "weight": "700",
+        "count": 849,
+        "headings": 32,
+        "text": 185,
+        "buttons": 632
+      },
+      {
+        "weight": "300",
+        "count": 15,
+        "headings": 15,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "weight": "500",
+        "count": 6,
+        "headings": 0,
+        "text": 6,
+        "buttons": 0
+      }
+    ],
+    "sizesObserved": [
+      70,
+      68,
+      64,
+      56,
+      54,
+      50,
+      48,
+      44,
+      40,
+      36,
+      32,
+      26.67,
+      26,
+      24,
+      22,
+      21,
+      20,
+      19,
+      18,
+      16.38,
+      16,
+      14,
+      12
+    ],
+    "scaleRatio": null,
+    "scaleAudit": {
+      "kind": "ad-hoc",
+      "sizes": [
+        48,
+        40,
+        32,
+        26,
+        20
+      ],
+      "ratios": [
+        1.2,
+        1.25,
+        1.231,
+        1.3
+      ],
+      "matchedScale": null,
+      "basis": "census aggregate.type.levels h1/h2=48, h3=40, h4=32, h5=26, h6=20 (weighted score); ratios span minor-third→>major-third"
+    },
+    "loadStrategy": "swap",
+    "files": [
+      {
+        "url": "https://tide.com/fonts/tide_type_light-webfont.woff2",
+        "family": "Tide",
+        "weight": 300,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/tide_type_light-webfont.woff2",
+        "sourceCssRule": "@font-face{font-family:Tide;src:url(/fonts/tide_type_light-webfont.woff2)format(\"woff2\");font-weight:300;font-display:swap} (0x8blnfnms9hr.css)",
+        "licensingFlag": "private",
+        "renderedOnCapturedPages": true
+      },
+      {
+        "url": "https://tide.com/fonts/tide_type_regular-webfont.woff2",
+        "family": "Tide",
+        "weight": 400,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/tide_type_regular-webfont.woff2",
+        "sourceCssRule": "@font-face{font-family:Tide;src:url(/fonts/tide_type_regular-webfont.woff2)format(\"woff2\");font-weight:400;font-display:swap} (0x8blnfnms9hr.css)",
+        "licensingFlag": "private",
+        "renderedOnCapturedPages": true
+      },
+      {
+        "url": "https://tide.com/fonts/tide_type_bold-webfont.woff2",
+        "family": "Tide",
+        "weight": 700,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/tide_type_bold-webfont.woff2",
+        "sourceCssRule": "@font-face{font-family:Tide;src:url(/fonts/tide_type_bold-webfont.woff2)format(\"woff2\");font-weight:700;font-display:swap} (0x8blnfnms9hr.css)",
+        "licensingFlag": "private",
+        "renderedOnCapturedPages": true
+      },
+      {
+        "url": "https://tide.com/fonts/tide_type_ultra-webfont.woff2",
+        "family": "Tide",
+        "weight": 800,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/tide_type_ultra-webfont.woff2",
+        "sourceCssRule": "@font-face{font-family:Tide;src:url(/fonts/tide_type_ultra-webfont.woff2)format(\"woff2\");font-weight:800;font-display:swap} (0x8blnfnms9hr.css)",
+        "licensingFlag": "private",
+        "renderedOnCapturedPages": true
+      },
+      {
+        "url": "https://tide.com/fonts/Montserrat-Regular.woff2",
+        "family": "MontserratRegular",
+        "weight": 400,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/Montserrat-Regular.woff2",
+        "sourceCssRule": "@font-face{font-family:MontserratRegular;src:url(/fonts/Montserrat-Regular.woff2)format(\"woff2\");font-weight:400;font-display:swap} (0x8blnfnms9hr.css)",
+        "licensingFlag": "open",
+        "renderedOnCapturedPages": false
+      },
+      {
+        "url": "https://tide.com/fonts/Montserrat-Medium.woff2",
+        "family": "MontserratMedium",
+        "weight": 400,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/Montserrat-Medium.woff2",
+        "sourceCssRule": "@font-face{font-family:MontserratMedium;src:url(/fonts/Montserrat-Medium.woff2)format(\"woff2\");font-weight:400;font-display:swap} (0x8blnfnms9hr.css)",
+        "licensingFlag": "open",
+        "renderedOnCapturedPages": false
+      },
+      {
+        "url": "https://tide.com/fonts/Montserrat-Bold.woff2",
+        "family": "MontserratBold",
+        "weight": 400,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/Montserrat-Bold.woff2",
+        "sourceCssRule": "@font-face{font-family:MontserratBold;src:url(/fonts/Montserrat-Bold.woff2)format(\"woff2\");font-weight:400;font-display:swap} (0x8blnfnms9hr.css)",
+        "licensingFlag": "open",
+        "renderedOnCapturedPages": false
+      },
+      {
+        "url": "https://tide.com/fonts/Montserrat-ExtraBold.woff2",
+        "family": "MontserratExtraBold",
+        "weight": 400,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/Montserrat-ExtraBold.woff2",
+        "sourceCssRule": "@font-face{font-family:MontserratExtraBold;src:url(/fonts/Montserrat-ExtraBold.woff2)format(\"woff2\");font-weight:400;font-display:swap} (0x8blnfnms9hr.css)",
+        "licensingFlag": "open",
+        "renderedOnCapturedPages": false
+      },
+      {
+        "url": "https://tide.com/fonts/Montserrat-Black.woff2",
+        "family": "MontserratBlack",
+        "weight": 400,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/Montserrat-Black.woff2",
+        "sourceCssRule": "@font-face{font-family:MontserratBlack;src:url(/fonts/Montserrat-Black.woff2)format(\"woff2\");font-weight:400;font-display:swap} (0x8blnfnms9hr.css)",
+        "licensingFlag": "open",
+        "renderedOnCapturedPages": false
+      },
+      {
+        "url": "https://tide.com/fonts/Anton-Regular.woff2",
+        "family": "Anton",
+        "weight": 400,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/Anton-Regular.woff2",
+        "sourceCssRule": "@font-face{font-family:Anton;src:url(/fonts/Anton-Regular.woff2)format(\"woff2\");font-weight:400;font-display:swap} (0x8blnfnms9hr.css)",
+        "licensingFlag": "open",
+        "renderedOnCapturedPages": false
+      },
+      {
+        "url": "https://tide.com/fonts/IntroScriptDemo-Medium.woff2",
+        "family": "IntroScriptDemo",
+        "weight": 500,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/IntroScriptDemo-Medium.woff2",
+        "sourceCssRule": "@font-face{font-family:IntroScriptDemo;src:url(/fonts/IntroScriptDemo-Medium.woff2)format(\"woff2\");font-weight:500;font-display:swap} (0x8blnfnms9hr.css)",
+        "licensingFlag": "private",
+        "renderedOnCapturedPages": false
+      }
+    ]
+  },
+  "spacing": {
+    "baseUnit": 5,
+    "baseUnitNote": "Not 4/8: CSS padding/margin px values cluster on multiples of 5 (10×163, 20×146, 30×120, 15×92, 40×86, 25×80, 60×56, 50×51 in 0x8blnfnms9hr.css).",
+    "scale": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      40,
+      50,
+      60,
+      80,
+      100,
+      120
+    ],
+    "sectionPadding": null,
+    "sectionPaddingNote": "not measured by the census; footer padding-bottom 120px ≥768 (50px mobile), contact-us main 100px 0",
+    "containerMaxWidth": "1170px",
+    "containerSource": "0x8blnfnms9hr.css @648006 .container,…{max-width:1170px} @media (min-width:1200px); nav measured 1140px wide at 1440",
+    "gridGap": "30px",
+    "gridGapSource": "Bootstrap row gutters (15px col padding) + gap:30px (5 rules)",
+    "breakpointsDeclared": [
+      "576",
+      "768",
+      "992 (421 rules)",
+      "1200",
+      "1400",
+      "1920"
+    ],
+    "breakpointsNote": "from @media frequency in 0x8blnfnms9hr.css; cap-probe pending"
+  },
+  "motifs": {
+    "borderRadius": {
+      "primary": "25px",
+      "secondary": "8px",
+      "pill": "50%",
+      "areaMode": "8px",
+      "primarySources": [
+        "en-us",
+        "how-to-wash-clothes",
+        "rewards"
+      ],
+      "occurrences": {
+        "25px": 622,
+        "8px": 316,
+        "0px 0px 5px 5px": 185,
+        "50%": 140,
+        "5px": 131,
+        "12px": 89,
+        "45px": 62,
+        "16px": 21,
+        "4px 4px 0px 0px": 15,
+        "100%": 12,
+        "40px": 10,
+        "13px": 9,
+        "30px": 9,
+        "10px": 6,
+        "20px": 6,
+        "14px": 5,
+        "8px 8px 0px 0px": 4,
+        "2.5px": 3,
+        "4px": 1
+      },
+      "values": [
+        {
+          "value": "25px",
+          "count": 622,
+          "area": 3972908,
+          "sources": [
+            {
+              "url": "https://tide.com/en-us",
+              "selector": "div > div > div > div:nth-of-type(1) > div > div > p > a"
+            },
+            {
+              "url": "https://tide.com/en-us",
+              "selector": "div > div > div > div:nth-of-type(2) > div > div > p:nth-of-type(2) > a"
+            }
+          ]
+        },
+        {
+          "value": "8px",
+          "count": 316,
+          "area": 30920198,
+          "sources": [
+            {
+              "url": "https://tide.com/en-us",
+              "selector": "div:nth-of-type(10) > div > div > div > div:nth-of-type(1) > div > div:nth-of-type(2) > div"
+            },
+            {
+              "url": "https://tide.com/en-us",
+              "selector": "div:nth-of-type(10) > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div"
+            }
+          ]
+        },
+        {
+          "value": "0px 0px 5px 5px",
+          "count": 185,
+          "area": 1232449,
+          "sources": [
+            {
+              "url": "https://tide.com/en-us",
+              "selector": "#site-header > a"
+            },
+            {
+              "url": "https://tide.com/en-us/click2cart/0060001",
+              "selector": "#sc-footer-content"
+            }
+          ]
+        },
+        {
+          "value": "50%",
+          "count": 140,
+          "area": 92892,
+          "sources": [
+            {
+              "url": "https://tide.com/en-us",
+              "selector": "#carousel__6hAqcV7X3l5WUsffgaBaik > div:nth-of-type(1) > div > ul:nth-of-type(2) > li:nth-of-type(1) > button"
+            },
+            {
+              "url": "https://tide.com/en-us",
+              "selector": "#carousel__6hAqcV7X3l5WUsffgaBaik > div:nth-of-type(1) > div > ul:nth-of-type(2) > li:nth-of-type(2) > button"
+            }
+          ]
+        },
+        {
+          "value": "5px",
+          "count": 131,
+          "area": 6781928,
+          "sources": [
+            {
+              "url": "https://tide.com/en-us/click2cart/0060001",
+              "selector": "#shopper-choice-container"
+            },
+            {
+              "url": "https://tide.com/en-us/click2cart/0060001",
+              "selector": "#retailer-buttons-wrapper > app-enhanced-retailer-button:nth-of-type(1) > div:nth-of-type(1) > div"
+            }
+          ]
+        },
+        {
+          "value": "12px",
+          "count": 89,
+          "area": 833620,
+          "sources": [
+            {
+              "url": "https://tide.com/en-us",
+              "selector": "div:nth-of-type(2) > div > div > div > div > form > div > input"
+            },
+            {
+              "url": "https://tide.com/en-us/contact-us",
+              "selector": "div:nth-of-type(2) > div > div > div > div > form > div > input"
+            }
+          ]
+        },
+        {
+          "value": "45px",
+          "count": 62,
+          "area": 1626968,
+          "sources": [
+            {
+              "url": "https://tide.com/en-us/click2cart/0060001",
+              "selector": "#retailer-buttons-wrapper > app-enhanced-retailer-button:nth-of-type(1) > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://tide.com/en-us/click2cart/0060001",
+              "selector": "#retailer-buttons-wrapper > app-enhanced-retailer-button:nth-of-type(2) > div:nth-of-type(1)"
+            }
+          ]
+        },
+        {
+          "value": "16px",
+          "count": 21,
+          "area": 2503866,
+          "sources": [
+            {
+              "url": "https://tide.com/en-us",
+              "selector": "#carousel__6hAqcV7X3l5WUsffgaBaik > div:nth-of-type(1) > div > ul:nth-of-type(1) > li:nth-of-type(1) > a"
+            },
+            {
+              "url": "https://tide.com/en-us",
+              "selector": "#carousel__6hAqcV7X3l5WUsffgaBaik > div:nth-of-type(1) > div > ul:nth-of-type(1) > li:nth-of-type(2) > a"
+            }
+          ]
+        }
+      ],
+      "uses": {
+        "25px": "pill buttons + PLP filter chips",
+        "8px": "card / white-box corners (largest area)",
+        "0px 0px 5px 5px": "skip-to-content tab under header",
+        "50%": "carousel dots & arrow buttons",
+        "5px": "click2cart widget",
+        "12px": "search + contact form inputs",
+        "45px": "click2cart retailer buttons",
+        "16px": "home promo-carousel cards"
+      }
+    },
+    "shadows": [
+      {
+        "value": "rgba(0, 0, 0, 0.4) 0px 6px 12px 0px",
+        "count": 16,
+        "uses": "click2cart widget panel",
+        "sources": [
+          {
+            "url": "https://tide.com/en-us/click2cart/0060001",
+            "selector": "#shopper-choice-container"
+          },
+          {
+            "url": "https://tide.com/en-us/click2cart/006000B",
+            "selector": "#shopper-choice-container"
+          }
+        ]
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.2) 0px 2px 17px 0px",
+        "count": 8,
+        "uses": "sticky jump-link nav",
+        "sources": [
+          {
+            "url": "https://tide.com/en-us/how-to-do-laundry/detergent-residue-safety",
+            "selector": "#sticky-nav"
+          },
+          {
+            "url": "https://tide.com/en-us/how-to-wash-clothes/how-to-do-laundry/about-tide-pods-pva-film",
+            "selector": "#sticky-nav"
+          }
+        ]
+      },
+      {
+        "value": "rgb(233, 233, 233) 0px -2px 4px 0px",
+        "count": 6,
+        "uses": "click2cart footer bar",
+        "sources": [
+          {
+            "url": "https://tide.com/en-us/click2cart/0060001",
+            "selector": "#sc-footer-content"
+          },
+          {
+            "url": "https://tide.com/en-us/click2cart/006000B",
+            "selector": "#sc-footer-content"
+          }
+        ]
+      }
+    ],
+    "shadowNote": "Brand surfaces are flat: the only first-party shadow is the sticky jump-link nav (#sticky-nav). The other two belong to the click2cart widget.",
+    "gradients": [
+      {
+        "value": "linear-gradient(rgb(251, 76, 6), rgba(251, 76, 6, 0))",
+        "count": 2,
+        "uses": "stain-guide spinner fade masks (top/bottom of the stain list)",
+        "sources": [
+          {
+            "url": "https://tide.com/en-us/how-to-wash-clothes/how-to-remove-stains",
+            "selector": "div:nth-of-type(2) > div:nth-of-type(1) > div > div > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)"
+          }
+        ]
+      },
+      {
+        "value": "linear-gradient(rgb(27, 51, 146), rgba(27, 51, 146, 0))",
+        "count": 2,
+        "uses": "stain-guide spinner fade masks (top/bottom of the stain list)",
+        "sources": [
+          {
+            "url": "https://tide.com/en-us",
+            "selector": "div > div:nth-of-type(7) > div > div > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)"
+          }
+        ]
+      },
+      {
+        "value": "linear-gradient(rgba(251, 76, 6, 0), rgb(251, 76, 6))",
+        "count": 2,
+        "uses": "stain-guide spinner fade masks (top/bottom of the stain list)",
+        "sources": [
+          {
+            "url": "https://tide.com/en-us/how-to-wash-clothes/how-to-remove-stains",
+            "selector": "div:nth-of-type(2) > div:nth-of-type(1) > div > div > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)"
+          }
+        ]
+      },
+      {
+        "value": "linear-gradient(rgba(27, 51, 146, 0), rgb(27, 51, 146))",
+        "count": 2,
+        "uses": "stain-guide spinner fade masks (top/bottom of the stain list)",
+        "sources": [
+          {
+            "url": "https://tide.com/en-us",
+            "selector": "div > div:nth-of-type(7) > div > div > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)"
+          }
+        ]
+      }
+    ],
+    "patterns": [
+      {
+        "name": "color-block-bands",
+        "evidence": "full-bleed orange (#fb4c06) and navy (#1b3392) bands with white type: header search bar, article title band (43 pages), PLP feature bands, footer social band, home POWER PODS band"
+      },
+      {
+        "name": "pill-cta",
+        "evidence": "25px-radius solid buttons, 20px/700, padding 10px 30px — orange primary (31× at 1440), navy secondary (11×)"
+      },
+      {
+        "name": "hero-with-image",
+        "evidence": "home 2-slide hero carousel (Tide evo / Less Work, Better Clean*), collection heroes (5), section-landing photo hero with white box (9)"
+      },
+      {
+        "name": "card-grid",
+        "evidence": "article-preview cards with Learn More / Read More (12 pages preview-box, 6 related-articles rows)"
+      },
+      {
+        "name": "product-grid",
+        "evidence": "PLP product previews with star ratings + Find Retailers (15 pages)"
+      },
+      {
+        "name": "nav-mega",
+        "evidence": "Shop Products mega menu By Type / By Need / Top Collection (header-main-menu)"
+      },
+      {
+        "name": "footer-mega",
+        "evidence": "footer accordion columns Shop Products (By Type/By Need/Top Collection), How to Wash Clothes, Help & Support + related + legal rows"
+      },
+      {
+        "name": "accordion-faq",
+        "evidence": "expandable-content FAQ blocks (31 article pages)"
+      },
+      {
+        "name": "step-timeline",
+        "evidence": "guide-wrapper numbered steps with peach #ffb89c progress marks (7 pages)"
+      },
+      {
+        "name": "carousel",
+        "evidence": "react-multi-carousel (home promo, hero) + slick (related products)"
+      }
+    ]
+  },
+  "componentStyle": {
+    "buttons": {
+      "primary": {
+        "background": "#fb4c06",
+        "color": "#ffffff",
+        "borderRadius": "25px",
+        "padding": "10px 30px",
+        "fontSize": "20px",
+        "fontWeight": 700,
+        "textTransform": "none",
+        "shadow": null,
+        "hoverDelta": "background → rgb(226,68,5) (darken ~10%); 2 instances on home hover to navy rgb(24,46,131)",
+        "count1440": 31,
+        "source": {
+          "url": "https://tide.com/en-us/rewards",
+          "selector": "div > div > div > div:nth-of-type(1) > div > div:nth-of-type(2) > div > a:nth-of-type(2)"
+        }
+      },
+      "secondary": {
+        "background": "#1b3392",
+        "color": "#ffffff",
+        "borderRadius": "25px",
+        "padding": "10px 30px",
+        "fontSize": "20px",
+        "fontWeight": 700,
+        "shadow": null,
+        "hoverDelta": "background → rgb(24,46,131)",
+        "count1440": 11,
+        "source": {
+          "url": "https://tide.com/en-us/our-commitment/tide-boosted",
+          "selector": "div > div > div > div:nth-of-type(2) > div > div > p:nth-of-type(2) > a"
+        }
+      },
+      "chip": {
+        "background": "#ffffff",
+        "color": "#1b3392",
+        "border": "2px solid #7481b4",
+        "borderRadius": "25px",
+        "padding": "2px 10px",
+        "fontSize": "14px",
+        "fontWeight": 700,
+        "hoverDelta": "fills #1b3392, text white, border #1b3392",
+        "count1440": 14,
+        "source": {
+          "url": "https://tide.com/en-us/shop/special-needs/additives",
+          "selector": "div > div > div:nth-of-type(1) > div:nth-of-type(4) > div > div > div:nth-of-type(2) > a:nth-of-type(1)"
+        }
+      },
+      "backToTop": {
+        "background": "#1b3392",
+        "color": "#ffffff",
+        "borderRadius": "30px",
+        "padding": "20px",
+        "fontSize": "20px",
+        "fontWeight": 700,
+        "source": {
+          "url": "https://tide.com/en-us/how-to-wash-clothes/how-to-do-laundry",
+          "selector": "#site-content > div > div > div > div:nth-of-type(3) > button"
+        }
+      },
+      "skipLink": {
+        "background": "#1b3392",
+        "color": "#ffffff",
+        "borderRadius": "0px 0px 5px 5px",
+        "padding": "12px 8px",
+        "fontSize": "14px",
+        "source": {
+          "url": "https://tide.com/en-us/contact-us",
+          "selector": "#site-header > a"
+        }
+      }
+    },
+    "dualCTAPattern": null,
+    "links": {
+      "inline": "#1b3392 bold underline in rich text; unstyled #0000ee on some rich-text pages",
+      "promoCardLinkHover": "background rgb(240,240,240)",
+      "source": {
+        "url": "https://tide.com/en-us",
+        "selector": "#carousel__6hAqcV7X3l5WUsffgaBaik > div:nth-of-type(1) > div > ul:nth-of-type(1) > li:nth-of-type(1) > a"
+      }
+    },
+    "cards": {
+      "background": "#ffffff",
+      "borderRadius": "8px",
+      "padding": null,
+      "shadow": null,
+      "border": null,
+      "note": "article-preview / banner-card white boxes; related-article mobile divider 1px solid #e3e3e3",
+      "source": {
+        "url": "https://tide.com/en-us",
+        "selector": "div:nth-of-type(10) > div > div > div > div:nth-of-type(1) > div > div:nth-of-type(2) > div"
+      }
+    },
+    "inputs": {
+      "borderRadius": "12px",
+      "padding": null,
+      "border": null,
+      "focusRing": null,
+      "source": {
+        "url": "https://tide.com/en-us/contact-us",
+        "selector": "div:nth-of-type(2) > div > div > div > div > form > div > input"
+      }
+    },
+    "header": {
+      "topBar": {
+        "background": "#ffffff",
+        "color": "#13259c",
+        "fontSize": "12–14px",
+        "css": "#site-header .header-top-bar"
+      },
+      "searchBar": {
+        "background": "#fb4c06",
+        "css": "#site-header .header-search-bar"
+      },
+      "mainBar": {
+        "background": "#13259c",
+        "color": "#ffffff",
+        "css": ".header-main-bar"
+      },
+      "position": "fixed in base CSS (#site-header z-index 100); census measured position relative at 1440",
+      "height1440": "175px"
+    },
+    "breadcrumb": {
+      "color": "#1b3392",
+      "fontSize": "19px",
+      "lineHeight": "24px",
+      "separator": "\">\" ::after, 4px margins",
+      "lastItemWeight": 700,
+      "css": ".breadcrumbs-list-item (0x8blnfnms9hr.css @107124)"
+    },
+    "footer": {
+      "socialBand": {
+        "background": "#fb4c06",
+        "padding": "20px 0",
+        "css": ".site-footer .footer-social-links-wrapper"
+      },
+      "columnTitle": {
+        "color": "#fb4c06",
+        "fontSize": "24px ≥992 / 19px",
+        "fontWeight": 800,
+        "css": ".site-footer .expandable-content .expandable-content-header"
+      },
+      "paddingBottom": "120px ≥768"
+    }
+  },
+  "systemComponents": [
+    {
+      "name": "site-header",
+      "kind": "header",
+      "occurrences": 85,
+      "headingSequence": [],
+      "ctaLabels": [
+        "Skip to Content",
+        "Contact Us",
+        "US - English",
+        "Sign in",
+        "Shop Products",
+        "Our Commitment",
+        "How to Wash Clothes",
+        "What’s New",
+        "Coupons and Deals"
+      ],
+      "composition": [
+        "P&G family top bar (white; \"Part of the P&G Family\" + P&G/Downy/Bounce marks; Contact Us · US - English · Sign in)",
+        "orange search bar (#fb4c06): burger + Tide logo + search field",
+        "navy main nav (#13259c) with Shop Products mega menu (By Type / By Need / Top Collection)"
+      ],
+      "exampleSlug": "en-us",
+      "exampleSelector": "header#site-header",
+      "examplePages": [
+        "en-us-contact-us",
+        "en-us-how-to-do-laundry-better-clean-safer",
+        "en-us-how-to-do-laundry-detergent-residue-safety"
+      ],
+      "absentOn": "click2cart (8 widget pages render without #site-header)"
+    },
+    {
+      "name": "pg-family-top-bar",
+      "kind": "nav-secondary",
+      "occurrences": 85,
+      "headingSequence": [],
+      "ctaLabels": [
+        "Contact Us",
+        "US - English",
+        "Sign in"
+      ],
+      "exampleSlug": "en-us",
+      "exampleSelector": "#site-header .header-top-bar",
+      "examplePages": [
+        "en-us-contact-us",
+        "en-us-how-to-do-laundry-better-clean-safer",
+        "en-us-how-to-do-laundry-detergent-residue-safety"
+      ]
+    },
+    {
+      "name": "site-footer",
+      "kind": "footer",
+      "occurrences": 93,
+      "headingSequence": [
+        "Ways to connect with us:",
+        "Shop Products",
+        "By Type",
+        "By Need",
+        "Top Collection",
+        "How to Wash Clothes",
+        "Help & Support",
+        "Related:"
+      ],
+      "ctaLabels": [
+        "How to Remove Stains",
+        "How to Do Laundry",
+        "Washing Different Fabrics and Colors",
+        "Washing Machine 101",
+        "Contact Us",
+        "P&G Brands",
+        "MrClean",
+        "Downy",
+        "Bounce",
+        "P&G Everyday",
+        "Accessibility Statement",
+        "Terms & Conditions",
+        "Tide Rewards Terms and Conditions",
+        "Careers",
+        "Privacy",
+        "Consumer Health Data Privacy Policy",
+        "Your Privacy Choices",
+        "Sitemap"
+      ],
+      "composition": [
+        "orange social band (#fb4c06, Facebook/Twitter/Pinterest/YouTube)",
+        "white mega footer: orange 800-weight column titles, accordion on mobile",
+        "related brand links row",
+        "legal links + copyright + CCPA/badges"
+      ],
+      "exampleSlug": "en-us",
+      "exampleSelector": "footer#site-footer",
+      "examplePages": [
+        "en-us-click2cart-0060001",
+        "en-us-click2cart-006000b",
+        "en-us-click2cart-006000h"
+      ]
+    },
+    {
+      "name": "breadcrumb",
+      "kind": "breadcrumb",
+      "occurrences": 64,
+      "headingSequence": [],
+      "ctaLabels": [
+        "Home"
+      ],
+      "exampleSlug": "en-us-research-best-quality-detergent",
+      "exampleSelector": ".breadcrumbs",
+      "examplePages": [
+        "en-us-how-to-do-laundry-better-clean-safer",
+        "en-us-how-to-do-laundry-detergent-residue-safety",
+        "en-us-how-to-wash-clothes-effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry"
+      ]
+    },
+    {
+      "name": "sticky-jump-links",
+      "kind": "nav-secondary",
+      "occurrences": 49,
+      "headingSequence": [],
+      "ctaLabels": [
+        "(per-page numbered section anchors)"
+      ],
+      "exampleSlug": "en-us-research-best-quality-detergent",
+      "exampleSelector": ".anchor-navigation (#sticky-nav)",
+      "examplePages": [
+        "en-us-how-to-do-laundry-better-clean-safer",
+        "en-us-how-to-do-laundry-detergent-residue-safety",
+        "en-us-how-to-wash-clothes-effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry"
+      ]
+    },
+    {
+      "name": "share-block",
+      "kind": "other",
+      "occurrences": 47,
+      "headingSequence": [],
+      "ctaLabels": [
+        "Share on Facebook",
+        "Share on Twitter",
+        "Share on Pinterest",
+        "Share by Email",
+        "Print"
+      ],
+      "exampleSlug": "en-us-research-best-quality-detergent",
+      "exampleSelector": ".share-block .share-buttons",
+      "examplePages": [
+        "en-us-how-to-do-laundry-better-clean-safer",
+        "en-us-how-to-do-laundry-detergent-residue-safety",
+        "en-us-our-commitment-pva-in-tide-pods"
+      ]
+    },
+    {
+      "name": "faq-accordion",
+      "kind": "other",
+      "occurrences": 31,
+      "headingSequence": [
+        "Frequently Asked Questions"
+      ],
+      "ctaLabels": [
+        "(question labels)"
+      ],
+      "exampleSlug": "en-us-research-best-quality-detergent",
+      "exampleSelector": ".faqs.single-column-faq",
+      "examplePages": [
+        "en-us-how-to-do-laundry-better-clean-safer",
+        "en-us-how-to-do-laundry-detergent-residue-safety",
+        "en-us-how-to-wash-clothes-effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry"
+      ]
+    }
+  ],
+  "iconFont": {
+    "family": "revicons",
+    "localPath": null,
+    "sourceCss": "@font-face{font-family:revicons;src:url(../media/revicons.*.woff)…} (0zt2pzwsr7nl0.css, react-multi-carousel)",
+    "glyphCount": 2,
+    "glyphs": [
+      {
+        "class": "react-multiple-carousel__arrow--left",
+        "codepoint": "\\E824",
+        "name": "arrow-left"
+      },
+      {
+        "class": "react-multiple-carousel__arrow--right",
+        "codepoint": "\\E825",
+        "name": "arrow-right"
+      }
+    ],
+    "scope": "carousel arrows only (home, collection, turn-to-cold); font file not captured",
+    "alsoObserved": {
+      "family": "FontAwesome",
+      "scope": "click2cart SmartCommerce widget only (fa-close, fa-map-marker, fa-angle-right/down, fa-caret-up/down)",
+      "localPath": null
+    },
+    "source": "_computed-styles.json#aggregate.iconFont"
+  },
+  "voice": {
+    "heroHeadline": "new Tide evo",
+    "heroHeadlineSource": {
+      "url": "https://tide.com/en-us",
+      "selector": "div > div > div > div > div:nth-of-type(1) > div > div > h1:nth-of-type(1)",
+      "note": "rendered as two h1s: \"new Tide evo\" + \"6x concentrated layers\" (50px/400, #13259c)"
+    },
+    "heroSubcopy": "6x concentrated layers",
+    "heroImage": {
+      "url": "https://images.ctfassets.net/ajjw8wywicb3/2D4zSKHS0VgYoQ9dzylYWA/807e110c8d8a7b6fa06404d4c7270e25/Tide_EVO_enahncement_HP_hero_20260205_min1400px.jpg?fm=webp",
+      "alt": "",
+      "source": "img",
+      "domPath": "home hero carousel slide 1 (pages/en-us.json#slots.lead-image)",
+      "localPath": null,
+      "intrinsic": {
+        "width": 1920,
+        "height": 500
+      },
+      "rect": null
+    },
+    "heroMedium": null,
+    "heroMediumNote": "No video/iframe/canvas on home (media.videos/iframes empty); hero is a 2-slide image carousel.",
+    "primaryCTALabel": "try it now!",
+    "ctaSamples": [
+      "try it now!",
+      "Check it out!",
+      "Shop Collection",
+      "Learn More",
+      "Read More",
+      "Find Retailers",
+      "Browse other products",
+      "Shop The Collection"
+    ],
+    "navItems": [
+      "Shop Products",
+      "Our Commitment",
+      "How to Wash Clothes",
+      "What’s New",
+      "Coupons and Deals"
+    ],
+    "utilityItems": [
+      "Contact Us",
+      "US - English",
+      "Sign in"
+    ],
+    "footerHeadings": [
+      "Ways to connect with us:",
+      "Shop Products",
+      "By Type",
+      "By Need",
+      "Top Collection",
+      "How to Wash Clothes",
+      "Help & Support",
+      "Related:"
+    ],
+    "firstParagraph": "Life is messier. Washing machines are bigger. Bigger PODS® means a better clean in every load. Now there’s a Tide Power PODS® product for any mess.",
+    "firstParagraphSource": {
+      "url": "https://tide.com/en-us",
+      "selector": "div > div:nth-of-type(3) > div > div > div > div:nth-of-type(2) > div > p:nth-of-type(2)"
+    },
+    "representativeLinks": [
+      "How to Remove Stains",
+      "How to Do Laundry",
+      "Washing Different Fabrics and Colors",
+      "Washing Machine 101"
+    ],
+    "tone": {
+      "guess": "bold-direct",
+      "evidence": "short exclamatory CTAs (\"try it now!\", \"Check it out!\"), claim-led headlines (\"America’s #1 Detergent\", \"Less Work, Better Clean*\"), second-person how-to copy; research pages switch to a technical-precise register with citations"
+    }
+  },
+  "voiceTable": {
+    "ctaFrequency": [
+      {
+        "label": "Read More",
+        "pages": 21
+      },
+      {
+        "label": "Frequently Asked Questions",
+        "pages": 19
+      },
+      {
+        "label": "Browse other products",
+        "pages": 15
+      },
+      {
+        "label": "Learn More",
+        "pages": 11
+      },
+      {
+        "label": "Key takeaway",
+        "pages": 9
+      },
+      {
+        "label": "Find Retailers",
+        "pages": 8
+      },
+      {
+        "label": "Learn more",
+        "pages": 2
+      },
+      {
+        "label": "here",
+        "pages": 2
+      }
+    ],
+    "headingFrequency": [
+      {
+        "text": "Frequently Asked Questions",
+        "pages": 21
+      },
+      {
+        "text": "Key takeaway",
+        "pages": 9
+      },
+      {
+        "text": "Executive Summary:",
+        "pages": 6
+      },
+      {
+        "text": "References",
+        "pages": 6
+      },
+      {
+        "text": "FAQs",
+        "pages": 5
+      },
+      {
+        "text": "Key Highlights",
+        "pages": 4
+      },
+      {
+        "text": "Safety",
+        "pages": 4
+      },
+      {
+        "text": "Works in all:",
+        "pages": 4
+      },
+      {
+        "text": "The Most Important Ingredient in Tide® is Safety",
+        "pages": 3
+      }
+    ],
+    "toneMetrics": {
+      "headingsUppercasePercent": 0,
+      "distinctHeadings": 472,
+      "distinctCtaLabels": 803
+    },
+    "basis": "pages/*.json ctas[].label and headings[].text over 93 canonical pages; chrome labels (header/footer, ≥85 pages) excluded from ctaFrequency",
+    "chromeCtas": {
+      "header": 85,
+      "footer": 91
+    }
+  },
+  "crossPromo": {
+    "detected": false,
+    "note": "No interior-only repeated nav+CTA block; the footer \"How to Wash Clothes\" link list repeats on every page (part of site-footer)."
+  },
+  "register": "brand",
+  "registerBasis": "marketing hero carousel, claim headlines, product promotion, no auth required; PLPs carry filter/sort (product indicators) but are a minority (15/93)."
+}

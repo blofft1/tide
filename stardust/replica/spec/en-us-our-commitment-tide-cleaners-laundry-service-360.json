@@ -1,0 +1,340 @@
+{
+ "_provenance": {
+  "writtenBy": "skills/replica/scripts/source-spec.mjs",
+  "writtenAt": "2026-11-24T07:08:22.253Z",
+  "url": "https://tide.com/en-us/our-commitment/tide-cleaners-laundry-service",
+  "width": 360,
+  "main": "main",
+  "locale": "en-US"
+ },
+ "page": {
+  "url": "https://tide.com/en-us/our-commitment/tide-cleaners-laundry-service",
+  "width": 360,
+  "viewport": 360,
+  "docHeight": 7279,
+  "scrollWidth": 360,
+  "root": "main",
+  "rootFallback": false,
+  "records": [
+   "scroll",
+   "shape"
+  ],
+  "rootWrapsChrome": false,
+  "tier": "chrome"
+ },
+ "tokens": {
+  "fonts": [
+   {
+    "stack": "Tide, sans-serif",
+    "n": 63
+   }
+  ],
+  "loadedFaces": [
+   "Tide 400 normal",
+   "Tide 700 normal",
+   "Tide 800 normal"
+  ],
+  "textStyles": [
+   {
+    "key": "16/32 400 Tide",
+    "fontSize": 16,
+    "lineHeight": 32,
+    "fontWeight": "400",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 20,
+    "roles": {
+     "link": 18,
+     "div": 2
+    },
+    "sample": "How to Remove Stains"
+   },
+   {
+    "key": "16/20 400 Tide",
+    "fontSize": 16,
+    "lineHeight": 20,
+    "fontWeight": "400",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 12,
+    "roles": {
+     "p": 12
+    },
+    "sample": "Skip the laundry day. Tide Cleaners has it covered with convenient options that…"
+   },
+   {
+    "key": "22/26 800 Tide",
+    "fontSize": 22,
+    "lineHeight": 26,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 6,
+    "roles": {
+     "link": 3,
+     "p": 3
+    },
+    "sample": "Tide Cleaners"
+   },
+   {
+    "key": "20/22 700 Tide",
+    "fontSize": 20,
+    "lineHeight": 22,
+    "fontWeight": "700",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 6,
+    "roles": {
+     "link": 6
+    },
+    "sample": "Find a store near you!"
+   },
+   {
+    "key": "40/44 800 Tide",
+    "fontSize": 40,
+    "lineHeight": 44,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 4,
+    "roles": {
+     "h2": 4
+    },
+    "sample": "Clean & care has never been so convenient"
+   },
+   {
+    "key": "19/24 700 Tide",
+    "fontSize": 19,
+    "lineHeight": 24,
+    "fontWeight": "700",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 3,
+    "roles": {
+     "link": 2,
+     "span": 1
+    },
+    "sample": "Home"
+   },
+   {
+    "key": "19/20 700 Tide",
+    "fontSize": 19,
+    "lineHeight": 20,
+    "fontWeight": "700",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 3,
+    "roles": {
+     "p": 3
+    },
+    "sample": "Earn points & redeem rewards"
+   },
+   {
+    "key": "19/24 800 Tide",
+    "fontSize": 19,
+    "lineHeight": 24,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 3,
+    "roles": {
+     "button": 3
+    },
+    "sample": "By Type"
+   },
+   {
+    "key": "22/32 700 Tide",
+    "fontSize": 22,
+    "lineHeight": 32,
+    "fontWeight": "700",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 2,
+    "roles": {
+     "p": 2
+    },
+    "sample": "Tide is stepping beyond the laundry room to deliver expert cleaning and care se…"
+   },
+   {
+    "key": "22/32 800 Tide",
+    "fontSize": 22,
+    "lineHeight": 32,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "h1": 1
+    },
+    "sample": "America’s #1 brand in dry cleaning & laundry services"
+   },
+   {
+    "key": "19/20 900 Tide",
+    "fontSize": 19,
+    "lineHeight": 20,
+    "fontWeight": "900",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "p": 1
+    },
+    "sample": "Scan QR to download the app"
+   },
+   {
+    "key": "19/19 800 Tide",
+    "fontSize": 19,
+    "lineHeight": 19,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "span": 1
+    },
+    "sample": "Ways to connect with us:"
+   },
+   {
+    "key": "19/26.6 800 Tide",
+    "fontSize": 19,
+    "lineHeight": 26.6,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "span": 1
+    },
+    "sample": "Related:"
+   }
+  ],
+  "colours": [
+   {
+    "color": "rgb(19, 37, 156)",
+    "n": 20
+   },
+   {
+    "color": "rgb(251, 76, 6)",
+    "n": 15
+   },
+   {
+    "color": "rgb(27, 51, 146)",
+    "n": 15
+   },
+   {
+    "color": "rgb(255, 255, 255)",
+    "n": 13
+   }
+  ],
+  "container": {
+   "left": 15,
+   "right": 15,
+   "content": 330,
+   "leftCommon": {
+    "x": 15,
+    "n": 13
+   }
+  }
+ },
+ "truncated": {
+  "text": 0,
+  "image": 0
+ },
+ "sections": [
+  {"i":0,"region":"header","y":0,"h":61,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"header#site-header","firstText":""},
+  {"i":1,"region":"main","y":61,"h":74,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.breadcrumbs.container","firstText":"Home"},
+  {"i":2,"region":"main","y":135,"h":5429,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.dynamic-content-wrapper","firstText":"America’s #1 brand in dry cleaning & laundry services"},
+  {"i":3,"region":"footer","y":5619,"h":1660,"background":"none","paddingTop":0,"paddingBottom":50,"selectorHint":"footer#site-footer.site-footer","firstText":"Ways to connect with us:"}
+ ],
+ "nodes": [
+  {"section":0,"region":"header","kind":"image","tag":"img","role":"link","text":"Tide logo","x":157,"y":7,"w":47,"h":47,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[150,150],"src":"https://tide.com/images/brand_main_logo.svg","href":"/en-us","scroll":"fixed 0"},
+  {"section":0,"region":"header","kind":"image","tag":"svg","role":"button","text":"","x":310,"y":15,"w":30,"h":30,"fit":"fill","shape":{"pos":"50% 50%"},"scroll":"fixed 0"},
+  {"section":1,"region":"main","kind":"control","tag":"a","role":"link","text":"Home","x":15,"y":62,"w":57,"h":22,"fontFamily":"Tide","fontSize":19,"lineHeight":24,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us"},
+  {"section":1,"region":"main","kind":"control","tag":"a","role":"link","text":"Our Commitment","x":15,"y":62,"w":124,"h":47,"fontFamily":"Tide","fontSize":19,"lineHeight":24,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":2,"href":"/en-us/our-commitment"},
+  {"section":1,"region":"main","kind":"text","tag":"span","role":null,"text":"Introducing Tide Cleaners!","x":15,"y":87,"w":299,"h":47,"fontFamily":"Tide","fontSize":19,"lineHeight":24,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":2},
+  {"section":2,"region":"main","kind":"image","tag":"picture","role":null,"text":"Introducing Tide Cleaners! - Hero","x":0,"y":165,"w":360,"h":360,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[575,575],"src":"https://images.ctfassets.net/ajjw8wywicb3/7KGxcOFhdbqm7TFYN3q7vY/3c513cd1a5f35d079e22906946f70022/Tide_Cleaners_hero_20260521_default.jpg?fm=webp"},
+  {"section":2,"region":"main","kind":"image","tag":"picture","role":null,"text":"Tide Cleaners logo","x":40,"y":471,"w":260,"h":90,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[260,90],"src":"https://images.ctfassets.net/ajjw8wywicb3/2kaEsk6vTVBpZxBy82mVVF/83dbbf0fba9ce5bcc75a8d53c2e6f691/Tide_Cleaners_logo_20260522.png?fm=webp"},
+  {"section":2,"region":"main","kind":"text","tag":"h1","role":"h1","text":"America’s #1 brand in dry cleaning & laundry services","x":40,"y":576,"w":280,"h":96,"fontFamily":"Tide","fontSize":22,"lineHeight":32,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":3},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Find a store near you!","x":40,"y":719,"w":280,"h":42,"fontFamily":"Tide","fontSize":20,"lineHeight":22,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1,"href":"https://my.tidecleaners.com/locations"},
+  {"section":2,"region":"main","kind":"image","tag":"picture","role":null,"text":"Introducing Tide Cleaners!","x":15,"y":894,"w":330,"h":248,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[510,383],"src":"https://images.ctfassets.net/ajjw8wywicb3/6dlnjUY6nq0TMdxsYzPy0a/8f119244ef8c0dcee3f5196c9e2add26/Tide_Cleaners_cleaning_service_shop_20260505_default.jpg?fm=webp"},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Tide is stepping beyond the laundry room to deliver expert cleaning and care se…","x":15,"y":1141,"w":330,"h":320,"fontFamily":"Tide","fontSize":22,"lineHeight":32,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":10},
+  {"section":2,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Clean & care has never been so convenient","x":15,"y":1544,"w":330,"h":132,"fontFamily":"Tide","fontSize":40,"lineHeight":44,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":3},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Skip the laundry day. Tide Cleaners has it covered with convenient options that…","x":15,"y":1696,"w":330,"h":120,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":6},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Learn more","x":15,"y":1857,"w":330,"h":42,"fontFamily":"Tide","fontSize":20,"lineHeight":22,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1,"href":"https://tidecleaners.com/en-us"},
+  {"section":2,"region":"main","kind":"image","tag":"picture","role":null,"text":"Clean & care","x":15,"y":1944,"w":330,"h":248,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[576,432],"src":"https://images.ctfassets.net/ajjw8wywicb3/47ueECRqf3MhDgzC9d6A49/b0763287201ca03af2f921f2c6fb31d5/Tide_Cleaners_cleaning_service_lady_20260505_default.jpg?fm=webp"},
+  {"section":2,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Options that fit your lifestyle","x":15,"y":2267,"w":330,"h":88,"fontFamily":"Tide","fontSize":40,"lineHeight":44,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":2},
+  {"section":2,"region":"main","kind":"image","tag":"picture","role":null,"text":"Tide Cleaners","x":0,"y":2425,"w":360,"h":203,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[720,405],"src":"https://images.ctfassets.net/ajjw8wywicb3/4MeH50CRyDH9icOriZHfu7/289cf7373e41deeb16d3a6483fedf9d7/Tide_Cleaners_lifestyle_options_20260521_1_default.jpg?fm=webp"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Tide Cleaners","x":40,"y":2602,"w":280,"h":26,"fontFamily":"Tide","fontSize":22,"lineHeight":26,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1,"href":"https://tidecleaners.com/en-us/touchpoints/stores"},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Visit your local Tide Cleaners store for quick drop-off, expert care, and easy …","x":40,"y":2643,"w":280,"h":60,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":3},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Find a Store","x":40,"y":2718,"w":180,"h":42,"fontFamily":"Tide","fontSize":20,"lineHeight":22,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1,"href":"https://tidecleaners.com/en-us/touchpoints/stores"},
+  {"section":2,"region":"main","kind":"image","tag":"picture","role":null,"text":"Pickup & Delivery","x":0,"y":2815,"w":360,"h":203,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[720,405],"src":"https://images.ctfassets.net/ajjw8wywicb3/2SWVBlqS0UnGmx49NfB0Vl/cc0a4e4f26baeea0d2de93ea3f926986/Tide_Cleaners_lifestyle_options_20260521_2_default.jpg?fm=webp"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Pickup & Delivery","x":40,"y":2993,"w":280,"h":26,"fontFamily":"Tide","fontSize":22,"lineHeight":26,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1,"href":"https://my.tidecleaners.com/"},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Get clean clothes delivered right to your door with our pick-up and drop-off se…","x":40,"y":3034,"w":280,"h":60,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":3},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Check for Delivery","x":40,"y":3109,"w":243,"h":42,"fontFamily":"Tide","fontSize":20,"lineHeight":22,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1,"href":"https://my.tidecleaners.com/"},
+  {"section":2,"region":"main","kind":"image","tag":"picture","role":null,"text":"Tide Laundromat","x":0,"y":3206,"w":360,"h":203,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[720,405],"src":"https://images.ctfassets.net/ajjw8wywicb3/4QV9l0M9WQxISA65OdtUTx/4191530a4cf0b7deb5dd0ab64979212f/Tide_Cleaners_lifestyle_options_20260521_3_default.jpg?fm=webp"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Tide Laundromat","x":40,"y":3383,"w":280,"h":26,"fontFamily":"Tide","fontSize":22,"lineHeight":26,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1,"href":"https://www.tidelaundromat.com/en-us/"},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Laundry made simple with free Wi-Fi, seamless app payments, and modern amenitie…","x":40,"y":3424,"w":280,"h":60,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":3},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Learn More","x":40,"y":3499,"w":172,"h":42,"fontFamily":"Tide","fontSize":20,"lineHeight":22,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.tidelaundromat.com/en-us/"},
+  {"section":2,"region":"main","kind":"image","tag":"picture","role":null,"text":"Our breadth of services","x":15,"y":3651,"w":330,"h":165,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[576,288],"src":"https://images.ctfassets.net/ajjw8wywicb3/5GYIBHWP1ZE1faPsM53UzR/f0503d1cd93b9d80dc43e79303a6baae/Tide_Cleaners_breadth_of_services_20260521_default.jpg?fm=webp"},
+  {"section":2,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Our breadth of services handled with care","x":15,"y":3816,"w":330,"h":176,"fontFamily":"Tide","fontSize":40,"lineHeight":44,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":4},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Tide Cleaners offers a full range of services to help care for your favorite fa…","x":15,"y":4012,"w":330,"h":60,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":3},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"dry cleaning","x":34,"y":4086,"w":95,"h":20,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"collared shirt cleaning","x":34,"y":4106,"w":169,"h":20,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"wash and fold laundry","x":34,"y":4126,"w":172,"h":20,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"comforters","x":34,"y":4146,"w":86,"h":20,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"household items","x":34,"y":4166,"w":127,"h":20,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"outerwear","x":34,"y":4186,"w":80,"h":20,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Our team of Tide-trained experts performs a detailed 7-point inspection on ever…","x":15,"y":4222,"w":330,"h":120,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":6},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Book, track, and manage your cleaning all in the Tide Cleaners app","x":30,"y":4425,"w":300,"h":96,"fontFamily":"Tide","fontSize":22,"lineHeight":32,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":3},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Earn points & redeem rewards","x":49,"y":4535,"w":281,"h":40,"fontFamily":"Tide","fontSize":19,"lineHeight":20,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":2},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Schedule & track the progress of your order","x":49,"y":4575,"w":281,"h":40,"fontFamily":"Tide","fontSize":19,"lineHeight":20,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":2},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Pick-up and delivery right to your door","x":49,"y":4615,"w":281,"h":40,"fontFamily":"Tide","fontSize":19,"lineHeight":20,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":2},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Scan QR to download the app","x":61,"y":4685,"w":254,"h":40,"fontFamily":"Tide","fontSize":19,"lineHeight":20,"fontWeight":"900","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":2},
+  {"section":2,"region":"main","kind":"image","tag":"picture","role":null,"text":"QR code","x":60,"y":4755,"w":105,"h":105,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[400,400],"src":"https://images.ctfassets.net/ajjw8wywicb3/1P7LCGblVJhPxL3ji8MGzg/09a25b7e577752ed87dba04334e4ab3e/Tide_Cleaners_QR_code_20260506.png?fm=webp"},
+  {"section":2,"region":"main","kind":"image","tag":"picture","role":"link","text":"Google play","x":195,"y":4763,"w":105,"h":35,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[264,88],"src":"https://images.ctfassets.net/ajjw8wywicb3/2Es4tOLHewY1PPdaDq5xiv/2e2316585ba830a15e0a9bf26a204150/Tide_Cleaners_googleplay_20260506_.png?fm=webp","href":"https://play.google.com/store/apps/details?id=com.tidecleaners.virtualstore"},
+  {"section":2,"region":"main","kind":"image","tag":"picture","role":"link","text":"iphone","x":195,"y":4832,"w":105,"h":35,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[264,88],"src":"https://images.ctfassets.net/ajjw8wywicb3/5bDDMiewVPPwWIwnhezL3r/e4e5f665efa1895f7cf829688284d20e/Tide_Cleaners_applestore_20260506.png?fm=webp","href":"https://apps.apple.com/us/app/tide-cleaners-dry-cleaning/id6446326585"},
+  {"section":2,"region":"main","kind":"image","tag":"picture","role":null,"text":"Rated 4.9","x":120,"y":4897,"w":120,"h":120,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[374,374],"src":"https://images.ctfassets.net/ajjw8wywicb3/5CnlVtrlaRSZyVZPXJq62z/3e2653c60aee748fe8bb5a425e359e51/Tide_Cleaners_app_rating_20260520.png?fm=webp"},
+  {"section":2,"region":"main","kind":"image","tag":"picture","role":null,"text":"Book, track, and manage your cleaning","x":15,"y":5047,"w":330,"h":248,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[1380,1036],"src":"https://images.ctfassets.net/ajjw8wywicb3/1xwZFOnhwPXCcHaynRDXZw/8f00175297140a72fe0f6d4a8c926381/Tide_Cleaners_mobile_app_20260521_default.jpg?fm=webp"},
+  {"section":2,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Find a Tide Cleaners near you","x":15,"y":5330,"w":330,"h":132,"fontFamily":"Tide","fontSize":40,"lineHeight":44,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(251, 76, 6)","lines":3},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Find a location","x":15,"y":5507,"w":330,"h":42,"fontFamily":"Tide","fontSize":20,"lineHeight":22,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1,"href":"https://my.tidecleaners.com/locations"},
+  {"section":3,"region":"footer","kind":"text","tag":"span","role":null,"text":"Ways to connect with us:","x":15,"y":5639,"w":242,"h":19,"fontFamily":"Tide","fontSize":19,"lineHeight":19,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":3,"region":"footer","kind":"image","tag":"img","role":"link","text":"Facebook icon","x":15,"y":5678,"w":32,"h":32,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[32,32],"src":"https://tide.com/images/social_facebook.svg","href":"https://www.facebook.com/Tide?fref=ts"},
+  {"section":3,"region":"footer","kind":"image","tag":"img","role":"link","text":"Twitter icon","x":62,"y":5678,"w":32,"h":32,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[32,32],"src":"https://tide.com/images/social_twitter.svg","href":"https://twitter.com/tide"},
+  {"section":3,"region":"footer","kind":"image","tag":"img","role":"link","text":"Pinterest icon","x":109,"y":5678,"w":32,"h":32,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[32,32],"src":"https://tide.com/images/social_pinterest.svg","href":"https://www.pinterest.com/tide/"},
+  {"section":3,"region":"footer","kind":"image","tag":"img","role":"link","text":"YouTube icon","x":156,"y":5678,"w":32,"h":32,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[32,32],"src":"https://tide.com/images/social_youtube.svg","href":"https://www.youtube.com/channel/UCEPeWPjaF1CWCKXa3xTp7vw"},
+  {"section":3,"region":"footer","kind":"text","tag":"p","role":null,"text":"Shop Products","x":15,"y":5770,"w":330,"h":51,"fontFamily":"Tide","fontSize":22,"lineHeight":26,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1},
+  {"section":3,"region":"footer","kind":"control","tag":"div","role":"button","text":"By Type","x":15,"y":5863,"w":330,"h":24,"fontFamily":"Tide","fontSize":19,"lineHeight":24,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(251, 76, 6)","lines":1},
+  {"section":3,"region":"footer","kind":"image","tag":"svg","role":"button","text":"","x":310,"y":5871,"w":15,"h":8,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":3,"region":"footer","kind":"control","tag":"div","role":"button","text":"By Need","x":15,"y":5947,"w":330,"h":24,"fontFamily":"Tide","fontSize":19,"lineHeight":24,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(251, 76, 6)","lines":1},
+  {"section":3,"region":"footer","kind":"image","tag":"svg","role":"button","text":"","x":310,"y":5955,"w":15,"h":8,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":3,"region":"footer","kind":"control","tag":"div","role":"button","text":"Top Collection","x":15,"y":6031,"w":330,"h":24,"fontFamily":"Tide","fontSize":19,"lineHeight":24,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(251, 76, 6)","lines":1},
+  {"section":3,"region":"footer","kind":"image","tag":"svg","role":"button","text":"","x":310,"y":6039,"w":15,"h":8,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":3,"region":"footer","kind":"text","tag":"p","role":null,"text":"How to Wash Clothes","x":15,"y":6123,"w":330,"h":51,"fontFamily":"Tide","fontSize":22,"lineHeight":26,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"How to Remove Stains","x":15,"y":6191,"w":177,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"How to Do Laundry","x":15,"y":6223,"w":153,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-do-laundry"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Washing Different Fabrics and Colors","x":15,"y":6255,"w":289,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Washing Machine 101","x":15,"y":6287,"w":163,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/how-to-wash-clothes/washing-machine-101"},
+  {"section":3,"region":"footer","kind":"text","tag":"p","role":null,"text":"Help & Support","x":15,"y":6352,"w":330,"h":51,"fontFamily":"Tide","fontSize":22,"lineHeight":26,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Contact Us","x":15,"y":6420,"w":85,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/contact-us"},
+  {"section":3,"region":"footer","kind":"text","tag":"span","role":null,"text":"Related:","x":15,"y":6516,"w":81,"h":24,"fontFamily":"Tide","fontSize":19,"lineHeight":26.6,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"P&G Brands","x":15,"y":6549,"w":93,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"http://pg.com/en_US"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"MrClean","x":123,"y":6549,"w":64,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://www.mrclean.com/en-us"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Downy","x":202,"y":6549,"w":54,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"http://www.downy.com/en-us"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Bounce","x":271,"y":6549,"w":58,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"http://www.bouncefresh.com/"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"P&G Everyday","x":15,"y":6581,"w":110,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"http://www.pgeveryday.com/tag/tide"},
+  {"section":3,"region":"footer","kind":"image","tag":"picture","role":"link","text":"Good Housekeeping icon","x":18,"y":6651,"w":82,"h":62,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[82,62],"src":"https://tide.com/images/footer_GoodHousekeeping.webp","href":"http://www.goodhousekeeping.com/product-reviews/history/welcome-gh-seal"},
+  {"section":3,"region":"footer","kind":"image","tag":"picture","role":"link","text":"BBB icon","x":130,"y":6651,"w":38,"h":62,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[38,62],"src":"https://tide.com/images/footer_BBB.webp","href":"https://www.bbb.org/cincinnati/business-reviews/detergent/the-procter-gamble-company-in-cincinnati-oh-3036"},
+  {"section":3,"region":"footer","kind":"image","tag":"picture","role":"link","text":"Junk Food icon","x":198,"y":6651,"w":58,"h":62,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[58,62],"src":"https://tide.com/images/footer_JunkFood.webp","href":"http://www.junkfoodclothing.com/"},
+  {"section":3,"region":"footer","kind":"image","tag":"picture","role":"link","text":"Tide Cleaners icon","x":286,"y":6651,"w":56,"h":62,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[56,62],"src":"https://tide.com/images/footer_TideCleaners.webp","href":"https://www.tidecleaners.com/"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Accessibility Statement","x":15,"y":6770,"w":179,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://accessibility.pg.com/en-US"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Terms & Conditions","x":15,"y":6802,"w":150,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://termsandconditions.pg.com/en-us/"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Tide Rewards Terms and Conditions","x":15,"y":6834,"w":279,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/rewards/loyalty/terms-and-conditions"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Careers","x":15,"y":6866,"w":60,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://www.pgcareers.com/"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Privacy","x":90,"y":6866,"w":56,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://privacypolicy.pg.com/en-US/#statePrivacyNotice"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Consumer Health Data Privacy Policy","x":15,"y":6898,"w":287,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://privacypolicy.pg.com/CHD-en"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Your Privacy Choices","x":15,"y":6930,"w":187,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://preferencecenter.pg.com/"},
+  {"section":3,"region":"footer","kind":"text","tag":"div","role":null,"text":"NOTICE: We may sell your sensitive personal data.","x":15,"y":6955,"w":325,"h":64,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":2},
+  {"section":3,"region":"footer","kind":"text","tag":"div","role":null,"text":"© 2026 Procter & Gamble","x":15,"y":7115,"w":199,"h":32,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Sitemap","x":15,"y":7197,"w":64,"h":32,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/sitemap"}
+ ]
+}

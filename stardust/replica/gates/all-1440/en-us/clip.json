@@ -1,0 +1,77 @@
+{
+ "url": "https://main--5db7d055--aemcoder.aem.page/en-us",
+ "at": "2026-11-24T09:10:27.209Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 207,
+  "horizontal": 3,
+  "offPage": 0,
+  "textNodes": 307,
+  "controls": 67,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "n": 207,
+   "clipper": "div.sg-scroll",
+   "path": "div.sg-scroll > div.sg-lists > ul > li",
+   "text": "tough stains",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.hpc-viewport",
+   "path": "div.hpc-viewport > ul.hpc-track > li.hpc-item > a.hpc-card",
+   "text": "tide signs space act agreement with nasalearn more",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "a.hpc-card",
+   "path": "div.hpc-card-content > div.hpc-card-text > p > strong",
+   "text": "tide signs space act agreement with nasa",
+   "cutMin": 49,
+   "cutMax": 49
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "a.hpc-card",
+   "path": "a.hpc-card > div.hpc-card-content > div.hpc-card-cta > p",
+   "text": "learn more",
+   "cutMin": 0,
+   "cutMax": 0
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 1,
+   "textHidden": 0,
+   "controlHidden": 207,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 1,
+   "scrollHidden": 0,
+   "horizontal": 3,
+   "offPage": 0,
+   "textNodes": 307,
+   "controls": 283,
+   "total": 208
+  }
+ }
+}

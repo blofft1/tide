@@ -1,0 +1,157 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-us-research-tide-environment-safety/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-us-research-tide-environment-safety/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 3981,
+    "mode": "overlap"
+  },
+  "heightDelta": 20,
+  "differingPixels": 218247,
+  "pct": 3.81,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/en-us-research-tide-environment-safety/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 7.16,
+  "textBoxes": 122,
+  "textPixels": 1118282,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 5.7
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 10
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0.3
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 11.8
+    },
+    {
+      "y0": 3500,
+      "y1": 3981,
+      "pct": 2.6
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 2.56,
+    "differingPixels": 147337,
+    "compared": {
+      "width": 1440,
+      "height": 4002,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 3054,
+        "shift": -21,
+        "cumulative": -21
+      },
+      {
+        "y": 3826,
+        "shift": 1,
+        "cumulative": -20
+      }
+    ],
+    "maxOffset": 21,
+    "totalShift": 22,
+    "insertedRows": 1,
+    "deletedRows": 21,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 5.7,
+        "unaligned": 5.7
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 10,
+        "unaligned": 10
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0.3,
+        "unaligned": 0.3
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 4.2,
+        "unaligned": 11.8
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0.2,
+        "unaligned": null
+      },
+      {
+        "y0": 4000,
+        "y1": 4001,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/en-us-research-tide-environment-safety/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 40,
+    "totalShift": 22,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/tide-environment-safety"
+  }
+}

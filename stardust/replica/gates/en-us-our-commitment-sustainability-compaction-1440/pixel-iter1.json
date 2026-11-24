@@ -1,0 +1,131 @@
+{
+  "a": "stardust/replica/gates/en-us-our-commitment-sustainability-compaction-1440/live.png",
+  "b": "stardust/replica/gates/en-us-our-commitment-sustainability-compaction-1440/build.png",
+  "compared": {
+    "width": 1440,
+    "height": 3337,
+    "mode": "overlap"
+  },
+  "heightDelta": -1,
+  "differingPixels": 117025,
+  "pct": 2.44,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/en-us-our-commitment-sustainability-compaction-1440/diff-iter1.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 9.2
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 2.2
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 2.3
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0.9
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0.6
+    },
+    {
+      "y0": 3000,
+      "y1": 3337,
+      "pct": 1.5
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 1.37,
+    "differingPixels": 65823,
+    "compared": {
+      "width": 1440,
+      "height": 3338,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 946,
+        "shift": 1,
+        "cumulative": 1
+      }
+    ],
+    "maxOffset": 1,
+    "totalShift": 1,
+    "insertedRows": 1,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 9.1,
+        "unaligned": 9.2
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 2.2
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 2.3
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 0.9
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 0.6
+      },
+      {
+        "y0": 3000,
+        "y1": 3337,
+        "pct": 0,
+        "unaligned": 1.5
+      }
+    ],
+    "diff": "stardust/replica/gates/en-us-our-commitment-sustainability-compaction-1440/diff-iter1-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 8,
+    "totalShift": 1,
+    "pass": true
+  },
+  "reason": null
+}

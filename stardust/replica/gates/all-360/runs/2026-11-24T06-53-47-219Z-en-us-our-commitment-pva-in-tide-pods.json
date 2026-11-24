@@ -1,0 +1,463 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-24T06:53:47.217Z",
+    "stage": "published",
+    "breakpoint": 360,
+    "threshold": 10,
+    "offsetMax": "the larger of 8px and 1% of the origin height; roster tolerance: 5% of the origin height with no step over 200px",
+    "originReference": "frozen",
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "pixel criterion (aligned % ≤ 10 AND total offset ≤ the bound; alignment not used: unaligned % ≤ 10) AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://tide.com",
+    "eds": "https://main--5db7d055--aemcoder.aem.page",
+    "edsHostOverride": "https://main--5db7d055--aemcoder.aem.page",
+    "only": [
+      "en-us-our-commitment-pva-in-tide-pods",
+      "en-us-rewards-loyalty-terms-and-conditions",
+      "en-us-how-to-wash-clothes-how-to-do-laundry-about-tide-pods-pva-film"
+    ]
+  },
+  "totals": {
+    "pages": 3,
+    "pass": 3,
+    "pixelOnlyPass": 3,
+    "overridePass": 0,
+    "fail": 0,
+    "error": 0,
+    "probeErrors": 0,
+    "failPixel": 0,
+    "failHeight": 0,
+    "failClip": 0,
+    "failContent": 0,
+    "failUnits": 0,
+    "unitsNotDeclared": 2,
+    "unitsRecordedNotDeclared": 0,
+    "fontsNotLoaded": 0,
+    "fontsDeadOnSource": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "alignedOnlyPass": 3,
+    "failOffsets": 0,
+    "offsetsWithinTolerance": 2,
+    "referenceUnstable": 0,
+    "passWithOverrides": 3
+  },
+  "rows": [
+    {
+      "slug": "en-us-how-to-wash-clothes-how-to-do-laundry-about-tide-pods-pva-film",
+      "path": "/en-us/how-to-wash-clothes/how-to-do-laundry/about-tide-pods-pva-film",
+      "template": "article",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 13.85,
+      "textPct": 26.22,
+      "heightDelta": -34,
+      "originH": 10514,
+      "edsH": 10548,
+      "alignedPct": 3.87,
+      "alignedUsed": true,
+      "totalShift": 280,
+      "steps": [
+        {
+          "y": 229,
+          "shift": -25,
+          "cumulative": -25
+        },
+        {
+          "y": 2528,
+          "shift": 20,
+          "cumulative": -5
+        },
+        {
+          "y": 2723,
+          "shift": 11,
+          "cumulative": 6
+        },
+        {
+          "y": 2871,
+          "shift": 36,
+          "cumulative": 42
+        },
+        {
+          "y": 3139,
+          "shift": 5,
+          "cumulative": 47
+        },
+        {
+          "y": 3453,
+          "shift": 6,
+          "cumulative": 53
+        },
+        {
+          "y": 3734,
+          "shift": 5,
+          "cumulative": 58
+        },
+        {
+          "y": 3984,
+          "shift": 18,
+          "cumulative": 76
+        },
+        {
+          "y": 4211,
+          "shift": 18,
+          "cumulative": 94
+        },
+        {
+          "y": 4450,
+          "shift": 5,
+          "cumulative": 99
+        },
+        {
+          "y": 4687,
+          "shift": 11,
+          "cumulative": 110
+        },
+        {
+          "y": 5395,
+          "shift": 21,
+          "cumulative": 131
+        }
+      ],
+      "offsetBound": 105,
+      "offsetTolerance": 525,
+      "offsetJudge": "tolerance",
+      "offsetsWithinTolerance": true,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": true,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [
+        "offsets within the roster tolerance: 280px total, largest step 55px (strict bound 105px, tolerance 525px)"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 2,
+        "variable": []
+      },
+      "unitsDeclared": 1,
+      "unitsRecorded": null,
+      "units": {
+        "units": 2,
+        "within": 2,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-360/en-us-how-to-wash-clothes-how-to-do-laundry-about-tide-pods-pva-film",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "0-500:18.5%",
+        "500-1000:22.5%",
+        "1000-1500:19.2%",
+        "1500-2000:19.2%",
+        "5500-6000:17.7%",
+        "6500-7000:20.6%",
+        "7000-7500:22.5%",
+        "7500-8000:24.3%",
+        "8000-8500:22.5%",
+        "8500-9000:26.5%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "en-us-our-commitment-pva-in-tide-pods",
+      "path": "/en-us/our-commitment/pva-in-tide-pods",
+      "template": "article",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 10.76,
+      "textPct": 18.05,
+      "heightDelta": -176,
+      "originH": 10380,
+      "edsH": 10556,
+      "alignedPct": 2.55,
+      "alignedUsed": true,
+      "totalShift": 186,
+      "steps": [
+        {
+          "y": 708,
+          "shift": 1,
+          "cumulative": 1
+        },
+        {
+          "y": 1991,
+          "shift": -2,
+          "cumulative": -1
+        },
+        {
+          "y": 2625,
+          "shift": -2,
+          "cumulative": -3
+        },
+        {
+          "y": 3370,
+          "shift": 20,
+          "cumulative": 17
+        },
+        {
+          "y": 3573,
+          "shift": 10,
+          "cumulative": 27
+        },
+        {
+          "y": 3713,
+          "shift": 36,
+          "cumulative": 63
+        },
+        {
+          "y": 3981,
+          "shift": 6,
+          "cumulative": 69
+        },
+        {
+          "y": 4295,
+          "shift": 5,
+          "cumulative": 74
+        },
+        {
+          "y": 4576,
+          "shift": 5,
+          "cumulative": 79
+        },
+        {
+          "y": 4826,
+          "shift": 18,
+          "cumulative": 97
+        },
+        {
+          "y": 5053,
+          "shift": 18,
+          "cumulative": 115
+        },
+        {
+          "y": 5294,
+          "shift": 6,
+          "cumulative": 121
+        }
+      ],
+      "offsetBound": 104,
+      "offsetTolerance": 519,
+      "offsetJudge": "tolerance",
+      "offsetsWithinTolerance": true,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [
+        "offsets within the roster tolerance: 186px total, largest step 46px (strict bound 104px, tolerance 519px)",
+        "units: no family declared for this page — the repeated-unit check did not run"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 1,
+        "variable": []
+      },
+      "unitsDeclared": 0,
+      "unitsRecorded": null,
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-360/en-us-our-commitment-pva-in-tide-pods",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "6500-7000:20.9%",
+        "7000-7500:22.8%",
+        "7500-8000:23.3%",
+        "8000-8500:22.5%",
+        "8500-9000:44.9%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "en-us-rewards-loyalty-terms-and-conditions",
+      "path": "/en-us/rewards/loyalty/terms-and-conditions",
+      "template": "article",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 14.78,
+      "textPct": 20.8,
+      "heightDelta": 65,
+      "originH": 22684,
+      "edsH": 22619,
+      "alignedPct": 0.39,
+      "alignedUsed": true,
+      "totalShift": 65,
+      "steps": [
+        {
+          "y": 480,
+          "shift": -19,
+          "cumulative": -19
+        },
+        {
+          "y": 6092,
+          "shift": -4,
+          "cumulative": -23
+        },
+        {
+          "y": 6173,
+          "shift": -8,
+          "cumulative": -31
+        },
+        {
+          "y": 9848,
+          "shift": -3,
+          "cumulative": -34
+        },
+        {
+          "y": 20120,
+          "shift": -30,
+          "cumulative": -64
+        },
+        {
+          "y": 21951,
+          "shift": -1,
+          "cumulative": -65
+        }
+      ],
+      "offsetBound": 227,
+      "offsetTolerance": 1134,
+      "offsetJudge": "bound",
+      "offsetsWithinTolerance": false,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [
+        "units: no family declared for this page — the repeated-unit check did not run"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 1,
+        "variable": []
+      },
+      "unitsDeclared": 0,
+      "unitsRecorded": null,
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-360/en-us-rewards-loyalty-terms-and-conditions",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "2500-3000:16.2%",
+        "3000-3500:15.5%",
+        "3500-4000:18.1%",
+        "4000-4500:15.6%",
+        "4500-5000:15.3%",
+        "7000-7500:15.9%",
+        "9500-10000:16.1%",
+        "10000-10500:16.4%",
+        "11500-12000:17.7%",
+        "13000-13500:16.5%",
+        "13500-14000:19.6%",
+        "15000-15500:21%",
+        "16000-16500:18.4%",
+        "16500-17000:19.2%",
+        "17000-17500:15.7%",
+        "17500-18000:18.3%",
+        "18000-18500:22.8%",
+        "18500-19000:16.4%",
+        "19000-19500:19.1%",
+        "19500-20000:17.9%",
+        "21000-21500:21%"
+      ],
+      "error": null
+    }
+  ]
+}

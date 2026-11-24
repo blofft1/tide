@@ -1,0 +1,17 @@
+cap-probe  base 1440 → probe 2560 (from stardust/current/DESIGN.json)
+live   https://tide.com/en-us/shop/type/liquid
+  shell     1920px  max-width #page-wrapper  (tier -1, holds 100% of the text)
+  content   1170px  max-width div.tide-product-listing-page > div.row.justify-content-center > div.col-12 > div.container  (tier 4, holds 93% of the text)
+  modules  2 sections: capped 1170 ×1, 698 ×1 · full-bleed ×0
+  contentMaxWidth 1170px (content) · shellMaxWidth 1920px · root #site-content
+build  http://localhost:8791/en-us-shop-type-liquid-proposed.html
+  shell     1920px  max-width #page-wrapper  (tier -1, holds 100% of the text)
+  content   1170px  max-width #site-content > div.container.plp-top  (tier 1, holds 93% of the text)
+  modules  2 sections: capped 1170 ×1, 698 ×1 · full-bleed ×0
+  contentMaxWidth 1170px (content) · shellMaxWidth 1920px · root #site-content
+rows
+  ✓ wrapper cap: live 1170px = build 1170px (±20)
+  ⚠ outer shell: live 1920px (#page-wrapper) encloses the 1170px wrapper cap — informational, no content bound of its own
+  ✓ module 1/2: 698px = 698px
+  ✓ module 2/2: 1170px = 1170px
+cap-probe: PASS at 2560 — 0 of 4 rows failed (evidence stardust/replica/gates/en-us-shop-type-liquid-2560/cap-iter.json)

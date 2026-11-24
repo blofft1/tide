@@ -1,0 +1,460 @@
+{
+ "_provenance": {
+  "writtenBy": "skills/replica/scripts/source-spec.mjs",
+  "writtenAt": "2026-11-23T21:57:03.422Z",
+  "url": "https://tide.com/en-us/shop/type/liquid",
+  "width": 360,
+  "main": "main",
+  "locale": "en-US"
+ },
+ "page": {
+  "url": "https://tide.com/en-us/shop/type/liquid",
+  "width": 360,
+  "viewport": 360,
+  "docHeight": 6402,
+  "scrollWidth": 360,
+  "root": "main",
+  "rootFallback": false,
+  "records": [
+   "scroll",
+   "shape"
+  ],
+  "rootWrapsChrome": false,
+  "tier": "chrome"
+ },
+ "tokens": {
+  "fonts": [
+   {
+    "stack": "Tide, sans-serif",
+    "n": 72
+   }
+  ],
+  "loadedFaces": [
+   "Tide 400 normal",
+   "Tide 700 normal",
+   "Tide 800 normal"
+  ],
+  "textStyles": [
+   {
+    "key": "16/32 400 Tide",
+    "fontSize": 16,
+    "lineHeight": 32,
+    "fontWeight": "400",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 20,
+    "roles": {
+     "link": 18,
+     "div": 2
+    },
+    "sample": "How to Remove Stains"
+   },
+   {
+    "key": "16/20 400 Tide",
+    "fontSize": 16,
+    "lineHeight": 20,
+    "fontWeight": "400",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 11,
+    "roles": {
+     "link": 7,
+     "p": 4
+    },
+    "sample": "Tide Original Liquid Laundry Detergent"
+   },
+   {
+    "key": "22/26 800 Tide",
+    "fontSize": 22,
+    "lineHeight": 26,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 7,
+    "roles": {
+     "div": 1,
+     "p": 6
+    },
+    "sample": "20 Products"
+   },
+   {
+    "key": "18/22 700 Tide",
+    "fontSize": 18,
+    "lineHeight": 22,
+    "fontWeight": "700",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 7,
+    "roles": {
+     "button": 7
+    },
+    "sample": "Find Retailers"
+   },
+   {
+    "key": "14/19.6 400 Tide",
+    "fontSize": 14,
+    "lineHeight": 19.6,
+    "fontWeight": "400",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 7,
+    "roles": {
+     "span": 7
+    },
+    "sample": "(3206)"
+   },
+   {
+    "key": "26/30 800 Tide",
+    "fontSize": 26,
+    "lineHeight": 30,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 3,
+    "roles": {
+     "h4": 3
+    },
+    "sample": "Works in all washing machines"
+   },
+   {
+    "key": "19/24 800 Tide",
+    "fontSize": 19,
+    "lineHeight": 24,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 3,
+    "roles": {
+     "button": 3
+    },
+    "sample": "By Type"
+   },
+   {
+    "key": "32/36 800 Tide",
+    "fontSize": 32,
+    "lineHeight": 36,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 2,
+    "roles": {
+     "h3": 2
+    },
+    "sample": "Related articles"
+   },
+   {
+    "key": "20/22 700 Tide",
+    "fontSize": 20,
+    "lineHeight": 22,
+    "fontWeight": "700",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 2,
+    "roles": {
+     "button": 2
+    },
+    "sample": "Browse other products"
+   },
+   {
+    "key": "20/24 700 Tide",
+    "fontSize": 20,
+    "lineHeight": 24,
+    "fontWeight": "700",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 2,
+    "roles": {
+     "p": 2
+    },
+    "sample": "Whether you’re looking for a detergent that’s compatible with high-efficiency o…"
+   },
+   {
+    "key": "19/24 700 Tide",
+    "fontSize": 19,
+    "lineHeight": 24,
+    "fontWeight": "700",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 2,
+    "roles": {
+     "link": 1,
+     "span": 1
+    },
+    "sample": "Shop Products"
+   },
+   {
+    "key": "32/36 400 Tide",
+    "fontSize": 32,
+    "lineHeight": 36,
+    "fontWeight": "400",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "h1": 1
+    },
+    "sample": "Shop Tide Liquid Detergents"
+   },
+   {
+    "key": "19/24 400 Tide",
+    "fontSize": 19,
+    "lineHeight": 24,
+    "fontWeight": "400",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "span": 1
+    },
+    "sample": "Browse by Type"
+   },
+   {
+    "key": "19/19 800 Tide",
+    "fontSize": 19,
+    "lineHeight": 19,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "span": 1
+    },
+    "sample": "Ways to connect with us:"
+   },
+   {
+    "key": "19/26.6 800 Tide",
+    "fontSize": 19,
+    "lineHeight": 26.6,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "span": 1
+    },
+    "sample": "Related:"
+   },
+   {
+    "key": "14/26 800 Tide",
+    "fontSize": 14,
+    "lineHeight": 26,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "span": 1
+    },
+    "sample": "Sort by:"
+   },
+   {
+    "key": "14/26 700 Tide",
+    "fontSize": 14,
+    "lineHeight": 26,
+    "fontWeight": "700",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "field": 1
+    },
+    "sample": "Sort products by"
+   },
+   {
+    "key": "14/16 800 Tide",
+    "fontSize": 14,
+    "lineHeight": 16,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "span": 1
+    },
+    "sample": "Filter by Need"
+   }
+  ],
+  "colours": [
+   {
+    "color": "rgb(27, 51, 146)",
+    "n": 25
+   },
+   {
+    "color": "rgb(19, 37, 156)",
+    "n": 20
+   },
+   {
+    "color": "rgb(251, 76, 6)",
+    "n": 14
+   },
+   {
+    "color": "rgb(255, 255, 255)",
+    "n": 14
+   }
+  ],
+  "container": {
+   "left": 15,
+   "right": 10,
+   "content": 335,
+   "leftCommon": {
+    "x": 15,
+    "n": 14
+   }
+  }
+ },
+ "truncated": {
+  "text": 0,
+  "image": 0
+ },
+ "sections": [
+  {"i":0,"region":"header","y":0,"h":61,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"header#site-header","firstText":""},
+  {"i":1,"region":"main","y":61,"h":2607,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.container","firstText":"Shop Products"},
+  {"i":2,"region":"main","y":2668,"h":2024,"background":"none","paddingTop":15,"paddingBottom":0,"selectorHint":"div.dynamic-content-wrapper","firstText":"Why shop liquid detergent"},
+  {"i":3,"region":"footer","y":4742,"h":1660,"background":"none","paddingTop":0,"paddingBottom":50,"selectorHint":"footer#site-footer.site-footer","firstText":"Ways to connect with us:"}
+ ],
+ "nodes": [
+  {"section":0,"region":"header","kind":"image","tag":"img","role":"link","text":"Tide logo","x":157,"y":7,"w":47,"h":47,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[150,150],"src":"https://tide.com/images/brand_main_logo.svg","href":"/en-us","scroll":"fixed 0"},
+  {"section":0,"region":"header","kind":"image","tag":"svg","role":"button","text":"","x":310,"y":15,"w":30,"h":30,"fit":"fill","shape":{"pos":"50% 50%"},"scroll":"fixed 0"},
+  {"section":1,"region":"main","kind":"control","tag":"a","role":"link","text":"Shop Products","x":15,"y":92,"w":140,"h":22,"fontFamily":"Tide","fontSize":19,"lineHeight":24,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/shop"},
+  {"section":1,"region":"main","kind":"text","tag":"span","role":null,"text":"Browse by Type","x":15,"y":92,"w":258,"h":47,"fontFamily":"Tide","fontSize":19,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":2},
+  {"section":1,"region":"main","kind":"text","tag":"span","role":null,"text":"Liquid","x":80,"y":117,"w":58,"h":22,"fontFamily":"Tide","fontSize":19,"lineHeight":24,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":"h1","text":"Shop Tide Liquid Detergents","x":15,"y":180,"w":185,"h":108,"fontFamily":"Tide","fontSize":32,"lineHeight":36,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":3},
+  {"section":1,"region":"main","kind":"control","tag":"button","role":"button","text":"Browse other products","x":200,"y":180,"w":150,"h":108,"fontFamily":"Tide","fontSize":20,"lineHeight":22,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":3},
+  {"section":1,"region":"main","kind":"text","tag":"div","role":null,"text":"20 Products","x":15,"y":326,"w":165,"h":26,"fontFamily":"Tide","fontSize":22,"lineHeight":26,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"span","role":null,"text":"Sort by:","x":213,"y":317,"w":57,"h":18,"fontFamily":"Tide","fontSize":14,"lineHeight":26,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":1,"region":"main","kind":"control","tag":"select","role":"field","text":"Sort products by","x":213,"y":339,"w":132,"h":26,"fontFamily":"Tide","fontSize":14,"lineHeight":26,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":328,"y":347,"w":17,"h":10,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"text","tag":"span","role":null,"text":"Filter by Need","x":15,"y":396,"w":330,"h":24,"fontFamily":"Tide","fontSize":14,"lineHeight":16,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":"button","text":"Toggle filter bar","x":126,"y":396,"w":28,"h":24,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"image","tag":"picture","role":"link","text":"Bottle of Tide Original Scent Liquid Laundry Detergent","x":15,"y":446,"w":110,"h":110,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[520,520],"src":"https://images.ctfassets.net/ajjw8wywicb3/3JxyfNhiImABBGXoqOzyxZ/727f0742f3bd08f7a297ae0468cf4116/Tide_TheRock_EN-US_20250811_listing_520x520.png?fm=webp","href":"/en-us/shop/type/liquid/tide-original-liquid"},
+  {"section":1,"region":"main","kind":"control","tag":"a","role":"link","text":"Tide Original Liquid Laundry Detergent","x":125,"y":466,"w":220,"h":41,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":2,"href":"/en-us/shop/type/liquid/tide-original-liquid"},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":125,"y":518,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":142,"y":518,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":159,"y":518,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":176,"y":518,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":193,"y":518,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":193,"y":518,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"text","tag":"span","role":null,"text":"(3206)","x":218,"y":518,"w":45,"h":16,"fontFamily":"Tide","fontSize":14,"lineHeight":19.6,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":1,"region":"main","kind":"control","tag":"div","role":"button","text":"Find Retailers","x":89,"y":571,"w":182,"h":34,"fontFamily":"Tide","fontSize":18,"lineHeight":22,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":1,"region":"main","kind":"image","tag":"picture","role":"link","text":"Tide Free and Gentle Liquid Laundry Detergent - 92 ounces, color white","x":15,"y":646,"w":110,"h":110,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[520,520],"src":"https://images.ctfassets.net/ajjw8wywicb3/3rxXMAix2Rg3YaWgUU6oH3/53ce3379b9c23e90a99cce60bfc8fe42/Tide_Free_and_Gentle_HDL_LI_520x520_20260930.png?fm=webp","href":"/en-us/shop/type/liquid/tide-free-and-gentle-liquid"},
+  {"section":1,"region":"main","kind":"control","tag":"a","role":"link","text":"Tide Free and Gentle Liquid Laundry Detergent","x":125,"y":666,"w":220,"h":41,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":2,"href":"/en-us/shop/type/liquid/tide-free-and-gentle-liquid"},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":125,"y":718,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":142,"y":718,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":159,"y":718,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":176,"y":718,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":193,"y":718,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":193,"y":718,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"text","tag":"span","role":null,"text":"(1106)","x":218,"y":718,"w":39,"h":16,"fontFamily":"Tide","fontSize":14,"lineHeight":19.6,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":1,"region":"main","kind":"control","tag":"div","role":"button","text":"Find Retailers","x":89,"y":771,"w":182,"h":34,"fontFamily":"Tide","fontSize":18,"lineHeight":22,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":1,"region":"main","kind":"image","tag":"picture","role":"link","text":"Tide Ultra OXI High Efficiency Liquid Laundry Detergent","x":15,"y":846,"w":110,"h":110,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[520,520],"src":"https://images.ctfassets.net/ajjw8wywicb3/tNCllBSQwIsUH5lwMGNyB/b5df8bdced1863017188329840757302/003131-22_BigMamma_Oxi_Boost_EN-US_HDL_listing_520x520.png?fm=webp","href":"/en-us/shop/type/liquid/tide-ultra-oxi-he-liquid"},
+  {"section":1,"region":"main","kind":"control","tag":"a","role":"link","text":"Tide Ultra OXI Boost High Efficiency Liquid Laundry Detergent","x":125,"y":856,"w":220,"h":61,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":3,"href":"/en-us/shop/type/liquid/tide-ultra-oxi-he-liquid"},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":125,"y":928,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":142,"y":928,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":159,"y":928,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":176,"y":928,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":193,"y":928,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":193,"y":928,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"text","tag":"span","role":null,"text":"(452)","x":218,"y":928,"w":36,"h":16,"fontFamily":"Tide","fontSize":14,"lineHeight":19.6,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":1,"region":"main","kind":"control","tag":"div","role":"button","text":"Find Retailers","x":89,"y":971,"w":182,"h":34,"fontFamily":"Tide","fontSize":18,"lineHeight":22,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":1,"region":"main","kind":"image","tag":"picture","role":"link","text":"Tide Plus A Touch of Downy Liquid Laundry Detergent","x":15,"y":1046,"w":110,"h":110,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[520,520],"src":"https://images.ctfassets.net/ajjw8wywicb3/11SSWBxbj9qIn4Wcp2sz4s/16082664acb840fab45329ec05b6329f/_listing_520x520Tide_Downy_April_Fresh_US_HDL.jpg?fm=webp","href":"/en-us/shop/type/liquid/tide-plus-a-touch-of-downy-liquid"},
+  {"section":1,"region":"main","kind":"control","tag":"a","role":"link","text":"Tide Plus A Touch of Downy Liquid Laundry Detergent","x":125,"y":1066,"w":220,"h":41,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":2,"href":"/en-us/shop/type/liquid/tide-plus-a-touch-of-downy-liquid"},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":125,"y":1118,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":142,"y":1118,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":159,"y":1118,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":176,"y":1118,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":193,"y":1118,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":193,"y":1118,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"text","tag":"span","role":null,"text":"(271)","x":218,"y":1118,"w":32,"h":16,"fontFamily":"Tide","fontSize":14,"lineHeight":19.6,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":1,"region":"main","kind":"control","tag":"div","role":"button","text":"Find Retailers","x":89,"y":1171,"w":182,"h":34,"fontFamily":"Tide","fontSize":18,"lineHeight":22,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":1,"region":"main","kind":"image","tag":"picture","role":"link","text":"Tide Ultra OXI Liquid Laundry Detergent with Odor Eliminators - 69 ounces, colo…","x":15,"y":1246,"w":110,"h":110,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[520,520],"src":"https://images.ctfassets.net/ajjw8wywicb3/5ijbQgXfP9lCZiQVsO9Agg/4a0172051528b3d65f77b4e9c3f69c2a/003131-22_BigMamma_Odor_EN-US_HDL_listing_520x520.png?fm=webp","href":"/en-us/shop/type/liquid/tide-oxi-with-odor-eliminators"},
+  {"section":1,"region":"main","kind":"control","tag":"a","role":"link","text":"Tide Ultra OXI Liquid Laundry Detergent with Odor Eliminators","x":125,"y":1256,"w":220,"h":61,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":3,"href":"/en-us/shop/type/liquid/tide-oxi-with-odor-eliminators"},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":125,"y":1328,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":142,"y":1328,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":159,"y":1328,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":176,"y":1328,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":193,"y":1328,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":193,"y":1328,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"text","tag":"span","role":null,"text":"(370)","x":218,"y":1328,"w":36,"h":16,"fontFamily":"Tide","fontSize":14,"lineHeight":19.6,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":1,"region":"main","kind":"control","tag":"div","role":"button","text":"Find Retailers","x":89,"y":1371,"w":182,"h":34,"fontFamily":"Tide","fontSize":18,"lineHeight":22,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":1,"region":"main","kind":"image","tag":"picture","role":"link","text":"Tide Spring Meadow Liquid Detergent","x":15,"y":1446,"w":110,"h":110,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[520,520],"src":"https://images.ctfassets.net/ajjw8wywicb3/4T4o0hyAUrL1VXNEzQF4oE/d030f381a48d63e7bcd710f65bcb348b/Tide_Spring_Meadow_HDL_listing_520x520.png?fm=webp","href":"/en-us/shop/type/liquid/tide-spring-meadow-liquid"},
+  {"section":1,"region":"main","kind":"control","tag":"a","role":"link","text":"Tide Spring Meadow Liquid Laundry Detergent","x":125,"y":1466,"w":220,"h":41,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":2,"href":"/en-us/shop/type/liquid/tide-spring-meadow-liquid"},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":125,"y":1518,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":142,"y":1518,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":159,"y":1518,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":176,"y":1518,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":193,"y":1518,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":193,"y":1518,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"text","tag":"span","role":null,"text":"(149)","x":218,"y":1518,"w":33,"h":16,"fontFamily":"Tide","fontSize":14,"lineHeight":19.6,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":1,"region":"main","kind":"control","tag":"div","role":"button","text":"Find Retailers","x":89,"y":1571,"w":182,"h":34,"fontFamily":"Tide","fontSize":18,"lineHeight":22,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":1,"region":"main","kind":"image","tag":"picture","role":"link","text":"Tide Simply Clean and Fresh Liquid Laundry Detergent Refreshing Breeze - 25 oun…","x":15,"y":1646,"w":110,"h":110,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[520,520],"src":"https://images.ctfassets.net/ajjw8wywicb3/GvE2YpoaQpKWFqo8c0KOk/c4b73e83b5490856a4a478ddd94209af/Tide_Simply_All_in_One_RB_EN-US_20250520_listing_520x520.png?fm=webp","href":"/en-us/shop/type/liquid/tide-simply-all-in-one-refreshing-breeze"},
+  {"section":1,"region":"main","kind":"control","tag":"a","role":"link","text":"Tide Simply All-In-One Liquid Laundry Detergent, Refreshing Breeze","x":125,"y":1655,"w":220,"h":62,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":3,"href":"/en-us/shop/type/liquid/tide-simply-all-in-one-refreshing-breeze"},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":125,"y":1728,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":142,"y":1728,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":159,"y":1728,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":176,"y":1728,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":176,"y":1728,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":193,"y":1728,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":1,"region":"main","kind":"text","tag":"span","role":null,"text":"(322)","x":218,"y":1728,"w":35,"h":16,"fontFamily":"Tide","fontSize":14,"lineHeight":19.6,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":1,"region":"main","kind":"control","tag":"div","role":"button","text":"Find Retailers","x":89,"y":1771,"w":182,"h":34,"fontFamily":"Tide","fontSize":18,"lineHeight":22,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":1,"region":"main","kind":"control","tag":"button","role":"button","text":"Load more products","x":15,"y":1896,"w":330,"h":42,"fontFamily":"Tide","fontSize":20,"lineHeight":22,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Related articles","x":15,"y":2038,"w":330,"h":36,"fontFamily":"Tide","fontSize":32,"lineHeight":36,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"How Does HE Turbo Work?","x":15,"y":2104,"w":305,"h":26,"fontFamily":"Tide","fontSize":22,"lineHeight":26,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"Do you want to know how HE turbo works to improve your laundry experience? Visi…","x":15,"y":2145,"w":305,"h":100,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":5},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":"link","text":"","x":330,"y":2178,"w":11,"h":19,"fit":"fill","shape":{"pos":"50% 50%"},"href":"/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-an-he-washer/how-does-he-turbo-work"},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"How Much Laundry Detergent to Use","x":15,"y":2296,"w":305,"h":52,"fontFamily":"Tide","fontSize":22,"lineHeight":26,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":2},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"Ever seen white residues on your clothes after washing and thought... “I’ve use…","x":15,"y":2363,"w":305,"h":80,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":4},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":"link","text":"","x":330,"y":2373,"w":11,"h":19,"fit":"fill","shape":{"pos":"50% 50%"},"href":"/en-us/how-to-wash-clothes/how-to-do-laundry/how-much-detergent-to-use"},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"Unlock the Power of Tide PODS®: How They Work & Their Key Benefits","x":15,"y":2494,"w":305,"h":78,"fontFamily":"Tide","fontSize":22,"lineHeight":26,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":3},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"Tide PODS® give you everything you need for a worry-free clean in easy-to-handl…","x":15,"y":2587,"w":305,"h":60,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":3},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":"link","text":"","x":330,"y":2574,"w":11,"h":19,"fit":"fill","shape":{"pos":"50% 50%"},"href":"/en-us/our-commitment/americas-number-one-detergent/our-products/laundry-pacs/how-tide-pods-work"},
+  {"section":2,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Why shop liquid detergent","x":15,"y":2708,"w":330,"h":72,"fontFamily":"Tide","fontSize":32,"lineHeight":36,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":2},
+  {"section":2,"region":"main","kind":"image","tag":"picture","role":null,"text":"Washing machine in operation","x":15,"y":2835,"w":330,"h":645,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[700,1369],"src":"https://images.ctfassets.net/ajjw8wywicb3/6XxgXBNj4QxtJ8Hx45zi1S/3b3aef15fa41a9e6f206b2242c8bc578/Tide_Features_Machine_Care_SP_700x1369_img.jpg?fm=webp"},
+  {"section":2,"region":"main","kind":"text","tag":"h4","role":"h4","text":"Works in all washing machines","x":50,"y":2875,"w":260,"h":60,"fontFamily":"Tide","fontSize":26,"lineHeight":30,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":2},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Whether you’re looking for a detergent that’s compatible with high-efficiency o…","x":50,"y":2945,"w":260,"h":144,"fontFamily":"Tide","fontSize":20,"lineHeight":24,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":6},
+  {"section":2,"region":"main","kind":"image","tag":"picture","role":null,"text":"A person pouring Tide liquid detergent into the detergent dispenser","x":15,"y":3510,"w":330,"h":645,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[700,1369],"src":"https://images.ctfassets.net/ajjw8wywicb3/3SzyrtDMJuwMZoD3Rabrj7/9ff6eaf426d64d580f028b04ead242be/Tide_Features_Liquid_SP_700x1369_img.jpg?fm=webp"},
+  {"section":2,"region":"main","kind":"text","tag":"h4","role":"h4","text":"A varied range of detergents","x":50,"y":3550,"w":260,"h":60,"fontFamily":"Tide","fontSize":26,"lineHeight":30,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":2},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Tide liquid detergents can provide stain removal, whitening, or even the fresh …","x":50,"y":3620,"w":260,"h":120,"fontFamily":"Tide","fontSize":20,"lineHeight":24,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":5},
+  {"section":2,"region":"main","kind":"image","tag":"picture","role":null,"text":"A pile of neatly folded, colorful clothes","x":15,"y":4186,"w":330,"h":506,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[700,1073],"src":"https://images.ctfassets.net/ajjw8wywicb3/6TN6DPibT4w9SEpYjoJ5sh/e0d080f01e0cf015dc2ae98c36b5e980/Tide_Features_colorful_clothes_SP_700x1073_white_202211231433.jpg?fm=webp"},
+  {"section":2,"region":"main","kind":"text","tag":"h4","role":"h4","text":"Powerful liquid laundry detergent","x":50,"y":4226,"w":260,"h":60,"fontFamily":"Tide","fontSize":26,"lineHeight":30,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":2},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Tide liquid laundry detergent gives you the results you want.","x":50,"y":4296,"w":260,"h":40,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":2},
+  {"section":3,"region":"footer","kind":"text","tag":"span","role":null,"text":"Ways to connect with us:","x":15,"y":4762,"w":242,"h":19,"fontFamily":"Tide","fontSize":19,"lineHeight":19,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":3,"region":"footer","kind":"image","tag":"img","role":"link","text":"Facebook icon","x":15,"y":4801,"w":32,"h":32,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[32,32],"src":"https://tide.com/images/social_facebook.svg","href":"https://www.facebook.com/Tide?fref=ts"},
+  {"section":3,"region":"footer","kind":"image","tag":"img","role":"link","text":"Twitter icon","x":62,"y":4801,"w":32,"h":32,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[32,32],"src":"https://tide.com/images/social_twitter.svg","href":"https://twitter.com/tide"},
+  {"section":3,"region":"footer","kind":"image","tag":"img","role":"link","text":"Pinterest icon","x":109,"y":4801,"w":32,"h":32,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[32,32],"src":"https://tide.com/images/social_pinterest.svg","href":"https://www.pinterest.com/tide/"},
+  {"section":3,"region":"footer","kind":"image","tag":"img","role":"link","text":"YouTube icon","x":156,"y":4801,"w":32,"h":32,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[32,32],"src":"https://tide.com/images/social_youtube.svg","href":"https://www.youtube.com/channel/UCEPeWPjaF1CWCKXa3xTp7vw"},
+  {"section":3,"region":"footer","kind":"text","tag":"p","role":null,"text":"Shop Products","x":15,"y":4893,"w":330,"h":51,"fontFamily":"Tide","fontSize":22,"lineHeight":26,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1},
+  {"section":3,"region":"footer","kind":"control","tag":"div","role":"button","text":"By Type","x":15,"y":4986,"w":330,"h":24,"fontFamily":"Tide","fontSize":19,"lineHeight":24,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(251, 76, 6)","lines":1},
+  {"section":3,"region":"footer","kind":"image","tag":"svg","role":"button","text":"","x":310,"y":4994,"w":15,"h":8,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":3,"region":"footer","kind":"control","tag":"div","role":"button","text":"By Need","x":15,"y":5070,"w":330,"h":24,"fontFamily":"Tide","fontSize":19,"lineHeight":24,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(251, 76, 6)","lines":1},
+  {"section":3,"region":"footer","kind":"image","tag":"svg","role":"button","text":"","x":310,"y":5078,"w":15,"h":8,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":3,"region":"footer","kind":"control","tag":"div","role":"button","text":"Top Collection","x":15,"y":5154,"w":330,"h":24,"fontFamily":"Tide","fontSize":19,"lineHeight":24,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(251, 76, 6)","lines":1},
+  {"section":3,"region":"footer","kind":"image","tag":"svg","role":"button","text":"","x":310,"y":5162,"w":15,"h":8,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":3,"region":"footer","kind":"text","tag":"p","role":null,"text":"How to Wash Clothes","x":15,"y":5246,"w":330,"h":51,"fontFamily":"Tide","fontSize":22,"lineHeight":26,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"How to Remove Stains","x":15,"y":5314,"w":177,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"How to Do Laundry","x":15,"y":5346,"w":153,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-do-laundry"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Washing Different Fabrics and Colors","x":15,"y":5378,"w":289,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Washing Machine 101","x":15,"y":5410,"w":163,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/how-to-wash-clothes/washing-machine-101"},
+  {"section":3,"region":"footer","kind":"text","tag":"p","role":null,"text":"Help & Support","x":15,"y":5475,"w":330,"h":51,"fontFamily":"Tide","fontSize":22,"lineHeight":26,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Contact Us","x":15,"y":5543,"w":85,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/contact-us"},
+  {"section":3,"region":"footer","kind":"text","tag":"span","role":null,"text":"Related:","x":15,"y":5639,"w":81,"h":24,"fontFamily":"Tide","fontSize":19,"lineHeight":26.6,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"P&G Brands","x":15,"y":5671,"w":93,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"http://pg.com/en_US"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"MrClean","x":123,"y":5671,"w":64,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://www.mrclean.com/en-us"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Downy","x":202,"y":5671,"w":54,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"http://www.downy.com/en-us"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Bounce","x":271,"y":5671,"w":58,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"http://www.bouncefresh.com/"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"P&G Everyday","x":15,"y":5703,"w":110,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"http://www.pgeveryday.com/tag/tide"},
+  {"section":3,"region":"footer","kind":"image","tag":"picture","role":"link","text":"Good Housekeeping icon","x":18,"y":5773,"w":82,"h":62,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[82,62],"src":"https://tide.com/images/footer_GoodHousekeeping.webp","href":"http://www.goodhousekeeping.com/product-reviews/history/welcome-gh-seal"},
+  {"section":3,"region":"footer","kind":"image","tag":"picture","role":"link","text":"BBB icon","x":130,"y":5773,"w":38,"h":62,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[38,62],"src":"https://tide.com/images/footer_BBB.webp","href":"https://www.bbb.org/cincinnati/business-reviews/detergent/the-procter-gamble-company-in-cincinnati-oh-3036"},
+  {"section":3,"region":"footer","kind":"image","tag":"picture","role":"link","text":"Junk Food icon","x":198,"y":5773,"w":58,"h":62,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[58,62],"src":"https://tide.com/images/footer_JunkFood.webp","href":"http://www.junkfoodclothing.com/"},
+  {"section":3,"region":"footer","kind":"image","tag":"picture","role":"link","text":"Tide Cleaners icon","x":286,"y":5773,"w":56,"h":62,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[56,62],"src":"https://tide.com/images/footer_TideCleaners.webp","href":"https://www.tidecleaners.com/"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Accessibility Statement","x":15,"y":5893,"w":179,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://accessibility.pg.com/en-US"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Terms & Conditions","x":15,"y":5925,"w":150,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://termsandconditions.pg.com/en-us/"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Tide Rewards Terms and Conditions","x":15,"y":5957,"w":279,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/rewards/loyalty/terms-and-conditions"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Careers","x":15,"y":5989,"w":60,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://www.pgcareers.com/"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Privacy","x":90,"y":5989,"w":56,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://privacypolicy.pg.com/en-US/#statePrivacyNotice"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Consumer Health Data Privacy Policy","x":15,"y":6021,"w":287,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://privacypolicy.pg.com/CHD-en"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Your Privacy Choices","x":15,"y":6053,"w":187,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://preferencecenter.pg.com/"},
+  {"section":3,"region":"footer","kind":"text","tag":"div","role":null,"text":"NOTICE: We may sell your sensitive personal data.","x":15,"y":6078,"w":325,"h":64,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":2},
+  {"section":3,"region":"footer","kind":"text","tag":"div","role":null,"text":"© 2026 Procter & Gamble","x":15,"y":6238,"w":199,"h":32,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Sitemap","x":15,"y":6320,"w":64,"h":32,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/sitemap"}
+ ]
+}

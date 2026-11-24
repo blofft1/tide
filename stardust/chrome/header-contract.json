@@ -1,0 +1,2666 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://tide.com/en-us",
+ "at": "2026-11-23T19:37:06.161Z",
+ "shots": "stardust/.work/chrome/header-contract",
+ "widths": {
+  "390": {
+   "root": "#site-header",
+   "controls": [
+    {
+     "name": "navigation menu",
+     "key": "navigation menu",
+     "role": "toggle",
+     "kind": "drawer",
+     "sel": "#site-header>div:nth-of-type(2)>div>div>button",
+     "expanded": "false",
+     "rect": [
+      20,
+      18,
+      30,
+      26
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "What’s New",
+          "href": "https://tide.com/en-us/latest-news"
+         },
+         {
+          "text": "Contact Us",
+          "href": "https://tide.com/en-us/contact-us"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Shop Products",
+         "Our Commitment",
+         "How to Wash Clothes",
+         "Coupons and Deals",
+         "Select Location",
+         "Sign in"
+        ],
+        "options": 0,
+        "rect": [
+         15,
+         81,
+         360,
+         538
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "top",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "span"
+        },
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "span"
+        },
+        {
+         "kind": "transition",
+         "prop": "left",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "span"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "span"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "nav.mobile-menu-container"
+        },
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "header"
+        }
+       ],
+       "shot": "390-001-navigation-menu-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "What’s New",
+          "href": "https://tide.com/en-us/latest-news"
+         },
+         {
+          "text": "Contact Us",
+          "href": "https://tide.com/en-us/contact-us"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Shop Products",
+         "Our Commitment",
+         "How to Wash Clothes",
+         "Coupons and Deals",
+         "Select Location",
+         "Sign in"
+        ],
+        "options": 0,
+        "rect": [
+         15,
+         81,
+         360,
+         538
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "top",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "span"
+        },
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "span"
+        },
+        {
+         "kind": "transition",
+         "prop": "left",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "span"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "span"
+        },
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "header"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "nav.mobile-menu-container"
+        }
+       ],
+       "shot": "390-002-navigation-menu-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": null,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Shop Products",
+       "key": "shop products",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#mobile-nav-menu>ul>li:nth-of-type(1)>button",
+       "expanded": "false",
+       "rect": [
+        15,
+        81,
+        118,
+        64
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Shop Products",
+           "By Type",
+           "By Need",
+           "Top Collection"
+          ],
+          "options": 0,
+          "rect": [
+           15,
+           100,
+           140,
+           231
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "li.mobile-submenu-wrapper"
+          }
+         ],
+         "shot": "390-003-Shop-Products-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Shop Products",
+           "By Type",
+           "By Need",
+           "Top Collection"
+          ],
+          "options": 0,
+          "rect": [
+           15,
+           100,
+           140,
+           231
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "li.mobile-submenu-wrapper"
+          }
+         ],
+         "shot": "390-004-Shop-Products-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": [
+        {
+         "name": "Shop Products",
+         "key": "shop products",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#mobile-nav-menu>ul>li:nth-of-type(2)>div>button",
+         "expanded": null,
+         "rect": [
+          15,
+          100,
+          140,
+          24
+         ],
+         "actions": {
+          "click": {
+           "opened": false,
+           "hides": 4
+          },
+          "key": {
+           "opened": false,
+           "hides": 4
+          }
+         }
+        },
+        {
+         "name": "By Type",
+         "key": "by type",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#mobile-nav-menu>ul>li:nth-of-type(2)>div>ul>li:nth-of-type(1)>button",
+         "expanded": "false",
+         "rect": [
+          15,
+          139,
+          63,
+          64
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Pacs",
+              "href": "https://tide.com/en-us/shop/type/laundry-pods"
+             },
+             {
+              "text": "Liquid",
+              "href": "https://tide.com/en-us/shop/type/liquid"
+             },
+             {
+              "text": "Powder",
+              "href": "https://tide.com/en-us/shop/type/powder"
+             },
+             {
+              "text": "Stain Remover",
+              "href": "https://tide.com/en-us/shop/type/stain-remover"
+             },
+             {
+              "text": "Laundry Booster",
+              "href": "https://tide.com/en-us/shop/type/laundry-booster"
+             },
+             {
+              "text": "Fabric Care",
+              "href": "https://tide.com/en-us/shop/type/fabric-care"
+             },
+             {
+              "text": "Fabric Rinse",
+              "href": "https://tide.com/en-us/shop/type/fabric-rinse"
+             },
+             {
+              "text": "Laundry Tiles",
+              "href": "https://tide.com/en-us/shop/type/laundry-tiles"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "By Type"
+            ],
+            "options": 0,
+            "rect": [
+             15,
+             100,
+             129,
+             551
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "transform",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "li.mobile-submenu-wrapper"
+            }
+           ],
+           "shot": "390-005-By-Type-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Pacs",
+              "href": "https://tide.com/en-us/shop/type/laundry-pods"
+             },
+             {
+              "text": "Liquid",
+              "href": "https://tide.com/en-us/shop/type/liquid"
+             },
+             {
+              "text": "Powder",
+              "href": "https://tide.com/en-us/shop/type/powder"
+             },
+             {
+              "text": "Stain Remover",
+              "href": "https://tide.com/en-us/shop/type/stain-remover"
+             },
+             {
+              "text": "Laundry Booster",
+              "href": "https://tide.com/en-us/shop/type/laundry-booster"
+             },
+             {
+              "text": "Fabric Care",
+              "href": "https://tide.com/en-us/shop/type/fabric-care"
+             },
+             {
+              "text": "Fabric Rinse",
+              "href": "https://tide.com/en-us/shop/type/fabric-rinse"
+             },
+             {
+              "text": "Laundry Tiles",
+              "href": "https://tide.com/en-us/shop/type/laundry-tiles"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "By Type"
+            ],
+            "options": 0,
+            "rect": [
+             15,
+             100,
+             129,
+             551
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "transform",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "li.mobile-submenu-wrapper"
+            }
+           ],
+           "shot": "390-006-By-Type-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": true,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": true
+         },
+         "children": [
+          {
+           "name": "By Type",
+           "key": "by type",
+           "role": "toggle",
+           "kind": "menu",
+           "sel": "#mobile-nav-menu>ul>li:nth-of-type(2)>div>ul>li:nth-of-type(2)>div>button",
+           "expanded": null,
+           "rect": [
+            15,
+            100,
+            86,
+            24
+           ],
+           "actions": {
+            "click": {
+             "opened": false,
+             "hides": 9
+            },
+            "key": {
+             "opened": false,
+             "hides": 9
+            }
+           }
+          }
+         ]
+        },
+        {
+         "name": "By Need",
+         "key": "by need",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#mobile-nav-menu>ul>li:nth-of-type(2)>div>ul>li:nth-of-type(3)>button",
+         "expanded": "false",
+         "rect": [
+          15,
+          203,
+          67,
+          64
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Stain Removal",
+              "href": "https://tide.com/en-us/shop/special-needs/stain-removal"
+             },
+             {
+              "text": "Odor Removal",
+              "href": "https://tide.com/en-us/shop/special-needs/odor-removal"
+             },
+             {
+              "text": "Freshness/Scent",
+              "href": "https://tide.com/en-us/shop/special-needs/freshness"
+             },
+             {
+              "text": "Whiteness",
+              "href": "https://tide.com/en-us/shop/special-needs/whiteness"
+             },
+             {
+              "text": "Bright Colors",
+              "href": "https://tide.com/en-us/shop/special-needs/bright-colors"
+             },
+             {
+              "text": "Sensitive",
+              "href": "https://tide.com/en-us/shop/special-needs/sensitive"
+             },
+             {
+              "text": "Additives",
+              "href": "https://tide.com/en-us/shop/special-needs/additives"
+             },
+             {
+              "text": "Deep Clean",
+              "href": "https://tide.com/en-us/shop/special-needs/deep-clean"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "By Need"
+            ],
+            "options": 0,
+            "rect": [
+             15,
+             100,
+             131,
+             551
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "transform",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "li.mobile-submenu-wrapper"
+            }
+           ],
+           "shot": "390-007-By-Need-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Stain Removal",
+              "href": "https://tide.com/en-us/shop/special-needs/stain-removal"
+             },
+             {
+              "text": "Odor Removal",
+              "href": "https://tide.com/en-us/shop/special-needs/odor-removal"
+             },
+             {
+              "text": "Freshness/Scent",
+              "href": "https://tide.com/en-us/shop/special-needs/freshness"
+             },
+             {
+              "text": "Whiteness",
+              "href": "https://tide.com/en-us/shop/special-needs/whiteness"
+             },
+             {
+              "text": "Bright Colors",
+              "href": "https://tide.com/en-us/shop/special-needs/bright-colors"
+             },
+             {
+              "text": "Sensitive",
+              "href": "https://tide.com/en-us/shop/special-needs/sensitive"
+             },
+             {
+              "text": "Additives",
+              "href": "https://tide.com/en-us/shop/special-needs/additives"
+             },
+             {
+              "text": "Deep Clean",
+              "href": "https://tide.com/en-us/shop/special-needs/deep-clean"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "By Need"
+            ],
+            "options": 0,
+            "rect": [
+             15,
+             100,
+             131,
+             551
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "transform",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "li.mobile-submenu-wrapper"
+            }
+           ],
+           "shot": "390-008-By-Need-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": true,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": true
+         },
+         "children": [
+          {
+           "name": "By Need",
+           "key": "by need",
+           "role": "toggle",
+           "kind": "menu",
+           "sel": "#mobile-nav-menu>ul>li:nth-of-type(2)>div>ul>li:nth-of-type(4)>div>button",
+           "expanded": null,
+           "rect": [
+            15,
+            100,
+            89,
+            24
+           ],
+           "actions": {
+            "click": {
+             "opened": false,
+             "hides": 9
+            },
+            "key": {
+             "opened": false,
+             "hides": 9
+            }
+           }
+          }
+         ]
+        },
+        {
+         "name": "Top Collection",
+         "key": "top collection",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#mobile-nav-menu>ul>li:nth-of-type(2)>div>ul>li:nth-of-type(5)>button",
+         "expanded": "false",
+         "rect": [
+          15,
+          267,
+          111,
+          64
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Tide Free & Gentle",
+              "href": "https://tide.com/en-us/shop/top-collections/tide-free-and-gentle"
+             },
+             {
+              "text": "Tide Plus Febreze",
+              "href": "https://tide.com/en-us/shop/top-collections/tide-plus-febreze"
+             },
+             {
+              "text": "Tide Simply",
+              "href": "https://tide.com/en-us/shop/top-collections/tide-simply"
+             },
+             {
+              "text": "Tide Plus Downy",
+              "href": "https://tide.com/en-us/shop/top-collections/tide-plus-downy"
+             },
+             {
+              "text": "Tide Ultra OXI",
+              "href": "https://tide.com/en-us/shop/top-collections/tide-ultra-oxi"
+             },
+             {
+              "text": "Tide POWER PODS®",
+              "href": "https://tide.com/en-us/shop/top-collections/tide-power-pods"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Top Collection"
+            ],
+            "options": 0,
+            "rect": [
+             15,
+             100,
+             158,
+             423
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "transform",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "li.mobile-submenu-wrapper"
+            }
+           ],
+           "shot": "390-009-Top-Collection-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [
+             {
+              "text": "Tide Free & Gentle",
+              "href": "https://tide.com/en-us/shop/top-collections/tide-free-and-gentle"
+             },
+             {
+              "text": "Tide Plus Febreze",
+              "href": "https://tide.com/en-us/shop/top-collections/tide-plus-febreze"
+             },
+             {
+              "text": "Tide Simply",
+              "href": "https://tide.com/en-us/shop/top-collections/tide-simply"
+             },
+             {
+              "text": "Tide Plus Downy",
+              "href": "https://tide.com/en-us/shop/top-collections/tide-plus-downy"
+             },
+             {
+              "text": "Tide Ultra OXI",
+              "href": "https://tide.com/en-us/shop/top-collections/tide-ultra-oxi"
+             },
+             {
+              "text": "Tide POWER PODS®",
+              "href": "https://tide.com/en-us/shop/top-collections/tide-power-pods"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Top Collection"
+            ],
+            "options": 0,
+            "rect": [
+             15,
+             100,
+             158,
+             423
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "transform",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "li.mobile-submenu-wrapper"
+            }
+           ],
+           "shot": "390-010-Top-Collection-key.png",
+           "tabReachesPanel": false
+          }
+         },
+         "close": {
+          "escape": true,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": true
+         },
+         "children": [
+          {
+           "name": "Top Collection",
+           "key": "top collection",
+           "role": "toggle",
+           "kind": "menu",
+           "sel": "#mobile-nav-menu>ul>li:nth-of-type(2)>div>ul>li:nth-of-type(6)>div>button",
+           "expanded": null,
+           "rect": [
+            15,
+            100,
+            135,
+            24
+           ],
+           "actions": {
+            "click": {
+             "opened": false,
+             "hides": 7
+            },
+            "key": {
+             "opened": false,
+             "hides": 7
+            }
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Our Commitment",
+       "key": "our commitment",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#mobile-nav-menu>ul>li:nth-of-type(3)>button",
+       "expanded": "false",
+       "rect": [
+        15,
+        145,
+        139,
+        64
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Tide Coming Clean",
+            "href": "https://tide.com/en-us/our-commitment/superbowlLX"
+           },
+           {
+            "text": "Tide Boosted",
+            "href": "https://tide.com/en-us/our-commitment/tide-boosted"
+           },
+           {
+            "text": "Turn to Cold",
+            "href": "https://tide.com/en-us/our-commitment/turn-to-cold"
+           },
+           {
+            "text": "Tide evo",
+            "href": "https://tide.com/en-us/our-commitment/tide-evo"
+           },
+           {
+            "text": "Don’t Pay for Water, Pay for Clean",
+            "href": "https://tide.com/en-us/our-commitment/dont-pay-for-water"
+           },
+           {
+            "text": "Tide in Space",
+            "href": "https://tide.com/en-us/our-commitment/tide-in-space"
+           },
+           {
+            "text": "America’s #1 Detergent",
+            "href": "https://tide.com/en-us/our-commitment/americas-number-one-detergent"
+           },
+           {
+            "text": "Loads of Hope",
+            "href": "https://tide.com/en-us/our-commitment/loads-of-hope"
+           },
+           {
+            "text": "Ingredients and Safety",
+            "href": "https://tide.com/en-us/our-commitment/ingredients-and-safety"
+           },
+           {
+            "text": "Tide Cleaners",
+            "href": "https://tide.com/en-us/our-commitment/tide-cleaners-laundry-service"
+           },
+           {
+            "text": "Sustainability",
+            "href": "https://tide.com/en-us/our-commitment/sustainability"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Our Commitment"
+          ],
+          "options": 0,
+          "rect": [
+           15,
+           100,
+           264,
+           743
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "li.mobile-submenu-wrapper"
+          }
+         ],
+         "shot": "390-011-Our-Commitment-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Tide Coming Clean",
+            "href": "https://tide.com/en-us/our-commitment/superbowlLX"
+           },
+           {
+            "text": "Tide Boosted",
+            "href": "https://tide.com/en-us/our-commitment/tide-boosted"
+           },
+           {
+            "text": "Turn to Cold",
+            "href": "https://tide.com/en-us/our-commitment/turn-to-cold"
+           },
+           {
+            "text": "Tide evo",
+            "href": "https://tide.com/en-us/our-commitment/tide-evo"
+           },
+           {
+            "text": "Don’t Pay for Water, Pay for Clean",
+            "href": "https://tide.com/en-us/our-commitment/dont-pay-for-water"
+           },
+           {
+            "text": "Tide in Space",
+            "href": "https://tide.com/en-us/our-commitment/tide-in-space"
+           },
+           {
+            "text": "America’s #1 Detergent",
+            "href": "https://tide.com/en-us/our-commitment/americas-number-one-detergent"
+           },
+           {
+            "text": "Loads of Hope",
+            "href": "https://tide.com/en-us/our-commitment/loads-of-hope"
+           },
+           {
+            "text": "Ingredients and Safety",
+            "href": "https://tide.com/en-us/our-commitment/ingredients-and-safety"
+           },
+           {
+            "text": "Tide Cleaners",
+            "href": "https://tide.com/en-us/our-commitment/tide-cleaners-laundry-service"
+           },
+           {
+            "text": "Sustainability",
+            "href": "https://tide.com/en-us/our-commitment/sustainability"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Our Commitment"
+          ],
+          "options": 0,
+          "rect": [
+           15,
+           100,
+           264,
+           743
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "li.mobile-submenu-wrapper"
+          }
+         ],
+         "shot": "390-012-Our-Commitment-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": [
+        {
+         "name": "Our Commitment",
+         "key": "our commitment",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#mobile-nav-menu>ul>li:nth-of-type(4)>div>button",
+         "expanded": null,
+         "rect": [
+          15,
+          100,
+          161,
+          24
+         ],
+         "actions": {
+          "click": {
+           "opened": false,
+           "hides": 12
+          },
+          "key": {
+           "opened": false,
+           "hides": 12
+          }
+         }
+        }
+       ]
+      },
+      {
+       "name": "How to Wash Clothes",
+       "key": "how to wash clothes",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#mobile-nav-menu>ul>li:nth-of-type(5)>button",
+       "expanded": "false",
+       "rect": [
+        15,
+        209,
+        171,
+        64
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "How to Remove Stains",
+            "href": "https://tide.com/en-us/how-to-wash-clothes/how-to-remove-stains"
+           },
+           {
+            "text": "How to Do Laundry",
+            "href": "https://tide.com/en-us/how-to-wash-clothes/how-to-do-laundry"
+           },
+           {
+            "text": "Washing Different Fabrics and Colors",
+            "href": "https://tide.com/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors"
+           },
+           {
+            "text": "Washing Machine 101",
+            "href": "https://tide.com/en-us/how-to-wash-clothes/washing-machine-101"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "How to Wash Clothes"
+          ],
+          "options": 0,
+          "rect": [
+           15,
+           100,
+           289,
+           295
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "li.mobile-submenu-wrapper"
+          }
+         ],
+         "shot": "390-013-How-to-Wash-Clothes-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "How to Remove Stains",
+            "href": "https://tide.com/en-us/how-to-wash-clothes/how-to-remove-stains"
+           },
+           {
+            "text": "How to Do Laundry",
+            "href": "https://tide.com/en-us/how-to-wash-clothes/how-to-do-laundry"
+           },
+           {
+            "text": "Washing Different Fabrics and Colors",
+            "href": "https://tide.com/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors"
+           },
+           {
+            "text": "Washing Machine 101",
+            "href": "https://tide.com/en-us/how-to-wash-clothes/washing-machine-101"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "How to Wash Clothes"
+          ],
+          "options": 0,
+          "rect": [
+           15,
+           100,
+           289,
+           295
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "li.mobile-submenu-wrapper"
+          }
+         ],
+         "shot": "390-014-How-to-Wash-Clothes-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": [
+        {
+         "name": "How to Wash Clothes",
+         "key": "how to wash clothes",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#mobile-nav-menu>ul>li:nth-of-type(6)>div>button",
+         "expanded": null,
+         "rect": [
+          15,
+          100,
+          193,
+          24
+         ],
+         "actions": {
+          "click": {
+           "opened": false,
+           "hides": 5
+          },
+          "key": {
+           "opened": false,
+           "hides": 5
+          }
+         }
+        }
+       ]
+      },
+      {
+       "name": "Coupons and Deals",
+       "key": "coupons and deals",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#mobile-nav-menu>ul>li:nth-of-type(8)>button",
+       "expanded": "false",
+       "rect": [
+        15,
+        337,
+        153,
+        64
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Coupons and Rewards",
+            "href": "https://tide.com/en-us/rewards"
+           },
+           {
+            "text": "Laundry Deals",
+            "href": "https://jebbit.tide.com/wljshvha?L=Full+Page&JC=TideNAV"
+           },
+           {
+            "text": "Laundry Tips",
+            "href": "https://tide.com/en-us/rewards/laundrytips"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Coupons and Deals"
+          ],
+          "options": 0,
+          "rect": [
+           15,
+           100,
+           176,
+           231
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "li.mobile-submenu-wrapper"
+          }
+         ],
+         "shot": "390-015-Coupons-and-Deals-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Coupons and Rewards",
+            "href": "https://tide.com/en-us/rewards"
+           },
+           {
+            "text": "Laundry Deals",
+            "href": "https://jebbit.tide.com/wljshvha?L=Full+Page&JC=TideNAV"
+           },
+           {
+            "text": "Laundry Tips",
+            "href": "https://tide.com/en-us/rewards/laundrytips"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Coupons and Deals"
+          ],
+          "options": 0,
+          "rect": [
+           15,
+           100,
+           176,
+           231
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "li.mobile-submenu-wrapper"
+          }
+         ],
+         "shot": "390-016-Coupons-and-Deals-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": false
+       },
+       "children": [
+        {
+         "name": "Coupons and Deals",
+         "key": "coupons and deals",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#mobile-nav-menu>ul>li:nth-of-type(9)>div>button",
+         "expanded": null,
+         "rect": [
+          15,
+          100,
+          175,
+          24
+         ],
+         "actions": {
+          "click": {
+           "opened": false,
+           "hides": 4
+          },
+          "key": {
+           "opened": false,
+           "hides": 4
+          }
+         }
+        }
+       ]
+      },
+      {
+       "name": "Select Location",
+       "key": "select location",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#mobile-nav-menu>button",
+       "expanded": null,
+       "rect": [
+        15,
+        536,
+        119,
+        24
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "US - English",
+            "href": "https://tide.com/"
+           },
+           {
+            "text": "US - Spanish",
+            "href": "https://tide.com/es-us"
+           },
+           {
+            "text": "Canada - English",
+            "href": "https://tide.ca/"
+           },
+           {
+            "text": "Canada - French",
+            "href": "https://tide.ca/fr-ca"
+           }
+          ],
+          "headings": [
+           "Please select a location"
+          ],
+          "images": 4,
+          "inputs": [],
+          "buttons": [
+           "Please select a location"
+          ],
+          "options": 0,
+          "rect": [
+           15,
+           100,
+           360,
+           209
+          ]
+         },
+         "expanded": null,
+         "focus": "panel",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.mobile-location-selection-wrapper"
+          }
+         ],
+         "shot": "390-017-Select-Location-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "US - English",
+            "href": "https://tide.com/"
+           },
+           {
+            "text": "US - Spanish",
+            "href": "https://tide.com/es-us"
+           },
+           {
+            "text": "Canada - English",
+            "href": "https://tide.ca/"
+           },
+           {
+            "text": "Canada - French",
+            "href": "https://tide.ca/fr-ca"
+           }
+          ],
+          "headings": [
+           "Please select a location"
+          ],
+          "images": 4,
+          "inputs": [],
+          "buttons": [
+           "Please select a location"
+          ],
+          "options": 0,
+          "rect": [
+           15,
+           100,
+           360,
+           209
+          ]
+         },
+         "expanded": null,
+         "focus": "panel",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.mobile-location-selection-wrapper"
+          }
+         ],
+         "shot": "390-018-Select-Location-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": false
+       },
+       "children": [
+        {
+         "name": "Please select a location",
+         "key": "please select a location",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#mobile-nav-menu>div>div>button",
+         "expanded": null,
+         "rect": [
+          15,
+          100,
+          261,
+          24
+         ],
+         "actions": {
+          "click": {
+           "opened": false,
+           "hides": 10
+          },
+          "key": {
+           "opened": false,
+           "hides": 10
+          }
+         }
+        }
+       ]
+      },
+      {
+       "name": "Sign in",
+       "key": "sign in",
+       "role": "toggle",
+       "kind": "account",
+       "sel": "#mobile-nav-menu>span>button",
+       "expanded": null,
+       "rect": [
+        46,
+        606,
+        39,
+        14
+       ],
+       "actions": {
+        "click": {
+         "opened": false,
+         "navigates": "https://account.tide.com/authorize?client_id=b2MTTG6IJK8QMuyZULybAmhQhxSBJoHI&scope=openid+profile+email&redirect_uri=https%3A%2F%2Ftide.com%2Fen-us%2Frewards%2Fprofile&audience=CGW&response_type=code&response_mode=query&state=RmZQY29tYzg0clI1amRyM0RsSmsxa1R2dmJYclJHbU5kaV9FaHkuQy1tSQ%3D%3D&nonce=ZHFydmtUNmF6OVVOWG1kLU9WOUhrWEFlV3d2eEdjUm5tczhFVmlLT0dsaw%3D%3D&code_challenge=v4ZesqYBOaqRGw_9D8D9bOAoBV6YgmJRRT3AKPQ8BXw&code_challenge_method=S256&auth0Client=eyJuYW1lIjoiYXV0aDAtcmVhY3QiLCJ2ZXJzaW9uIjoiMi41LjAifQ%3D%3D"
+        },
+        "key": {
+         "opened": false,
+         "navigates": "https://account.tide.com/authorize?client_id=b2MTTG6IJK8QMuyZULybAmhQhxSBJoHI&scope=openid+profile+email&redirect_uri=https%3A%2F%2Ftide.com%2Fen-us%2Frewards%2Fprofile&audience=CGW&response_type=code&response_mode=query&state=NHpJazhRYjJyUzYzbmZYSS1lZGZVSkphcUJRa294ZDhYSFZybElSN35WeA%3D%3D&nonce=TXdnazlUYWJsTkQydUdacUpUTDlYdW0wcWNpc05peW1iNzY0WkJYOWpONw%3D%3D&code_challenge=ZVLQOLCeAS3xNyhfHMyNKDxWkr9cvMeaxf2YD3KOppI&code_challenge_method=S256&auth0Client=eyJuYW1lIjoiYXV0aDAtcmVhY3QiLCJ2ZXJzaW9uIjoiMi41LjAifQ%3D%3D"
+        }
+       }
+      }
+     ]
+    },
+    {
+     "name": "Tide logo",
+     "key": "tide logo",
+     "role": "link",
+     "kind": "link",
+     "sel": "#site-header>div:nth-of-type(2)>div>div>div>a",
+     "href": "https://tide.com/en-us",
+     "expanded": null,
+     "rect": [
+      172,
+      7,
+      47,
+      47
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Submit Search",
+     "key": "submit search",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "#site-header>div:nth-of-type(2)>div>div>div>div>form>div>button",
+     "expanded": null,
+     "rect": [
+      340,
+      15,
+      30,
+      33
+     ],
+     "actions": {
+      "click": {
+       "opened": false,
+       "navigates": "https://tide.com/en-us/search?q="
+      },
+      "key": {
+       "opened": false,
+       "navigates": "https://tide.com/en-us/search?q="
+      }
+     }
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 61,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 0,
+     "height": 61,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 61,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 61,
+     "position": "fixed",
+     "inView": true
+    }
+   ],
+   "states": 18,
+   "truncated": null,
+   "loads": 6,
+   "requests": 278,
+   "maxRequests": 1600,
+   "inputsSkipped": 0,
+   "watch": {
+    "status": "not-triggered"
+   }
+  },
+  "1440": {
+   "root": "#site-header",
+   "controls": [
+    {
+     "name": "P&G icon",
+     "key": "pg icon",
+     "role": "link",
+     "kind": "link",
+     "sel": "#site-header>div:nth-of-type(1)>div>div>div>div:nth-of-type(1)>div>a:nth-of-type(1)",
+     "href": "https://us.pg.com/",
+     "expanded": null,
+     "rect": [
+      364,
+      3,
+      32,
+      47
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Downy icon",
+     "key": "downy icon",
+     "role": "link",
+     "kind": "link",
+     "sel": "#site-header>div:nth-of-type(1)>div>div>div>div:nth-of-type(1)>div>a:nth-of-type(2)",
+     "href": "https://downy.com/en-us",
+     "expanded": null,
+     "rect": [
+      411,
+      3,
+      43,
+      47
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Bounce icon",
+     "key": "bounce icon",
+     "role": "link",
+     "kind": "link",
+     "sel": "#site-header>div:nth-of-type(1)>div>div>div>div:nth-of-type(1)>div>a:nth-of-type(3)",
+     "href": "https://www.bouncefresh.com/en-us",
+     "expanded": null,
+     "rect": [
+      469,
+      3,
+      47,
+      47
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Contact Us",
+     "key": "contact us",
+     "role": "link",
+     "kind": "link",
+     "sel": "#site-header>div:nth-of-type(1)>div>div>div>div:nth-of-type(2)>a",
+     "href": "https://tide.com/en-us/contact-us",
+     "expanded": null,
+     "rect": [
+      954,
+      16,
+      64,
+      17
+     ],
+     "actions": {}
+    },
+    {
+     "name": "US - English",
+     "key": "us english",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#site-header>div:nth-of-type(1)>div>div>div>div:nth-of-type(2)>button",
+     "expanded": null,
+     "rect": [
+      1058,
+      18,
+      91,
+      14
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "US - English",
+          "href": "https://tide.com/"
+         },
+         {
+          "text": "US - Spanish",
+          "href": "https://tide.com/es-us"
+         },
+         {
+          "text": "Canada - English",
+          "href": "https://tide.ca/"
+         },
+         {
+          "text": "Canada - French",
+          "href": "https://tide.ca/fr-ca"
+         }
+        ],
+        "headings": [
+         "Please select a location"
+        ],
+        "images": 4,
+        "inputs": [],
+        "buttons": [
+         "Close"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         309,
+         1440,
+         591
+        ]
+       },
+       "expanded": null,
+       "focus": "elsewhere",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.ReactModal__Overlay"
+        }
+       ],
+       "shot": "1440-001-US---English-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "US - English",
+          "href": "https://tide.com/"
+         },
+         {
+          "text": "US - Spanish",
+          "href": "https://tide.com/es-us"
+         },
+         {
+          "text": "Canada - English",
+          "href": "https://tide.ca/"
+         },
+         {
+          "text": "Canada - French",
+          "href": "https://tide.ca/fr-ca"
+         }
+        ],
+        "headings": [
+         "Please select a location"
+        ],
+        "images": 4,
+        "inputs": [],
+        "buttons": [
+         "Close"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         309,
+         1440,
+         591
+        ]
+       },
+       "expanded": null,
+       "focus": "elsewhere",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.ReactModal__Overlay"
+        }
+       ],
+       "shot": "1440-002-US---English-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": null,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Close",
+       "key": "close",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>div:nth-of-type(3)>div>div>button",
+       "expanded": null,
+       "rect": [
+        851,
+        309,
+        33,
+        37
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "hides": 10
+        },
+        "key": {
+         "opened": false,
+         "hides": 10
+        }
+       }
+      }
+     ]
+    },
+    {
+     "name": "Sign in",
+     "key": "sign in",
+     "role": "toggle",
+     "kind": "account",
+     "sel": "#site-header>div:nth-of-type(1)>div>div>div>div:nth-of-type(2)>span>button",
+     "expanded": null,
+     "rect": [
+      1251,
+      18,
+      39,
+      14
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": false,
+       "navigates": "https://account.tide.com/authorize?client_id=b2MTTG6IJK8QMuyZULybAmhQhxSBJoHI&scope=openid+profile+email&redirect_uri=https%3A%2F%2Ftide.com%2Fen-us%2Frewards%2Fprofile&audience=CGW&response_type=code&response_mode=query&state=MWl0anlUVjU0VE1XbnVnd2ZDZXcwRDMzOWhwRWhuekNSRGUuNWtLQS1xaw%3D%3D&nonce=REx6czhqUjRpZGYwSVdjczN6ZW5OSEdVZ1lueExfZkF%2BdHZCajN6d3plNg%3D%3D&code_challenge=SsvcwgzsQQWmR5GFVi4RnwMnqmV0nKILJTXkuAw1ffs&code_challenge_method=S256&auth0Client=eyJuYW1lIjoiYXV0aDAtcmVhY3QiLCJ2ZXJzaW9uIjoiMi41LjAifQ%3D%3D"
+      },
+      "key": {
+       "opened": false,
+       "navigates": "https://account.tide.com/authorize?client_id=b2MTTG6IJK8QMuyZULybAmhQhxSBJoHI&scope=openid+profile+email&redirect_uri=https%3A%2F%2Ftide.com%2Fen-us%2Frewards%2Fprofile&audience=CGW&response_type=code&response_mode=query&state=RVVPVDV1M3ZNUmVCam82Z001dDVSWkl3RkxOa0pVN09aa0NGM0xpWE1Gaw%3D%3D&nonce=dU40SzVXSWs3b0JLM1Yuekl3SThrT2ctb1d3QzRLYTdLWmFKdHVGTmgwVw%3D%3D&code_challenge=CIRJtTU5nOJ6tfQTy1fVCVo3EDpXmCOZnc6N9zKRO1s&code_challenge_method=S256&auth0Client=eyJuYW1lIjoiYXV0aDAtcmVhY3QiLCJ2ZXJzaW9uIjoiMi41LjAifQ%3D%3D"
+      }
+     }
+    },
+    {
+     "name": "Tide logo",
+     "key": "tide logo",
+     "role": "link",
+     "kind": "link",
+     "sel": "#site-header>div:nth-of-type(2)>div>div>div>a",
+     "href": "https://tide.com/en-us",
+     "expanded": null,
+     "rect": [
+      150,
+      50,
+      71,
+      111
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Search",
+     "key": "search",
+     "role": "input",
+     "kind": "search",
+     "sel": "#site-header>div:nth-of-type(2)>div>div>div>div>form>div>input",
+     "expanded": null,
+     "rect": [
+      1020,
+      70,
+      270,
+      34
+     ],
+     "actions": {},
+     "search": {
+      "probe": "skip",
+      "typeahead": {
+       "links": 0,
+       "options": 0
+      },
+      "submit": "https://tide.com/en-us/search?q={q}"
+     }
+    },
+    {
+     "name": "Submit Search",
+     "key": "submit search",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "#site-header>div:nth-of-type(2)>div>div>div>div>form>div>button",
+     "expanded": null,
+     "rect": [
+      1245,
+      72,
+      30,
+      33
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": false,
+       "navigates": "https://tide.com/en-us/search?q="
+      },
+      "key": {
+       "opened": false,
+       "navigates": "https://tide.com/en-us/search?q="
+      }
+     }
+    },
+    {
+     "name": "Shop Products",
+     "key": "shop products",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#site-header>div:nth-of-type(3)>div>div>div>div:nth-of-type(1)",
+     "expanded": null,
+     "rect": [
+      447,
+      129,
+      153,
+      46
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Pacs",
+          "href": "https://tide.com/en-us/shop/type/laundry-pods"
+         },
+         {
+          "text": "Liquid",
+          "href": "https://tide.com/en-us/shop/type/liquid"
+         },
+         {
+          "text": "Powder",
+          "href": "https://tide.com/en-us/shop/type/powder"
+         },
+         {
+          "text": "Stain Remover",
+          "href": "https://tide.com/en-us/shop/type/stain-remover"
+         },
+         {
+          "text": "Laundry Booster",
+          "href": "https://tide.com/en-us/shop/type/laundry-booster"
+         },
+         {
+          "text": "Fabric Care",
+          "href": "https://tide.com/en-us/shop/type/fabric-care"
+         },
+         {
+          "text": "Fabric Rinse",
+          "href": "https://tide.com/en-us/shop/type/fabric-rinse"
+         },
+         {
+          "text": "Laundry Tiles",
+          "href": "https://tide.com/en-us/shop/type/laundry-tiles"
+         },
+         {
+          "text": "Stain Removal",
+          "href": "https://tide.com/en-us/shop/special-needs/stain-removal"
+         },
+         {
+          "text": "Odor Removal",
+          "href": "https://tide.com/en-us/shop/special-needs/odor-removal"
+         },
+         {
+          "text": "Freshness/Scent",
+          "href": "https://tide.com/en-us/shop/special-needs/freshness"
+         },
+         {
+          "text": "Whiteness",
+          "href": "https://tide.com/en-us/shop/special-needs/whiteness"
+         },
+         {
+          "text": "Bright Colors",
+          "href": "https://tide.com/en-us/shop/special-needs/bright-colors"
+         },
+         {
+          "text": "Sensitive",
+          "href": "https://tide.com/en-us/shop/special-needs/sensitive"
+         },
+         {
+          "text": "Additives",
+          "href": "https://tide.com/en-us/shop/special-needs/additives"
+         },
+         {
+          "text": "Deep Clean",
+          "href": "https://tide.com/en-us/shop/special-needs/deep-clean"
+         },
+         {
+          "text": "Tide Free & Gentle",
+          "href": "https://tide.com/en-us/shop/top-collections/tide-free-and-gentle"
+         },
+         {
+          "text": "Tide Plus Febreze",
+          "href": "https://tide.com/en-us/shop/top-collections/tide-plus-febreze"
+         },
+         {
+          "text": "Tide Simply",
+          "href": "https://tide.com/en-us/shop/top-collections/tide-simply"
+         },
+         {
+          "text": "Tide Plus Downy",
+          "href": "https://tide.com/en-us/shop/top-collections/tide-plus-downy"
+         },
+         {
+          "text": "Tide Ultra OXI",
+          "href": "https://tide.com/en-us/shop/top-collections/tide-ultra-oxi"
+         },
+         {
+          "text": "Tide POWER PODS®",
+          "href": "https://tide.com/en-us/shop/top-collections/tide-power-pods"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         447,
+         175,
+         843,
+         363
+        ]
+       },
+       "expanded": "true",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.event_internal_link"
+        },
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.menu-item"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.submenu-wrapper"
+        }
+       ],
+       "shot": "1440-003-Shop-Products-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Pacs",
+          "href": "https://tide.com/en-us/shop/type/laundry-pods"
+         },
+         {
+          "text": "Liquid",
+          "href": "https://tide.com/en-us/shop/type/liquid"
+         },
+         {
+          "text": "Powder",
+          "href": "https://tide.com/en-us/shop/type/powder"
+         },
+         {
+          "text": "Stain Remover",
+          "href": "https://tide.com/en-us/shop/type/stain-remover"
+         },
+         {
+          "text": "Laundry Booster",
+          "href": "https://tide.com/en-us/shop/type/laundry-booster"
+         },
+         {
+          "text": "Fabric Care",
+          "href": "https://tide.com/en-us/shop/type/fabric-care"
+         },
+         {
+          "text": "Fabric Rinse",
+          "href": "https://tide.com/en-us/shop/type/fabric-rinse"
+         },
+         {
+          "text": "Laundry Tiles",
+          "href": "https://tide.com/en-us/shop/type/laundry-tiles"
+         },
+         {
+          "text": "Stain Removal",
+          "href": "https://tide.com/en-us/shop/special-needs/stain-removal"
+         },
+         {
+          "text": "Odor Removal",
+          "href": "https://tide.com/en-us/shop/special-needs/odor-removal"
+         },
+         {
+          "text": "Freshness/Scent",
+          "href": "https://tide.com/en-us/shop/special-needs/freshness"
+         },
+         {
+          "text": "Whiteness",
+          "href": "https://tide.com/en-us/shop/special-needs/whiteness"
+         },
+         {
+          "text": "Bright Colors",
+          "href": "https://tide.com/en-us/shop/special-needs/bright-colors"
+         },
+         {
+          "text": "Sensitive",
+          "href": "https://tide.com/en-us/shop/special-needs/sensitive"
+         },
+         {
+          "text": "Additives",
+          "href": "https://tide.com/en-us/shop/special-needs/additives"
+         },
+         {
+          "text": "Deep Clean",
+          "href": "https://tide.com/en-us/shop/special-needs/deep-clean"
+         },
+         {
+          "text": "Tide Free & Gentle",
+          "href": "https://tide.com/en-us/shop/top-collections/tide-free-and-gentle"
+         },
+         {
+          "text": "Tide Plus Febreze",
+          "href": "https://tide.com/en-us/shop/top-collections/tide-plus-febreze"
+         },
+         {
+          "text": "Tide Simply",
+          "href": "https://tide.com/en-us/shop/top-collections/tide-simply"
+         },
+         {
+          "text": "Tide Plus Downy",
+          "href": "https://tide.com/en-us/shop/top-collections/tide-plus-downy"
+         },
+         {
+          "text": "Tide Ultra OXI",
+          "href": "https://tide.com/en-us/shop/top-collections/tide-ultra-oxi"
+         },
+         {
+          "text": "Tide POWER PODS®",
+          "href": "https://tide.com/en-us/shop/top-collections/tide-power-pods"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         447,
+         175,
+         843,
+         363
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.menu-item"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.submenu-wrapper"
+        },
+        {
+         "kind": "animation",
+         "prop": "running-progress",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "div.progress-line"
+        }
+       ],
+       "shot": "1440-004-Shop-Products-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Pacs",
+          "href": "https://tide.com/en-us/shop/type/laundry-pods"
+         },
+         {
+          "text": "Liquid",
+          "href": "https://tide.com/en-us/shop/type/liquid"
+         },
+         {
+          "text": "Powder",
+          "href": "https://tide.com/en-us/shop/type/powder"
+         },
+         {
+          "text": "Stain Remover",
+          "href": "https://tide.com/en-us/shop/type/stain-remover"
+         },
+         {
+          "text": "Laundry Booster",
+          "href": "https://tide.com/en-us/shop/type/laundry-booster"
+         },
+         {
+          "text": "Fabric Care",
+          "href": "https://tide.com/en-us/shop/type/fabric-care"
+         },
+         {
+          "text": "Fabric Rinse",
+          "href": "https://tide.com/en-us/shop/type/fabric-rinse"
+         },
+         {
+          "text": "Laundry Tiles",
+          "href": "https://tide.com/en-us/shop/type/laundry-tiles"
+         },
+         {
+          "text": "Stain Removal",
+          "href": "https://tide.com/en-us/shop/special-needs/stain-removal"
+         },
+         {
+          "text": "Odor Removal",
+          "href": "https://tide.com/en-us/shop/special-needs/odor-removal"
+         },
+         {
+          "text": "Freshness/Scent",
+          "href": "https://tide.com/en-us/shop/special-needs/freshness"
+         },
+         {
+          "text": "Whiteness",
+          "href": "https://tide.com/en-us/shop/special-needs/whiteness"
+         },
+         {
+          "text": "Bright Colors",
+          "href": "https://tide.com/en-us/shop/special-needs/bright-colors"
+         },
+         {
+          "text": "Sensitive",
+          "href": "https://tide.com/en-us/shop/special-needs/sensitive"
+         },
+         {
+          "text": "Additives",
+          "href": "https://tide.com/en-us/shop/special-needs/additives"
+         },
+         {
+          "text": "Deep Clean",
+          "href": "https://tide.com/en-us/shop/special-needs/deep-clean"
+         },
+         {
+          "text": "Tide Free & Gentle",
+          "href": "https://tide.com/en-us/shop/top-collections/tide-free-and-gentle"
+         },
+         {
+          "text": "Tide Plus Febreze",
+          "href": "https://tide.com/en-us/shop/top-collections/tide-plus-febreze"
+         },
+         {
+          "text": "Tide Simply",
+          "href": "https://tide.com/en-us/shop/top-collections/tide-simply"
+         },
+         {
+          "text": "Tide Plus Downy",
+          "href": "https://tide.com/en-us/shop/top-collections/tide-plus-downy"
+         },
+         {
+          "text": "Tide Ultra OXI",
+          "href": "https://tide.com/en-us/shop/top-collections/tide-ultra-oxi"
+         },
+         {
+          "text": "Tide POWER PODS®",
+          "href": "https://tide.com/en-us/shop/top-collections/tide-power-pods"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         447,
+         175,
+         843,
+         363
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.submenu-wrapper"
+        }
+       ],
+       "shot": "1440-005-Shop-Products-key.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": false
+     },
+     "children": [
+      {
+       "name": "Pacs",
+       "key": "pacs",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#site-header>div:nth-of-type(3)>div>div>div>div:nth-of-type(1)>div>div:nth-of-type(1)>div:nth-of-type(1)>a",
+       "expanded": null,
+       "rect": [
+        472,
+        230,
+        31,
+        16
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "hides": 22
+        },
+        "key": {
+         "opened": false,
+         "hides": 22
+        }
+       }
+      },
+      {
+       "name": "Liquid",
+       "key": "liquid",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#site-header>div:nth-of-type(3)>div>div>div>div:nth-of-type(1)>div>div:nth-of-type(1)>div:nth-of-type(2)>a",
+       "expanded": null,
+       "rect": [
+        472,
+        262,
+        41,
+        16
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "hides": 22
+        },
+        "key": {
+         "opened": false,
+         "hides": 22
+        }
+       }
+      },
+      {
+       "name": "Powder",
+       "key": "powder",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#site-header>div:nth-of-type(3)>div>div>div>div:nth-of-type(1)>div>div:nth-of-type(1)>div:nth-of-type(3)>a",
+       "expanded": null,
+       "rect": [
+        472,
+        294,
+        52,
+        16
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "hides": 22
+        },
+        "key": {
+         "opened": false,
+         "hides": 22
+        }
+       }
+      },
+      {
+       "name": "Stain Remover",
+       "key": "stain remover",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#site-header>div:nth-of-type(3)>div>div>div>div:nth-of-type(1)>div>div:nth-of-type(1)>div:nth-of-type(4)>a",
+       "expanded": null,
+       "rect": [
+        472,
+        326,
+        99,
+        16
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "hides": 22
+        },
+        "key": {
+         "opened": false,
+         "hides": 22
+        }
+       }
+      },
+      {
+       "name": "Laundry Booster",
+       "key": "laundry booster",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#site-header>div:nth-of-type(3)>div>div>div>div:nth-of-type(1)>div>div:nth-of-type(1)>div:nth-of-type(5)>a",
+       "expanded": null,
+       "rect": [
+        472,
+        358,
+        113,
+        16
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "hides": 22
+        },
+        "key": {
+         "opened": false,
+         "hides": 22
+        }
+       }
+      },
+      {
+       "name": "Fabric Care",
+       "key": "fabric care",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#site-header>div:nth-of-type(3)>div>div>div>div:nth-of-type(1)>div>div:nth-of-type(1)>div:nth-of-type(6)>a",
+       "expanded": null,
+       "rect": [
+        472,
+        390,
+        78,
+        16
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "hides": 22
+        },
+        "key": {
+         "opened": false,
+         "hides": 22
+        }
+       }
+      },
+      {
+       "name": "Fabric Rinse",
+       "key": "fabric rinse",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#site-header>div:nth-of-type(3)>div>div>div>div:nth-of-type(1)>div>div:nth-of-type(1)>div:nth-of-type(7)>a",
+       "expanded": null,
+       "rect": [
+        472,
+        422,
+        82,
+        16
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "hides": 22
+        },
+        "key": {
+         "opened": false,
+         "hides": 22
+        }
+       }
+      },
+      {
+       "name": "Laundry Tiles",
+       "key": "laundry tiles",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#site-header>div:nth-of-type(3)>div>div>div>div:nth-of-type(1)>div>div:nth-of-type(1)>div:nth-of-type(8)>a",
+       "expanded": null,
+       "rect": [
+        472,
+        454,
+        90,
+        16
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "hides": 22
+        },
+        "key": {
+         "opened": false,
+         "hides": 22
+        }
+       }
+      },
+      {
+       "name": "Stain Removal",
+       "key": "stain removal",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#site-header>div:nth-of-type(3)>div>div>div>div:nth-of-type(1)>div>div:nth-of-type(2)>div:nth-of-type(1)>a",
+       "expanded": null,
+       "rect": [
+        685,
+        230,
+        96,
+        16
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "hides": 22
+        },
+        "key": {
+         "opened": false,
+         "hides": 22
+        }
+       }
+      },
+      {
+       "name": "Odor Removal",
+       "key": "odor removal",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#site-header>div:nth-of-type(3)>div>div>div>div:nth-of-type(1)>div>div:nth-of-type(2)>div:nth-of-type(2)>a",
+       "expanded": null,
+       "rect": [
+        685,
+        262,
+        98,
+        16
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "hides": 22
+        },
+        "key": {
+         "opened": false,
+         "hides": 22
+        }
+       }
+      }
+     ]
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 175,
+     "position": "relative",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": -1000,
+     "height": 175,
+     "position": "relative",
+     "inView": false
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": -700,
+     "height": 175,
+     "position": "relative",
+     "inView": false
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 175,
+     "position": "relative",
+     "inView": true
+    }
+   ],
+   "states": 5,
+   "truncated": "request-budget",
+   "loads": 36,
+   "requests": 1672,
+   "maxRequests": 1600,
+   "inputsSkipped": 0,
+   "watch": {
+    "status": "ran",
+    "ms": 8617,
+    "samples": 11,
+    "excluded": 0,
+    "regions": []
+   }
+  }
+ },
+ "probe": "skip"
+}

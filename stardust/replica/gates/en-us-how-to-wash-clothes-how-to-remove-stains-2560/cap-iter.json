@@ -1,0 +1,668 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-23T23:16:33.587Z",
+    "baseWidth": 1440,
+    "urls": [
+      "https://tide.com/en-us/how-to-wash-clothes/how-to-remove-stains",
+      "http://localhost:8791/en-us-how-to-wash-clothes-how-to-remove-stains-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from stardust/current/DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "https://tide.com/en-us/how-to-wash-clothes/how-to-remove-stains",
+    "http://localhost:8791/en-us-how-to-wash-clothes-how-to-remove-stains-proposed.html"
+  ],
+  "probeNote": "from stardust/current/DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#site-content",
+      "isBody": false,
+      "leaves": 354,
+      "w2": 1920
+    },
+    "origins": [
+      {
+        "kind": "shell",
+        "px": 1920,
+        "via": "max-width",
+        "selector": "#page-wrapper",
+        "tier": -1,
+        "share": 1,
+        "section": -1,
+        "w1": 1440,
+        "maxWidth": "1920px"
+      },
+      {
+        "kind": "module",
+        "px": 1170,
+        "via": "max-width",
+        "selector": "div.col-12 > div.alp-intro > div.alp-intro-bottom-side > div.container",
+        "tier": 6,
+        "share": 0.02,
+        "section": 0,
+        "w1": 1170,
+        "maxWidth": "1170px"
+      },
+      {
+        "kind": "module",
+        "px": 513,
+        "via": "fixed",
+        "selector": "div.alp-intro-bottom-side > div.container > div.breadcrumbs-wrapper > div.breadcrumbs",
+        "tier": 8,
+        "share": 0.01,
+        "section": 0,
+        "w1": 513,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 682,
+        "via": "fixed",
+        "selector": "div.alp-intro-bottom-side > div.container > div.row > div.col-12.col-lg-7",
+        "tier": 8,
+        "share": 0.01,
+        "section": 0,
+        "w1": 682,
+        "maxWidth": "58.3333%"
+      },
+      {
+        "kind": "module",
+        "px": 1170,
+        "via": "max-width",
+        "selector": "#sticky-nav > div.container",
+        "tier": 6,
+        "share": 0.01,
+        "section": 0,
+        "w1": 1170,
+        "maxWidth": "1170px"
+      },
+      {
+        "kind": "module",
+        "px": 1170,
+        "via": "max-width",
+        "selector": "div.dynamic-content-wrapper > div.row.no-gutters > div.col-12 > div.container",
+        "tier": 7,
+        "share": 0.62,
+        "section": 1,
+        "w1": 1170,
+        "maxWidth": "1170px"
+      },
+      {
+        "kind": "module",
+        "px": 360,
+        "via": "fixed",
+        "selector": "div.col-12 > div.container > div.row > div.spinner-right.spinner-content",
+        "tier": 9,
+        "share": 0.61,
+        "section": 1,
+        "w1": 360,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 426,
+        "via": "fixed",
+        "selector": "div.col-12 > div.container > div.row > div.spinner-right-side",
+        "tier": 9,
+        "share": 0.01,
+        "section": 1,
+        "w1": 426,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 250,
+        "via": "fixed",
+        "selector": "div.container > div.row > div.spinner-right-side > div",
+        "tier": 10,
+        "share": 0,
+        "section": 1,
+        "w1": 250,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1170,
+        "via": "max-width",
+        "selector": "div.col-12 > div.dynamic-content-wrapper > div.article-listing > div.container",
+        "tier": 6,
+        "share": 0.23,
+        "section": 1,
+        "w1": 1170,
+        "maxWidth": "1170px"
+      },
+      {
+        "kind": "module",
+        "px": 780,
+        "via": "fixed",
+        "selector": "div.article-listing > div.container > div.row.justify-content-center > div.col-12.col-lg-8",
+        "tier": 8,
+        "share": 0,
+        "section": 1,
+        "w1": 780,
+        "maxWidth": "66.6667%"
+      },
+      {
+        "kind": "module",
+        "px": 585,
+        "via": "fixed",
+        "selector": "div.article-listing > div.container > div.row.justify-content-center > div.col-12.col-lg-6",
+        "tier": 8,
+        "share": 0.22,
+        "section": 1,
+        "w1": 585,
+        "maxWidth": "50%"
+      },
+      {
+        "kind": "module",
+        "px": 1170,
+        "via": "max-width",
+        "selector": "div.dynamic-content-wrapper > div.row.no-gutters > div.col-12 > div.container",
+        "tier": 7,
+        "share": 0.03,
+        "section": 1,
+        "w1": 1170,
+        "maxWidth": "1170px"
+      },
+      {
+        "kind": "module",
+        "px": 570,
+        "via": "fixed",
+        "selector": "#your-comprehensive-stain-removal-guide",
+        "tier": 11,
+        "share": 0,
+        "section": 1,
+        "w1": 570,
+        "maxWidth": "50%"
+      },
+      {
+        "kind": "module",
+        "px": 570,
+        "via": "fixed",
+        "selector": "div.row.justify-content-start > div.col-lg-12.col-12 > div.richtext-container > h5",
+        "tier": 11,
+        "share": 0,
+        "section": 1,
+        "w1": 570,
+        "maxWidth": "50%"
+      },
+      {
+        "kind": "module",
+        "px": 1170,
+        "via": "max-width",
+        "selector": "div.col-12 > div.dynamic-content-wrapper > div.guide-wrapper.guide-wrapper-list-narrow > div.container",
+        "tier": 6,
+        "share": 0.09,
+        "section": 1,
+        "w1": 1170,
+        "maxWidth": "1170px"
+      },
+      {
+        "kind": "module",
+        "px": 585,
+        "via": "fixed",
+        "selector": "div.guide-wrapper.guide-wrapper-list-narrow > div.container > div.row.justify-content-center > div.col-12.col-lg-6",
+        "tier": 8,
+        "share": 0.01,
+        "section": 1,
+        "w1": 585,
+        "maxWidth": "50%"
+      },
+      {
+        "kind": "module",
+        "px": 585,
+        "via": "fixed",
+        "selector": "div.guide-wrapper.guide-wrapper-list-narrow > div.container > div.row.justify-content-center > div.col-12.col-lg-6",
+        "tier": 8,
+        "share": 0.08,
+        "section": 1,
+        "w1": 585,
+        "maxWidth": "50%"
+      },
+      {
+        "kind": "module",
+        "px": 419,
+        "via": "fixed",
+        "selector": "div.guide-step-list-narrow > div.guide-step-content > div.guide-step-title > p",
+        "tier": 14,
+        "share": 0,
+        "section": 1,
+        "w1": 419,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 308,
+        "via": "fixed",
+        "selector": "div.guide-step-list-narrow > div.guide-step-content > div.guide-step-title > p",
+        "tier": 14,
+        "share": 0,
+        "section": 1,
+        "w1": 308,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 294,
+        "via": "fixed",
+        "selector": "div.guide-step-list-narrow > div.guide-step-content > div.guide-step-title > p",
+        "tier": 14,
+        "share": 0,
+        "section": 1,
+        "w1": 294,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 375,
+        "via": "fixed",
+        "selector": "div.guide-step-list-narrow > div.guide-step-content > div.guide-step-title > p",
+        "tier": 14,
+        "share": 0,
+        "section": 1,
+        "w1": 375,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 382,
+        "via": "fixed",
+        "selector": "div.guide-step-content > div.richtext-container.guide-step-text > p > a.event_internal_link",
+        "tier": 15,
+        "share": 0,
+        "section": 1,
+        "w1": 382,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1170,
+        "via": "max-width",
+        "selector": "div.dynamic-content-wrapper > div.row.no-gutters > div.col-12 > div.container",
+        "tier": 7,
+        "share": 0.01,
+        "section": 1,
+        "w1": 1170,
+        "maxWidth": "1170px"
+      },
+      {
+        "kind": "module",
+        "px": 585,
+        "via": "fixed",
+        "selector": "div.col-12 > div.container > div.row.justify-content-center > div.col-lg-6.col-12",
+        "tier": 9,
+        "share": 0.01,
+        "section": 1,
+        "w1": 585,
+        "maxWidth": "50%"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "div.tide-article-listing-page > div.row.justify-content-center > div.col-12 > div.alp-intro",
+        "px": 1170,
+        "capSelector": "div.col-12 > div.alp-intro > div.alp-intro-bottom-side > div.container"
+      },
+      {
+        "index": 1,
+        "selector": "div.tide-article-listing-page > div.row.justify-content-center > div.col-12 > div.dynamic-content-wrapper",
+        "px": 1170,
+        "capSelector": "div.dynamic-content-wrapper > div.row.no-gutters > div.col-12 > div.container"
+      },
+      {
+        "index": 2,
+        "selector": "div.tide-article-listing-page > div.row.justify-content-center > div.col-12 > div.scroll-to-top-wrapper",
+        "px": null,
+        "capSelector": null
+      }
+    ],
+    "shellMaxWidth": 1920,
+    "contentMaxWidth": 1920,
+    "contentFrom": "shell",
+    "maxCap": 1920,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 466
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#site-content",
+      "isBody": false,
+      "leaves": 354,
+      "w2": 1920
+    },
+    "origins": [
+      {
+        "kind": "shell",
+        "px": 1920,
+        "via": "max-width",
+        "selector": "#page-wrapper",
+        "tier": -1,
+        "share": 1,
+        "section": -1,
+        "w1": 1440,
+        "maxWidth": "1920px"
+      },
+      {
+        "kind": "module",
+        "px": 1170,
+        "via": "max-width",
+        "selector": "#site-content > section.alp-intro > div.alp-intro__bottom > div.container",
+        "tier": 3,
+        "share": 0.02,
+        "section": 0,
+        "w1": 1170,
+        "maxWidth": "1170px"
+      },
+      {
+        "kind": "module",
+        "px": 653,
+        "via": "fixed",
+        "selector": "section.alp-intro > div.alp-intro__bottom > div.container > div.alp-intro__text",
+        "tier": 4,
+        "share": 0.01,
+        "section": 0,
+        "w1": 653,
+        "maxWidth": "calc(58.3333% - 12.5px)"
+      },
+      {
+        "kind": "module",
+        "px": 1170,
+        "via": "max-width",
+        "selector": "#sticky-nav > div.container",
+        "tier": 3,
+        "share": 0.01,
+        "section": 0,
+        "w1": 1170,
+        "maxWidth": "1170px"
+      },
+      {
+        "kind": "module",
+        "px": 1170,
+        "via": "max-width",
+        "selector": "div.alp-content > section.alp-spinner > div.alp-spinner__inner > div.container",
+        "tier": 4,
+        "share": 0.62,
+        "section": 1,
+        "w1": 1170,
+        "maxWidth": "1170px"
+      },
+      {
+        "kind": "module",
+        "px": 360,
+        "via": "fixed",
+        "selector": "div.alp-spinner__inner > div.container > div.alp-spinner__row > div.alp-spinner__desktop",
+        "tier": 6,
+        "share": 0.61,
+        "section": 1,
+        "w1": 360,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 426,
+        "via": "fixed",
+        "selector": "div.alp-spinner__inner > div.container > div.alp-spinner__row > div.alp-spinner__right",
+        "tier": 6,
+        "share": 0.01,
+        "section": 1,
+        "w1": 426,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 250,
+        "via": "fixed",
+        "selector": "div.container > div.alp-spinner__row > div.alp-spinner__right > div",
+        "tier": 7,
+        "share": 0,
+        "section": 1,
+        "w1": 250,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1170,
+        "via": "max-width",
+        "selector": "#site-content > div.alp-content > section.alp-listing > div.container",
+        "tier": 3,
+        "share": 0.23,
+        "section": 1,
+        "w1": 1170,
+        "maxWidth": "1170px"
+      },
+      {
+        "kind": "module",
+        "px": 780,
+        "via": "fixed",
+        "selector": "section.alp-listing > div.container > div.alp-listing__row > div.alp-search",
+        "tier": 5,
+        "share": 0,
+        "section": 1,
+        "w1": 780,
+        "maxWidth": "66.6667%"
+      },
+      {
+        "kind": "module",
+        "px": 585,
+        "via": "fixed",
+        "selector": "section.alp-listing > div.container > div.alp-listing__row > div.alp-listing__list",
+        "tier": 5,
+        "share": 0.22,
+        "section": 1,
+        "w1": 585,
+        "maxWidth": "50%"
+      },
+      {
+        "kind": "module",
+        "px": 1170,
+        "via": "max-width",
+        "selector": "#site-content > div.alp-content > section.alp-types > div.container",
+        "tier": 3,
+        "share": 0.03,
+        "section": 1,
+        "w1": 1170,
+        "maxWidth": "1170px"
+      },
+      {
+        "kind": "module",
+        "px": 570,
+        "via": "fixed",
+        "selector": "#your-comprehensive-stain-removal-guide",
+        "tier": 5,
+        "share": 0,
+        "section": 1,
+        "w1": 570,
+        "maxWidth": "50%"
+      },
+      {
+        "kind": "module",
+        "px": 570,
+        "via": "fixed",
+        "selector": "section.alp-types > div.container > div.alp-types__head > h5",
+        "tier": 5,
+        "share": 0,
+        "section": 1,
+        "w1": 570,
+        "maxWidth": "50%"
+      },
+      {
+        "kind": "module",
+        "px": 1170,
+        "via": "max-width",
+        "selector": "#site-content > div.alp-content > section.alp-guide > div.container",
+        "tier": 3,
+        "share": 0.09,
+        "section": 1,
+        "w1": 1170,
+        "maxWidth": "1170px"
+      },
+      {
+        "kind": "module",
+        "px": 585,
+        "via": "fixed",
+        "selector": "section.alp-guide > div.container > div.alp-guide__head > div.alp-guide__intro",
+        "tier": 5,
+        "share": 0.01,
+        "section": 1,
+        "w1": 585,
+        "maxWidth": "50%"
+      },
+      {
+        "kind": "module",
+        "px": 555,
+        "via": "fixed",
+        "selector": "div.alp-content > section.alp-guide > div.container > div.alp-steps",
+        "tier": 4,
+        "share": 0.08,
+        "section": 1,
+        "w1": 555,
+        "maxWidth": "calc(50% - 15px)"
+      },
+      {
+        "kind": "module",
+        "px": 419,
+        "via": "fixed",
+        "selector": "div.alp-step > div.alp-step__content > div.alp-step__title > p",
+        "tier": 8,
+        "share": 0,
+        "section": 1,
+        "w1": 419,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 308,
+        "via": "fixed",
+        "selector": "div.alp-step > div.alp-step__content > div.alp-step__title > p",
+        "tier": 8,
+        "share": 0,
+        "section": 1,
+        "w1": 308,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 294,
+        "via": "fixed",
+        "selector": "div.alp-step > div.alp-step__content > div.alp-step__title > p",
+        "tier": 8,
+        "share": 0,
+        "section": 1,
+        "w1": 294,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 375,
+        "via": "fixed",
+        "selector": "div.alp-step > div.alp-step__content > div.alp-step__title > p",
+        "tier": 8,
+        "share": 0,
+        "section": 1,
+        "w1": 375,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 382,
+        "via": "fixed",
+        "selector": "div.alp-step__content > div.alp-step__text > p > a",
+        "tier": 9,
+        "share": 0,
+        "section": 1,
+        "w1": 382,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1170,
+        "via": "max-width",
+        "selector": "#site-content > div.alp-content > section.alp-closing > div.container",
+        "tier": 3,
+        "share": 0.01,
+        "section": 1,
+        "w1": 1170,
+        "maxWidth": "1170px"
+      },
+      {
+        "kind": "module",
+        "px": 555,
+        "via": "fixed",
+        "selector": "div.alp-content > section.alp-closing > div.container > div.alp-closing__col",
+        "tier": 4,
+        "share": 0.01,
+        "section": 1,
+        "w1": 555,
+        "maxWidth": "calc(50% - 15px)"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#site-content > section.alp-intro",
+        "px": 1170,
+        "capSelector": "#site-content > section.alp-intro > div.alp-intro__bottom > div.container"
+      },
+      {
+        "index": 1,
+        "selector": "#site-content > div.alp-content",
+        "px": 1170,
+        "capSelector": "div.alp-content > section.alp-spinner > div.alp-spinner__inner > div.container"
+      },
+      {
+        "index": 2,
+        "selector": "#site-content > div.alp-totop",
+        "px": null,
+        "capSelector": null
+      }
+    ],
+    "shellMaxWidth": 1920,
+    "contentMaxWidth": 1920,
+    "contentFrom": "shell",
+    "maxCap": 1920,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 425
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "wrapper cap",
+        "detail": "live 1920px = build 1920px (±20)",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 1/3",
+        "detail": "1170px = 1170px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 2/3",
+        "detail": "1170px = 1170px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 3/3",
+        "detail": "full-bleed on both",
+        "advisory": false
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/en-us-how-to-wash-clothes-how-to-remove-stains-2560/cap-iter.json"
+}

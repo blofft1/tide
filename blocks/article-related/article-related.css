@@ -1,0 +1,281 @@
+/* article-related — live article closing modules measured at 1440/360:
+   .carousel-wrapper.products-carousel-white and .related-articles (tide.com). */
+
+.article-related p {
+  margin: 0;
+}
+
+.article-related a:any-link {
+  text-decoration: none;
+}
+
+/* ---------- products carousel ---------- */
+.article-related.products {
+  padding-bottom: 80px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.article-related.products .article-related-label {
+  color: var(--tide-navy);
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 24px;
+}
+
+.article-related.products .article-related-names {
+  display: none;
+}
+
+.article-related.products .article-related-slides {
+  margin-top: 30px;
+}
+
+.article-related.products .article-related-track {
+  display: flex;
+}
+
+.article-related.products .article-related-slide-holder {
+  flex: 0 0 100%;
+}
+
+.article-related.products .article-related-slide {
+  display: flex;
+  align-items: center;
+  min-height: 212px;
+  background-color: var(--tide-orange);
+}
+
+.article-related.products .article-related-slide-title {
+  flex: 1 1 auto;
+  padding: 20px 0 20px 20px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 26px;
+}
+
+.article-related.products .article-related-slide-image {
+  flex: 0 0 182px;
+  align-self: flex-end;
+}
+
+.article-related.products .article-related-slide-image img {
+  display: block;
+  width: 182px;
+  height: 182px;
+  object-fit: contain;
+}
+
+@media (width >= 992px) {
+  .article-related.products {
+    padding-bottom: 0;
+  }
+
+  .article-related.products .article-related-row {
+    display: flex;
+    margin: 0 -15px;
+  }
+
+  .article-related.products .article-related-text {
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding: 0 15px;
+  }
+
+  .article-related.products .article-related-names {
+    display: block;
+    margin-top: 20px;
+  }
+
+  .article-related.products .article-related-name {
+    display: none;
+    color: var(--tide-orange);
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 44px;
+  }
+
+  .article-related.products .article-related-name strong {
+    font-weight: 800;
+  }
+
+  .article-related.products .article-related-name.active {
+    display: block;
+  }
+
+  .article-related.products .article-related-slides {
+    flex: 0 0 75%;
+    max-width: 75%;
+    margin-top: 0;
+    padding: 0 15px;
+  }
+
+  .article-related.products .article-related-track {
+    justify-content: center;
+  }
+
+  .article-related.products .article-related-label {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .article-related.products .article-related-slide-holder {
+    flex: 0 0 281px;
+    padding: 30px 0;
+  }
+
+  .article-related.products .article-related-slide-holder + .article-related-slide-holder {
+    margin-left: 2px;
+  }
+
+  .article-related.products .article-related-slide {
+    display: block;
+    min-height: 0;
+  }
+
+  .article-related.products .article-related-slide-title {
+    display: none;
+  }
+
+  .article-related.products .article-related-slide-image img {
+    width: 281px;
+    height: 281px;
+  }
+}
+
+/* ---------- related articles ---------- */
+.article-related:not(.products) .article-related-top {
+  padding: 35px 0 34px;
+  background-color: var(--tide-orange);
+}
+
+.article-related:not(.products) .article-related-title {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 36px;
+}
+
+.article-related:not(.products) .article-related-bottom {
+  padding: 11px 0 0;
+}
+
+.article-related:not(.products) .article-related-card {
+  position: relative;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.article-related:not(.products) .article-related-image {
+  display: none;
+}
+
+.article-related:not(.products) .article-related-content {
+  padding-right: 25px;
+}
+
+.article-related:not(.products) .article-related-card-title {
+  color: var(--tide-orange);
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 26px;
+}
+
+.article-related:not(.products) .article-related-content > p:not(.article-related-more) {
+  margin-top: 15px;
+  color: var(--tide-navy);
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.article-related:not(.products) .article-related-more {
+  display: none;
+}
+
+.article-related:not(.products) .article-related-arrow {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  color: var(--tide-orange);
+  transform: translateY(-50%) rotate(-90deg);
+}
+
+@media (width >= 992px) {
+  .article-related:not(.products) .article-related-top {
+    padding: 70px 0 170px;
+    background-color: var(--tide-orange);
+  }
+
+  .article-related:not(.products) .article-related-title {
+    max-width: 75%;
+    color: #fff;
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  .article-related:not(.products) .article-related-bottom {
+    margin-top: -100px;
+    padding: 0;
+  }
+
+  .article-related:not(.products) .article-related-grid {
+    display: flex;
+    margin: 0 -15px;
+  }
+
+  .article-related:not(.products) .article-related-card {
+    flex: 0 0 calc(100% / 3);
+    max-width: calc(100% / 3);
+    margin: 0;
+    padding: 0 15px;
+    border-bottom: 0;
+  }
+
+  .article-related:not(.products) .article-related-image {
+    display: block;
+  }
+
+  .article-related:not(.products) .article-related-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .article-related:not(.products) .article-related-content-wrapper {
+    position: relative;
+    margin: -49px 30px 0;
+    background-color: #fff;
+  }
+
+  .article-related:not(.products) .article-related-content {
+    padding: 30px 25px;
+  }
+
+  .article-related:not(.products) .article-related-card-title {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .article-related:not(.products) .article-related-content > p:not(.article-related-more) {
+    line-height: 24px;
+  }
+
+  .article-related:not(.products) .article-related-more {
+    display: block;
+    margin-top: 10px;
+  }
+
+  .article-related:not(.products) .article-related-more a:any-link {
+    color: var(--tide-navy);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25.2px;
+    text-decoration: underline;
+  }
+
+  .article-related:not(.products) .article-related-arrow {
+    display: none;
+  }
+}

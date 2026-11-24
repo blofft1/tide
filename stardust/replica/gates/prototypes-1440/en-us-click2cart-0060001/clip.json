@@ -1,0 +1,327 @@
+{
+ "url": "http://localhost:8791/en-us-click2cart-0060001-proposed.html",
+ "at": "2026-11-23T23:33:37.309Z",
+ "width": 1440,
+ "status": 200,
+ "settlePasses": 2,
+ "docH": 900,
+ "pageW": 1440,
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 2,
+  "horizontal": 0,
+  "offPage": 0,
+  "textNodes": 38,
+  "controls": 32,
+  "total": 0
+ },
+ "findings": [
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "cut": 20,
+   "path": "div#retailer-buttons-wrapper > div.retailer > div.retailer-button-container > div.retailer-button",
+   "text": "target",
+   "clipper": "div#scrolling-container",
+   "rect": {
+    "l": 522,
+    "t": 805,
+    "r": 918,
+    "b": 865,
+    "w": 395,
+    "h": 60
+   },
+   "clip": {
+    "l": 495,
+    "t": 0,
+    "r": 945,
+    "b": 845,
+    "w": 450,
+    "h": 845
+   }
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "cut": 3,
+   "path": "div.retailer-button > div.retailer-button-content > span.main-text > span.retailer-name",
+   "text": "target",
+   "clipper": "div#scrolling-container",
+   "rect": {
+    "l": 594,
+    "t": 823,
+    "r": 660,
+    "b": 848,
+    "w": 66,
+    "h": 25
+   },
+   "clip": {
+    "l": 495,
+    "t": 0,
+    "r": 945,
+    "b": 845,
+    "w": 450,
+    "h": 845
+   },
+   "lines": 1
+  }
+ ],
+ "textBoxes": [
+  {
+   "x": 551,
+   "y": 478,
+   "w": 337,
+   "h": 33
+  },
+  {
+   "x": 686,
+   "y": 507,
+   "w": 68,
+   "h": 33
+  },
+  {
+   "x": 594,
+   "y": 583,
+   "w": 86,
+   "h": 25
+  },
+  {
+   "x": 594,
+   "y": 651,
+   "w": 96,
+   "h": 25
+  },
+  {
+   "x": 594,
+   "y": 678,
+   "w": 35,
+   "h": 20
+  },
+  {
+   "x": 594,
+   "y": 743,
+   "w": 76,
+   "h": 25
+  },
+  {
+   "x": 594,
+   "y": 823,
+   "w": 66,
+   "h": 25
+  },
+  {
+   "x": 529,
+   "y": 849,
+   "w": 40,
+   "h": 23
+  },
+  {
+   "x": 680,
+   "y": 874,
+   "w": 80,
+   "h": 17
+  },
+  {
+   "x": 150,
+   "y": 964,
+   "w": 255,
+   "h": 25
+  },
+  {
+   "x": 150,
+   "y": 1051,
+   "w": 196,
+   "h": 32
+  },
+  {
+   "x": 150,
+   "y": 1106,
+   "w": 101,
+   "h": 30
+  },
+  {
+   "x": 410,
+   "y": 1106,
+   "w": 103,
+   "h": 30
+  },
+  {
+   "x": 670,
+   "y": 1106,
+   "w": 175,
+   "h": 30
+  },
+  {
+   "x": 930,
+   "y": 1101,
+   "w": 282,
+   "h": 32
+  },
+  {
+   "x": 930,
+   "y": 1174,
+   "w": 177,
+   "h": 18
+  },
+  {
+   "x": 930,
+   "y": 1206,
+   "w": 153,
+   "h": 18
+  },
+  {
+   "x": 930,
+   "y": 1238,
+   "w": 289,
+   "h": 18
+  },
+  {
+   "x": 930,
+   "y": 1270,
+   "w": 163,
+   "h": 18
+  },
+  {
+   "x": 930,
+   "y": 1334,
+   "w": 203,
+   "h": 32
+  },
+  {
+   "x": 930,
+   "y": 1407,
+   "w": 85,
+   "h": 18
+  },
+  {
+   "x": 150,
+   "y": 1470,
+   "w": 49,
+   "h": 15
+  },
+  {
+   "x": 204,
+   "y": 1471,
+   "w": 70,
+   "h": 13
+  },
+  {
+   "x": 287,
+   "y": 1471,
+   "w": 48,
+   "h": 13
+  },
+  {
+   "x": 349,
+   "y": 1471,
+   "w": 41,
+   "h": 13
+  },
+  {
+   "x": 404,
+   "y": 1471,
+   "w": 44,
+   "h": 13
+  },
+  {
+   "x": 461,
+   "y": 1471,
+   "w": 83,
+   "h": 13
+  },
+  {
+   "x": 150,
+   "y": 1665,
+   "w": 135,
+   "h": 13
+  },
+  {
+   "x": 298,
+   "y": 1665,
+   "w": 113,
+   "h": 13
+  },
+  {
+   "x": 425,
+   "y": 1665,
+   "w": 209,
+   "h": 13
+  },
+  {
+   "x": 648,
+   "y": 1665,
+   "w": 45,
+   "h": 13
+  },
+  {
+   "x": 706,
+   "y": 1665,
+   "w": 42,
+   "h": 13
+  },
+  {
+   "x": 762,
+   "y": 1665,
+   "w": 215,
+   "h": 13
+  },
+  {
+   "x": 991,
+   "y": 1665,
+   "w": 122,
+   "h": 13
+  },
+  {
+   "x": 150,
+   "y": 1697,
+   "w": 293,
+   "h": 13
+  },
+  {
+   "x": 457,
+   "y": 1697,
+   "w": 468,
+   "h": 13
+  },
+  {
+   "x": 939,
+   "y": 1697,
+   "w": 149,
+   "h": 13
+  },
+  {
+   "x": 1242,
+   "y": 1665,
+   "w": 48,
+   "h": 13
+  }
+ ],
+ "groups": [
+  {
+   "kind": "CONTROL SCROLL-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div#scrolling-container",
+   "path": "div#retailer-buttons-wrapper > div.retailer > div.retailer-button-container > div.retailer-button",
+   "text": "target",
+   "cutMin": 20,
+   "cutMax": 20
+  },
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div#scrolling-container",
+   "path": "div.retailer-button > div.retailer-button-content > span.main-text > span.retailer-name",
+   "text": "target",
+   "cutMin": 3,
+   "cutMax": 3
+  }
+ ],
+ "tier": "chrome"
+}

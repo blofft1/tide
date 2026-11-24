@@ -1,0 +1,156 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-us-our-commitment-ingredients-and-safety/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-us-our-commitment-ingredients-and-safety/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 3555,
+    "mode": "overlap"
+  },
+  "heightDelta": -1,
+  "differingPixels": 54940,
+  "pct": 1.07,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/en-us-our-commitment-ingredients-and-safety/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 6.47,
+  "textBoxes": 80,
+  "textPixels": 413825,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1.6
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 4.2
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 1.2
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0.1
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 0.6
+    },
+    {
+      "y0": 3500,
+      "y1": 3555,
+      "pct": 0
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 0.56,
+    "differingPixels": 28536,
+    "compared": {
+      "width": 1440,
+      "height": 3557,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 674,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 1496,
+        "shift": -1,
+        "cumulative": 0
+      },
+      {
+        "y": 3380,
+        "shift": 1,
+        "cumulative": 1
+      }
+    ],
+    "maxOffset": 1,
+    "totalShift": 3,
+    "insertedRows": 2,
+    "deletedRows": 1,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 1.6,
+        "unaligned": 1.6
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 1.7,
+        "unaligned": 4.2
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0.3,
+        "unaligned": 1.2
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0.2,
+        "unaligned": 0.6
+      },
+      {
+        "y0": 3500,
+        "y1": 3555,
+        "pct": 0,
+        "unaligned": 0
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/en-us-our-commitment-ingredients-and-safety/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 36,
+    "totalShift": 3,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/ingredients-and-safety"
+  }
+}

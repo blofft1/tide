@@ -1,0 +1,67 @@
+{
+  "writtenBy": "skills/replica/scripts/reference.mjs freeze",
+  "schema": 1,
+  "capturedAt": "2026-11-24T05:22:54.172Z",
+  "url": "https://tide.com/en-us/research/tide-value-framework",
+  "width": 360,
+  "vh": 900,
+  "height": 5010,
+  "settle": true,
+  "chunks": 6,
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 3,
+    "late": 1
+  },
+  "timers": {
+    "hold": 2000,
+    "held": 10,
+    "intervals": 5,
+    "chains": 5,
+    "delays": [
+      2000,
+      3000,
+      5000,
+      86400000
+    ]
+  },
+  "primed": true,
+  "prime": {
+    "height": 5010,
+    "pct": 0,
+    "heightDelta": 0
+  },
+  "captures": 2,
+  "heights": [
+    5010,
+    5010
+  ],
+  "noiseFloor": 0,
+  "heightSpread": 0,
+  "outside": 0,
+  "variable": [],
+  "variableShare": 0,
+  "maskArg": "",
+  "stable": true,
+  "reason": null,
+  "frozenAt": "2026-11-24T05:23:59.900Z",
+  "flags": {
+    "consent": null,
+    "dismiss": null,
+    "noDismiss": false,
+    "locale": "en-US",
+    "vh": null,
+    "headed": true,
+    "holdTimers": 2000
+  },
+  "thresholds": {
+    "floorMax": 1,
+    "heightMax": 8,
+    "variableMax": 50,
+    "band": 20,
+    "bandMin": 0.5,
+    "pad": 8
+  }
+}

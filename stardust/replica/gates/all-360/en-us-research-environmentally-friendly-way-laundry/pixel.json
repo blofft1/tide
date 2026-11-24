@@ -1,0 +1,237 @@
+{
+  "a": "stardust/replica/gates/all-360/en-us-research-environmentally-friendly-way-laundry/origin.png",
+  "b": "stardust/replica/gates/all-360/en-us-research-environmentally-friendly-way-laundry/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 6782,
+    "mode": "overlap"
+  },
+  "heightDelta": -159,
+  "differingPixels": 204351,
+  "pct": 8.37,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-360/en-us-research-environmentally-friendly-way-laundry/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 10.64,
+  "textBoxes": 202,
+  "textPixels": 1068373,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.5
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 11.4
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 5.4
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 4.6
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 3.8
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 4.4
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 3.1
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 1
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 5.7
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 15.6
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 39.4
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 6
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 9.6
+    },
+    {
+      "y0": 6500,
+      "y1": 6782,
+      "pct": 5.5
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 3.85,
+    "differingPixels": 96259,
+    "compared": {
+      "width": 360,
+      "height": 6943,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 535,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 4385,
+        "shift": 80,
+        "cumulative": 81
+      },
+      {
+        "y": 4447,
+        "shift": 60,
+        "cumulative": 141
+      },
+      {
+        "y": 4724,
+        "shift": 20,
+        "cumulative": 161
+      },
+      {
+        "y": 5099,
+        "shift": -1,
+        "cumulative": 160
+      },
+      {
+        "y": 6049,
+        "shift": -1,
+        "cumulative": 159
+      }
+    ],
+    "maxOffset": 161,
+    "totalShift": 163,
+    "insertedRows": 161,
+    "deletedRows": 2,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.5,
+        "unaligned": 0.5
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 8.9,
+        "unaligned": 11.4
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 5.4
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 4.6
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 3.8
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 4.4
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 3.1
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0,
+        "unaligned": 1
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 23.2,
+        "unaligned": 5.7
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 12.1,
+        "unaligned": 15.6
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 1.5,
+        "unaligned": 39.4
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 0,
+        "unaligned": 6
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 0.2,
+        "unaligned": 9.6
+      },
+      {
+        "y0": 6500,
+        "y1": 6782,
+        "pct": 0,
+        "unaligned": 5.5
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/en-us-research-environmentally-friendly-way-laundry/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 68,
+    "totalShift": 163,
+    "pass": false
+  },
+  "reason": "offsets: 6 step(s), 163px total — +1px at y=535, +80px at y=4385, +60px at y=4447, +20px at y=4724, −1px at y=5099, −1px at y=6049 (bound 68px)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/environmentally-friendly-way-laundry"
+  }
+}

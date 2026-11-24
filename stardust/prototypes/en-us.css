@@ -1,0 +1,226 @@
+/* tide.com replica — home archetype (en-us) modules. Imports canon/canon.css first. */
+
+/* ---------- hero banners (evo + rock) ---------- */
+.banner { position: relative; display: flex; flex-direction: column; line-height: 0; }
+.banner picture { margin: 0; }
+.banner img { object-fit: cover; width: 100%; height: 100%; min-height: 680px; }
+.banner__wrap { position: absolute; inset: 0; display: flex; align-items: center; }
+.banner__box { z-index: 1; background: #fff; border-radius: 20px; padding: 24px 16px; }
+.banner__box h1 { margin: 0; font-size: 44px; font-weight: 800; line-height: 1.1; color: var(--tide-orange); }
+.banner__box p { margin: 0; color: var(--tide-navy); }
+.banner__box u { letter-spacing: 0; font-size: 12px; line-height: 24px; text-decoration: none; }
+.banner__box a.btn { width: 100%; margin-top: 24px; }
+.banner--evo .banner__box a.btn:hover { background-color: var(--tide-navy-hover); }
+.banner--evo .banner__box { width: 100%; margin: 15px 0 auto; }
+.banner--evo .banner__box h1 { color: var(--tide-blue); font-size: 40px; font-weight: 400; }
+.banner--evo .banner__box h1 strong { font-weight: 800; }
+.banner--rock .banner__wrap { inset: 10px 0 auto; }
+@media (min-width: 768px) {
+  .banner__box { max-width: 427px; }
+}
+@media (min-width: 992px) {
+  .banner--evo img { object-position: 62%; min-height: 500px; }
+  .banner--evo .banner__box { max-width: 465px; margin: 0; }
+  .banner--evo .banner__box h1 { font-size: 50px; }
+  .banner--rock img { min-height: auto; }
+  .banner--rock .banner__wrap { inset: 0; }
+  .banner--rock .banner__box { max-width: 369px; margin: 0 60px; }
+  .banner--rock .banner__box h1 { font-size: 40px; }
+}
+@media (min-width: 1200px) {
+  .banner--rock .banner__box { max-width: 401px; margin: 0 80px; }
+  .banner--rock .banner__box h1 { font-size: 44px; }
+}
+@media (min-width: 1400px) {
+  .banner--rock .banner__box { max-width: 497px; }
+  .banner--rock .banner__box h1 { font-size: 56px; }
+}
+
+/* ---------- POWER PODS feature (home-shop-banner second-hero-section) ---------- */
+.pods { background: var(--tide-navy); min-height: 800px; position: relative; display: flex; flex-direction: column; }
+.pods__text { padding: 0 15px; }
+.pods__text .rt { margin-top: 55px; }
+.pods__text p { margin: 0; color: #fff; letter-spacing: 0; font-size: 20px; font-weight: 700; line-height: 24px; }
+.pods__text p.pods__eyebrow { font-size: 32px; font-weight: 400; line-height: 36px; }
+.pods__text h2 { color: #fff; letter-spacing: .0375em; white-space: pre; margin: 0 0 .83em; font-size: 70px; font-weight: 800; line-height: 75px; }
+.pods__text .btn { margin-top: 25px; }
+.pods__media { padding: 0 15px; margin-top: 60px; line-height: 0; }
+.pods__media img { width: 100%; display: block; }
+@media (min-width: 992px) {
+  .pods { display: flow-root; }
+  .pods__text { margin-left: auto; width: calc((100% - 465px) * .583333); }
+  .pods__text p { line-height: 26px; }
+  .pods__text p.pods__eyebrow { font-size: 40px; line-height: 44px; }
+  .pods__text .rt { margin: 80px 0; }
+  .pods__text .btn { margin-top: 32px; }
+  .pods__media { position: absolute; bottom: 0; left: 0; padding: 0; margin: 0; }
+  .pods__media img { width: auto; }
+}
+
+/* ---------- carousel headline + card rail ---------- */
+.rail-head h2 { color: var(--tide-orange); margin: 40px 0 .83em; letter-spacing: 0; font-size: 32px; font-weight: 400; line-height: 36px; }
+.rail-head h2 strong { font-weight: 800; }
+.rail { position: relative; width: 90%; margin: 0 auto; }
+.rail__viewport { overflow: hidden; position: relative; padding-bottom: 30px; }
+.rail__track { display: flex; list-style: none; margin: 0; padding: 0; transition: transform .4s ease; }
+.rail__item { flex: 0 0 100%; max-width: 100%; position: relative; }
+.card { display: block; position: relative; overflow: hidden; height: 390px; margin-inline: 10px; color: var(--tide-blue); background: var(--tide-grey); border-radius: 14px; text-decoration: none; }
+.card__media { height: 210px; line-height: 0; transition: height .3s; position: relative; overflow: hidden; }
+.card__media picture { position: absolute; inset: 0; transition: top .3s, bottom .3s; }
+.card__media img { object-fit: cover; width: 100%; height: 100%; }
+.card__content { text-align: start; height: 180px; padding: 10px; font-size: 14px; line-height: 1; }
+.card__content p { margin-block: .2em; line-height: 1.2; }
+.card__cta { position: absolute; bottom: 10px; }
+.card__cta span { display: inline-block; letter-spacing: 0; color: #fff; text-align: center; background: var(--tide-navy); border-radius: 25px; padding: 10px 30px; font-size: 16px; font-weight: 700; line-height: 22px; }
+.rail__dots { position: absolute; bottom: 4px; left: 0; right: 0; display: flex; justify-content: center; list-style: none; margin: 0; padding: 0; line-height: 0; }
+.rail__dots button { display: inline-block; width: 12px; height: 12px; margin: 0 6px 0 0; padding: 0; border: 2px solid var(--tide-yellow); border-radius: 50%; background: transparent; cursor: pointer; opacity: 1; transition: background-color .5s; }
+.rail__dots .is-active button { background: var(--tide-yellow); }
+.rail__arrows { position: absolute; top: calc(50% - 30px); left: 50%; width: 1170px; max-width: 100%; transform: translate(-50%, -50%); }
+.rail__arrow { position: absolute; z-index: 100; width: 39px; height: 39px; border: 0; border-radius: 50%; background: var(--tide-orange); padding: 0; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+.rail__arrow svg { width: 17px; height: 10px; flex: none; }
+.rail__arrow--prev svg { transform: rotate(90deg); }
+.rail__arrow--prev { left: -5%; }
+.rail__arrow--next { right: -5%; }
+.rail__arrow--next svg { transform: rotate(-90deg); }
+@media (min-width: 768px) {
+  .rail__item { flex-basis: 50%; max-width: 50%; }
+}
+@media (min-width: 992px) {
+  .rail-head h2 { font-size: 40px; line-height: 44px; }
+  .rail__item { flex-basis: 33.3333%; max-width: 33.3333%; }
+}
+@media (min-width: 1200px) {
+  .card { border-radius: 16px; }
+  .card__content { padding: 20px; transition: padding .3s; }
+  .card__text { font-size: 20px; }
+}
+
+/* ---------- find the right product (modal cards) ---------- */
+.finder { padding: 40px 0 30px; }
+.finder h2 { color: var(--tide-orange); margin: 0 0 25px; letter-spacing: 0; font-size: 32px; font-weight: 400; line-height: 36px; }
+.finder h2 strong { font-weight: 800; }
+.finder__grid { display: flex; flex-wrap: wrap; margin: 0 -15px; }
+.finder__item { flex: 0 0 100%; max-width: 100%; padding: 0 15px; margin-top: 15px; }
+.modal-card { cursor: pointer; background: var(--tide-grey-2); padding: 30px 40px 40px; }
+.modal-card h3 { color: var(--tide-navy); margin: 0; letter-spacing: 0; font-size: 26px; font-weight: 800; line-height: 30px; }
+.modal-card p { color: var(--tide-navy); margin: 0; letter-spacing: 0; font-size: 16px; font-weight: 400; line-height: 20px; }
+.modal-card img { width: 100%; margin-top: 5px; transition: transform .3s; vertical-align: baseline; }
+@media (min-width: 992px) {
+  .finder { padding: 90px 0 95px; }
+  .finder h2 { font-size: 40px; line-height: 44px; }
+  .finder__item { flex-basis: 50%; max-width: 50%; }
+  .modal-card { height: 100%; padding: 50px 65px; }
+  .modal-card h3 { font-size: 32px; line-height: 38px; }
+  .modal-card p { line-height: 24px; }
+  .modal-card img { margin-top: 30px; }
+  .modal-card:hover img { transform: scale(1.1); }
+}
+
+/* ---------- stain removal guide (spinner) ---------- */
+.stains { color: #fff; text-align: center; background: var(--tide-navy); position: relative; overflow: hidden; padding-top: 33px; }
+.stains__img { display: none; }
+.stains .container { padding: 0 15px; }
+.stains h2 { margin: 0; letter-spacing: 0; font-size: 40px; font-weight: 800; line-height: 44px; }
+.stains__row { display: flex; flex-wrap: wrap; flex-direction: column; align-items: center; margin: 0 -15px; padding: 10px 0 50px; }
+.stains__left .ihavea { letter-spacing: 0; font-size: 40px; font-weight: 400; line-height: 44px; }
+.stains__right { display: flex; flex-direction: column; align-items: center; }
+.stains__right .stain { letter-spacing: 0; font-size: 40px; font-weight: 800; line-height: 44px; }
+.stains__right > div { display: flex; flex-direction: column; margin-top: 35px; position: relative; }
+.stains__right button.btn { background: var(--tide-orange); }
+.stains__right button.btn:hover { background: var(--tide-orange-hover); }
+.stains__right > div a { letter-spacing: 0; color: #fff; white-space: nowrap; margin-top: 15px; font-size: 16px; font-weight: 700; line-height: 19px; text-decoration: underline; display: inline-block; }
+.picker { position: relative; height: 150px; margin: 0 auto; text-align: center; }
+.picker__scroll { position: relative; z-index: 1; height: 100%; overflow-y: auto; scrollbar-width: none; }
+.picker__scroll::-webkit-scrollbar { display: none; }
+.picker__mask { position: absolute; left: 0; width: 100%; height: 50px; z-index: 3; pointer-events: none; }
+.picker__mask--top { top: 0; background-image: linear-gradient(#1b3392, #1b339200); }
+.picker__mask--bottom { bottom: 0; background-image: linear-gradient(#1b339200, #1b3392); }
+.picker__indicator { position: absolute; left: 0; top: 0; bottom: 0; width: 100%; height: 50px; margin: auto 0; z-index: 3; pointer-events: none; border-top: 1px solid #7481b4; border-bottom: 1px solid #7481b4; }
+.picker__list { position: relative; width: 100%; }
+.picker__item { display: block; width: 100%; height: 50px; padding: 0 10px; border: 0; background: transparent; cursor: pointer; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: #fff; text-transform: lowercase; font-family: var(--font); font-size: 24px; font-weight: 700; line-height: 50px; }
+.picker__item.is-selected { font-size: 40px; font-weight: 800; overflow: visible; transition: font-size .1s linear; }
+.picker--mobile { width: 100%; min-width: 300px; margin: 20px 0; }
+.picker-wrap--desktop { display: block; min-width: 360px; margin: 0 20px; position: relative; }
+.picker-wrap--desktop .picker { display: none; }
+.stains__arrow { display: none; }
+@media (max-width: 450px) {
+  .stains__img { display: none !important; }
+}
+@media (min-width: 992px) {
+  .stains { padding-top: 40px; }
+  .stains h2 { text-align: left; font-size: 48px; line-height: 52px; }
+  .stains__row { flex-direction: row; align-items: flex-start; margin: 0; padding: 30px 0; }
+  .stains__left { margin-top: 200px; }
+  .stains__left .ihavea { font-size: 48px; line-height: 52px; }
+  .stains__mobile { display: none; }
+  .picker-wrap--desktop .picker { display: block; width: 100%; height: 450px; }
+  .picker-wrap--desktop .picker__mask { height: 200px; }
+  .picker-wrap--desktop .picker__indicator { height: 60px; }
+  .picker-wrap--desktop .picker__item { line-height: 60px; }
+  .picker-wrap--desktop .picker__item.is-selected { height: 52px; font-size: 48px; line-height: 52px; }
+  .stains__arrow { display: inline-block; cursor: pointer; background: 0 0; border: 3px solid var(--tide-yellow); border-width: 0 3px 3px 0; padding: 3px; width: 9px; height: 9px; position: absolute; right: 5px; z-index: 4; }
+  .stains__arrow--up { top: calc(50% - 16px); transform: rotate(-135deg); }
+  .stains__arrow--down { top: calc(50% + 4px); transform: rotate(45deg); }
+  .stains__right { flex-direction: row; margin-top: 200px; }
+  .stains__right .stain { margin: 0 44px 0 10px; font-size: 48px; line-height: 52px; }
+  .stains__right > div { z-index: 10; flex-direction: row; margin-top: 0; }
+  .stains__right > div a { margin-top: 0; position: absolute; bottom: -55px; left: 50%; transform: translate(-50%); }
+}
+@media (min-width: 1200px) {
+  .stains__img { display: block; position: absolute; top: -102px; right: -404px; width: 784px; z-index: 0; }
+  .stains__img img { width: 100%; height: auto; display: block; }
+  .stains__right button.btn { min-width: 250px; }
+}
+
+/* ---------- how to do laundry ---------- */
+.howto { background: #fff; min-height: 510px; position: relative; }
+.howto__text { position: relative; }
+.howto .rt { margin-top: 34px; }
+.howto h2 { white-space: pre; color: var(--tide-orange); margin: 0 0 .83em; letter-spacing: 0; font-size: 40px; font-weight: 400; line-height: 44px; }
+.howto h2 strong { font-weight: 800; }
+.howto p { margin: 14px 0; color: var(--tide-navy); letter-spacing: 0; font-size: 20px; font-weight: 700; line-height: 24px; }
+.howto__media { position: absolute; bottom: 0; right: 0; padding-left: 15px; }
+.howto__media picture { display: block; }
+.howto__media img { width: 250px; margin-left: auto; display: block; }
+@media (min-width: 992px) {
+  .howto { min-height: 642px; }
+  .howto__text { max-width: calc((100% + 30px) * .416667 - 30px); }
+  .howto .rt { margin-top: 152px; }
+  .howto h2 { font-size: 48px; line-height: 52px; }
+  .howto p { line-height: 26px; }
+  .howto .btn { margin-top: 32px; }
+  .howto__media img { width: 485px; position: absolute; bottom: 0; right: 0; }
+}
+@media (min-width: 1200px) {
+  .howto__media img { width: 720px; }
+}
+
+/* ---------- learn more (article previews) ---------- */
+.articles-head h2 { color: var(--tide-orange); margin: 100px 0 .83em; letter-spacing: 0; font-size: 40px; font-weight: 800; line-height: 44px; }
+.articles { margin-top: 10px; display: flow-root; }
+main.tide-home-page { padding-bottom: 20px; }
+.articles__grid { display: flex; flex-wrap: wrap; margin: 0 -15px; }
+.articles__col { flex: 0 0 100%; max-width: 100%; padding: 0 15px; }
+.preview { margin: 30px -15px 0; }
+.preview__image picture { display: flex; align-items: flex-start; }
+.preview__image img { width: 100%; height: auto; }
+.preview__body { position: relative; z-index: 1; width: 100%; margin-top: -50px; padding: 0 15px; }
+.preview__content { background: #fff; border-radius: 8px; width: 100%; padding: 25px; }
+.preview__content a { text-decoration: none; }
+.preview__title p { color: var(--tide-orange); margin: 0; letter-spacing: 0; font-size: 22px; font-weight: 800; line-height: 26px; transition: opacity .3s; }
+.preview__content > p { color: var(--tide-navy); margin: 15px 0 0; letter-spacing: 0; font-size: 16px; font-weight: 400; line-height: 20px; }
+.preview__content .btn { margin-top: 15px; }
+.preview > svg { display: none; }
+@media (min-width: 992px) {
+  .articles { margin-top: 9px; }
+  main.tide-home-page { padding-bottom: 55px; }
+  .articles__col { flex-basis: 50%; max-width: 50%; }
+  .preview { margin: 0; }
+  .preview__body { padding: 0 30px; }
+  .preview__content { padding: 30px 50px 50px; }
+  .preview__title { display: block; min-height: 75px; }
+  .preview__title p { font-size: 26px; line-height: 30px; }
+  .preview__title:hover p { opacity: .9; }
+  .preview__content > p { min-height: 75px; margin: 5px 0 0; line-height: 24px; }
+  .articles-head h2 { font-size: 48px; line-height: 52px; }
+}

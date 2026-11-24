@@ -1,0 +1,5 @@
+clip-probe http://localhost:8791/en-us-proposed.html @ 1440px — docH 6139, 306 text nodes, 283 controls (HTTP 200, chrome)
+  🔴 CONTROL HIDDEN         ×207   in div.picker.picker--desktop  div.picker-wrap--desktop > div.picker.picker--desktop > div.picker__list > button.picker__item  "tough stains"  cut 50px
+  🔴 TEXT CLIPPED           ×1     in button.picker__item.is-selected  div.picker-wrap--desktop > div.picker.picker--desktop > div.picker__list > button.picker__item.is-selected  "mayonnaise"  cut 7px
+Clipped: 208 (text clipped 1, text hidden 0, controls hidden 207, controls clipped 0; advisory: clamped 0, collapsed 0, scroll-hidden 0, horizontal 3)
+json → stardust/replica/gates/en-us-1440/clip-iter1.json

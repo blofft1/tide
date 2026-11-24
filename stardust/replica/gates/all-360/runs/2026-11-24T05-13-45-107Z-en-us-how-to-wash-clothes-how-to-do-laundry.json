@@ -1,0 +1,471 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-24T05:13:45.077Z",
+    "stage": "published",
+    "breakpoint": 360,
+    "threshold": 10,
+    "offsetMax": "the larger of 8px and 1% of the origin height; roster tolerance: 5% of the origin height with no step over 200px",
+    "originReference": "frozen",
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "pixel criterion (aligned % ≤ 10 AND total offset ≤ the bound; alignment not used: unaligned % ≤ 10) AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://tide.com",
+    "eds": "https://main--5db7d055--aemcoder.aem.page",
+    "edsHostOverride": "https://main--5db7d055--aemcoder.aem.page",
+    "only": [
+      "en-us-how-to-wash-clothes-how-to-do-laundry",
+      "en-us-how-to-wash-clothes-washing-different-fabrics-and-colors",
+      "en-us-how-to-wash-clothes-washing-machine-101-how-to-use-a-washing-machine"
+    ]
+  },
+  "totals": {
+    "pages": 3,
+    "pass": 0,
+    "pixelOnlyPass": 2,
+    "overridePass": 0,
+    "fail": 3,
+    "error": 0,
+    "probeErrors": 0,
+    "failPixel": 1,
+    "failHeight": 0,
+    "failClip": 0,
+    "failContent": 1,
+    "failUnits": 3,
+    "unitsNotDeclared": 0,
+    "unitsRecordedNotDeclared": 0,
+    "fontsNotLoaded": 0,
+    "fontsDeadOnSource": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "alignedOnlyPass": 1,
+    "failOffsets": 0,
+    "offsetsWithinTolerance": 0,
+    "referenceUnstable": 0,
+    "passWithOverrides": 0
+  },
+  "rows": [
+    {
+      "slug": "en-us-how-to-wash-clothes-how-to-do-laundry",
+      "path": "/en-us/how-to-wash-clothes/how-to-do-laundry",
+      "template": "topic-hub",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 11.28,
+      "textPct": 18.14,
+      "heightDelta": -16,
+      "originH": 37828,
+      "edsH": 37844,
+      "alignedPct": 0.78,
+      "alignedUsed": true,
+      "totalShift": 148,
+      "steps": [
+        {
+          "y": 2736,
+          "shift": -2,
+          "cumulative": -2
+        },
+        {
+          "y": 2890,
+          "shift": 1,
+          "cumulative": -1
+        },
+        {
+          "y": 3788,
+          "shift": -1,
+          "cumulative": -2
+        },
+        {
+          "y": 4471,
+          "shift": -1,
+          "cumulative": -3
+        },
+        {
+          "y": 6643,
+          "shift": -1,
+          "cumulative": -4
+        },
+        {
+          "y": 7132,
+          "shift": 1,
+          "cumulative": -3
+        },
+        {
+          "y": 8538,
+          "shift": -1,
+          "cumulative": -4
+        },
+        {
+          "y": 8811,
+          "shift": 1,
+          "cumulative": -3
+        },
+        {
+          "y": 13358,
+          "shift": 50,
+          "cumulative": 47
+        },
+        {
+          "y": 13550,
+          "shift": 1,
+          "cumulative": 48
+        },
+        {
+          "y": 13937,
+          "shift": -1,
+          "cumulative": 47
+        },
+        {
+          "y": 15184,
+          "shift": 1,
+          "cumulative": 48
+        }
+      ],
+      "offsetBound": 378,
+      "offsetTolerance": 1891,
+      "offsetJudge": "bound",
+      "offsetsWithinTolerance": false,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": true,
+      "pass": false,
+      "failing": [
+        "content",
+        "units"
+      ],
+      "unwaived": [
+        "content",
+        "units"
+      ],
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "content MISSING 2 / HIDDEN 0",
+        "units off 8 hidden 0 missing 0 — 2 selector error(s): .article-listing-links-container > div=.topic-hub-stain-index .thsi-cat-links >  — no visible unit on the origin side (0 / 0 DOM matches); .alp-icons-section > .col-12 > .container > .row > div=.topic-hub-guide-header . — no visible unit on the origin side (0 / 0 DOM matches) (fix the family's selector in stardust/replica/units.json)"
+      ],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 2,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 7,
+        "variable": []
+      },
+      "unitsDeclared": 4,
+      "unitsRecorded": null,
+      "units": {
+        "units": 8,
+        "within": 49,
+        "off": 8,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 2,
+        "requiredOff": 8
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-360/en-us-how-to-wash-clothes-how-to-do-laundry",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "24500-25000:45.1%",
+        "25000-25500:52.4%",
+        "25500-26000:41.2%",
+        "26000-26500:29.7%",
+        "26500-27000:40.3%",
+        "36000-36500:15.4%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "en-us-how-to-wash-clothes-washing-different-fabrics-and-colors",
+      "path": "/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors",
+      "template": "topic-hub",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 9.56,
+      "textPct": 17.02,
+      "heightDelta": -88,
+      "originH": 17036,
+      "edsH": 17124,
+      "alignedPct": 5.02,
+      "alignedUsed": true,
+      "totalShift": 96,
+      "steps": [
+        {
+          "y": 10741,
+          "shift": 84,
+          "cumulative": 84
+        },
+        {
+          "y": 10771,
+          "shift": 3,
+          "cumulative": 87
+        },
+        {
+          "y": 11241,
+          "shift": -1,
+          "cumulative": 86
+        },
+        {
+          "y": 11966,
+          "shift": -1,
+          "cumulative": 85
+        },
+        {
+          "y": 12251,
+          "shift": -1,
+          "cumulative": 84
+        },
+        {
+          "y": 12884,
+          "shift": -1,
+          "cumulative": 83
+        },
+        {
+          "y": 13920,
+          "shift": 4,
+          "cumulative": 87
+        },
+        {
+          "y": 13952,
+          "shift": 1,
+          "cumulative": 88
+        }
+      ],
+      "offsetBound": 170,
+      "offsetTolerance": 851,
+      "offsetJudge": "bound",
+      "offsetsWithinTolerance": false,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": true,
+      "pass": false,
+      "failing": [
+        "units"
+      ],
+      "unwaived": [
+        "units"
+      ],
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "units off 0 hidden 0 missing 0 — 2 selector error(s): .article-listing-links-container > div=.topic-hub-stain-index .thsi-cat-links >  — no visible unit on the origin side (0 / 0 DOM matches); .alp-icons-section > .col-12 > .container > .row > div=.topic-hub-guide-header . — no visible unit on the origin side (0 / 0 DOM matches) (fix the family's selector in stardust/replica/units.json)"
+      ],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 1,
+        "variable": []
+      },
+      "unitsDeclared": 4,
+      "unitsRecorded": null,
+      "units": {
+        "units": 8,
+        "within": 36,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 2,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-360/en-us-how-to-wash-clothes-washing-different-fabrics-and-colors",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "9000-9500:16%",
+        "9500-10000:16.5%",
+        "10500-11000:19.9%",
+        "13500-14000:15.2%",
+        "14000-14500:17.1%",
+        "14500-15000:18.9%",
+        "15000-15500:25%",
+        "15500-16000:17.8%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "en-us-how-to-wash-clothes-washing-machine-101-how-to-use-a-washing-machine",
+      "path": "/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine",
+      "template": "topic-hub",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 16.33,
+      "textPct": 21.53,
+      "heightDelta": -83,
+      "originH": 10465,
+      "edsH": 10548,
+      "alignedPct": 10.32,
+      "alignedUsed": true,
+      "totalShift": 117,
+      "steps": [
+        {
+          "y": 4827,
+          "shift": 96,
+          "cumulative": 96
+        },
+        {
+          "y": 4859,
+          "shift": 4,
+          "cumulative": 100
+        },
+        {
+          "y": 5077,
+          "shift": -1,
+          "cumulative": 99
+        },
+        {
+          "y": 5797,
+          "shift": -1,
+          "cumulative": 98
+        },
+        {
+          "y": 6448,
+          "shift": -1,
+          "cumulative": 97
+        },
+        {
+          "y": 7112,
+          "shift": -12,
+          "cumulative": 85
+        },
+        {
+          "y": 7289,
+          "shift": -1,
+          "cumulative": 84
+        },
+        {
+          "y": 9732,
+          "shift": -1,
+          "cumulative": 83
+        }
+      ],
+      "offsetBound": 105,
+      "offsetTolerance": 523,
+      "offsetJudge": "tolerance",
+      "offsetsWithinTolerance": false,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "failing": [
+        "pixel",
+        "units"
+      ],
+      "unwaived": [
+        "pixel",
+        "units"
+      ],
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "pixel aligned 10.32% (unaligned 16.33%) > 10%",
+        "units off 4 hidden 0 missing 0 — 2 selector error(s): .article-listing-links-container > div=.topic-hub-stain-index .thsi-cat-links >  — no visible unit on the origin side (0 / 0 DOM matches); .alp-icons-section > .col-12 > .container > .row > div=.topic-hub-guide-header . — no visible unit on the origin side (0 / 0 DOM matches) (fix the family's selector in stardust/replica/units.json)"
+      ],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 1,
+        "variable": []
+      },
+      "unitsDeclared": 4,
+      "unitsRecorded": null,
+      "units": {
+        "units": 8,
+        "within": 42,
+        "off": 4,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 2,
+        "requiredOff": 4
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-360/en-us-how-to-wash-clothes-washing-machine-101-how-to-use-a-washing-machine",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "1000-1500:35.7%",
+        "1500-2000:22.6%",
+        "2000-2500:32.1%",
+        "2500-3000:34.2%",
+        "4000-4500:18%",
+        "4500-5000:19%",
+        "8500-9000:35.5%"
+      ],
+      "error": null
+    }
+  ]
+}

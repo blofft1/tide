@@ -1,0 +1,271 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-us-research-are-scented-laundry-products-safe/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-us-research-are-scented-laundry-products-safe/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 8669,
+    "mode": "overlap"
+  },
+  "heightDelta": 20,
+  "differingPixels": 253428,
+  "pct": 2.03,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/en-us-research-are-scented-laundry-products-safe/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 3.61,
+  "textBoxes": 322,
+  "textPixels": 3742980,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 9.1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 10.5
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0.1
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0.5
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 0.2
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 0.5
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 0
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 0
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 0
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 0.1
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 0
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 0
+    },
+    {
+      "y0": 7000,
+      "y1": 7500,
+      "pct": 0
+    },
+    {
+      "y0": 7500,
+      "y1": 8000,
+      "pct": 11.2
+    },
+    {
+      "y0": 8000,
+      "y1": 8500,
+      "pct": 2.3
+    },
+    {
+      "y0": 8500,
+      "y1": 8669,
+      "pct": 2.3
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 1.26,
+    "differingPixels": 158637,
+    "compared": {
+      "width": 1440,
+      "height": 8709,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 289,
+        "shift": -19,
+        "cumulative": -19
+      },
+      {
+        "y": 722,
+        "shift": 19,
+        "cumulative": 0
+      },
+      {
+        "y": 7742,
+        "shift": -21,
+        "cumulative": -21
+      },
+      {
+        "y": 8514,
+        "shift": 1,
+        "cumulative": -20
+      }
+    ],
+    "maxOffset": 21,
+    "totalShift": 60,
+    "insertedRows": 20,
+    "deletedRows": 40,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 4.2,
+        "unaligned": 9.1
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 11.6,
+        "unaligned": 10.5
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0.5,
+        "unaligned": 0.5
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0.2,
+        "unaligned": 0.2
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0.5,
+        "unaligned": 0.5
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 7000,
+        "y1": 7500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 7500,
+        "y1": 8000,
+        "pct": 4.2,
+        "unaligned": 11.2
+      },
+      {
+        "y0": 8000,
+        "y1": 8500,
+        "pct": 0,
+        "unaligned": 2.3
+      },
+      {
+        "y0": 8500,
+        "y1": 8689,
+        "pct": 0.5,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/en-us-research-are-scented-laundry-products-safe/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 87,
+    "totalShift": 60,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/are-scented-laundry-products-safe"
+  }
+}

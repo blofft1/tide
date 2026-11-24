@@ -1,0 +1,55 @@
+
+Content diff @ 360px (profile "eds", roots: #shopper-choice-container, header, footer)
+root "#shopper-choice-container"
+  proto: 12 text nodes — 0 headings, 0 eyebrows, 1 CTAs, 11 body; 6 img
+  EDS: 12 text nodes — 1 headings, 0 eyebrows, 1 CTAs, 10 body; 6 img
+  editable texts (outermost h*/p/ul/ol): proto 2 / EDS 9
+  attributes (placeholder/aria-label/title): proto 9 / EDS 10; icons: proto 11 / EDS 11
+  accepted (invisible, nothing lost): 1 ROLE UPGRADE body → heading — "Grab Tide from your favorite store!"; 4 SAME IMAGE — "instacart_usa_dark.svg ↔ media_18c4192e111ae8572508ec0bcd6f100bddccfdb92.svg", "amazon_usa_dark.svg ↔ media_178bd06cfaa623842d352c7a5a3a5d5d5bd2e9727.svg", "walmart_usa_dark.svg ↔ media_13034562e5509cb786003b591654c7f3eea21cbcd.svg", "target_usa_dark.svg ↔ media_1a0ddf85fc52d14c4224921ef70fdc364ecd1a0f6.svg"
+root "header" — proto: absent (no <header> / [role="banner"] outside the main root(s)) — measured as empty
+  proto: 0 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  EDS: 1 text nodes — 0 headings, 0 eyebrows, 1 CTAs, 0 body; 0 img
+  editable texts (outermost h*/p/ul/ol): proto 0 / EDS 0
+  attributes (placeholder/aria-label/title): proto 0 / EDS 7; icons: proto 0 / EDS 2
+root "footer"
+  proto: 29 text nodes — 0 headings, 0 eyebrows, 18 CTAs, 11 body; 8 img
+  EDS: 29 text nodes — 0 headings, 0 eyebrows, 19 CTAs, 10 body; 8 img
+  editable texts (outermost h*/p/ul/ol): proto 3 / EDS 11
+  attributes (placeholder/aria-label/title): proto 25 / EDS 12; icons: proto 10 / EDS 10
+  accepted (invisible, nothing lost): 7 SAME IMAGE — "social_facebook.svg ↔ media_1bff7d59c4067314b47f0571184d0ed529fe56274.svg", "social_twitter.svg ↔ media_1d4bf414ff3eeeb8a169b214b0c8bbf72a76b687d.svg", "social_pinterest.svg ↔ media_18cdbba8bc0f0f7a172257ff84fa5200d53557dcc.svg", "social_youtube.svg ↔ media_11266d14e9b1e9a4b88cdddb13b60dadbdbc81676.svg" …
+
+Findings: 33 (1 structural 🔴)
+Tiers: looks-same 🔴 1 · nothing-lost 🟡 17 · accepted 🟢 12 (owner 0, auto 12) · advisory 15
+  🔴 ROLE SWAP [footer]: "Do Not Sell or Share My Personal Informa" is a body in the proto but a cta in EDS — Mis-classified slot (the #76 class: body painted as eyebrow, eyebrow folded into a teaser). Fix the block node segmentation.
+  🟠 EXTRA [header]: EDS cta "Skip to Content" has no proto source — Unexpected node with no proto source.
+  🟡 EXTRA TITLE [#shopper-choice-container]: EDS <a> title="Privacy Policy" has no proto source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: EDS <div> aria-label="Menu" has no proto source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: EDS <button> aria-label="navigation menu" has no proto source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA PLACEHOLDER [header]: EDS <input> placeholder="Search" has no proto source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: EDS <input> aria-label="Search" has no proto source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: EDS <button> aria-label="Submit Search" has no proto source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: EDS <div> aria-label="Please select a location" has no proto source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: EDS <button> aria-label="Close" has no proto source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ICON [header]: EDS inline svg 0 0 16.605 19.271 / 2 shape(s) (0×0) at "submit search" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS inline svg 0 0 16 16 / 1 shape(s) (0×0) at "close" has no proto source. Build-only icon — confirm it is intended.
+  🟡 MISSING ARIA-LABEL [footer]: proto <a> aria-label="How to Remove Stains" has no EDS <a> with that aria-label (EDS <a> aria-labels: "Facebook", "Twitter", "Pinterest"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: proto <a> aria-label="How to Do Laundry" has no EDS <a> with that aria-label (EDS <a> aria-labels: "Facebook", "Twitter", "Pinterest"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: proto <a> aria-label="Washing Different Fabrics and Colors" has no EDS <a> with that aria-label (EDS <a> aria-labels: "Facebook", "Twitter", "Pinterest"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: proto <a> aria-label="Washing Machine 101" has no EDS <a> with that aria-label (EDS <a> aria-labels: "Facebook", "Twitter", "Pinterest"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: proto <a> aria-label="P&G Brands" has no EDS <a> with that aria-label (EDS <a> aria-labels: "Facebook", "Twitter", "Pinterest"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: proto <a> aria-label="MrClean" has no EDS <a> with that aria-label (EDS <a> aria-labels: "Facebook", "Twitter", "Pinterest"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: proto <a> aria-label="Downy" has no EDS <a> with that aria-label (EDS <a> aria-labels: "Facebook", "Twitter", "Pinterest"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: proto <a> aria-label="Bounce" has no EDS <a> with that aria-label (EDS <a> aria-labels: "Facebook", "Twitter", "Pinterest"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: proto <a> aria-label="P&G Everyday" has no EDS <a> with that aria-label (EDS <a> aria-labels: "Facebook", "Twitter", "Pinterest"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: proto <a> aria-label="Accessibility Statement" has no EDS <a> with that aria-label (EDS <a> aria-labels: "Facebook", "Twitter", "Pinterest"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: proto <a> aria-label="Terms & Conditions" has no EDS <a> with that aria-label (EDS <a> aria-labels: "Facebook", "Twitter", "Pinterest"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: proto <a> aria-label="Tide Rewards Terms and Conditions" has no EDS <a> with that aria-label (EDS <a> aria-labels: "Facebook", "Twitter", "Pinterest"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: proto <a> aria-label="Careers" has no EDS <a> with that aria-label (EDS <a> aria-labels: "Facebook", "Twitter", "Pinterest"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: proto <a> aria-label="Privacy" has no EDS <a> with that aria-label (EDS <a> aria-labels: "Facebook", "Twitter", "Pinterest"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: proto <a> aria-label="Consumer Health Data Privacy Policy" has no EDS <a> with that aria-label (EDS <a> aria-labels: "Facebook", "Twitter", "Pinterest"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: proto <a> aria-label="Your Privacy Choices" has no EDS <a> with that aria-label (EDS <a> aria-labels: "Facebook", "Twitter", "Pinterest"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: proto <button> aria-label="Do Not Sell or Share My Personal Information / O" has no EDS <button> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 EXTRA TITLE [footer]: EDS <a> title="Facebook" has no proto source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: EDS <a> title="Twitter" has no proto source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: EDS <a> title="Pinterest" has no proto source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: EDS <a> title="YouTube" has no proto source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).

@@ -1,0 +1,68 @@
+{
+  "writtenBy": "skills/replica/scripts/reference.mjs freeze",
+  "schema": 1,
+  "capturedAt": "2026-11-24T02:39:54.728Z",
+  "url": "https://tide.com/en-us/our-commitment/pva-in-tide-pods",
+  "width": 1440,
+  "vh": 900,
+  "height": 4872,
+  "settle": true,
+  "chunks": 6,
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 1,
+    "late": 0
+  },
+  "timers": {
+    "hold": 2000,
+    "held": 11,
+    "intervals": 4,
+    "chains": 7,
+    "delays": [
+      2000,
+      3000,
+      4999.89999999851,
+      5000,
+      86400000
+    ]
+  },
+  "primed": true,
+  "prime": {
+    "height": 4872,
+    "pct": 0,
+    "heightDelta": 0
+  },
+  "captures": 2,
+  "heights": [
+    4872,
+    4872
+  ],
+  "noiseFloor": 0,
+  "heightSpread": 0,
+  "outside": 0,
+  "variable": [],
+  "variableShare": 0,
+  "maskArg": "",
+  "stable": true,
+  "reason": null,
+  "frozenAt": "2026-11-24T02:40:54.000Z",
+  "flags": {
+    "consent": null,
+    "dismiss": null,
+    "noDismiss": false,
+    "locale": "en-US",
+    "vh": null,
+    "headed": true,
+    "holdTimers": 2000
+  },
+  "thresholds": {
+    "floorMax": 1,
+    "heightMax": 8,
+    "variableMax": 50,
+    "band": 20,
+    "bandMin": 0.5,
+    "pad": 8
+  }
+}

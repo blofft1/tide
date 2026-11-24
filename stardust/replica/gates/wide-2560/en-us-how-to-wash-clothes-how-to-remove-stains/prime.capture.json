@@ -1,0 +1,35 @@
+{
+  "writtenBy": "skills/replica/scripts/stitch-shot.mjs",
+  "url": "https://tide.com/en-us/how-to-wash-clothes/how-to-remove-stains",
+  "width": 2560,
+  "vh": 900,
+  "height": 7480,
+  "chunks": 9,
+  "denialCheck": "ok",
+  "freeze": "applied",
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 2,
+    "late": 1
+  },
+  "heightChange": {
+    "initial": 7481,
+    "final": 7480
+  },
+  "timers": {
+    "hold": 2000,
+    "held": 15,
+    "intervals": 5,
+    "chains": 10,
+    "delays": [
+      2000,
+      3000,
+      5000,
+      20000,
+      86400000
+    ]
+  },
+  "at": "2026-11-24T12:07:59.014Z"
+}

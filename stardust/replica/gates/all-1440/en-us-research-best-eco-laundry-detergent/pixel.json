@@ -1,0 +1,167 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-us-research-best-eco-laundry-detergent/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-us-research-best-eco-laundry-detergent/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 4196,
+    "mode": "overlap"
+  },
+  "heightDelta": 41,
+  "differingPixels": 453607,
+  "pct": 7.51,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-1440/en-us-research-best-eco-laundry-detergent/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 18.77,
+  "textBoxes": 130,
+  "textPixels": 1209385,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 5.5
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 9.3
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 6.5
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 10.3
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 7.1
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 20.4
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 2.9
+    },
+    {
+      "y0": 4000,
+      "y1": 4196,
+      "pct": 2.9
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 2.8,
+    "differingPixels": 170639,
+    "compared": {
+      "width": 1440,
+      "height": 4238,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1508,
+        "shift": -21,
+        "cumulative": -21
+      },
+      {
+        "y": 3290,
+        "shift": -21,
+        "cumulative": -42
+      },
+      {
+        "y": 4062,
+        "shift": 1,
+        "cumulative": -41
+      }
+    ],
+    "maxOffset": 42,
+    "totalShift": 43,
+    "insertedRows": 1,
+    "deletedRows": 42,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 5.5,
+        "unaligned": 5.5
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 9.3,
+        "unaligned": 9.3
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 4.2,
+        "unaligned": 6.5
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 10.3
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0.3,
+        "unaligned": 7.1
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 4.2,
+        "unaligned": 20.4
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0,
+        "unaligned": 2.9
+      },
+      {
+        "y0": 4000,
+        "y1": 4237,
+        "pct": 0.4,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/en-us-research-best-eco-laundry-detergent/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 42,
+    "totalShift": 43,
+    "pass": false
+  },
+  "reason": "offsets: 3 step(s), 43px total — −21px at y=1508, −21px at y=3290, +1px at y=4062 (bound 42px)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/best-eco-laundry-detergent"
+  }
+}

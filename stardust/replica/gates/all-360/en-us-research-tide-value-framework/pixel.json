@@ -1,0 +1,184 @@
+{
+  "a": "stardust/replica/gates/all-360/en-us-research-tide-value-framework/origin.png",
+  "b": "stardust/replica/gates/all-360/en-us-research-tide-value-framework/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 4990,
+    "mode": "overlap"
+  },
+  "heightDelta": 20,
+  "differingPixels": 234814,
+  "pct": 13.07,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/en-us-research-tide-value-framework/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 25.69,
+  "textBoxes": 117,
+  "textPixels": 650712,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 4.7
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 23.9
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 16.3
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 20.8
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 11.3
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 15
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 19
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 6.8
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 8
+    },
+    {
+      "y0": 4500,
+      "y1": 4990,
+      "pct": 4.8
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 1.38,
+    "differingPixels": 24884,
+    "compared": {
+      "width": 360,
+      "height": 5011,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 457,
+        "shift": -20,
+        "cumulative": -20
+      },
+      {
+        "y": 4279,
+        "shift": 1,
+        "cumulative": -19
+      },
+      {
+        "y": 4499,
+        "shift": -1,
+        "cumulative": -20
+      }
+    ],
+    "maxOffset": 20,
+    "totalShift": 22,
+    "insertedRows": 1,
+    "deletedRows": 21,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 4.7,
+        "unaligned": 4.7
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 8.7,
+        "unaligned": 23.9
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 16.3
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 20.8
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 11.3
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 15
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 19
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0,
+        "unaligned": 6.8
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0.4,
+        "unaligned": 8
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0,
+        "unaligned": null
+      },
+      {
+        "y0": 5000,
+        "y1": 5010,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/en-us-research-tide-value-framework/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 50,
+    "totalShift": 22,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/tide-value-framework"
+  }
+}

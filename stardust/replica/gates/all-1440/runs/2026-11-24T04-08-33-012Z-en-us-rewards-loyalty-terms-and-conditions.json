@@ -1,0 +1,696 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-24T04:08:33.010Z",
+    "stage": "published",
+    "breakpoint": 1440,
+    "threshold": 10,
+    "offsetMax": "the larger of 8px and 1% of the origin height; roster tolerance: 5% of the origin height with no step over 200px",
+    "originReference": "frozen",
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "pixel criterion (aligned % ≤ 10 AND total offset ≤ the bound; alignment not used: unaligned % ≤ 10) AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://tide.com",
+    "eds": "https://main--5db7d055--aemcoder.aem.page",
+    "edsHostOverride": "https://main--5db7d055--aemcoder.aem.page",
+    "only": [
+      "en-us-rewards-loyalty-terms-and-conditions",
+      "en-us-research-pva-technical-review",
+      "en-us-our-commitment-ingredients-and-safety-all-about-tide-ingredients",
+      "en-us-how-to-wash-clothes-effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry",
+      "en-us-how-to-wash-clothes-washing-different-fabrics-and-colors-everyday-items-to-wash-regularly",
+      "en-us-rewards-laundrytips-how-to-remove-armpit-stains"
+    ]
+  },
+  "totals": {
+    "pages": 6,
+    "pass": 6,
+    "pixelOnlyPass": 6,
+    "overridePass": 0,
+    "fail": 0,
+    "error": 0,
+    "probeErrors": 0,
+    "failPixel": 0,
+    "failHeight": 0,
+    "failClip": 0,
+    "failContent": 0,
+    "failUnits": 0,
+    "unitsNotDeclared": 1,
+    "unitsRecordedNotDeclared": 0,
+    "fontsNotLoaded": 0,
+    "fontsDeadOnSource": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "alignedOnlyPass": 4,
+    "failOffsets": 0,
+    "offsetsWithinTolerance": 5,
+    "referenceUnstable": 0,
+    "passWithOverrides": 6
+  },
+  "rows": [
+    {
+      "slug": "en-us-how-to-wash-clothes-effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry",
+      "path": "/en-us/how-to-wash-clothes/effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry",
+      "template": "article",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 15.18,
+      "textPct": 28.19,
+      "heightDelta": -135,
+      "originH": 5279,
+      "edsH": 5414,
+      "alignedPct": 8.89,
+      "alignedUsed": true,
+      "totalShift": 151,
+      "steps": [
+        {
+          "y": 1341,
+          "shift": 18,
+          "cumulative": 18
+        },
+        {
+          "y": 2130,
+          "shift": 44,
+          "cumulative": 62
+        },
+        {
+          "y": 3560,
+          "shift": -8,
+          "cumulative": 54
+        },
+        {
+          "y": 4374,
+          "shift": 81,
+          "cumulative": 135
+        }
+      ],
+      "offsetBound": 53,
+      "offsetTolerance": 263,
+      "offsetJudge": "tolerance",
+      "offsetsWithinTolerance": true,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": true,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [
+        "offsets within the roster tolerance: 151px total, largest step 81px (strict bound 53px, tolerance 263px)"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 1,
+        "hiddenButtons": 0,
+        "findings": 2,
+        "variable": []
+      },
+      "unitsDeclared": 2,
+      "unitsRecorded": null,
+      "units": {
+        "units": 7,
+        "within": 10,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-1440/en-us-how-to-wash-clothes-effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "0-500:15.5%",
+        "500-1000:32.7%",
+        "3500-4000:34.7%",
+        "4000-4500:29%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "en-us-how-to-wash-clothes-washing-different-fabrics-and-colors-everyday-items-to-wash-regularly",
+      "path": "/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors/everyday-items-to-wash-regularly",
+      "template": "article",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 15.69,
+      "textPct": 25.72,
+      "heightDelta": 158,
+      "originH": 10793,
+      "edsH": 10635,
+      "alignedPct": 8.88,
+      "alignedUsed": true,
+      "totalShift": 362,
+      "steps": [
+        {
+          "y": 1006,
+          "shift": 21,
+          "cumulative": 21
+        },
+        {
+          "y": 4645,
+          "shift": -187,
+          "cumulative": -166
+        },
+        {
+          "y": 4941,
+          "shift": -69,
+          "cumulative": -235
+        },
+        {
+          "y": 9102,
+          "shift": -4,
+          "cumulative": -239
+        },
+        {
+          "y": 9888,
+          "shift": 81,
+          "cumulative": -158
+        }
+      ],
+      "offsetBound": 108,
+      "offsetTolerance": 539,
+      "offsetJudge": "tolerance",
+      "offsetsWithinTolerance": true,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": true,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [
+        "offsets within the roster tolerance: 362px total, largest step 187px (strict bound 108px, tolerance 539px)"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 1,
+        "hiddenButtons": 0,
+        "findings": 1,
+        "variable": []
+      },
+      "unitsDeclared": 1,
+      "unitsRecorded": null,
+      "units": {
+        "units": 2,
+        "within": 2,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-1440/en-us-how-to-wash-clothes-washing-different-fabrics-and-colors-everyday-items-to-wash-regularly",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "500-1000:38.6%",
+        "8500-9000:49.4%",
+        "9000-9500:76.5%",
+        "9500-10000:36.7%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "en-us-our-commitment-ingredients-and-safety-all-about-tide-ingredients",
+      "path": "/en-us/our-commitment/ingredients-and-safety/all-about-tide-ingredients",
+      "template": "article",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 6.43,
+      "textPct": 10.22,
+      "heightDelta": -81,
+      "originH": 4874,
+      "edsH": 4955,
+      "alignedPct": 4.66,
+      "alignedUsed": true,
+      "totalShift": 83,
+      "steps": [
+        {
+          "y": 3664,
+          "shift": 1,
+          "cumulative": 1
+        },
+        {
+          "y": 3968,
+          "shift": 81,
+          "cumulative": 82
+        },
+        {
+          "y": 4697,
+          "shift": -1,
+          "cumulative": 81
+        }
+      ],
+      "offsetBound": 49,
+      "offsetTolerance": 243,
+      "offsetJudge": "tolerance",
+      "offsetsWithinTolerance": true,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": true,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [
+        "offsets within the roster tolerance: 83px total, largest step 81px (strict bound 49px, tolerance 243px)"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 1,
+        "hiddenButtons": 0,
+        "findings": 1,
+        "variable": []
+      },
+      "unitsDeclared": 1,
+      "unitsRecorded": null,
+      "units": {
+        "units": 3,
+        "within": 3,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-1440/en-us-our-commitment-ingredients-and-safety-all-about-tide-ingredients",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "4000-4500:23.5%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "en-us-research-pva-technical-review",
+      "path": "/en-us/research/pva-technical-review",
+      "template": "article",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 10.74,
+      "textPct": 21.33,
+      "heightDelta": 64,
+      "originH": 10134,
+      "edsH": 10070,
+      "alignedPct": 3.95,
+      "alignedUsed": true,
+      "totalShift": 176,
+      "steps": [
+        {
+          "y": 1569,
+          "shift": 55,
+          "cumulative": 55
+        },
+        {
+          "y": 2895,
+          "shift": -16,
+          "cumulative": 39
+        },
+        {
+          "y": 3296,
+          "shift": -2,
+          "cumulative": 37
+        },
+        {
+          "y": 4777,
+          "shift": -16,
+          "cumulative": 21
+        },
+        {
+          "y": 5027,
+          "shift": -16,
+          "cumulative": 5
+        },
+        {
+          "y": 5180,
+          "shift": -16,
+          "cumulative": -11
+        },
+        {
+          "y": 5632,
+          "shift": -16,
+          "cumulative": -27
+        },
+        {
+          "y": 5810,
+          "shift": -16,
+          "cumulative": -43
+        },
+        {
+          "y": 7654,
+          "shift": -21,
+          "cumulative": -64
+        },
+        {
+          "y": 7821,
+          "shift": -1,
+          "cumulative": -65
+        },
+        {
+          "y": 9959,
+          "shift": 1,
+          "cumulative": -64
+        }
+      ],
+      "offsetBound": 101,
+      "offsetTolerance": 506,
+      "offsetJudge": "tolerance",
+      "offsetsWithinTolerance": true,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": true,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [
+        "offsets within the roster tolerance: 176px total, largest step 55px (strict bound 101px, tolerance 506px)"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 0,
+        "variable": []
+      },
+      "unitsDeclared": 1,
+      "unitsRecorded": null,
+      "units": {
+        "units": 3,
+        "within": 3,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-1440/en-us-research-pva-technical-review",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "9000-9500:27.2%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "en-us-rewards-laundrytips-how-to-remove-armpit-stains",
+      "path": "/en-us/rewards/laundrytips/how-to-remove-armpit-stains",
+      "template": "article",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 10.7,
+      "textPct": 24.02,
+      "heightDelta": -28,
+      "originH": 7091,
+      "edsH": 7119,
+      "alignedPct": 3.97,
+      "alignedUsed": true,
+      "totalShift": 92,
+      "steps": [
+        {
+          "y": 226,
+          "shift": 19,
+          "cumulative": 19
+        },
+        {
+          "y": 2803,
+          "shift": 40,
+          "cumulative": 59
+        },
+        {
+          "y": 4171,
+          "shift": -30,
+          "cumulative": 29
+        },
+        {
+          "y": 5732,
+          "shift": -2,
+          "cumulative": 27
+        },
+        {
+          "y": 6916,
+          "shift": 1,
+          "cumulative": 28
+        }
+      ],
+      "offsetBound": 71,
+      "offsetTolerance": 354,
+      "offsetJudge": "tolerance",
+      "offsetsWithinTolerance": true,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": true,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [
+        "offsets within the roster tolerance: 92px total, largest step 40px (strict bound 71px, tolerance 354px)"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 1,
+        "hiddenButtons": 0,
+        "findings": 1,
+        "variable": []
+      },
+      "unitsDeclared": 1,
+      "unitsRecorded": null,
+      "units": {
+        "units": 2,
+        "within": 4,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-1440/en-us-rewards-laundrytips-how-to-remove-armpit-stains",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "2500-3000:16.5%",
+        "3000-3500:20.3%",
+        "5000-5500:18.7%",
+        "5500-6000:16.1%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "en-us-rewards-loyalty-terms-and-conditions",
+      "path": "/en-us/rewards/loyalty/terms-and-conditions",
+      "template": "article",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 5.73,
+      "textPct": 12.01,
+      "heightDelta": 85,
+      "originH": 11068,
+      "edsH": 10983,
+      "alignedPct": 1.35,
+      "alignedUsed": true,
+      "totalShift": 87,
+      "steps": [
+        {
+          "y": 3112,
+          "shift": -4,
+          "cumulative": -4
+        },
+        {
+          "y": 4743,
+          "shift": -2,
+          "cumulative": -6
+        },
+        {
+          "y": 9901,
+          "shift": -80,
+          "cumulative": -86
+        },
+        {
+          "y": 10893,
+          "shift": 1,
+          "cumulative": -85
+        }
+      ],
+      "offsetBound": 111,
+      "offsetTolerance": 553,
+      "offsetJudge": "bound",
+      "offsetsWithinTolerance": false,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [
+        "units: no family declared for this page — the repeated-unit check did not run"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 0,
+        "variable": []
+      },
+      "unitsDeclared": 0,
+      "unitsRecorded": null,
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-1440/en-us-rewards-loyalty-terms-and-conditions",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "10000-10500:29.8%"
+      ],
+      "error": null
+    }
+  ]
+}

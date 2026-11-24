@@ -1,0 +1,188 @@
+/* topic-hub-guide-header — live .alp-guide-header + .alp-icons-section. Spec: stardust/
+   prototypes/en-us-how-to-wash-clothes-how-to-remove-stains.css (.alp-types*) */
+
+/* the orange skin overrides colours only, the head and icon selectors are disjoint */
+/* stylelint-disable no-descending-specificity */
+.topic-hub-guide-header {
+  padding: 60px 0 10px;
+  color: var(--tide-navy);
+}
+
+.topic-hub-guide-header .thgh-head > * {
+  margin: 0;
+}
+
+.topic-hub-guide-header .thgh-head h2 {
+  color: var(--tide-orange);
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 44px;
+  letter-spacing: 0;
+}
+
+.topic-hub-guide-header .thgh-head h2 + * {
+  margin-top: 20px;
+}
+
+.topic-hub-guide-header .thgh-head h5 {
+  color: var(--tide-navy);
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 26px;
+  letter-spacing: 0;
+}
+
+.topic-hub-guide-header .thgh-head p {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.topic-hub-guide-header .thgh-head a:any-link {
+  color: #fff;
+}
+
+.topic-hub-guide-header .thgh-icons {
+  margin: 60px 0 0;
+  padding: 0;
+}
+
+.topic-hub-guide-header .thgh-icon {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 0 15px 50px;
+}
+
+.topic-hub-guide-header .thgh-icon-media {
+  display: flex;
+  flex: 0 0 70px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.topic-hub-guide-header .thgh-icon-media > * {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.topic-hub-guide-header .thgh-icon-media .thgh-desktop {
+  display: none;
+}
+
+.topic-hub-guide-header .thgh-icon-media img {
+  display: block;
+  max-width: 100%;
+}
+
+.topic-hub-guide-header .thgh-icon-text {
+  flex: 0 0 285px;
+  align-self: center;
+  padding-left: 15px;
+}
+
+.topic-hub-guide-header .thgh-icon-text h6 {
+  margin: 0;
+  color: var(--tide-orange);
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 24px;
+  letter-spacing: 0.0375em;
+}
+
+.topic-hub-guide-header .thgh-icon-text p {
+  margin: 5px 0 0;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+@media (width >= 992px) {
+  .topic-hub-guide-header {
+    padding: 60px 0;
+  }
+
+  .topic-hub-guide-header.orange {
+    background-color: var(--tide-orange);
+    color: #fff;
+  }
+
+  .topic-hub-guide-header .thgh-head h2,
+  .topic-hub-guide-header .thgh-head h5 {
+    max-width: 50%;
+  }
+
+  .topic-hub-guide-header.orange .thgh-head > *,
+  .topic-hub-guide-header.orange .thgh-head h2,
+  .topic-hub-guide-header.orange .thgh-head h5 {
+    color: #fff;
+  }
+
+  .topic-hub-guide-header .thgh-head h2 {
+    font-size: 48px;
+    line-height: 52px;
+  }
+
+  .topic-hub-guide-header .thgh-head h5 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .topic-hub-guide-header .thgh-head p {
+    line-height: 24px;
+  }
+
+  .topic-hub-guide-header .thgh-icons {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0 2.3333%;
+  }
+
+  .topic-hub-guide-header .thgh-icon {
+    flex: 0 0 20%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    max-width: 20%;
+    padding: 0 30px;
+  }
+
+  .topic-hub-guide-header .thgh-icon-media {
+    flex: 0 0 100%;
+  }
+
+  .topic-hub-guide-header .thgh-icon-media > * {
+    width: 100%;
+  }
+
+  .topic-hub-guide-header .thgh-icon-media .thgh-desktop {
+    display: flex;
+  }
+
+  .topic-hub-guide-header .thgh-icon-media .thgh-mobile {
+    display: none;
+  }
+
+  .topic-hub-guide-header .thgh-icon-text {
+    flex: 0 0 100%;
+    align-self: auto;
+    margin-top: 45px;
+    padding-left: 0;
+  }
+
+  .topic-hub-guide-header.orange .thgh-icon-text h6,
+  .topic-hub-guide-header.orange .thgh-icon-text p {
+    color: #fff;
+  }
+
+  .topic-hub-guide-header .thgh-icon-text p {
+    margin-top: 15px;
+    font-size: 19px;
+    line-height: 24px;
+  }
+}
+
+@media (width >= 1200px) {
+  .topic-hub-guide-header .thgh-icons {
+    padding: 0 8.3333%;
+  }
+}

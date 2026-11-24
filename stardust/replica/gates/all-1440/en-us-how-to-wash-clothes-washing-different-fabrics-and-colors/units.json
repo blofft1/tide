@@ -1,0 +1,1338 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-24T09:20:47.875Z",
+  "tol": 4,
+  "n": 5,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://tide.com/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors",
+  "at": "2026-11-24T05:22:51.291Z",
+  "docH": 9667
+ },
+ "eds": {
+  "url": "https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors",
+  "at": "2026-11-24T09:20:47.713Z",
+  "docH": 9665
+ },
+ "results": [
+  {
+   "sel": ".guide-step-wrapper=.step-timeline .step-timeline-step",
+   "family": null,
+   "required": true,
+   "originMatches": 8,
+   "edsMatches": 8,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.col-12.col-lg-6 > div.guide-steps-container > div.guide-step-wrapper"
+     },
+     "eds": {
+      "path": "div.container > div.step-timeline-steps > div.step-timeline-step"
+     },
+     "rows": [
+      {
+       "key": "text:natural fabrics",
+       "role": "text",
+       "text": "natural fabrics",
+       "edsText": "natural fabrics",
+       "byPosition": false,
+       "origin": {
+        "x": 90,
+        "y": 0,
+        "w": 201,
+        "h": 30
+       },
+       "eds": {
+        "x": 90,
+        "y": 0,
+        "w": 201,
+        "h": 30,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      },
+      {
+       "key": "box:div.guide-progress-bar-mark#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": true,
+       "origin": {
+        "x": 36,
+        "y": 3,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 36,
+        "y": 3,
+        "w": 24,
+        "h": 24,
+        "sel": "span.step-timeline-mark",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "box:div.guide-progress-bar-bottom-line#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": true,
+       "origin": {
+        "x": 46,
+        "y": 27,
+        "w": 4,
+        "h": 217
+       },
+       "eds": {
+        "x": 46,
+        "y": 27,
+        "w": 4,
+        "h": 217,
+        "sel": "span.step-timeline-line-bottom",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:breathable, comfortable, and good for th",
+       "role": "text",
+       "text": "breathable, comfortable, and good for the environment, natur",
+       "edsText": "breathable, comfortable, and good for the environment, natur",
+       "byPosition": false,
+       "origin": {
+        "x": 90,
+        "y": 40,
+        "w": 465,
+        "h": 144
+       },
+       "eds": {
+        "x": 90,
+        "y": 40,
+        "w": 465,
+        "h": 144,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 443,
+       "y": 5483,
+       "w": 555,
+       "h": 244
+      },
+      "eds": {
+       "x": 443,
+       "y": 5482,
+       "w": 555,
+       "h": 244
+      },
+      "dx": 0,
+      "dy": -1,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.col-12.col-lg-6 > div.guide-steps-container > div.guide-step-wrapper"
+     },
+     "eds": {
+      "path": "div.container > div.step-timeline-steps > div.step-timeline-step"
+     },
+     "rows": [
+      {
+       "key": "box:div.guide-progress-bar-top-line#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": true,
+       "origin": {
+        "x": 46,
+        "y": 0,
+        "w": 4,
+        "h": 3
+       },
+       "eds": {
+        "x": 46,
+        "y": 0,
+        "w": 4,
+        "h": 3,
+        "sel": "span.step-timeline-line-top",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:cotton",
+       "role": "text",
+       "text": "cotton",
+       "edsText": "cotton",
+       "byPosition": false,
+       "origin": {
+        "x": 90,
+        "y": 0,
+        "w": 92,
+        "h": 30
+       },
+       "eds": {
+        "x": 90,
+        "y": 0,
+        "w": 92,
+        "h": 30,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      },
+      {
+       "key": "box:div.guide-progress-bar-mark#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": true,
+       "origin": {
+        "x": 36,
+        "y": 3,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 36,
+        "y": 3,
+        "w": 24,
+        "h": 24,
+        "sel": "span.step-timeline-mark",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "box:div.guide-progress-bar-bottom-line#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": true,
+       "origin": {
+        "x": 46,
+        "y": 27,
+        "w": 4,
+        "h": 313
+       },
+       "eds": {
+        "x": 46,
+        "y": 27,
+        "w": 4,
+        "h": 313,
+        "sel": "span.step-timeline-line-bottom",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:cotton is one of the most common fabrics",
+       "role": "text",
+       "text": "cotton is one of the most common fabrics, inexpensive and du",
+       "edsText": "cotton is one of the most common fabrics, inexpensive and du",
+       "byPosition": false,
+       "origin": {
+        "x": 90,
+        "y": 40,
+        "w": 465,
+        "h": 240
+       },
+       "eds": {
+        "x": 90,
+        "y": 40,
+        "w": 465,
+        "h": 240,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:how to wash cotton clothes",
+       "role": "link",
+       "text": "how to wash cotton clothes",
+       "edsText": "how to wash cotton clothes",
+       "byPosition": false,
+       "origin": {
+        "x": 90,
+        "y": 139,
+        "w": 417,
+        "h": 43
+       },
+       "eds": {
+        "x": 90,
+        "y": 139,
+        "w": 417,
+        "h": 43,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/700",
+        "eds": "16/20/700"
+       }
+      },
+      {
+       "key": "link:wash a pair of jeans",
+       "role": "link",
+       "text": "wash a pair of jeans",
+       "edsText": "wash a pair of jeans",
+       "byPosition": false,
+       "origin": {
+        "x": 90,
+        "y": 235,
+        "w": 460,
+        "h": 43
+       },
+       "eds": {
+        "x": 90,
+        "y": 235,
+        "w": 460,
+        "h": 43,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/700",
+        "eds": "16/20/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 443,
+       "y": 5727,
+       "w": 555,
+       "h": 340
+      },
+      "eds": {
+       "x": 443,
+       "y": 5726,
+       "w": 555,
+       "h": 340
+      },
+      "dx": 0,
+      "dy": -1,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 7,
+      "within": 7,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.col-12.col-lg-6 > div.guide-steps-container > div.guide-step-wrapper"
+     },
+     "eds": {
+      "path": "div.container > div.step-timeline-steps > div.step-timeline-step"
+     },
+     "rows": [
+      {
+       "key": "box:div.guide-progress-bar-top-line#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": true,
+       "origin": {
+        "x": 46,
+        "y": 0,
+        "w": 4,
+        "h": 3
+       },
+       "eds": {
+        "x": 46,
+        "y": 0,
+        "w": 4,
+        "h": 3,
+        "sel": "span.step-timeline-line-top",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:wool",
+       "role": "text",
+       "text": "wool",
+       "edsText": "wool",
+       "byPosition": false,
+       "origin": {
+        "x": 90,
+        "y": 0,
+        "w": 68,
+        "h": 30
+       },
+       "eds": {
+        "x": 90,
+        "y": 0,
+        "w": 68,
+        "h": 30,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      },
+      {
+       "key": "box:div.guide-progress-bar-mark#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": true,
+       "origin": {
+        "x": 36,
+        "y": 3,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 36,
+        "y": 3,
+        "w": 24,
+        "h": 24,
+        "sel": "span.step-timeline-mark",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "box:div.guide-progress-bar-bottom-line#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": true,
+       "origin": {
+        "x": 46,
+        "y": 27,
+        "w": 4,
+        "h": 217
+       },
+       "eds": {
+        "x": 46,
+        "y": 27,
+        "w": 4,
+        "h": 217,
+        "sel": "span.step-timeline-line-bottom",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:wool is made from the fur of sheep and i",
+       "role": "text",
+       "text": "wool is made from the fur of sheep and is very warm and dura",
+       "edsText": "wool is made from the fur of sheep and is very warm and dura",
+       "byPosition": false,
+       "origin": {
+        "x": 90,
+        "y": 40,
+        "w": 465,
+        "h": 144
+       },
+       "eds": {
+        "x": 90,
+        "y": 40,
+        "w": 465,
+        "h": 144,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 443,
+       "y": 6067,
+       "w": 555,
+       "h": 244
+      },
+      "eds": {
+       "x": 443,
+       "y": 6066,
+       "w": 555,
+       "h": 244
+      },
+      "dx": 0,
+      "dy": -1,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.col-12.col-lg-6 > div.guide-steps-container > div.guide-step-wrapper"
+     },
+     "eds": {
+      "path": "div.container > div.step-timeline-steps > div.step-timeline-step"
+     },
+     "rows": [
+      {
+       "key": "box:div.guide-progress-bar-top-line#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": true,
+       "origin": {
+        "x": 46,
+        "y": 0,
+        "w": 4,
+        "h": 3
+       },
+       "eds": {
+        "x": 46,
+        "y": 0,
+        "w": 4,
+        "h": 3,
+        "sel": "span.step-timeline-line-top",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:silk",
+       "role": "text",
+       "text": "silk",
+       "edsText": "silk",
+       "byPosition": false,
+       "origin": {
+        "x": 90,
+        "y": 0,
+        "w": 49,
+        "h": 30
+       },
+       "eds": {
+        "x": 90,
+        "y": 0,
+        "w": 49,
+        "h": 30,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      },
+      {
+       "key": "box:div.guide-progress-bar-mark#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": true,
+       "origin": {
+        "x": 36,
+        "y": 3,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 36,
+        "y": 3,
+        "w": 24,
+        "h": 24,
+        "sel": "span.step-timeline-mark",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "box:div.guide-progress-bar-bottom-line#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": true,
+       "origin": {
+        "x": 46,
+        "y": 27,
+        "w": 4,
+        "h": 217
+       },
+       "eds": {
+        "x": 46,
+        "y": 27,
+        "w": 4,
+        "h": 217,
+        "sel": "span.step-timeline-line-bottom",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:known as a high quality, expensive mater",
+       "role": "text",
+       "text": "known as a high quality, expensive material, silk requires s",
+       "edsText": "known as a high quality, expensive material, silk requires s",
+       "byPosition": false,
+       "origin": {
+        "x": 90,
+        "y": 40,
+        "w": 465,
+        "h": 144
+       },
+       "eds": {
+        "x": 90,
+        "y": 40,
+        "w": 465,
+        "h": 144,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:how to care for your silk clothes here",
+       "role": "link",
+       "text": "how to care for your silk clothes here",
+       "edsText": "how to care for your silk clothes here",
+       "byPosition": false,
+       "origin": {
+        "x": 90,
+        "y": 139,
+        "w": 450,
+        "h": 43
+       },
+       "eds": {
+        "x": 90,
+        "y": 139,
+        "w": 450,
+        "h": 43,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/700",
+        "eds": "16/20/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 443,
+       "y": 6311,
+       "w": 555,
+       "h": 244
+      },
+      "eds": {
+       "x": 443,
+       "y": 6310,
+       "w": 555,
+       "h": 244
+      },
+      "dx": 0,
+      "dy": -1,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.col-12.col-lg-6 > div.guide-steps-container > div.guide-step-wrapper"
+     },
+     "eds": {
+      "path": "div.container > div.step-timeline-steps > div.step-timeline-step"
+     },
+     "rows": [
+      {
+       "key": "box:div.guide-progress-bar-top-line#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": true,
+       "origin": {
+        "x": 46,
+        "y": 0,
+        "w": 4,
+        "h": 3
+       },
+       "eds": {
+        "x": 46,
+        "y": 0,
+        "w": 4,
+        "h": 3,
+        "sel": "span.step-timeline-line-top",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:synthetic fabrics",
+       "role": "text",
+       "text": "synthetic fabrics",
+       "edsText": "synthetic fabrics",
+       "byPosition": false,
+       "origin": {
+        "x": 90,
+        "y": 0,
+        "w": 230,
+        "h": 30
+       },
+       "eds": {
+        "x": 90,
+        "y": 0,
+        "w": 230,
+        "h": 30,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      },
+      {
+       "key": "box:div.guide-progress-bar-mark#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": true,
+       "origin": {
+        "x": 36,
+        "y": 3,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 36,
+        "y": 3,
+        "w": 24,
+        "h": 24,
+        "sel": "span.step-timeline-mark",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "box:div.guide-progress-bar-bottom-line#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": true,
+       "origin": {
+        "x": 46,
+        "y": 27,
+        "w": 4,
+        "h": 193
+       },
+       "eds": {
+        "x": 46,
+        "y": 27,
+        "w": 4,
+        "h": 193,
+        "sel": "span.step-timeline-line-bottom",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:synthetic fabrics are great because they",
+       "role": "text",
+       "text": "synthetic fabrics are great because they are all-purpose. wa",
+       "edsText": "synthetic fabrics are great because they are all-purpose. wa",
+       "byPosition": false,
+       "origin": {
+        "x": 90,
+        "y": 40,
+        "w": 465,
+        "h": 120
+       },
+       "eds": {
+        "x": 90,
+        "y": 40,
+        "w": 465,
+        "h": 120,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:tide plus febreze sport odor defense liq",
+       "role": "link",
+       "text": "tide plus febreze sport odor defense liquid laundry detergen",
+       "edsText": "tide plus febreze sport odor defense liquid laundry detergen",
+       "byPosition": false,
+       "origin": {
+        "x": 90,
+        "y": 67,
+        "w": 439,
+        "h": 43
+       },
+       "eds": {
+        "x": 90,
+        "y": 67,
+        "w": 439,
+        "h": 43,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/700",
+        "eds": "16/20/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 443,
+       "y": 6555,
+       "w": 555,
+       "h": 220
+      },
+      "eds": {
+       "x": 443,
+       "y": 6554,
+       "w": 555,
+       "h": 220
+      },
+      "dx": 0,
+      "dy": -1,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": "#sticky-nav li=.jump-links li",
+   "family": null,
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "nav > ul > li"
+     },
+     "eds": {
+      "path": "nav > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:how to wash all kinds of garments",
+       "role": "button",
+       "text": "how to wash all kinds of garments",
+       "edsText": "how to wash all kinds of garments",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 250,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 250,
+        "h": 46,
+        "sel": "span.jump-links-item",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/700",
+        "eds": "14/16/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 150,
+       "y": 1068,
+       "w": 250,
+       "h": 46
+      },
+      "eds": {
+       "x": 150,
+       "y": 1068,
+       "w": 250,
+       "h": 46
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "nav > ul > li"
+     },
+     "eds": {
+      "path": "nav > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:a quick guide to washing the most common",
+       "role": "button",
+       "text": "a quick guide to washing the most common types of fabrics",
+       "edsText": "a quick guide to washing the most common types of fabrics",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 433,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 433,
+        "h": 46,
+        "sel": "span.jump-links-item",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/700",
+        "eds": "14/16/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 440,
+       "y": 1068,
+       "w": 433,
+       "h": 46
+      },
+      "eds": {
+       "x": 440,
+       "y": 1068,
+       "w": 433,
+       "h": 46
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "nav > ul > li"
+     },
+     "eds": {
+      "path": "nav > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:tips for washing different color clothes",
+       "role": "button",
+       "text": "tips for washing different color clothes",
+       "edsText": "tips for washing different color clothes",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 282,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 282,
+        "h": 46,
+        "sel": "span.jump-links-item",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/700",
+        "eds": "14/16/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 913,
+       "y": 1068,
+       "w": 282,
+       "h": 46
+      },
+      "eds": {
+       "x": 913,
+       "y": 1068,
+       "w": 282,
+       "h": 46
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 8,
+  "within": 31,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

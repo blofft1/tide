@@ -1,0 +1,129 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-us-shop-special-needs-additives/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-us-shop-special-needs-additives/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 2829,
+    "mode": "overlap"
+  },
+  "heightDelta": 19,
+  "differingPixels": 123676,
+  "pct": 3.04,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/en-us-shop-special-needs-additives/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 8.98,
+  "textBoxes": 82,
+  "textPixels": 281182,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.5
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.4
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 1.6
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 6.6
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 6.1
+    },
+    {
+      "y0": 2500,
+      "y1": 2829,
+      "pct": 3
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 1.32,
+    "differingPixels": 54130,
+    "compared": {
+      "width": 1440,
+      "height": 2849,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1902,
+        "shift": -20,
+        "cumulative": -20
+      },
+      {
+        "y": 2673,
+        "shift": 1,
+        "cumulative": -19
+      }
+    ],
+    "maxOffset": 20,
+    "totalShift": 21,
+    "insertedRows": 1,
+    "deletedRows": 20,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.5,
+        "unaligned": 0.5
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.4,
+        "unaligned": 0.4
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 1.6,
+        "unaligned": 1.6
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 4.8,
+        "unaligned": 6.6
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 6.1
+      },
+      {
+        "y0": 2500,
+        "y1": 2848,
+        "pct": 0.3,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/en-us-shop-special-needs-additives/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 28,
+    "totalShift": 21,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/additives"
+  }
+}

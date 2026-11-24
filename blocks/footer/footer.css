@@ -1,20 +1,387 @@
-footer {
-  background-color: var(--light-color);
-  font-size: var(--body-font-size-xs);
+/* tide.com footer — values lifted from the gated canon (stardust/prototypes/canon/canon.css) */
+
+.footer ul {
+  list-style: none;
 }
 
-footer .footer > div {
-  margin: auto;
-  max-width: 1200px;
-  padding: 40px 24px 24px;
+.footer img {
+  max-width: none;
 }
 
-footer .footer p {
+.footer .site-footer {
+  max-width: var(--shell-max-width);
+  margin: 20px auto 0;
+  padding-bottom: 50px;
+}
+
+.footer .footer-social {
+  background: var(--tide-orange);
+  padding: 20px 0;
+}
+
+.footer .footer-social .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.footer .footer-social-label {
+  letter-spacing: 0;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 800;
+  line-height: 19px;
+}
+
+.footer .footer-social-label p {
   margin: 0;
 }
 
-@media (width >= 900px) {
-  footer .footer > div {
-    padding: 40px 32px 24px;
+.footer .footer-social ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.footer .footer-social a {
+  display: flow-root;
+}
+
+.footer .footer-social picture {
+  display: contents;
+}
+
+.footer .footer-social li img {
+  display: flow-root;
+  width: 32px;
+  height: 32px;
+}
+
+.footer .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.footer .col,
+.footer .footer-shop li {
+  position: relative;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.footer .footer-shop ul {
+  display: contents;
+}
+
+.footer .footer-nav {
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.footer .footer-nav-title p {
+  letter-spacing: 0;
+  color: var(--tide-orange);
+  margin: 40px 0 10px;
+  padding-bottom: 25px;
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 26px;
+}
+
+.footer .footer-nav li,
+.footer .footer-general li {
+  color: var(--tide-blue);
+}
+
+.footer .footer-nav a,
+.footer .footer-general a,
+.footer .footer-related-nav a {
+  color: var(--tide-blue);
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.footer .expandable {
+  border-bottom: 1px solid var(--tide-navy);
+  padding: 32px 0 27px;
+}
+
+.footer .expandable-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  letter-spacing: 0;
+  color: var(--tide-orange);
+  background: transparent;
+  border: 0;
+  padding: 0 20px 0 0;
+  font-size: 19px;
+  font-weight: 800;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.footer .expandable-header svg {
+  width: 15px;
+  height: 8px;
+}
+
+.footer .expandable-content {
+  max-height: 0;
+  transition: max-height 0.6s;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer .expandable.is-open .expandable-content {
+  max-height: 2500px;
+}
+
+.footer .footer-related {
+  margin-top: 70px;
+}
+
+.footer .footer-related-label {
+  display: contents;
+}
+
+.footer .footer-related .footer-related-label p {
+  display: inline;
+  margin: 0 5px 0 0;
+  color: var(--tide-orange);
+  font-size: 19px;
+  font-weight: 800;
+}
+
+.footer .footer-related-nav,
+.footer .footer-general {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.footer .footer-related-nav ul {
+  display: contents;
+}
+
+.footer .footer-related-nav li,
+.footer .footer-general li {
+  margin-right: 5px;
+  color: var(--tide-blue);
+}
+
+.footer .footer-related-nav li::after,
+.footer .footer-general li::after {
+  content: "|";
+  margin-left: 5px;
+}
+
+.footer .footer-related-nav li:where(:last-of-type),
+.footer .footer-general li:where(:last-of-type) {
+  margin-right: 0;
+}
+
+.footer .footer-related-nav li:where(:last-of-type)::after,
+.footer .footer-general li:where(:last-of-type)::after {
+  display: none;
+}
+
+.footer .footer-general {
+  justify-content: space-between;
+  margin-top: 45px;
+}
+
+.footer .footer-general ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer .footer-general ul:where(:last-of-type) {
+  margin-top: 50px;
+}
+
+.footer .footer-general :where(ul:last-of-type) li {
+  display: flex;
+}
+
+/* consent opt-out trigger (a button on live; inert until martech wires it) */
+.footer .footer-general a[href="#do-not-sell"] {
+  display: contents;
+  padding: 0 6px;
+  line-height: 1.15;
+  cursor: pointer;
+}
+
+.footer .footer-general a[href*="preferencecenter.pg.com"]::after {
+  content: "";
+  background: url("../../icons/privacy-options.svg") top / 20px 20px no-repeat;
+  width: 20px;
+  height: 17px;
+  margin-left: 5px;
+  display: inline-block;
+  position: relative;
+  top: 2px;
+}
+
+.footer .footer-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer .footer-icons ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 45px;
+}
+
+.footer .footer-icons li {
+  margin-right: 30px;
+}
+
+.footer .footer-icons li:where(:last-of-type) {
+  margin-right: 0;
+}
+
+@media (width >= 768px) {
+  .footer .site-footer {
+    margin-top: 40px;
+    padding-bottom: 120px;
+  }
+
+  .footer .footer-social .container {
+    text-align: left;
+    justify-content: flex-start;
+  }
+
+  .footer .footer-social-label {
+    font-size: 20px;
+  }
+
+  .footer .footer-social ul {
+    margin-left: 60px;
+  }
+
+  .footer .col-md-4,
+  .footer .footer-shop li {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+
+  .footer .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .footer .expandable {
+    border: 0;
+    padding: 0;
+  }
+
+  .footer .expandable-header {
+    cursor: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 0;
+  }
+
+  .footer .expandable-header svg {
+    display: none;
+  }
+
+  .footer .expandable-content {
+    max-height: none;
+    transition: none;
+  }
+
+  .footer .footer-nav:where(:first-of-type) .footer-nav-title p {
+    border-bottom: none;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+  }
+
+  .footer .footer-related-nav,
+  .footer .footer-general {
+    font-size: 12px;
+  }
+
+  .footer .footer-related {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .footer .footer-related .footer-related-label p {
+    color: var(--tide-blue);
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .footer .footer-icons {
+    justify-content: space-between;
+  }
+
+  .footer .footer-icons ul {
+    margin-top: 80px;
+  }
+
+  .footer .footer-general {
+    flex-wrap: nowrap;
+    margin-top: 20px;
+  }
+
+  .footer .footer-general ul:where(:last-of-type) {
+    margin-top: 0;
+  }
+}
+
+@media (width >= 992px) {
+  .footer .expandable-header {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .footer .footer-nav-title p {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .footer .footer-nav:nth-child(2) {
+    margin-top: 50px;
+  }
+
+  .footer .col-lg-8 {
+    flex: 0 0 66.6667%;
+    max-width: 66.6667%;
+  }
+
+  .footer .col-lg-4 {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+
+  .footer .col-lg-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media (width >= 1200px) {
+  .footer .footer-general a[href*="preferencecenter.pg.com"]::after {
+    background-size: 25px 25px;
+    width: 25px;
+    height: 19px;
   }
 }

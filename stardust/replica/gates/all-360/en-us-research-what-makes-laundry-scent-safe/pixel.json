@@ -1,0 +1,167 @@
+{
+  "a": "stardust/replica/gates/all-360/en-us-research-what-makes-laundry-scent-safe/origin.png",
+  "b": "stardust/replica/gates/all-360/en-us-research-what-makes-laundry-scent-safe/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 4175,
+    "mode": "overlap"
+  },
+  "heightDelta": 20,
+  "differingPixels": 168767,
+  "pct": 11.23,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/en-us-research-what-makes-laundry-scent-safe/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 20.81,
+  "textBoxes": 117,
+  "textPixels": 481819,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 4.7
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 18.1
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 12.3
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 13.7
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 13.7
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 15.7
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 6.1
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 8.9
+    },
+    {
+      "y0": 4000,
+      "y1": 4175,
+      "pct": 1.8
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 1.56,
+    "differingPixels": 23616,
+    "compared": {
+      "width": 360,
+      "height": 4196,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 457,
+        "shift": -20,
+        "cumulative": -20
+      },
+      {
+        "y": 3464,
+        "shift": 1,
+        "cumulative": -19
+      },
+      {
+        "y": 3684,
+        "shift": -1,
+        "cumulative": -20
+      }
+    ],
+    "maxOffset": 20,
+    "totalShift": 22,
+    "insertedRows": 1,
+    "deletedRows": 21,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 4.7,
+        "unaligned": 4.7
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 8,
+        "unaligned": 18.1
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 12.3
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 13.7
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 13.7
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 15.7
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0.2,
+        "unaligned": 6.1
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0.2,
+        "unaligned": 8.9
+      },
+      {
+        "y0": 4000,
+        "y1": 4195,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/en-us-research-what-makes-laundry-scent-safe/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 42,
+    "totalShift": 22,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/what-makes-laundry-scent-safe"
+  }
+}

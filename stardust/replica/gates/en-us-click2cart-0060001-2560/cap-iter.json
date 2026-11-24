@@ -1,0 +1,254 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-23T23:25:11.797Z",
+    "baseWidth": 1440,
+    "urls": [
+      "https://tide.com/en-us/click2cart/0060001",
+      "http://localhost:8791/en-us-click2cart-0060001-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from stardust/current/DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "https://tide.com/en-us/click2cart/0060001",
+    "http://localhost:8791/en-us-click2cart-0060001-proposed.html"
+  ],
+  "probeNote": "from stardust/current/DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#shopper-choice-container",
+      "isBody": false,
+      "leaves": 12,
+      "w2": 450
+    },
+    "origins": [
+      {
+        "kind": "shell",
+        "px": 450,
+        "via": "max-width",
+        "selector": "#shopper-choice-container",
+        "tier": 0,
+        "share": 1,
+        "section": -1,
+        "w1": 450,
+        "maxWidth": "450px"
+      },
+      {
+        "kind": "module",
+        "px": 407,
+        "via": "fixed",
+        "selector": "#retailer-buttons-wrapper > app-enhanced-retailer-button.ng-star-inserted > div.retailer-button-container.ng-star-inserted",
+        "tier": 8,
+        "share": 0.17,
+        "section": 0,
+        "w1": 407,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 407,
+        "via": "fixed",
+        "selector": "#retailer-buttons-wrapper > app-enhanced-retailer-button.ng-star-inserted > div.retailer-button-accordion > app-accordion",
+        "tier": 9,
+        "share": 0.25,
+        "section": 0,
+        "w1": 407,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 398,
+        "via": "fixed",
+        "selector": "div.accordion-wrapper > app-enhanced-product.ng-star-inserted > div.product-container.with-ratings > div.product-content",
+        "tier": 14,
+        "share": 0.25,
+        "section": 0,
+        "w1": 398,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 407,
+        "via": "fixed",
+        "selector": "#retailer-buttons-wrapper > app-enhanced-retailer-button.ng-star-inserted > div.retailer-button-container.ng-star-inserted",
+        "tier": 8,
+        "share": 0.08,
+        "section": 0,
+        "w1": 407,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 407,
+        "via": "fixed",
+        "selector": "#retailer-buttons-wrapper > app-enhanced-retailer-button.ng-star-inserted > div.retailer-button-container.ng-star-inserted",
+        "tier": 8,
+        "share": 0.08,
+        "section": 0,
+        "w1": 407,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 407,
+        "via": "fixed",
+        "selector": "#retailer-buttons-wrapper > app-enhanced-retailer-button.ng-star-inserted > div.retailer-button-container.ng-star-inserted",
+        "tier": 8,
+        "share": 0.08,
+        "section": 0,
+        "w1": 407,
+        "maxWidth": "none"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#scrolling-container",
+        "px": 407,
+        "capSelector": "#retailer-buttons-wrapper > app-enhanced-retailer-button.ng-star-inserted > div.retailer-button-container.ng-star-inserted"
+      },
+      {
+        "index": 1,
+        "selector": "#shopper-choice-container > app-enhanced-footer",
+        "px": null,
+        "capSelector": null
+      }
+    ],
+    "shellMaxWidth": 450,
+    "contentMaxWidth": 450,
+    "contentFrom": "shell",
+    "maxCap": 450,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 76
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#shopper-choice-container",
+      "isBody": false,
+      "leaves": 12,
+      "w2": 450
+    },
+    "origins": [
+      {
+        "kind": "shell",
+        "px": 450,
+        "via": "max-width",
+        "selector": "#shopper-choice-container",
+        "tier": 0,
+        "share": 1,
+        "section": -1,
+        "w1": 450,
+        "maxWidth": "450px"
+      },
+      {
+        "kind": "module",
+        "px": 407,
+        "via": "fixed",
+        "selector": "#retailer-buttons-wrapper > div.retailer > div.retailer-button-container",
+        "tier": 5,
+        "share": 0.08,
+        "section": 0,
+        "w1": 407,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 407,
+        "via": "fixed",
+        "selector": "#retailer-buttons-wrapper > div.retailer > div.retailer-button-container",
+        "tier": 5,
+        "share": 0.17,
+        "section": 0,
+        "w1": 407,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 407,
+        "via": "fixed",
+        "selector": "#retailer-buttons-wrapper > div.retailer > div.retailer-button-accordion > div.accordion-body",
+        "tier": 6,
+        "share": 0.25,
+        "section": 0,
+        "w1": 407,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 407,
+        "via": "fixed",
+        "selector": "#retailer-buttons-wrapper > div.retailer > div.retailer-button-container",
+        "tier": 5,
+        "share": 0.08,
+        "section": 0,
+        "w1": 407,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 407,
+        "via": "fixed",
+        "selector": "#retailer-buttons-wrapper > div.retailer > div.retailer-button-container",
+        "tier": 5,
+        "share": 0.08,
+        "section": 0,
+        "w1": 407,
+        "maxWidth": "none"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#scrolling-container",
+        "px": 407,
+        "capSelector": "#retailer-buttons-wrapper > div.retailer > div.retailer-button-container"
+      },
+      {
+        "index": 1,
+        "selector": "#sc-footer-content",
+        "px": null,
+        "capSelector": null
+      }
+    ],
+    "shellMaxWidth": 450,
+    "contentMaxWidth": 450,
+    "contentFrom": "shell",
+    "maxCap": 450,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 64
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "wrapper cap",
+        "detail": "live 450px = build 450px (±20)",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 1/2",
+        "detail": "407px = 407px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 2/2",
+        "detail": "full-bleed on both",
+        "advisory": false
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/en-us-click2cart-0060001-2560/cap-iter.json"
+}

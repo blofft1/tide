@@ -1,0 +1,81 @@
+{
+  "en-us-how-to-wash-clothes-how-to-do-laundry": {
+    "verdict": "PASS (units waived)",
+    "reason": "Step 2 timeline line is ~21px shorter: the source stepText carries an empty <h1></h1> (stardust/current/pages/en-us-how-to-wash-clothes-how-to-do-laundry.html, after 'heavy dirt.') whose collapsed margins add the gap; the EDS content pipeline drops empty headings, so it is not authorable. Every text row of the unit is within 4px apart from the trailing paragraph shift; content-diff 0/0, pixel aligned <1%. Round cap reached (topic-hub cluster rounds a-c + final).",
+    "waives": [
+      "units"
+    ]
+  },
+  "en-us-click2cart-006000b": {
+    "verdict": "PASS (capture, pixel, height waived — invalid 360 reference)",
+    "reason": "Same instrument artefact as the archetype en-us-click2cart-0060001 (stardust/replica/gates/all-360/en-us-click2cart-0060001, eds-conversion-log archetype-click2cart): the live click2cart page makes <body> the scroller, the stitch-shot priming capture fails (stitch-shot exit 1, not a bot challenge) and gate-all falls back to the 1440-wide crawl screenshot as the 360 origin (origin.json instrument crawl-fullpage, asymmetric), so pixel and Δh compare a 1440 desktop shot with a 360 page. Substitute evidence: content-diff --main #shopper-choice-container at 360 0 red / 0 yellow (stardust/.work/cluster-click2cart/cd-006000b-360.txt), measure.mjs live vs EDS at 360 panel and hero Δ0 (stardust/.work/cluster-click2cart/measure-006000b-360.txt), clip 0 and content MISSING 0 / HIDDEN 0 measured by this gate; 1440 row PASS.",
+    "waives": [
+      "capture",
+      "pixel",
+      "height"
+    ]
+  },
+  "en-us-click2cart-006000h": {
+    "verdict": "PASS (capture, pixel, height waived — invalid 360 reference)",
+    "reason": "Same instrument artefact as the archetype en-us-click2cart-0060001 (stardust/replica/gates/all-360/en-us-click2cart-0060001, eds-conversion-log archetype-click2cart): the live click2cart page makes <body> the scroller, the stitch-shot priming capture fails (stitch-shot exit 1, not a bot challenge) and gate-all falls back to the 1440-wide crawl screenshot as the 360 origin (origin.json instrument crawl-fullpage, asymmetric), so pixel and Δh compare a 1440 desktop shot with a 360 page. Substitute evidence: content-diff --main #shopper-choice-container at 360 0 red / 0 yellow (stardust/.work/cluster-click2cart/cd-006000h-360.txt), measure.mjs live vs EDS at 360 panel and hero Δ0 (stardust/.work/cluster-click2cart/measure-006000h-360.txt), clip 0 and content MISSING 0 / HIDDEN 0 measured by this gate; 1440 row PASS.",
+    "waives": [
+      "capture",
+      "pixel",
+      "height"
+    ]
+  },
+  "en-us-click2cart-006000i": {
+    "verdict": "PASS (capture, pixel, height waived — invalid 360 reference)",
+    "reason": "Same instrument artefact as the archetype en-us-click2cart-0060001 (stardust/replica/gates/all-360/en-us-click2cart-0060001, eds-conversion-log archetype-click2cart): the live click2cart page makes <body> the scroller, the stitch-shot priming capture fails (stitch-shot exit 1, not a bot challenge) and gate-all falls back to the 1440-wide crawl screenshot as the 360 origin (origin.json instrument crawl-fullpage, asymmetric), so pixel and Δh compare a 1440 desktop shot with a 360 page. Substitute evidence: content-diff --main #shopper-choice-container at 360 0 red / 0 yellow (stardust/.work/cluster-click2cart/cd-006000i-360.txt), measure.mjs live vs EDS at 360 panel and hero Δ0 (stardust/.work/cluster-click2cart/measure-006000i-360.txt), clip 0 and content MISSING 0 / HIDDEN 0 measured by this gate; 1440 row PASS.",
+    "waives": [
+      "capture",
+      "pixel",
+      "height"
+    ]
+  },
+  "en-us-click2cart-006000p": {
+    "verdict": "PASS (capture, pixel, height waived — invalid 360 reference)",
+    "reason": "Same instrument artefact as the archetype en-us-click2cart-0060001 (stardust/replica/gates/all-360/en-us-click2cart-0060001, eds-conversion-log archetype-click2cart): the live click2cart page makes <body> the scroller, the stitch-shot priming capture fails (stitch-shot exit 1, not a bot challenge) and gate-all falls back to the 1440-wide crawl screenshot as the 360 origin (origin.json instrument crawl-fullpage, asymmetric), so pixel and Δh compare a 1440 desktop shot with a 360 page. Substitute evidence: content-diff --main #shopper-choice-container at 360 0 red / 0 yellow (stardust/.work/cluster-click2cart/cd-006000p-360.txt), measure.mjs live vs EDS at 360 panel and hero Δ0 (stardust/.work/cluster-click2cart/measure-006000p-360.txt), clip 0 and content MISSING 0 / HIDDEN 0 measured by this gate; 1440 row PASS.",
+    "waives": [
+      "capture",
+      "pixel",
+      "height"
+    ]
+  },
+  "en-us-click2cart-006000q": {
+    "verdict": "PASS (capture, pixel, height waived — invalid 360 reference)",
+    "reason": "Same instrument artefact as the archetype en-us-click2cart-0060001 (stardust/replica/gates/all-360/en-us-click2cart-0060001, eds-conversion-log archetype-click2cart): the live click2cart page makes <body> the scroller, the stitch-shot priming capture fails (stitch-shot exit 1, not a bot challenge) and gate-all falls back to the 1440-wide crawl screenshot as the 360 origin (origin.json instrument crawl-fullpage, asymmetric), so pixel and Δh compare a 1440 desktop shot with a 360 page. Substitute evidence: content-diff --main #shopper-choice-container at 360 0 red / 0 yellow (stardust/.work/cluster-click2cart/cd-006000q-360.txt), measure.mjs live vs EDS at 360 panel and hero Δ0 (stardust/.work/cluster-click2cart/measure-006000q-360.txt), clip 0 and content MISSING 0 / HIDDEN 0 measured by this gate; 1440 row PASS.",
+    "waives": [
+      "capture",
+      "pixel",
+      "height"
+    ]
+  },
+  "en-us-click2cart-006000z": {
+    "verdict": "PASS (capture, pixel, height waived — invalid 360 reference)",
+    "reason": "Same instrument artefact as the archetype en-us-click2cart-0060001 (stardust/replica/gates/all-360/en-us-click2cart-0060001, eds-conversion-log archetype-click2cart): the live click2cart page makes <body> the scroller, the stitch-shot priming capture fails (stitch-shot exit 1, not a bot challenge) and gate-all falls back to the 1440-wide crawl screenshot as the 360 origin (origin.json instrument crawl-fullpage, asymmetric), so pixel and Δh compare a 1440 desktop shot with a 360 page. Substitute evidence: content-diff --main #shopper-choice-container at 360 0 red / 0 yellow (stardust/.work/cluster-click2cart/cd-006000z-360.txt), measure.mjs live vs EDS at 360 panel and hero Δ0 (stardust/.work/cluster-click2cart/measure-006000z-360.txt), clip 0 and content MISSING 0 / HIDDEN 0 measured by this gate; 1440 row PASS.",
+    "waives": [
+      "capture",
+      "pixel",
+      "height"
+    ]
+  },
+  "en-us-click2cart-00600bt": {
+    "verdict": "PASS (capture, pixel, height waived — invalid 360 reference)",
+    "reason": "Same instrument artefact as the archetype en-us-click2cart-0060001 (stardust/replica/gates/all-360/en-us-click2cart-0060001, eds-conversion-log archetype-click2cart): the live click2cart page makes <body> the scroller, the stitch-shot priming capture fails (stitch-shot exit 1, not a bot challenge) and gate-all falls back to the 1440-wide crawl screenshot as the 360 origin (origin.json instrument crawl-fullpage, asymmetric), so pixel and Δh compare a 1440 desktop shot with a 360 page. Substitute evidence: content-diff --main #shopper-choice-container at 360 0 red / 0 yellow (stardust/.work/cluster-click2cart/cd-00600bt-360.txt), measure.mjs live vs EDS at 360 panel and hero Δ0 (stardust/.work/cluster-click2cart/measure-00600bt-360.txt), clip 0 and content MISSING 0 / HIDDEN 0 measured by this gate; 1440 row PASS.",
+    "waives": [
+      "capture",
+      "pixel",
+      "height"
+    ]
+  },
+  "en-us-click2cart-0060001": {
+    "verdict": "PASS (capture, pixel, height waived — invalid 360 reference)",
+    "reason": "Archetype of the click2cart template; same instrument artefact as its seven siblings: the live click2cart page makes <body> the scroller and the stitch-shot priming capture fails at 360 (not a bot challenge), so no 360 origin can be frozen (progress.json archetype-click2cart: 360 residual, body-scroller stall). Substitute evidence re-measured at C-final: content-diff tide.com vs preview --main #shopper-choice-container --width 360 → main root 12/12 text nodes, 6/6 images, 0 red / 0 yellow (stardust/replica/gates/all-360/evidence/cd-0060001-360.txt; footer chrome findings are the site-wide foundation chrome request, not this template); clip 0 and content MISSING 0 / HIDDEN 0 measured by this gate; 1440 row PASS.",
+    "waives": [
+      "capture",
+      "pixel",
+      "height"
+    ]
+  }
+}

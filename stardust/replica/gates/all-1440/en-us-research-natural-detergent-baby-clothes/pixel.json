@@ -1,0 +1,135 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-us-research-natural-detergent-baby-clothes/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-us-research-natural-detergent-baby-clothes/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 3338,
+    "mode": "overlap"
+  },
+  "heightDelta": -1,
+  "differingPixels": 122183,
+  "pct": 2.54,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/en-us-research-natural-detergent-baby-clothes/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 8.34,
+  "textBoxes": 76,
+  "textPixels": 789445,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 6.2
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 10.2
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0
+    },
+    {
+      "y0": 3000,
+      "y1": 3338,
+      "pct": 0.8
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 2.49,
+    "differingPixels": 119696,
+    "compared": {
+      "width": 1440,
+      "height": 3339,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 3163,
+        "shift": 1,
+        "cumulative": 1
+      }
+    ],
+    "maxOffset": 1,
+    "totalShift": 1,
+    "insertedRows": 1,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 6.2,
+        "unaligned": 6.2
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 10.2,
+        "unaligned": 10.2
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 3000,
+        "y1": 3338,
+        "pct": 0.3,
+        "unaligned": 0.8
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/en-us-research-natural-detergent-baby-clothes/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 33,
+    "totalShift": 1,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/natural-detergent-baby-clothes"
+  }
+}

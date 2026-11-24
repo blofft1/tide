@@ -1,0 +1,172 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-us-how-to-do-laundry-detergent-residue-safety/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-us-how-to-do-laundry-detergent-residue-safety/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 4001,
+    "mode": "overlap"
+  },
+  "heightDelta": 188,
+  "differingPixels": 562834,
+  "pct": 9.77,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-1440/en-us-how-to-do-laundry-detergent-residue-safety/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 20.14,
+  "textBoxes": 105,
+  "textPixels": 987010,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 6.3
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 10.7
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 7.4
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 6
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 5
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 9.6
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 30.5
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 2.8
+    },
+    {
+      "y0": 4000,
+      "y1": 4001,
+      "pct": 0
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 6.63,
+    "differingPixels": 400183,
+    "compared": {
+      "width": 1440,
+      "height": 4189,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1096,
+        "shift": -28,
+        "cumulative": -28
+      },
+      {
+        "y": 1441,
+        "shift": -73,
+        "cumulative": -101
+      },
+      {
+        "y": 2060,
+        "shift": -30,
+        "cumulative": -131
+      },
+      {
+        "y": 2384,
+        "shift": -57,
+        "cumulative": -188
+      }
+    ],
+    "maxOffset": 188,
+    "totalShift": 188,
+    "insertedRows": 0,
+    "deletedRows": 188,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 6.3,
+        "unaligned": 6.3
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 10.7,
+        "unaligned": 10.7
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 18,
+        "unaligned": 7.4
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 3,
+        "unaligned": 6
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 17.7,
+        "unaligned": 5
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 9.6
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 30.5
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0,
+        "unaligned": 2.8
+      },
+      {
+        "y0": 4000,
+        "y1": 4189,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/en-us-how-to-do-laundry-detergent-residue-safety/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 42,
+    "totalShift": 188,
+    "pass": false
+  },
+  "reason": "offsets: 4 step(s), 188px total — −28px at y=1096, −73px at y=1441, −30px at y=2060, −57px at y=2384 (bound 42px)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/how-to-do-laundry/detergent-residue-safety"
+  }
+}

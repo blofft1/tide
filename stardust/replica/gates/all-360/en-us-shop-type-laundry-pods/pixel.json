@@ -1,0 +1,212 @@
+{
+  "a": "stardust/replica/gates/all-360/en-us-shop-type-laundry-pods/origin.png",
+  "b": "stardust/replica/gates/all-360/en-us-shop-type-laundry-pods/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 6932,
+    "mode": "overlap"
+  },
+  "heightDelta": -30,
+  "differingPixels": 63801,
+  "pct": 2.56,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/en-us-shop-type-laundry-pods/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 4.44,
+  "textBoxes": 163,
+  "textPixels": 488241,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.4
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 0
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 0
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 0
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 0.1
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 14.9
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 6.6
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 8.9
+    },
+    {
+      "y0": 6500,
+      "y1": 6932,
+      "pct": 5.3
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 0.47,
+    "differingPixels": 11766,
+    "compared": {
+      "width": 360,
+      "height": 6962,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 5271,
+        "shift": 30,
+        "cumulative": 30
+      }
+    ],
+    "maxOffset": 30,
+    "totalShift": 30,
+    "insertedRows": 30,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.4,
+        "unaligned": 0.4
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 5.7,
+        "unaligned": 14.9
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 0,
+        "unaligned": 6.6
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 0,
+        "unaligned": 8.9
+      },
+      {
+        "y0": 6500,
+        "y1": 6932,
+        "pct": 0,
+        "unaligned": 5.3
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/en-us-shop-type-laundry-pods/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 69,
+    "totalShift": 30,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/laundry-pods"
+  }
+}

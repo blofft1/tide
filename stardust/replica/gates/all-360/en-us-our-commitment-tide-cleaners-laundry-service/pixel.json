@@ -1,0 +1,278 @@
+{
+  "a": "stardust/replica/gates/all-360/en-us-our-commitment-tide-cleaners-laundry-service/origin.png",
+  "b": "stardust/replica/gates/all-360/en-us-our-commitment-tide-cleaners-laundry-service/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 7085,
+    "mode": "overlap"
+  },
+  "heightDelta": 194,
+  "differingPixels": 1055397,
+  "pct": 41.38,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-360/en-us-our-commitment-tide-cleaners-laundry-service/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 33.33,
+  "textBoxes": 119,
+  "textPixels": 535867,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 36.9
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 43.7
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 32
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 50
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 76.6
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 71.2
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 61.1
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 57.1
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 30.9
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 25.7
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 56.8
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 27.9
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 7.1
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 8.7
+    },
+    {
+      "y0": 7000,
+      "y1": 7085,
+      "pct": 3.9
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 9.96,
+    "differingPixels": 262228,
+    "compared": {
+      "width": 360,
+      "height": 7314,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 113,
+        "shift": -26,
+        "cumulative": -26
+      },
+      {
+        "y": 466,
+        "shift": -6,
+        "cumulative": -32
+      },
+      {
+        "y": 565,
+        "shift": -9,
+        "cumulative": -41
+      },
+      {
+        "y": 752,
+        "shift": -26,
+        "cumulative": -67
+      },
+      {
+        "y": 842,
+        "shift": -30,
+        "cumulative": -97
+      },
+      {
+        "y": 1815,
+        "shift": -21,
+        "cumulative": -118
+      },
+      {
+        "y": 1914,
+        "shift": -15,
+        "cumulative": -133
+      },
+      {
+        "y": 3551,
+        "shift": -50,
+        "cumulative": -183
+      },
+      {
+        "y": 3821,
+        "shift": 30,
+        "cumulative": -153
+      },
+      {
+        "y": 5017,
+        "shift": -31,
+        "cumulative": -184
+      },
+      {
+        "y": 5486,
+        "shift": 5,
+        "cumulative": -179
+      },
+      {
+        "y": 5589,
+        "shift": -15,
+        "cumulative": -194
+      }
+    ],
+    "maxOffset": 194,
+    "totalShift": 264,
+    "insertedRows": 35,
+    "deletedRows": 229,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 7.4,
+        "unaligned": 36.9
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 16.1,
+        "unaligned": 43.7
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 32
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 7.2,
+        "unaligned": 50
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 20.7,
+        "unaligned": 76.6
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 29.8,
+        "unaligned": 71.2
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 23.6,
+        "unaligned": 61.1
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 15.1,
+        "unaligned": 57.1
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 1.5,
+        "unaligned": 30.9
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 5,
+        "unaligned": 25.7
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 15.2,
+        "unaligned": 56.8
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 3,
+        "unaligned": 27.9
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 0,
+        "unaligned": 7.1
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 0,
+        "unaligned": 8.7
+      },
+      {
+        "y0": 7000,
+        "y1": 7279,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/en-us-our-commitment-tide-cleaners-laundry-service/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 73,
+    "totalShift": 264,
+    "pass": false
+  },
+  "reason": "offsets: 12 step(s), 264px total — −26px at y=113, −6px at y=466, −9px at y=565, −26px at y=752, −30px at y=842, −21px at y=1815, … 6 more (bound 73px)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/tide-cleaners-laundry-service"
+  }
+}

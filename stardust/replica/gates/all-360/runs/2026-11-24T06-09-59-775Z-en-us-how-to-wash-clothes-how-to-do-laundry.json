@@ -1,0 +1,471 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-24T06:09:59.773Z",
+    "stage": "published",
+    "breakpoint": 360,
+    "threshold": 10,
+    "offsetMax": "the larger of 8px and 1% of the origin height; roster tolerance: 5% of the origin height with no step over 200px",
+    "originReference": "frozen",
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "pixel criterion (aligned % ≤ 10 AND total offset ≤ the bound; alignment not used: unaligned % ≤ 10) AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://tide.com",
+    "eds": "https://main--5db7d055--aemcoder.aem.page",
+    "edsHostOverride": "https://main--5db7d055--aemcoder.aem.page",
+    "only": [
+      "en-us-how-to-wash-clothes-how-to-do-laundry",
+      "en-us-how-to-wash-clothes-washing-different-fabrics-and-colors",
+      "en-us-how-to-wash-clothes-washing-machine-101-how-to-use-a-washing-machine"
+    ]
+  },
+  "totals": {
+    "pages": 3,
+    "pass": 2,
+    "pixelOnlyPass": 3,
+    "overridePass": 0,
+    "fail": 1,
+    "error": 0,
+    "probeErrors": 0,
+    "failPixel": 0,
+    "failHeight": 0,
+    "failClip": 0,
+    "failContent": 0,
+    "failUnits": 1,
+    "unitsNotDeclared": 0,
+    "unitsRecordedNotDeclared": 0,
+    "fontsNotLoaded": 0,
+    "fontsDeadOnSource": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "alignedOnlyPass": 2,
+    "failOffsets": 0,
+    "offsetsWithinTolerance": 0,
+    "referenceUnstable": 0,
+    "passWithOverrides": 2
+  },
+  "rows": [
+    {
+      "slug": "en-us-how-to-wash-clothes-how-to-do-laundry",
+      "path": "/en-us/how-to-wash-clothes/how-to-do-laundry",
+      "template": "topic-hub",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 10.74,
+      "textPct": 17.74,
+      "heightDelta": -4,
+      "originH": 37828,
+      "edsH": 37832,
+      "alignedPct": 0.6,
+      "alignedUsed": true,
+      "totalShift": 128,
+      "steps": [
+        {
+          "y": 2736,
+          "shift": -2,
+          "cumulative": -2
+        },
+        {
+          "y": 2890,
+          "shift": 1,
+          "cumulative": -1
+        },
+        {
+          "y": 3788,
+          "shift": -1,
+          "cumulative": -2
+        },
+        {
+          "y": 4471,
+          "shift": -1,
+          "cumulative": -3
+        },
+        {
+          "y": 6643,
+          "shift": -1,
+          "cumulative": -4
+        },
+        {
+          "y": 7221,
+          "shift": 1,
+          "cumulative": -3
+        },
+        {
+          "y": 8538,
+          "shift": -1,
+          "cumulative": -4
+        },
+        {
+          "y": 8900,
+          "shift": 1,
+          "cumulative": -3
+        },
+        {
+          "y": 13397,
+          "shift": 50,
+          "cumulative": 47
+        },
+        {
+          "y": 13639,
+          "shift": 1,
+          "cumulative": 48
+        },
+        {
+          "y": 13937,
+          "shift": -1,
+          "cumulative": 47
+        },
+        {
+          "y": 15273,
+          "shift": 1,
+          "cumulative": 48
+        }
+      ],
+      "offsetBound": 378,
+      "offsetTolerance": 1891,
+      "offsetJudge": "bound",
+      "offsetsWithinTolerance": false,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": true,
+      "pass": false,
+      "failing": [
+        "units"
+      ],
+      "unwaived": [
+        "units"
+      ],
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "units off 1 hidden 0 missing 0"
+      ],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 0,
+        "variable": []
+      },
+      "unitsDeclared": 2,
+      "unitsRecorded": null,
+      "units": {
+        "units": 7,
+        "within": 54,
+        "off": 1,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 1
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-360/en-us-how-to-wash-clothes-how-to-do-laundry",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "24500-25000:45.1%",
+        "25000-25500:52.3%",
+        "25500-26000:41.1%",
+        "26000-26500:29.7%",
+        "26500-27000:40.2%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "en-us-how-to-wash-clothes-washing-different-fabrics-and-colors",
+      "path": "/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors",
+      "template": "topic-hub",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 7.6,
+      "textPct": 15.27,
+      "heightDelta": 4,
+      "originH": 17036,
+      "edsH": 17032,
+      "alignedPct": 0.59,
+      "alignedUsed": true,
+      "totalShift": 22,
+      "steps": [
+        {
+          "y": 2315,
+          "shift": -1,
+          "cumulative": -1
+        },
+        {
+          "y": 3311,
+          "shift": -1,
+          "cumulative": -2
+        },
+        {
+          "y": 5252,
+          "shift": -1,
+          "cumulative": -3
+        },
+        {
+          "y": 6543,
+          "shift": -1,
+          "cumulative": -4
+        },
+        {
+          "y": 6925,
+          "shift": 1,
+          "cumulative": -3
+        },
+        {
+          "y": 7309,
+          "shift": -1,
+          "cumulative": -4
+        },
+        {
+          "y": 8583,
+          "shift": 1,
+          "cumulative": -3
+        },
+        {
+          "y": 8870,
+          "shift": -1,
+          "cumulative": -4
+        },
+        {
+          "y": 9160,
+          "shift": 1,
+          "cumulative": -3
+        },
+        {
+          "y": 9313,
+          "shift": -1,
+          "cumulative": -4
+        },
+        {
+          "y": 10240,
+          "shift": -1,
+          "cumulative": -5
+        },
+        {
+          "y": 11241,
+          "shift": -1,
+          "cumulative": -6
+        }
+      ],
+      "offsetBound": 170,
+      "offsetTolerance": 851,
+      "offsetJudge": "bound",
+      "offsetsWithinTolerance": false,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": true,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 1,
+        "variable": []
+      },
+      "unitsDeclared": 2,
+      "unitsRecorded": null,
+      "units": {
+        "units": 7,
+        "within": 30,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-360/en-us-how-to-wash-clothes-washing-different-fabrics-and-colors",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "9000-9500:16%",
+        "9500-10000:16.5%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "en-us-how-to-wash-clothes-washing-machine-101-how-to-use-a-washing-machine",
+      "path": "/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine",
+      "template": "topic-hub",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 15.59,
+      "textPct": 21.05,
+      "heightDelta": 30,
+      "originH": 10465,
+      "edsH": 10435,
+      "alignedPct": 0.97,
+      "alignedUsed": true,
+      "totalShift": 32,
+      "steps": [
+        {
+          "y": 371,
+          "shift": -24,
+          "cumulative": -24
+        },
+        {
+          "y": 467,
+          "shift": -1,
+          "cumulative": -25
+        },
+        {
+          "y": 2474,
+          "shift": -1,
+          "cumulative": -26
+        },
+        {
+          "y": 5077,
+          "shift": -1,
+          "cumulative": -27
+        },
+        {
+          "y": 5797,
+          "shift": -1,
+          "cumulative": -28
+        },
+        {
+          "y": 6448,
+          "shift": -1,
+          "cumulative": -29
+        },
+        {
+          "y": 7289,
+          "shift": -1,
+          "cumulative": -30
+        },
+        {
+          "y": 7890,
+          "shift": 1,
+          "cumulative": -29
+        },
+        {
+          "y": 9732,
+          "shift": -1,
+          "cumulative": -30
+        }
+      ],
+      "offsetBound": 105,
+      "offsetTolerance": 523,
+      "offsetJudge": "bound",
+      "offsetsWithinTolerance": false,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": true,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 1,
+        "variable": []
+      },
+      "unitsDeclared": 2,
+      "unitsRecorded": null,
+      "units": {
+        "units": 7,
+        "within": 39,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-360/en-us-how-to-wash-clothes-washing-machine-101-how-to-use-a-washing-machine",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "1000-1500:35.7%",
+        "1500-2000:22.6%",
+        "2000-2500:32%",
+        "2500-3000:34.2%",
+        "4000-4500:18.2%",
+        "4500-5000:21.3%",
+        "8500-9000:20.5%"
+      ],
+      "error": null
+    }
+  ]
+}

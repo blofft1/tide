@@ -1,0 +1,57 @@
+{
+ "url": "https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/how-to-remove-stains",
+ "at": "2026-11-24T11:09:29.415Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 213,
+  "horizontal": 1,
+  "offPage": 0,
+  "textNodes": 389,
+  "controls": 127,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "n": 213,
+   "clipper": "div.sg-scroll",
+   "path": "div.sg-scroll > div.sg-lists > ul > li",
+   "text": "tough stains",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": null,
+   "path": "div.thgh-icon > div.thgh-icon-text > p > strong",
+   "text": "stains from coffee and tea",
+   "cutMin": 6,
+   "cutMax": 6
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 213,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 1,
+   "scrollHidden": 0,
+   "horizontal": 1,
+   "offPage": 0,
+   "textNodes": 390,
+   "controls": 346,
+   "total": 213
+  }
+ }
+}

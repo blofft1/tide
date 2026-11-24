@@ -1,0 +1,156 @@
+[live-session] waiting to pace live navigations to tide.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Content diff @ 360px (profile "generic", roots: #site-content, header, footer)
+root "#site-content"
+  source: 482 text nodes — 10 headings, 0 eyebrows, 9 CTAs, 463 body; 13 img
+  build: 482 text nodes — 10 headings, 0 eyebrows, 9 CTAs, 463 body; 13 img
+  editable texts (outermost h*/p/ul/ol): source 28 / build 28
+  attributes (placeholder/aria-label/title): source 447 / build 449; icons: source 4 / build 2
+root "header"
+  source: 5 text nodes — 0 headings, 0 eyebrows, 2 CTAs, 3 body; 4 img
+  build: 93 text nodes — 0 headings, 0 eyebrows, 71 CTAs, 22 body; 4 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 8
+  attributes (placeholder/aria-label/title): source 6 / build 34; icons: source 7 / build 20
+root "footer"
+  source: 29 text nodes — 0 headings, 0 eyebrows, 18 CTAs, 11 body; 8 img
+  build: 29 text nodes — 0 headings, 0 eyebrows, 18 CTAs, 11 body; 8 img
+  editable texts (outermost h*/p/ul/ol): source 3 / build 3
+  attributes (placeholder/aria-label/title): source 25 / build 25; icons: source 10 / build 10
+
+Findings: 135 (2 structural 🔴)
+Tiers: looks-same 🔴 2 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 133
+  🔴 ICON DIFF [#site-content]: source inline svg 0 0 17 10 / 1 shape(s) (11×18) vs build inline svg 0 0 10 17 / 1 shape(s) (11×18) at "previous slide". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [#site-content]: source inline svg 0 0 17 10 / 1 shape(s) (11×18) vs build inline svg 0 0 10 17 / 1 shape(s) (11×18) at "next slide". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟠 EXTRA [header]: build cta "Shop Products" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Pacs" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Liquid" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Powder" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Stain Remover" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Laundry Booster" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Fabric Care" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Fabric Rinse" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Laundry Tiles" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Stain Removal" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Odor Removal" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Freshness/Scent" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Whiteness" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Bright Colors" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Sensitive" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Additives" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Deep Clean" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Tide Free & Gentle" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Tide Plus Febreze" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Tide Simply" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Tide Plus Downy" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Tide Ultra OXI" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Tide POWER PODS®" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Our Commitment" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "How to Wash Clothes" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "What’s New" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Coupons and Deals" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "What’s New" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Contact Us" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Pacs" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Liquid" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Powder" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Stain Remover" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Laundry Booster" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Fabric Care" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Fabric Rinse" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Laundry Tiles" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Stain Removal" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Odor Removal" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Freshness/Scent" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Whiteness" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Bright Colors" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Sensitive" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Additives" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Deep Clean" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Tide Free & Gentle" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Tide Plus Febreze" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Tide Simply" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Tide Plus Downy" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Tide Ultra OXI" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Tide POWER PODS®" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Tide Coming Clean" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Tide Boosted" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Turn to Cold" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Tide evo" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Don’t Pay for Water, Pay for Clean" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Tide in Space" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "America’s #1 Detergent" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Loads of Hope" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Ingredients and Safety" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Tide Cleaners" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Sustainability" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "How to Remove Stains" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "How to Do Laundry" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Washing Different Fabrics and Colors" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Washing Machine 101" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Coupons and Rewards" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Laundry Deals" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Laundry Tips" has no source source — Unexpected node with no source.
+  🟡 EXTRA ARIA-LABEL [#site-content]: build <div> aria-label="Stain" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#site-content]: build <div> aria-label="Stain" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 MISSING ICON [#site-content]: source inline svg 0 0 17 10 / 1 shape(s) (0×0) at "loads of hope life after disasters — hur" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#site-content]: source inline svg 0 0 17 10 / 1 shape(s) (0×0) at "at tide safety comes first, and it never" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 EXTRA [header]: build body "By Type" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "By Need" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Top Collection" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Shop Products" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Our Commitment" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "How to Wash Clothes" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Coupons and Deals" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Select Location" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Sign in" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Shop Products" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "By Type" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "By Need" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Top Collection" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "By Type" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "By Need" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Top Collection" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Our Commitment" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "How to Wash Clothes" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Coupons and Deals" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA ARIA-LABEL [header]: build <div> aria-label="Shop Products" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Pacs" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Liquid" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Powder" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Stain Remover" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Laundry Booster" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Fabric Care" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Fabric Rinse" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Laundry Tiles" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Stain Removal" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Odor Removal" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Freshness/Scent" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Whiteness" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Bright Colors" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Sensitive" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Additives" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Deep Clean" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Tide Free & Gentle" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Tide Plus Febreze" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Tide Simply" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Tide Plus Downy" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Tide Ultra OXI" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Tide POWER PODS®" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <div> aria-label="Our Commitment" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <div> aria-label="How to Wash Clothes" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <div> aria-label="What’s New" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <div> aria-label="Coupons and Deals" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <nav> aria-label="Mobile navigation" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ICON [header]: build inline svg 0 0 17 10 / 1 shape(s) (0×0) at "shop products" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build inline svg 0 0 17 10 / 1 shape(s) (0×0) at "our commitment" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build inline svg 0 0 17 10 / 1 shape(s) (0×0) at "how to wash clothes" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build inline svg 0 0 17 10 / 1 shape(s) (0×0) at "what’s new" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build inline svg 0 0 17 10 / 1 shape(s) (0×0) at "coupons and deals" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build inline svg 0 0 24 25 / 3 shape(s) (0×0) at "sign in" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build inline svg 0 0 17 10 / 1 shape(s) (0×0) at "shop products" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build inline svg 0 0 17 10 / 1 shape(s) (0×0) at "by type" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build inline svg 0 0 17 10 / 1 shape(s) (0×0) at "by need" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build inline svg 0 0 17 10 / 1 shape(s) (0×0) at "top collection" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build inline svg 0 0 17 10 / 1 shape(s) (0×0) at "our commitment" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build inline svg 0 0 17 10 / 1 shape(s) (0×0) at "how to wash clothes" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build inline svg 0 0 17 10 / 1 shape(s) (0×0) at "coupons and deals" has no source source. Build-only icon — confirm it is intended.

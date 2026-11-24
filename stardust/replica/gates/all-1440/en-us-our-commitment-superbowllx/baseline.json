@@ -1,0 +1,73 @@
+{
+  "writtenBy": "skills/replica/scripts/reference.mjs freeze",
+  "schema": 1,
+  "capturedAt": "2026-11-24T07:44:32.812Z",
+  "url": "https://tide.com/en-us/our-commitment/superbowlLX",
+  "width": 1440,
+  "vh": 900,
+  "height": 4248,
+  "settle": true,
+  "chunks": 5,
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 1,
+    "late": 0
+  },
+  "timers": {
+    "hold": 2000,
+    "held": 10,
+    "intervals": 4,
+    "chains": 6,
+    "delays": [
+      2000,
+      3000,
+      5000,
+      86400000
+    ]
+  },
+  "primed": true,
+  "prime": {
+    "height": 4248,
+    "pct": 1.86,
+    "heightDelta": 0
+  },
+  "captures": 2,
+  "heights": [
+    4248,
+    4248
+  ],
+  "noiseFloor": 1.32,
+  "heightSpread": 0,
+  "outside": 0,
+  "variable": [
+    {
+      "y": 1792,
+      "h": 556,
+      "pct": 17
+    }
+  ],
+  "variableShare": 13.09,
+  "maskArg": "1792:556",
+  "stable": true,
+  "reason": null,
+  "frozenAt": "2026-11-24T07:45:24.482Z",
+  "flags": {
+    "consent": null,
+    "dismiss": null,
+    "noDismiss": false,
+    "locale": "en-US",
+    "vh": null,
+    "headed": true,
+    "holdTimers": 2000
+  },
+  "thresholds": {
+    "floorMax": 1,
+    "heightMax": 8,
+    "variableMax": 50,
+    "band": 20,
+    "bandMin": 0.5,
+    "pad": 8
+  }
+}

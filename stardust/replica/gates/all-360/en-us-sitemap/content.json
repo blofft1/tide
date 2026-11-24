@@ -1,0 +1,6337 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-24T11:54:00.618Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://tide.com/en-us/sitemap",
+  "at": "2026-11-24T11:53:38.597Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 6356,
+  "root": "main#site-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div#page-wrapper > header#site-header > a.skip-to-content-link",
+    "x": 119,
+    "y": -44,
+    "w": 122,
+    "h": 44,
+    "text": "skip to content",
+    "href": "/en-us/sitemap"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.row.no-gutters > button.burger-menu",
+    "x": 20,
+    "y": 18,
+    "w": 30,
+    "h": 26,
+    "text": "navigation menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.row.no-gutters > button.burger-menu",
+    "x": 20,
+    "y": 18,
+    "w": 30,
+    "h": 26,
+    "label": "navigation menu",
+    "value": "navigation menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row.no-gutters > div > a.header-logo.d-flex",
+    "x": 157,
+    "y": 7,
+    "w": 47,
+    "h": 47,
+    "text": "tide logo",
+    "href": "/en-us"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > a.header-logo.d-flex > img",
+    "x": 157,
+    "y": 7,
+    "w": 47,
+    "h": 47,
+    "text": "tide logo",
+    "file": "brand_main_logo"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "form.header-search > div.input-wrap > button",
+    "x": 310,
+    "y": 15,
+    "w": 30,
+    "h": 33,
+    "text": "submit search"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.row > div.col-12 > h1",
+    "x": 15,
+    "y": 91,
+    "w": 330,
+    "h": 36,
+    "level": 1,
+    "text": "sitemap"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-12.col-sm-6 > div#shop-products > h2.sitemap-section__h2",
+    "x": 15,
+    "y": 157,
+    "w": 330,
+    "h": 24,
+    "level": 2,
+    "text": "shop products"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#shop-products > h2.sitemap-section__h2 > a",
+    "x": 15,
+    "y": 159,
+    "w": 121,
+    "h": 20,
+    "text": "shop products",
+    "href": "/en-us/sitemap"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.sitemap-section__links > li.sitemap-section__subsection > h3#by-type",
+    "x": 30,
+    "y": 201,
+    "w": 315,
+    "h": 24,
+    "level": 3,
+    "text": "by type"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 248,
+    "w": 36,
+    "h": 18,
+    "text": "pacs",
+    "href": "/en-us/shop/type/laundry-pods"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 287,
+    "w": 47,
+    "h": 18,
+    "text": "liquid",
+    "href": "/en-us/shop/type/liquid"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 326,
+    "w": 60,
+    "h": 18,
+    "text": "powder",
+    "href": "/en-us/shop/type/powder"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 365,
+    "w": 113,
+    "h": 18,
+    "text": "stain remover",
+    "href": "/en-us/shop/type/stain-remover"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 404,
+    "w": 129,
+    "h": 18,
+    "text": "laundry booster",
+    "href": "/en-us/shop/type/laundry-booster"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 443,
+    "w": 89,
+    "h": 18,
+    "text": "fabric care",
+    "href": "/en-us/shop/type/fabric-care"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 482,
+    "w": 94,
+    "h": 18,
+    "text": "fabric rinse",
+    "href": "/en-us/shop/type/fabric-rinse"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 521,
+    "w": 103,
+    "h": 18,
+    "text": "laundry tiles",
+    "href": "/en-us/shop/type/laundry-tiles"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.sitemap-section__links > li.sitemap-section__subsection > h3#by-need",
+    "x": 30,
+    "y": 557,
+    "w": 315,
+    "h": 24,
+    "level": 3,
+    "text": "by need"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 604,
+    "w": 110,
+    "h": 18,
+    "text": "stain removal",
+    "href": "/en-us/shop/special-needs/stain-removal"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 643,
+    "w": 112,
+    "h": 18,
+    "text": "odor removal",
+    "href": "/en-us/shop/special-needs/odor-removal"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 682,
+    "w": 131,
+    "h": 18,
+    "text": "freshness/scent",
+    "href": "/en-us/shop/special-needs/freshness"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 721,
+    "w": 81,
+    "h": 18,
+    "text": "whiteness",
+    "href": "/en-us/shop/special-needs/whiteness"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 760,
+    "w": 102,
+    "h": 18,
+    "text": "bright colors",
+    "href": "/en-us/shop/special-needs/bright-colors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 799,
+    "w": 69,
+    "h": 18,
+    "text": "sensitive",
+    "href": "/en-us/shop/special-needs/sensitive"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 838,
+    "w": 72,
+    "h": 18,
+    "text": "additives",
+    "href": "/en-us/shop/special-needs/additives"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 877,
+    "w": 90,
+    "h": 18,
+    "text": "deep clean",
+    "href": "/en-us/shop/special-needs/deep-clean"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.sitemap-section__links > li.sitemap-section__subsection > h3#top-collection",
+    "x": 30,
+    "y": 913,
+    "w": 315,
+    "h": 24,
+    "level": 3,
+    "text": "top collection"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 960,
+    "w": 144,
+    "h": 18,
+    "text": "tide free & gentle",
+    "href": "/en-us/shop/top-collections/tide-free-and-gentle"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 999,
+    "w": 136,
+    "h": 18,
+    "text": "tide plus febreze",
+    "href": "/en-us/shop/top-collections/tide-plus-febreze"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 1038,
+    "w": 90,
+    "h": 18,
+    "text": "tide simply",
+    "href": "/en-us/shop/top-collections/tide-simply"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 1077,
+    "w": 129,
+    "h": 18,
+    "text": "tide plus downy",
+    "href": "/en-us/shop/top-collections/tide-plus-downy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 1116,
+    "w": 108,
+    "h": 18,
+    "text": "tide ultra oxi",
+    "href": "/en-us/shop/top-collections/tide-ultra-oxi"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 1155,
+    "w": 158,
+    "h": 18,
+    "text": "tide power pods®",
+    "href": "/en-us/shop/top-collections/tide-power-pods"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-12.col-sm-6 > div#our-commitment > h2.sitemap-section__h2",
+    "x": 15,
+    "y": 1191,
+    "w": 330,
+    "h": 24,
+    "level": 2,
+    "text": "our commitment"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#our-commitment > h2.sitemap-section__h2 > a",
+    "x": 15,
+    "y": 1193,
+    "w": 143,
+    "h": 20,
+    "text": "our commitment",
+    "href": "/en-us/sitemap"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 30,
+    "y": 1237,
+    "w": 149,
+    "h": 19,
+    "text": "tide coming clean",
+    "href": "/en-us/our-commitment/superbowlLX"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 30,
+    "y": 1276,
+    "w": 107,
+    "h": 19,
+    "text": "tide boosted",
+    "href": "/en-us/our-commitment/tide-boosted"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 30,
+    "y": 1315,
+    "w": 98,
+    "h": 19,
+    "text": "turn to cold",
+    "href": "/en-us/our-commitment/turn-to-cold"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 30,
+    "y": 1354,
+    "w": 68,
+    "h": 19,
+    "text": "tide evo",
+    "href": "/en-us/our-commitment/tide-evo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 30,
+    "y": 1393,
+    "w": 270,
+    "h": 19,
+    "text": "don’t pay for water, pay for clean",
+    "href": "/en-us/our-commitment/dont-pay-for-water"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 30,
+    "y": 1432,
+    "w": 106,
+    "h": 19,
+    "text": "tide in space",
+    "href": "/en-us/our-commitment/tide-in-space"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 30,
+    "y": 1471,
+    "w": 184,
+    "h": 19,
+    "text": "america’s #1 detergent",
+    "href": "/en-us/our-commitment/americas-number-one-detergent"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 30,
+    "y": 1510,
+    "w": 116,
+    "h": 19,
+    "text": "loads of hope",
+    "href": "/en-us/our-commitment/loads-of-hope"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 30,
+    "y": 1549,
+    "w": 180,
+    "h": 19,
+    "text": "ingredients and safety",
+    "href": "/en-us/our-commitment/ingredients-and-safety"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 30,
+    "y": 1588,
+    "w": 108,
+    "h": 19,
+    "text": "tide cleaners",
+    "href": "/en-us/our-commitment/tide-cleaners-laundry-service"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 30,
+    "y": 1627,
+    "w": 108,
+    "h": 19,
+    "text": "sustainability",
+    "href": "/en-us/our-commitment/sustainability"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-12.col-sm-6 > div#how-to-wash-clothes > h2.sitemap-section__h2",
+    "x": 15,
+    "y": 1664,
+    "w": 330,
+    "h": 24,
+    "level": 2,
+    "text": "how to wash clothes"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#how-to-wash-clothes > h2.sitemap-section__h2 > a",
+    "x": 15,
+    "y": 1666,
+    "w": 174,
+    "h": 20,
+    "text": "how to wash clothes",
+    "href": "/en-us/sitemap"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 30,
+    "y": 1710,
+    "w": 181,
+    "h": 19,
+    "text": "how to remove stains",
+    "href": "/en-us/how-to-wash-clothes/how-to-remove-stains"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.sitemap-section__links > li.sitemap-section__subsection > h3#how-to-do-laundry",
+    "x": 30,
+    "y": 1747,
+    "w": 315,
+    "h": 24,
+    "level": 3,
+    "text": "how to do laundry"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 1794,
+    "w": 257,
+    "h": 42,
+    "text": "find out everything you need to know about your detergent",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/everything-you-need-to-know-about-laundry-detergent"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 1857,
+    "w": 282,
+    "h": 66,
+    "text": "how does washing clothes with vinegar or baking soda compare to detergent?",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/baking-soda-vinegar-laundry"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 1944,
+    "w": 189,
+    "h": 18,
+    "text": "caring for sensitive skin",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/caring-for-sensitive-skin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 1983,
+    "w": 290,
+    "h": 42,
+    "text": "how much laundry detergent to use (correct dose)",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/how-much-detergent-to-use"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 2046,
+    "w": 268,
+    "h": 42,
+    "text": "how to separate your laundry for the best results",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/how-to-sort-your-laundry-for-the-best-results"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > span",
+    "x": 50,
+    "y": 2107,
+    "w": 290,
+    "h": 36,
+    "text": "Laundry Hygiene Tips to Prevent Germs or Illnesses from Spreading"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 2163,
+    "w": 289,
+    "h": 18,
+    "text": "how to read laundry symbols | tide",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/how-to-read-laundry-symbols"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 2202,
+    "w": 255,
+    "h": 42,
+    "text": "how to use tide deep cleansing fabric rinse",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/how-to-use-rinse"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 2265,
+    "w": 112,
+    "h": 18,
+    "text": "tide evo adp",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/how-to-use-tide-evo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 2304,
+    "w": 270,
+    "h": 42,
+    "text": "try these laundry tips for college students",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/laundry-tips-for-college-students"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 2367,
+    "w": 293,
+    "h": 18,
+    "text": "how to organize your laundry room",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/how-to-organize-your-laundry-room"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 2406,
+    "w": 274,
+    "h": 42,
+    "text": "tide detergents: choosing the best option for your laundry needs",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/choosing-between-tide-detergents"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 2469,
+    "w": 259,
+    "h": 42,
+    "text": "mastering laundry in hard water areas with tide and downy",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/laundry-in-hard-water-areas"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 2532,
+    "w": 268,
+    "h": 18,
+    "text": "learn more about tide pods film",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/about-tide-pods-pva-film"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 2571,
+    "w": 289,
+    "h": 42,
+    "text": "discover the best smelling detergent for long-lasting freshness_tide",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/best-smelling-detergent-long-lasting-tide"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 2634,
+    "w": 250,
+    "h": 42,
+    "text": "tackle tough stains with tide: a practical guide",
+    "href": "/en-us/how-to-wash-clothes/how-to-remove-stains/tackle-tough-stains-tide"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 2697,
+    "w": 273,
+    "h": 66,
+    "text": "understanding oxygen bleach and oxi boosters: complementing your detergent",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/oxygen-oxi-boosters-laundry"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 2784,
+    "w": 249,
+    "h": 42,
+    "text": "spring cleaning made simple: a fresh start with laundry",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/where-to-start-spring-cleaning"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 2847,
+    "w": 273,
+    "h": 66,
+    "text": "enhance your laundry experience: discover the power of scent beads and fresh-sme",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/enhance-laundry-experience-scent-beads-detergents"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 2934,
+    "w": 291,
+    "h": 66,
+    "text": "understanding detergent fragrances: how tide offers freshness without overpoweri",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/understanding-detergent-fragrances"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 3021,
+    "w": 246,
+    "h": 42,
+    "text": "discover the best detergent for eczema-prone skin",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/best-detergent-eczema-prone-skin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 3084,
+    "w": 162,
+    "h": 18,
+    "text": "how to use tide evo",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/tide-evo-tips-to-unlock-laundry-magic"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 3123,
+    "w": 221,
+    "h": 18,
+    "text": "tide evo comparison article",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/comparing-tide-evo-tiles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 3162,
+    "w": 131,
+    "h": 18,
+    "text": "what is tide evo",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/what-is-tide-evo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 3201,
+    "w": 172,
+    "h": 18,
+    "text": "what is tide evo q&a",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/tide-evo-questions-answers"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 3240,
+    "w": 282,
+    "h": 42,
+    "text": "what is the best detergent in terms of quality?",
+    "href": "/en-us/research/best-quality-detergent"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 3303,
+    "w": 254,
+    "h": 42,
+    "text": "a scientific guide to laundry for sensitive skin",
+    "href": "/en-us/research/scientific-guide-laundry-sensitive-skin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 3366,
+    "w": 252,
+    "h": 42,
+    "text": "are detergents toxic? see what science says",
+    "href": "/en-us/research/are-detergents-toxic-science"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 3429,
+    "w": 271,
+    "h": 66,
+    "text": "hazard vs. risk: why 'toxic’ claims about your detergent may be misleading",
+    "href": "/en-us/research/hazard-vs-risk-laundry-detergent"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 3516,
+    "w": 283,
+    "h": 66,
+    "text": "why a better clean is essential for a safer clean (especially for sensitive skin",
+    "href": "/en-us/how-to-do-laundry/better-clean-safer"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 3603,
+    "w": 277,
+    "h": 66,
+    "text": "what’s really on your clothes? the truth about detergent residue and safety",
+    "href": "/en-us/how-to-do-laundry/detergent-residue-safety"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 3690,
+    "w": 253,
+    "h": 66,
+    "text": "is tide safe? the science behind laundry detergent safety and ingredient testing",
+    "href": "/en-us/research/laundry-detergent-science-testing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 3777,
+    "w": 89,
+    "h": 18,
+    "text": "cold water",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/cold-water"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 3816,
+    "w": 279,
+    "h": 42,
+    "text": "a technical review and fact-check: the rolsky & kelkar",
+    "href": "/en-us/research/pva-technical-review"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 3879,
+    "w": 279,
+    "h": 42,
+    "text": "a fragrance-free laundry routine that still leaves clothes truly clean",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/fragrance-free-laundry-routine"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 3942,
+    "w": 286,
+    "h": 66,
+    "text": "how to choose a laundry detergent for your pet’s bedding, toys, and blankets",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/laundry-detergent-for-pet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 4029,
+    "w": 251,
+    "h": 42,
+    "text": "tide and sensitive skin - how to schoose the right detergent",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/choose-detergent-sensitive-skin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 4092,
+    "w": 209,
+    "h": 18,
+    "text": "tide pods and skin safety",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/tide-pods-skin-safety"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 4131,
+    "w": 266,
+    "h": 18,
+    "text": "your sensitive skin laundry guide",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/sensitive-skin-laundry-guide"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 4170,
+    "w": 227,
+    "h": 18,
+    "text": "does tide evo fully dissolve?",
+    "href": "/en-us/research/tide-evo-dissolve-guide"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 50,
+    "y": 4209,
+    "w": 285,
+    "h": 42,
+    "text": "volatile organic compounds (vocs) in laundry products",
+    "href": "/en-us/research/vocs-laundry-products-airborne-emissions"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 30,
+    "y": 4271,
+    "w": 295,
+    "h": 19,
+    "text": "washing different fabrics and colors",
+    "href": "/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_outbound_link",
+    "x": 30,
+    "y": 4310,
+    "w": 166,
+    "h": 19,
+    "text": "washing machine 101",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-12.col-sm-6 > div#coupons-and-deals > h2.sitemap-section__h2",
+    "x": 15,
+    "y": 4347,
+    "w": 330,
+    "h": 24,
+    "level": 2,
+    "text": "coupons and deals"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#coupons-and-deals > h2.sitemap-section__h2 > a",
+    "x": 15,
+    "y": 4349,
+    "w": 155,
+    "h": 20,
+    "text": "coupons and deals",
+    "href": "/en-us/sitemap"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 30,
+    "y": 4393,
+    "w": 178,
+    "h": 19,
+    "text": "coupons and rewards",
+    "href": "/en-us/rewards"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_outbound_link",
+    "x": 30,
+    "y": 4432,
+    "w": 114,
+    "h": 19,
+    "text": "laundry deals",
+    "href": "/wljshvha"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > div.menu-item > a.event_menu_click",
+    "x": 30,
+    "y": 4471,
+    "w": 104,
+    "h": 19,
+    "text": "laundry tips",
+    "href": "/en-us/rewards/laundrytips"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.row > div.col-12.col-sm-6 > a",
+    "x": 15,
+    "y": 4508,
+    "w": 330,
+    "h": 24,
+    "text": "what’s new",
+    "href": "/en-us/latest-news"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.row > div.col-12.col-sm-6 > a",
+    "x": 15,
+    "y": 4557,
+    "w": 330,
+    "h": 24,
+    "text": "contact us",
+    "href": "/en-us/contact-us"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-links-wrapper > div.container > span",
+    "x": 15,
+    "y": 4716,
+    "w": 242,
+    "h": 19,
+    "text": "Ways to connect with us:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-links > li > a.footer-social-links-item.event_socialmedia_exit",
+    "x": 15,
+    "y": 4755,
+    "w": 32,
+    "h": 32,
+    "text": "facebook icon",
+    "href": "/Tide"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > a.footer-social-links-item.event_socialmedia_exit > img",
+    "x": 15,
+    "y": 4755,
+    "w": 32,
+    "h": 32,
+    "text": "facebook icon",
+    "file": "social_facebook"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-links > li > a.footer-social-links-item.event_socialmedia_exit",
+    "x": 62,
+    "y": 4755,
+    "w": 32,
+    "h": 32,
+    "text": "twitter icon",
+    "href": "/tide"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > a.footer-social-links-item.event_socialmedia_exit > img",
+    "x": 62,
+    "y": 4755,
+    "w": 32,
+    "h": 32,
+    "text": "twitter icon",
+    "file": "social_twitter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-links > li > a.footer-social-links-item.event_socialmedia_exit",
+    "x": 109,
+    "y": 4755,
+    "w": 32,
+    "h": 32,
+    "text": "pinterest icon",
+    "href": "/tide/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > a.footer-social-links-item.event_socialmedia_exit > img",
+    "x": 109,
+    "y": 4755,
+    "w": 32,
+    "h": 32,
+    "text": "pinterest icon",
+    "file": "social_pinterest"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-links > li > a.footer-social-links-item.event_socialmedia_exit",
+    "x": 156,
+    "y": 4755,
+    "w": 32,
+    "h": 32,
+    "text": "youtube icon",
+    "href": "/channel/UCEPeWPjaF1CWCKXa3xTp7vw"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > a.footer-social-links-item.event_socialmedia_exit > img",
+    "x": 156,
+    "y": 4755,
+    "w": 32,
+    "h": 32,
+    "text": "youtube icon",
+    "file": "social_youtube"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row > div.col-12 > p.footer-navigation-title",
+    "x": 15,
+    "y": 4847,
+    "w": 330,
+    "h": 51,
+    "text": "Shop Products"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-4 > div#by-type > div.expandable-content-header",
+    "x": 15,
+    "y": 4940,
+    "w": 330,
+    "h": 24,
+    "text": "by type"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-4 > div#by-type > div.expandable-content-header",
+    "x": 15,
+    "y": 4940,
+    "w": 330,
+    "h": 24,
+    "label": "by type",
+    "value": "by type",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-4 > div#by-need > div.expandable-content-header",
+    "x": 15,
+    "y": 5024,
+    "w": 330,
+    "h": 24,
+    "text": "by need"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-4 > div#by-need > div.expandable-content-header",
+    "x": 15,
+    "y": 5024,
+    "w": 330,
+    "h": 24,
+    "label": "by need",
+    "value": "by need",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-4 > div#top-collection > div.expandable-content-header",
+    "x": 15,
+    "y": 5108,
+    "w": 330,
+    "h": 24,
+    "text": "top collection"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-4 > div#top-collection > div.expandable-content-header",
+    "x": 15,
+    "y": 5108,
+    "w": 330,
+    "h": 24,
+    "label": "top collection",
+    "value": "top collection",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row > div.col-12.col-md-6 > p#footer-washing-machine-title",
+    "x": 15,
+    "y": 5200,
+    "w": 330,
+    "h": 51,
+    "text": "How to Wash Clothes"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-6 > div.menu-item > a.event_menu_click",
+    "x": 15,
+    "y": 5268,
+    "w": 177,
+    "h": 18,
+    "text": "how to remove stains",
+    "href": "/en-us/how-to-wash-clothes/how-to-remove-stains"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-6 > div.menu-item > a.event_menu_click",
+    "x": 15,
+    "y": 5300,
+    "w": 153,
+    "h": 18,
+    "text": "how to do laundry",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-6 > div.menu-item > a.event_menu_click",
+    "x": 15,
+    "y": 5332,
+    "w": 289,
+    "h": 18,
+    "text": "washing different fabrics and colors",
+    "href": "/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-6 > div.menu-item > a.event_outbound_link",
+    "x": 15,
+    "y": 5364,
+    "w": 163,
+    "h": 18,
+    "text": "washing machine 101",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row > div.col-12.col-md-6 > p#footer-help-support-title",
+    "x": 15,
+    "y": 5429,
+    "w": 330,
+    "h": 51,
+    "text": "Help & Support"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-6 > div.menu-item > a.event_menu_click",
+    "x": 15,
+    "y": 5497,
+    "w": 85,
+    "h": 18,
+    "text": "contact us",
+    "href": "/en-us/contact-us"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row > div.col-12.footer-related > span#footer-related-title",
+    "x": 15,
+    "y": 5593,
+    "w": 81,
+    "h": 24,
+    "text": "Related:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-related-navigation > div.menu-item > a.event_outbound_link",
+    "x": 15,
+    "y": 5626,
+    "w": 93,
+    "h": 18,
+    "text": "p&g brands",
+    "href": "/en_US"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-related-navigation > div.menu-item > a.event_outbound_link",
+    "x": 123,
+    "y": 5626,
+    "w": 64,
+    "h": 18,
+    "text": "mrclean",
+    "href": "/en-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-related-navigation > div.menu-item > a.event_outbound_link",
+    "x": 202,
+    "y": 5626,
+    "w": 54,
+    "h": 18,
+    "text": "downy",
+    "href": "/en-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-related-navigation > div.menu-item > a.event_outbound_link",
+    "x": 271,
+    "y": 5626,
+    "w": 58,
+    "h": 18,
+    "text": "bounce",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-related-navigation > div.menu-item > a.event_outbound_link",
+    "x": 15,
+    "y": 5658,
+    "w": 110,
+    "h": 18,
+    "text": "p&g everyday",
+    "href": "/tag/tide"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.footer-icons > div > a.footer-icon",
+    "x": 18,
+    "y": 5728,
+    "w": 82,
+    "h": 68,
+    "text": "good housekeeping icon",
+    "href": "/product-reviews/history/welcome-gh-seal"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.footer-icon > picture > img",
+    "x": 18,
+    "y": 5728,
+    "w": 82,
+    "h": 62,
+    "text": "good housekeeping icon",
+    "file": "footer_GoodHousekeeping"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.footer-icons > div > a.footer-icon",
+    "x": 130,
+    "y": 5728,
+    "w": 38,
+    "h": 68,
+    "text": "bbb icon",
+    "href": "/cincinnati/business-reviews/detergent/the-procter-gamble-company-in-cincinnati-oh-3036"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.footer-icon > picture > img",
+    "x": 130,
+    "y": 5728,
+    "w": 38,
+    "h": 62,
+    "text": "bbb icon",
+    "file": "footer_BBB"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.footer-icons > div > a.footer-icon",
+    "x": 198,
+    "y": 5728,
+    "w": 58,
+    "h": 68,
+    "text": "junk food icon",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.footer-icon > picture > img",
+    "x": 198,
+    "y": 5728,
+    "w": 58,
+    "h": 62,
+    "text": "junk food icon",
+    "file": "footer_JunkFood"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.footer-icons > div > a.footer-icon",
+    "x": 286,
+    "y": 5728,
+    "w": 56,
+    "h": 68,
+    "text": "tide cleaners icon",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.footer-icon > picture > img",
+    "x": 286,
+    "y": 5728,
+    "w": 56,
+    "h": 62,
+    "text": "tide cleaners icon",
+    "file": "footer_TideCleaners"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > a.event_outbound_link",
+    "x": 15,
+    "y": 5847,
+    "w": 179,
+    "h": 18,
+    "text": "accessibility statement",
+    "href": "/en-US"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > a.event_outbound_link",
+    "x": 15,
+    "y": 5879,
+    "w": 150,
+    "h": 18,
+    "text": "terms & conditions",
+    "href": "/en-us/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > a.event_menu_click",
+    "x": 15,
+    "y": 5911,
+    "w": 279,
+    "h": 18,
+    "text": "tide rewards terms and conditions",
+    "href": "/en-us/rewards/loyalty/terms-and-conditions"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > a.event_outbound_link",
+    "x": 15,
+    "y": 5943,
+    "w": 60,
+    "h": 18,
+    "text": "careers",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > a.event_outbound_link",
+    "x": 90,
+    "y": 5943,
+    "w": 56,
+    "h": 18,
+    "text": "privacy",
+    "href": "/en-US/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > a.event_outbound_link",
+    "x": 15,
+    "y": 5975,
+    "w": 287,
+    "h": 18,
+    "text": "consumer health data privacy policy",
+    "href": "/CHD-en"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > a.event_outbound_link.with-ccpa-logo",
+    "x": 15,
+    "y": 6007,
+    "w": 187,
+    "h": 18,
+    "text": "your privacy choices",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > span",
+    "x": 15,
+    "y": 6039,
+    "w": 276,
+    "h": 50,
+    "text": "NOTICE: We may sell your sensitive personal data."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.copyright > div.self-center.font-medium",
+    "x": 15,
+    "y": 6192,
+    "w": 199,
+    "h": 32,
+    "text": "© 2026 Procter & Gamble"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.footer-general-navigation > div.menu-item > a.event_menu_click",
+    "x": 15,
+    "y": 6274,
+    "w": 64,
+    "h": 32,
+    "text": "sitemap",
+    "href": "/en-us/sitemap"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 1,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 122,
+    "controls": 118,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "CONTROL COLLAPSED",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div#page-wrapper",
+     "path": "div#__next > div#page-wrapper > header#site-header > a.skip-to-content-link",
+     "text": "skip to content",
+     "cutMin": null,
+     "cutMax": null
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--5db7d055--aemcoder.aem.page/en-us/sitemap",
+  "at": "2026-11-24T11:54:00.489Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 6356,
+  "root": "main#site-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header.block > div#site-header > a.skip-to-content-link",
+    "x": 119,
+    "y": -44,
+    "w": 122,
+    "h": 44,
+    "text": "skip to content",
+    "href": "/en-us/sitemap"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.searchbar-row > button.burger",
+    "x": 20,
+    "y": 18,
+    "w": 30,
+    "h": 26,
+    "text": "navigation menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.searchbar-row > button.burger",
+    "x": 20,
+    "y": 18,
+    "w": 30,
+    "h": 26,
+    "label": "navigation menu",
+    "value": "navigation menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-logo > p > a",
+    "x": 157,
+    "y": 7,
+    "w": 47,
+    "h": 47,
+    "text": "tide logo",
+    "href": "/en-us"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 157,
+    "y": 7,
+    "w": 47,
+    "h": 47,
+    "text": "tide logo",
+    "file": "media_1657180466c60da96dcbb2d8123d7c9b94"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "form > div.input-wrap > button",
+    "x": 310,
+    "y": 15,
+    "w": 30,
+    "h": 30,
+    "text": "submit search"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sitemap-title > div > h1#sitemap",
+    "x": 15,
+    "y": 91,
+    "w": 330,
+    "h": 36,
+    "level": 1,
+    "text": "sitemap"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sitemap-column > div > h2#shop-products",
+    "x": 15,
+    "y": 157,
+    "w": 330,
+    "h": 24,
+    "level": 2,
+    "text": "shop products"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > h2#shop-products > a",
+    "x": 15,
+    "y": 159,
+    "w": 121,
+    "h": 20,
+    "text": "shop products",
+    "href": "/en-us/sitemap"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sitemap-column > div > h3#by-type",
+    "x": 30,
+    "y": 201,
+    "w": 315,
+    "h": 24,
+    "level": 3,
+    "text": "by type"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 248,
+    "w": 36,
+    "h": 18,
+    "text": "pacs",
+    "href": "/en-us/shop/type/laundry-pods"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 287,
+    "w": 47,
+    "h": 18,
+    "text": "liquid",
+    "href": "/en-us/shop/type/liquid"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 326,
+    "w": 60,
+    "h": 18,
+    "text": "powder",
+    "href": "/en-us/shop/type/powder"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 365,
+    "w": 113,
+    "h": 18,
+    "text": "stain remover",
+    "href": "/en-us/shop/type/stain-remover"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 404,
+    "w": 129,
+    "h": 18,
+    "text": "laundry booster",
+    "href": "/en-us/shop/type/laundry-booster"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 443,
+    "w": 89,
+    "h": 18,
+    "text": "fabric care",
+    "href": "/en-us/shop/type/fabric-care"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 482,
+    "w": 94,
+    "h": 18,
+    "text": "fabric rinse",
+    "href": "/en-us/shop/type/fabric-rinse"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 521,
+    "w": 103,
+    "h": 18,
+    "text": "laundry tiles",
+    "href": "/en-us/shop/type/laundry-tiles"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sitemap-column > div > h3#by-need",
+    "x": 30,
+    "y": 557,
+    "w": 315,
+    "h": 24,
+    "level": 3,
+    "text": "by need"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 604,
+    "w": 110,
+    "h": 18,
+    "text": "stain removal",
+    "href": "/en-us/shop/special-needs/stain-removal"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 643,
+    "w": 112,
+    "h": 18,
+    "text": "odor removal",
+    "href": "/en-us/shop/special-needs/odor-removal"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 682,
+    "w": 131,
+    "h": 18,
+    "text": "freshness/scent",
+    "href": "/en-us/shop/special-needs/freshness"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 721,
+    "w": 81,
+    "h": 18,
+    "text": "whiteness",
+    "href": "/en-us/shop/special-needs/whiteness"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 760,
+    "w": 102,
+    "h": 18,
+    "text": "bright colors",
+    "href": "/en-us/shop/special-needs/bright-colors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 799,
+    "w": 69,
+    "h": 18,
+    "text": "sensitive",
+    "href": "/en-us/shop/special-needs/sensitive"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 838,
+    "w": 72,
+    "h": 18,
+    "text": "additives",
+    "href": "/en-us/shop/special-needs/additives"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 877,
+    "w": 90,
+    "h": 18,
+    "text": "deep clean",
+    "href": "/en-us/shop/special-needs/deep-clean"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sitemap-column > div > h3#top-collection",
+    "x": 30,
+    "y": 913,
+    "w": 315,
+    "h": 24,
+    "level": 3,
+    "text": "top collection"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 960,
+    "w": 144,
+    "h": 18,
+    "text": "tide free & gentle",
+    "href": "/en-us/shop/top-collections/tide-free-and-gentle"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 999,
+    "w": 136,
+    "h": 18,
+    "text": "tide plus febreze",
+    "href": "/en-us/shop/top-collections/tide-plus-febreze"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 1038,
+    "w": 90,
+    "h": 18,
+    "text": "tide simply",
+    "href": "/en-us/shop/top-collections/tide-simply"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 1077,
+    "w": 129,
+    "h": 18,
+    "text": "tide plus downy",
+    "href": "/en-us/shop/top-collections/tide-plus-downy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 1116,
+    "w": 108,
+    "h": 18,
+    "text": "tide ultra oxi",
+    "href": "/en-us/shop/top-collections/tide-ultra-oxi"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 1155,
+    "w": 158,
+    "h": 18,
+    "text": "tide power pods®",
+    "href": "/en-us/shop/top-collections/tide-power-pods"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sitemap-column.sitemap-wide > div > h2#our-commitment",
+    "x": 15,
+    "y": 1191,
+    "w": 330,
+    "h": 24,
+    "level": 2,
+    "text": "our commitment"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > h2#our-commitment > a",
+    "x": 15,
+    "y": 1193,
+    "w": 143,
+    "h": 20,
+    "text": "our commitment",
+    "href": "/en-us/sitemap"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 1237,
+    "w": 149,
+    "h": 19,
+    "text": "tide coming clean",
+    "href": "/en-us/our-commitment/superbowlLX"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 1276,
+    "w": 107,
+    "h": 19,
+    "text": "tide boosted",
+    "href": "/en-us/our-commitment/tide-boosted"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 1315,
+    "w": 98,
+    "h": 19,
+    "text": "turn to cold",
+    "href": "/en-us/our-commitment/turn-to-cold"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 1354,
+    "w": 68,
+    "h": 19,
+    "text": "tide evo",
+    "href": "/en-us/our-commitment/tide-evo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 1393,
+    "w": 270,
+    "h": 19,
+    "text": "don’t pay for water, pay for clean",
+    "href": "/en-us/our-commitment/dont-pay-for-water"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 1432,
+    "w": 106,
+    "h": 19,
+    "text": "tide in space",
+    "href": "/en-us/our-commitment/tide-in-space"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 1471,
+    "w": 184,
+    "h": 19,
+    "text": "america’s #1 detergent",
+    "href": "/en-us/our-commitment/americas-number-one-detergent"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 1510,
+    "w": 116,
+    "h": 19,
+    "text": "loads of hope",
+    "href": "/en-us/our-commitment/loads-of-hope"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 1549,
+    "w": 180,
+    "h": 19,
+    "text": "ingredients and safety",
+    "href": "/en-us/our-commitment/ingredients-and-safety"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 1588,
+    "w": 108,
+    "h": 19,
+    "text": "tide cleaners",
+    "href": "/en-us/our-commitment/tide-cleaners-laundry-service"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 1627,
+    "w": 108,
+    "h": 19,
+    "text": "sustainability",
+    "href": "/en-us/our-commitment/sustainability"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sitemap-column.sitemap-wide > div > h2#how-to-wash-clothes",
+    "x": 15,
+    "y": 1664,
+    "w": 330,
+    "h": 24,
+    "level": 2,
+    "text": "how to wash clothes"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > h2#how-to-wash-clothes > a",
+    "x": 15,
+    "y": 1666,
+    "w": 174,
+    "h": 20,
+    "text": "how to wash clothes",
+    "href": "/en-us/sitemap"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 1710,
+    "w": 181,
+    "h": 19,
+    "text": "how to remove stains",
+    "href": "/en-us/how-to-wash-clothes/how-to-remove-stains"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sitemap-column.sitemap-wide > div > h3#how-to-do-laundry",
+    "x": 30,
+    "y": 1747,
+    "w": 315,
+    "h": 24,
+    "level": 3,
+    "text": "how to do laundry"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 1794,
+    "w": 257,
+    "h": 42,
+    "text": "find out everything you need to know about your detergent",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/everything-you-need-to-know-about-laundry-detergent"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 1857,
+    "w": 282,
+    "h": 66,
+    "text": "how does washing clothes with vinegar or baking soda compare to detergent?",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/baking-soda-vinegar-laundry"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 1944,
+    "w": 189,
+    "h": 18,
+    "text": "caring for sensitive skin",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/caring-for-sensitive-skin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 1983,
+    "w": 290,
+    "h": 42,
+    "text": "how much laundry detergent to use (correct dose)",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/how-much-detergent-to-use"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 2046,
+    "w": 268,
+    "h": 42,
+    "text": "how to separate your laundry for the best results",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/how-to-sort-your-laundry-for-the-best-results"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > ul > li",
+    "x": 50,
+    "y": 2106,
+    "w": 295,
+    "h": 39,
+    "text": "Laundry Hygiene Tips to Prevent Germs or Illnesses from Spreading"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 2163,
+    "w": 289,
+    "h": 18,
+    "text": "how to read laundry symbols | tide",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/how-to-read-laundry-symbols"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 2202,
+    "w": 255,
+    "h": 42,
+    "text": "how to use tide deep cleansing fabric rinse",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/how-to-use-rinse"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 2265,
+    "w": 112,
+    "h": 18,
+    "text": "tide evo adp",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/how-to-use-tide-evo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 2304,
+    "w": 270,
+    "h": 42,
+    "text": "try these laundry tips for college students",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/laundry-tips-for-college-students"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 2367,
+    "w": 293,
+    "h": 18,
+    "text": "how to organize your laundry room",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/how-to-organize-your-laundry-room"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 2406,
+    "w": 274,
+    "h": 42,
+    "text": "tide detergents: choosing the best option for your laundry needs",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/choosing-between-tide-detergents"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 2469,
+    "w": 259,
+    "h": 42,
+    "text": "mastering laundry in hard water areas with tide and downy",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/laundry-in-hard-water-areas"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 2532,
+    "w": 268,
+    "h": 18,
+    "text": "learn more about tide pods film",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/about-tide-pods-pva-film"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 2571,
+    "w": 289,
+    "h": 42,
+    "text": "discover the best smelling detergent for long-lasting freshness_tide",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/best-smelling-detergent-long-lasting-tide"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 2634,
+    "w": 250,
+    "h": 42,
+    "text": "tackle tough stains with tide: a practical guide",
+    "href": "/en-us/how-to-wash-clothes/how-to-remove-stains/tackle-tough-stains-tide"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 2697,
+    "w": 273,
+    "h": 66,
+    "text": "understanding oxygen bleach and oxi boosters: complementing your detergent",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/oxygen-oxi-boosters-laundry"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 2784,
+    "w": 249,
+    "h": 42,
+    "text": "spring cleaning made simple: a fresh start with laundry",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/where-to-start-spring-cleaning"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 2847,
+    "w": 273,
+    "h": 66,
+    "text": "enhance your laundry experience: discover the power of scent beads and fresh-sme",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/enhance-laundry-experience-scent-beads-detergents"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 2934,
+    "w": 291,
+    "h": 66,
+    "text": "understanding detergent fragrances: how tide offers freshness without overpoweri",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/understanding-detergent-fragrances"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 3021,
+    "w": 246,
+    "h": 42,
+    "text": "discover the best detergent for eczema-prone skin",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/best-detergent-eczema-prone-skin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 3084,
+    "w": 162,
+    "h": 18,
+    "text": "how to use tide evo",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/tide-evo-tips-to-unlock-laundry-magic"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 3123,
+    "w": 221,
+    "h": 18,
+    "text": "tide evo comparison article",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/comparing-tide-evo-tiles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 3162,
+    "w": 131,
+    "h": 18,
+    "text": "what is tide evo",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/what-is-tide-evo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 3201,
+    "w": 172,
+    "h": 18,
+    "text": "what is tide evo q&a",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/tide-evo-questions-answers"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 3240,
+    "w": 282,
+    "h": 42,
+    "text": "what is the best detergent in terms of quality?",
+    "href": "/en-us/research/best-quality-detergent"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 3303,
+    "w": 254,
+    "h": 42,
+    "text": "a scientific guide to laundry for sensitive skin",
+    "href": "/en-us/research/scientific-guide-laundry-sensitive-skin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 3366,
+    "w": 252,
+    "h": 42,
+    "text": "are detergents toxic? see what science says",
+    "href": "/en-us/research/are-detergents-toxic-science"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 3429,
+    "w": 271,
+    "h": 66,
+    "text": "hazard vs. risk: why 'toxic’ claims about your detergent may be misleading",
+    "href": "/en-us/research/hazard-vs-risk-laundry-detergent"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 3516,
+    "w": 283,
+    "h": 66,
+    "text": "why a better clean is essential for a safer clean (especially for sensitive skin",
+    "href": "/en-us/how-to-do-laundry/better-clean-safer"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 3603,
+    "w": 277,
+    "h": 66,
+    "text": "what’s really on your clothes? the truth about detergent residue and safety",
+    "href": "/en-us/how-to-do-laundry/detergent-residue-safety"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 3690,
+    "w": 253,
+    "h": 66,
+    "text": "is tide safe? the science behind laundry detergent safety and ingredient testing",
+    "href": "/en-us/research/laundry-detergent-science-testing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 3777,
+    "w": 89,
+    "h": 18,
+    "text": "cold water",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/cold-water"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 3816,
+    "w": 279,
+    "h": 42,
+    "text": "a technical review and fact-check: the rolsky & kelkar",
+    "href": "/en-us/research/pva-technical-review"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 3879,
+    "w": 279,
+    "h": 42,
+    "text": "a fragrance-free laundry routine that still leaves clothes truly clean",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/fragrance-free-laundry-routine"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 3942,
+    "w": 286,
+    "h": 66,
+    "text": "how to choose a laundry detergent for your pet’s bedding, toys, and blankets",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/laundry-detergent-for-pet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 4029,
+    "w": 251,
+    "h": 42,
+    "text": "tide and sensitive skin - how to schoose the right detergent",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/choose-detergent-sensitive-skin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 4092,
+    "w": 209,
+    "h": 18,
+    "text": "tide pods and skin safety",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/tide-pods-skin-safety"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 4131,
+    "w": 266,
+    "h": 18,
+    "text": "your sensitive skin laundry guide",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/sensitive-skin-laundry-guide"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 4170,
+    "w": 227,
+    "h": 18,
+    "text": "does tide evo fully dissolve?",
+    "href": "/en-us/research/tide-evo-dissolve-guide"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 50,
+    "y": 4209,
+    "w": 285,
+    "h": 42,
+    "text": "volatile organic compounds (vocs) in laundry products",
+    "href": "/en-us/research/vocs-laundry-products-airborne-emissions"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 4271,
+    "w": 295,
+    "h": 19,
+    "text": "washing different fabrics and colors",
+    "href": "/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 4310,
+    "w": 166,
+    "h": 19,
+    "text": "washing machine 101",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sitemap-column > div > h2#coupons-and-deals",
+    "x": 15,
+    "y": 4347,
+    "w": 330,
+    "h": 24,
+    "level": 2,
+    "text": "coupons and deals"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > h2#coupons-and-deals > a",
+    "x": 15,
+    "y": 4349,
+    "w": 155,
+    "h": 20,
+    "text": "coupons and deals",
+    "href": "/en-us/sitemap"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 4393,
+    "w": 178,
+    "h": 19,
+    "text": "coupons and rewards",
+    "href": "/en-us/rewards"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 4432,
+    "w": 114,
+    "h": 19,
+    "text": "laundry deals",
+    "href": "/wljshvha"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 4471,
+    "w": 104,
+    "h": 19,
+    "text": "laundry tips",
+    "href": "/en-us/rewards/laundrytips"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > p > a",
+    "x": 15,
+    "y": 4508,
+    "w": 330,
+    "h": 24,
+    "text": "what’s new",
+    "href": "/en-us/latest-news"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > p > a",
+    "x": 15,
+    "y": 4557,
+    "w": 330,
+    "h": 24,
+    "text": "contact us",
+    "href": "/en-us/contact-us"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.footer-social-label > p",
+    "x": 15,
+    "y": 4716,
+    "w": 242,
+    "h": 19,
+    "text": "Ways to connect with us:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 4755,
+    "w": 32,
+    "h": 32,
+    "text": "facebook icon",
+    "href": "/Tide"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 15,
+    "y": 4755,
+    "w": 32,
+    "h": 32,
+    "text": "facebook icon",
+    "file": "media_1bff7d59c4067314b47f0571184d0ed529"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 62,
+    "y": 4755,
+    "w": 32,
+    "h": 32,
+    "text": "twitter icon",
+    "href": "/tide"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 62,
+    "y": 4755,
+    "w": 32,
+    "h": 32,
+    "text": "twitter icon",
+    "file": "media_1d4bf414ff3eeeb8a169b214b0c8bbf72a"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 109,
+    "y": 4755,
+    "w": 32,
+    "h": 32,
+    "text": "pinterest icon",
+    "href": "/tide/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 109,
+    "y": 4755,
+    "w": 32,
+    "h": 32,
+    "text": "pinterest icon",
+    "file": "media_18cdbba8bc0f0f7a172257ff84fa5200d5"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 156,
+    "y": 4755,
+    "w": 32,
+    "h": 32,
+    "text": "youtube icon",
+    "href": "/channel/UCEPeWPjaF1CWCKXa3xTp7vw"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 156,
+    "y": 4755,
+    "w": 32,
+    "h": 32,
+    "text": "youtube icon",
+    "file": "media_11266d14e9b1e9a4b88cdddb13b60dadbd"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col > div.footer-nav-title > p",
+    "x": 15,
+    "y": 4847,
+    "w": 330,
+    "h": 51,
+    "text": "Shop Products"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > div.expandable > div.expandable-header",
+    "x": 15,
+    "y": 4940,
+    "w": 330,
+    "h": 24,
+    "level": 4,
+    "text": "by type"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > div.expandable > div.expandable-header",
+    "x": 15,
+    "y": 5024,
+    "w": 330,
+    "h": 24,
+    "level": 4,
+    "text": "by need"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > div.expandable > div.expandable-header",
+    "x": 15,
+    "y": 5108,
+    "w": 330,
+    "h": 24,
+    "level": 4,
+    "text": "top collection"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col.col-md-6 > div.footer-nav-title > p",
+    "x": 15,
+    "y": 5200,
+    "w": 330,
+    "h": 51,
+    "text": "How to Wash Clothes"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 5268,
+    "w": 177,
+    "h": 18,
+    "text": "how to remove stains",
+    "href": "/en-us/how-to-wash-clothes/how-to-remove-stains"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 5300,
+    "w": 153,
+    "h": 18,
+    "text": "how to do laundry",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 5332,
+    "w": 289,
+    "h": 18,
+    "text": "washing different fabrics and colors",
+    "href": "/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 5364,
+    "w": 163,
+    "h": 18,
+    "text": "washing machine 101",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col.col-md-6 > div.footer-nav-title > p",
+    "x": 15,
+    "y": 5429,
+    "w": 330,
+    "h": 51,
+    "text": "Help & Support"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 5497,
+    "w": 85,
+    "h": 18,
+    "text": "contact us",
+    "href": "/en-us/contact-us"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col.footer-related > div.footer-related-label > p",
+    "x": 15,
+    "y": 5593,
+    "w": 81,
+    "h": 24,
+    "text": "Related:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 5626,
+    "w": 93,
+    "h": 18,
+    "text": "p&g brands",
+    "href": "/en_US"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 123,
+    "y": 5626,
+    "w": 64,
+    "h": 18,
+    "text": "mrclean",
+    "href": "/en-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 202,
+    "y": 5626,
+    "w": 54,
+    "h": 18,
+    "text": "downy",
+    "href": "/en-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 271,
+    "y": 5626,
+    "w": 58,
+    "h": 18,
+    "text": "bounce",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 5658,
+    "w": 110,
+    "h": 18,
+    "text": "p&g everyday",
+    "href": "/tag/tide"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 18,
+    "y": 5777,
+    "w": 82,
+    "h": 16,
+    "text": "good housekeeping icon",
+    "href": "/product-reviews/history/welcome-gh-seal"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 18,
+    "y": 5728,
+    "w": 82,
+    "h": 62,
+    "text": "good housekeeping icon",
+    "file": "media_1915c270d4d20b18fb25a1cc6c49da3f7d"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 130,
+    "y": 5777,
+    "w": 38,
+    "h": 16,
+    "text": "bbb icon",
+    "href": "/cincinnati/business-reviews/detergent/the-procter-gamble-company-in-cincinnati-oh-3036"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 130,
+    "y": 5728,
+    "w": 38,
+    "h": 62,
+    "text": "bbb icon",
+    "file": "media_152462ed6c7d03edb0c9b2df4a3225edd6"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 198,
+    "y": 5777,
+    "w": 58,
+    "h": 16,
+    "text": "junk food icon",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 198,
+    "y": 5728,
+    "w": 58,
+    "h": 62,
+    "text": "junk food icon",
+    "file": "media_174cf4b58ab063651ffe4f10a66e62cdaf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 286,
+    "y": 5777,
+    "w": 56,
+    "h": 16,
+    "text": "tide cleaners icon",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 286,
+    "y": 5728,
+    "w": 56,
+    "h": 62,
+    "text": "tide cleaners icon",
+    "file": "media_124ea7973b6834e8157f4329ff2eee77c6"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 5847,
+    "w": 179,
+    "h": 18,
+    "text": "accessibility statement",
+    "href": "/en-US"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 5879,
+    "w": 150,
+    "h": 18,
+    "text": "terms & conditions",
+    "href": "/en-us/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 5911,
+    "w": 279,
+    "h": 18,
+    "text": "tide rewards terms and conditions",
+    "href": "/en-us/rewards/loyalty/terms-and-conditions"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 5943,
+    "w": 60,
+    "h": 18,
+    "text": "careers",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 90,
+    "y": 5943,
+    "w": 56,
+    "h": 18,
+    "text": "privacy",
+    "href": "/en-US/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 5975,
+    "w": 287,
+    "h": 18,
+    "text": "consumer health data privacy policy",
+    "href": "/CHD-en"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 6007,
+    "w": 187,
+    "h": 18,
+    "text": "your privacy choices",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > span",
+    "x": 15,
+    "y": 6039,
+    "w": 276,
+    "h": 50,
+    "text": "NOTICE: We may sell your sensitive personal data."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col.footer-general > ul > li",
+    "x": 15,
+    "y": 6192,
+    "w": 199,
+    "h": 32,
+    "text": "© 2026 Procter & Gamble"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 6274,
+    "w": 64,
+    "h": 32,
+    "text": "sitemap",
+    "href": "/en-us/sitemap"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 121,
+    "controls": 115,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "sitemap",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "shop products",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "by type",
+   "variable": false,
+   "origin": {
+    "link": 8,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 8,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "by need",
+   "variable": false,
+   "origin": {
+    "link": 8,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 8,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "top collection",
+   "variable": false,
+   "origin": {
+    "link": 6,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 6,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "our commitment",
+   "variable": false,
+   "origin": {
+    "link": 12,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 12,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "how to wash clothes",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "how to do laundry",
+   "variable": false,
+   "origin": {
+    "link": 42,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 42,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "coupons and deals",
+   "variable": false,
+   "origin": {
+    "link": 6,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 6,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 15,
+    "y": 89,
+    "w": 138,
+    "h": 39
+   },
+   {
+    "x": 15,
+    "y": 159,
+    "w": 121,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 203,
+    "w": 64,
+    "h": 19
+   },
+   {
+    "x": 50,
+    "y": 248,
+    "w": 36,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 287,
+    "w": 47,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 326,
+    "w": 60,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 365,
+    "w": 113,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 404,
+    "w": 129,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 443,
+    "w": 89,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 482,
+    "w": 94,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 521,
+    "w": 103,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 559,
+    "w": 67,
+    "h": 19
+   },
+   {
+    "x": 50,
+    "y": 604,
+    "w": 110,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 643,
+    "w": 112,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 682,
+    "w": 131,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 721,
+    "w": 81,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 760,
+    "w": 102,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 799,
+    "w": 69,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 838,
+    "w": 72,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 877,
+    "w": 90,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 915,
+    "w": 113,
+    "h": 19
+   },
+   {
+    "x": 50,
+    "y": 960,
+    "w": 144,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 999,
+    "w": 136,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 1038,
+    "w": 90,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 1077,
+    "w": 129,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 1116,
+    "w": 108,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 1155,
+    "w": 158,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1193,
+    "w": 143,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 1237,
+    "w": 149,
+    "h": 19
+   },
+   {
+    "x": 30,
+    "y": 1276,
+    "w": 107,
+    "h": 19
+   },
+   {
+    "x": 30,
+    "y": 1315,
+    "w": 98,
+    "h": 19
+   },
+   {
+    "x": 30,
+    "y": 1354,
+    "w": 68,
+    "h": 19
+   },
+   {
+    "x": 30,
+    "y": 1393,
+    "w": 270,
+    "h": 19
+   },
+   {
+    "x": 30,
+    "y": 1432,
+    "w": 106,
+    "h": 19
+   },
+   {
+    "x": 30,
+    "y": 1471,
+    "w": 184,
+    "h": 19
+   },
+   {
+    "x": 30,
+    "y": 1510,
+    "w": 116,
+    "h": 19
+   },
+   {
+    "x": 30,
+    "y": 1549,
+    "w": 180,
+    "h": 19
+   },
+   {
+    "x": 30,
+    "y": 1588,
+    "w": 108,
+    "h": 19
+   },
+   {
+    "x": 30,
+    "y": 1627,
+    "w": 108,
+    "h": 19
+   },
+   {
+    "x": 15,
+    "y": 1666,
+    "w": 174,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 1710,
+    "w": 181,
+    "h": 19
+   },
+   {
+    "x": 30,
+    "y": 1749,
+    "w": 155,
+    "h": 19
+   },
+   {
+    "x": 50,
+    "y": 1794,
+    "w": 257,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 1818,
+    "w": 218,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 1857,
+    "w": 254,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 1881,
+    "w": 282,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 1905,
+    "w": 86,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 1944,
+    "w": 189,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 1983,
+    "w": 290,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2007,
+    "w": 111,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2046,
+    "w": 268,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2070,
+    "w": 124,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2107,
+    "w": 290,
+    "h": 16
+   },
+   {
+    "x": 50,
+    "y": 2127,
+    "w": 166,
+    "h": 16
+   },
+   {
+    "x": 50,
+    "y": 2163,
+    "w": 289,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2202,
+    "w": 255,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2226,
+    "w": 94,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2265,
+    "w": 112,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2304,
+    "w": 270,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2328,
+    "w": 69,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2367,
+    "w": 293,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2406,
+    "w": 274,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2430,
+    "w": 244,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2469,
+    "w": 259,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2493,
+    "w": 214,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2532,
+    "w": 268,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2571,
+    "w": 289,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2595,
+    "w": 253,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2634,
+    "w": 250,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2658,
+    "w": 116,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2697,
+    "w": 269,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2721,
+    "w": 273,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2745,
+    "w": 78,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2784,
+    "w": 249,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2808,
+    "w": 193,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2847,
+    "w": 270,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2871,
+    "w": 273,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2895,
+    "w": 239,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2934,
+    "w": 291,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2958,
+    "w": 278,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2982,
+    "w": 168,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3021,
+    "w": 246,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3045,
+    "w": 150,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3084,
+    "w": 162,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3123,
+    "w": 221,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3162,
+    "w": 131,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3201,
+    "w": 172,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3240,
+    "w": 282,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3264,
+    "w": 83,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3303,
+    "w": 254,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3327,
+    "w": 106,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3366,
+    "w": 252,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3390,
+    "w": 100,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3429,
+    "w": 271,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3453,
+    "w": 235,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3477,
+    "w": 82,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3516,
+    "w": 283,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3540,
+    "w": 277,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3564,
+    "w": 39,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3603,
+    "w": 275,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3627,
+    "w": 277,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3651,
+    "w": 49,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3690,
+    "w": 253,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3714,
+    "w": 234,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3738,
+    "w": 139,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3777,
+    "w": 89,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3816,
+    "w": 279,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3840,
+    "w": 153,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3879,
+    "w": 269,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3903,
+    "w": 279,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3942,
+    "w": 286,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3966,
+    "w": 256,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3990,
+    "w": 66,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 4029,
+    "w": 251,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 4053,
+    "w": 215,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 4092,
+    "w": 209,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 4131,
+    "w": 266,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 4170,
+    "w": 227,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 4209,
+    "w": 285,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 4233,
+    "w": 156,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4271,
+    "w": 295,
+    "h": 19
+   },
+   {
+    "x": 30,
+    "y": 4310,
+    "w": 166,
+    "h": 19
+   },
+   {
+    "x": 15,
+    "y": 4349,
+    "w": 155,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 4393,
+    "w": 178,
+    "h": 19
+   },
+   {
+    "x": 30,
+    "y": 4432,
+    "w": 114,
+    "h": 19
+   },
+   {
+    "x": 30,
+    "y": 4471,
+    "w": 104,
+    "h": 19
+   },
+   {
+    "x": 15,
+    "y": 4510,
+    "w": 97,
+    "h": 20
+   },
+   {
+    "x": 15,
+    "y": 4559,
+    "w": 89,
+    "h": 20
+   },
+   {
+    "x": 15,
+    "y": 4713,
+    "w": 242,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 4846,
+    "w": 166,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 4940,
+    "w": 80,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 5024,
+    "w": 81,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 5108,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 5199,
+    "w": 239,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 5268,
+    "w": 177,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 5300,
+    "w": 153,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 5332,
+    "w": 289,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 5364,
+    "w": 163,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 5428,
+    "w": 172,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 5497,
+    "w": 85,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 5593,
+    "w": 81,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 5626,
+    "w": 93,
+    "h": 18
+   },
+   {
+    "x": 123,
+    "y": 5626,
+    "w": 64,
+    "h": 18
+   },
+   {
+    "x": 202,
+    "y": 5626,
+    "w": 54,
+    "h": 18
+   },
+   {
+    "x": 271,
+    "y": 5626,
+    "w": 58,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 5658,
+    "w": 110,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 5847,
+    "w": 179,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 5879,
+    "w": 150,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 5911,
+    "w": 279,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 5943,
+    "w": 60,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 5943,
+    "w": 56,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 5975,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6007,
+    "w": 162,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6039,
+    "w": 276,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6071,
+    "w": 110,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6103,
+    "w": 258,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6135,
+    "w": 268,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6167,
+    "w": 88,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6199,
+    "w": 56,
+    "h": 18
+   },
+   {
+    "x": 71,
+    "y": 6199,
+    "w": 143,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6281,
+    "w": 64,
+    "h": 18
+   }
+  ],
+  "eds": [
+   {
+    "x": 127,
+    "y": -31,
+    "w": 106,
+    "h": 16
+   },
+   {
+    "x": 15,
+    "y": 89,
+    "w": 138,
+    "h": 39
+   },
+   {
+    "x": 15,
+    "y": 159,
+    "w": 121,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 203,
+    "w": 64,
+    "h": 19
+   },
+   {
+    "x": 50,
+    "y": 248,
+    "w": 36,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 287,
+    "w": 47,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 326,
+    "w": 60,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 365,
+    "w": 113,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 404,
+    "w": 129,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 443,
+    "w": 89,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 482,
+    "w": 94,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 521,
+    "w": 103,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 559,
+    "w": 67,
+    "h": 19
+   },
+   {
+    "x": 50,
+    "y": 604,
+    "w": 110,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 643,
+    "w": 112,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 682,
+    "w": 131,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 721,
+    "w": 81,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 760,
+    "w": 102,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 799,
+    "w": 69,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 838,
+    "w": 72,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 877,
+    "w": 90,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 915,
+    "w": 113,
+    "h": 19
+   },
+   {
+    "x": 50,
+    "y": 960,
+    "w": 144,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 999,
+    "w": 136,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 1038,
+    "w": 90,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 1077,
+    "w": 129,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 1116,
+    "w": 108,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 1155,
+    "w": 158,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1193,
+    "w": 143,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 1237,
+    "w": 149,
+    "h": 19
+   },
+   {
+    "x": 30,
+    "y": 1276,
+    "w": 107,
+    "h": 19
+   },
+   {
+    "x": 30,
+    "y": 1315,
+    "w": 98,
+    "h": 19
+   },
+   {
+    "x": 30,
+    "y": 1354,
+    "w": 68,
+    "h": 19
+   },
+   {
+    "x": 30,
+    "y": 1393,
+    "w": 270,
+    "h": 19
+   },
+   {
+    "x": 30,
+    "y": 1432,
+    "w": 106,
+    "h": 19
+   },
+   {
+    "x": 30,
+    "y": 1471,
+    "w": 184,
+    "h": 19
+   },
+   {
+    "x": 30,
+    "y": 1510,
+    "w": 116,
+    "h": 19
+   },
+   {
+    "x": 30,
+    "y": 1549,
+    "w": 180,
+    "h": 19
+   },
+   {
+    "x": 30,
+    "y": 1588,
+    "w": 108,
+    "h": 19
+   },
+   {
+    "x": 30,
+    "y": 1627,
+    "w": 108,
+    "h": 19
+   },
+   {
+    "x": 15,
+    "y": 1666,
+    "w": 174,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 1710,
+    "w": 181,
+    "h": 19
+   },
+   {
+    "x": 30,
+    "y": 1749,
+    "w": 155,
+    "h": 19
+   },
+   {
+    "x": 50,
+    "y": 1794,
+    "w": 257,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 1818,
+    "w": 218,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 1857,
+    "w": 254,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 1881,
+    "w": 282,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 1905,
+    "w": 86,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 1944,
+    "w": 189,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 1983,
+    "w": 290,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2007,
+    "w": 111,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2046,
+    "w": 268,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2070,
+    "w": 124,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2107,
+    "w": 290,
+    "h": 16
+   },
+   {
+    "x": 50,
+    "y": 2127,
+    "w": 166,
+    "h": 16
+   },
+   {
+    "x": 50,
+    "y": 2163,
+    "w": 289,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2202,
+    "w": 255,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2226,
+    "w": 94,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2265,
+    "w": 112,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2304,
+    "w": 270,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2328,
+    "w": 69,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2367,
+    "w": 293,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2406,
+    "w": 274,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2430,
+    "w": 244,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2469,
+    "w": 259,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2493,
+    "w": 214,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2532,
+    "w": 268,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2571,
+    "w": 289,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2595,
+    "w": 253,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2634,
+    "w": 250,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2658,
+    "w": 116,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2697,
+    "w": 269,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2721,
+    "w": 273,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2745,
+    "w": 78,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2784,
+    "w": 249,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2808,
+    "w": 193,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2847,
+    "w": 270,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2871,
+    "w": 273,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2895,
+    "w": 239,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2934,
+    "w": 291,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2958,
+    "w": 278,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 2982,
+    "w": 168,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3021,
+    "w": 246,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3045,
+    "w": 150,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3084,
+    "w": 162,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3123,
+    "w": 221,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3162,
+    "w": 131,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3201,
+    "w": 172,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3240,
+    "w": 282,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3264,
+    "w": 83,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3303,
+    "w": 254,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3327,
+    "w": 106,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3366,
+    "w": 252,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3390,
+    "w": 100,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3429,
+    "w": 271,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3453,
+    "w": 235,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3477,
+    "w": 82,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3516,
+    "w": 283,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3540,
+    "w": 277,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3564,
+    "w": 39,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3603,
+    "w": 275,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3627,
+    "w": 277,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3651,
+    "w": 49,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3690,
+    "w": 253,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3714,
+    "w": 234,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3738,
+    "w": 139,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3777,
+    "w": 89,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3816,
+    "w": 279,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3840,
+    "w": 153,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3879,
+    "w": 269,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3903,
+    "w": 279,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3942,
+    "w": 286,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3966,
+    "w": 256,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 3990,
+    "w": 66,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 4029,
+    "w": 251,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 4053,
+    "w": 215,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 4092,
+    "w": 209,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 4131,
+    "w": 266,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 4170,
+    "w": 227,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 4209,
+    "w": 285,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 4233,
+    "w": 156,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4271,
+    "w": 295,
+    "h": 19
+   },
+   {
+    "x": 30,
+    "y": 4310,
+    "w": 166,
+    "h": 19
+   },
+   {
+    "x": 15,
+    "y": 4349,
+    "w": 155,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 4393,
+    "w": 178,
+    "h": 19
+   },
+   {
+    "x": 30,
+    "y": 4432,
+    "w": 114,
+    "h": 19
+   },
+   {
+    "x": 30,
+    "y": 4471,
+    "w": 104,
+    "h": 19
+   },
+   {
+    "x": 15,
+    "y": 4510,
+    "w": 97,
+    "h": 20
+   },
+   {
+    "x": 15,
+    "y": 4559,
+    "w": 89,
+    "h": 20
+   },
+   {
+    "x": 15,
+    "y": 4713,
+    "w": 242,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 4846,
+    "w": 166,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 4940,
+    "w": 80,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 5024,
+    "w": 81,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 5108,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 5199,
+    "w": 239,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 5268,
+    "w": 177,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 5300,
+    "w": 153,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 5332,
+    "w": 289,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 5364,
+    "w": 163,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 5428,
+    "w": 172,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 5497,
+    "w": 85,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 5593,
+    "w": 81,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 5626,
+    "w": 93,
+    "h": 18
+   },
+   {
+    "x": 123,
+    "y": 5626,
+    "w": 64,
+    "h": 18
+   },
+   {
+    "x": 202,
+    "y": 5626,
+    "w": 54,
+    "h": 18
+   },
+   {
+    "x": 271,
+    "y": 5626,
+    "w": 58,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 5658,
+    "w": 110,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 5847,
+    "w": 179,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 5879,
+    "w": 150,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 5911,
+    "w": 279,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 5943,
+    "w": 60,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 5943,
+    "w": 56,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 5975,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6007,
+    "w": 162,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6039,
+    "w": 276,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6071,
+    "w": 110,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6103,
+    "w": 258,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6135,
+    "w": 268,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6167,
+    "w": 88,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6199,
+    "w": 199,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6281,
+    "w": 64,
+    "h": 18
+   }
+  ]
+ }
+}

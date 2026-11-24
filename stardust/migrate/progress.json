@@ -1,0 +1,113 @@
+{
+ "units": {
+  "plan": {
+   "status": "done",
+   "kind": "plan",
+   "templates": [
+    "home",
+    "article",
+    "product-listing",
+    "collection-landing",
+    "section-landing",
+    "topic-hub",
+    "sustainability-topic",
+    "click2cart",
+    "unique"
+   ],
+   "pages": 94,
+   "startedAt": "2026-11-23T23:42:34Z",
+   "endedAt": "2026-11-23T23:42:34Z",
+   "verdict": "A 8 archetypes; A' 70 siblings (render after each C-archetype unit); B 14 unique (unique-render from canon); redirect 5 → redirects sheet; health-probe thin"
+  },
+  "archetypes": {
+   "status": "done",
+   "kind": "render",
+   "templates": [
+    "home",
+    "article",
+    "product-listing",
+    "section-landing",
+    "collection-landing",
+    "sustainability-topic",
+    "topic-hub",
+    "click2cart"
+   ],
+   "pages": 8,
+   "startedAt": "2026-11-23T23:43:29.115Z",
+   "endedAt": "2026-11-23T23:43:29.115Z",
+   "verdict": "rendered 8, unchanged 0, refused 0, passthrough 0 (click2cart wrapper retagged to <main>)"
+  },
+  "article": {
+   "status": "done",
+   "kind": "render",
+   "templates": [
+    "article"
+   ],
+   "pages": 37,
+   "startedAt": "2026-11-24T01:42:28.744Z",
+   "endedAt": "2026-11-24T06:57:46.932Z",
+   "verdict": "37 siblings rendered (A′, article encoder), 37/37 delivered and gated"
+  },
+  "product-listing": {
+   "status": "done",
+   "kind": "render",
+   "templates": [
+    "product-listing"
+   ],
+   "pages": 14,
+   "startedAt": "2026-11-24T01:53:55.497Z",
+   "endedAt": "2026-11-24T03:29:59.918Z",
+   "verdict": "rendered 14 (wrapped content files as driver input; tier recorded archetype — state rows extracted)"
+  },
+  "collection-landing": {
+   "status": "done",
+   "kind": "render",
+   "templates": [
+    "collection-landing"
+   ],
+   "pages": 4,
+   "endedAt": "2026-11-24T06:57:46.932Z",
+   "verdict": "4 siblings rendered (A′, cluster encoder), delivered and gated in C-deliver cluster-collection-landing"
+  },
+  "sustainability-topic": {
+   "status": "done",
+   "kind": "render",
+   "templates": [
+    "sustainability-topic"
+   ],
+   "pages": 2,
+   "endedAt": "2026-11-24T06:57:46.932Z",
+   "verdict": "2 siblings rendered (A′, cluster encoder), delivered and gated in C-deliver cluster-sustainability-topic"
+  },
+  "topic-hub": {
+   "status": "done",
+   "kind": "render",
+   "templates": [
+    "topic-hub"
+   ],
+   "pages": 3,
+   "endedAt": "2026-11-24T06:57:46.932Z",
+   "verdict": "3 siblings rendered (A′, cluster encoder), delivered and gated in C-deliver cluster-topic-hub"
+  },
+  "section-landing": {
+   "status": "done",
+   "kind": "render",
+   "templates": [
+    "section-landing"
+   ],
+   "pages": 5,
+   "endedAt": "2026-11-24T07:00:41.045Z",
+   "verdict": "5 siblings rendered (A′, section-landing encoder), delivered and gated"
+  },
+  "click2cart": {
+   "status": "done",
+   "kind": "render",
+   "templates": [
+    "click2cart"
+   ],
+   "pages": 7,
+   "endedAt": "2026-11-24T07:31:51.574Z",
+   "verdict": "7 siblings rendered (A′, click2cart encoder), delivered and gated"
+  }
+ }
+}

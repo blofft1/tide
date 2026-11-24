@@ -1,0 +1,67 @@
+{
+ "url": "https://main--5db7d055--aemcoder.aem.page/en-us/research/are-detergents-toxic-science",
+ "at": "2026-11-24T11:22:35.015Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 9,
+  "offPage": 12,
+  "textNodes": 319,
+  "controls": 56,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 7,
+   "clipper": null,
+   "path": "ul > li > p > a",
+   "text": "https://pmc.ncbi.nlm.nih.gov/articles/pmc10989987/",
+   "cutMin": 26,
+   "cutMax": 889
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "nav",
+   "path": "nav > ul > li > span.jump-links-item",
+   "text": "2. why “detergents are toxic” claims are misleading",
+   "cutMin": 319,
+   "cutMax": 319
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "nav",
+   "path": "nav > ul > li > span.jump-links-item",
+   "text": "2. why “detergents are toxic” claims are misleading",
+   "cutMin": 319,
+   "cutMax": 319
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 1,
+   "scrollHidden": 0,
+   "horizontal": 22,
+   "offPage": 12,
+   "textNodes": 320,
+   "controls": 59,
+   "total": 0
+  }
+ }
+}

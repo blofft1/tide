@@ -1,0 +1,1154 @@
+{
+ "_provenance": {
+  "writtenBy": "replica en-us archetype agent (hands-off)",
+  "writtenAt": "2026-11-23T21:35:57.830Z"
+ },
+ "types": {
+  "en-us": {
+   "pageType": "home",
+   "archetype": "en-us",
+   "slug": "en-us",
+   "live": "https://tide.com/en-us",
+   "prototype": "stardust/prototypes/en-us-proposed.html",
+   "canon": [
+    "stardust/prototypes/canon/canon.css",
+    "stardust/prototypes/canon/canon.js"
+   ],
+   "pageCss": "stardust/prototypes/en-us.css",
+   "pageJs": "stardust/prototypes/en-us.js",
+   "sourceSpecCompare": {
+    "360": "same",
+    "1440": "0 height deltas, 0 nodes off, 0 missing, 1 extra (skip link, justified)"
+   },
+   "capProbe": {
+    "verdict": "PASS",
+    "probeWidth": 2560,
+    "evidence": "stardust/replica/gates/en-us-2560/cap-iter.json"
+   },
+   "breakpoints": {
+    "360": {
+     "iterations": 2,
+     "rounds": {
+      "counted": 2,
+      "cap": 3,
+      "decision": "accept-residual",
+      "evidence": "stardust/replica/gates/en-us-360/verdict-iter2.json"
+     },
+     "result": {
+      "structuralRed": 0,
+      "nothingLostYellow": 0,
+      "visualFlags": "none",
+      "pixelPct": 0.26,
+      "pixelUnalignedPct": 0.51,
+      "heightDelta": -1,
+      "offsetSteps": "3 steps, 3px",
+      "clipped": 0,
+      "overflow": "none",
+      "units": "PASS",
+      "chromeParity": "quiet (exit 0)",
+      "chromeCrops": {
+       "header": "1.09% (thick texture)",
+       "footer": "1.55%"
+      },
+      "pass": false,
+      "failsOn": "header-contract probe only"
+     },
+     "justified": [
+      {
+       "probe": "source-spec compare",
+       "flag": "1 extra node: Skip to Content (y -44, off-canvas)",
+       "why": "measure.mjs --against: identical rect and props on live and build; the live spec capture omitted the node",
+       "permanent": true
+      }
+     ],
+     "residuals": [
+      {
+       "region": "header (mobile drawer + locale modal states)",
+       "cause": "header-contract: 13 classed accept-residual findings (panel-visual crop geometry, close-path by trigger point)",
+       "evidence": "stardust/chrome/header-parity.json, stardust/chrome/header-decisions.json",
+       "flaggedFor": "user"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "footer Shop Products columns (By Type / By Need / Top Collection) render empty in every capture (late-loaded on live)",
+       "where": "footer",
+       "restoreAtDelivery": "live hydrates the three link lists after load; the links are the header Shop Products menu lists — wire them at delivery"
+      },
+      {
+       "what": "hp carousel held on position 1, stain picker on mayonnaise",
+       "where": "rail, stains",
+       "restoreAtDelivery": null
+      }
+     ]
+    },
+    "1440": {
+     "iterations": 2,
+     "rounds": {
+      "counted": 2,
+      "cap": 3,
+      "decision": "accept-residual",
+      "evidence": "stardust/replica/gates/en-us-1440/verdict-iter2.json"
+     },
+     "result": {
+      "structuralRed": 0,
+      "nothingLostYellow": 0,
+      "visualFlags": "none",
+      "pixelPct": 0.19,
+      "pixelUnalignedPct": 0.21,
+      "heightDelta": -1,
+      "offsetSteps": "1 step, 1px",
+      "clipped": 0,
+      "overflow": "none",
+      "units": "PASS",
+      "chromeParity": "quiet (exit 0)",
+      "chromeCrops": {
+       "header": "0.09%",
+       "footer": "0.72%"
+      },
+      "pass": false,
+      "failsOn": "header-contract probe only"
+     },
+     "justified": [
+      {
+       "probe": "source-spec compare",
+       "flag": "1 extra node: Skip to Content (y -44, off-canvas)",
+       "why": "measure.mjs --against: identical rect and props on live and build; the live spec capture omitted the node",
+       "permanent": true
+      }
+     ],
+     "residuals": [
+      {
+       "region": "header (mobile drawer + locale modal states)",
+       "cause": "header-contract: 13 classed accept-residual findings (panel-visual crop geometry, close-path by trigger point)",
+       "evidence": "stardust/chrome/header-parity.json, stardust/chrome/header-decisions.json",
+       "flaggedFor": "user"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "footer Shop Products columns (By Type / By Need / Top Collection) render empty in every capture (late-loaded on live)",
+       "where": "footer",
+       "restoreAtDelivery": "live hydrates the three link lists after load; the links are the header Shop Products menu lists — wire them at delivery"
+      },
+      {
+       "what": "hp carousel held on position 1, stain picker on mayonnaise",
+       "where": "rail, stains",
+       "restoreAtDelivery": null
+      }
+     ]
+    }
+   },
+   "headerContract": {
+    "rounds": "4 of 4 (1 extend for an instrument path defect)",
+    "errors": 13,
+    "classed": "accept-residual ×13",
+    "status": "FAIL — classed, owner sign-off needed"
+   },
+   "deviations": [
+    {
+     "what": "stain picker wheel implemented as a hidden-scrollbar scroll viewport (live: translate3d content)",
+     "why": "same rendered state; clip-probe reads the off-wheel items as scroll-hidden instead of hidden controls"
+    },
+    {
+     "what": "mobile drawer mounted from a <template> on first open, unmounted after close",
+     "why": "live mounts #mobile-nav-menu on open; keeps content-diff rest state equal"
+    },
+    {
+     "what": "stain Learn More button navigates to /en-us/how-to-wash-clothes/how-to-remove-stains",
+     "why": "live target per stain unknown (button, data-action-detail only)"
+    }
+   ],
+   "motion": {
+    "observed": "stardust/replica/motion/en-us-live.json — modal-card img scale(1.1) .3s; button background hovers .2s (articles orange→#e24405, evo try-it-now→#182e83); main-menu item hover bg rgba(0,0,0,.3) .3s + submenu opacity .3s on every item with a submenu; carousel track transform .4s + dot background .5s; stain picker font-size .1s; header static (no scroll morph)",
+    "implemented": "all of the observed list (en-us.css, canon.css, en-us.js, canon.js); motion-compare: 10 parity, 0 extra, 4 class-name-only MISSING lines (hidden-submenu / m-style-picker-item-selected / react-multi-carousel-*--active ↔ build active / is-selected / is-active)",
+    "dead": [
+     "header scroll-morph",
+     "list-card hover (CSS rule never fired)",
+     "article title hover diff (no measured diff)",
+     "footer link hover",
+     "carousel/spinner widget frame motion beyond class swap"
+    ],
+    "evidence": "stardust/replica/motion/en-us-build.json",
+    "pixelRecheck": "not re-run after motion edits (orchestrator budget stop) — edits are hover/transition-only, t=0 unchanged by construction"
+   }
+  },
+  "en-us-research-best-quality-detergent": {
+   "pageType": "article",
+   "archetype": "en-us-research-best-quality-detergent",
+   "slug": "en-us-research-best-quality-detergent",
+   "live": "https://tide.com/en-us/research/best-quality-detergent",
+   "prototype": "stardust/prototypes/en-us-research-best-quality-detergent-proposed.html",
+   "canon": [
+    "stardust/prototypes/canon/canon.css",
+    "stardust/prototypes/canon/canon.js"
+   ],
+   "pageCss": "stardust/prototypes/en-us-research-best-quality-detergent.css",
+   "pageJs": "stardust/prototypes/en-us-research-best-quality-detergent.js",
+   "build": "stardust/replica/build/en-us-research-best-quality-detergent.build.mjs",
+   "sourceSpecCompare": {
+    "360": "exit 0 — 0 height deltas, 0 nodes off, 0 missing, 0 extra",
+    "1440": "exit 0 — 0 height deltas, 0 nodes off, 0 missing, 0 extra"
+   },
+   "capProbe": {
+    "verdict": "PASS",
+    "probeWidth": 2560,
+    "evidence": "stardust/replica/gates/en-us-research-best-quality-detergent-2560/cap-iter.json"
+   },
+   "breakpoints": {
+    "360": {
+     "iterations": 2,
+     "rounds": {
+      "counted": 2,
+      "cap": 3,
+      "decision": "pass",
+      "evidence": "stardust/replica/gates/en-us-research-best-quality-detergent-360/verdict-iter2.json"
+     },
+     "result": {
+      "structuralRed": 0,
+      "nothingLostYellow": 0,
+      "visualFlags": "none",
+      "pixelPct": 0.23,
+      "pixelUnalignedPct": 4.54,
+      "heightDelta": -1,
+      "offsetSteps": "1 step, 1px (+1 at y992)",
+      "clipped": 0,
+      "overflow": "none",
+      "units": "PASS (7 compared, 0 off)",
+      "chromeParity": "quiet (exit 0)",
+      "chromeCrops": {
+       "header": "1.09% (same as home, canon header)",
+       "footer": "0.01%"
+      },
+      "contentDiffAdvisory": "93 advisory — identical to home en-us@360 (canon header drawer/menu EXTRA + aria-label lines)",
+      "pass": true
+     }
+    },
+    "1440": {
+     "iterations": 2,
+     "rounds": {
+      "counted": 2,
+      "cap": 3,
+      "decision": "pass",
+      "evidence": "stardust/replica/gates/en-us-research-best-quality-detergent-1440/verdict-iter2.json"
+     },
+     "result": {
+      "structuralRed": 0,
+      "nothingLostYellow": 0,
+      "visualFlags": "none",
+      "pixelPct": 0.42,
+      "pixelUnalignedPct": 2.6,
+      "heightDelta": -2,
+      "offsetSteps": "2 steps, 2px (+1 at y946 jump-nav freeze, +1 at y10205 footer)",
+      "clipped": 0,
+      "overflow": "none",
+      "units": "PASS (9 compared, 0 off)",
+      "chromeParity": "quiet (exit 0)",
+      "chromeCrops": {
+       "header": "0.09%",
+       "footer": "0.72%"
+      },
+      "contentDiffAdvisory": "0 after removing build-only nav aria-label (iter1 had 1)",
+      "pass": true
+     }
+    }
+   },
+   "chrome": "header/footer identical to home (chrome inventory diff: positions only; no active nav state, no breadcrumb in header) — canon markup reused verbatim via the build script",
+   "units": [
+    "article-faq-item",
+    "article-jump-nav-item"
+   ],
+   "deviations": [
+    {
+     "what": "jump-nav frozen state uses a spacer height on #sticky-nav-anchor and class is-frozen",
+     "why": "live toggles anchor-navigation-frozen (fixed, white, shadow .3s) with no page jump; same state machine, clean class name"
+    },
+    {
+     "what": "FAQ question kept as div[role=button] (live markup) with aria-expanded/aria-controls; answer max-height 0 → none",
+     "why": "live opens with max-height: initial (no animated height); only the chevron rotates .3s"
+    },
+    {
+     "what": "intro content column width calc(75% - 7.5px) of container",
+     "why": "equals live col-lg-9 text box (877.5 − 30 = 847.5 at 1170) without the bootstrap row/col negative-margin model"
+    }
+   ],
+   "motion": {
+    "observed": "stardust/replica/motion/en-us-research-best-quality-detergent-live.json — jump-nav freeze (class anchor-navigation-frozen, box-shadow .3s), scroll-spy active item (span::before background .3s), FAQ open (class expandable-content-opened, chevron rotate(180deg) .3s); header static",
+    "implemented": "all observed (en-us-research-best-quality-detergent.css/.js); motion-compare: 4 parity, 2 class-name-only MISSING (anchor-navigation-frozen ↔ is-frozen, expandable-content-opened ↔ is-open), 0 extra",
+    "dead": [
+     "header scroll-morph",
+     "jump-nav span hover underline (CSS rule exists ≥992; no measured hover diff — pseudo-element; not implemented)",
+     "FAQ header hover",
+     "share icon hover",
+     "rich-text link hover",
+     "FAQ answer height animation (max-height: initial, no transition fired)"
+    ],
+    "evidence": "stardust/replica/motion/en-us-research-best-quality-detergent-build.json, stardust/replica/motion/en-us-research-best-quality-detergent-compare.json",
+    "pixelRecheck": "iter2 at both widths after motion edits: 1440 0.42%, 360 0.23% — unchanged"
+   },
+   "residuals": [],
+   "captureState": [
+    {
+     "what": "footer Shop Products columns render empty in captures (late-loaded on live)",
+     "where": "footer",
+     "restoreAtDelivery": "as home — wire the header Shop Products lists at delivery"
+    },
+    {
+     "what": "all FAQ items collapsed; jump-nav at rest (not frozen, no active item)",
+     "where": "faqs, jump-nav",
+     "restoreAtDelivery": null
+    }
+   ],
+   "canonCandidates": []
+  },
+  "en-us-shop-type-liquid": {
+   "pageType": "product-listing",
+   "archetype": "en-us-shop-type-liquid",
+   "slug": "en-us-shop-type-liquid",
+   "live": "https://tide.com/en-us/shop/type/liquid",
+   "prototype": "stardust/prototypes/en-us-shop-type-liquid-proposed.html",
+   "canon": [
+    "stardust/prototypes/canon/canon.css",
+    "stardust/prototypes/canon/canon.js"
+   ],
+   "pageCss": "stardust/prototypes/en-us-shop-type-liquid.css",
+   "pageJs": "stardust/prototypes/en-us-shop-type-liquid.js",
+   "build": "stardust/replica/build/en-us-shop-type-liquid.build.mjs (header/footer/locale modal lifted verbatim from en-us-proposed.html)",
+   "sourceSpecCompare": {
+    "360": "exit 0 — 0 sections with Δh, total offset 2px, 0 nodes off, 0 missing, 0 extra",
+    "1440": "exit 0 — 0 sections with Δh, total offset 2px, 0 nodes off, 0 missing, 0 extra"
+   },
+   "capProbe": {
+    "verdict": "PASS",
+    "probeWidth": 2560,
+    "evidence": "stardust/replica/gates/en-us-shop-type-liquid-2560/cap-iter.json"
+   },
+   "breakpoints": {
+    "360": {
+     "iterations": 2,
+     "rounds": {
+      "counted": 2,
+      "cap": 3,
+      "decision": "pass",
+      "evidence": "stardust/replica/gates/en-us-shop-type-liquid-360/verdict-iter2.json"
+     },
+     "result": {
+      "structuralRed": 0,
+      "nothingLostYellow": 0,
+      "visualFlags": "none",
+      "clipped": 0,
+      "overflow": "none",
+      "units": "PASS",
+      "chromeParity": "chrome inventory identical to home (live chrome-json diff: 0 non-geometry deltas); gate chrome-parity within tolerance",
+      "pixelPct": 0.1,
+      "pixelUnalignedPct": 3.37,
+      "heightDelta": -1,
+      "offsetSteps": "3 steps, 3px (−1 y=119 breadcrumbs 2-line, −1 y=4446, +1 y=5671)",
+      "chromeCrops": {
+       "header": "1.09% (thick texture, as home)",
+       "footer": "0.84%"
+      },
+      "pass": true
+     },
+     "justified": [
+      {
+       "probe": "content-diff",
+       "flag": "94 advisory 🟠 EXTRA header CTAs (desktop mega-menu links present in DOM at 360)",
+       "why": "canon header markup, identical to home 360",
+       "permanent": true
+      }
+     ],
+     "residuals": [],
+     "captureState": [
+      {
+       "what": "footer Shop Products columns render empty in every capture (late-loaded on live) — canon footer as on home",
+       "where": "footer",
+       "restoreAtDelivery": "as types.en-us"
+      }
+     ]
+    },
+    "1440": {
+     "iterations": 3,
+     "rounds": {
+      "counted": 2,
+      "confirm": 1,
+      "cap": 3,
+      "decision": "pass",
+      "evidence": "stardust/replica/gates/en-us-shop-type-liquid-1440/verdict-iter3.json (full: verdict-iter2.json)"
+     },
+     "result": {
+      "structuralRed": 0,
+      "nothingLostYellow": 0,
+      "visualFlags": "none",
+      "clipped": 0,
+      "overflow": "none",
+      "units": "PASS",
+      "chromeParity": "chrome inventory identical to home (live chrome-json diff: 0 non-geometry deltas); gate chrome-parity within tolerance",
+      "pixelPct": 0.26,
+      "pixelUnalignedPct": 0.29,
+      "heightDelta": -1,
+      "offsetSteps": "1 step, 1px (−1 at y=5113, footer)",
+      "chromeCrops": {
+       "header": "0.09%",
+       "footer": "0.73%"
+      },
+      "pass": true
+     },
+     "justified": [],
+     "residuals": [],
+     "captureState": [
+      {
+       "what": "footer Shop Products columns render empty in every capture (late-loaded on live) — canon footer as on home",
+       "where": "footer",
+       "restoreAtDelivery": "as types.en-us"
+      }
+     ]
+    }
+   },
+   "deviations": [
+    {
+     "what": "mobile-only \"Related articles\" list mounted from a <template> below 992px (live React renders it only below 992)",
+     "why": "keeps desktop DOM/content-diff equal to live; text from __NEXT_DATA__ relatedArticles"
+    },
+    {
+     "what": "rating count rendered as \"(<!-- -->N<!-- -->)\" (three text nodes)",
+     "why": "content-diff reads the live React text-node split as \"( N )\"; verbatim string parity"
+    },
+    {
+     "what": "breadcrumbs carry schema.org BreadcrumbList microdata (li > span[itemprop=name] + meta[itemprop=position])",
+     "why": "mirrors live li > span + meta structure (source-spec node pairing); semantic upgrade"
+    },
+    {
+     "what": "filter-by-need bar initial state set by JS (expanded ≥992, collapsed below), arrow toggles",
+     "why": "live state per width as captured"
+    },
+    {
+     "what": "sort select, grid/list switch, Load more products are static (no re-sort / list layout / pagination)",
+     "why": "not in dynamic-features.md (listing contract: static snapshot); flagged as open item"
+    }
+   ],
+   "motion": {
+    "observed": "stardust/replica/motion/en-us-shop-type-liquid-live.json — filter-btn hover color/bg/border .2s; Browse other products bg→#e24405 .2s; Find Retailers bg→#e24405 .2s; promo Read More bg→#182e83 .2s; header static",
+    "implemented": "all observed (en-us-shop-type-liquid.css); motion-compare: 10 parity, 0 missing, 0 extra (stardust/replica/motion/en-us-shop-type-liquid-compare.txt)",
+    "dead": [
+     "header scroll-morph",
+     "display-type button hover (active)",
+     "Load more hover (no diff — build hover rule removed)",
+     "product title hover",
+     "product image hover"
+    ],
+    "evidence": "stardust/replica/motion/en-us-shop-type-liquid-build.json",
+    "pixelRecheck": "1440 iter3 after motion edits: aligned 0.26% (confirm round, PASS)"
+   },
+   "residuals": [],
+   "canonCandidates": [
+    {
+     "what": "button font-size: inherit (bootstrap reboot) — canon sets font-family only",
+     "where": ".plp-display-type button override in en-us-shop-type-liquid.css",
+     "effect": "+1px line box on empty inline-block buttons"
+    }
+   ],
+   "units": [
+    "plp-product-card",
+    "plp-feature-banner"
+   ]
+  },
+  "en-us-our-commitment": {
+   "pageType": "section-landing",
+   "archetype": "en-us-our-commitment",
+   "slug": "en-us-our-commitment",
+   "live": "https://tide.com/en-us/our-commitment",
+   "prototype": "stardust/prototypes/en-us-our-commitment-proposed.html",
+   "canon": [
+    "stardust/prototypes/canon/canon.css",
+    "stardust/prototypes/canon/canon.js"
+   ],
+   "pageCss": "stardust/prototypes/en-us-our-commitment.css",
+   "pageJs": "stardust/prototypes/en-us-our-commitment.js",
+   "build": "stardust/replica/build/en-us-our-commitment.build.mjs",
+   "sourceSpecCompare": {
+    "360": "exit 0 — 0 height deltas, 0 nodes off, 0 missing, 0 extra",
+    "1440": "exit 0 — 0 height deltas, total offset 1px (sub-pixel hero image 489.75), 0 nodes off, 0 missing, 0 extra"
+   },
+   "capProbe": {
+    "verdict": "PASS",
+    "probeWidth": 2560,
+    "evidence": "stardust/replica/gates/en-us-our-commitment-2560/cap-iter.json"
+   },
+   "breakpoints": {
+    "360": {
+     "iterations": 1,
+     "rounds": {
+      "counted": 1,
+      "cap": 3,
+      "decision": "pass",
+      "evidence": "stardust/replica/gates/en-us-our-commitment-360/verdict-iter1.json"
+     },
+     "result": {
+      "structuralRed": 0,
+      "nothingLostYellow": 0,
+      "visualFlags": "none",
+      "pixelPct": 0.01,
+      "pixelUnalignedPct": 0.01,
+      "heightDelta": 0,
+      "offsetSteps": "none (alignment not used)",
+      "clipped": 0,
+      "overflow": "none",
+      "units": "PASS (3 compared, 0 off)",
+      "chromeParity": "within tolerance, 1 advisory group (as home)",
+      "chromeCrops": {
+       "header": "1.09% (same as home, canon header)",
+       "footer": "0.01%"
+      },
+      "contentDiffAdvisory": "93 advisory — identical to home/article @360 (canon header drawer/menu EXTRA + aria-label lines)",
+      "pass": true
+     }
+    },
+    "1440": {
+     "iterations": 1,
+     "rounds": {
+      "counted": 1,
+      "cap": 3,
+      "decision": "pass",
+      "evidence": "stardust/replica/gates/en-us-our-commitment-1440/verdict-iter1.json"
+     },
+     "result": {
+      "structuralRed": 0,
+      "nothingLostYellow": 0,
+      "visualFlags": "none",
+      "pixelPct": 0.17,
+      "pixelUnalignedPct": 1.1,
+      "heightDelta": 0,
+      "offsetSteps": "4 steps, 4px total (+1 y400, -1 y1625, +1 y2879, -1 y4571; sub-pixel 489.75px hero image rounding)",
+      "clipped": 0,
+      "overflow": "none",
+      "units": "PASS (3 compared, 0 off)",
+      "chromeParity": "within tolerance, 1 advisory group (as home)",
+      "chromeCrops": {
+       "header": "0.09%",
+       "footer": "0.72%"
+      },
+      "contentDiffAdvisory": "0",
+      "pass": true
+     }
+    }
+   },
+   "chrome": "header/footer markup byte-identical to home on live (html-slice diff); lifted verbatim from en-us-proposed.html; chrome-parity within tolerance and crop gate PASS at both widths — no chrome-parity.mjs run needed beyond gate.sh --full",
+   "units": [
+    "commitment-card"
+   ],
+   "deviations": [
+    {
+     "what": "banner title is a zero-height .commitment-hero__head with the h1 wrapper absolutely positioned bottom:80px (max-width calc(100% - 15px))",
+     "why": "equals live .banner-card-content (absolute, bottom: calc(100% + 80px) of an empty col-12, available width = col-12 - 15px) without the bootstrap row/col negative-margin model"
+    },
+    {
+     "what": "article previews reuse the home .preview markup (scoped .commitment overrides: col-lg-6 padding 30/50/50, col-lg-4 padding 30/25, small-card margin-top 40 at ≥992, picture margin-top 30 below 992)",
+     "why": "live .generic-page.articles-card .article-preview shares the home .homepage-articles rules; the per-column padding is the live .col-lg-6/.col-lg-4 .article-preview-content rules"
+    },
+    {
+     "what": "YouTube preview overlay mounts the same-src embed (youtube.com/embed/Roli4tLwRgk?autoplay=1) on click/Enter; thumbnail (i1.ytimg.com maxresdefault) and icon-play.svg self-hosted under assets/img",
+     "why": "dynamic-features row 3 (embed-passthrough); live data-action-detail src kept verbatim"
+    }
+   ],
+   "motion": {
+    "observed": "stardust/replica/motion/en-us-our-commitment-live.json — preview title p opacity .3s, Learn More button background-color .2s (#fb4c06→#e24405); header static",
+    "implemented": "all observed (canon .btn--orange hover + page .preview__title:hover p opacity .9, transition .3s); motion-compare: 3 parity, 0 missing, 0 extra",
+    "dead": [
+     "header scroll-morph",
+     "video overlay widget (no sampled change; click → embed is a dynamic feature, implemented)",
+     "video overlay hover",
+     "title link self hover (only the inner p transitions)"
+    ],
+    "evidence": "stardust/replica/motion/en-us-our-commitment-compare.txt",
+    "pixelRecheck": "JS + hover CSS were present in the gated iter1 rounds — gated numbers stand"
+   },
+   "residuals": [],
+   "canonCandidates": []
+  },
+  "en-us-shop-top-collections-tide-free-and-gentle": {
+   "pageType": "collection-landing",
+   "archetype": "en-us-shop-top-collections-tide-free-and-gentle",
+   "slug": "en-us-shop-top-collections-tide-free-and-gentle",
+   "live": "https://tide.com/en-us/shop/top-collections/tide-free-and-gentle",
+   "prototype": "stardust/prototypes/en-us-shop-top-collections-tide-free-and-gentle-proposed.html",
+   "canon": [
+    "stardust/prototypes/canon/canon.css",
+    "stardust/prototypes/canon/canon.js"
+   ],
+   "pageCss": "stardust/prototypes/en-us-shop-top-collections-tide-free-and-gentle.css",
+   "pageJs": "stardust/prototypes/en-us-shop-top-collections-tide-free-and-gentle.js",
+   "build": "stardust/replica/build/en-us-shop-top-collections-tide-free-and-gentle.build.mjs",
+   "sourceSpecCompare": {
+    "360": "exit 0 — 0 height deltas, 0 nodes off, 0 missing, 0 extra",
+    "1440": "exit 0 — 0 height deltas, 0 nodes off, 0 missing, 0 extra"
+   },
+   "capProbe": {
+    "verdict": "PASS",
+    "probeWidth": 2560,
+    "evidence": "stardust/replica/gates/en-us-shop-top-collections-tide-free-and-gentle-2560/cap-iter.json"
+   },
+   "breakpoints": {
+    "360": {
+     "iterations": 1,
+     "rounds": {
+      "counted": 1,
+      "cap": 3,
+      "decision": "pass",
+      "evidence": "stardust/replica/gates/en-us-shop-top-collections-tide-free-and-gentle-360/verdict-iter1.json"
+     },
+     "result": {
+      "structuralRed": 0,
+      "nothingLostYellow": 0,
+      "visualFlags": "none",
+      "pixelPct": 0.58,
+      "pixelUnalignedPct": 2.62,
+      "heightDelta": -1,
+      "offsetSteps": "1 step, 1px (+1 y946)",
+      "clipped": 0,
+      "overflow": "none",
+      "units": "PASS (11 compared, 0 off)",
+      "chromeParity": "within tolerance (1 advisory group)",
+      "chromeCrops": {
+       "header": "1.09%",
+       "footer": "0.01%"
+      },
+      "contentDiffAdvisory": "93 advisory, all [header] mobile-menu nodes (same as home)",
+      "pass": true
+     }
+    },
+    "1440": {
+     "iterations": 2,
+     "rounds": {
+      "counted": 2,
+      "cap": 3,
+      "decision": "pass",
+      "evidence": "stardust/replica/gates/en-us-shop-top-collections-tide-free-and-gentle-1440/verdict-iter2.json"
+     },
+     "result": {
+      "structuralRed": 0,
+      "nothingLostYellow": 0,
+      "visualFlags": "none",
+      "pixelPct": 0.69,
+      "pixelUnalignedPct": 1.85,
+      "heightDelta": -2,
+      "offsetSteps": "4 steps, 4px (+1 y955 jump-nav freeze, +1 y5184, -1 y5686, +1 y7370)",
+      "clipped": 0,
+      "overflow": "none",
+      "units": "PASS (11 compared, 0 off)",
+      "chromeParity": "within tolerance (1 advisory group)",
+      "chromeCrops": {
+       "header": "0.09%",
+       "footer": "0.72%"
+      },
+      "contentDiffAdvisory": "0 (iter1 had 1 nothing-lost: card-1 retailer aria-label + split rating-count text nodes; fixed)",
+      "pass": true
+     }
+    }
+   },
+   "chrome": "header/footer identical to home (live chrome inventory diff vs en-us: 0 fields beyond footer y offsets at 1440 and 360); lifted verbatim from en-us-proposed.html; chrome-parity not re-run",
+   "units": [
+    "collection-product-card",
+    "collection-jump-nav-item",
+    "collection-works-item"
+   ],
+   "deviations": [
+    {
+     "what": "banner image height: section display:flex + block picture so img height:100% resolves to natural height + strut gap",
+     "why": "live nests bootstrap flex rows (stretched cols make the percentage definite) — same rendered box (e.g. hero 598 at 1440, 683 at 360) without the row/col nesting"
+    },
+    {
+     "what": "no-perfumes banner keeps an inner col > row(wrap) > flex wrapper",
+     "why": "live column-reverse panel overflows its 790 max-height downward at 360 (content on top); a flat column-reverse would overflow upward"
+    },
+    {
+     "what": "sensitive-skin text box: width 385/552 centred with left: calc(50% - w/2)",
+     "why": "equals live max-width + auto margins inside the 390px no-gutters col (box x -12.5 at 360, 444 at 1440)"
+    },
+    {
+     "what": "Find Retailers controls are <button> (live div.ps-widget role=button); card-1 desktop button carries the card aria-label",
+     "why": "role parity (semantics may improve); the live hydrated DOM labels it (gate content-diff iter1), the pre-hydration capture did not"
+    },
+    {
+     "what": "jump-nav frozen state: class is-frozen + spacer on #sticky-nav-anchor",
+     "why": "same state machine as live anchor-navigation-frozen (article archetype precedent)"
+    }
+   ],
+   "motion": {
+    "observed": "stardust/replica/motion/en-us-shop-top-collections-tide-free-and-gentle-live.json — hero CTA hover bg #fb4c06→#e24405 .2s, Find Retailers hover bg .2s, jump-nav freeze (anchor-navigation-frozen, box-shadow .3s), scroll-spy active item (span::before bg .3s); header static; ps-enabled = PriceSpider hydration restyle at load (not user motion)",
+    "implemented": "all observed (en-us-shop-top-collections-tide-free-and-gentle.css/.js); motion-compare: 5 parity, class-name-only anchor-navigation-frozen ↔ is-frozen, ps-enabled hydration transitions (15 props) not motion — static end state replicated",
+    "dead": [
+     "header scroll-morph",
+     "Learn more (fresh & gentle) hover — no measured diff",
+     "product title / image link hover — no measured diff",
+     "jump-nav span hover — no measured diff",
+     "jump-nav click: no sampled widget change (scroll only)"
+    ],
+    "evidence": "stardust/replica/motion/en-us-shop-top-collections-tide-free-and-gentle-build.json, stardust/replica/motion/en-us-shop-top-collections-tide-free-and-gentle-compare.json",
+    "pixelRecheck": "no motion edits needed; 1440 iter2 (after observation) 0.69% = iter1"
+   },
+   "residuals": [],
+   "captureState": [
+    {
+     "what": "footer Shop Products columns render empty in captures (late-loaded)",
+     "where": "footer",
+     "restoreAtDelivery": "as home"
+    },
+    {
+     "what": "jump-nav at rest; PriceSpider Find Retailers in hydrated (ps-enabled) style, static",
+     "where": "jump-nav, product cards",
+     "restoreAtDelivery": "wire PriceSpider widget at delivery"
+    }
+   ],
+   "canonCandidates": [
+    "anchor-nav module (CSS+JS) now duplicated in article and collection page files — back-port to canon",
+    "product-card + stars + retailer-btn (product-preview) duplicated in PLP and collection page files — back-port to canon",
+    "no canon overrides were needed"
+   ]
+  },
+  "en-us-our-commitment-sustainability-compaction": {
+   "pageType": "sustainability-topic",
+   "archetype": "en-us-our-commitment-sustainability-compaction",
+   "slug": "en-us-our-commitment-sustainability-compaction",
+   "live": "https://tide.com/en-us/our-commitment/sustainability/compaction",
+   "prototype": "stardust/prototypes/en-us-our-commitment-sustainability-compaction-proposed.html",
+   "canon": [
+    "stardust/prototypes/canon/canon.css",
+    "stardust/prototypes/canon/canon.js"
+   ],
+   "pageCss": "stardust/prototypes/en-us-our-commitment-sustainability-compaction.css",
+   "pageJs": "stardust/prototypes/en-us-our-commitment-sustainability-compaction.js",
+   "build": "stardust/replica/build/en-us-our-commitment-sustainability-compaction.build.mjs",
+   "sourceSpecCompare": {
+    "360": "exit 0 — 0 height deltas, 0 nodes off, 0 missing, 0 extra",
+    "1440": "exit 0 — 0 height deltas, 0 nodes off, 0 missing, 0 extra"
+   },
+   "capProbe": {
+    "verdict": "PASS",
+    "probeWidth": 2560,
+    "evidence": "stardust/replica/gates/en-us-our-commitment-sustainability-compaction-2560/cap-iter.json"
+   },
+   "breakpoints": {
+    "360": {
+     "iterations": 1,
+     "rounds": {
+      "counted": 1,
+      "cap": 3,
+      "decision": "pass",
+      "evidence": "stardust/replica/gates/en-us-our-commitment-sustainability-compaction-360/verdict-iter1.json"
+     },
+     "result": {
+      "structuralRed": 0,
+      "nothingLostYellow": 0,
+      "visualFlags": "none",
+      "pixelPct": 0.91,
+      "pixelUnalignedPct": 0.91,
+      "heightDelta": 0,
+      "offsetSteps": "none (alignment not used)",
+      "clipped": 0,
+      "overflow": "none",
+      "units": "PASS (5 compared, 0 off)",
+      "chromeParity": "within tolerance, 1 advisory group (as home)",
+      "chromeCrops": {
+       "header": "1.09% (same as home, canon header)",
+       "footer": "0.01%"
+      },
+      "contentDiffAdvisory": "93 advisory — identical to home/article @360 (canon header drawer/menu EXTRA + aria-label lines)",
+      "pass": true
+     },
+     "residuals": [
+      {
+       "band": "y 500–1000 (y 900–946)",
+       "pct": 0.91,
+       "cause": "capture-state: live stitched capture paints the late-fixed jump-nav (#sticky-nav, anchor-navigation-frozen) as an empty white 46px bar at the chunk-2 seam over the first h2; the build nav is fixed with the same trigger but stitch-shot leaves it transparent there. Same artefact sits in the article archetype gate (diluted by page length).",
+       "permanent": true,
+       "flaggedFor": "none"
+      }
+     ]
+    },
+    "1440": {
+     "iterations": 2,
+     "rounds": {
+      "counted": 2,
+      "cap": 3,
+      "decision": "pass",
+      "evidence": "stardust/replica/gates/en-us-our-commitment-sustainability-compaction-1440/verdict-iter2.json"
+     },
+     "result": {
+      "structuralRed": 0,
+      "nothingLostYellow": 0,
+      "visualFlags": "none",
+      "pixelPct": 1.34,
+      "pixelUnalignedPct": 1.34,
+      "heightDelta": 0,
+      "offsetSteps": "none (iter1 had +1 at y946 jump-nav freeze; fixed with spacer = bar.clientHeight)",
+      "clipped": 0,
+      "overflow": "none",
+      "units": "PASS (6 compared, 0 off)",
+      "chromeParity": "within tolerance, 1 advisory group (as home)",
+      "chromeCrops": {
+       "header": "0.09%",
+       "footer": "0.00%"
+      },
+      "contentDiffAdvisory": "0",
+      "pass": true
+     },
+     "residuals": [
+      {
+       "band": "y 500–1000 (y 900–946)",
+       "pct": 1.34,
+       "cause": "capture-state: live stitched capture paints the late-fixed jump-nav (#sticky-nav, anchor-navigation-frozen) as an empty white 46px bar at the chunk-2 seam over the first h2; the build nav is fixed with the same trigger but stitch-shot leaves it transparent there. Same artefact sits in the article archetype gate (diluted by page length).",
+       "permanent": true,
+       "flaggedFor": "none"
+      }
+     ]
+    }
+   },
+   "chrome": "header/footer identical to home (no active nav state; breadcrumbs live in main) — canon markup reused verbatim via the build script; crop gates header 0.09%/1.09%, footer 0.00%/0.01%",
+   "units": [
+    "topic-jump-nav-item",
+    "topic-checklist-item"
+   ],
+   "deviations": [
+    {
+     "what": "jump-nav frozen state uses a spacer height (bar.clientHeight) on #sticky-nav-anchor and class is-frozen",
+     "why": "live toggles anchor-navigation-frozen (fixed, white, shadow .3s); live document shrinks 1px on freeze, matched by sizing the spacer without the 1px border"
+    },
+    {
+     "what": "bootstrap row/col grid re-authored as flex rows (.topic-row__left 5/12, .topic-row__right 6/12 offset 1/12, intro 6/6)",
+     "why": "same boxes as live col-lg-5 / offset-lg-1 col-lg-6 (458 / 555 px at 1170)"
+    },
+    {
+     "what": "live empty <p></p> after the checkmark list (first-of-type → 35px top margin) replaced by .checklist padding-bottom 35px; anchor-container spans dropped (h2 ids kept as jump targets)",
+     "why": "same geometry without empty markup"
+    }
+   ],
+   "motion": {
+    "observed": "stardust/replica/motion/en-us-our-commitment-sustainability-compaction-live.json — jump-nav freeze (class anchor-navigation-frozen, box-shadow .3s), scroll-spy active item (span::before background .3s); header static",
+    "implemented": "all observed (en-us-our-commitment-sustainability-compaction.css/.js); motion-compare: 3 parity, 1 class-name-only MISSING (anchor-navigation-frozen ↔ is-frozen), 0 extra",
+    "dead": [
+     "header scroll-morph",
+     "jump-nav span hover (no measured hover diff)",
+     "share icon hover",
+     "rich-text link hover"
+    ],
+    "evidence": "stardust/replica/motion/en-us-our-commitment-sustainability-compaction-build.json, stardust/replica/motion/en-us-our-commitment-sustainability-compaction-compare.txt",
+    "pixelRecheck": "no code change after motion observation — gated numbers stand (1440 iter2 1.34%, 360 iter1 0.91%)"
+   },
+   "residuals": [
+    {
+     "band": "y 900–946 @1440 and @360",
+     "pct": 1.34,
+     "cause": "capture-state: live stitched capture paints the late-fixed jump-nav (#sticky-nav, anchor-navigation-frozen) as an empty white 46px bar at the chunk-2 seam over the first h2; the build nav is fixed with the same trigger but stitch-shot leaves it transparent there. Same artefact sits in the article archetype gate (diluted by page length).",
+     "permanent": true,
+     "flaggedFor": "none"
+    }
+   ],
+   "captureState": [
+    {
+     "what": "footer Shop Products columns render empty in captures (late-loaded on live)",
+     "where": "footer",
+     "restoreAtDelivery": "as home"
+    },
+    {
+     "what": "jump-nav at rest (not frozen, no active item); share links are href=\"/\" as on live",
+     "where": "jump-nav, intro",
+     "restoreAtDelivery": null
+    }
+   ],
+   "canonCandidates": []
+  },
+  "en-us-how-to-wash-clothes-how-to-remove-stains": {
+   "pageType": "topic-hub",
+   "archetype": "en-us-how-to-wash-clothes-how-to-remove-stains",
+   "slug": "en-us-how-to-wash-clothes-how-to-remove-stains",
+   "live": "https://tide.com/en-us/how-to-wash-clothes/how-to-remove-stains",
+   "prototype": "stardust/prototypes/en-us-how-to-wash-clothes-how-to-remove-stains-proposed.html",
+   "canon": [
+    "stardust/prototypes/canon/canon.css",
+    "stardust/prototypes/canon/canon.js"
+   ],
+   "pageCss": "stardust/prototypes/en-us-how-to-wash-clothes-how-to-remove-stains.css",
+   "pageJs": "stardust/prototypes/en-us-how-to-wash-clothes-how-to-remove-stains.js",
+   "build": "stardust/replica/build/en-us-how-to-wash-clothes-how-to-remove-stains.build.mjs",
+   "sourceSpecCompare": {
+    "360": "exit 0 — 0 height deltas, total offset 0px, 0 nodes off, 0 missing, 0 extra",
+    "1440": "exit 0 — 0 height deltas, total offset 2px (sub-pixel), 0 nodes off, 0 missing, 0 extra"
+   },
+   "capProbe": {
+    "verdict": "PASS",
+    "probeWidth": 2560,
+    "evidence": "stardust/replica/gates/en-us-how-to-wash-clothes-how-to-remove-stains-2560/cap-iter.json"
+   },
+   "breakpoints": {
+    "360": {
+     "iterations": 1,
+     "rounds": {
+      "counted": 1,
+      "cap": 3,
+      "decision": "pass",
+      "evidence": "stardust/replica/gates/en-us-how-to-wash-clothes-how-to-remove-stains-360/verdict-iter1.json"
+     },
+     "result": {
+      "structuralRed": 0,
+      "nothingLostYellow": 0,
+      "visualFlags": "none",
+      "pixelPct": 0.64,
+      "pixelUnalignedPct": 2.62,
+      "heightDelta": -1,
+      "offsetSteps": "1 step, 1px (+1 y1863)",
+      "clipped": 0,
+      "overflow": "none (scrollWidth 360)",
+      "units": "PASS (18 compared, 0 off)",
+      "chromeParity": "within tolerance, 1 advisory group (as home)",
+      "chromeCrops": {
+       "header": "1.09% (same as home, canon header)",
+       "footer": "0.01% (y-b +1)"
+      },
+      "contentDiffAdvisory": "93 advisory",
+      "pass": true
+     }
+    },
+    "1440": {
+     "iterations": 3,
+     "rounds": {
+      "counted": 3,
+      "cap": 3,
+      "decision": "pass",
+      "evidence": "stardust/replica/gates/en-us-how-to-wash-clothes-how-to-remove-stains-1440/verdict-iter3.json"
+     },
+     "result": {
+      "structuralRed": 0,
+      "nothingLostYellow": 0,
+      "visualFlags": "none",
+      "pixelPct": 0.74,
+      "pixelUnalignedPct": 1.27,
+      "heightDelta": 0,
+      "offsetSteps": "2 steps, 2px total (+1 y1846 at the live sticky-nav seam, -1 y7303)",
+      "clipped": 0,
+      "overflow": "none",
+      "units": "PASS (18 compared, 0 off)",
+      "chromeParity": "within tolerance, 1 advisory group (as home)",
+      "chromeCrops": {
+       "header": "0.09%",
+       "footer": "0.61%"
+      },
+      "contentDiffAdvisory": "0",
+      "pass": true
+     },
+     "history": "iter1 fail: content-diff 445 nothing-lost (picker/category aria-labels, sr-only \"Selected:\" text, crumb aria-labels) + clip-probe 207 (transform picker); iter2 fail only on a stale units.json build selector; iter3 --full PASS"
+    }
+   },
+   "chrome": "header/footer markup identical to home on live (md5 of captured header/footer, style/data-* stripped); lifted verbatim from en-us-proposed.html by the build script; chrome-parity within tolerance and crop gate PASS at both widths — no separate chrome-parity.mjs run needed",
+   "units": [
+    "hub-stain-link",
+    "hub-stain-type-icon",
+    "hub-guide-step",
+    "hub-jump-nav-item"
+   ],
+   "deviations": [
+    {
+     "what": "stain picker wheel implemented as a hidden-scrollbar scroll viewport (live: translate3d content of an infinite m-style-picker; 3 cycles x 72 labels, index 108 \"mayonnaise\" selected)",
+     "why": "same rendered state; follows the home precedent so clip-probe reads off-wheel items as scroll-hidden"
+    },
+    {
+     "what": "bootstrap row/col nesting replaced by flat blocks with lifted widths (col-lg-6 = calc((100% + 30px)/2 - 30px), col-lg-8 boxes 66.667% of a -15px row, icon columns 20% with 8.333% / 2.333% gutters)",
+     "why": "same geometry as the live .row/.col-* model"
+    },
+    {
+     "what": "desktop .alp-intro__bar fixed at 27px height",
+     "why": "live breadcrumbs-wrapper line box (inline-svg share icons) resolves to a sub-pixel height; measured h1 y 662 on both sides"
+    },
+    {
+     "what": "Learn More navigates to the stain index link matching the selected label; search input filters the index links into a results list",
+     "why": "live behaviour targets are not in the capture; implemented with on-page hrefs only, no invented URLs"
+    }
+   ],
+   "motion": {
+    "observed": "stardust/replica/motion/en-us-how-to-wash-clothes-how-to-remove-stains-live.json — 17 transitions, 9 class mutations: jump-nav frozen (box-shadow .3s) + active underline, picker selected font-size .1s, header static",
+    "implemented": "all observed (is-frozen/active jump nav, picker is-selected font-size .1s); motion-compare: 4 parity, 2 \"missing\" are name-mapped (anchor-navigation-frozen→is-frozen, m-style-picker-item-selected→is-selected), 0 out of tolerance",
+    "dead": [
+     "header scroll-morph",
+     "spinner arrow widget frames (no sampled change)",
+     "Learn More hover (live orange-theme override pins navy)",
+     "jump-nav span hover"
+    ],
+    "evidence": "stardust/replica/motion/en-us-how-to-wash-clothes-how-to-remove-stains-compare.txt",
+    "pixelRecheck": "JS present in all gate rounds; only change after the 360 round was removing the build-only Learn More hover — static pixels unaffected; 1440 iter3 ran after it"
+   },
+   "residuals": [
+    {
+     "width": "1440+360",
+     "band": "y 1500–2000 (~9.5% raw)",
+     "class": "capture-state",
+     "note": "live stitched capture paints the late-fixed jump-nav (#sticky-nav, anchor-navigation-frozen) as an empty white 46px bar at the chunk seam over the search box / first category; build nav is fixed with the same trigger but stitch-shot leaves it transparent. Same artefact as the article archetype."
+    }
+   ],
+   "canonCandidates": [
+    {
+     "what": "input[type=text] border-radius 12px (live global rule @6032) is not in canon base",
+     "override": ".alp-search__field input { border-radius: 12px }"
+    }
+   ]
+  },
+  "en-us-click2cart-0060001": {
+   "pageType": "click2cart",
+   "archetype": "en-us-click2cart-0060001",
+   "slug": "en-us-click2cart-0060001",
+   "live": "https://tide.com/en-us/click2cart/0060001",
+   "prototype": "stardust/prototypes/en-us-click2cart-0060001-proposed.html",
+   "canon": [
+    "stardust/prototypes/canon/canon.css",
+    "stardust/prototypes/canon/canon.js"
+   ],
+   "pageCss": "stardust/prototypes/en-us-click2cart-0060001.css",
+   "pageJs": "stardust/prototypes/en-us-click2cart-0060001.js",
+   "build": "stardust/replica/build/en-us-click2cart-0060001.build.mjs (footer lifted verbatim from en-us-proposed.html; no header on this template)",
+   "assets": "stardust/prototypes/assets/img/c2c/ (hero jpeg, 4 retailer svgs, c2c logo); fonts Poppins 300/400/700(600 file) + FontAwesome 4.7 woff2 harvested from smartcommerce/click2cart (OFL — no licensing alert)",
+   "sourceSpecCompare": {
+    "360": "exit 2 — 0 sections with Δh, total offset 0px, page height Δ0; only nodes off: TARGET pill Δy+240 (live random retailer order)",
+    "1440": "exit 2 — 0 sections with Δh, total offset 0px, page height Δ0; only nodes off: AMAZON pill Δy+160 (live random retailer order)"
+   },
+   "capProbe": {
+    "verdict": "PASS",
+    "probeWidth": 2560,
+    "evidence": "stardust/replica/gates/en-us-click2cart-0060001-2560/cap-iter.json",
+    "note": "--main/--build-main #shopper-choice-container (shell 450, module 407)"
+   },
+   "breakpoints": {
+    "360": {
+     "iterations": 2,
+     "rounds": {
+      "counted": 0,
+      "cap": 3,
+      "decision": "pass (pixel probe gate-blocked, rule 13)",
+      "note": "gate.sh pixel probe gate-blocked: html/body are the scroller (height:100%; overflow-y:auto, document scrollHeight = viewport) — stitch-shot exits 1 \"scroll stall … window scroll is a no-op\" (gate doc § Hardening rule 13); no round recorded. Relied on content-diff + visual-diff per rule 13, plus a supplementary symmetric pixel-compare of visual-diff full-page captures (same instrument both sides)",
+      "evidence": "stardust/replica/gates/en-us-click2cart-0060001-360/content-diff-iter2.txt, stardust/replica/gates/en-us-click2cart-0060001-360/visual-diff-iter2.txt, stardust/replica/gates/en-us-click2cart-0060001-360/vdiff-iter2/diff.png"
+     },
+     "result": {
+      "structuralRed": 0,
+      "nothingLostYellow": 0,
+      "visualFlags": "none",
+      "clipped": "n/a (stitched capture blocked)",
+      "overflow": "none (measure: scrollWidth = viewport)",
+      "units": "advisory: c2c-retailer-pill boxes Δ0 (4 units); element names mismatch by live random order only",
+      "chromeParity": "no site header on live or build; footer = canon footer (live chrome-json: 29/29 atoms identical to home) with two template deltas overridden in page CSS",
+      "pixelPct": 4.07,
+      "pixelPctIter1": 8.19,
+      "pixelMaskedPct": 0,
+      "mask": "460:340 (retailer pill rows, nondeterministic order)",
+      "heightDelta": 0,
+      "sourceSpecHeightDelta": 0,
+      "pass": true
+     },
+     "justified": [],
+     "residuals": [
+      {
+       "what": "retailer pill order is randomised per live load (Walmart/Instacart/Amazon/Target); prototype freezes the extract-capture order",
+       "where": "pill rows 460:340",
+       "class": "nondeterministic — permanent residual",
+       "pct": "8.19% (iter1) / 4.07% (iter2); 0.00% with the rows masked"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "zip 95141 (geo-derived) frozen as captured",
+       "where": "widget footer"
+      },
+      {
+       "what": "Instacart product accordion collapsed (max-height 0) as captured",
+       "where": "pills"
+      }
+     ]
+    },
+    "1440": {
+     "iterations": 2,
+     "rounds": {
+      "counted": 0,
+      "cap": 3,
+      "decision": "pass (pixel probe gate-blocked, rule 13)",
+      "note": "gate.sh pixel probe gate-blocked: html/body are the scroller (height:100%; overflow-y:auto, document scrollHeight = viewport) — stitch-shot exits 1 \"scroll stall … window scroll is a no-op\" (gate doc § Hardening rule 13); no round recorded. Relied on content-diff + visual-diff per rule 13, plus a supplementary symmetric pixel-compare of visual-diff full-page captures (same instrument both sides)",
+      "evidence": "stardust/replica/gates/en-us-click2cart-0060001-1440/content-diff-iter2.txt, stardust/replica/gates/en-us-click2cart-0060001-1440/visual-diff-iter2.txt, stardust/replica/gates/en-us-click2cart-0060001-1440/vdiff-iter2/diff.png"
+     },
+     "result": {
+      "structuralRed": 0,
+      "nothingLostYellow": 0,
+      "visualFlags": "none",
+      "clipped": "n/a (stitched capture blocked)",
+      "overflow": "none (measure: scrollWidth = viewport)",
+      "units": "advisory: c2c-retailer-pill boxes Δ0 (4 units); element names mismatch by live random order only",
+      "chromeParity": "no site header on live or build; footer = canon footer (live chrome-json: 29/29 atoms identical to home) with two template deltas overridden in page CSS",
+      "pixelPct": 0,
+      "pixelPctIter1": 2.79,
+      "pixelMaskedPct": 0,
+      "mask": "550:300 (retailer pill rows, nondeterministic order)",
+      "heightDelta": 0,
+      "sourceSpecHeightDelta": 0,
+      "pass": true
+     },
+     "justified": [],
+     "residuals": [
+      {
+       "what": "retailer pill order is randomised per live load (Walmart/Instacart/Amazon/Target); prototype freezes the extract-capture order",
+       "where": "pill rows 550:300",
+       "class": "nondeterministic — permanent residual",
+       "pct": "2.79% (iter1) / 0% (iter2); 0.00% with the rows masked"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "zip 95141 (geo-derived) frozen as captured",
+       "where": "widget footer"
+      },
+      {
+       "what": "Instacart product accordion collapsed (max-height 0) as captured",
+       "where": "pills"
+      }
+     ]
+    }
+   },
+   "deviations": [
+    {
+     "what": "retailer buttons are static (role=button divs, no click2cart transfer/OAuth modals, zip-change dialog empty)",
+     "why": "dynamic-features.md row 8: click2cart commerce embed-passthrough, link-out at delivery; dialogs kept as empty role=dialog shells for aria parity"
+    },
+    {
+     "what": "scroller max-height set by page JS (innerHeight − widget footer), CSS fallback calc(100vh − 55px)",
+     "why": "mirrors live inline max-height set by the widget"
+    },
+    {
+     "what": "canon.js exits without #site-header, so the footer accordions are initialised in the page JS",
+     "why": "this template has no site header"
+    },
+    {
+     "what": "wrapper #app-root instead of canon #page-wrapper",
+     "why": "live #__next has no 1920 cap (cap-probe)"
+    },
+    {
+     "what": "third-party tracking notice (\"Activity tracked anonymously\", opacity 0, height 0) omitted",
+     "why": "invisible smartcommerce analytics notice; not flagged by content-diff"
+    }
+   ],
+   "canonCandidates": [
+    "canon.js: footer-accordion init sits behind the `if (!header) return` guard — move it out so header-less templates get it",
+    "footer on this template: background-color #fff and img { vertical-align: middle } (widget bootstrap) — overridden in page CSS (footer-icons row −6px vs home)"
+   ],
+   "motion": {
+    "observed": "stardust/replica/motion/en-us-click2cart-0060001-live.json — nothing fired (pill hover/click, zip hover, privacy link hover, header scroll all dead)",
+    "implemented": "none required; motion-compare 0 parity, 0 missing, 0 extra (stardust/replica/motion/en-us-click2cart-0060001-compare.txt)",
+    "dead": [
+     "retailer pill hover (font-size/transform transitions declared, no measured diff)",
+     "retailer pill click (disabled retailer / transfer)",
+     "zip hover",
+     "privacy link hover",
+     "header scroll-morph (no header)"
+    ]
+   },
+   "residuals": [
+    "retailer order nondeterministic on live (permanent, pill rows only)",
+    "pixel probe gate-blocked (rule 13: body scroller) — published-origin gate will hit the same stall"
+   ]
+  }
+ },
+ "siblings": {}
+}

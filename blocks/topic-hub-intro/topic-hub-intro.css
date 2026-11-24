@@ -1,0 +1,376 @@
+/* topic-hub-intro — live .alp-intro (+ .breadcrumbs, .share-block). Spec: stardust/prototypes/
+   en-us-how-to-wash-clothes-how-to-remove-stains.css (.alp-intro*, .alp-crumbs*, .alp-share*) */
+
+/* template frame (body.topic-hub): live main contains the last margin (footer adds below) */
+body.topic-hub main {
+  display: flow-root;
+}
+
+.topic-hub-intro {
+  color: var(--tide-navy);
+}
+
+.topic-hub-intro .topic-hub-intro-image {
+  height: 200px;
+  background-color: var(--tide-orange);
+}
+
+.topic-hub-intro .topic-hub-intro-image picture {
+  display: block;
+  height: inherit;
+}
+
+.topic-hub-intro .topic-hub-intro-image img {
+  display: block;
+  width: 100%;
+  height: inherit;
+  object-fit: cover;
+}
+
+.topic-hub-intro .topic-hub-intro-bottom {
+  margin-bottom: 70px;
+}
+
+.topic-hub-intro .topic-hub-intro-bar {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+/* breadcrumbs */
+.topic-hub-intro .topic-hub-intro-crumbs {
+  position: relative;
+  z-index: 1;
+}
+
+.topic-hub-intro .topic-hub-intro-crumbs :is(ul, ol) {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.topic-hub-intro .topic-hub-intro-crumbs li {
+  display: inline;
+  color: var(--tide-navy);
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+
+.topic-hub-intro .topic-hub-intro-crumbs li::after {
+  content: ">";
+  margin: 0 4px;
+}
+
+.topic-hub-intro .topic-hub-intro-crumbs li:last-child {
+  font-weight: 700;
+}
+
+.topic-hub-intro .topic-hub-intro-crumbs li:last-child::after {
+  content: none;
+}
+
+.topic-hub-intro .topic-hub-intro-crumbs a:any-link {
+  color: var(--tide-navy);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* share row (live .share-block: inline-svg line box) */
+.topic-hub-intro .topic-hub-intro-share {
+  display: flex;
+  align-items: center;
+  height: 27.5938px;
+}
+
+.topic-hub-intro .topic-hub-intro-share-item {
+  margin-right: 20px;
+}
+
+.topic-hub-intro .topic-hub-intro-share-item:last-child {
+  margin-right: 0;
+}
+
+.topic-hub-intro .topic-hub-intro-share-item svg {
+  width: 22px;
+  height: 22px;
+}
+
+.topic-hub-intro .topic-hub-intro-share-item svg path {
+  fill: var(--tide-orange);
+}
+
+/* title + texts */
+.topic-hub-intro .topic-hub-intro-text > * {
+  margin: 15px 0 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+
+.topic-hub-intro .topic-hub-intro-text > .topic-hub-intro-title {
+  margin: 0;
+  color: var(--tide-orange);
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 40px;
+}
+
+.topic-hub-intro .topic-hub-intro-text > .topic-hub-intro-short {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+/* stain-guide-widget `orange` skin (live .spinner orange theme on topic hubs) — reused block,
+   skin shipped here until the widget carries the variant (request filed) */
+.stain-guide-widget.orange {
+  background: var(--tide-orange);
+}
+
+.stain-guide-widget.orange .sg-image {
+  display: none;
+  position: absolute;
+  top: 223px;
+  right: -188px;
+  z-index: 0;
+  width: 320px;
+}
+
+.stain-guide-widget.orange .sg-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.stain-guide-widget.orange .sg-mask-top {
+  background-image: linear-gradient(var(--tide-orange), #fb4c0600);
+}
+
+.stain-guide-widget.orange .sg-mask-bottom {
+  background-image: linear-gradient(#fb4c0600, var(--tide-orange));
+}
+
+.stain-guide-widget.orange .sg-indicator {
+  border-top-color: #fff;
+  border-bottom-color: #fff;
+}
+
+.stain-guide-widget.orange .sg-actions .sg-cta p,
+.stain-guide-widget.orange .sg-actions .sg-cta p:hover {
+  background-color: var(--tide-navy);
+}
+
+.stain-guide-widget.orange .sg-help {
+  display: none;
+}
+
+@media (width >= 451px) {
+  .stain-guide-widget.orange .sg-image {
+    display: block;
+  }
+}
+
+@media (width >= 768px) {
+  .stain-guide-widget.orange .sg-image {
+    width: 500px;
+  }
+}
+
+@media (width >= 992px) {
+  .topic-hub-intro .topic-hub-intro-image {
+    height: 400px;
+  }
+
+  .topic-hub-intro .topic-hub-intro-bar {
+    flex-direction: row;
+    justify-content: space-between;
+    height: 27px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+  }
+
+  .topic-hub-intro .topic-hub-intro-share-item {
+    margin-right: 10px;
+  }
+
+  .topic-hub-intro .topic-hub-intro-text {
+    max-width: calc((100% + 30px) * 7 / 12 - 30px);
+  }
+
+  .topic-hub-intro .topic-hub-intro-text > * {
+    margin-top: 20px;
+  }
+
+  .topic-hub-intro .topic-hub-intro-text > .topic-hub-intro-title {
+    font-size: 48px;
+    line-height: 52px;
+  }
+
+  .topic-hub-intro .topic-hub-intro-text > .topic-hub-intro-short {
+    margin-top: 10px;
+    line-height: 26px;
+  }
+
+  .stain-guide-widget.orange .sg-image {
+    right: -300px;
+  }
+
+  .stain-guide-widget.orange .sg-arrow {
+    border-color: var(--tide-navy);
+  }
+}
+
+@media (width >= 1200px) {
+  .stain-guide-widget.orange .sg-image {
+    top: -102px;
+    right: -404px;
+    width: 784px;
+  }
+}
+
+/* the overrides below target other blocks than the stain widget: selectors are disjoint */
+/* stylelint-disable no-descending-specificity */
+
+/* topic-hub related-article rows (live .related-articles-container .article-preview): the
+   reused plp-related `desktop` list rendered as article-preview cards at every width,
+   scoped to this template (request filed: a plp-related `cards` variant) */
+body.topic-hub .plp-related.desktop {
+  padding-top: 0;
+}
+
+body.topic-hub .plp-related.desktop .plp-related-item {
+  margin: 30px -15px 0;
+  padding: 0;
+  border-bottom: 0;
+}
+
+body.topic-hub .plp-related.desktop .plp-related-image {
+  display: block;
+}
+
+body.topic-hub .plp-related.desktop .plp-related-image :is(a, p, picture) {
+  display: flex;
+  align-items: flex-start;
+  margin: 0;
+}
+
+body.topic-hub .plp-related.desktop .plp-related-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 360 / 311;
+  object-fit: cover;
+}
+
+body.topic-hub .plp-related.desktop .plp-related-content {
+  width: auto;
+  margin: -50px 15px 0;
+  padding: 25px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+/* heading-titled cards (live h1 in .article-preview-title) and a linked title (live
+   a.article-preview-title) sharing its cell with the summary */
+body.topic-hub .plp-related.desktop .plp-related-item-title h2 {
+  margin: 0;
+  color: var(--tide-orange);
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 26px;
+  letter-spacing: 0;
+}
+
+body.topic-hub .plp-related.desktop .plp-related-item-title a:any-link {
+  color: inherit;
+  font-weight: inherit;
+  text-decoration: none;
+}
+
+body.topic-hub .plp-related.desktop .plp-related-item-title > p + p {
+  margin-top: 15px;
+  color: var(--tide-navy);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+body.topic-hub .plp-related.desktop .plp-related-image:empty + .plp-related-content {
+  margin-top: 0;
+}
+
+body.topic-hub .plp-related.desktop .plp-related-link {
+  display: block;
+}
+
+body.topic-hub .plp-related.desktop .plp-related-link p {
+  margin: 0;
+}
+
+body.topic-hub .plp-related.desktop .plp-related-link a:any-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  color: var(--tide-navy);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25.2px;
+  text-decoration: none;
+}
+
+body.topic-hub .plp-related.desktop .plp-related-arrow {
+  display: none;
+}
+
+/* the video row (live col-lg-8 .youtube-video below two blank paragraphs) */
+body.topic-hub .section-landing-video {
+  margin: 56px 0 0;
+}
+
+@media (width >= 992px) {
+  body.topic-hub .plp-related.desktop .plp-related-item {
+    margin: 0;
+  }
+
+  body.topic-hub .plp-related.desktop .plp-related-content {
+    margin: -50px 30px 0;
+    padding: 30px 25px;
+  }
+
+  body.topic-hub .plp-related.desktop .plp-related-item-text,
+  body.topic-hub .plp-related.desktop .plp-related-item-title > p + p {
+    margin-top: 5px;
+    line-height: 24px;
+  }
+
+  body.topic-hub .plp-related.desktop .plp-related-item-title {
+    min-height: 75px;
+  }
+
+  body.topic-hub .plp-related.desktop .plp-related-item-title h2 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  body.topic-hub .plp-related.desktop .plp-related-link a:any-link {
+    text-decoration: underline;
+  }
+
+  body.topic-hub .section-landing-video {
+    margin: 64px 0 0;
+  }
+
+  body.topic-hub .section-landing-video .slv-col {
+    flex: 0 0 66.6667%;
+    max-width: 66.6667%;
+  }
+}

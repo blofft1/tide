@@ -1,0 +1,8 @@
+motion header scroll-morph: dead on live — not required (header static across the scroll traversal on both sides)
+motion widget .youtube-video-preview-overlay → .yt__overlay: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))
+motion hover .article-preview-title → .preview__title: dead on live — not required (no measured hover diff)
+motion hover .article-preview .button-link → .preview .btn: parity (self.background; 200ms; paired by order)
+motion hover .youtube-video-preview-overlay → .yt__overlay: dead on live — not required (no measured hover diff)
+motion transition background-color: parity (2 event(s) on live, 2 on build, 200ms)
+motion transition opacity: parity (2 event(s) on live, 2 on build, 300ms)
+motion summary: 3 parity, 0 missing, 0 extra, 0 advisory (0 out of tolerance, 4 dead or unobserved on live — not required; tolerance 150ms / 8px)

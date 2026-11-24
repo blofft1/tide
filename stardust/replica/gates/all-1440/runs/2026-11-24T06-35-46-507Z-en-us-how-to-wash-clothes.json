@@ -1,0 +1,543 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-24T06:35:46.506Z",
+    "stage": "published",
+    "breakpoint": 1440,
+    "threshold": 10,
+    "offsetMax": "the larger of 8px and 1% of the origin height; roster tolerance: 5% of the origin height with no step over 200px",
+    "originReference": "frozen",
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "pixel criterion (aligned % ≤ 10 AND total offset ≤ the bound; alignment not used: unaligned % ≤ 10) AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://tide.com",
+    "eds": "https://main--5db7d055--aemcoder.aem.page",
+    "edsHostOverride": "https://main--5db7d055--aemcoder.aem.page",
+    "only": [
+      "en-us-how-to-wash-clothes",
+      "en-us-how-to-wash-clothes-washing-machine-101",
+      "en-us-our-commitment-americas-number-one-detergent",
+      "en-us-our-commitment-ingredients-and-safety",
+      "en-us-rewards-laundrytips"
+    ]
+  },
+  "totals": {
+    "pages": 5,
+    "pass": 3,
+    "pixelOnlyPass": 4,
+    "overridePass": 0,
+    "fail": 2,
+    "error": 0,
+    "probeErrors": 0,
+    "failPixel": 1,
+    "failHeight": 1,
+    "failClip": 0,
+    "failContent": 1,
+    "failUnits": 1,
+    "unitsNotDeclared": 3,
+    "unitsRecordedNotDeclared": 0,
+    "fontsNotLoaded": 0,
+    "fontsDeadOnSource": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "alignedOnlyPass": 0,
+    "failOffsets": 1,
+    "offsetsWithinTolerance": 3,
+    "referenceUnstable": 0,
+    "passWithOverrides": 3
+  },
+  "rows": [
+    {
+      "slug": "en-us-how-to-wash-clothes",
+      "path": "/en-us/how-to-wash-clothes",
+      "template": "section-landing",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 6.64,
+      "textPct": 13.28,
+      "heightDelta": 89,
+      "originH": 3138,
+      "edsH": 3049,
+      "alignedPct": 3.61,
+      "alignedUsed": true,
+      "totalShift": 93,
+      "steps": [
+        {
+          "y": 492,
+          "shift": 1,
+          "cumulative": 1
+        },
+        {
+          "y": 1492,
+          "shift": -1,
+          "cumulative": 0
+        },
+        {
+          "y": 1980,
+          "shift": -45,
+          "cumulative": -45
+        },
+        {
+          "y": 2143,
+          "shift": -45,
+          "cumulative": -90
+        },
+        {
+          "y": 2963,
+          "shift": 1,
+          "cumulative": -89
+        }
+      ],
+      "offsetBound": 31,
+      "offsetTolerance": 156,
+      "offsetJudge": "tolerance",
+      "offsetsWithinTolerance": true,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [
+        "offsets within the roster tolerance: 93px total, largest step 45px (strict bound 31px, tolerance 156px)",
+        "units: no family declared for this page — the repeated-unit check did not run"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 0,
+        "variable": []
+      },
+      "unitsDeclared": 0,
+      "unitsRecorded": null,
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-1440/en-us-how-to-wash-clothes",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "2000-2500:30.1%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "en-us-how-to-wash-clothes-washing-machine-101",
+      "path": "/en-us/how-to-wash-clothes/washing-machine-101",
+      "template": "section-landing",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 8.51,
+      "textPct": 15.89,
+      "heightDelta": 90,
+      "originH": 2469,
+      "edsH": 2379,
+      "alignedPct": 4.41,
+      "alignedUsed": true,
+      "totalShift": 92,
+      "steps": [
+        {
+          "y": 492,
+          "shift": 1,
+          "cumulative": 1
+        },
+        {
+          "y": 1310,
+          "shift": -45,
+          "cumulative": -44
+        },
+        {
+          "y": 1473,
+          "shift": -45,
+          "cumulative": -89
+        },
+        {
+          "y": 2292,
+          "shift": -1,
+          "cumulative": -90
+        }
+      ],
+      "offsetBound": 25,
+      "offsetTolerance": 123,
+      "offsetJudge": "tolerance",
+      "offsetsWithinTolerance": true,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [
+        "offsets within the roster tolerance: 92px total, largest step 45px (strict bound 25px, tolerance 123px)",
+        "units: no family declared for this page — the repeated-unit check did not run"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 0,
+        "variable": []
+      },
+      "unitsDeclared": 0,
+      "unitsRecorded": null,
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-1440/en-us-how-to-wash-clothes-washing-machine-101",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "1500-2000:24.8%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "en-us-our-commitment-americas-number-one-detergent",
+      "path": "/en-us/our-commitment/americas-number-one-detergent",
+      "template": "section-landing",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 2.06,
+      "textPct": 9.13,
+      "heightDelta": 0,
+      "originH": 2943,
+      "edsH": 2943,
+      "alignedPct": 1.17,
+      "alignedUsed": true,
+      "totalShift": 2,
+      "steps": [
+        {
+          "y": 492,
+          "shift": 1,
+          "cumulative": 1
+        },
+        {
+          "y": 2766,
+          "shift": -1,
+          "cumulative": 0
+        }
+      ],
+      "offsetBound": 29,
+      "offsetTolerance": 147,
+      "offsetJudge": "bound",
+      "offsetsWithinTolerance": false,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": true,
+      "pass": false,
+      "failing": [
+        "content",
+        "units"
+      ],
+      "unwaived": [
+        "content",
+        "units"
+      ],
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "content MISSING 3 / HIDDEN 0",
+        "units off 3 hidden 0 missing 3"
+      ],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 3,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 3,
+        "variable": []
+      },
+      "unitsDeclared": 1,
+      "unitsRecorded": null,
+      "units": {
+        "units": 3,
+        "within": 15,
+        "off": 3,
+        "hidden": 0,
+        "missing": 3,
+        "errors": 0,
+        "requiredOff": 6
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-1440/en-us-our-commitment-americas-number-one-detergent",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [],
+      "error": null
+    },
+    {
+      "slug": "en-us-our-commitment-ingredients-and-safety",
+      "path": "/en-us/our-commitment/ingredients-and-safety",
+      "template": "section-landing",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 4.14,
+      "textPct": 9.67,
+      "heightDelta": 44,
+      "originH": 3555,
+      "edsH": 3511,
+      "alignedPct": 1.82,
+      "alignedUsed": true,
+      "totalShift": 48,
+      "steps": [
+        {
+          "y": 674,
+          "shift": 1,
+          "cumulative": 1
+        },
+        {
+          "y": 1496,
+          "shift": -1,
+          "cumulative": 0
+        },
+        {
+          "y": 2560,
+          "shift": -45,
+          "cumulative": -45
+        },
+        {
+          "y": 3380,
+          "shift": 1,
+          "cumulative": -44
+        }
+      ],
+      "offsetBound": 36,
+      "offsetTolerance": 177,
+      "offsetJudge": "tolerance",
+      "offsetsWithinTolerance": true,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": true,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [
+        "offsets within the roster tolerance: 48px total, largest step 45px (strict bound 36px, tolerance 177px)"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 0,
+        "variable": []
+      },
+      "unitsDeclared": 1,
+      "unitsRecorded": null,
+      "units": {
+        "units": 3,
+        "within": 18,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-1440/en-us-our-commitment-ingredients-and-safety",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "2500-3000:19.1%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "en-us-rewards-laundrytips",
+      "path": "/en-us/rewards/laundrytips",
+      "template": "section-landing",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 13.94,
+      "textPct": 15.72,
+      "heightDelta": 170,
+      "originH": 2674,
+      "edsH": 2504,
+      "alignedPct": 6.54,
+      "alignedUsed": true,
+      "totalShift": 170,
+      "steps": [
+        {
+          "y": 575,
+          "shift": -45,
+          "cumulative": -45
+        },
+        {
+          "y": 771,
+          "shift": -45,
+          "cumulative": -90
+        },
+        {
+          "y": 1609,
+          "shift": -79,
+          "cumulative": -169
+        },
+        {
+          "y": 2497,
+          "shift": -1,
+          "cumulative": -170
+        }
+      ],
+      "offsetBound": 27,
+      "offsetTolerance": 133,
+      "offsetJudge": "tolerance",
+      "offsetsWithinTolerance": false,
+      "pixelPass": false,
+      "heightPass": false,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "failing": [
+        "pixel",
+        "height"
+      ],
+      "unwaived": [
+        "pixel",
+        "height"
+      ],
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "offsets: 4 step(s), 170px total — −45px at y=575, −45px at y=771, −79px at y=1609, −1px at y=2497 (bound 27px) — over the roster tolerance 133px",
+        "Δh 170px > 5% of 2674"
+      ],
+      "notes": [
+        "units: no family declared for this page — the repeated-unit check did not run"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 0,
+        "variable": []
+      },
+      "unitsDeclared": 0,
+      "unitsRecorded": null,
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-1440/en-us-rewards-laundrytips",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "1000-1500:33.2%",
+        "1500-2000:29.2%"
+      ],
+      "error": null
+    }
+  ]
+}

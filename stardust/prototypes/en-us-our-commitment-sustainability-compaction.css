@@ -1,0 +1,93 @@
+/* tide.com replica — sustainability-topic archetype (article page, type_4 intro with lead image;
+   rich-text / image rows; checkmark list). Imports canon.css; values lifted from the live stylesheet
+   (stardust/current/assets/css/0x8blnfnms9hr.css: .article-intro-3, .dynamic-content-wrapper,
+   .list-checkmarks-secondary) and the source spec (stardust/replica/spec/<slug>-{1440,360}.json).
+   Jump navigation copied from the article archetype. Mobile-first; desktop at 992px. */
+
+/* ---------- jump navigation (live .anchor-navigation; frozen = fixed after scroll) ---------- */
+.anchor-nav { display: flex; border-bottom: 1px solid #e3e3e3; box-shadow: none; transition: box-shadow .3s; }
+.anchor-nav.is-frozen { z-index: 100; background-color: #fff; position: fixed; top: 0; left: 0; right: 0; box-shadow: 0 2px 17px #0003; }
+.anchor-nav nav { overflow-x: auto; scrollbar-width: none; }
+.anchor-nav nav::-webkit-scrollbar { display: none; }
+.anchor-nav ul { margin: 0; padding: 0; display: flex; }
+.anchor-nav li { white-space: nowrap; cursor: pointer; margin-right: 40px; list-style: none; display: inline-block; }
+.anchor-nav li:last-child { margin-right: 0; }
+.anchor-nav li span { letter-spacing: 0; color: var(--tide-navy); padding: 15px 0; font-size: 14px; font-weight: 700; line-height: 16px; display: inline-block; position: relative; }
+.anchor-nav li span::before { content: ""; background-color: transparent; width: calc(100% + 8px); height: 5px; transition: background-color .3s; position: absolute; bottom: 0; left: -4px; }
+.anchor-nav li span.active::before { background-color: var(--tide-orange); }
+
+/* ---------- intro (orange band: breadcrumbs, title, lead, share, lead image) ---------- */
+.topic-intro { position: relative; display: flex; flex-wrap: wrap; color: #fff; background-color: var(--tide-orange); }
+.topic-intro > .container { flex: 0 0 100%; }
+.topic-intro__crumbs { z-index: 1; width: 100%; margin-top: 20px; }
+.crumbs { margin: 0; padding: 0; list-style: none; }
+.crumbs__item { display: inline; letter-spacing: 0; color: #fff; font-size: 19px; font-weight: 400; line-height: 24px; }
+.crumbs__item::after { content: ">"; margin: 0 4px; }
+.crumbs__item:last-child { font-weight: 700; }
+.crumbs__item:last-child::after { content: none; }
+.crumbs__item a { color: #fff; font-weight: 700; text-decoration: none; }
+.topic-intro__grid { display: flex; flex-wrap: wrap; align-items: center; height: 100%; margin: 0 -15px; }
+.topic-intro__content { flex: 0 0 100%; max-width: 100%; padding: 0 15px; margin: 20px 0 80px; }
+.topic-intro__title { letter-spacing: 0; color: #fff; margin: 0; font-size: 40px; font-weight: 800; line-height: 44px; }
+.topic-intro__lead { margin-top: 20px; }
+.topic-intro__lead p { margin: 0; font-size: 19px; font-weight: 700; line-height: 26px; }
+.topic-intro__lead a { color: #fff; font-weight: 700; }
+.topic-intro__image { display: none; }
+.share { display: flex; align-items: center; margin-top: 40px; }
+.share--desktop { display: none; }
+.share__item { margin-right: 20px; }
+.share__item:last-child { margin-right: 0; }
+.share__item svg { width: 22px; height: 22px; }
+.share__item svg path { fill: #fff; }
+
+/* ---------- body rows (rich text + image / checklist) ---------- */
+main.topic-page { display: flow-root; }
+.topic-row { margin: 35px 0; }
+.topic-row__grid { display: flex; flex-wrap: wrap; margin: 0 -15px; }
+.topic-row__left, .topic-row__right, .topic-row__wide { flex: 0 0 100%; max-width: 100%; padding: 0 15px; margin-top: 30px; }
+.topic-row__grid--center { justify-content: center; }
+.topic-row picture { display: flex; align-items: flex-start; margin-top: 30px; }
+.topic-row picture img { width: 100%; height: auto; }
+.rt { color: var(--tide-navy); }
+.rt p { letter-spacing: 0; color: var(--tide-navy); margin: 1em 0 0; font-size: 16px; font-weight: 400; line-height: 20px; }
+.rt > p:first-of-type { margin-top: 35px; }
+.rt h2 + p { margin-top: 15px !important; }
+.rt p a { color: var(--tide-navy); font-weight: 700; text-decoration: underline; }
+.rt h2 { letter-spacing: 0; color: var(--tide-orange); margin: 0 0 20px; font-size: 40px; font-weight: 800; line-height: 44px; }
+
+/* checkmark list (live .list-checkmarks-secondary); the trailing 35px is the live list's empty
+   first-of-type paragraph margin */
+.checklist { padding-bottom: 35px; }
+.checklist ul { margin: 25px 0 0; padding: 0; list-style: none; }
+.checklist li { display: flex; position: relative; min-height: 65px; margin-top: 25px; padding-left: 85px; list-style: none; text-indent: 0; }
+.checklist li:first-of-type { margin-top: 0; }
+.checklist li::before { content: ""; position: absolute; top: 0; left: 0; width: 67px; height: 67px; padding: 0; background: url(assets/img/icon-checkmark-orange.svg) 50% no-repeat; }
+.checklist li p { display: inline; margin: 0; }
+
+@media (min-width: 992px) {
+  .topic-intro { min-height: 500px; }
+  .topic-intro__crumbs { margin-top: 0; }
+  .topic-intro__crumbs > .container { position: absolute; top: 20px; left: 50%; transform: translate(-50%); }
+  .topic-intro__content { flex: 0 0 50%; max-width: 50%; margin: 0; padding: 60px 15px; }
+  .topic-intro__title { font-size: 48px; line-height: 52px; }
+  .topic-intro__lead { margin-top: 25px; }
+  .topic-intro__lead p { font-size: 19px; }
+  .topic-intro__image { display: block; flex: 0 0 50%; max-width: 50%; height: 100%; padding: 50px 15px 0; }
+  .topic-intro__image picture { display: flex; align-items: flex-end; height: 100%; }
+  .topic-intro__image img { width: 100%; height: auto; object-fit: cover; }
+  .share--mobile { display: none; }
+  .share--desktop { display: flex; }
+  .share__item { margin-right: 10px; }
+  .topic-row { margin: 80px 0; }
+  .topic-row__left, .topic-row__right, .topic-row__wide { margin-top: 0; }
+  .topic-row__left { flex: 0 0 41.666667%; max-width: 41.666667%; }
+  .topic-row__right { flex: 0 0 50%; max-width: 50%; margin-left: 8.333333%; }
+  .topic-row__wide { flex: 0 0 83.333333%; max-width: 83.333333%; }
+  .topic-row picture { margin-top: 0; }
+  .rt p { line-height: 24px; }
+  .rt > p:first-child { margin-top: 0; }
+  .rt h2 { font-size: 48px; line-height: 52px; }
+  .checklist ul { margin: 0; }
+  .checklist li { margin-top: 40px; padding-left: 100px; }
+  .checklist li:first-of-type { margin-top: 0; }
+}

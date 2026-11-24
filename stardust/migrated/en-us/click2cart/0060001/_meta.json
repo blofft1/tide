@@ -1,0 +1,76 @@
+{
+  "slug": "en-us-click2cart-0060001",
+  "type": "click2cart",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "shopper-choice"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "container"
+  ],
+  "canonShas": {
+    "header": null,
+    "footer": "20c5f8618855",
+    "css": "8d39740fde7e"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Click2Cart",
+    "description": null,
+    "canonical": null,
+    "lang": "en-US"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Click2Cart",
+    "url": "https://tide.com/en-us/click2cart/0060001"
+  },
+  "migratedAt": "2026-11-23T23:43:03Z",
+  "designMdSha": "2a4c940137d0",
+  "designJsonSha": "12e3c8711506",
+  "sourceCurrentSha": "5df365ebc8c0",
+  "sourceProposedSha": "079b5b59580f",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 28,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/en-us/how-to-wash-clothes/how-to-do-laundry",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en-us/how-to-wash-clothes/washing-machine-101",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en-us/contact-us",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en-us/rewards/loyalty/terms-and-conditions",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/en-us/sitemap",
+      "reason": "in-inventory-not-migrated"
+    }
+  ],
+  "outputPath": "en-us/click2cart/0060001/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "en-us/click2cart/0060001/_meta.json",
+  "driverVersion": "1"
+}

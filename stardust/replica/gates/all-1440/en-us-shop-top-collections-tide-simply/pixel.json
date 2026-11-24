@@ -1,0 +1,222 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-us-shop-top-collections-tide-simply/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-us-shop-top-collections-tide-simply/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 6979,
+    "mode": "overlap"
+  },
+  "heightDelta": -1,
+  "differingPixels": 76346,
+  "pct": 0.76,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/en-us-shop-top-collections-tide-simply/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 1.42,
+  "textBoxes": 109,
+  "textPixels": 618288,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 8.1
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0.3
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0.2
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 1.1
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 0
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 0
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 0.3
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 0
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 0
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 0
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 0
+    },
+    {
+      "y0": 6500,
+      "y1": 6979,
+      "pct": 0.6
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 0.67,
+    "differingPixels": 67010,
+    "compared": {
+      "width": 1440,
+      "height": 6981,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 2383,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 2911,
+        "shift": -1,
+        "cumulative": 0
+      },
+      {
+        "y": 6804,
+        "shift": 1,
+        "cumulative": 1
+      }
+    ],
+    "maxOffset": 1,
+    "totalShift": 3,
+    "insertedRows": 2,
+    "deletedRows": 1,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 8.1,
+        "unaligned": 8.1
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0.3,
+        "unaligned": 0.3
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0.2,
+        "unaligned": 0.2
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0.2,
+        "unaligned": 1.1
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0.3,
+        "unaligned": 0.3
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 6500,
+        "y1": 6979,
+        "pct": 0.2,
+        "unaligned": 0.6
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/en-us-shop-top-collections-tide-simply/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 70,
+    "totalShift": 3,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-simply"
+  }
+}

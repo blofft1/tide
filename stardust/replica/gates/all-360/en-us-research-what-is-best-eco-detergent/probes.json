@@ -1,0 +1,102 @@
+{
+ "writtenBy": "gate-all.mjs",
+ "at": "2026-11-24T11:39:05.808Z",
+ "content": {
+  "totals": {
+   "missingHeadings": 0,
+   "hiddenHeadings": 0,
+   "extraHeadings": 0,
+   "missingLinks": 0,
+   "hiddenLinks": 0,
+   "movedLinks": 0,
+   "extraLinks": 2,
+   "missingButtons": 0,
+   "hiddenButtons": 0,
+   "controlState": 0,
+   "countDeltas": 0,
+   "findings": 2,
+   "structural": 0,
+   "missing": 0,
+   "hidden": 0
+  },
+  "variable": [],
+  "reason": null,
+  "tier": "chrome"
+ },
+ "clip": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 9,
+   "offPage": 10,
+   "textNodes": 170,
+   "controls": 65,
+   "total": 0
+  },
+  "groups": [
+   {
+    "kind": "TEXT X-CUT",
+    "advisory": true,
+    "n": 7,
+    "clipper": null,
+    "path": "ul > li > p > a",
+    "text": "https://www.worldwildlife.org/publications/encouraging-us-ho",
+    "cutMin": 29,
+    "cutMax": 889
+   },
+   {
+    "kind": "CONTROL X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "nav",
+    "path": "nav > ul > li > span.jump-links-item",
+    "text": "1.0 introduction: establishing a scientific framework and as",
+    "cutMin": 439,
+    "cutMax": 439
+   },
+   {
+    "kind": "TEXT X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "nav",
+    "path": "nav > ul > li > span.jump-links-item",
+    "text": "1.0 introduction: establishing a scientific framework and as",
+    "cutMin": 439,
+    "cutMax": 439
+   }
+  ],
+  "origin": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 1,
+   "scrollHidden": 0,
+   "horizontal": 27,
+   "offPage": 12,
+   "textNodes": 172,
+   "controls": 68,
+   "total": 0
+  },
+  "source": "content-presence"
+ },
+ "units": {
+  "verdict": {
+   "units": 7,
+   "within": 12,
+   "off": 0,
+   "hidden": 0,
+   "missing": 0,
+   "errors": 0,
+   "requiredOff": 0
+  },
+  "required": true,
+  "errors": []
+ }
+}

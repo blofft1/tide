@@ -1,0 +1,194 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-us-how-to-wash-clothes-effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-us-how-to-wash-clothes-effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 5279,
+    "mode": "overlap"
+  },
+  "heightDelta": -135,
+  "differingPixels": 1154156,
+  "pct": 15.18,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-1440/en-us-how-to-wash-clothes-effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 28.19,
+  "textBoxes": 131,
+  "textPixels": 846958,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 15.5
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 32.7
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 1.1
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0.9
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 7.7
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 7.1
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 14.7
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 34.7
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 29
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 14.7
+    },
+    {
+      "y0": 5000,
+      "y1": 5279,
+      "pct": 4.1
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 8.89,
+    "differingPixels": 693797,
+    "compared": {
+      "width": 1440,
+      "height": 5422,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1341,
+        "shift": 18,
+        "cumulative": 18
+      },
+      {
+        "y": 2130,
+        "shift": 44,
+        "cumulative": 62
+      },
+      {
+        "y": 3560,
+        "shift": -8,
+        "cumulative": 54
+      },
+      {
+        "y": 4374,
+        "shift": 81,
+        "cumulative": 135
+      }
+    ],
+    "maxOffset": 135,
+    "totalShift": 151,
+    "insertedRows": 143,
+    "deletedRows": 8,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 15.5,
+        "unaligned": 15.5
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 32.7,
+        "unaligned": 32.7
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 4.2,
+        "unaligned": 1.1
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0.1,
+        "unaligned": 0.9
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 9,
+        "unaligned": 7.7
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0.4,
+        "unaligned": 7.1
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 14.1,
+        "unaligned": 14.7
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 2.8,
+        "unaligned": 34.7
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 14.3,
+        "unaligned": 29
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0,
+        "unaligned": 14.7
+      },
+      {
+        "y0": 5000,
+        "y1": 5279,
+        "pct": 0,
+        "unaligned": 4.1
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/en-us-how-to-wash-clothes-effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 53,
+    "totalShift": 151,
+    "pass": false
+  },
+  "reason": "offsets: 4 step(s), 151px total — +18px at y=1341, +44px at y=2130, −8px at y=3560, +81px at y=4374 (bound 53px)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry"
+  }
+}

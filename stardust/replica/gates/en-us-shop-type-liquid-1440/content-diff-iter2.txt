@@ -1,0 +1,22 @@
+[live-session] waiting to pace live navigations to tide.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 335 ms
+
+Content diff @ 1440px (profile "generic", roots: #site-content, header, footer)
+root "#site-content"
+  source: 104 text nodes — 4 headings, 0 eyebrows, 19 CTAs, 81 body; 12 img
+  build: 104 text nodes — 5 headings, 0 eyebrows, 19 CTAs, 80 body; 12 img
+  editable texts (outermost h*/p/ul/ol): source 25 / build 25
+  attributes (placeholder/aria-label/title): source 80 / build 80; icons: source 55 / build 55
+  accepted (invisible, nothing lost): 1 ROLE UPGRADE body → heading — "Shop"
+root "header"
+  source: 53 text nodes — 0 headings, 0 eyebrows, 47 CTAs, 6 body; 4 img
+  build: 53 text nodes — 0 headings, 0 eyebrows, 47 CTAs, 6 body; 4 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 0
+  attributes (placeholder/aria-label/title): source 51 / build 51; icons: source 6 / build 6
+root "footer"
+  source: 29 text nodes — 0 headings, 0 eyebrows, 18 CTAs, 11 body; 8 img
+  build: 29 text nodes — 0 headings, 0 eyebrows, 18 CTAs, 11 body; 8 img
+  editable texts (outermost h*/p/ul/ol): source 3 / build 3
+  attributes (placeholder/aria-label/title): source 25 / build 25; icons: source 10 / build 10
+
+Findings: none — content + roles match
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 1 (owner 0, auto 1) · advisory 0

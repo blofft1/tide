@@ -1,0 +1,67 @@
+[
+ {
+  "finding": "close-path@390 navigation menu > Shop Products > By Need",
+  "class": "accept-residual",
+  "reason": "build closes the submenu by its trigger (data-sub toggle), back button and Escape; the recorder clicks the trigger point, which on the build sits under the open submenu panel (live geometry of the panel unknown beyond its content rect) — evidence stardust/chrome/header-parity.json, crops stardust/.work/chrome/header-build"
+ },
+ {
+  "finding": "close-path@390 navigation menu > Shop Products > Top Collection",
+  "class": "accept-residual",
+  "reason": "build closes the submenu by its trigger (data-sub toggle), back button and Escape; the recorder clicks the trigger point, which on the build sits under the open submenu panel (live geometry of the panel unknown beyond its content rect) — evidence stardust/chrome/header-parity.json, crops stardust/.work/chrome/header-build"
+ },
+ {
+  "finding": "close-path@390 navigation menu > Our Commitment",
+  "class": "accept-residual",
+  "reason": "build closes the submenu by its trigger (data-sub toggle), back button and Escape; the recorder clicks the trigger point, which on the build sits under the open submenu panel (live geometry of the panel unknown beyond its content rect) — evidence stardust/chrome/header-parity.json, crops stardust/.work/chrome/header-build"
+ },
+ {
+  "finding": "close-path@390 navigation menu > How to Wash Clothes",
+  "class": "accept-residual",
+  "reason": "build closes the submenu by its trigger (data-sub toggle), back button and Escape; the recorder clicks the trigger point, which on the build sits under the open submenu panel (live geometry of the panel unknown beyond its content rect) — evidence stardust/chrome/header-parity.json, crops stardust/.work/chrome/header-build"
+ },
+ {
+  "finding": "panel-visual@390 navigation menu [click]",
+  "class": "accept-residual",
+  "reason": "mobile drawer panel crops: live records content-sized panels (e.g. 140x231), build panels measure full width; same items, order, type and spacing — evidence stardust/.work/chrome/header-build/ vs stardust/.work/chrome/header-contract/"
+ },
+ {
+  "finding": "panel-visual@390 navigation menu > Shop Products [click]",
+  "class": "accept-residual",
+  "reason": "mobile drawer panel crops: live records content-sized panels (e.g. 140x231), build panels measure full width; same items, order, type and spacing — evidence stardust/.work/chrome/header-build/ vs stardust/.work/chrome/header-contract/"
+ },
+ {
+  "finding": "panel-visual@390 navigation menu > Shop Products > By Type [click]",
+  "class": "accept-residual",
+  "reason": "mobile drawer panel crops: live records content-sized panels (e.g. 140x231), build panels measure full width; same items, order, type and spacing — evidence stardust/.work/chrome/header-build/ vs stardust/.work/chrome/header-contract/"
+ },
+ {
+  "finding": "panel-visual@390 navigation menu > Shop Products > By Need [click]",
+  "class": "accept-residual",
+  "reason": "mobile drawer panel crops: live records content-sized panels (e.g. 140x231), build panels measure full width; same items, order, type and spacing — evidence stardust/.work/chrome/header-build/ vs stardust/.work/chrome/header-contract/"
+ },
+ {
+  "finding": "panel-visual@390 navigation menu > Shop Products > Top Collection [click]",
+  "class": "accept-residual",
+  "reason": "mobile drawer panel crops: live records content-sized panels (e.g. 140x231), build panels measure full width; same items, order, type and spacing — evidence stardust/.work/chrome/header-build/ vs stardust/.work/chrome/header-contract/"
+ },
+ {
+  "finding": "panel-visual@390 navigation menu > Our Commitment [click]",
+  "class": "accept-residual",
+  "reason": "mobile drawer panel crops: live records content-sized panels (e.g. 140x231), build panels measure full width; same items, order, type and spacing — evidence stardust/.work/chrome/header-build/ vs stardust/.work/chrome/header-contract/"
+ },
+ {
+  "finding": "panel-visual@390 navigation menu > How to Wash Clothes [click]",
+  "class": "accept-residual",
+  "reason": "mobile drawer panel crops: live records content-sized panels (e.g. 140x231), build panels measure full width; same items, order, type and spacing — evidence stardust/.work/chrome/header-build/ vs stardust/.work/chrome/header-contract/"
+ },
+ {
+  "finding": "panel-visual@390 navigation menu > Coupons and Deals [click]",
+  "class": "accept-residual",
+  "reason": "mobile drawer panel crops: live records content-sized panels (e.g. 140x231), build panels measure full width; same items, order, type and spacing — evidence stardust/.work/chrome/header-build/ vs stardust/.work/chrome/header-contract/"
+ },
+ {
+  "finding": "panel-visual@1440 US - English [click]",
+  "class": "accept-residual",
+  "reason": "locale modal: live crop is the overlay region 1440x591 below the modal top, build crop is the dialog box; modal content, flags, links, close and opacity .5s match — evidence stardust/.work/chrome/header-build/1440-001-US---English-click.png"
+ }
+]

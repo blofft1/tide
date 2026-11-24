@@ -1,0 +1,177 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-us-shop-special-needs-deep-clean/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-us-shop-special-needs-deep-clean/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 4419,
+    "mode": "overlap"
+  },
+  "heightDelta": -121,
+  "differingPixels": 478641,
+  "pct": 7.52,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-1440/en-us-shop-special-needs-deep-clean/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 10.26,
+  "textBoxes": 130,
+  "textPixels": 462028,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.5
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.2
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 2.8
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 9.7
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 22.6
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 27.9
+    },
+    {
+      "y0": 4000,
+      "y1": 4419,
+      "pct": 3.2
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 2.82,
+    "differingPixels": 184358,
+    "compared": {
+      "width": 1440,
+      "height": 4541,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 932,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 1461,
+        "shift": -1,
+        "cumulative": 0
+      },
+      {
+        "y": 2910,
+        "shift": 60,
+        "cumulative": 60
+      },
+      {
+        "y": 3514,
+        "shift": 60,
+        "cumulative": 120
+      },
+      {
+        "y": 4244,
+        "shift": 1,
+        "cumulative": 121
+      }
+    ],
+    "maxOffset": 121,
+    "totalShift": 123,
+    "insertedRows": 122,
+    "deletedRows": 1,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.5,
+        "unaligned": 0.5
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.2,
+        "unaligned": 0.2
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0.2,
+        "unaligned": 2.8
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 11,
+        "unaligned": 9.7
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0.1,
+        "unaligned": 22.6
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 10.7,
+        "unaligned": 27.9
+      },
+      {
+        "y0": 4000,
+        "y1": 4419,
+        "pct": 0.3,
+        "unaligned": 3.2
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/en-us-shop-special-needs-deep-clean/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 44,
+    "totalShift": 123,
+    "pass": false
+  },
+  "reason": "offsets: 5 step(s), 123px total — +1px at y=932, −1px at y=1461, +60px at y=2910, +60px at y=3514, +1px at y=4244 (bound 44px)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/deep-clean"
+  }
+}

@@ -1,0 +1,536 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-24T11:04:00.077Z",
+  "tol": 4,
+  "n": 4,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://tide.com/en-us/click2cart/006000Q",
+  "at": "2026-11-24T07:00:57.408Z",
+  "docH": 2575
+ },
+ "eds": {
+  "url": "https://main--5db7d055--aemcoder.aem.page/en-us/click2cart/006000q",
+  "at": "2026-11-24T11:03:59.982Z",
+  "docH": 2575
+ },
+ "results": [
+  {
+   "sel": "app-enhanced-retailer-button .retailer-button-container=.retailer .retailer-button-container",
+   "family": null,
+   "required": true,
+   "originMatches": 6,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div#retailer-buttons-wrapper > app-enhanced-retailer-button.ng-star-inserted > div.retailer-button-container.ng-star-inserted"
+     },
+     "eds": {
+      "path": "div#retailer-buttons-wrapper > div.retailer.retailer-target > div.retailer-button-container"
+     },
+     "rows": [
+      {
+       "key": "button:target 40 ct",
+       "role": "button",
+       "text": "target 40 ct",
+       "edsText": "target 40 ct",
+       "byPosition": false,
+       "origin": {
+        "x": 6,
+        "y": 6,
+        "w": 308,
+        "h": 60
+       },
+       "eds": {
+        "x": 6,
+        "y": 6,
+        "w": 308,
+        "h": 60,
+        "sel": "div.retailer-button",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:target logo",
+       "role": "image",
+       "text": "target logo",
+       "edsText": "target logo",
+       "byPosition": false,
+       "origin": {
+        "x": 6,
+        "y": 6,
+        "w": 60,
+        "h": 60
+       },
+       "eds": {
+        "x": 6,
+        "y": 6,
+        "w": 60,
+        "h": 60,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:target",
+       "role": "text",
+       "text": "target",
+       "edsText": "target",
+       "byPosition": false,
+       "origin": {
+        "x": 78,
+        "y": 14,
+        "w": 66,
+        "h": 48
+       },
+       "eds": {
+        "x": 78,
+        "y": 14,
+        "w": 66,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": -24,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/24/400",
+        "eds": "18/24/400"
+       }
+      },
+      {
+       "key": "text:40 ct",
+       "role": "text",
+       "text": "40 ct",
+       "edsText": "40 ct",
+       "byPosition": false,
+       "origin": {
+        "x": 78,
+        "y": 38,
+        "w": 35,
+        "h": 24
+       },
+       "eds": {
+        "x": 78,
+        "y": 38,
+        "w": 35,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/24/400",
+        "eds": "14/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 6,
+       "y": 6,
+       "w": 60,
+       "h": 60,
+       "absY": 277,
+       "hidden": false,
+       "fs": 14,
+       "lh": 20,
+       "fw": "400",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 20,
+       "y": 271,
+       "w": 320,
+       "h": 72
+      },
+      "eds": {
+       "x": 20,
+       "y": 271,
+       "w": 320,
+       "h": 72
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 3,
+      "off": 1,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div#retailer-buttons-wrapper > app-enhanced-retailer-button.ng-star-inserted > div.retailer-button-container.ng-star-inserted"
+     },
+     "eds": {
+      "path": "div#retailer-buttons-wrapper > div.retailer.retailer-walmart > div.retailer-button-container"
+     },
+     "rows": [
+      {
+       "key": "button:walmart 40 ct",
+       "role": "button",
+       "text": "walmart 40 ct",
+       "edsText": "walmart 40 ct",
+       "byPosition": false,
+       "origin": {
+        "x": 6,
+        "y": 6,
+        "w": 308,
+        "h": 60
+       },
+       "eds": {
+        "x": 6,
+        "y": 6,
+        "w": 308,
+        "h": 60,
+        "sel": "div.retailer-button",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:walmart logo",
+       "role": "image",
+       "text": "walmart logo",
+       "edsText": "walmart logo",
+       "byPosition": false,
+       "origin": {
+        "x": 6,
+        "y": 6,
+        "w": 60,
+        "h": 60
+       },
+       "eds": {
+        "x": 6,
+        "y": 6,
+        "w": 60,
+        "h": 60,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:walmart",
+       "role": "text",
+       "text": "walmart",
+       "edsText": "walmart",
+       "byPosition": false,
+       "origin": {
+        "x": 78,
+        "y": 14,
+        "w": 86,
+        "h": 48
+       },
+       "eds": {
+        "x": 78,
+        "y": 14,
+        "w": 86,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": -24,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/24/400",
+        "eds": "18/24/400"
+       }
+      },
+      {
+       "key": "text:40 ct",
+       "role": "text",
+       "text": "40 ct",
+       "edsText": "40 ct",
+       "byPosition": false,
+       "origin": {
+        "x": 78,
+        "y": 38,
+        "w": 35,
+        "h": 24
+       },
+       "eds": {
+        "x": 78,
+        "y": 38,
+        "w": 35,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/24/400",
+        "eds": "14/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 6,
+       "y": 6,
+       "w": 60,
+       "h": 60,
+       "absY": 357,
+       "hidden": false,
+       "fs": 14,
+       "lh": 20,
+       "fw": "400",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 20,
+       "y": 351,
+       "w": 320,
+       "h": 72
+      },
+      "eds": {
+       "x": 20,
+       "y": 351,
+       "w": 320,
+       "h": 72
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 3,
+      "off": 1,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div#retailer-buttons-wrapper > app-enhanced-retailer-button.ng-star-inserted > div.retailer-button-container.ng-star-inserted"
+     },
+     "eds": {
+      "path": "div#retailer-buttons-wrapper > div.retailer.retailer-amazon > div.retailer-button-container"
+     },
+     "rows": [
+      {
+       "key": "button:amazon",
+       "role": "button",
+       "text": "amazon",
+       "edsText": "amazon",
+       "byPosition": false,
+       "origin": {
+        "x": 6,
+        "y": 6,
+        "w": 308,
+        "h": 60
+       },
+       "eds": {
+        "x": 6,
+        "y": 6,
+        "w": 308,
+        "h": 60,
+        "sel": "div.retailer-button",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:amazon logo",
+       "role": "image",
+       "text": "amazon logo",
+       "edsText": "amazon logo",
+       "byPosition": false,
+       "origin": {
+        "x": 6,
+        "y": 6,
+        "w": 60,
+        "h": 60
+       },
+       "eds": {
+        "x": 6,
+        "y": 6,
+        "w": 60,
+        "h": 60,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 6,
+       "y": 6,
+       "w": 60,
+       "h": 60,
+       "absY": 437,
+       "hidden": false,
+       "fs": 14,
+       "lh": 20,
+       "fw": "400",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 20,
+       "y": 431,
+       "w": 320,
+       "h": 72
+      },
+      "eds": {
+       "x": 20,
+       "y": 431,
+       "w": 320,
+       "h": 72
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 3,
+  "within": 8,
+  "off": 2,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 2
+ }
+}

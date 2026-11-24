@@ -1,0 +1,264 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-us-how-to-wash-clothes-how-to-remove-stains-acne-cream-stains/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-us-how-to-wash-clothes-how-to-remove-stains-acne-cream-stains/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 7510,
+    "mode": "overlap"
+  },
+  "heightDelta": -4,
+  "differingPixels": 1071357,
+  "pct": 9.91,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-1440/en-us-how-to-wash-clothes-how-to-remove-stains-acne-cream-stains/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 23.58,
+  "textBoxes": 144,
+  "textPixels": 659815,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.5
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 9.2
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0.9
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0.6
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0.7
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 1.4
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 2.5
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 2.4
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 2.9
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 12.4
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 50
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 53.7
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 6.6
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 3.2
+    },
+    {
+      "y0": 7000,
+      "y1": 7500,
+      "pct": 1.9
+    },
+    {
+      "y0": 7500,
+      "y1": 7510,
+      "pct": 0
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 8.79,
+    "differingPixels": 958596,
+    "compared": {
+      "width": 1440,
+      "height": 7571,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 987,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 1935,
+        "shift": 1,
+        "cumulative": 0
+      },
+      {
+        "y": 2541,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 5671,
+        "shift": 58,
+        "cumulative": 59
+      },
+      {
+        "y": 6416,
+        "shift": -11,
+        "cumulative": 48
+      },
+      {
+        "y": 6515,
+        "shift": -45,
+        "cumulative": 3
+      },
+      {
+        "y": 7335,
+        "shift": 1,
+        "cumulative": 4
+      }
+    ],
+    "maxOffset": 59,
+    "totalShift": 118,
+    "insertedRows": 61,
+    "deletedRows": 57,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.5,
+        "unaligned": 0.5
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 9.4,
+        "unaligned": 9.2
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0.1,
+        "unaligned": 0.9
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0.3,
+        "unaligned": 0.6
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0.7,
+        "unaligned": 0.7
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 1.2,
+        "unaligned": 1.4
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 2.5
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0.3,
+        "unaligned": 2.4
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 1,
+        "unaligned": 2.9
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 12.6,
+        "unaligned": 12.4
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 50.1,
+        "unaligned": 50
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 39.8,
+        "unaligned": 53.7
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 3.5,
+        "unaligned": 6.6
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 9,
+        "unaligned": 3.2
+      },
+      {
+        "y0": 7000,
+        "y1": 7500,
+        "pct": 0.2,
+        "unaligned": 1.9
+      },
+      {
+        "y0": 7500,
+        "y1": 7510,
+        "pct": 0,
+        "unaligned": 0
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/en-us-how-to-wash-clothes-how-to-remove-stains-acne-cream-stains/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 75,
+    "totalShift": 118,
+    "pass": false
+  },
+  "reason": "offsets: 7 step(s), 118px total — −1px at y=987, +1px at y=1935, +1px at y=2541, +58px at y=5671, −11px at y=6416, −45px at y=6515, … 1 more (bound 75px)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/how-to-remove-stains/acne-cream-stains"
+  }
+}

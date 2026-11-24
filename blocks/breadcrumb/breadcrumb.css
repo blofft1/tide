@@ -1,0 +1,50 @@
+/* breadcrumb — live .breadcrumbs (19/24, ">" separators, bold links and current item) */
+.breadcrumb {
+  position: relative;
+  z-index: 1;
+  color: var(--breadcrumb-color, var(--tide-navy));
+}
+
+.breadcrumb.light {
+  --breadcrumb-color: #fff;
+}
+
+.breadcrumb ul,
+.breadcrumb ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.breadcrumb li,
+.breadcrumb .breadcrumb-trail > * {
+  display: inline;
+  margin: 0;
+  color: var(--breadcrumb-color, var(--tide-navy));
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+
+.breadcrumb li::after,
+.breadcrumb .breadcrumb-trail > *::after {
+  content: ">";
+  margin: 0 4px;
+}
+
+.breadcrumb li:last-child,
+.breadcrumb .breadcrumb-trail > *:last-child {
+  font-weight: 700;
+}
+
+.breadcrumb li:last-child::after,
+.breadcrumb .breadcrumb-trail > *:last-child::after {
+  content: none;
+}
+
+.breadcrumb a:any-link {
+  color: var(--breadcrumb-color, var(--tide-navy));
+  font-weight: 700;
+  text-decoration: none;
+}

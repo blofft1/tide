@@ -1,0 +1,88 @@
+{
+ "source": "file:///workspace/5db7d055/stardust/.work/archetype-click2cart/proto-sectioned.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "shopper-choice",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Grab Tide from your favorite store!"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "WALMART"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "INSTACART"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "45 ct"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Tide OXI Boost Power PODS 45 ct"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Add quantity to Tide OXI Boost Power PODS 45 ct"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Subtract quantity to Tide OXI Boost Power PODS 45 ct"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "AMAZON"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "TARGET"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Open zip code change dialog"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "95141"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Privacy Policy",
+     "href": "https://www.smartcommerce.com/privacy-policy"
+    }
+   ],
+   "imgCount": 6,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.retailer",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

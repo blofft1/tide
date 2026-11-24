@@ -1,0 +1,207 @@
+{
+  "a": "stardust/replica/gates/en-us-shop-type-liquid-360/live.png",
+  "b": "stardust/replica/gates/en-us-shop-type-liquid-360/build.png",
+  "compared": {
+    "width": 360,
+    "height": 6401,
+    "mode": "overlap"
+  },
+  "heightDelta": 1,
+  "differingPixels": 77564,
+  "pct": 3.37,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/en-us-shop-type-liquid-360/diff-iter1.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 2.1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 4
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 4.4
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 3.4
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 3.3
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 2.3
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 3.2
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 2.5
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 2.6
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 6.3
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 3.5
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 3.5
+    },
+    {
+      "y0": 6000,
+      "y1": 6401,
+      "pct": 2.4
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 0.1,
+    "differingPixels": 2378,
+    "compared": {
+      "width": 360,
+      "height": 6403,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 119,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 4446,
+        "shift": -1,
+        "cumulative": -2
+      },
+      {
+        "y": 5671,
+        "shift": 1,
+        "cumulative": -1
+      }
+    ],
+    "maxOffset": 2,
+    "totalShift": 3,
+    "insertedRows": 1,
+    "deletedRows": 2,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.3,
+        "unaligned": 2.1
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0,
+        "unaligned": 4
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 4.4
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 3.4
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 3.3
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 2.3
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 3.2
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0,
+        "unaligned": 2.5
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0.5,
+        "unaligned": 2.6
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0.3,
+        "unaligned": 6.3
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 0,
+        "unaligned": 3.5
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 0.2,
+        "unaligned": 3.5
+      },
+      {
+        "y0": 6000,
+        "y1": 6402,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/en-us-shop-type-liquid-360/diff-iter1-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 8,
+    "totalShift": 3,
+    "pass": true
+  },
+  "reason": null
+}

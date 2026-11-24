@@ -1,0 +1,814 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-24T09:23:21.159Z",
+  "tol": 4,
+  "n": 3,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://tide.com/en-us/our-commitment/americas-number-one-detergent",
+  "at": "2026-11-24T06:34:25.681Z",
+  "docH": 2943
+ },
+ "eds": {
+  "url": "https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/americas-number-one-detergent",
+  "at": "2026-11-24T09:23:21.014Z",
+  "docH": 2943
+ },
+ "results": [
+  {
+   "sel": ".our-commitment-small-articles .article-preview=.learn-more-card-grid.three-up .lmc-card",
+   "family": null,
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.row.justify-content-start > div.col-lg-4.col-12 > div.article-preview"
+     },
+     "eds": {
+      "path": "div.lmc-grid > div.lmc-col > div.lmc-card.lmc-plain"
+     },
+     "rows": [
+      {
+       "key": "link:a#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 311
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 311,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 311
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 311,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:tide original’s biggest upgrade image",
+       "role": "image",
+       "text": "tide original’s biggest upgrade image",
+       "edsText": "tide original’s biggest upgrade image",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 311
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 311,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "box:div.article-preview-content#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 261,
+        "w": 300,
+        "h": 406
+       },
+       "eds": {
+        "x": 30,
+        "y": 261,
+        "w": 300,
+        "h": 406,
+        "sel": "div.lmc-content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:introducing tide original’s boosted liqu",
+       "role": "text",
+       "text": "introducing tide original’s boosted liquid formula",
+       "edsText": "introducing tide original’s boosted liquid formula",
+       "byPosition": false,
+       "origin": {
+        "x": 55,
+        "y": 291,
+        "w": 250,
+        "h": 90
+       },
+       "eds": {
+        "x": 55,
+        "y": 291,
+        "w": 250,
+        "h": 90,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      },
+      {
+       "key": "text:tide, america’s #1 trusted laundry deter",
+       "role": "text",
+       "text": "tide, america’s #1 trusted laundry detergent brand, continue",
+       "edsText": "tide, america’s #1 trusted laundry detergent brand, continue",
+       "byPosition": false,
+       "origin": {
+        "x": 55,
+        "y": 386,
+        "w": 250,
+        "h": 216
+       },
+       "eds": {
+        "x": 55,
+        "y": 386,
+        "w": 250,
+        "h": 216,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:read more",
+       "role": "link",
+       "text": "read more",
+       "edsText": "read more",
+       "byPosition": false,
+       "origin": {
+        "x": 55,
+        "y": 612,
+        "w": 250,
+        "h": 25
+       },
+       "eds": {
+        "x": 55,
+        "y": 612,
+        "w": 250,
+        "h": 25,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/25/700",
+        "eds": "18/25/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 150,
+       "y": 1330,
+       "w": 360,
+       "h": 667
+      },
+      "eds": {
+       "x": 150,
+       "y": 1331,
+       "w": 360,
+       "h": 667
+      },
+      "dx": 0,
+      "dy": 1,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 7,
+      "within": 7,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.row.justify-content-start > div.col-lg-4.col-12 > div.article-preview"
+     },
+     "eds": {
+      "path": "div.lmc-grid > div.lmc-col > div.lmc-card.lmc-plain"
+     },
+     "rows": [
+      {
+       "key": "link:a#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 311
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 311,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 311
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 311,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:tide liquid and pods products in front o",
+       "role": "image",
+       "text": "tide liquid and pods products in front of a washer",
+       "edsText": "tide liquid and pods products in front of a washer",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 311
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 311,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "box:div.article-preview-content#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 261,
+        "w": 300,
+        "h": 286
+       },
+       "eds": {
+        "x": 30,
+        "y": 261,
+        "w": 300,
+        "h": 286,
+        "sel": "div.lmc-content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:the results are in: tide is america's #1",
+       "role": "text",
+       "text": "the results are in: tide is america's #1 detergent*",
+       "edsText": "the results are in: tide is america's #1 detergent*",
+       "byPosition": false,
+       "origin": {
+        "x": 55,
+        "y": 291,
+        "w": 250,
+        "h": 90
+       },
+       "eds": {
+        "x": 55,
+        "y": 291,
+        "w": 250,
+        "h": 90,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      },
+      {
+       "key": "text:the results are in. word of mouth is imp",
+       "role": "text",
+       "text": "the results are in. word of mouth is important when it comes",
+       "edsText": "the results are in. word of mouth is important when it comes",
+       "byPosition": false,
+       "origin": {
+        "x": 55,
+        "y": 386,
+        "w": 250,
+        "h": 96
+       },
+       "eds": {
+        "x": 55,
+        "y": 386,
+        "w": 250,
+        "h": 96,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:read more",
+       "role": "link",
+       "text": "read more",
+       "edsText": "read more",
+       "byPosition": false,
+       "origin": {
+        "x": 55,
+        "y": 492,
+        "w": 250,
+        "h": 25
+       },
+       "eds": {
+        "x": 55,
+        "y": 492,
+        "w": 250,
+        "h": 25,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/25/700",
+        "eds": "18/25/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 540,
+       "y": 1330,
+       "w": 360,
+       "h": 548
+      },
+      "eds": {
+       "x": 540,
+       "y": 1331,
+       "w": 360,
+       "h": 548
+      },
+      "dx": 0,
+      "dy": 1,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 7,
+      "within": 7,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.row.justify-content-start > div.col-lg-4.col-12 > div.article-preview"
+     },
+     "eds": {
+      "path": "div.lmc-grid > div.lmc-col > div.lmc-card.lmc-plain"
+     },
+     "rows": [
+      {
+       "key": "link:a#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 311
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 311,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 311
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 311,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:a person pouring tide liquid detergent i",
+       "role": "image",
+       "text": "a person pouring tide liquid detergent into a measurement cu",
+       "edsText": "a person pouring tide liquid detergent into a measurement cu",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 311
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 311,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "box:div.article-preview-content#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 261,
+        "w": 300,
+        "h": 388
+       },
+       "eds": {
+        "x": 30,
+        "y": 261,
+        "w": 300,
+        "h": 388,
+        "sel": "div.lmc-content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:tide laundry products satisfaction guara",
+       "role": "text",
+       "text": "tide laundry products satisfaction guaranteed",
+       "edsText": "tide laundry products satisfaction guaranteed",
+       "byPosition": false,
+       "origin": {
+        "x": 55,
+        "y": 291,
+        "w": 250,
+        "h": 120
+       },
+       "eds": {
+        "x": 55,
+        "y": 291,
+        "w": 250,
+        "h": 120,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/30/800",
+        "eds": "26/30/800"
+       }
+      },
+      {
+       "key": "text:we are committed to providing top-qualit",
+       "role": "text",
+       "text": "we are committed to providing top-quality products to our co",
+       "edsText": "we are committed to providing top-quality products to our co",
+       "byPosition": false,
+       "origin": {
+        "x": 55,
+        "y": 416,
+        "w": 250,
+        "h": 168
+       },
+       "eds": {
+        "x": 55,
+        "y": 416,
+        "w": 250,
+        "h": 168,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:read more",
+       "role": "link",
+       "text": "read more",
+       "edsText": "read more",
+       "byPosition": false,
+       "origin": {
+        "x": 55,
+        "y": 594,
+        "w": 250,
+        "h": 25
+       },
+       "eds": {
+        "x": 55,
+        "y": 594,
+        "w": 250,
+        "h": 25,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/25/700",
+        "eds": "18/25/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 930,
+       "y": 1330,
+       "w": 360,
+       "h": 650
+      },
+      "eds": {
+       "x": 930,
+       "y": 1331,
+       "w": 360,
+       "h": 650
+      },
+      "dx": 0,
+      "dy": 1,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 7,
+      "within": 7,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 3,
+  "within": 21,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

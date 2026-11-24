@@ -1,0 +1,153 @@
+/* sitemap — live .sitemap-page (container, padding 30/70 → 60/240 >= 992), bootstrap row of
+   col-12 col-sm-6 col-lg-2|3 columns; .sitemap-section h2/h3/links metrics from the capture. */
+.sitemap {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px 0 70px;
+  color: #1b3392;
+}
+
+.sitemap > div {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 0 15px;
+}
+
+.sitemap .sitemap-title h1 {
+  margin: 0 0 30px;
+  color: #fb4c06;
+  font-family: Tide, sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0;
+}
+
+.sitemap h2 {
+  margin: 0 0 20px;
+  font-family: Tide, sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+
+.sitemap h2 a {
+  color: #1b3392;
+  text-decoration: none;
+}
+
+.sitemap h3 {
+  margin: 0 0 20px 15px;
+  font-family: Tide, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+
+.sitemap ul {
+  margin: 0;
+  padding: 0 0 0 15px;
+  list-style: none;
+}
+
+.sitemap h3 + ul {
+  padding-left: 35px;
+}
+
+.sitemap li {
+  margin-bottom: 15px;
+}
+
+.sitemap li a {
+  color: #1b3392;
+  font-family: Tide, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+
+.sitemap h3 + ul li a {
+  font-weight: 400;
+}
+
+.sitemap .sitemap-extra p {
+  margin: 0;
+}
+
+.sitemap .sitemap-extra a {
+  display: block;
+  margin-bottom: 25px;
+  color: #1b3392;
+  font-family: Tide, sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+
+.sitemap :is(h2, li) a:hover {
+  text-decoration: underline;
+}
+
+@media (width >= 576px) {
+  .sitemap {
+    max-width: 540px;
+  }
+
+  .sitemap > .sitemap-column {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (width >= 768px) {
+  .sitemap {
+    max-width: 720px;
+  }
+}
+
+@media (width >= 992px) {
+  .sitemap {
+    max-width: 960px;
+    padding: 60px 0 240px;
+  }
+
+  .sitemap .sitemap-title h1 {
+    margin-bottom: 60px;
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  .sitemap > .sitemap-column {
+    flex: 0 0 16.6667%;
+    max-width: 16.6667%;
+  }
+
+  .sitemap > .sitemap-column.sitemap-wide {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  .sitemap .sitemap-extra {
+    display: flex;
+    gap: 20px;
+  }
+
+  .sitemap .sitemap-extra a {
+    margin-bottom: 7px;
+    font-size: 14px;
+  }
+}
+
+@media (width >= 1200px) {
+  .sitemap {
+    max-width: var(--container);
+  }
+}

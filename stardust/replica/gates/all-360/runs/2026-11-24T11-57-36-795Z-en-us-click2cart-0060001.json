@@ -1,0 +1,142 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-24T11:57:36.795Z",
+    "stage": "published",
+    "breakpoint": 360,
+    "threshold": 10,
+    "offsetMax": "the larger of 8px and 1% of the origin height; roster tolerance: 5% of the origin height with no step over 200px",
+    "originReference": "frozen",
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "pixel criterion (aligned % ≤ 10 AND total offset ≤ the bound; alignment not used: unaligned % ≤ 10) AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://tide.com",
+    "eds": "https://main--5db7d055--aemcoder.aem.page",
+    "edsHostOverride": null,
+    "only": [
+      "en-us-click2cart-0060001"
+    ]
+  },
+  "totals": {
+    "pages": 1,
+    "pass": 0,
+    "pixelOnlyPass": 0,
+    "overridePass": 1,
+    "fail": 0,
+    "error": 1,
+    "probeErrors": 0,
+    "failPixel": 0,
+    "failHeight": 0,
+    "failClip": 0,
+    "failContent": 0,
+    "failUnits": 0,
+    "unitsNotDeclared": 0,
+    "unitsRecordedNotDeclared": 0,
+    "fontsNotLoaded": 0,
+    "fontsDeadOnSource": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "alignedOnlyPass": 0,
+    "failOffsets": 0,
+    "offsetsWithinTolerance": 0,
+    "referenceUnstable": 0,
+    "passWithOverrides": 1
+  },
+  "rows": [
+    {
+      "slug": "en-us-click2cart-0060001",
+      "path": "/en-us/click2cart/0060001",
+      "template": "en-us-click2cart-0060001",
+      "origin": "none",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": null,
+      "textPct": null,
+      "heightDelta": null,
+      "originH": null,
+      "edsH": null,
+      "alignedPct": null,
+      "alignedUsed": false,
+      "totalShift": null,
+      "steps": [],
+      "offsetBound": null,
+      "offsetTolerance": null,
+      "offsetJudge": null,
+      "offsetsWithinTolerance": false,
+      "pixelPass": false,
+      "heightPass": false,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "failing": [
+        "capture"
+      ],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "pixel error: missing capture"
+      ],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 0,
+        "variable": []
+      },
+      "unitsDeclared": 1,
+      "unitsRecorded": null,
+      "units": {
+        "units": 4,
+        "within": 4,
+        "off": 0,
+        "hidden": 0,
+        "missing": 6,
+        "errors": 0,
+        "requiredOff": 6
+      },
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": {
+        "verdict": "PASS (capture, pixel, height waived — invalid 360 reference)",
+        "reason": "Archetype of the click2cart template; same instrument artefact as its seven siblings: the live click2cart page makes <body> the scroller and the stitch-shot priming capture fails at 360 (not a bot challenge), so no 360 origin can be frozen (progress.json archetype-click2cart: 360 residual, body-scroller stall). Substitute evidence re-measured at C-final: content-diff tide.com vs preview --main #shopper-choice-container --width 360 → main root 12/12 text nodes, 6/6 images, 0 red / 0 yellow (stardust/replica/gates/all-360/evidence/cd-0060001-360.txt; footer chrome findings are the site-wide foundation chrome request, not this template); clip 0 and content MISSING 0 / HIDDEN 0 measured by this gate; 1440 row PASS.",
+        "waives": [
+          "capture",
+          "pixel",
+          "height"
+        ]
+      },
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": null,
+      "noiseFloor": null,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [],
+      "error": "missing capture"
+    }
+  ]
+}

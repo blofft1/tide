@@ -1,0 +1,409 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-23T23:39:14.803Z",
+  "tol": 4,
+  "n": 3,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://tide.com/en-us/our-commitment/sustainability/compaction",
+  "at": "2026-11-23T23:03:35.806Z",
+  "docH": 4805
+ },
+ "eds": {
+  "url": "http://localhost:8791/en-us-our-commitment-sustainability-compaction-proposed.html",
+  "at": "2026-11-23T23:39:14.499Z",
+  "docH": 4805
+ },
+ "results": [
+  {
+   "sel": ".anchor-navigation li=.anchor-nav li",
+   "family": null,
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "nav > ul > li"
+     },
+     "eds": {
+      "path": "nav > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:how does tide do this?",
+       "role": "button",
+       "text": "how does tide do this?",
+       "edsText": "how does tide do this?",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 163,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 163,
+        "h": 46,
+        "sel": "span",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/700",
+        "eds": "14/16/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 15,
+       "y": 61,
+       "w": 163,
+       "h": 46
+      },
+      "eds": {
+       "x": 15,
+       "y": 61,
+       "w": 163,
+       "h": 46
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "nav > ul > li"
+     },
+     "eds": {
+      "path": "nav > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:why does tide do this?",
+       "role": "button",
+       "text": "why does tide do this?",
+       "edsText": "why does tide do this?",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 164,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 164,
+        "h": 46,
+        "sel": "span",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/700",
+        "eds": "14/16/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 218,
+       "y": 61,
+       "w": 164,
+       "h": 46
+      },
+      "eds": {
+       "x": 218,
+       "y": 61,
+       "w": 164,
+       "h": 46
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".list-checkmarks-secondary li=.checklist li",
+   "family": null,
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.richtext-container.list-checkmarks-secondary > ul > li"
+     },
+     "eds": {
+      "path": "div.rt.checklist > ul > li"
+     },
+     "rows": [
+      {
+       "key": "text:concentrated detergents can deliver the ",
+       "role": "text",
+       "text": "concentrated detergents can deliver the same number of loads",
+       "edsText": "concentrated detergents can deliver the same number of loads",
+       "byPosition": false,
+       "origin": {
+        "x": 85,
+        "y": 0,
+        "w": 245,
+        "h": 80
+       },
+       "eds": {
+        "x": 85,
+        "y": 0,
+        "w": 245,
+        "h": 80,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/400",
+        "eds": "16/20/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 15,
+       "y": 1729,
+       "w": 330,
+       "h": 80
+      },
+      "eds": {
+       "x": 15,
+       "y": 1729,
+       "w": 330,
+       "h": 80
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.richtext-container.list-checkmarks-secondary > ul > li"
+     },
+     "eds": {
+      "path": "div.rt.checklist > ul > li"
+     },
+     "rows": [
+      {
+       "key": "text:smaller packages result in less packagin",
+       "role": "text",
+       "text": "smaller packages result in less packaging (both primary and ",
+       "edsText": "smaller packages result in less packaging (both primary and ",
+       "byPosition": false,
+       "origin": {
+        "x": 85,
+        "y": 0,
+        "w": 245,
+        "h": 65
+       },
+       "eds": {
+        "x": 85,
+        "y": 0,
+        "w": 245,
+        "h": 65,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/400",
+        "eds": "16/20/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 15,
+       "y": 1834,
+       "w": 330,
+       "h": 65
+      },
+      "eds": {
+       "x": 15,
+       "y": 1834,
+       "w": 330,
+       "h": 65
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.richtext-container.list-checkmarks-secondary > ul > li"
+     },
+     "eds": {
+      "path": "div.rt.checklist > ul > li"
+     },
+     "rows": [
+      {
+       "key": "text:lighter packages help reduce emissions f",
+       "role": "text",
+       "text": "lighter packages help reduce emissions from delivery vehicle",
+       "edsText": "lighter packages help reduce emissions from delivery vehicle",
+       "byPosition": false,
+       "origin": {
+        "x": 85,
+        "y": 0,
+        "w": 245,
+        "h": 65
+       },
+       "eds": {
+        "x": 85,
+        "y": 0,
+        "w": 245,
+        "h": 65,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/400",
+        "eds": "16/20/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 15,
+       "y": 1924,
+       "w": 330,
+       "h": 65
+      },
+      "eds": {
+       "x": 15,
+       "y": 1924,
+       "w": 330,
+       "h": 65
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 5,
+  "within": 5,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

@@ -1,0 +1,168 @@
+{
+  "a": "stardust/replica/gates/all-360/en-us-shop-special-needs-odor-removal/origin.png",
+  "b": "stardust/replica/gates/all-360/en-us-shop-special-needs-odor-removal/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 4843,
+    "mode": "overlap"
+  },
+  "heightDelta": 5,
+  "differingPixels": 34903,
+  "pct": 2,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/en-us-shop-special-needs-odor-removal/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 5.67,
+  "textBoxes": 127,
+  "textPixels": 363927,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.6
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 4.7
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 4.6
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 6.7
+    },
+    {
+      "y0": 4500,
+      "y1": 4843,
+      "pct": 4.1
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 0.17,
+    "differingPixels": 3010,
+    "compared": {
+      "width": 360,
+      "height": 4848,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 3178,
+        "shift": -5,
+        "cumulative": -5
+      }
+    ],
+    "maxOffset": 5,
+    "totalShift": 5,
+    "insertedRows": 0,
+    "deletedRows": 5,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.6,
+        "unaligned": 0.6
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 1,
+        "unaligned": 4.7
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0,
+        "unaligned": 4.6
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0,
+        "unaligned": 6.7
+      },
+      {
+        "y0": 4500,
+        "y1": 4848,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/en-us-shop-special-needs-odor-removal/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 48,
+    "totalShift": 5,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/odor-removal"
+  }
+}

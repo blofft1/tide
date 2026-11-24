@@ -1,0 +1,281 @@
+{
+ "_provenance": {
+  "writtenBy": "skills/replica/scripts/source-spec.mjs",
+  "writtenAt": "2026-11-23T22:28:20.070Z",
+  "url": "https://tide.com/en-us/our-commitment",
+  "width": 360,
+  "main": "main",
+  "locale": "en-US"
+ },
+ "page": {
+  "url": "https://tide.com/en-us/our-commitment",
+  "width": 360,
+  "viewport": 360,
+  "docHeight": 7441,
+  "scrollWidth": 360,
+  "root": "main",
+  "rootFallback": false,
+  "records": [
+   "scroll",
+   "shape"
+  ],
+  "rootWrapsChrome": false,
+  "tier": "chrome"
+ },
+ "tokens": {
+  "fonts": [
+   {
+    "stack": "Tide, sans-serif",
+    "n": 57
+   }
+  ],
+  "loadedFaces": [
+   "Tide 400 normal",
+   "Tide 700 normal",
+   "Tide 800 normal"
+  ],
+  "textStyles": [
+   {
+    "key": "16/32 400 Tide",
+    "fontSize": 16,
+    "lineHeight": 32,
+    "fontWeight": "400",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 20,
+    "roles": {
+     "link": 18,
+     "div": 2
+    },
+    "sample": "How to Remove Stains"
+   },
+   {
+    "key": "22/26 800 Tide",
+    "fontSize": 22,
+    "lineHeight": 26,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 12,
+    "roles": {
+     "link": 9,
+     "p": 3
+    },
+    "sample": "Turn to Cold with Tide"
+   },
+   {
+    "key": "20/22 700 Tide",
+    "fontSize": 20,
+    "lineHeight": 22,
+    "fontWeight": "700",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 9,
+    "roles": {
+     "link": 9
+    },
+    "sample": "Learn More"
+   },
+   {
+    "key": "16/20 400 Tide",
+    "fontSize": 16,
+    "lineHeight": 20,
+    "fontWeight": "400",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 9,
+    "roles": {
+     "p": 9
+    },
+    "sample": "Washing in cold is not only beneficial for you and your wallet, but for the env…"
+   },
+   {
+    "key": "19/24 800 Tide",
+    "fontSize": 19,
+    "lineHeight": 24,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 3,
+    "roles": {
+     "button": 3
+    },
+    "sample": "By Type"
+   },
+   {
+    "key": "40/48 400 Tide",
+    "fontSize": 40,
+    "lineHeight": 48,
+    "fontWeight": "400",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "h1": 1
+    },
+    "sample": "Our Commitment"
+   },
+   {
+    "key": "20/26 400 Tide",
+    "fontSize": 20,
+    "lineHeight": 26,
+    "fontWeight": "400",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "p": 1
+    },
+    "sample": "At Tide, we are committed to holding ourselves to the highest standards of clea…"
+   },
+   {
+    "key": "19/19 800 Tide",
+    "fontSize": 19,
+    "lineHeight": 19,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "span": 1
+    },
+    "sample": "Ways to connect with us:"
+   },
+   {
+    "key": "19/26.6 800 Tide",
+    "fontSize": 19,
+    "lineHeight": 26.6,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "span": 1
+    },
+    "sample": "Related:"
+   }
+  ],
+  "colours": [
+   {
+    "color": "rgb(19, 37, 156)",
+    "n": 20
+   },
+   {
+    "color": "rgb(251, 76, 6)",
+    "n": 16
+   },
+   {
+    "color": "rgb(255, 255, 255)",
+    "n": 11
+   },
+   {
+    "color": "rgb(27, 51, 146)",
+    "n": 10
+   }
+  ],
+  "container": {
+   "left": 15,
+   "right": 30,
+   "content": 315,
+   "leftCommon": {
+    "x": 40,
+    "n": 28
+   }
+  }
+ },
+ "truncated": {
+  "text": 0,
+  "image": 0
+ },
+ "sections": [
+  {"i":0,"region":"header","y":0,"h":61,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"header#site-header","firstText":""},
+  {"i":1,"region":"main","y":61,"h":918,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.row.no-gutters","firstText":"Our Commitment"},
+  {"i":2,"region":"main","y":1014,"h":384,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.row.no-gutters","firstText":"Turn to Cold with Tide"},
+  {"i":3,"region":"main","y":1433,"h":4073,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.row.no-gutters","firstText":"Less Work, Better Clean*"},
+  {"i":4,"region":"main","y":5541,"h":186,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.row.no-gutters","firstText":""},
+  {"i":5,"region":"footer","y":5781,"h":1660,"background":"none","paddingTop":0,"paddingBottom":50,"selectorHint":"footer#site-footer.site-footer","firstText":"Ways to connect with us:"}
+ ],
+ "nodes": [
+  {"section":0,"region":"header","kind":"image","tag":"img","role":"link","text":"Tide logo","x":157,"y":7,"w":47,"h":47,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[150,150],"src":"https://tide.com/images/brand_main_logo.svg","href":"/en-us","scroll":"fixed 0"},
+  {"section":0,"region":"header","kind":"image","tag":"svg","role":"button","text":"","x":310,"y":15,"w":30,"h":30,"fit":"fill","shape":{"pos":"50% 50%"},"scroll":"fixed 0"},
+  {"section":1,"region":"main","kind":"image","tag":"picture","role":null,"text":"A person pouring Tide liquid laundry detergent into a measurement cup","x":0,"y":61,"w":1920,"h":653,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[1920,653],"src":"https://images.ctfassets.net/ajjw8wywicb3/6Kyv0IscepwSUe4AcnXdYk/3167cc5bbca9ba07033eccc5fb323e7b/OUR_COMMITMENT_Header_1920x653.jpg?fm=webp"},
+  {"section":1,"region":"main","kind":"text","tag":"h1","role":"h1","text":"Our Commitment","x":15,"y":534,"w":315,"h":100,"fontFamily":"Tide","fontSize":40,"lineHeight":48,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":2},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"At Tide, we are committed to holding ourselves to the highest standards of clea…","x":40,"y":689,"w":280,"h":260,"fontFamily":"Tide","fontSize":20,"lineHeight":26,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":10},
+  {"section":2,"region":"main","kind":"image","tag":"picture","role":null,"text":"A hand dialing the water temperature to the coldest setting","x":0,"y":1044,"w":360,"h":196,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[570,310],"src":"https://images.ctfassets.net/ajjw8wywicb3/3Vd3GQItFJSYf38P57bpNu/a4262f0de6f110f2bf63254f2663cad1/Tide_turn-to-cold_card_570x310.jpg?fm=webp"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Turn to Cold with Tide","x":40,"y":1215,"w":280,"h":26,"fontFamily":"Tide","fontSize":22,"lineHeight":26,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1,"href":"/en-us/our-commitment/turn-to-cold"},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Washing in cold is not only beneficial for you and your wallet, but for the env…","x":40,"y":1256,"w":280,"h":60,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":3},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Learn More","x":40,"y":1331,"w":172,"h":42,"fontFamily":"Tide","fontSize":20,"lineHeight":22,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1,"href":"/en-us/our-commitment/turn-to-cold"},
+  {"section":3,"region":"main","kind":"image","tag":"picture","role":null,"text":"Tide boosted","x":0,"y":1463,"w":360,"h":311,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[370,320],"src":"https://images.ctfassets.net/ajjw8wywicb3/4vgeK8G4S9jYE7CcN7Zybx/8ecbf597783423e380bc139c43c80b8f/Tide_TheRock_20250902_370x320.jpg?fm=webp"},
+  {"section":3,"region":"main","kind":"control","tag":"a","role":"link","text":"Less Work, Better Clean*","x":40,"y":1749,"w":280,"h":26,"fontFamily":"Tide","fontSize":22,"lineHeight":26,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1,"href":"/en-us/our-commitment/tide-boosted"},
+  {"section":3,"region":"main","kind":"text","tag":"p","role":null,"text":"*vs. pretreating and washing with Tide Simply","x":40,"y":1790,"w":280,"h":40,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":2},
+  {"section":3,"region":"main","kind":"control","tag":"a","role":"link","text":"Learn More","x":40,"y":1845,"w":172,"h":42,"fontFamily":"Tide","fontSize":20,"lineHeight":22,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1,"href":"/en-us/our-commitment/tide-boosted"},
+  {"section":3,"region":"main","kind":"image","tag":"picture","role":null,"text":"Tide evo","x":0,"y":1942,"w":360,"h":311,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[370,320],"src":"https://images.ctfassets.net/ajjw8wywicb3/IL9tuj8AQcGbIqP2pakfL/3c4dc6f006b2dacb452e9a80bdfe18a7/Tide_BlackWidow_LP_20240308_370x320_blue.png?fm=webp"},
+  {"section":3,"region":"main","kind":"control","tag":"a","role":"link","text":"Tide evo","x":40,"y":2228,"w":280,"h":26,"fontFamily":"Tide","fontSize":22,"lineHeight":26,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1,"href":"/en-us/our-commitment/tide-evo"},
+  {"section":3,"region":"main","kind":"text","tag":"p","role":null,"text":"Meet Tide evo. Detergent entirely made of clean.","x":40,"y":2269,"w":280,"h":40,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":2},
+  {"section":3,"region":"main","kind":"control","tag":"a","role":"link","text":"Learn More","x":40,"y":2324,"w":172,"h":42,"fontFamily":"Tide","fontSize":20,"lineHeight":22,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1,"href":"/en-us/our-commitment/tide-evo"},
+  {"section":3,"region":"main","kind":"image","tag":"picture","role":null,"text":"A box of Tide PODS capsules in front of an old, dirty, and see-through bottle o…","x":0,"y":2421,"w":360,"h":311,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[370,320],"src":"https://images.ctfassets.net/ajjw8wywicb3/4Q7vBJBsz6aHyGYpBTRIXQ/413867dd0b948aa5bc3b5f1646394aa9/Tide_Aquamarine_DT_370x320.jpg?fm=webp"},
+  {"section":3,"region":"main","kind":"control","tag":"a","role":"link","text":"Don't pay for water, pay for clean","x":40,"y":2708,"w":280,"h":52,"fontFamily":"Tide","fontSize":22,"lineHeight":26,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":2,"href":"https://www.pggoodeveryday.com/signup/tide-pods-savings/"},
+  {"section":3,"region":"main","kind":"text","tag":"p","role":null,"text":"Tide PODS® are formulated with 88% concentrated ingredients to powerfully remov…","x":40,"y":2775,"w":280,"h":60,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":3},
+  {"section":3,"region":"main","kind":"control","tag":"a","role":"link","text":"Learn More","x":40,"y":2850,"w":172,"h":42,"fontFamily":"Tide","fontSize":20,"lineHeight":22,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.pggoodeveryday.com/signup/tide-pods-savings/"},
+  {"section":3,"region":"main","kind":"image","tag":"picture","role":null,"text":"","x":0,"y":2947,"w":360,"h":311,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[370,320],"src":"https://images.ctfassets.net/ajjw8wywicb3/34qePGLOhDGjpyl6PsePbr/196e12185e7d815983cd58a4ca703795/Tide_Nasa_370x320.jpg?fm=webp"},
+  {"section":3,"region":"main","kind":"control","tag":"a","role":"link","text":"Tide in Space","x":40,"y":3233,"w":280,"h":26,"fontFamily":"Tide","fontSize":22,"lineHeight":26,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1,"href":"/en-us/our-commitment/tide-in-space"},
+  {"section":3,"region":"main","kind":"text","tag":"p","role":null,"text":"A limited-resource study to bring clean innovations back to Earth.","x":40,"y":3274,"w":280,"h":40,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":2},
+  {"section":3,"region":"main","kind":"control","tag":"a","role":"link","text":"Learn More","x":40,"y":3329,"w":172,"h":42,"fontFamily":"Tide","fontSize":20,"lineHeight":22,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1,"href":"/en-us/our-commitment/tide-in-space"},
+  {"section":3,"region":"main","kind":"image","tag":"picture","role":null,"text":"America’s #1 Detergent","x":0,"y":3426,"w":360,"h":311,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[370,320],"src":"https://images.ctfassets.net/ajjw8wywicb3/3YSGcUdat4rYE5oxlLffk3/2506693c44bb479b2d42fe3cb370a3f3/Tide_article_preview_370x320_Tide_Americas_first_detergent_1.jpg?fm=webp"},
+  {"section":3,"region":"main","kind":"control","tag":"a","role":"link","text":"America’s #1 Detergent","x":40,"y":3713,"w":280,"h":26,"fontFamily":"Tide","fontSize":22,"lineHeight":26,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1,"href":"/en-us/our-commitment/americas-number-one-detergent"},
+  {"section":3,"region":"main","kind":"text","tag":"p","role":null,"text":"The results are in. Word of mouth is important when it comes to laundry reviews…","x":40,"y":3754,"w":280,"h":80,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":4},
+  {"section":3,"region":"main","kind":"control","tag":"a","role":"link","text":"Learn More","x":40,"y":3849,"w":172,"h":42,"fontFamily":"Tide","fontSize":20,"lineHeight":22,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1,"href":"/en-us/our-commitment/americas-number-one-detergent"},
+  {"section":3,"region":"main","kind":"image","tag":"picture","role":null,"text":"Loads of Hope","x":0,"y":3946,"w":360,"h":311,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[370,320],"src":"https://images.ctfassets.net/ajjw8wywicb3/8dUyy807geG37RvIumtjL/18eaec8dc7238f8a9cc6eb298f9ccbfc/Tide_LoH-hero_370x320.jpg?fm=webp"},
+  {"section":3,"region":"main","kind":"control","tag":"a","role":"link","text":"Loads of hope","x":40,"y":4232,"w":280,"h":26,"fontFamily":"Tide","fontSize":22,"lineHeight":26,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1,"href":"/en-us/our-commitment/loads-of-hope"},
+  {"section":3,"region":"main","kind":"text","tag":"p","role":null,"text":"Life after disasters — hurricanes, floods, tornadoes, wildfires — can feel like…","x":40,"y":4273,"w":280,"h":100,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":5},
+  {"section":3,"region":"main","kind":"control","tag":"a","role":"link","text":"Learn More","x":40,"y":4388,"w":172,"h":42,"fontFamily":"Tide","fontSize":20,"lineHeight":22,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1,"href":"/en-us/our-commitment/loads-of-hope"},
+  {"section":3,"region":"main","kind":"image","tag":"picture","role":null,"text":"A person holding a Tide liquid detergent product in front of a washer","x":0,"y":4485,"w":360,"h":311,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[370,320],"src":"https://images.ctfassets.net/ajjw8wywicb3/7nsqFhf7l2CbG0sepIjJYI/84f85e6777fc03833a01e5d272f5d1e8/Final_article_preview_TideLiquidBottle_In_A003_C066_00-370x320.jpg?fm=webp"},
+  {"section":3,"region":"main","kind":"control","tag":"a","role":"link","text":"All About Tide Ingredients","x":40,"y":4771,"w":280,"h":52,"fontFamily":"Tide","fontSize":22,"lineHeight":26,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":2,"href":"/en-us/our-commitment/ingredients-and-safety"},
+  {"section":3,"region":"main","kind":"text","tag":"p","role":null,"text":"You have many reasons to be interested in what ingredients are – and are not – …","x":40,"y":4838,"w":280,"h":80,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":4},
+  {"section":3,"region":"main","kind":"control","tag":"a","role":"link","text":"Learn More","x":40,"y":4933,"w":172,"h":42,"fontFamily":"Tide","fontSize":20,"lineHeight":22,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1,"href":"/en-us/our-commitment/ingredients-and-safety"},
+  {"section":3,"region":"main","kind":"image","tag":"picture","role":null,"text":"Introducing Tide Cleaners!","x":0,"y":5030,"w":360,"h":311,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[370,320],"src":"https://images.ctfassets.net/ajjw8wywicb3/4vXs8gvTtSjeMNC9pegfiy/3c4589ba907a52302bd8929165321a8c/Tide_Cleaners_preview_370x320.jpg?fm=webp"},
+  {"section":3,"region":"main","kind":"control","tag":"a","role":"link","text":"Introducing Tide Cleaners!","x":40,"y":5317,"w":280,"h":52,"fontFamily":"Tide","fontSize":22,"lineHeight":26,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":2,"href":"/en-us/our-commitment/tide-cleaners-laundry-service"},
+  {"section":3,"region":"main","kind":"text","tag":"p","role":null,"text":"Laundry is something we all have to do, but most of us don’t enjoy it.","x":40,"y":5384,"w":280,"h":40,"fontFamily":"Tide","fontSize":16,"lineHeight":20,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":2},
+  {"section":3,"region":"main","kind":"control","tag":"a","role":"link","text":"Learn More","x":40,"y":5439,"w":172,"h":42,"fontFamily":"Tide","fontSize":20,"lineHeight":22,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1,"href":"/en-us/our-commitment/tide-cleaners-laundry-service"},
+  {"section":4,"region":"main","kind":"image","tag":"div","role":"button","text":"Play video","x":15,"y":5541,"w":330,"h":186,"bg":true,"fit":"cover","src":"https://i1.ytimg.com/vi/Roli4tLwRgk/maxresdefault.jpg"},
+  {"section":5,"region":"footer","kind":"text","tag":"span","role":null,"text":"Ways to connect with us:","x":15,"y":5801,"w":242,"h":19,"fontFamily":"Tide","fontSize":19,"lineHeight":19,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":5,"region":"footer","kind":"image","tag":"img","role":"link","text":"Facebook icon","x":15,"y":5840,"w":32,"h":32,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[32,32],"src":"https://tide.com/images/social_facebook.svg","href":"https://www.facebook.com/Tide?fref=ts"},
+  {"section":5,"region":"footer","kind":"image","tag":"img","role":"link","text":"Twitter icon","x":62,"y":5840,"w":32,"h":32,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[32,32],"src":"https://tide.com/images/social_twitter.svg","href":"https://twitter.com/tide"},
+  {"section":5,"region":"footer","kind":"image","tag":"img","role":"link","text":"Pinterest icon","x":109,"y":5840,"w":32,"h":32,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[32,32],"src":"https://tide.com/images/social_pinterest.svg","href":"https://www.pinterest.com/tide/"},
+  {"section":5,"region":"footer","kind":"image","tag":"img","role":"link","text":"YouTube icon","x":156,"y":5840,"w":32,"h":32,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[32,32],"src":"https://tide.com/images/social_youtube.svg","href":"https://www.youtube.com/channel/UCEPeWPjaF1CWCKXa3xTp7vw"},
+  {"section":5,"region":"footer","kind":"text","tag":"p","role":null,"text":"Shop Products","x":15,"y":5932,"w":330,"h":51,"fontFamily":"Tide","fontSize":22,"lineHeight":26,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1},
+  {"section":5,"region":"footer","kind":"control","tag":"div","role":"button","text":"By Type","x":15,"y":6025,"w":330,"h":24,"fontFamily":"Tide","fontSize":19,"lineHeight":24,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(251, 76, 6)","lines":1},
+  {"section":5,"region":"footer","kind":"image","tag":"svg","role":"button","text":"","x":310,"y":6033,"w":15,"h":8,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":5,"region":"footer","kind":"control","tag":"div","role":"button","text":"By Need","x":15,"y":6109,"w":330,"h":24,"fontFamily":"Tide","fontSize":19,"lineHeight":24,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(251, 76, 6)","lines":1},
+  {"section":5,"region":"footer","kind":"image","tag":"svg","role":"button","text":"","x":310,"y":6117,"w":15,"h":8,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":5,"region":"footer","kind":"control","tag":"div","role":"button","text":"Top Collection","x":15,"y":6193,"w":330,"h":24,"fontFamily":"Tide","fontSize":19,"lineHeight":24,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(251, 76, 6)","lines":1},
+  {"section":5,"region":"footer","kind":"image","tag":"svg","role":"button","text":"","x":310,"y":6201,"w":15,"h":8,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":5,"region":"footer","kind":"text","tag":"p","role":null,"text":"How to Wash Clothes","x":15,"y":6285,"w":330,"h":51,"fontFamily":"Tide","fontSize":22,"lineHeight":26,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"How to Remove Stains","x":15,"y":6353,"w":177,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"How to Do Laundry","x":15,"y":6385,"w":153,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-do-laundry"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Washing Different Fabrics and Colors","x":15,"y":6417,"w":289,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Washing Machine 101","x":15,"y":6449,"w":163,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/how-to-wash-clothes/washing-machine-101"},
+  {"section":5,"region":"footer","kind":"text","tag":"p","role":null,"text":"Help & Support","x":15,"y":6514,"w":330,"h":51,"fontFamily":"Tide","fontSize":22,"lineHeight":26,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Contact Us","x":15,"y":6582,"w":85,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/contact-us"},
+  {"section":5,"region":"footer","kind":"text","tag":"span","role":null,"text":"Related:","x":15,"y":6678,"w":81,"h":24,"fontFamily":"Tide","fontSize":19,"lineHeight":26.6,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"P&G Brands","x":15,"y":6711,"w":93,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"http://pg.com/en_US"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"MrClean","x":123,"y":6711,"w":64,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://www.mrclean.com/en-us"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Downy","x":202,"y":6711,"w":54,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"http://www.downy.com/en-us"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Bounce","x":271,"y":6711,"w":58,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"http://www.bouncefresh.com/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"P&G Everyday","x":15,"y":6743,"w":110,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"http://www.pgeveryday.com/tag/tide"},
+  {"section":5,"region":"footer","kind":"image","tag":"picture","role":"link","text":"Good Housekeeping icon","x":18,"y":6813,"w":82,"h":62,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[82,62],"src":"https://tide.com/images/footer_GoodHousekeeping.webp","href":"http://www.goodhousekeeping.com/product-reviews/history/welcome-gh-seal"},
+  {"section":5,"region":"footer","kind":"image","tag":"picture","role":"link","text":"BBB icon","x":130,"y":6813,"w":38,"h":62,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[38,62],"src":"https://tide.com/images/footer_BBB.webp","href":"https://www.bbb.org/cincinnati/business-reviews/detergent/the-procter-gamble-company-in-cincinnati-oh-3036"},
+  {"section":5,"region":"footer","kind":"image","tag":"picture","role":"link","text":"Junk Food icon","x":198,"y":6813,"w":58,"h":62,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[58,62],"src":"https://tide.com/images/footer_JunkFood.webp","href":"http://www.junkfoodclothing.com/"},
+  {"section":5,"region":"footer","kind":"image","tag":"picture","role":"link","text":"Tide Cleaners icon","x":286,"y":6813,"w":56,"h":62,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[56,62],"src":"https://tide.com/images/footer_TideCleaners.webp","href":"https://www.tidecleaners.com/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Accessibility Statement","x":15,"y":6932,"w":179,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://accessibility.pg.com/en-US"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Terms & Conditions","x":15,"y":6964,"w":150,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://termsandconditions.pg.com/en-us/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Tide Rewards Terms and Conditions","x":15,"y":6996,"w":279,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/rewards/loyalty/terms-and-conditions"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Careers","x":15,"y":7028,"w":60,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://www.pgcareers.com/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Privacy","x":90,"y":7028,"w":56,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://privacypolicy.pg.com/en-US/#statePrivacyNotice"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Consumer Health Data Privacy Policy","x":15,"y":7060,"w":287,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://privacypolicy.pg.com/CHD-en"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Your Privacy Choices","x":15,"y":7092,"w":187,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://preferencecenter.pg.com/"},
+  {"section":5,"region":"footer","kind":"text","tag":"div","role":null,"text":"NOTICE: We may sell your sensitive personal data.","x":15,"y":7117,"w":325,"h":64,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":2},
+  {"section":5,"region":"footer","kind":"text","tag":"div","role":null,"text":"© 2026 Procter & Gamble","x":15,"y":7277,"w":199,"h":32,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Sitemap","x":15,"y":7359,"w":64,"h":32,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/sitemap"}
+ ]
+}

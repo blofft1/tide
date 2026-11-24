@@ -1,0 +1,68 @@
+{
+  "writtenBy": "skills/replica/scripts/reference.mjs freeze",
+  "schema": 1,
+  "capturedAt": "2026-11-23T22:13:05.028Z",
+  "url": "https://tide.com/en-us/research/best-quality-detergent",
+  "width": 360,
+  "vh": 900,
+  "height": 20674,
+  "settle": true,
+  "chunks": 23,
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 3,
+    "late": 1
+  },
+  "timers": {
+    "hold": 2000,
+    "held": 12,
+    "intervals": 4,
+    "chains": 8,
+    "delays": [
+      2000,
+      3000,
+      4999.800000000745,
+      5000,
+      86400000
+    ]
+  },
+  "primed": true,
+  "prime": {
+    "height": 20674,
+    "pct": 0,
+    "heightDelta": 0
+  },
+  "captures": 2,
+  "heights": [
+    20674,
+    20674
+  ],
+  "noiseFloor": 0,
+  "heightSpread": 0,
+  "outside": 0,
+  "variable": [],
+  "variableShare": 0,
+  "maskArg": "",
+  "stable": true,
+  "reason": null,
+  "frozenAt": "2026-11-23T22:14:11.275Z",
+  "flags": {
+    "consent": null,
+    "dismiss": null,
+    "noDismiss": false,
+    "locale": null,
+    "vh": null,
+    "headed": false,
+    "holdTimers": 2000
+  },
+  "thresholds": {
+    "floorMax": 1,
+    "heightMax": 8,
+    "variableMax": 50,
+    "band": 20,
+    "bandMin": 0.5,
+    "pad": 8
+  }
+}

@@ -1,0 +1,603 @@
+{
+  "a": "stardust/replica/gates/all-360/en-us-research-pva-technical-review/origin.png",
+  "b": "stardust/replica/gates/all-360/en-us-research-pva-technical-review/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 19944,
+    "mode": "overlap"
+  },
+  "heightDelta": -295,
+  "differingPixels": 1133533,
+  "pct": 15.79,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-360/en-us-research-pva-technical-review/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 21.47,
+  "textBoxes": 814,
+  "textPixels": 4198193,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.6
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 15.3
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 15.1
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 14.6
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 14.7
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 13.2
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 15
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 15.5
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 16.3
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 17.6
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 16.6
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 15.9
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 15.9
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 15.1
+    },
+    {
+      "y0": 7000,
+      "y1": 7500,
+      "pct": 19.9
+    },
+    {
+      "y0": 7500,
+      "y1": 8000,
+      "pct": 13.6
+    },
+    {
+      "y0": 8000,
+      "y1": 8500,
+      "pct": 17.4
+    },
+    {
+      "y0": 8500,
+      "y1": 9000,
+      "pct": 14.9
+    },
+    {
+      "y0": 9000,
+      "y1": 9500,
+      "pct": 16.6
+    },
+    {
+      "y0": 9500,
+      "y1": 10000,
+      "pct": 18.5
+    },
+    {
+      "y0": 10000,
+      "y1": 10500,
+      "pct": 15.8
+    },
+    {
+      "y0": 10500,
+      "y1": 11000,
+      "pct": 15.1
+    },
+    {
+      "y0": 11000,
+      "y1": 11500,
+      "pct": 16.5
+    },
+    {
+      "y0": 11500,
+      "y1": 12000,
+      "pct": 17.1
+    },
+    {
+      "y0": 12000,
+      "y1": 12500,
+      "pct": 14.8
+    },
+    {
+      "y0": 12500,
+      "y1": 13000,
+      "pct": 17.7
+    },
+    {
+      "y0": 13000,
+      "y1": 13500,
+      "pct": 15.9
+    },
+    {
+      "y0": 13500,
+      "y1": 14000,
+      "pct": 16.4
+    },
+    {
+      "y0": 14000,
+      "y1": 14500,
+      "pct": 14.1
+    },
+    {
+      "y0": 14500,
+      "y1": 15000,
+      "pct": 14.4
+    },
+    {
+      "y0": 15000,
+      "y1": 15500,
+      "pct": 14.2
+    },
+    {
+      "y0": 15500,
+      "y1": 16000,
+      "pct": 14.6
+    },
+    {
+      "y0": 16000,
+      "y1": 16500,
+      "pct": 20.3
+    },
+    {
+      "y0": 16500,
+      "y1": 17000,
+      "pct": 17
+    },
+    {
+      "y0": 17000,
+      "y1": 17500,
+      "pct": 17
+    },
+    {
+      "y0": 17500,
+      "y1": 18000,
+      "pct": 20.5
+    },
+    {
+      "y0": 18000,
+      "y1": 18500,
+      "pct": 28
+    },
+    {
+      "y0": 18500,
+      "y1": 19000,
+      "pct": 23.5
+    },
+    {
+      "y0": 19000,
+      "y1": 19500,
+      "pct": 7.8
+    },
+    {
+      "y0": 19500,
+      "y1": 19944,
+      "pct": 7.7
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 5.75,
+    "differingPixels": 421292,
+    "compared": {
+      "width": 360,
+      "height": 20360,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 853,
+        "shift": -20,
+        "cumulative": -20
+      },
+      {
+        "y": 2734,
+        "shift": 75,
+        "cumulative": 55
+      },
+      {
+        "y": 5505,
+        "shift": -16,
+        "cumulative": 39
+      },
+      {
+        "y": 6345,
+        "shift": -2,
+        "cumulative": 37
+      },
+      {
+        "y": 9738,
+        "shift": -16,
+        "cumulative": 21
+      },
+      {
+        "y": 10374,
+        "shift": -16,
+        "cumulative": 5
+      },
+      {
+        "y": 10719,
+        "shift": -16,
+        "cumulative": -11
+      },
+      {
+        "y": 11572,
+        "shift": -16,
+        "cumulative": -27
+      },
+      {
+        "y": 11994,
+        "shift": -16,
+        "cumulative": -43
+      },
+      {
+        "y": 16043,
+        "shift": -2,
+        "cumulative": -45
+      },
+      {
+        "y": 16347,
+        "shift": 20,
+        "cumulative": -25
+      },
+      {
+        "y": 16529,
+        "shift": 20,
+        "cumulative": -5
+      },
+      {
+        "y": 16755,
+        "shift": 40,
+        "cumulative": 35
+      },
+      {
+        "y": 16943,
+        "shift": 100,
+        "cumulative": 135
+      },
+      {
+        "y": 17067,
+        "shift": 20,
+        "cumulative": 155
+      },
+      {
+        "y": 17157,
+        "shift": 20,
+        "cumulative": 175
+      },
+      {
+        "y": 17254,
+        "shift": 20,
+        "cumulative": 195
+      },
+      {
+        "y": 17441,
+        "shift": 60,
+        "cumulative": 255
+      },
+      {
+        "y": 17751,
+        "shift": 20,
+        "cumulative": 275
+      },
+      {
+        "y": 17970,
+        "shift": 20,
+        "cumulative": 295
+      },
+      {
+        "y": 19213,
+        "shift": 1,
+        "cumulative": 296
+      },
+      {
+        "y": 19433,
+        "shift": -1,
+        "cumulative": 295
+      }
+    ],
+    "maxOffset": 296,
+    "totalShift": 537,
+    "insertedRows": 416,
+    "deletedRows": 121,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.6,
+        "unaligned": 0.6
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 13.2,
+        "unaligned": 15.3
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 6.4,
+        "unaligned": 15.1
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 4.4,
+        "unaligned": 14.6
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 6.2,
+        "unaligned": 14.7
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 15.3,
+        "unaligned": 13.2
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 15
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0,
+        "unaligned": 15.5
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0,
+        "unaligned": 16.3
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 1.8,
+        "unaligned": 17.6
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 6,
+        "unaligned": 16.6
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 6.7,
+        "unaligned": 15.9
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 4.8,
+        "unaligned": 15.9
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 5.8,
+        "unaligned": 15.1
+      },
+      {
+        "y0": 7000,
+        "y1": 7500,
+        "pct": 0,
+        "unaligned": 19.9
+      },
+      {
+        "y0": 7500,
+        "y1": 8000,
+        "pct": 0,
+        "unaligned": 13.6
+      },
+      {
+        "y0": 8000,
+        "y1": 8500,
+        "pct": 0,
+        "unaligned": 17.4
+      },
+      {
+        "y0": 8500,
+        "y1": 9000,
+        "pct": 4.4,
+        "unaligned": 14.9
+      },
+      {
+        "y0": 9000,
+        "y1": 9500,
+        "pct": 6.9,
+        "unaligned": 16.6
+      },
+      {
+        "y0": 9500,
+        "y1": 10000,
+        "pct": 7.1,
+        "unaligned": 18.5
+      },
+      {
+        "y0": 10000,
+        "y1": 10500,
+        "pct": 8.4,
+        "unaligned": 15.8
+      },
+      {
+        "y0": 10500,
+        "y1": 11000,
+        "pct": 7.5,
+        "unaligned": 15.1
+      },
+      {
+        "y0": 11000,
+        "y1": 11500,
+        "pct": 2.3,
+        "unaligned": 16.5
+      },
+      {
+        "y0": 11500,
+        "y1": 12000,
+        "pct": 8.3,
+        "unaligned": 17.1
+      },
+      {
+        "y0": 12000,
+        "y1": 12500,
+        "pct": 5.3,
+        "unaligned": 14.8
+      },
+      {
+        "y0": 12500,
+        "y1": 13000,
+        "pct": 0,
+        "unaligned": 17.7
+      },
+      {
+        "y0": 13000,
+        "y1": 13500,
+        "pct": 0,
+        "unaligned": 15.9
+      },
+      {
+        "y0": 13500,
+        "y1": 14000,
+        "pct": 0,
+        "unaligned": 16.4
+      },
+      {
+        "y0": 14000,
+        "y1": 14500,
+        "pct": 0,
+        "unaligned": 14.1
+      },
+      {
+        "y0": 14500,
+        "y1": 15000,
+        "pct": 0,
+        "unaligned": 14.4
+      },
+      {
+        "y0": 15000,
+        "y1": 15500,
+        "pct": 3.8,
+        "unaligned": 14.2
+      },
+      {
+        "y0": 15500,
+        "y1": 16000,
+        "pct": 9.8,
+        "unaligned": 14.6
+      },
+      {
+        "y0": 16000,
+        "y1": 16500,
+        "pct": 9.4,
+        "unaligned": 20.3
+      },
+      {
+        "y0": 16500,
+        "y1": 17000,
+        "pct": 30.4,
+        "unaligned": 17
+      },
+      {
+        "y0": 17000,
+        "y1": 17500,
+        "pct": 26,
+        "unaligned": 17
+      },
+      {
+        "y0": 17500,
+        "y1": 18000,
+        "pct": 10.5,
+        "unaligned": 20.5
+      },
+      {
+        "y0": 18000,
+        "y1": 18500,
+        "pct": 2.8,
+        "unaligned": 28
+      },
+      {
+        "y0": 18500,
+        "y1": 19000,
+        "pct": 0,
+        "unaligned": 23.5
+      },
+      {
+        "y0": 19000,
+        "y1": 19500,
+        "pct": 0.4,
+        "unaligned": 7.8
+      },
+      {
+        "y0": 19500,
+        "y1": 19944,
+        "pct": 0,
+        "unaligned": 7.7
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/en-us-research-pva-technical-review/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 199,
+    "totalShift": 537,
+    "pass": false
+  },
+  "reason": "offsets: 22 step(s), 537px total — −20px at y=853, +75px at y=2734, −16px at y=5505, −2px at y=6345, −16px at y=9738, −16px at y=10374, … 16 more (bound 199px)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/pva-technical-review"
+  }
+}

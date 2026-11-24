@@ -1,0 +1,23 @@
+{
+  "runtime": "vanilla-eds",
+  "detectedFrom": "scripts/scripts.js + scripts/aem.js (boilerplate 1.3.0, read 2026-11-23)",
+  "blockWrapperClass": "block",
+  "blockWrapper": "div.<name>-wrapper > div.<name>.block[data-block-name]; section gains .<name>-container",
+  "buttonClasses": ".button / .button.primary / .button.secondary / .button.accent, in p.button-wrapper",
+  "buttonization": "formatted-only",
+  "buttonPaint": "primary (strong) = navy .btn; secondary (em) and accent (em+strong) = orange .btn--orange",
+  "fragmentScriptPolicy": "inert-innerHTML",
+  "emptySectionCollapse": true,
+  "autoBlocks": "fragments (a[href*=/fragments/]) + stock widget auto-blocks",
+  "fonts": "styles/fonts.css via loadFonts() (eager >= 900px or fonts-loaded flag, always in loadLazy); tide-fallback in styles.css",
+  "chrome": {
+    "nav": "/nav (overridable per page with `nav` metadata)",
+    "footer": "/footer (overridable per page with `footer` metadata)",
+    "navHeight": { "base": "61px (fixed mobile bar)", "992": "175px" },
+    "header": "template-slotted: brand / menu / utility / locale sections, classified by content",
+    "footer": "template-slotted: social, shop, wash, help, related, badges, legal sections in order"
+  },
+  "breakpoints": [576, 768, 992, 1200],
+  "shellMaxWidth": "1920px (main, .site-header, .site-footer)",
+  "container": "main .default-content-wrapper and .container: 540/720/960/1170 at 576/768/992/1200"
+}

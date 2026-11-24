@@ -1,0 +1,271 @@
+/* article-title-band — orange intro band (live .article-intro, type_4). The section holding
+   the block is the band; a breadcrumb block in the same section sits at the band's top. */
+main .section.article-title-band-container {
+  --breadcrumb-color: #fff;
+
+  position: relative;
+  display: flow-root;
+  color: #fff;
+  background-color: var(--tide-orange);
+}
+
+main .section.article-title-band-container .breadcrumb-wrapper {
+  margin-top: 20px;
+}
+
+.article-title-band-content {
+  margin: 20px 0 80px;
+}
+
+.article-title-band-headline :is(h1, h2, h3) {
+  margin: 0;
+  color: #fff;
+  font-family: var(--font);
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 44px;
+  letter-spacing: 0;
+}
+
+.article-title-band-lead {
+  margin-top: 20px;
+}
+
+.article-title-band-lead p {
+  margin: 0;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.article-title-band-lead a:any-link {
+  color: #fff;
+  font-weight: 700;
+}
+
+.article-title-band-image {
+  display: none;
+}
+
+.article-title-band-share {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.article-title-band-share.desktop {
+  display: none;
+}
+
+/* live: a 22px inline svg on the text baseline makes a 28px-tall link box */
+.article-title-band-share-item {
+  display: inline-block;
+  width: 22px;
+  height: 28px;
+  margin-right: 20px;
+}
+
+.article-title-band-share-item svg {
+  display: block;
+  width: 22px;
+  height: 22px;
+}
+
+.article-title-band-share-item:last-child {
+  margin-right: 0;
+}
+
+@media (width >= 992px) {
+  main .section.article-title-band-container {
+    min-height: 500px;
+    padding-top: 20px;
+  }
+
+  main .section.article-title-band-container .breadcrumb-wrapper {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    margin-top: 0;
+  }
+
+  .article-title-band-content {
+    width: calc(75% - 7.5px);
+    margin: 0;
+    padding: 60px 0;
+  }
+
+  .article-title-band-headline :is(h1, h2, h3) {
+    font-size: 48px;
+    line-height: 52px;
+  }
+
+  .article-title-band-lead {
+    margin-top: 25px;
+  }
+
+  .article-title-band-share.mobile {
+    display: none;
+  }
+
+  .article-title-band-share.desktop {
+    display: flex;
+  }
+
+  .article-title-band-share-item {
+    margin-right: 10px;
+  }
+
+  /* lead-image variant (topic intro): 50/50 split, image bottom-aligned */
+  .article-title-band.with-image .article-title-band-grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 -15px;
+  }
+
+  .article-title-band.with-image .article-title-band-content {
+    flex: 0 0 50%;
+    width: auto;
+    max-width: 50%;
+    padding: 60px 15px;
+  }
+
+  .article-title-band.with-image .article-title-band-image {
+    display: block;
+    flex: 0 0 50%;
+    max-width: 50%;
+    align-self: stretch;
+    padding: 50px 15px 0;
+  }
+
+  .article-title-band.with-image .article-title-band-image picture {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+  }
+
+  .article-title-band.with-image .article-title-band-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
+
+/* article prose (default content of an article page; live .rich-text rows).
+   Scoped override until the foundation carries it (foundation-requests.md). */
+main:has(.article-title-band) {
+  display: flow-root;
+}
+
+main:has(.article-title-band) > .section:not(.article-title-band-container, .jump-links-container):has(> div) {
+  display: flex;
+  flex-direction: column;
+  margin: 35px 0;
+}
+
+main:has(.article-title-band) > .section > .default-content-wrapper {
+  margin-top: 30px;
+  color: var(--tide-navy);
+}
+
+main:has(.article-title-band) .default-content-wrapper p {
+  margin: 1em 0 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+}
+
+main:has(.article-title-band) .default-content-wrapper h2 + p {
+  margin-top: 15px;
+}
+
+main:has(.article-title-band) .default-content-wrapper li p {
+  margin-top: 0;
+}
+
+main:has(.article-title-band) .default-content-wrapper p a:any-link {
+  color: var(--tide-navy);
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+main:has(.article-title-band) .default-content-wrapper h2 {
+  margin: 0 0 20px;
+  color: var(--tide-orange);
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 44px;
+  letter-spacing: 0;
+}
+
+main:has(.article-title-band) .default-content-wrapper ul {
+  margin: 14px 0;
+  padding: 0;
+}
+
+/* a single-item list arrives with its <p> unwrapped: the item carries the prose metrics */
+main:has(.article-title-band) .default-content-wrapper li {
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0;
+}
+
+main:has(.article-title-band) .default-content-wrapper ol li::marker {
+  font-size: 14px;
+}
+
+/* hanging bullet column (live: flex li, "•" + 12px = 19px); block layout so an unwrapped
+   item's text and inline marks stay one run */
+main:has(.article-title-band) .default-content-wrapper ul li {
+  position: relative;
+  padding-left: 19px;
+  list-style: none;
+}
+
+main:has(.article-title-band) .default-content-wrapper ul li::before {
+  content: "•";
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 14px;
+  line-height: 19.6px;
+}
+
+main:has(.article-title-band) .default-content-wrapper ul li p {
+  display: block;
+}
+
+main:has(.article-title-band) .default-content-wrapper ol {
+  margin: 14px 0;
+  padding-left: 40px;
+}
+
+main:has(.article-title-band) .default-content-wrapper > p:first-child {
+  margin-top: 35px;
+}
+
+@media (width >= 992px) {
+  main:has(.article-title-band) > .section:not(.article-title-band-container, .jump-links-container):has(> div) {
+    margin: 80px 0;
+  }
+
+  main:has(.article-title-band) > .section > .default-content-wrapper {
+    margin-top: 0;
+  }
+
+  main:has(.article-title-band) .default-content-wrapper :is(p, li) {
+    line-height: 24px;
+  }
+
+  main:has(.article-title-band) .default-content-wrapper > p:first-child {
+    margin-top: 0;
+  }
+
+  main:has(.article-title-band) .default-content-wrapper h2 {
+    font-size: 48px;
+    line-height: 52px;
+  }
+}

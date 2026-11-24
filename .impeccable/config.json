@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "design-system-font",
+        "value": "poppins",
+        "createdAt": "2026-11-23T23:17:24.562Z",
+        "reason": "replica fidelity: captured live click2cart widget face (source-spec loadedFaces), self-hosted per replica Fonts policy"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "fontawesome",
+        "createdAt": "2026-11-23T23:17:24.578Z",
+        "reason": "replica fidelity: captured live click2cart widget face (source-spec loadedFaces), self-hosted per replica Fonts policy"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "tide-fallback",
+        "createdAt": "2026-11-23T23:50:18.301Z",
+        "reason": "deploy step 4 metric-matched fallback face for the documented Tide family (stardust C0 foundation)"
+      }
+    ]
+  }
+}

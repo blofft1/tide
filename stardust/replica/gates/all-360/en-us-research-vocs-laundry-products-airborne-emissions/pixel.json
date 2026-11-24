@@ -1,0 +1,454 @@
+{
+  "a": "stardust/replica/gates/all-360/en-us-research-vocs-laundry-products-airborne-emissions/origin.png",
+  "b": "stardust/replica/gates/all-360/en-us-research-vocs-laundry-products-airborne-emissions/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 15340,
+    "mode": "overlap"
+  },
+  "heightDelta": -462,
+  "differingPixels": 898255,
+  "pct": 16.27,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-360/en-us-research-vocs-laundry-products-airborne-emissions/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 25.07,
+  "textBoxes": 638,
+  "textPixels": 3038056,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.5
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 17.8
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 16.2
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 16.7
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 22.2
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 16
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 18.7
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 12.4
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 23.2
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 14
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 21.7
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 13.8
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 22.3
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 15.6
+    },
+    {
+      "y0": 7000,
+      "y1": 7500,
+      "pct": 11.5
+    },
+    {
+      "y0": 7500,
+      "y1": 8000,
+      "pct": 22.1
+    },
+    {
+      "y0": 8000,
+      "y1": 8500,
+      "pct": 15.3
+    },
+    {
+      "y0": 8500,
+      "y1": 9000,
+      "pct": 15.1
+    },
+    {
+      "y0": 9000,
+      "y1": 9500,
+      "pct": 15.6
+    },
+    {
+      "y0": 9500,
+      "y1": 10000,
+      "pct": 15.1
+    },
+    {
+      "y0": 10000,
+      "y1": 10500,
+      "pct": 17
+    },
+    {
+      "y0": 10500,
+      "y1": 11000,
+      "pct": 14.7
+    },
+    {
+      "y0": 11000,
+      "y1": 11500,
+      "pct": 14.4
+    },
+    {
+      "y0": 11500,
+      "y1": 12000,
+      "pct": 16.6
+    },
+    {
+      "y0": 12000,
+      "y1": 12500,
+      "pct": 15.6
+    },
+    {
+      "y0": 12500,
+      "y1": 13000,
+      "pct": 17.1
+    },
+    {
+      "y0": 13000,
+      "y1": 13500,
+      "pct": 15.8
+    },
+    {
+      "y0": 13500,
+      "y1": 14000,
+      "pct": 25.7
+    },
+    {
+      "y0": 14000,
+      "y1": 14500,
+      "pct": 23.2
+    },
+    {
+      "y0": 14500,
+      "y1": 15000,
+      "pct": 7.8
+    },
+    {
+      "y0": 15000,
+      "y1": 15340,
+      "pct": 7.9
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 6.31,
+    "differingPixels": 359249,
+    "compared": {
+      "width": 360,
+      "height": 15821,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 747,
+        "shift": -19,
+        "cumulative": -19
+      },
+      {
+        "y": 9994,
+        "shift": 40,
+        "cumulative": 21
+      },
+      {
+        "y": 10089,
+        "shift": 40,
+        "cumulative": 61
+      },
+      {
+        "y": 10278,
+        "shift": 40,
+        "cumulative": 101
+      },
+      {
+        "y": 10560,
+        "shift": 60,
+        "cumulative": 161
+      },
+      {
+        "y": 11156,
+        "shift": 20,
+        "cumulative": 181
+      },
+      {
+        "y": 11404,
+        "shift": 20,
+        "cumulative": 201
+      },
+      {
+        "y": 11907,
+        "shift": 20,
+        "cumulative": 221
+      },
+      {
+        "y": 11990,
+        "shift": 21,
+        "cumulative": 242
+      },
+      {
+        "y": 12224,
+        "shift": 60,
+        "cumulative": 302
+      },
+      {
+        "y": 13874,
+        "shift": 77,
+        "cumulative": 379
+      },
+      {
+        "y": 15340,
+        "shift": 83,
+        "cumulative": 462
+      }
+    ],
+    "maxOffset": 462,
+    "totalShift": 500,
+    "insertedRows": 481,
+    "deletedRows": 19,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.5,
+        "unaligned": 0.5
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 12.5,
+        "unaligned": 17.8
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 16.2
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 16.7
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 22.2
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 16
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 18.7
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0.1,
+        "unaligned": 12.4
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0,
+        "unaligned": 23.2
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0,
+        "unaligned": 14
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 0,
+        "unaligned": 21.7
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 0,
+        "unaligned": 13.8
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 0,
+        "unaligned": 22.3
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 0,
+        "unaligned": 15.6
+      },
+      {
+        "y0": 7000,
+        "y1": 7500,
+        "pct": 0,
+        "unaligned": 11.5
+      },
+      {
+        "y0": 7500,
+        "y1": 8000,
+        "pct": 0,
+        "unaligned": 22.1
+      },
+      {
+        "y0": 8000,
+        "y1": 8500,
+        "pct": 0,
+        "unaligned": 15.3
+      },
+      {
+        "y0": 8500,
+        "y1": 9000,
+        "pct": 0,
+        "unaligned": 15.1
+      },
+      {
+        "y0": 9000,
+        "y1": 9500,
+        "pct": 0,
+        "unaligned": 15.6
+      },
+      {
+        "y0": 9500,
+        "y1": 10000,
+        "pct": 7.9,
+        "unaligned": 15.1
+      },
+      {
+        "y0": 10000,
+        "y1": 10500,
+        "pct": 16.3,
+        "unaligned": 17
+      },
+      {
+        "y0": 10500,
+        "y1": 11000,
+        "pct": 12.5,
+        "unaligned": 14.7
+      },
+      {
+        "y0": 11000,
+        "y1": 11500,
+        "pct": 10.3,
+        "unaligned": 14.4
+      },
+      {
+        "y0": 11500,
+        "y1": 12000,
+        "pct": 9.9,
+        "unaligned": 16.6
+      },
+      {
+        "y0": 12000,
+        "y1": 12500,
+        "pct": 12.8,
+        "unaligned": 15.6
+      },
+      {
+        "y0": 12500,
+        "y1": 13000,
+        "pct": 17.1,
+        "unaligned": 17.1
+      },
+      {
+        "y0": 13000,
+        "y1": 13500,
+        "pct": 14.8,
+        "unaligned": 15.8
+      },
+      {
+        "y0": 13500,
+        "y1": 14000,
+        "pct": 37,
+        "unaligned": 25.7
+      },
+      {
+        "y0": 14000,
+        "y1": 14500,
+        "pct": 5,
+        "unaligned": 23.2
+      },
+      {
+        "y0": 14500,
+        "y1": 15000,
+        "pct": 9.7,
+        "unaligned": 7.8
+      },
+      {
+        "y0": 15000,
+        "y1": 15340,
+        "pct": 23.3,
+        "unaligned": 7.9
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/en-us-research-vocs-laundry-products-airborne-emissions/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 153,
+    "totalShift": 500,
+    "pass": false
+  },
+  "reason": "offsets: 12 step(s), 500px total — −19px at y=747, +40px at y=9994, +40px at y=10089, +40px at y=10278, +60px at y=10560, +20px at y=11156, … 6 more (bound 153px)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/vocs-laundry-products-airborne-emissions"
+  }
+}

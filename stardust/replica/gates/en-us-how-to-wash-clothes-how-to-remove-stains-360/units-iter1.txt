@@ -1,0 +1,127 @@
+[live-session] waiting to pace live navigations to tide.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+unit-geometry @ 360px, tol 4px — https://tide.com/en-us/how-to-wash-clothes/how-to-remove-stains vs http://localhost:8791/en-us-how-to-wash-clothes-how-to-remove-stains-proposed.html
+unit 1 of hub-stain-link (required) .article-listing-links-container > div=.alp-cat__links > div: origin 15,1791 165×22 vs served 15,1791 165×22 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 2 of hub-stain-link (required) .article-listing-links-container > div=.alp-cat__links > div: origin 180,1791 165×22 vs served 180,1791 165×22 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 3 of hub-stain-link (required) .article-listing-links-container > div=.alp-cat__links > div: origin 15,1828 165×22 vs served 15,1828 165×22 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 4 of hub-stain-link (required) .article-listing-links-container > div=.alp-cat__links > div: origin 180,1828 165×22 vs served 180,1828 165×22 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 5 of hub-stain-link (required) .article-listing-links-container > div=.alp-cat__links > div: origin 15,1864 165×22 vs served 15,1864 165×22 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 6 of hub-stain-link (required) .article-listing-links-container > div=.alp-cat__links > div: origin 180,1864 165×22 vs served 180,1864 165×22 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 1 of hub-stain-type-icon (required) .alp-icons-section > .col-12 > .container > .row > div=.alp-types__icon: origin 15,2539 330×114 vs served 15,2539 330×64 → Δx 0 Δy 0 Δw 0 Δh -50  ✗ unit size; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:picture#1" | 15,0 70×64 | 15,0 70×64 | 0 | 0 | 0 | 0 | ✓ |
+| image "a pictogram of liquid stains getting" | 17,0 67×64 | 17,0 67×64 | 0 | 0 | 0 | 0 | ✓ |
+| heading "blood or grass stains" | 100,18 270×24 | 100,18 270×24 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of hub-stain-type-icon (required) .alp-icons-section > .col-12 > .container > .row > div=.alp-types__icon: origin 15,2653 330×114 vs served 15,2653 330×64 → Δx 0 Δy 0 Δw 0 Δh -50  ✗ unit size; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:picture#1" | 15,0 70×64 | 15,0 70×64 | 0 | 0 | 0 | 0 | ✓ |
+| image "a pictogram of liquid stains getting" | 17,0 67×64 | 17,0 67×64 | 0 | 0 | 0 | 0 | ✓ |
+| heading "grease" | 100,8 270×24 | 100,8 270×24 | 0 | 0 | 0 | 0 | ✓ |
+| text "butter or other oily stains" | 100,36 243×22 | 100,36 243×22 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of hub-stain-type-icon (required) .alp-icons-section > .col-12 > .container > .row > div=.alp-types__icon: origin 15,2767 330×109 vs served 15,2767 330×59 → Δx 0 Δy 0 Δw 0 Δh -50  ✗ unit size; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:picture#1" | 15,0 70×59 | 15,0 70×59 | 0 | 0 | 0 | 0 | ✓ |
+| image "a pictogram of a t-shirt with sweat " | 15,0 70×59 | 15,0 70×59 | 0 | 0 | 0 | 0 | ✓ |
+| heading "body soils" | 100,5 270×24 | 100,5 270×24 | 0 | 0 | 0 | 0 | ✓ |
+| text "collar and sweat stains" | 100,33 218×22 | 100,33 218×22 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of hub-stain-type-icon (required) .alp-icons-section > .col-12 > .container > .row > div=.alp-types__icon: origin 15,2876 330×116 vs served 15,2876 330×66 → Δx 0 Δy 0 Δw 0 Δh -50  ✗ unit size; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:picture#1" | 15,0 70×66 | 15,0 70×66 | 0 | 0 | 0 | 0 | ✓ |
+| image "a pictogram of liquid laundry deterg" | 15,0 70×66 | 15,0 70×66 | 0 | 0 | 0 | 0 | ✓ |
+| heading "bleachable" | 100,8 270×24 | 100,8 270×24 | 0 | 0 | 0 | 0 | ✓ |
+| text "stains from coffee and tea" | 100,36 251×22 | 100,36 251×22 | 0 | 0 | 0 | 0 | ✓ |
+unit 5 of hub-stain-type-icon (required) .alp-icons-section > .col-12 > .container > .row > div=.alp-types__icon: origin 15,2992 330×106 vs served 15,2992 330×56 → Δx 0 Δy 0 Δw 0 Δh -50  ✗ unit size; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:picture#1" | 15,0 70×56 | 15,0 70×56 | 0 | 0 | 0 | 0 | ✓ |
+| image "test alp/guide header/icons/clay soi" | 17,0 67×56 | 17,0 67×56 | 0 | 0 | 0 | 0 | ✓ |
+| heading "clay, soil or dirt stains" | 100,14 270×24 | 100,14 270×24 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of hub-guide-step (required) .guide-step-wrapper=.alp-step: origin 15,3390 330×223 vs served 15,3390 330×223 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "step 1. remove the excess stain" | 40,0 290×52 | 40,0 290×52 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:div.guide-progress-bar-mark#1" ≈ "" (by position) | 2,3 21×21 | 2,3 21×21 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:div.guide-progress-bar-bottom-li" ≈ "" (by position) | 11,24 3×199 | 11,24 3×199 | 0 | 0 | 0 | 0 | ✓ |
+| text "use a paper towel, a fork, or a brus" | 40,63 290×100 | 40,63 290×100 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of hub-guide-step (required) .guide-step-wrapper=.alp-step: origin 15,3613 330×1364 vs served 15,3613 330×1364 → Δx 0 Δy 0 Δw 0 Δh 0; 29 elements: 29 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div.guide-progress-bar-top-line#" ≈ "" (by position) | 11,0 3×3 | 11,0 3×3 | 0 | 0 | 0 | 0 | ✓ |
+| text "step 2. pre-treat stains" | 40,0 261×26 | 40,0 261×26 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:div.guide-progress-bar-mark#1" ≈ "" (by position) | 2,3 21×21 | 2,3 21×21 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:div.guide-progress-bar-bottom-li" ≈ "" (by position) | 11,24 3×1340 | 11,24 3×1340 | 0 | 0 | 0 | 0 | ✓ |
+| text "here it’s important to know the type" | 40,37 290×80 | 40,37 290×80 | 0 | 0 | 0 | 0 | ✓ |
+| text "enzymatic stains." | 85,152 245×26 | 85,152 245×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "pour directly onto the stain. gently" | 85,188 245×141 | 85,188 245×141 | 0 | 0 | 0 | 0 | ✓ |
+| link "liquid detergent" | 126,189 128×19 | 126,189 128×19 | 0 | 0 | 0 | 0 | ✓ |
+| heading "recommended products:" | 85,349 245×20 | 85,349 245×20 | 0 | 0 | 0 | 0 | ✓ |
+| link "tide ultra stain release liquid laun" | 85,389 135×215 | 85,389 135×215 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:picture#1" | 103,399 100×100 | 103,399 100×100 | 0 | 0 | 0 | 0 | ✓ |
+| image "tide ultra stain release liquid" | 103,399 100×100 | 103,399 100×100 | 0 | 0 | 0 | 0 | ✓ |
+| text "tide liquid laundry detergent" | 90,524 125×80 | 90,524 125×80 | 0 | 0 | 0 | 0 | ✓ |
+| text "ultra stain release" | 90,526 106×36 | 90,526 106×36 | 0 | 0 | 0 | 0 | ✓ |
+| text "greasy or oily stains." | 85,624 245×26 | 85,624 245×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "presoak in a soaking solution of det" | 85,660 245×80 | 85,660 245×80 | 0 | 0 | 0 | 0 | ✓ |
+| text "body-soil stains." | 85,760 245×26 | 85,760 245×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "rinse garments affected by body-soil" | 85,796 245×60 | 85,796 245×60 | 0 | 0 | 0 | 0 | ✓ |
+| text "bleachable stains." | 85,876 245×26 | 85,876 245×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "presoak and wash with ." | 85,912 245×41 | 85,912 245×41 | 0 | 0 | 0 | 0 | ✓ |
+| link "powder detergent" | 85,933 145×19 | 85,933 145×19 | 0 | 0 | 0 | 0 | ✓ |
+| heading "recommended products:" | 85,973 245×20 | 85,973 245×20 | 0 | 0 | 0 | 0 | ✓ |
+| link "tide plus bleach powder laundry dete" | 85,1013 135×195 | 85,1013 135×195 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:picture#2" | 103,1027 100×92 | 103,1027 100×92 | 0 | 0 | 0 | 0 | ✓ |
+| image "tide plus bleach powder laundry dete" | 103,1027 100×92 | 103,1027 100×92 | 0 | 0 | 0 | 0 | ✓ |
+| text "tide powder laundry detergent" | 90,1148 125×60 | 90,1148 125×60 | 0 | 0 | 0 | 0 | ✓ |
+| text "plus bleach" | 123,1150 80×16 | 123,1150 80×16 | 0 | 0 | 0 | 0 | ✓ |
+| text "clay or dirt stains." | 85,1228 245×26 | 85,1228 245×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "presoak in cold water with liquid de" | 85,1264 245×40 | 85,1264 245×40 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of hub-guide-step (required) .guide-step-wrapper=.alp-step: origin 15,4976 330×157 vs served 15,4976 330×157 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div.guide-progress-bar-top-line#" ≈ "" (by position) | 11,0 3×3 | 11,0 3×3 | 0 | 0 | 0 | 0 | ✓ |
+| text "step 3. add detergent" | 40,0 249×26 | 40,0 249×26 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:div.guide-progress-bar-mark#1" ≈ "" (by position) | 2,3 21×21 | 2,3 21×21 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:div.guide-progress-bar-bottom-li" ≈ "" (by position) | 11,24 3×133 | 11,24 3×133 | 0 | 0 | 0 | 0 | ✓ |
+| text "measure the correct amount of deterg" | 40,37 290×60 | 40,37 290×60 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of hub-guide-step (required) .guide-step-wrapper=.alp-step: origin 15,5133 330×215 vs served 15,5133 330×215 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div.guide-progress-bar-top-line#" ≈ "" (by position) | 11,0 3×3 | 11,0 3×3 | 0 | 0 | 0 | 0 | ✓ |
+| text "step 4. wash your garments" | 40,0 290×52 | 40,0 290×52 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:div.guide-progress-bar-mark#1" ≈ "" (by position) | 2,3 21×21 | 2,3 21×21 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:div.guide-progress-bar-bottom-li" ≈ "" (by position) | 11,24 3×191 | 11,24 3×191 | 0 | 0 | 0 | 0 | ✓ |
+| text "choose the most appropriate and cycl" | 40,63 290×92 | 40,63 290×92 | 0 | 0 | 0 | 0 | ✓ |
+| link "wash temperature" | 40,65 274×43 | 40,65 274×43 | 0 | 0 | 0 | 0 | ✓ |
+| link "the garment's fabric-care label" | 64,133 244×19 | 64,133 244×19 | 0 | 0 | 0 | 0 | ✓ |
+unit 5 of hub-guide-step (required) .guide-step-wrapper=.alp-step: origin 15,5347 330×123 vs served 15,5347 330×123 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div.guide-progress-bar-top-line#" ≈ "" (by position) | 11,0 3×3 | 11,0 3×3 | 0 | 0 | 0 | 0 | ✓ |
+| text "step 5. check garments before drying" | 40,0 290×52 | 40,0 290×52 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:div.guide-progress-bar-mark#1" ≈ "" (by position) | 2,3 21×21 | 2,3 21×21 | 0 | 0 | 0 | 0 | ✓ |
+| text "don't put the clothes into the drier" | 40,63 290×60 | 40,63 290×60 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of hub-jump-nav-item (required) #sticky-nav li=#sticky-nav li: origin 15,924 148×46 vs served 15,924 148×46 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "browse by stain type" | 0,0 148×46 | 0,0 148×46 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of hub-jump-nav-item (required) #sticky-nav li=#sticky-nav li: origin 203,924 144×46 vs served 203,924 144×46 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| button "stain removal guide" | 0,0 144×46 | 0,0 144×46 | 0 | 0 | 0 | 0 | ✓ |
+Units: 18 compared; elements within 69, off 0, hidden 0, missing 0 → PASS
+json → stardust/replica/gates/en-us-how-to-wash-clothes-how-to-remove-stains-360/units-iter1.json

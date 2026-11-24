@@ -1,0 +1,198 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-us-our-commitment-pva-in-tide-pods/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-us-our-commitment-pva-in-tide-pods/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 4872,
+    "mode": "overlap"
+  },
+  "heightDelta": -90,
+  "differingPixels": 801135,
+  "pct": 11.42,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-1440/en-us-our-commitment-pva-in-tide-pods/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 25,
+  "textBoxes": 235,
+  "textPixels": 1727635,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 10.5
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 12.4
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 9.7
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 6.6
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 6.8
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 7.4
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 14.7
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 17.4
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 23.3
+    },
+    {
+      "y0": 4500,
+      "y1": 4872,
+      "pct": 3.3
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 3.53,
+    "differingPixels": 252332,
+    "compared": {
+      "width": 1440,
+      "height": 4966,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 239,
+        "shift": 20,
+        "cumulative": 20
+      },
+      {
+        "y": 725,
+        "shift": 1,
+        "cumulative": 21
+      },
+      {
+        "y": 1125,
+        "shift": -2,
+        "cumulative": 19
+      },
+      {
+        "y": 1437,
+        "shift": -2,
+        "cumulative": 17
+      },
+      {
+        "y": 2030,
+        "shift": 27,
+        "cumulative": 44
+      },
+      {
+        "y": 2742,
+        "shift": 26,
+        "cumulative": 70
+      },
+      {
+        "y": 2872,
+        "shift": 20,
+        "cumulative": 90
+      }
+    ],
+    "maxOffset": 90,
+    "totalShift": 98,
+    "insertedRows": 94,
+    "deletedRows": 4,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 4.2,
+        "unaligned": 10.5
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.2,
+        "unaligned": 12.4
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 1.3,
+        "unaligned": 9.7
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 4.1,
+        "unaligned": 6.6
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 11.4,
+        "unaligned": 6.8
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 11.9,
+        "unaligned": 7.4
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 14.7
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0,
+        "unaligned": 17.4
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0,
+        "unaligned": 23.3
+      },
+      {
+        "y0": 4500,
+        "y1": 4872,
+        "pct": 0,
+        "unaligned": 3.3
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/en-us-our-commitment-pva-in-tide-pods/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 49,
+    "totalShift": 98,
+    "pass": false
+  },
+  "reason": "offsets: 7 step(s), 98px total — +20px at y=239, +1px at y=725, −2px at y=1125, −2px at y=1437, +27px at y=2030, +26px at y=2742, … 1 more (bound 49px)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/pva-in-tide-pods"
+  }
+}

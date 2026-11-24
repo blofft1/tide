@@ -1,0 +1,140 @@
+{
+  "a": "stardust/replica/gates/all-360/en-us-our-commitment-tide-boosted/origin.png",
+  "b": "stardust/replica/gates/all-360/en-us-our-commitment-tide-boosted/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 3475,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 1716,
+  "pct": 0.14,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/en-us-our-commitment-tide-boosted/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 0.5,
+  "textBoxes": 49,
+  "textPixels": 197907,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.5
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0.3
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0
+    },
+    {
+      "y0": 3000,
+      "y1": 3475,
+      "pct": 0
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 0.13,
+    "differingPixels": 1645,
+    "compared": {
+      "width": 360,
+      "height": 3476,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 555,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 888,
+        "shift": 1,
+        "cumulative": 0
+      }
+    ],
+    "maxOffset": 1,
+    "totalShift": 2,
+    "insertedRows": 1,
+    "deletedRows": 1,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.5,
+        "unaligned": 0.5
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0.3,
+        "unaligned": 0.3
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 3000,
+        "y1": 3475,
+        "pct": 0,
+        "unaligned": 0
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/en-us-our-commitment-tide-boosted/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 35,
+    "totalShift": 2,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/tide-boosted"
+  }
+}

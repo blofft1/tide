@@ -1,0 +1,211 @@
+{
+  "a": "stardust/replica/gates/all-360/en-us-how-to-wash-clothes-effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry/origin.png",
+  "b": "stardust/replica/gates/all-360/en-us-how-to-wash-clothes-effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 6423,
+    "mode": "overlap"
+  },
+  "heightDelta": -25,
+  "differingPixels": 162512,
+  "pct": 7.03,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-360/en-us-how-to-wash-clothes-effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 11.12,
+  "textBoxes": 159,
+  "textPixels": 678497,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 2.1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 9.2
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 4.6
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 3.8
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0.4
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 2.8
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 0.7
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 15.1
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 13.4
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 19.1
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 6.5
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 8.7
+    },
+    {
+      "y0": 6000,
+      "y1": 6423,
+      "pct": 4.7
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 3.3,
+    "differingPixels": 76798,
+    "compared": {
+      "width": 360,
+      "height": 6469,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 3750,
+        "shift": -21,
+        "cumulative": -21
+      },
+      {
+        "y": 3881,
+        "shift": 11,
+        "cumulative": -10
+      },
+      {
+        "y": 4762,
+        "shift": 35,
+        "cumulative": 25
+      }
+    ],
+    "maxOffset": 25,
+    "totalShift": 67,
+    "insertedRows": 46,
+    "deletedRows": 21,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 2.1,
+        "unaligned": 2.1
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 9.2,
+        "unaligned": 9.2
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 4.6,
+        "unaligned": 4.6
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 3.8,
+        "unaligned": 3.8
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0.4,
+        "unaligned": 0.4
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 2.8,
+        "unaligned": 2.8
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0.7,
+        "unaligned": 0.7
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 11.5,
+        "unaligned": 15.1
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0.2,
+        "unaligned": 13.4
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 6.6,
+        "unaligned": 19.1
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 0,
+        "unaligned": 6.5
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 0,
+        "unaligned": 8.7
+      },
+      {
+        "y0": 6000,
+        "y1": 6423,
+        "pct": 0,
+        "unaligned": 4.7
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/en-us-how-to-wash-clothes-effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 64,
+    "totalShift": 67,
+    "pass": false
+  },
+  "reason": "offsets: 3 step(s), 67px total — −21px at y=3750, +11px at y=3881, +35px at y=4762 (bound 64px)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry"
+  }
+}

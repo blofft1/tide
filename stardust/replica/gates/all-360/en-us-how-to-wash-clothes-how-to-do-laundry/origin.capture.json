@@ -1,0 +1,25 @@
+{
+  "writtenBy": "gate-all.mjs",
+  "copiedFrom": "stardust/replica/gates/all-360/en-us-how-to-wash-clothes-how-to-do-laundry/baseline.png",
+  "fixedLayers": {
+    "capture": "once",
+    "count": 3,
+    "late": 1
+  },
+  "timers": {
+    "hold": 2000,
+    "held": 16,
+    "intervals": 5,
+    "chains": 11,
+    "delays": [
+      2000,
+      3000,
+      3800,
+      5000,
+      20000,
+      86400000
+    ]
+  },
+  "fontsFailed": [],
+  "deadFaces": []
+}

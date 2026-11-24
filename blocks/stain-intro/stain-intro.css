@@ -1,0 +1,260 @@
+/* stylelint-disable no-descending-specificity -- page-frame overrides of reused blocks target other elements */
+
+/* stain-intro — live .article-intro.article-intro-2 (measure.mjs: spec/meas-acne.json):
+   full-width image; centred col-lg-9 column (title, share row, intro). Mobile-first; 992px.
+   The stain page frame (body.stain) rides this block's CSS. */
+.stain-intro {
+  margin-top: 44px;
+}
+
+.stain-intro .stain-intro-image picture {
+  display: block;
+}
+
+.stain-intro .stain-intro-image img {
+  display: block;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.stain-intro .stain-intro-body {
+  margin: 45px auto 40px;
+  padding: 0 40px;
+}
+
+.stain-intro .stain-intro-title h1 {
+  margin: 0;
+  color: var(--tide-orange);
+  font-family: var(--font);
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0;
+}
+
+.stain-intro .stain-intro-share {
+  display: flex;
+  margin-top: 23px;
+}
+
+.stain-intro .stain-intro-share-item {
+  display: inline-flex;
+  width: 22px;
+  height: 16px;
+  margin-right: 20px;
+}
+
+.stain-intro .stain-intro-share-item svg {
+  width: 22px;
+  height: 22px;
+  margin-top: -3px;
+}
+
+.stain-intro .stain-intro-text {
+  margin-top: 54px;
+}
+
+.stain-intro .stain-intro-text p {
+  margin: 0;
+  color: var(--tide-navy);
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+/* page frame (Template | stain): breadcrumb offset, reused article-related (orange products
+   band, related-articles head with intro text, orange Read More pills) — live
+   .products-carousel-orange / .related-articles-1 (spec/meas-acne.json) */
+body.stain main .section:has(.stain-intro) {
+  padding-top: 19px;
+}
+
+body.stain .article-related.products.orange {
+  min-height: 608px;
+  padding: 25px 0 0;
+  background: var(--tide-orange);
+}
+
+body.stain .article-related.products.orange .article-related-label p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 24px;
+}
+
+/* below 992px live shows the slide image only (its link is named by the image alt) */
+body.stain .article-related.products.orange .article-related-slide-title {
+  display: none;
+}
+
+body.stain .article-related.products.orange .article-related-slides {
+  margin-top: 110px;
+}
+
+body.stain .article-related.products.orange .article-related-slide-image picture > img {
+  width: 260px;
+  height: 260px;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+body.stain .article-related.products.orange .article-related-name p {
+  color: #fff;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+body.stain main .section .article-related:not(.products) .article-related-title p {
+  margin: 0;
+  color: var(--tide-orange);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 36px;
+}
+
+body.stain main .section .article-related:not(.products) .article-related-title p + p {
+  margin-top: 15px;
+  color: var(--tide-navy);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+body.stain main .section .article-related:not(.products) .article-related-title p + p + p {
+  margin-top: 0;
+}
+
+body.stain main .section .article-related:not(.products) .article-related-title a:any-link {
+  color: var(--tide-navy);
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+body.stain main .section .article-related:not(.products) .article-related-more a:any-link {
+  display: inline-block;
+  margin-top: 30px;
+  border-radius: 25px;
+  padding: 10px 30px;
+  background: var(--tide-orange);
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+  text-decoration: none;
+}
+
+/* section offsets (source-spec pairing, spec/cmp-en-us-how-to-wash-clothes-…-{1440,360}) */
+body.stain main .section:has(.article-related.products) {
+  margin-top: 35px;
+}
+
+body.stain main .section:has(.article-related:not(.products)) {
+  margin-top: 60px;
+}
+
+body.stain main .section:has(.topic-hub-back-to-top) {
+  margin-top: 61px;
+}
+
+body.stain main .section .article-related:not(.products) .article-related-bottom {
+  margin-top: -35px;
+}
+
+@media (width >= 576px) {
+  .stain-intro .stain-intro-body {
+    max-width: 540px;
+  }
+}
+
+@media (width >= 768px) {
+  .stain-intro .stain-intro-body {
+    max-width: 720px;
+  }
+}
+
+@media (width >= 992px) {
+  body.stain main .section:has(.stain-intro) {
+    padding-top: 39px;
+  }
+
+  body.stain .article-related.products.orange {
+    min-height: 453px;
+    padding-top: 80px;
+  }
+
+  /* below 992px live shows the slide image only (its link is named by the image alt) */
+body.stain .article-related.products.orange .article-related-slide-title {
+  display: none;
+}
+
+body.stain .article-related.products.orange .article-related-slides {
+  margin-top: 110px;
+}
+
+body.stain .article-related.products.orange .article-related-slide-image picture > img {
+  width: 260px;
+  height: 260px;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+body.stain .article-related.products.orange .article-related-name p {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  body.stain main .section .article-related:not(.products) .article-related-title p {
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  body.stain main .section .article-related:not(.products) .article-related-title p + p {
+    margin-top: 20px;
+    line-height: 24px;
+  }
+
+  .stain-intro {
+    margin-top: 34px;
+  }
+
+
+  .stain-intro .stain-intro-body {
+    max-width: 960px;
+    margin: 55px auto 70px;
+    padding: 0 15px;
+  }
+
+  .stain-intro .stain-intro-image img {
+    height: 500px;
+  }
+
+  .stain-intro .stain-intro-col {
+    width: calc((100% + 30px) * 0.75 - 30px);
+    margin: 0 auto;
+  }
+
+  .stain-intro .stain-intro-title h1 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .stain-intro .stain-intro-share {
+    margin-top: 18px;
+  }
+
+  .stain-intro .stain-intro-share-item {
+    margin-right: 10px;
+  }
+
+  .stain-intro .stain-intro-text {
+    margin-top: 39px;
+  }
+}
+
+@media (width >= 1200px) {
+  .stain-intro .stain-intro-body {
+    max-width: var(--container);
+  }
+}

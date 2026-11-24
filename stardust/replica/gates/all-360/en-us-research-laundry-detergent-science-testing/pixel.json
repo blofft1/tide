@@ -1,0 +1,249 @@
+{
+  "a": "stardust/replica/gates/all-360/en-us-research-laundry-detergent-science-testing/origin.png",
+  "b": "stardust/replica/gates/all-360/en-us-research-laundry-detergent-science-testing/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 7552,
+    "mode": "overlap"
+  },
+  "heightDelta": 185,
+  "differingPixels": 362508,
+  "pct": 13.33,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-360/en-us-research-laundry-detergent-science-testing/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 21.89,
+  "textBoxes": 265,
+  "textPixels": 1062016,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.7
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 16.9
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 15.5
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 15.5
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 14.4
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 14.6
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 14.5
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 14.1
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 8.6
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 7.7
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 14.5
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 24.5
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 24.3
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 7.9
+    },
+    {
+      "y0": 7000,
+      "y1": 7500,
+      "pct": 7.7
+    },
+    {
+      "y0": 7500,
+      "y1": 7552,
+      "pct": 2.4
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 4.55,
+    "differingPixels": 126796,
+    "compared": {
+      "width": 360,
+      "height": 7737,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 615,
+        "shift": -19,
+        "cumulative": -19
+      },
+      {
+        "y": 3980,
+        "shift": -102,
+        "cumulative": -121
+      },
+      {
+        "y": 4829,
+        "shift": -63,
+        "cumulative": -184
+      },
+      {
+        "y": 7004,
+        "shift": -1,
+        "cumulative": -185
+      }
+    ],
+    "maxOffset": 185,
+    "totalShift": 185,
+    "insertedRows": 0,
+    "deletedRows": 185,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.7,
+        "unaligned": 0.7
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 11.5,
+        "unaligned": 16.9
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 2.3,
+        "unaligned": 15.5
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 6,
+        "unaligned": 15.5
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 3.3,
+        "unaligned": 14.4
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 4.2,
+        "unaligned": 14.6
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 4.6,
+        "unaligned": 14.5
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 8.7,
+        "unaligned": 14.1
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 16.4,
+        "unaligned": 8.6
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 12.6,
+        "unaligned": 7.7
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 0,
+        "unaligned": 14.5
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 0,
+        "unaligned": 24.5
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 0,
+        "unaligned": 24.3
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 0,
+        "unaligned": 7.9
+      },
+      {
+        "y0": 7000,
+        "y1": 7500,
+        "pct": 0.2,
+        "unaligned": 7.7
+      },
+      {
+        "y0": 7500,
+        "y1": 7737,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/en-us-research-laundry-detergent-science-testing/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 77,
+    "totalShift": 185,
+    "pass": false
+  },
+  "reason": "offsets: 4 step(s), 185px total — −19px at y=615, −102px at y=3980, −63px at y=4829, −1px at y=7004 (bound 77px)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/laundry-detergent-science-testing"
+  }
+}

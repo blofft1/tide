@@ -1,0 +1,212 @@
+{
+  "a": "stardust/replica/gates/all-360/en-us-our-commitment-superbowllx/origin.png",
+  "b": "stardust/replica/gates/all-360/en-us-our-commitment-superbowllx/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 5564,
+    "mode": "overlap"
+  },
+  "heightDelta": -53,
+  "differingPixels": 442792,
+  "pct": 24.27,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-360/en-us-our-commitment-superbowllx/diff.png",
+  "masks": [
+    {
+      "yA": 1912,
+      "h": 496,
+      "yB": 1912
+    }
+  ],
+  "maskedRows": 496,
+  "textPct": 23.48,
+  "textBoxes": 65,
+  "textPixels": 309474,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 37.3
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 36.8
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 19.8
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 8.1
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 40
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 29.3
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 45.2
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 14.6
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 7.3
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 7.4
+    },
+    {
+      "y0": 5500,
+      "y1": 5564,
+      "pct": 0.7
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 7.48,
+    "differingPixels": 137228,
+    "compared": {
+      "width": 360,
+      "height": 5093,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 580,
+        "shift": -25,
+        "cumulative": -25
+      },
+      {
+        "y": 1294,
+        "shift": 109,
+        "cumulative": 84
+      },
+      {
+        "y": 3755,
+        "shift": -16,
+        "cumulative": 68
+      },
+      {
+        "y": 3854,
+        "shift": -15,
+        "cumulative": 53
+      }
+    ],
+    "maxOffset": 84,
+    "totalShift": 165,
+    "insertedRows": 109,
+    "deletedRows": 56,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 22.1,
+        "unaligned": 37.3
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 39,
+        "unaligned": 36.8
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 19.8
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0.4,
+        "unaligned": 8.1
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0.2,
+        "unaligned": 40
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 29.3
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 6.2,
+        "unaligned": 45.2
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0,
+        "unaligned": 14.6
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0,
+        "unaligned": 7.3
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 0,
+        "unaligned": 7.4
+      },
+      {
+        "y0": 5500,
+        "y1": 5564,
+        "pct": 0,
+        "unaligned": 0.7
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/en-us-our-commitment-superbowllx/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 56,
+    "totalShift": 165,
+    "pass": false
+  },
+  "reason": "offsets: 4 step(s), 165px total — −25px at y=580, +109px at y=1294, −16px at y=3755, −15px at y=3854 (bound 56px)",
+  "maskReason": "self-varying rows of the frozen reference (noise floor 5.19%)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/superbowllx"
+  }
+}

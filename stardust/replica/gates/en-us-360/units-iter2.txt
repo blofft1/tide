@@ -1,0 +1,50 @@
+origin: cached en-us-360-units (2026-11-23T20:27:19.429Z)
+unit-geometry @ 360px, tol 4px — https://tide.com/en-us vs http://localhost:8791/en-us-proposed.html
+unit 1 of home-rail-card (required) .hp_carousel .list-card=.rail .card: origin 42,2469 277×390 vs served 42,2469 277×390 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:picture#1" | 0,0 277×210 | 0,0 277×210 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:img#1" | 0,0 277×210 | 0,0 277×210 | 0 | 0 | 0 | 0 | ✓ |
+| text "meet tide evo. detergent entirely ma" | 10,223 233×33 | 10,223 233×33 | 0 | 0 | 0 | 0 | ✓ |
+| text "learn more" | 10,338 150×42 | 10,338 150×42 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of home-rail-card (required) .hp_carousel .list-card=.rail .card: origin 339,2469 277×390 vs served 339,2469 277×390 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:picture#1" | 0,0 277×210 | 0,0 277×210 | 0 | 0 | 0 | 0 | ✓ clipped on both sides |
+| image "image:img#1" | 0,0 277×210 | 0,0 277×210 | 0 | 0 | 0 | 0 | ✓ clipped on both sides |
+| text "remove visible and invisible dirt" | 10,223 225×16 | 10,223 225×16 | 0 | 0 | 0 | 0 | ✓ clipped on both sides |
+| text "learn more" | 10,338 150×42 | 10,338 150×42 | 0 | 0 | 0 | 0 | ✓ clipped on both sides |
+unit 1 of home-finder-card (required) .find-tide-product .modal-card=.finder .modal-card: origin 15,3041 330×304 vs served 15,3041 330×304 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "browse by type" | 40,30 250×30 | 40,30 250×30 | 0 | 0 | 0 | 0 | ✓ |
+| text "pacs, liquid, powder and more." | 40,60 250×20 | 40,60 250×20 | 0 | 0 | 0 | 0 | ✓ |
+| image "tide laundry products" | 40,85 250×173 | 40,85 250×173 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:picture#1" | 40,245 250×16 | 40,245 250×16 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of home-finder-card (required) .find-tide-product .modal-card=.finder .modal-card: origin 15,3360 330×321 vs served 15,3360 330×321 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "browse by need" | 40,30 250×30 | 40,30 250×30 | 0 | 0 | 0 | 0 | ✓ |
+| text "stain removal, deep cleaning, bright" | 40,60 250×40 | 40,60 250×40 | 0 | 0 | 0 | 0 | ✓ |
+| image "stained t-shirts" | 40,105 250×170 | 40,105 250×170 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:picture#1" | 40,262 250×16 | 40,262 250×16 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of article-preview (required) .homepage-articles .article-preview, .big-papa-hero-section-column-reverse .article-preview=.articles .preview: origin 0,5008 360×353 vs served 0,5008 360×353 → Δx 0 Δy 0 Δw 0 Δh 0; 6 elements: 6 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:picture#1" | 0,0 360×195 | 0,0 360×195 | 0 | 0 | 0 | 0 | ✓ |
+| image "a child getting his clothes cleaned " | 0,0 360×195 | 0,0 360×195 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:div.article-preview-content#1" | 15,145 330×208 | 15,145 330×208 | 0 | 0 | 0 | 0 | ✓ |
+| link "loads of hope" | 40,170 280×26 | 40,170 280×26 | 0 | 0 | 0 | 0 | ✓ |
+| text "life after disasters — hurricanes, f" | 40,211 280×60 | 40,211 280×60 | 0 | 0 | 0 | 0 | ✓ |
+| link "read more" | 40,286 167×42 | 40,286 167×42 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of article-preview (required) .homepage-articles .article-preview, .big-papa-hero-section-column-reverse .article-preview=.articles .preview: origin 0,5392 360×380 vs served 0,5391 360×380 → Δx 0 Δy -1 Δw 0 Δh 0; 6 elements: 6 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:picture#1" | 0,0 360×196 | 0,0 360×196 | 0 | 0 | 0 | 0 | ✓ |
+| image "the top part of a tide pods containe" | 0,0 360×196 | 0,0 360×196 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:div.article-preview-content#1" | 15,146 330×234 | 15,146 330×234 | 0 | 0 | 0 | 0 | ✓ |
+| link "at tide safety comes first, and it n" | 40,171 280×52 | 40,171 280×52 | 0 | 0 | 0 | 0 | ✓ |
+| text "keeping loved ones safe is a joint e" | 40,238 280×60 | 40,238 280×60 | 0 | 0 | 0 | 0 | ✓ |
+| link "read more" | 40,313 167×42 | 40,313 167×42 | 0 | 0 | 0 | 0 | ✓ |
+Units: 6 compared; elements within 28, off 0, hidden 0, missing 0 → PASS
+json → stardust/replica/gates/en-us-360/units-iter2.json

@@ -1,0 +1,127 @@
+
+Content diff @ 360px (profile "generic", roots: #site-content, header, footer)
+root "#site-content"
+  source: 114 text nodes — 5 headings, 0 eyebrows, 22 CTAs, 87 body; 15 img
+  build: 111 text nodes — 6 headings, 0 eyebrows, 19 CTAs, 86 body; 12 img
+  editable texts (outermost h*/p/ul/ol): source 32 / build 27
+  attributes (placeholder/aria-label/title): source 86 / build 80; icons: source 58 / build 58
+  accepted (invisible, nothing lost): 1 ROLE UPGRADE body → heading — "Shop"
+root "header"
+  source: 5 text nodes — 0 headings, 0 eyebrows, 2 CTAs, 3 body; 4 img
+  build: 53 text nodes — 0 headings, 0 eyebrows, 47 CTAs, 6 body; 4 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 0
+  attributes (placeholder/aria-label/title): source 6 / build 51; icons: source 7 / build 7
+root "footer"
+  source: 29 text nodes — 0 headings, 0 eyebrows, 18 CTAs, 11 body; 8 img
+  build: 29 text nodes — 0 headings, 0 eyebrows, 18 CTAs, 11 body; 8 img
+  editable texts (outermost h*/p/ul/ol): source 3 / build 3
+  attributes (placeholder/aria-label/title): source 25 / build 25; icons: source 10 / build 10
+
+Findings: 106 (3 structural 🔴)
+Tiers: looks-same 🔴 3 · nothing-lost 🟡 6 · accepted 🟢 1 (owner 0, auto 1) · advisory 97
+  🔴 MISSING CTA [#site-content]: source cta "Read More" → /en-us/how-to-wash-clothes/washing-machine-101/how-to-use-an-he-washer/how-does-he-turbo-work has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#site-content]: source cta "Read More" → /en-us/how-to-wash-clothes/how-to-do-laundry/how-much-detergent-to-use has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#site-content]: source cta "Read More" → /en-us/our-commitment/americas-number-one-detergent/our-products/laundry-pacs/how-tide-pods-work has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🟠 EXTRA [header]: build cta "Shop Products" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Pacs" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Liquid" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Powder" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Stain Remover" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Laundry Booster" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Fabric Care" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Fabric Rinse" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Laundry Tiles" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Stain Removal" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Odor Removal" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Freshness/Scent" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Whiteness" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Bright Colors" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Sensitive" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Additives" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Deep Clean" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Tide Free & Gentle" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Tide Plus Febreze" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Tide Simply" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Tide Plus Downy" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Tide Ultra OXI" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Tide POWER PODS®" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Our Commitment" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Tide Coming Clean" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Tide Boosted" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Turn to Cold" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Tide evo" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Don’t Pay for Water, Pay for Clean" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Tide in Space" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "America’s #1 Detergent" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Loads of Hope" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Ingredients and Safety" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Tide Cleaners" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Sustainability" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "How to Wash Clothes" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "How to Remove Stains" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "How to Do Laundry" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Washing Different Fabrics and Colors" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Washing Machine 101" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "What’s New" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Coupons and Deals" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Coupons and Rewards" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Laundry Deals" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Laundry Tips" has no source source — Unexpected node with no source.
+  🟡 EDITABLE COUNT [#site-content]: build has 27 outermost editable element(s) vs 32 in the source — fewer outermost editable elements after decoration usually means authored elements were rebuilt/merged — see deploy SKILL.md § Experience Workspace editability contract (run ew-editability-probe.mjs on the build URL for the per-block verdict).
+  🟡 MISSING ARIA-LABEL [#site-content]: source <a> aria-label="Read More about How Does HE Turbo Work?" has no build <a> with that aria-label (build <a> aria-labels: "Shop Products", "Odor Removal", "Deep Clean"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#site-content]: source <a> aria-label="Read More about How Does HE Turbo Work?" has no build <a> with that aria-label (build <a> aria-labels: "Shop Products", "Odor Removal", "Deep Clean"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#site-content]: source <a> aria-label="Read More about How Much Laundry Detergent to Us" has no build <a> with that aria-label (build <a> aria-labels: "Shop Products", "Odor Removal", "Deep Clean"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#site-content]: source <a> aria-label="Read More about How Much Laundry Detergent to Us" has no build <a> with that aria-label (build <a> aria-labels: "Shop Products", "Odor Removal", "Deep Clean"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#site-content]: source <a> aria-label="Read More about Unlock the Power of Tide PODS®: " has no build <a> with that aria-label (build <a> aria-labels: "Shop Products", "Odor Removal", "Deep Clean"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#site-content]: source <a> aria-label="Read More about Unlock the Power of Tide PODS®: " has no build <a> with that aria-label (build <a> aria-labels: "Shop Products", "Odor Removal", "Deep Clean"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 ICON MOVED [#site-content]: source inline svg 0 0 17 10 / 1 shape(s) (11×19) at "read more about how does he turbo work?" is at "how does he turbo work? do you want to k" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#site-content]: source inline svg 0 0 17 10 / 1 shape(s) (11×19) at "read more about how much laundry deterge" is at "how much laundry detergent to use ever s" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#site-content]: source inline svg 0 0 17 10 / 1 shape(s) (11×19) at "read more about unlock the power of tide" is at "unlock the power of tide pods®: how they" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 EXTRA [header]: build body "By Type" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "By Need" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Top Collection" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA ARIA-LABEL [header]: build <div> aria-label="Shop Products" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Pacs" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Liquid" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Powder" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Stain Remover" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Laundry Booster" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Fabric Care" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Fabric Rinse" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Laundry Tiles" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Stain Removal" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Odor Removal" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Freshness/Scent" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Whiteness" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Bright Colors" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Sensitive" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Additives" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Deep Clean" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Tide Free & Gentle" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Tide Plus Febreze" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Tide Simply" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Tide Plus Downy" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Tide Ultra OXI" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Tide POWER PODS®" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <div> aria-label="Our Commitment" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Tide Coming Clean" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Tide Boosted" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Turn to Cold" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Tide evo" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Don’t Pay for Water, Pay for Clean" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Tide in Space" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="America’s #1 Detergent" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Loads of Hope" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Ingredients and Safety" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Tide Cleaners" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Sustainability" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <div> aria-label="How to Wash Clothes" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="How to Remove Stains" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="How to Do Laundry" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Washing Different Fabrics and Colors" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Washing Machine 101" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <div> aria-label="What’s New" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <div> aria-label="Coupons and Deals" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Coupons and Rewards" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Laundry Deals" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="Laundry Tips" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).

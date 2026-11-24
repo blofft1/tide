@@ -1,0 +1,169 @@
+/* browse-tiles — heading + modal tiles. Spec: stardust/prototypes/en-us.css (.finder, .modal-card) */
+.browse-tiles {
+  padding: 40px 0 30px;
+}
+
+.browse-tiles .container {
+  display: flow-root;
+}
+
+.browse-tiles .bt-heading :is(h2, h3) {
+  margin: 0 0 25px;
+  color: var(--tide-orange);
+  letter-spacing: 0;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.browse-tiles .bt-heading strong {
+  font-weight: 800;
+}
+
+.browse-tiles .bt-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.browse-tiles .bt-item {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-top: 15px;
+  padding: 0 15px;
+}
+
+.browse-tiles .bt-tile {
+  padding: 30px 40px 40px;
+  background: var(--tide-grey-2);
+}
+
+.browse-tiles .bt-tile[role="button"] {
+  cursor: pointer;
+}
+
+.browse-tiles .bt-title :is(h2, h3, h4) {
+  margin: 0;
+  color: var(--tide-navy);
+  letter-spacing: 0;
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 30px;
+}
+
+.browse-tiles .bt-text p {
+  margin: 0;
+  color: var(--tide-navy);
+  letter-spacing: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.browse-tiles .bt-media img {
+  width: 100%;
+  margin-top: 5px;
+  vertical-align: baseline;
+  transition: transform 0.3s;
+}
+
+/* modal (live ModalCard target; layout not captured — plain list dialog) */
+.browse-tiles .bt-modal {
+  width: min(90vw, 560px);
+  border: 0;
+  border-radius: 20px;
+  padding: 50px 40px 40px;
+  background: #fff;
+  color: var(--tide-navy);
+}
+
+.browse-tiles .bt-modal::backdrop {
+  background: rgb(0 0 0 / 50%);
+}
+
+.browse-tiles .bt-modal-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 30px;
+  height: 30px;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.browse-tiles .bt-modal-close::before,
+.browse-tiles .bt-modal-close::after {
+  content: "";
+  position: absolute;
+  top: 14px;
+  left: 3px;
+  width: 24px;
+  height: 3px;
+  border-radius: 2px;
+  background: var(--tide-navy);
+  transform: rotate(45deg);
+}
+
+.browse-tiles .bt-modal-close::after {
+  transform: rotate(-45deg);
+}
+
+.browse-tiles .bt-modal-list ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.browse-tiles .bt-modal-list li {
+  border-bottom: 1px solid var(--tide-rule);
+}
+
+.browse-tiles .bt-modal-list a:any-link {
+  display: block;
+  padding: 12px 0;
+  color: var(--tide-navy);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+@media (width >= 992px) {
+  .browse-tiles {
+    padding: 90px 0 95px;
+  }
+
+  .browse-tiles .bt-heading :is(h2, h3) {
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  .browse-tiles .bt-item {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+
+  .browse-tiles .bt-tile {
+    height: 100%;
+    padding: 50px 65px;
+  }
+
+  .browse-tiles .bt-title :is(h2, h3, h4) {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .browse-tiles .bt-text p {
+    line-height: 24px;
+  }
+
+  .browse-tiles .bt-media img {
+    margin-top: 30px;
+  }
+
+  .browse-tiles .bt-tile:hover .bt-media img {
+    transform: scale(1.1);
+  }
+}

@@ -1,0 +1,4437 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-24T11:42:57.764Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://tide.com/en-us/shop",
+  "at": "2026-11-24T11:42:36.617Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 3984,
+  "root": "main#site-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div#page-wrapper > header#site-header > a.skip-to-content-link",
+    "x": 119,
+    "y": -44,
+    "w": 122,
+    "h": 44,
+    "text": "skip to content",
+    "href": "/en-us/shop"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.row.no-gutters > button.burger-menu",
+    "x": 20,
+    "y": 18,
+    "w": 30,
+    "h": 26,
+    "text": "navigation menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.row.no-gutters > button.burger-menu",
+    "x": 20,
+    "y": 18,
+    "w": 30,
+    "h": 26,
+    "label": "navigation menu",
+    "value": "navigation menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row.no-gutters > div > a.header-logo.d-flex",
+    "x": 157,
+    "y": 7,
+    "w": 47,
+    "h": 47,
+    "text": "tide logo",
+    "href": "/en-us"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > a.header-logo.d-flex > img",
+    "x": 157,
+    "y": 7,
+    "w": 47,
+    "h": 47,
+    "text": "tide logo",
+    "file": "brand_main_logo"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "form.header-search > div.input-wrap > button",
+    "x": 310,
+    "y": 15,
+    "w": 30,
+    "h": 33,
+    "text": "submit search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.breadcrumbs-list > li.breadcrumbs-list-item > span",
+    "x": 15,
+    "y": 92,
+    "w": 140,
+    "h": 22,
+    "label": "current",
+    "value": "shop products",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.breadcrumbs-list-item > span > span",
+    "x": 15,
+    "y": 92,
+    "w": 140,
+    "h": 22,
+    "text": "Shop Products"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-12 > div.plp-title-bar > h1",
+    "x": 15,
+    "y": 156,
+    "w": 157,
+    "h": 108,
+    "level": 1,
+    "text": "shop tide products"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.plp-title-bar > h1 > p",
+    "x": 15,
+    "y": 156,
+    "w": 157,
+    "h": 108,
+    "text": "Shop"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-12 > div.plp-title-bar > button.event_button_click",
+    "x": 172,
+    "y": 156,
+    "w": 173,
+    "h": 108,
+    "text": "browse other products"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-12 > div.plp-action-bar > div.plp-products-count",
+    "x": 15,
+    "y": 302,
+    "w": 165,
+    "h": 26,
+    "text": "48 Products"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-12 > div.plp-action-bar > div.plp-products-count",
+    "x": 15,
+    "y": 302,
+    "w": 165,
+    "h": 26,
+    "label": "count product",
+    "value": "48",
+    "via": "count"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.plp-actions > div.plp-sorting > span",
+    "x": 213,
+    "y": 293,
+    "w": 57,
+    "h": 18,
+    "text": "Sort by:"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.plp-sorting-select > label > select",
+    "x": 213,
+    "y": 315,
+    "w": 132,
+    "h": 26,
+    "label": "sort products by",
+    "value": "popularity",
+    "via": "select"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-preview > div.product-preview-image > a",
+    "x": 15,
+    "y": 362,
+    "w": 110,
+    "h": 110,
+    "text": "pack of tide evo laundry detergent tiles, original scent",
+    "href": "/en-us/shop/type/laundry-tiles/tide-evo-laundry-detergent-tiles-original"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 15,
+    "y": 362,
+    "w": 110,
+    "h": 110,
+    "text": "pack of tide evo laundry detergent tiles, original scent",
+    "file": "Tide_Evo_Original_20260225_listing_image"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-preview-content-wrapper > div.product-preview-content > a.product-preview-title",
+    "x": 125,
+    "y": 381,
+    "w": 220,
+    "h": 41,
+    "text": "tide evo laundry detergent tiles, original scent",
+    "href": "/en-us/shop/type/laundry-tiles/tide-evo-laundry-detergent-tiles-original"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-preview-content > div.product-preview-rating-wrapper > span.product-preview-rating-count",
+    "x": 218,
+    "y": 433,
+    "w": 37,
+    "h": 16,
+    "text": "( 790 )"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-4.product > div.product-preview > div.ps-widget.ps-59923902a81961211a377174",
+    "x": 89,
+    "y": 487,
+    "w": 182,
+    "h": 34,
+    "text": "find retailers"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-preview > div.product-preview-image > a",
+    "x": 15,
+    "y": 562,
+    "w": 110,
+    "h": 110,
+    "text": "bottle of tide original scent liquid laundry detergent",
+    "href": "/en-us/shop/type/liquid/tide-original-liquid"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 15,
+    "y": 562,
+    "w": 110,
+    "h": 110,
+    "text": "bottle of tide original scent liquid laundry detergent",
+    "file": "Tide_TheRock_EN-US_20250811_listing_520x"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-preview-content-wrapper > div.product-preview-content > a.product-preview-title",
+    "x": 125,
+    "y": 581,
+    "w": 220,
+    "h": 41,
+    "text": "tide original liquid laundry detergent",
+    "href": "/en-us/shop/type/liquid/tide-original-liquid"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-preview-content > div.product-preview-rating-wrapper > span.product-preview-rating-count",
+    "x": 218,
+    "y": 633,
+    "w": 45,
+    "h": 16,
+    "text": "( 3206 )"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-4.product > div.product-preview > div.ps-widget.ps-59923902a81961211a377174",
+    "x": 89,
+    "y": 687,
+    "w": 182,
+    "h": 34,
+    "text": "find retailers"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-preview > div.product-preview-image > a",
+    "x": 15,
+    "y": 762,
+    "w": 110,
+    "h": 110,
+    "text": "tide oxi boost power pods®",
+    "href": "/en-us/shop/type/laundry-pods/tide-oxi-boost-power-pods"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 15,
+    "y": 762,
+    "w": 110,
+    "h": 110,
+    "text": "tide oxi boost power pods®",
+    "file": "Tide_Oxi_Boost_Power_Pods_EN-US_listing_"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-preview-content-wrapper > div.product-preview-content > a.product-preview-title",
+    "x": 125,
+    "y": 781,
+    "w": 220,
+    "h": 41,
+    "text": "tide oxi boost power pods®",
+    "href": "/en-us/shop/type/laundry-pods/tide-oxi-boost-power-pods"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-preview-content > div.product-preview-rating-wrapper > span.product-preview-rating-count",
+    "x": 218,
+    "y": 833,
+    "w": 41,
+    "h": 16,
+    "text": "( 1842 )"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-4.product > div.product-preview > div.ps-widget.ps-59923902a81961211a377174",
+    "x": 89,
+    "y": 887,
+    "w": 182,
+    "h": 34,
+    "text": "find retailers"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-preview > div.product-preview-image > a",
+    "x": 15,
+    "y": 962,
+    "w": 110,
+    "h": 110,
+    "text": "tide free and gentle liquid laundry detergent - 92 ounces, color white",
+    "href": "/en-us/shop/type/liquid/tide-free-and-gentle-liquid"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 15,
+    "y": 962,
+    "w": 110,
+    "h": 110,
+    "text": "tide free and gentle liquid laundry detergent - 92 ounces, c",
+    "file": "Tide_Free_and_Gentle_HDL_LI_520x520_2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-preview-content-wrapper > div.product-preview-content > a.product-preview-title",
+    "x": 125,
+    "y": 981,
+    "w": 220,
+    "h": 41,
+    "text": "tide free and gentle liquid laundry detergent",
+    "href": "/en-us/shop/type/liquid/tide-free-and-gentle-liquid"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-preview-content > div.product-preview-rating-wrapper > span.product-preview-rating-count",
+    "x": 218,
+    "y": 1033,
+    "w": 39,
+    "h": 16,
+    "text": "( 1106 )"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-4.product > div.product-preview > div.ps-widget.ps-59923902a81961211a377174",
+    "x": 89,
+    "y": 1087,
+    "w": 182,
+    "h": 34,
+    "text": "find retailers"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-preview > div.product-preview-image > a",
+    "x": 15,
+    "y": 1162,
+    "w": 110,
+    "h": 110,
+    "text": "tide pods® laundry detergent original scent - 16 count, color orange",
+    "href": "/en-us/shop/type/laundry-pods/tide-pods-laundry-detergent"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 15,
+    "y": 1162,
+    "w": 110,
+    "h": 110,
+    "text": "tide pods® laundry detergent original scent - 16 count, colo",
+    "file": "Tide_Belize_SUD_Original_listing_520x520"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-preview-content-wrapper > div.product-preview-content > a.product-preview-title",
+    "x": 125,
+    "y": 1181,
+    "w": 220,
+    "h": 41,
+    "text": "tide pods® laundry detergent original scent",
+    "href": "/en-us/shop/type/laundry-pods/tide-pods-laundry-detergent"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-preview-content > div.product-preview-rating-wrapper > span.product-preview-rating-count",
+    "x": 218,
+    "y": 1233,
+    "w": 45,
+    "h": 16,
+    "text": "( 4650 )"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-4.product > div.product-preview > div.ps-widget.ps-59923902a81961211a377174",
+    "x": 89,
+    "y": 1287,
+    "w": 182,
+    "h": 34,
+    "text": "find retailers"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-preview > div.product-preview-image > a",
+    "x": 15,
+    "y": 1362,
+    "w": 110,
+    "h": 110,
+    "text": "tide ultra oxi power pods® with odor eliminators",
+    "href": "/en-us/shop/type/laundry-pods/tide-power-pods-oxi-with-odor-eliminators"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 15,
+    "y": 1362,
+    "w": 110,
+    "h": 110,
+    "text": "tide ultra oxi power pods® with odor eliminators",
+    "file": "Tide_Value_SUD_Odor_EN-US_listing_520x52"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-preview-content-wrapper > div.product-preview-content > a.product-preview-title",
+    "x": 125,
+    "y": 1371,
+    "w": 220,
+    "h": 61,
+    "text": "tide ultra oxi power pods® with odor eliminators",
+    "href": "/en-us/shop/type/laundry-pods/tide-power-pods-oxi-with-odor-eliminators"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-preview-content > div.product-preview-rating-wrapper > span.product-preview-rating-count",
+    "x": 218,
+    "y": 1443,
+    "w": 32,
+    "h": 16,
+    "text": "( 318 )"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-4.product > div.product-preview > div.ps-widget.ps-59923902a81961211a377174",
+    "x": 89,
+    "y": 1487,
+    "w": 182,
+    "h": 34,
+    "text": "find retailers"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-preview > div.product-preview-image > a",
+    "x": 15,
+    "y": 1562,
+    "w": 110,
+    "h": 110,
+    "text": "tide pods® laundry detergent spring meadow scent",
+    "href": "/en-us/shop/type/laundry-pods/tide-pods-spring-meadow-scent"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 15,
+    "y": 1562,
+    "w": 110,
+    "h": 110,
+    "text": "tide pods® laundry detergent spring meadow scent",
+    "file": "Tide_Belize_SUD_Spring_Meadow_listing_52"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-preview-content-wrapper > div.product-preview-content > a.product-preview-title",
+    "x": 125,
+    "y": 1571,
+    "w": 220,
+    "h": 62,
+    "text": "tide pods® laundry detergent spring meadow scent",
+    "href": "/en-us/shop/type/laundry-pods/tide-pods-spring-meadow-scent"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-preview-content > div.product-preview-rating-wrapper > span.product-preview-rating-count",
+    "x": 218,
+    "y": 1644,
+    "w": 36,
+    "h": 16,
+    "text": "( 550 )"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-4.product > div.product-preview > div.ps-widget.ps-59923902a81961211a377174",
+    "x": 89,
+    "y": 1686,
+    "w": 182,
+    "h": 34,
+    "text": "find retailers"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-preview > div.product-preview-image > a",
+    "x": 15,
+    "y": 1761,
+    "w": 110,
+    "h": 110,
+    "text": "tide ultra oxi high efficiency liquid laundry detergent",
+    "href": "/en-us/shop/type/liquid/tide-ultra-oxi-he-liquid"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 15,
+    "y": 1761,
+    "w": 110,
+    "h": 110,
+    "text": "tide ultra oxi high efficiency liquid laundry detergent",
+    "file": "003131-22_BigMamma_Oxi_Boost_EN-US_HDL_l"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-preview-content-wrapper > div.product-preview-content > a.product-preview-title",
+    "x": 125,
+    "y": 1771,
+    "w": 220,
+    "h": 61,
+    "text": "tide ultra oxi boost high efficiency liquid laundry detergent",
+    "href": "/en-us/shop/type/liquid/tide-ultra-oxi-he-liquid"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-preview-content > div.product-preview-rating-wrapper > span.product-preview-rating-count",
+    "x": 218,
+    "y": 1843,
+    "w": 36,
+    "h": 16,
+    "text": "( 452 )"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-4.product > div.product-preview > div.ps-widget.ps-59923902a81961211a377174",
+    "x": 89,
+    "y": 1886,
+    "w": 182,
+    "h": 34,
+    "text": "find retailers"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-preview > div.product-preview-image > a",
+    "x": 15,
+    "y": 1961,
+    "w": 110,
+    "h": 110,
+    "text": "tide plus a touch of downy liquid laundry detergent",
+    "href": "/en-us/shop/type/liquid/tide-plus-a-touch-of-downy-liquid"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 15,
+    "y": 1961,
+    "w": 110,
+    "h": 110,
+    "text": "tide plus a touch of downy liquid laundry detergent",
+    "file": "_listing_520x520Tide_Downy_April_Fresh_U"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-preview-content-wrapper > div.product-preview-content > a.product-preview-title",
+    "x": 125,
+    "y": 1981,
+    "w": 220,
+    "h": 41,
+    "text": "tide plus a touch of downy liquid laundry detergent",
+    "href": "/en-us/shop/type/liquid/tide-plus-a-touch-of-downy-liquid"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-preview-content > div.product-preview-rating-wrapper > span.product-preview-rating-count",
+    "x": 218,
+    "y": 2033,
+    "w": 32,
+    "h": 16,
+    "text": "( 271 )"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-4.product > div.product-preview > div.ps-widget.ps-59923902a81961211a377174",
+    "x": 89,
+    "y": 2086,
+    "w": 182,
+    "h": 34,
+    "text": "find retailers"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.container > div.row > button.button-link",
+    "x": 15,
+    "y": 2211,
+    "w": 330,
+    "h": 42,
+    "text": "load more products"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-links-wrapper > div.container > span",
+    "x": 15,
+    "y": 2343,
+    "w": 242,
+    "h": 19,
+    "text": "Ways to connect with us:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-links > li > a.footer-social-links-item.event_socialmedia_exit",
+    "x": 15,
+    "y": 2382,
+    "w": 32,
+    "h": 32,
+    "text": "facebook icon",
+    "href": "/Tide"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > a.footer-social-links-item.event_socialmedia_exit > img",
+    "x": 15,
+    "y": 2382,
+    "w": 32,
+    "h": 32,
+    "text": "facebook icon",
+    "file": "social_facebook"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-links > li > a.footer-social-links-item.event_socialmedia_exit",
+    "x": 62,
+    "y": 2382,
+    "w": 32,
+    "h": 32,
+    "text": "twitter icon",
+    "href": "/tide"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > a.footer-social-links-item.event_socialmedia_exit > img",
+    "x": 62,
+    "y": 2382,
+    "w": 32,
+    "h": 32,
+    "text": "twitter icon",
+    "file": "social_twitter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-links > li > a.footer-social-links-item.event_socialmedia_exit",
+    "x": 109,
+    "y": 2382,
+    "w": 32,
+    "h": 32,
+    "text": "pinterest icon",
+    "href": "/tide/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > a.footer-social-links-item.event_socialmedia_exit > img",
+    "x": 109,
+    "y": 2382,
+    "w": 32,
+    "h": 32,
+    "text": "pinterest icon",
+    "file": "social_pinterest"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-links > li > a.footer-social-links-item.event_socialmedia_exit",
+    "x": 156,
+    "y": 2382,
+    "w": 32,
+    "h": 32,
+    "text": "youtube icon",
+    "href": "/channel/UCEPeWPjaF1CWCKXa3xTp7vw"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > a.footer-social-links-item.event_socialmedia_exit > img",
+    "x": 156,
+    "y": 2382,
+    "w": 32,
+    "h": 32,
+    "text": "youtube icon",
+    "file": "social_youtube"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row > div.col-12 > p.footer-navigation-title",
+    "x": 15,
+    "y": 2474,
+    "w": 330,
+    "h": 51,
+    "text": "Shop Products"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-4 > div#by-type > div.expandable-content-header",
+    "x": 15,
+    "y": 2567,
+    "w": 330,
+    "h": 24,
+    "text": "by type"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-4 > div#by-type > div.expandable-content-header",
+    "x": 15,
+    "y": 2567,
+    "w": 330,
+    "h": 24,
+    "label": "by type",
+    "value": "by type",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-4 > div#by-need > div.expandable-content-header",
+    "x": 15,
+    "y": 2651,
+    "w": 330,
+    "h": 24,
+    "text": "by need"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-4 > div#by-need > div.expandable-content-header",
+    "x": 15,
+    "y": 2651,
+    "w": 330,
+    "h": 24,
+    "label": "by need",
+    "value": "by need",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-4 > div#top-collection > div.expandable-content-header",
+    "x": 15,
+    "y": 2735,
+    "w": 330,
+    "h": 24,
+    "text": "top collection"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-4 > div#top-collection > div.expandable-content-header",
+    "x": 15,
+    "y": 2735,
+    "w": 330,
+    "h": 24,
+    "label": "top collection",
+    "value": "top collection",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row > div.col-12.col-md-6 > p#footer-washing-machine-title",
+    "x": 15,
+    "y": 2827,
+    "w": 330,
+    "h": 51,
+    "text": "How to Wash Clothes"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-6 > div.menu-item > a.event_menu_click",
+    "x": 15,
+    "y": 2895,
+    "w": 177,
+    "h": 18,
+    "text": "how to remove stains",
+    "href": "/en-us/how-to-wash-clothes/how-to-remove-stains"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-6 > div.menu-item > a.event_menu_click",
+    "x": 15,
+    "y": 2927,
+    "w": 153,
+    "h": 18,
+    "text": "how to do laundry",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-6 > div.menu-item > a.event_menu_click",
+    "x": 15,
+    "y": 2959,
+    "w": 289,
+    "h": 18,
+    "text": "washing different fabrics and colors",
+    "href": "/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-6 > div.menu-item > a.event_outbound_link",
+    "x": 15,
+    "y": 2991,
+    "w": 163,
+    "h": 18,
+    "text": "washing machine 101",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row > div.col-12.col-md-6 > p#footer-help-support-title",
+    "x": 15,
+    "y": 3056,
+    "w": 330,
+    "h": 51,
+    "text": "Help & Support"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-6 > div.menu-item > a.event_menu_click",
+    "x": 15,
+    "y": 3124,
+    "w": 85,
+    "h": 18,
+    "text": "contact us",
+    "href": "/en-us/contact-us"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row > div.col-12.footer-related > span#footer-related-title",
+    "x": 15,
+    "y": 3220,
+    "w": 81,
+    "h": 24,
+    "text": "Related:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-related-navigation > div.menu-item > a.event_outbound_link",
+    "x": 15,
+    "y": 3253,
+    "w": 93,
+    "h": 18,
+    "text": "p&g brands",
+    "href": "/en_US"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-related-navigation > div.menu-item > a.event_outbound_link",
+    "x": 123,
+    "y": 3253,
+    "w": 64,
+    "h": 18,
+    "text": "mrclean",
+    "href": "/en-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-related-navigation > div.menu-item > a.event_outbound_link",
+    "x": 202,
+    "y": 3253,
+    "w": 54,
+    "h": 18,
+    "text": "downy",
+    "href": "/en-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-related-navigation > div.menu-item > a.event_outbound_link",
+    "x": 271,
+    "y": 3253,
+    "w": 58,
+    "h": 18,
+    "text": "bounce",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-related-navigation > div.menu-item > a.event_outbound_link",
+    "x": 15,
+    "y": 3285,
+    "w": 110,
+    "h": 18,
+    "text": "p&g everyday",
+    "href": "/tag/tide"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.footer-icons > div > a.footer-icon",
+    "x": 18,
+    "y": 3355,
+    "w": 82,
+    "h": 68,
+    "text": "good housekeeping icon",
+    "href": "/product-reviews/history/welcome-gh-seal"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.footer-icon > picture > img",
+    "x": 18,
+    "y": 3355,
+    "w": 82,
+    "h": 62,
+    "text": "good housekeeping icon",
+    "file": "footer_GoodHousekeeping"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.footer-icons > div > a.footer-icon",
+    "x": 130,
+    "y": 3355,
+    "w": 38,
+    "h": 68,
+    "text": "bbb icon",
+    "href": "/cincinnati/business-reviews/detergent/the-procter-gamble-company-in-cincinnati-oh-3036"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.footer-icon > picture > img",
+    "x": 130,
+    "y": 3355,
+    "w": 38,
+    "h": 62,
+    "text": "bbb icon",
+    "file": "footer_BBB"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.footer-icons > div > a.footer-icon",
+    "x": 198,
+    "y": 3355,
+    "w": 58,
+    "h": 68,
+    "text": "junk food icon",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.footer-icon > picture > img",
+    "x": 198,
+    "y": 3355,
+    "w": 58,
+    "h": 62,
+    "text": "junk food icon",
+    "file": "footer_JunkFood"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.footer-icons > div > a.footer-icon",
+    "x": 286,
+    "y": 3355,
+    "w": 56,
+    "h": 68,
+    "text": "tide cleaners icon",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.footer-icon > picture > img",
+    "x": 286,
+    "y": 3355,
+    "w": 56,
+    "h": 62,
+    "text": "tide cleaners icon",
+    "file": "footer_TideCleaners"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > a.event_outbound_link",
+    "x": 15,
+    "y": 3475,
+    "w": 179,
+    "h": 18,
+    "text": "accessibility statement",
+    "href": "/en-US"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > a.event_outbound_link",
+    "x": 15,
+    "y": 3507,
+    "w": 150,
+    "h": 18,
+    "text": "terms & conditions",
+    "href": "/en-us/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > a.event_menu_click",
+    "x": 15,
+    "y": 3539,
+    "w": 279,
+    "h": 18,
+    "text": "tide rewards terms and conditions",
+    "href": "/en-us/rewards/loyalty/terms-and-conditions"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > a.event_outbound_link",
+    "x": 15,
+    "y": 3571,
+    "w": 60,
+    "h": 18,
+    "text": "careers",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > a.event_outbound_link",
+    "x": 90,
+    "y": 3571,
+    "w": 56,
+    "h": 18,
+    "text": "privacy",
+    "href": "/en-US/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > a.event_outbound_link",
+    "x": 15,
+    "y": 3603,
+    "w": 287,
+    "h": 18,
+    "text": "consumer health data privacy policy",
+    "href": "/CHD-en"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > a.event_outbound_link.with-ccpa-logo",
+    "x": 15,
+    "y": 3635,
+    "w": 187,
+    "h": 18,
+    "text": "your privacy choices",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > span",
+    "x": 15,
+    "y": 3667,
+    "w": 276,
+    "h": 50,
+    "text": "NOTICE: We may sell your sensitive personal data."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.copyright > div.self-center.font-medium",
+    "x": 15,
+    "y": 3820,
+    "w": 199,
+    "h": 32,
+    "text": "© 2026 Procter & Gamble"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.footer-general-navigation > div.menu-item > a.event_menu_click",
+    "x": 15,
+    "y": 3902,
+    "w": 64,
+    "h": 32,
+    "text": "sitemap",
+    "href": "/en-us/sitemap"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 1,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 98,
+    "controls": 63,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "CONTROL COLLAPSED",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div#page-wrapper",
+     "path": "div#__next > div#page-wrapper > header#site-header > a.skip-to-content-link",
+     "text": "skip to content",
+     "cutMin": null,
+     "cutMax": null
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--5db7d055--aemcoder.aem.page/en-us/shop",
+  "at": "2026-11-24T11:42:57.667Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 4014,
+  "root": "main#site-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header.block > div#site-header > a.skip-to-content-link",
+    "x": 119,
+    "y": -44,
+    "w": 122,
+    "h": 44,
+    "text": "skip to content",
+    "href": "/en-us/shop"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.searchbar-row > button.burger",
+    "x": 20,
+    "y": 18,
+    "w": 30,
+    "h": 26,
+    "text": "navigation menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.searchbar-row > button.burger",
+    "x": 20,
+    "y": 18,
+    "w": 30,
+    "h": 26,
+    "label": "navigation menu",
+    "value": "navigation menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-logo > p > a",
+    "x": 157,
+    "y": 7,
+    "w": 47,
+    "h": 47,
+    "text": "tide logo",
+    "href": "/en-us"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 157,
+    "y": 7,
+    "w": 47,
+    "h": 47,
+    "text": "tide logo",
+    "file": "media_1657180466c60da96dcbb2d8123d7c9b94"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "form > div.input-wrap > button",
+    "x": 310,
+    "y": 15,
+    "w": 30,
+    "h": 30,
+    "text": "submit search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav > ul > li",
+    "x": 15,
+    "y": 92,
+    "w": 140,
+    "h": 22,
+    "label": "current",
+    "value": "shop products",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav > ul > li",
+    "x": 15,
+    "y": 92,
+    "w": 140,
+    "h": 22,
+    "text": "Shop Products"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.plp-title-bar-row > div.plp-title-bar-heading > h1#shop-tide-products",
+    "x": 15,
+    "y": 156,
+    "w": 157,
+    "h": 108,
+    "level": 1,
+    "text": "shop tide products"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.plp-title-bar-heading > h1#shop-tide-products > p",
+    "x": 15,
+    "y": 156,
+    "w": 157,
+    "h": 108,
+    "text": "Shop"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.container > div.plp-title-bar-row > div.plp-title-bar-action",
+    "x": 172,
+    "y": 156,
+    "w": 173,
+    "h": 108,
+    "text": "browse other products"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.container > div.product-grid-actions > div.product-grid-count",
+    "x": 15,
+    "y": 302,
+    "w": 165,
+    "h": 26,
+    "text": "48 Products"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.container > div.product-grid-actions > div.product-grid-count",
+    "x": 15,
+    "y": 302,
+    "w": 165,
+    "h": 26,
+    "label": "count product",
+    "value": "48",
+    "via": "count"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-grid-controls > div.product-grid-sort > span",
+    "x": 213,
+    "y": 293,
+    "w": 57,
+    "h": 18,
+    "text": "Sort by:"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-grid-sort > label.product-grid-select > select",
+    "x": 213,
+    "y": 315,
+    "w": 132,
+    "h": 26,
+    "label": "sort products by",
+    "value": "popularity",
+    "via": "select"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-grid-card > div.product-grid-image > a.product-grid-image-link",
+    "x": 15,
+    "y": 362,
+    "w": 110,
+    "h": 110,
+    "text": "pack of tide evo laundry detergent tiles, original scent",
+    "href": "/en-us/shop/type/laundry-tiles/tide-evo-laundry-detergent-tiles-original"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.product-grid-image-link > picture > img",
+    "x": 15,
+    "y": 362,
+    "w": 110,
+    "h": 110,
+    "text": "pack of tide evo laundry detergent tiles, original scent",
+    "file": "media_1eef74a8700fe482609d89d96c628c3047"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-grid-content > div.product-grid-title > a.product-grid-title-link",
+    "x": 125,
+    "y": 381,
+    "w": 220,
+    "h": 41,
+    "text": "tide evo laundry detergent tiles, original scent",
+    "href": "/en-us/shop/type/laundry-tiles/tide-evo-laundry-detergent-tiles-original"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-grid-rating > span.product-grid-rating-count > p",
+    "x": 218,
+    "y": 433,
+    "w": 37,
+    "h": 16,
+    "text": "( 790 )"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-grid-item.product > div.product-grid-card > div.product-grid-cta",
+    "x": 89,
+    "y": 487,
+    "w": 182,
+    "h": 34,
+    "text": "find retailers"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-grid-card > div.product-grid-image > a.product-grid-image-link",
+    "x": 15,
+    "y": 562,
+    "w": 110,
+    "h": 110,
+    "text": "bottle of tide original scent liquid laundry detergent",
+    "href": "/en-us/shop/type/liquid/tide-original-liquid"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.product-grid-image-link > picture > img",
+    "x": 15,
+    "y": 562,
+    "w": 110,
+    "h": 110,
+    "text": "bottle of tide original scent liquid laundry detergent",
+    "file": "media_1cbbf3cc9fae0c1b3a17cfeec582433bb5"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-grid-content > div.product-grid-title > a.product-grid-title-link",
+    "x": 125,
+    "y": 581,
+    "w": 220,
+    "h": 41,
+    "text": "tide original liquid laundry detergent",
+    "href": "/en-us/shop/type/liquid/tide-original-liquid"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-grid-rating > span.product-grid-rating-count > p",
+    "x": 218,
+    "y": 633,
+    "w": 45,
+    "h": 16,
+    "text": "( 3206 )"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-grid-item.product > div.product-grid-card > div.product-grid-cta",
+    "x": 89,
+    "y": 687,
+    "w": 182,
+    "h": 34,
+    "text": "find retailers"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-grid-card > div.product-grid-image > a.product-grid-image-link",
+    "x": 15,
+    "y": 762,
+    "w": 110,
+    "h": 110,
+    "text": "tide oxi boost power pods®",
+    "href": "/en-us/shop/type/laundry-pods/tide-oxi-boost-power-pods"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.product-grid-image-link > picture > img",
+    "x": 15,
+    "y": 762,
+    "w": 110,
+    "h": 110,
+    "text": "tide oxi boost power pods®",
+    "file": "media_1f85c872f47bba47058daf13dfd0d296fe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-grid-content > div.product-grid-title > a.product-grid-title-link",
+    "x": 125,
+    "y": 781,
+    "w": 220,
+    "h": 41,
+    "text": "tide oxi boost power pods®",
+    "href": "/en-us/shop/type/laundry-pods/tide-oxi-boost-power-pods"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-grid-rating > span.product-grid-rating-count > p",
+    "x": 218,
+    "y": 833,
+    "w": 41,
+    "h": 16,
+    "text": "( 1842 )"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-grid-item.product > div.product-grid-card > div.product-grid-cta",
+    "x": 89,
+    "y": 887,
+    "w": 182,
+    "h": 34,
+    "text": "find retailers"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-grid-card > div.product-grid-image > a.product-grid-image-link",
+    "x": 15,
+    "y": 962,
+    "w": 110,
+    "h": 110,
+    "text": "tide free and gentle liquid laundry detergent - 92 ounces, color white",
+    "href": "/en-us/shop/type/liquid/tide-free-and-gentle-liquid"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.product-grid-image-link > picture > img",
+    "x": 15,
+    "y": 962,
+    "w": 110,
+    "h": 110,
+    "text": "tide free and gentle liquid laundry detergent - 92 ounces, c",
+    "file": "media_1623249f47b89a57563ed0157418304ae5"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-grid-content > div.product-grid-title > a.product-grid-title-link",
+    "x": 125,
+    "y": 981,
+    "w": 220,
+    "h": 41,
+    "text": "tide free and gentle liquid laundry detergent",
+    "href": "/en-us/shop/type/liquid/tide-free-and-gentle-liquid"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-grid-rating > span.product-grid-rating-count > p",
+    "x": 218,
+    "y": 1033,
+    "w": 39,
+    "h": 16,
+    "text": "( 1106 )"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-grid-item.product > div.product-grid-card > div.product-grid-cta",
+    "x": 89,
+    "y": 1087,
+    "w": 182,
+    "h": 34,
+    "text": "find retailers"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-grid-card > div.product-grid-image > a.product-grid-image-link",
+    "x": 15,
+    "y": 1162,
+    "w": 110,
+    "h": 110,
+    "text": "tide pods® laundry detergent original scent - 16 count, color orange",
+    "href": "/en-us/shop/type/laundry-pods/tide-pods-laundry-detergent"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.product-grid-image-link > picture > img",
+    "x": 15,
+    "y": 1162,
+    "w": 110,
+    "h": 110,
+    "text": "tide pods® laundry detergent original scent - 16 count, colo",
+    "file": "media_16f3b1cf9309e89460d4d733577bb65dfb"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-grid-content > div.product-grid-title > a.product-grid-title-link",
+    "x": 125,
+    "y": 1181,
+    "w": 220,
+    "h": 41,
+    "text": "tide pods® laundry detergent original scent",
+    "href": "/en-us/shop/type/laundry-pods/tide-pods-laundry-detergent"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-grid-rating > span.product-grid-rating-count > p",
+    "x": 218,
+    "y": 1233,
+    "w": 45,
+    "h": 16,
+    "text": "( 4650 )"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-grid-item.product > div.product-grid-card > div.product-grid-cta",
+    "x": 89,
+    "y": 1287,
+    "w": 182,
+    "h": 34,
+    "text": "find retailers"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-grid-card > div.product-grid-image > a.product-grid-image-link",
+    "x": 15,
+    "y": 1362,
+    "w": 110,
+    "h": 110,
+    "text": "tide ultra oxi power pods® with odor eliminators",
+    "href": "/en-us/shop/type/laundry-pods/tide-power-pods-oxi-with-odor-eliminators"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.product-grid-image-link > picture > img",
+    "x": 15,
+    "y": 1362,
+    "w": 110,
+    "h": 110,
+    "text": "tide ultra oxi power pods® with odor eliminators",
+    "file": "media_14f733b261c280439a788a95bb5f76fe8f"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-grid-content > div.product-grid-title > a.product-grid-title-link",
+    "x": 125,
+    "y": 1371,
+    "w": 220,
+    "h": 61,
+    "text": "tide ultra oxi power pods® with odor eliminators",
+    "href": "/en-us/shop/type/laundry-pods/tide-power-pods-oxi-with-odor-eliminators"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-grid-rating > span.product-grid-rating-count > p",
+    "x": 218,
+    "y": 1443,
+    "w": 32,
+    "h": 16,
+    "text": "( 318 )"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-grid-item.product > div.product-grid-card > div.product-grid-cta",
+    "x": 89,
+    "y": 1487,
+    "w": 182,
+    "h": 34,
+    "text": "find retailers"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-grid-card > div.product-grid-image > a.product-grid-image-link",
+    "x": 15,
+    "y": 1562,
+    "w": 110,
+    "h": 110,
+    "text": "tide pods® laundry detergent spring meadow scent",
+    "href": "/en-us/shop/type/laundry-pods/tide-pods-spring-meadow-scent"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.product-grid-image-link > picture > img",
+    "x": 15,
+    "y": 1562,
+    "w": 110,
+    "h": 110,
+    "text": "tide pods® laundry detergent spring meadow scent",
+    "file": "media_1c0e093d075e3858b1651accfb987dc244"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-grid-content > div.product-grid-title > a.product-grid-title-link",
+    "x": 125,
+    "y": 1571,
+    "w": 220,
+    "h": 62,
+    "text": "tide pods® laundry detergent spring meadow scent",
+    "href": "/en-us/shop/type/laundry-pods/tide-pods-spring-meadow-scent"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-grid-rating > span.product-grid-rating-count > p",
+    "x": 218,
+    "y": 1644,
+    "w": 36,
+    "h": 16,
+    "text": "( 550 )"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-grid-item.product > div.product-grid-card > div.product-grid-cta",
+    "x": 89,
+    "y": 1686,
+    "w": 182,
+    "h": 34,
+    "text": "find retailers"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-grid-card > div.product-grid-image > a.product-grid-image-link",
+    "x": 15,
+    "y": 1761,
+    "w": 110,
+    "h": 110,
+    "text": "tide ultra oxi high efficiency liquid laundry detergent",
+    "href": "/en-us/shop/type/liquid/tide-ultra-oxi-he-liquid"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.product-grid-image-link > picture > img",
+    "x": 15,
+    "y": 1761,
+    "w": 110,
+    "h": 110,
+    "text": "tide ultra oxi high efficiency liquid laundry detergent",
+    "file": "media_1e2d5643539eb3f3f1ba07ffc88dd5e216"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-grid-content > div.product-grid-title > a.product-grid-title-link",
+    "x": 125,
+    "y": 1771,
+    "w": 220,
+    "h": 61,
+    "text": "tide ultra oxi boost high efficiency liquid laundry detergent",
+    "href": "/en-us/shop/type/liquid/tide-ultra-oxi-he-liquid"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-grid-rating > span.product-grid-rating-count > p",
+    "x": 218,
+    "y": 1843,
+    "w": 36,
+    "h": 16,
+    "text": "( 452 )"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-grid-item.product > div.product-grid-card > div.product-grid-cta",
+    "x": 89,
+    "y": 1886,
+    "w": 182,
+    "h": 34,
+    "text": "find retailers"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-grid-card > div.product-grid-image > a.product-grid-image-link",
+    "x": 15,
+    "y": 1961,
+    "w": 110,
+    "h": 110,
+    "text": "tide plus a touch of downy liquid laundry detergent",
+    "href": "/en-us/shop/type/liquid/tide-plus-a-touch-of-downy-liquid"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.product-grid-image-link > picture > img",
+    "x": 15,
+    "y": 1961,
+    "w": 110,
+    "h": 110,
+    "text": "tide plus a touch of downy liquid laundry detergent",
+    "file": "media_140205d0b1bd8d7f019f6df54b1cbc50ca"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-grid-content > div.product-grid-title > a.product-grid-title-link",
+    "x": 125,
+    "y": 1981,
+    "w": 220,
+    "h": 41,
+    "text": "tide plus a touch of downy liquid laundry detergent",
+    "href": "/en-us/shop/type/liquid/tide-plus-a-touch-of-downy-liquid"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-grid-rating > span.product-grid-rating-count > p",
+    "x": 218,
+    "y": 2033,
+    "w": 32,
+    "h": 16,
+    "text": "( 271 )"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-grid-item.product > div.product-grid-card > div.product-grid-cta",
+    "x": 89,
+    "y": 2086,
+    "w": 182,
+    "h": 34,
+    "text": "find retailers"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-grid.block > div.container > button.product-grid-more",
+    "x": 15,
+    "y": 2211,
+    "w": 330,
+    "h": 42,
+    "text": "load more products"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.footer-social-label > p",
+    "x": 15,
+    "y": 2373,
+    "w": 242,
+    "h": 19,
+    "text": "Ways to connect with us:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 2412,
+    "w": 32,
+    "h": 32,
+    "text": "facebook icon",
+    "href": "/Tide"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 15,
+    "y": 2412,
+    "w": 32,
+    "h": 32,
+    "text": "facebook icon",
+    "file": "media_1bff7d59c4067314b47f0571184d0ed529"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 62,
+    "y": 2412,
+    "w": 32,
+    "h": 32,
+    "text": "twitter icon",
+    "href": "/tide"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 62,
+    "y": 2412,
+    "w": 32,
+    "h": 32,
+    "text": "twitter icon",
+    "file": "media_1d4bf414ff3eeeb8a169b214b0c8bbf72a"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 109,
+    "y": 2412,
+    "w": 32,
+    "h": 32,
+    "text": "pinterest icon",
+    "href": "/tide/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 109,
+    "y": 2412,
+    "w": 32,
+    "h": 32,
+    "text": "pinterest icon",
+    "file": "media_18cdbba8bc0f0f7a172257ff84fa5200d5"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 156,
+    "y": 2412,
+    "w": 32,
+    "h": 32,
+    "text": "youtube icon",
+    "href": "/channel/UCEPeWPjaF1CWCKXa3xTp7vw"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 156,
+    "y": 2412,
+    "w": 32,
+    "h": 32,
+    "text": "youtube icon",
+    "file": "media_11266d14e9b1e9a4b88cdddb13b60dadbd"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col > div.footer-nav-title > p",
+    "x": 15,
+    "y": 2504,
+    "w": 330,
+    "h": 51,
+    "text": "Shop Products"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > div.expandable > div.expandable-header",
+    "x": 15,
+    "y": 2597,
+    "w": 330,
+    "h": 24,
+    "level": 4,
+    "text": "by type"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > div.expandable > div.expandable-header",
+    "x": 15,
+    "y": 2681,
+    "w": 330,
+    "h": 24,
+    "level": 4,
+    "text": "by need"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > div.expandable > div.expandable-header",
+    "x": 15,
+    "y": 2765,
+    "w": 330,
+    "h": 24,
+    "level": 4,
+    "text": "top collection"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col.col-md-6 > div.footer-nav-title > p",
+    "x": 15,
+    "y": 2857,
+    "w": 330,
+    "h": 51,
+    "text": "How to Wash Clothes"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 2925,
+    "w": 177,
+    "h": 18,
+    "text": "how to remove stains",
+    "href": "/en-us/how-to-wash-clothes/how-to-remove-stains"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 2957,
+    "w": 153,
+    "h": 18,
+    "text": "how to do laundry",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 2989,
+    "w": 289,
+    "h": 18,
+    "text": "washing different fabrics and colors",
+    "href": "/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 3021,
+    "w": 163,
+    "h": 18,
+    "text": "washing machine 101",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col.col-md-6 > div.footer-nav-title > p",
+    "x": 15,
+    "y": 3086,
+    "w": 330,
+    "h": 51,
+    "text": "Help & Support"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 3154,
+    "w": 85,
+    "h": 18,
+    "text": "contact us",
+    "href": "/en-us/contact-us"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col.footer-related > div.footer-related-label > p",
+    "x": 15,
+    "y": 3250,
+    "w": 81,
+    "h": 24,
+    "text": "Related:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 3283,
+    "w": 93,
+    "h": 18,
+    "text": "p&g brands",
+    "href": "/en_US"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 123,
+    "y": 3283,
+    "w": 64,
+    "h": 18,
+    "text": "mrclean",
+    "href": "/en-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 202,
+    "y": 3283,
+    "w": 54,
+    "h": 18,
+    "text": "downy",
+    "href": "/en-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 271,
+    "y": 3283,
+    "w": 58,
+    "h": 18,
+    "text": "bounce",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 3315,
+    "w": 110,
+    "h": 18,
+    "text": "p&g everyday",
+    "href": "/tag/tide"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 18,
+    "y": 3434,
+    "w": 82,
+    "h": 16,
+    "text": "good housekeeping icon",
+    "href": "/product-reviews/history/welcome-gh-seal"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 18,
+    "y": 3385,
+    "w": 82,
+    "h": 62,
+    "text": "good housekeeping icon",
+    "file": "media_1915c270d4d20b18fb25a1cc6c49da3f7d"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 130,
+    "y": 3434,
+    "w": 38,
+    "h": 16,
+    "text": "bbb icon",
+    "href": "/cincinnati/business-reviews/detergent/the-procter-gamble-company-in-cincinnati-oh-3036"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 130,
+    "y": 3385,
+    "w": 38,
+    "h": 62,
+    "text": "bbb icon",
+    "file": "media_152462ed6c7d03edb0c9b2df4a3225edd6"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 198,
+    "y": 3434,
+    "w": 58,
+    "h": 16,
+    "text": "junk food icon",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 198,
+    "y": 3385,
+    "w": 58,
+    "h": 62,
+    "text": "junk food icon",
+    "file": "media_174cf4b58ab063651ffe4f10a66e62cdaf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 286,
+    "y": 3434,
+    "w": 56,
+    "h": 16,
+    "text": "tide cleaners icon",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 286,
+    "y": 3385,
+    "w": 56,
+    "h": 62,
+    "text": "tide cleaners icon",
+    "file": "media_124ea7973b6834e8157f4329ff2eee77c6"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 3505,
+    "w": 179,
+    "h": 18,
+    "text": "accessibility statement",
+    "href": "/en-US"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 3537,
+    "w": 150,
+    "h": 18,
+    "text": "terms & conditions",
+    "href": "/en-us/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 3569,
+    "w": 279,
+    "h": 18,
+    "text": "tide rewards terms and conditions",
+    "href": "/en-us/rewards/loyalty/terms-and-conditions"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 3601,
+    "w": 60,
+    "h": 18,
+    "text": "careers",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 90,
+    "y": 3601,
+    "w": 56,
+    "h": 18,
+    "text": "privacy",
+    "href": "/en-US/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 3633,
+    "w": 287,
+    "h": 18,
+    "text": "consumer health data privacy policy",
+    "href": "/CHD-en"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 3665,
+    "w": 187,
+    "h": 18,
+    "text": "your privacy choices",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > span",
+    "x": 15,
+    "y": 3697,
+    "w": 276,
+    "h": 50,
+    "text": "NOTICE: We may sell your sensitive personal data."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col.footer-general > ul > li",
+    "x": 15,
+    "y": 3850,
+    "w": 199,
+    "h": 32,
+    "text": "© 2026 Procter & Gamble"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 3932,
+    "w": 64,
+    "h": 32,
+    "text": "sitemap",
+    "href": "/en-us/sitemap"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 97,
+    "controls": 60,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "shop tide products",
+   "variable": false,
+   "origin": {
+    "link": 18,
+    "button": 11,
+    "text": 12,
+    "image": 9
+   },
+   "eds": {
+    "link": 18,
+    "linkHidden": 0,
+    "button": 11,
+    "buttonHidden": 0,
+    "text": 12,
+    "textHidden": 0,
+    "image": 9,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 15,
+    "y": 92,
+    "w": 140,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 155,
+    "w": 80,
+    "h": 37
+   },
+   {
+    "x": 15,
+    "y": 190,
+    "w": 72,
+    "h": 39
+   },
+   {
+    "x": 15,
+    "y": 226,
+    "w": 149,
+    "h": 39
+   },
+   {
+    "x": 221,
+    "y": 176,
+    "w": 75,
+    "h": 24
+   },
+   {
+    "x": 232,
+    "y": 198,
+    "w": 54,
+    "h": 24
+   },
+   {
+    "x": 214,
+    "y": 220,
+    "w": 90,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 301,
+    "w": 137,
+    "h": 28
+   },
+   {
+    "x": 213,
+    "y": 293,
+    "w": 57,
+    "h": 18
+   },
+   {
+    "x": 125,
+    "y": 382,
+    "w": 217,
+    "h": 18
+   },
+   {
+    "x": 125,
+    "y": 402,
+    "w": 43,
+    "h": 18
+   },
+   {
+    "x": 168,
+    "y": 402,
+    "w": 111,
+    "h": 19
+   },
+   {
+    "x": 218,
+    "y": 433,
+    "w": 6,
+    "h": 16
+   },
+   {
+    "x": 224,
+    "y": 433,
+    "w": 26,
+    "h": 16
+   },
+   {
+    "x": 249,
+    "y": 433,
+    "w": 6,
+    "h": 16
+   },
+   {
+    "x": 119,
+    "y": 493,
+    "w": 122,
+    "h": 21
+   },
+   {
+    "x": 125,
+    "y": 582,
+    "w": 38,
+    "h": 18
+   },
+   {
+    "x": 163,
+    "y": 582,
+    "w": 62,
+    "h": 19
+   },
+   {
+    "x": 225,
+    "y": 582,
+    "w": 52,
+    "h": 18
+   },
+   {
+    "x": 125,
+    "y": 603,
+    "w": 146,
+    "h": 18
+   },
+   {
+    "x": 218,
+    "y": 633,
+    "w": 6,
+    "h": 16
+   },
+   {
+    "x": 224,
+    "y": 633,
+    "w": 33,
+    "h": 16
+   },
+   {
+    "x": 257,
+    "y": 633,
+    "w": 6,
+    "h": 16
+   },
+   {
+    "x": 119,
+    "y": 693,
+    "w": 122,
+    "h": 21
+   },
+   {
+    "x": 125,
+    "y": 782,
+    "w": 38,
+    "h": 18
+   },
+   {
+    "x": 163,
+    "y": 782,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 243,
+    "y": 782,
+    "w": 55,
+    "h": 18
+   },
+   {
+    "x": 125,
+    "y": 803,
+    "w": 52,
+    "h": 18
+   },
+   {
+    "x": 218,
+    "y": 833,
+    "w": 6,
+    "h": 16
+   },
+   {
+    "x": 224,
+    "y": 833,
+    "w": 29,
+    "h": 16
+   },
+   {
+    "x": 253,
+    "y": 833,
+    "w": 6,
+    "h": 16
+   },
+   {
+    "x": 119,
+    "y": 893,
+    "w": 122,
+    "h": 21
+   },
+   {
+    "x": 125,
+    "y": 982,
+    "w": 38,
+    "h": 18
+   },
+   {
+    "x": 163,
+    "y": 982,
+    "w": 127,
+    "h": 19
+   },
+   {
+    "x": 289,
+    "y": 982,
+    "w": 52,
+    "h": 18
+   },
+   {
+    "x": 125,
+    "y": 1003,
+    "w": 146,
+    "h": 18
+   },
+   {
+    "x": 218,
+    "y": 1033,
+    "w": 6,
+    "h": 16
+   },
+   {
+    "x": 224,
+    "y": 1033,
+    "w": 27,
+    "h": 16
+   },
+   {
+    "x": 251,
+    "y": 1033,
+    "w": 6,
+    "h": 16
+   },
+   {
+    "x": 119,
+    "y": 1093,
+    "w": 122,
+    "h": 21
+   },
+   {
+    "x": 125,
+    "y": 1182,
+    "w": 158,
+    "h": 18
+   },
+   {
+    "x": 125,
+    "y": 1202,
+    "w": 83,
+    "h": 18
+   },
+   {
+    "x": 208,
+    "y": 1202,
+    "w": 111,
+    "h": 19
+   },
+   {
+    "x": 218,
+    "y": 1233,
+    "w": 6,
+    "h": 16
+   },
+   {
+    "x": 224,
+    "y": 1233,
+    "w": 34,
+    "h": 16
+   },
+   {
+    "x": 258,
+    "y": 1233,
+    "w": 6,
+    "h": 16
+   },
+   {
+    "x": 119,
+    "y": 1293,
+    "w": 122,
+    "h": 21
+   },
+   {
+    "x": 125,
+    "y": 1372,
+    "w": 38,
+    "h": 18
+   },
+   {
+    "x": 163,
+    "y": 1372,
+    "w": 72,
+    "h": 19
+   },
+   {
+    "x": 234,
+    "y": 1372,
+    "w": 55,
+    "h": 18
+   },
+   {
+    "x": 125,
+    "y": 1393,
+    "w": 135,
+    "h": 18
+   },
+   {
+    "x": 125,
+    "y": 1413,
+    "w": 85,
+    "h": 18
+   },
+   {
+    "x": 218,
+    "y": 1443,
+    "w": 6,
+    "h": 16
+   },
+   {
+    "x": 224,
+    "y": 1443,
+    "w": 21,
+    "h": 16
+   },
+   {
+    "x": 245,
+    "y": 1443,
+    "w": 6,
+    "h": 16
+   },
+   {
+    "x": 119,
+    "y": 1493,
+    "w": 122,
+    "h": 21
+   },
+   {
+    "x": 125,
+    "y": 1572,
+    "w": 158,
+    "h": 18
+   },
+   {
+    "x": 125,
+    "y": 1592,
+    "w": 83,
+    "h": 18
+   },
+   {
+    "x": 208,
+    "y": 1592,
+    "w": 125,
+    "h": 19
+   },
+   {
+    "x": 125,
+    "y": 1613,
+    "w": 45,
+    "h": 19
+   },
+   {
+    "x": 218,
+    "y": 1644,
+    "w": 6,
+    "h": 16
+   },
+   {
+    "x": 224,
+    "y": 1644,
+    "w": 25,
+    "h": 16
+   },
+   {
+    "x": 249,
+    "y": 1644,
+    "w": 6,
+    "h": 16
+   },
+   {
+    "x": 119,
+    "y": 1692,
+    "w": 122,
+    "h": 21
+   },
+   {
+    "x": 125,
+    "y": 1772,
+    "w": 38,
+    "h": 18
+   },
+   {
+    "x": 163,
+    "y": 1772,
+    "w": 123,
+    "h": 19
+   },
+   {
+    "x": 286,
+    "y": 1772,
+    "w": 41,
+    "h": 18
+   },
+   {
+    "x": 125,
+    "y": 1793,
+    "w": 196,
+    "h": 18
+   },
+   {
+    "x": 125,
+    "y": 1813,
+    "w": 78,
+    "h": 18
+   },
+   {
+    "x": 218,
+    "y": 1843,
+    "w": 6,
+    "h": 16
+   },
+   {
+    "x": 224,
+    "y": 1843,
+    "w": 24,
+    "h": 16
+   },
+   {
+    "x": 248,
+    "y": 1843,
+    "w": 6,
+    "h": 16
+   },
+   {
+    "x": 119,
+    "y": 1892,
+    "w": 122,
+    "h": 21
+   },
+   {
+    "x": 125,
+    "y": 1982,
+    "w": 91,
+    "h": 18
+   },
+   {
+    "x": 216,
+    "y": 1982,
+    "w": 129,
+    "h": 19
+   },
+   {
+    "x": 125,
+    "y": 2003,
+    "w": 199,
+    "h": 18
+   },
+   {
+    "x": 218,
+    "y": 2033,
+    "w": 6,
+    "h": 16
+   },
+   {
+    "x": 224,
+    "y": 2033,
+    "w": 21,
+    "h": 16
+   },
+   {
+    "x": 245,
+    "y": 2033,
+    "w": 6,
+    "h": 16
+   },
+   {
+    "x": 119,
+    "y": 2092,
+    "w": 122,
+    "h": 21
+   },
+   {
+    "x": 79,
+    "y": 2220,
+    "w": 202,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 2340,
+    "w": 242,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 2473,
+    "w": 166,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 2567,
+    "w": 80,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 2651,
+    "w": 81,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 2735,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 2826,
+    "w": 239,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 2895,
+    "w": 177,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2927,
+    "w": 153,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2959,
+    "w": 289,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2991,
+    "w": 163,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3055,
+    "w": 172,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 3124,
+    "w": 85,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3220,
+    "w": 81,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 3253,
+    "w": 93,
+    "h": 18
+   },
+   {
+    "x": 123,
+    "y": 3253,
+    "w": 64,
+    "h": 18
+   },
+   {
+    "x": 202,
+    "y": 3253,
+    "w": 54,
+    "h": 18
+   },
+   {
+    "x": 271,
+    "y": 3253,
+    "w": 58,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3285,
+    "w": 110,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3475,
+    "w": 179,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3507,
+    "w": 150,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3539,
+    "w": 279,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3571,
+    "w": 60,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 3571,
+    "w": 56,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3603,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3635,
+    "w": 162,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3667,
+    "w": 276,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3699,
+    "w": 110,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3731,
+    "w": 258,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3763,
+    "w": 268,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3795,
+    "w": 88,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3827,
+    "w": 56,
+    "h": 18
+   },
+   {
+    "x": 71,
+    "y": 3827,
+    "w": 143,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3909,
+    "w": 64,
+    "h": 18
+   }
+  ],
+  "eds": [
+   {
+    "x": 127,
+    "y": -31,
+    "w": 106,
+    "h": 16
+   },
+   {
+    "x": 15,
+    "y": 92,
+    "w": 140,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 155,
+    "w": 80,
+    "h": 37
+   },
+   {
+    "x": 15,
+    "y": 190,
+    "w": 72,
+    "h": 39
+   },
+   {
+    "x": 15,
+    "y": 226,
+    "w": 149,
+    "h": 39
+   },
+   {
+    "x": 221,
+    "y": 176,
+    "w": 75,
+    "h": 24
+   },
+   {
+    "x": 232,
+    "y": 198,
+    "w": 54,
+    "h": 24
+   },
+   {
+    "x": 214,
+    "y": 220,
+    "w": 90,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 301,
+    "w": 137,
+    "h": 28
+   },
+   {
+    "x": 213,
+    "y": 293,
+    "w": 57,
+    "h": 18
+   },
+   {
+    "x": 125,
+    "y": 382,
+    "w": 217,
+    "h": 18
+   },
+   {
+    "x": 125,
+    "y": 402,
+    "w": 43,
+    "h": 18
+   },
+   {
+    "x": 168,
+    "y": 402,
+    "w": 111,
+    "h": 19
+   },
+   {
+    "x": 218,
+    "y": 433,
+    "w": 6,
+    "h": 16
+   },
+   {
+    "x": 224,
+    "y": 433,
+    "w": 26,
+    "h": 16
+   },
+   {
+    "x": 249,
+    "y": 433,
+    "w": 6,
+    "h": 16
+   },
+   {
+    "x": 119,
+    "y": 493,
+    "w": 122,
+    "h": 21
+   },
+   {
+    "x": 125,
+    "y": 582,
+    "w": 38,
+    "h": 18
+   },
+   {
+    "x": 163,
+    "y": 582,
+    "w": 62,
+    "h": 19
+   },
+   {
+    "x": 225,
+    "y": 582,
+    "w": 52,
+    "h": 18
+   },
+   {
+    "x": 125,
+    "y": 603,
+    "w": 146,
+    "h": 18
+   },
+   {
+    "x": 218,
+    "y": 633,
+    "w": 6,
+    "h": 16
+   },
+   {
+    "x": 224,
+    "y": 633,
+    "w": 33,
+    "h": 16
+   },
+   {
+    "x": 257,
+    "y": 633,
+    "w": 6,
+    "h": 16
+   },
+   {
+    "x": 119,
+    "y": 693,
+    "w": 122,
+    "h": 21
+   },
+   {
+    "x": 125,
+    "y": 782,
+    "w": 38,
+    "h": 18
+   },
+   {
+    "x": 163,
+    "y": 782,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 243,
+    "y": 782,
+    "w": 55,
+    "h": 18
+   },
+   {
+    "x": 125,
+    "y": 803,
+    "w": 52,
+    "h": 18
+   },
+   {
+    "x": 218,
+    "y": 833,
+    "w": 6,
+    "h": 16
+   },
+   {
+    "x": 224,
+    "y": 833,
+    "w": 29,
+    "h": 16
+   },
+   {
+    "x": 253,
+    "y": 833,
+    "w": 6,
+    "h": 16
+   },
+   {
+    "x": 119,
+    "y": 893,
+    "w": 122,
+    "h": 21
+   },
+   {
+    "x": 125,
+    "y": 982,
+    "w": 38,
+    "h": 18
+   },
+   {
+    "x": 163,
+    "y": 982,
+    "w": 127,
+    "h": 19
+   },
+   {
+    "x": 289,
+    "y": 982,
+    "w": 52,
+    "h": 18
+   },
+   {
+    "x": 125,
+    "y": 1003,
+    "w": 146,
+    "h": 18
+   },
+   {
+    "x": 218,
+    "y": 1033,
+    "w": 6,
+    "h": 16
+   },
+   {
+    "x": 224,
+    "y": 1033,
+    "w": 27,
+    "h": 16
+   },
+   {
+    "x": 251,
+    "y": 1033,
+    "w": 6,
+    "h": 16
+   },
+   {
+    "x": 119,
+    "y": 1093,
+    "w": 122,
+    "h": 21
+   },
+   {
+    "x": 125,
+    "y": 1182,
+    "w": 158,
+    "h": 18
+   },
+   {
+    "x": 125,
+    "y": 1202,
+    "w": 83,
+    "h": 18
+   },
+   {
+    "x": 208,
+    "y": 1202,
+    "w": 111,
+    "h": 19
+   },
+   {
+    "x": 218,
+    "y": 1233,
+    "w": 6,
+    "h": 16
+   },
+   {
+    "x": 224,
+    "y": 1233,
+    "w": 34,
+    "h": 16
+   },
+   {
+    "x": 258,
+    "y": 1233,
+    "w": 6,
+    "h": 16
+   },
+   {
+    "x": 119,
+    "y": 1293,
+    "w": 122,
+    "h": 21
+   },
+   {
+    "x": 125,
+    "y": 1372,
+    "w": 38,
+    "h": 18
+   },
+   {
+    "x": 163,
+    "y": 1372,
+    "w": 72,
+    "h": 19
+   },
+   {
+    "x": 234,
+    "y": 1372,
+    "w": 55,
+    "h": 18
+   },
+   {
+    "x": 125,
+    "y": 1393,
+    "w": 135,
+    "h": 18
+   },
+   {
+    "x": 125,
+    "y": 1413,
+    "w": 85,
+    "h": 18
+   },
+   {
+    "x": 218,
+    "y": 1443,
+    "w": 6,
+    "h": 16
+   },
+   {
+    "x": 224,
+    "y": 1443,
+    "w": 21,
+    "h": 16
+   },
+   {
+    "x": 245,
+    "y": 1443,
+    "w": 6,
+    "h": 16
+   },
+   {
+    "x": 119,
+    "y": 1493,
+    "w": 122,
+    "h": 21
+   },
+   {
+    "x": 125,
+    "y": 1572,
+    "w": 158,
+    "h": 18
+   },
+   {
+    "x": 125,
+    "y": 1592,
+    "w": 83,
+    "h": 18
+   },
+   {
+    "x": 208,
+    "y": 1592,
+    "w": 125,
+    "h": 19
+   },
+   {
+    "x": 125,
+    "y": 1613,
+    "w": 45,
+    "h": 19
+   },
+   {
+    "x": 218,
+    "y": 1644,
+    "w": 6,
+    "h": 16
+   },
+   {
+    "x": 224,
+    "y": 1644,
+    "w": 25,
+    "h": 16
+   },
+   {
+    "x": 249,
+    "y": 1644,
+    "w": 6,
+    "h": 16
+   },
+   {
+    "x": 119,
+    "y": 1692,
+    "w": 122,
+    "h": 21
+   },
+   {
+    "x": 125,
+    "y": 1772,
+    "w": 38,
+    "h": 18
+   },
+   {
+    "x": 163,
+    "y": 1772,
+    "w": 123,
+    "h": 19
+   },
+   {
+    "x": 286,
+    "y": 1772,
+    "w": 41,
+    "h": 18
+   },
+   {
+    "x": 125,
+    "y": 1793,
+    "w": 196,
+    "h": 18
+   },
+   {
+    "x": 125,
+    "y": 1813,
+    "w": 78,
+    "h": 18
+   },
+   {
+    "x": 218,
+    "y": 1843,
+    "w": 6,
+    "h": 16
+   },
+   {
+    "x": 224,
+    "y": 1843,
+    "w": 24,
+    "h": 16
+   },
+   {
+    "x": 248,
+    "y": 1843,
+    "w": 6,
+    "h": 16
+   },
+   {
+    "x": 119,
+    "y": 1892,
+    "w": 122,
+    "h": 21
+   },
+   {
+    "x": 125,
+    "y": 1982,
+    "w": 91,
+    "h": 18
+   },
+   {
+    "x": 216,
+    "y": 1982,
+    "w": 129,
+    "h": 19
+   },
+   {
+    "x": 125,
+    "y": 2003,
+    "w": 199,
+    "h": 18
+   },
+   {
+    "x": 218,
+    "y": 2033,
+    "w": 6,
+    "h": 16
+   },
+   {
+    "x": 224,
+    "y": 2033,
+    "w": 21,
+    "h": 16
+   },
+   {
+    "x": 245,
+    "y": 2033,
+    "w": 6,
+    "h": 16
+   },
+   {
+    "x": 119,
+    "y": 2092,
+    "w": 122,
+    "h": 21
+   },
+   {
+    "x": 79,
+    "y": 2220,
+    "w": 202,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 2370,
+    "w": 242,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 2503,
+    "w": 166,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 2597,
+    "w": 80,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 2681,
+    "w": 81,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 2765,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 2856,
+    "w": 239,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 2925,
+    "w": 177,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2957,
+    "w": 153,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2989,
+    "w": 289,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3021,
+    "w": 163,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3085,
+    "w": 172,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 3154,
+    "w": 85,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3250,
+    "w": 81,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 3283,
+    "w": 93,
+    "h": 18
+   },
+   {
+    "x": 123,
+    "y": 3283,
+    "w": 64,
+    "h": 18
+   },
+   {
+    "x": 202,
+    "y": 3283,
+    "w": 54,
+    "h": 18
+   },
+   {
+    "x": 271,
+    "y": 3283,
+    "w": 58,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3315,
+    "w": 110,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3505,
+    "w": 179,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3537,
+    "w": 150,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3569,
+    "w": 279,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3601,
+    "w": 60,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 3601,
+    "w": 56,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3633,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3665,
+    "w": 162,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3697,
+    "w": 276,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3729,
+    "w": 110,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3761,
+    "w": 258,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3793,
+    "w": 268,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3825,
+    "w": 88,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3857,
+    "w": 199,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3939,
+    "w": 64,
+    "h": 18
+   }
+  ]
+ }
+}

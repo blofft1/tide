@@ -1,0 +1,177 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-us-shop-type-powder/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-us-shop-type-powder/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 4335,
+    "mode": "overlap"
+  },
+  "heightDelta": -60,
+  "differingPixels": 252024,
+  "pct": 4.04,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-1440/en-us-shop-type-powder/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 7.7,
+  "textBoxes": 128,
+  "textPixels": 456291,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.5
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.7
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 3.2
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0.2
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0.3
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 1.1
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 12.8
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 13.8
+    },
+    {
+      "y0": 4000,
+      "y1": 4335,
+      "pct": 3.5
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 1.75,
+    "differingPixels": 110667,
+    "compared": {
+      "width": 1440,
+      "height": 4397,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 896,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 1409,
+        "shift": -1,
+        "cumulative": 0
+      },
+      {
+        "y": 2447,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 3429,
+        "shift": 60,
+        "cumulative": 61
+      },
+      {
+        "y": 4158,
+        "shift": -1,
+        "cumulative": 60
+      }
+    ],
+    "maxOffset": 61,
+    "totalShift": 64,
+    "insertedRows": 62,
+    "deletedRows": 2,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.5,
+        "unaligned": 0.5
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.5,
+        "unaligned": 0.7
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0.6,
+        "unaligned": 3.2
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0.2,
+        "unaligned": 0.2
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0.5,
+        "unaligned": 0.3
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0.3,
+        "unaligned": 1.1
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 11.1,
+        "unaligned": 12.8
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0,
+        "unaligned": 13.8
+      },
+      {
+        "y0": 4000,
+        "y1": 4335,
+        "pct": 0.3,
+        "unaligned": 3.5
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/en-us-shop-type-powder/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 43,
+    "totalShift": 64,
+    "pass": false
+  },
+  "reason": "offsets: 5 step(s), 64px total — +1px at y=896, −1px at y=1409, +1px at y=2447, +60px at y=3429, −1px at y=4158 (bound 43px)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/powder"
+  }
+}

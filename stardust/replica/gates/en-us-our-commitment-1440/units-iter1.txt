@@ -1,0 +1,31 @@
+[live-session] waiting to pace live navigations to tide.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+unit-geometry @ 1440px, tol 4px — https://tide.com/en-us/our-commitment vs http://localhost:8791/en-us-our-commitment-proposed.html
+unit 1 of commitment-card (required) .our-commitment-small-articles .article-preview=.commitment-cards .preview: origin 150,1466 360×533 vs served 150,1467 360×533 → Δx 0 Δy +1 Δw 0 Δh 0; 6 elements: 6 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:picture#1" | 0,0 360×311 | 0,0 360×311 | 0 | 0 | 0 | 0 | ✓ |
+| image "tide boosted" | 0,0 360×311 | 0,0 360×311 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:div.article-preview-content#1" | 30,261 300×272 | 30,261 300×272 | 0 | 0 | 0 | 0 | ✓ |
+| link "less work, better clean*" | 55,291 250×75 | 55,291 250×75 | 0 | 0 | 0 | 0 | ✓ |
+| text "*vs. pretreating and washing with ti" | 55,371 250×75 | 55,371 250×75 | 0 | 0 | 0 | 0 | ✓ |
+| link "learn more" | 55,461 172×42 | 55,461 172×42 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of commitment-card (required) .our-commitment-small-articles .article-preview=.commitment-cards .preview: origin 540,1466 360×533 vs served 540,1467 360×533 → Δx 0 Δy +1 Δw 0 Δh 0; 6 elements: 6 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:picture#1" | 0,0 360×311 | 0,0 360×311 | 0 | 0 | 0 | 0 | ✓ |
+| image "tide evo" | 0,0 360×311 | 0,0 360×311 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:div.article-preview-content#1" | 30,261 300×272 | 30,261 300×272 | 0 | 0 | 0 | 0 | ✓ |
+| link "tide evo" | 55,291 250×75 | 55,291 250×75 | 0 | 0 | 0 | 0 | ✓ |
+| text "meet tide evo. detergent entirely ma" | 55,371 250×75 | 55,371 250×75 | 0 | 0 | 0 | 0 | ✓ |
+| link "learn more" | 55,461 172×42 | 55,461 172×42 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of commitment-card (required) .our-commitment-small-articles .article-preview=.commitment-cards .preview: origin 930,1466 360×548 vs served 930,1467 360×548 → Δx 0 Δy +1 Δw 0 Δh 0; 6 elements: 6 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:picture#1" | 0,0 360×311 | 0,0 360×311 | 0 | 0 | 0 | 0 | ✓ |
+| image "a box of tide pods capsules in front" | 0,0 360×311 | 0,0 360×311 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:div.article-preview-content#1" | 30,261 300×287 | 30,261 300×287 | 0 | 0 | 0 | 0 | ✓ |
+| link "don't pay for water, pay for clean" | 55,291 250×90 | 55,291 250×90 | 0 | 0 | 0 | 0 | ✓ |
+| text "tide pods® are formulated with 88% c" | 55,386 250×75 | 55,386 250×75 | 0 | 0 | 0 | 0 | ✓ |
+| link "learn more" | 55,476 172×42 | 55,476 172×42 | 0 | 0 | 0 | 0 | ✓ |
+Units: 3 compared; elements within 18, off 0, hidden 0, missing 0 → PASS
+json → stardust/replica/gates/en-us-our-commitment-1440/units-iter1.json

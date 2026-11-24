@@ -1,0 +1,3209 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:migrate",
+    "writtenAt": "2026-11-24T06:53:16Z",
+    "stardustVersion": "0.46.4"
+  },
+  "site": {
+    "originUrl": "https://tide.com",
+    "deployUrl": null,
+    "extractedAt": "2026-11-23T18:44:22.346Z",
+    "pageCap": 100,
+    "totalDiscovered": 464,
+    "crawled": 99,
+    "captureGaps": [
+      {
+        "root": "/en-us",
+        "slug": "en-us",
+        "linked": 48,
+        "uncaptured": [
+          "/en-us/our-commitment/ingredients-and-safety/home-safety-tips",
+          "/en-us/shop/special-needs/bright-colors",
+          "/en-us/shop/top-collections/tide-plus-downy",
+          "/en-us/shop/type/fabric-care",
+          "/en-us/shop/type/laundry-tiles/tide-evo-laundry-detergent-tiles-original"
+        ]
+      }
+    ],
+    "uncaptured": [
+      {
+        "url": "https://tide.com/en-us/loyalty",
+        "reason": "redirects to the account.tide.com login (auth wall); handled as a redirect",
+        "redirectTo": "https://account.tide.com/u/login"
+      }
+    ]
+  },
+  "direction": null,
+  "handsOff": true,
+  "flow": "replica",
+  "flowChosenAt": "2026-11-23T18:44:22.346Z",
+  "flowSource": "user-phrase",
+  "pages": [
+    {
+      "slug": "en-us-accessibility",
+      "url": "https://tide.com/en-us/accessibility",
+      "title": "P&G Accessibility Statement",
+      "type": "redirect",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:15:53.599Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-accessibility.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "redirectTo": "https://accessibility.pg.com/en-US/"
+    },
+    {
+      "slug": "en-us-click2cart-0060001",
+      "url": "https://tide.com/en-us/click2cart/0060001",
+      "title": "Click2Cart",
+      "type": "click2cart",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:18:09.182Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-23T23:30:44Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-23T23:43:28Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-click2cart-0060001.json",
+      "prototypePath": "stardust/prototypes/en-us-click2cart-0060001-proposed.html",
+      "migratedPath": "stardust/migrated/en-us/click2cart/0060001/index.html"
+    },
+    {
+      "slug": "en-us-click2cart-006000b",
+      "url": "https://tide.com/en-us/click2cart/006000B",
+      "title": "Click2Cart",
+      "type": "click2cart",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:18:20.219Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T06:44:03Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-click2cart-006000b.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-click2cart-006000h",
+      "url": "https://tide.com/en-us/click2cart/006000H",
+      "title": "Click2Cart",
+      "type": "click2cart",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:18:06.016Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T06:44:03Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-click2cart-006000h.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-click2cart-006000i",
+      "url": "https://tide.com/en-us/click2cart/006000I",
+      "title": "Click2Cart",
+      "type": "click2cart",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:18:06.017Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T06:44:03Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-click2cart-006000i.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-click2cart-006000p",
+      "url": "https://tide.com/en-us/click2cart/006000p",
+      "title": "Click2Cart",
+      "type": "click2cart",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:17:23.815Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T06:44:03Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-click2cart-006000p.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-click2cart-006000q",
+      "url": "https://tide.com/en-us/click2cart/006000Q",
+      "title": "Click2Cart",
+      "type": "click2cart",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:17:44.972Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T06:44:03Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-click2cart-006000q.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-click2cart-006000z",
+      "url": "https://tide.com/en-us/click2cart/006000Z",
+      "title": "Click2Cart",
+      "type": "click2cart",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:17:47.829Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T06:44:03Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-click2cart-006000z.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-click2cart-00600bt",
+      "url": "https://tide.com/en-us/click2cart/00600bt",
+      "title": "Click2Cart",
+      "type": "click2cart",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:17:43.164Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T06:44:03Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-click2cart-00600bt.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-contact-us",
+      "url": "https://tide.com/en-us/contact-us",
+      "title": "Laundry Detergent and Fabric Care Products - Tide",
+      "type": "unique",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:17:01.888Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-contact-us.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-coupons-and-rewards",
+      "url": "https://tide.com/en-us/coupons-and-rewards",
+      "title": "Laundry Detergent Pods Coupons and Rewards | Tide",
+      "type": "redirect",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:17:23.842Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-coupons-and-rewards.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "redirectTo": "https://tide.com/en-us/rewards"
+    },
+    {
+      "slug": "en-us-how-to-do-laundry-better-clean-safer",
+      "url": "https://tide.com/en-us/how-to-do-laundry/better-clean-safer",
+      "title": "Why a Better Clean Is Essential for a Safer Clean (Especially for Sensitive Skin) | Tide",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:18:51.053Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T04:26:01Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-how-to-do-laundry-better-clean-safer.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/en-us/how-to-do-laundry/better-clean-safer/index.html"
+    },
+    {
+      "slug": "en-us-how-to-do-laundry-detergent-residue-safety",
+      "url": "https://tide.com/en-us/how-to-do-laundry/detergent-residue-safety",
+      "title": "What’s Really on Your Clothes? The Truth About Detergent Residue and Safety | Tide",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:24:21.272Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T04:26:02Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-how-to-do-laundry-detergent-residue-safety.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/en-us/how-to-do-laundry/detergent-residue-safety/index.html"
+    },
+    {
+      "slug": "en-us-how-to-wash-clothes-effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry",
+      "url": "https://tide.com/en-us/how-to-wash-clothes/effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry",
+      "title": "Effective Stain and Odor Solutions with Tide: Your Guide to Fresh Laundry",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:18:48.443Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T04:26:03Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-how-to-wash-clothes-effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/en-us/how-to-wash-clothes/effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry/index.html"
+    },
+    {
+      "slug": "en-us-how-to-wash-clothes-how-to-do-laundry-about-tide-pods-pva-film",
+      "url": "https://tide.com/en-us/how-to-wash-clothes/how-to-do-laundry/about-tide-pods-pva-film",
+      "title": "Learn More About Tide PODs Innovative Water-Soluble Smart Film",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:25:16.741Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T04:26:04Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-how-to-wash-clothes-how-to-do-laundry-about-tide-pods-pva-film.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/en-us/how-to-wash-clothes/how-to-do-laundry/about-tide-pods-pva-film/index.html"
+    },
+    {
+      "slug": "en-us-how-to-wash-clothes-how-to-do-laundry",
+      "url": "https://tide.com/en-us/how-to-wash-clothes/how-to-do-laundry",
+      "title": "How to Do Laundry: Your Comprehensive Guide | Tide",
+      "type": "topic-hub",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:24:09.375Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-how-to-wash-clothes-how-to-do-laundry.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-how-to-wash-clothes-how-to-remove-stains-acne-cream-stains",
+      "url": "https://tide.com/en-us/how-to-wash-clothes/how-to-remove-stains/acne-cream-stains",
+      "title": "How to Remove Acne Cream Stains | Stain Removal - Tide",
+      "type": "unique",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:25:29.849Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-how-to-wash-clothes-how-to-remove-stains-acne-cream-stains.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-how-to-wash-clothes-how-to-remove-stains",
+      "url": "https://tide.com/en-us/how-to-wash-clothes/how-to-remove-stains",
+      "title": "How to Remove Stains - Stain Removal Guide | Tide",
+      "type": "topic-hub",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:24:01.112Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-23T23:21:31Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-23T23:43:28Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-how-to-wash-clothes-how-to-remove-stains.json",
+      "prototypePath": "stardust/prototypes/en-us-how-to-wash-clothes-how-to-remove-stains-proposed.html",
+      "migratedPath": "stardust/migrated/en-us/how-to-wash-clothes/how-to-remove-stains/index.html"
+    },
+    {
+      "slug": "en-us-how-to-wash-clothes-washing-different-fabrics-and-colors-everyday-items-to-wash-regularly",
+      "url": "https://tide.com/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors/everyday-items-to-wash-regularly",
+      "title": "12 Everyday Items You Should Wash Regularly | Tide",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:25:32.280Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T04:26:04Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-how-to-wash-clothes-washing-different-fabrics-and-colors-everyday-items-to-wash-regularly.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors/everyday-items-to-wash-regularly/index.html"
+    },
+    {
+      "slug": "en-us-how-to-wash-clothes-washing-different-fabrics-and-colors",
+      "url": "https://tide.com/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors",
+      "title": "How to Wash Different Fabrics & Colors - Fabric care | Tide",
+      "type": "topic-hub",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:23:45.445Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-how-to-wash-clothes-washing-different-fabrics-and-colors.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-how-to-wash-clothes-washing-machine-101-how-to-use-a-washing-machine",
+      "url": "https://tide.com/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine",
+      "title": "A Basic Guide to How to Use a Washing Machine | Tide",
+      "type": "topic-hub",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:25:41.548Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-how-to-wash-clothes-washing-machine-101-how-to-use-a-washing-machine.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-how-to-wash-clothes-washing-machine-101",
+      "url": "https://tide.com/en-us/how-to-wash-clothes/washing-machine-101",
+      "title": "How to Use a Washing Machine - Washer Care | Tide",
+      "type": "section-landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:23:40.420Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T06:53:16Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-how-to-wash-clothes-washing-machine-101.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-how-to-wash-clothes",
+      "url": "https://tide.com/en-us/how-to-wash-clothes",
+      "title": "How to Wash Clothes - Laundry Tips and Tricks | Tide",
+      "type": "section-landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:17:26.627Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T06:53:16Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-how-to-wash-clothes.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-latest-news",
+      "url": "https://tide.com/en-us/latest-news",
+      "title": "Discover Tide's Latest News | Tide",
+      "type": "unique",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:16:57.128Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-latest-news.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-our-commitment-americas-number-one-detergent-our-heritage",
+      "url": "https://tide.com/en-us/our-commitment/americas-number-one-detergent/our-heritage",
+      "title": "Our Heritage - Learn About Tide’s History | Tide",
+      "type": "unique",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:25:00.797Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-our-commitment-americas-number-one-detergent-our-heritage.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-our-commitment-americas-number-one-detergent",
+      "url": "https://tide.com/en-us/our-commitment/americas-number-one-detergent",
+      "title": "America's #1 Detergent - Liquid, PODS® and More | Tide",
+      "type": "section-landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:18:42.122Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T06:53:16Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-our-commitment-americas-number-one-detergent.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-our-commitment-dont-pay-for-water",
+      "url": "https://tide.com/en-us/our-commitment/dont-pay-for-water",
+      "title": "Tide PODS® | Don’t Pay for Water, Pay for Clean | Tide",
+      "type": "unique",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:23:26.757Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-our-commitment-dont-pay-for-water.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-our-commitment-ingredients-and-safety-all-about-tide-ingredients",
+      "url": "https://tide.com/en-us/our-commitment/ingredients-and-safety/all-about-tide-ingredients",
+      "title": "All About Tide Ingredients | Tide",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:24:42.443Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T04:26:05Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-our-commitment-ingredients-and-safety-all-about-tide-ingredients.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/en-us/our-commitment/ingredients-and-safety/all-about-tide-ingredients/index.html"
+    },
+    {
+      "slug": "en-us-our-commitment-ingredients-and-safety",
+      "url": "https://tide.com/en-us/our-commitment/ingredients-and-safety",
+      "title": "The Tide Clean You Can Trust | Tide",
+      "type": "section-landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:23:36.814Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T06:53:16Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-our-commitment-ingredients-and-safety.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-our-commitment-loads-of-hope",
+      "url": "https://tide.com/en-us/our-commitment/loads-of-hope",
+      "title": "Our Commitment - Learn More About The Brand | Tide",
+      "type": "redirect",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:22:18.469Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-our-commitment-loads-of-hope.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "redirectTo": "https://tide.com/en-us/our-commitment"
+    },
+    {
+      "slug": "en-us-our-commitment-pva-in-tide-pods",
+      "url": "https://tide.com/en-us/our-commitment/pva-in-tide-pods",
+      "title": "Polyvinyl Alcohol (PVA) in Tide PODS",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:22:30.046Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T04:26:05Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-our-commitment-pva-in-tide-pods.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/en-us/our-commitment/pva-in-tide-pods/index.html"
+    },
+    {
+      "slug": "en-us-our-commitment-superbowllx",
+      "url": "https://tide.com/en-us/our-commitment/superbowlLX",
+      "title": "NFL Gameday Clean: Stain Removal for Every Fan | Tide",
+      "type": "unique",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:22:30.077Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-our-commitment-superbowllx.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-our-commitment-sustainability-compaction",
+      "url": "https://tide.com/en-us/our-commitment/sustainability/compaction",
+      "title": "Compaction - Sustainability | Tide",
+      "type": "sustainability-topic",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:24:54.221Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-23T23:07:13Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-23T23:43:28Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T04:04:27Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-our-commitment-sustainability-compaction.json",
+      "prototypePath": "stardust/prototypes/en-us-our-commitment-sustainability-compaction-proposed.html",
+      "migratedPath": "stardust/migrated/en-us/our-commitment/sustainability/compaction/index.html"
+    },
+    {
+      "slug": "en-us-our-commitment-sustainability-materials",
+      "url": "https://tide.com/en-us/our-commitment/sustainability/materials",
+      "title": "Materials - Sustainability | Tide",
+      "type": "sustainability-topic",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:28:19.276Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T04:30:11Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-our-commitment-sustainability-materials.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-our-commitment-sustainability-saving-energy",
+      "url": "https://tide.com/en-us/our-commitment/sustainability/saving-energy",
+      "title": "How to Save Energy - Sustainability | Tide",
+      "type": "sustainability-topic",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:28:20.940Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T04:30:11Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-our-commitment-sustainability-saving-energy.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-our-commitment-sustainability",
+      "url": "https://tide.com/en-us/our-commitment/sustainability",
+      "title": "Our Commitment - Learn More About The Brand | Tide",
+      "type": "redirect",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:22:38.781Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-our-commitment-sustainability.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "redirectTo": "https://tide.com/en-us/our-commitment"
+    },
+    {
+      "slug": "en-us-our-commitment-tide-boosted",
+      "url": "https://tide.com/en-us/our-commitment/tide-boosted",
+      "title": "Fight Against Tough Stains with Tide Original Boosted | Tide",
+      "type": "unique",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:22:51.960Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-our-commitment-tide-boosted.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-our-commitment-tide-cleaners-laundry-service",
+      "url": "https://tide.com/en-us/our-commitment/tide-cleaners-laundry-service",
+      "title": "Tide Cleaners - 24/7 Dry Cleaning and Laundry Service | Tide",
+      "type": "unique",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:22:54.396Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-our-commitment-tide-cleaners-laundry-service.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-our-commitment-tide-evo",
+      "url": "https://tide.com/en-us/our-commitment/tide-evo",
+      "title": "Tide evo - Detergent Entirely Made of Clean | Tide",
+      "type": "unique",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:23:05.970Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-our-commitment-tide-evo.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-our-commitment-tide-in-space",
+      "url": "https://tide.com/en-us/our-commitment/tide-in-space",
+      "title": "Resource-constrained laundry solutions for astronauts | Tide",
+      "type": "unique",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:23:19.332Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-our-commitment-tide-in-space.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-our-commitment-turn-to-cold",
+      "url": "https://tide.com/en-us/our-commitment/turn-to-cold",
+      "title": "Washing in Cold Water | #TurnToCold with Tide",
+      "type": "unique",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:23:24.818Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-our-commitment-turn-to-cold.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-our-commitment",
+      "url": "https://tide.com/en-us/our-commitment",
+      "title": "Our Commitment - Learn More About The Brand | Tide",
+      "type": "section-landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:17:02.136Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-23T22:44:44Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-23T23:43:28Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-our-commitment.json",
+      "prototypePath": "stardust/prototypes/en-us-our-commitment-proposed.html",
+      "migratedPath": "stardust/migrated/en-us/our-commitment/index.html"
+    },
+    {
+      "slug": "en-us-research-are-detergents-toxic-science",
+      "url": "https://tide.com/en-us/research/are-detergents-toxic-science",
+      "title": "Are Detergents Toxic? See What Science Says | Tide",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:18:30.677Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T04:26:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-research-are-detergents-toxic-science.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/en-us/research/are-detergents-toxic-science/index.html"
+    },
+    {
+      "slug": "en-us-research-are-scented-laundry-products-safe",
+      "url": "https://tide.com/en-us/research/are-scented-laundry-products-safe",
+      "title": "Are Scented Laundry Products Safe? A Comprehensive Scientific Review | Tide",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:24:09.364Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T04:26:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-research-are-scented-laundry-products-safe.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/en-us/research/are-scented-laundry-products-safe/index.html"
+    },
+    {
+      "slug": "en-us-research-best-eco-laundry-detergent",
+      "url": "https://tide.com/en-us/research/best-eco-laundry-detergent",
+      "title": "What Is the Best Eco-Friendly Laundry Detergent? | Tide",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:22:06.750Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T04:26:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-research-best-eco-laundry-detergent.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/en-us/research/best-eco-laundry-detergent/index.html"
+    },
+    {
+      "slug": "en-us-research-best-laundry-detergent-baby-clothes",
+      "url": "https://tide.com/en-us/research/best-laundry-detergent-baby-clothes",
+      "title": "What Is the Best Laundry Detergent for Baby Clothes? | Tide",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:20:34.677Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T04:26:07Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-research-best-laundry-detergent-baby-clothes.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/en-us/research/best-laundry-detergent-baby-clothes/index.html"
+    },
+    {
+      "slug": "en-us-research-best-quality-detergent",
+      "url": "https://tide.com/en-us/research/best-quality-detergent",
+      "title": "What Is the Best Detergent in Terms of Quality? What the Science Actually Shows",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:20:50.106Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-23T22:22:07Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-23T23:43:27Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-research-best-quality-detergent.json",
+      "prototypePath": "stardust/prototypes/en-us-research-best-quality-detergent-proposed.html",
+      "migratedPath": "stardust/migrated/en-us/research/best-quality-detergent/index.html"
+    },
+    {
+      "slug": "en-us-research-cold-water-vs-laundry-cost",
+      "url": "https://tide.com/en-us/research/cold-water-vs-laundry-cost",
+      "title": "How Cold-Water Performance Can Affect Laundry Cost | Tide",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:20:54.845Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T04:26:07Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-research-cold-water-vs-laundry-cost.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/en-us/research/cold-water-vs-laundry-cost/index.html"
+    },
+    {
+      "slug": "en-us-research-detergent-sheets-pods-liquid",
+      "url": "https://tide.com/en-us/research/detergent-sheets-pods-liquid",
+      "title": "Are Detergent Sheets or Pods Better for the Environment Than Liquid? | Tide",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:20:57.296Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T04:26:08Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-research-detergent-sheets-pods-liquid.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/en-us/research/detergent-sheets-pods-liquid/index.html"
+    },
+    {
+      "slug": "en-us-research-do-you-need-special-baby-detergent",
+      "url": "https://tide.com/en-us/research/do-you-need-special-baby-detergent",
+      "title": "Do You Need a Special Baby Detergent? | Tide",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:21:11.852Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T04:26:09Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-research-do-you-need-special-baby-detergent.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/en-us/research/do-you-need-special-baby-detergent/index.html"
+    },
+    {
+      "slug": "en-us-research-environmentally-friendly-way-laundry",
+      "url": "https://tide.com/en-us/research/environmentally-friendly-way-laundry",
+      "title": "What Is the Most Environmentally Friendly Way to Do Laundry? | Tide",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:21:18.133Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T04:26:09Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-research-environmentally-friendly-way-laundry.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/en-us/research/environmentally-friendly-way-laundry/index.html"
+    },
+    {
+      "slug": "en-us-research-evaluate-true-value-laundry-detergent",
+      "url": "https://tide.com/en-us/research/evaluate-true-value-laundry-detergent",
+      "title": "Beyond the Shelf Price: A Comprehensive Economic Framework for Evaluating Laundry Detergent Value | Tide",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:21:20.070Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T04:26:10Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-research-evaluate-true-value-laundry-detergent.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/en-us/research/evaluate-true-value-laundry-detergent/index.html"
+    },
+    {
+      "slug": "en-us-research-fragrance-meaning-on-ingredient-label",
+      "url": "https://tide.com/en-us/research/fragrance-meaning-on-ingredient-label",
+      "title": "What Does 'Fragrance' on a Label Actually Mean? | Tide",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:21:35.040Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T04:26:10Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-research-fragrance-meaning-on-ingredient-label.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/en-us/research/fragrance-meaning-on-ingredient-label/index.html"
+    },
+    {
+      "slug": "en-us-research-hazard-vs-risk-laundry-detergent",
+      "url": "https://tide.com/en-us/research/hazard-vs-risk-laundry-detergent",
+      "title": "Hazard vs. Risk in Laundry Detergent: How Exposure Changes What “Toxic” Really Means | Tide",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:21:44.958Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T04:26:11Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-research-hazard-vs-risk-laundry-detergent.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/en-us/research/hazard-vs-risk-laundry-detergent/index.html"
+    },
+    {
+      "slug": "en-us-research-how-enzymes-help-remove-baby-stains",
+      "url": "https://tide.com/en-us/research/how-enzymes-help-remove-baby-stains",
+      "title": "How Enzymes Help Remove Baby Stains | Tide",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:21:43.716Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T04:26:12Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-research-how-enzymes-help-remove-baby-stains.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/en-us/research/how-enzymes-help-remove-baby-stains/index.html"
+    },
+    {
+      "slug": "en-us-research-how-to-choose-detergent-for-value",
+      "url": "https://tide.com/en-us/research/how-to-choose-detergent-for-value",
+      "title": "How to Choose a Detergent for Value | Tide",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:21:56.871Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T04:26:13Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-research-how-to-choose-detergent-for-value.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/en-us/research/how-to-choose-detergent-for-value/index.html"
+    },
+    {
+      "slug": "en-us-research-laundry-detergent-science-testing",
+      "url": "https://tide.com/en-us/research/laundry-detergent-science-testing",
+      "title": "Is Tide Safe? The Science Behind Laundry Detergent Safety and Ingredient Testing | Tide",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:22:08.021Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T04:26:14Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-research-laundry-detergent-science-testing.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/en-us/research/laundry-detergent-science-testing/index.html"
+    },
+    {
+      "slug": "en-us-research-laundry-scent-and-indoor-air",
+      "url": "https://tide.com/en-us/research/laundry-scent-and-indoor-air",
+      "title": "If You Can Smell Your Laundry Scent, Is It Harming Your Air? | Tide",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:20:10.356Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T04:26:15Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-research-laundry-scent-and-indoor-air.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/en-us/research/laundry-scent-and-indoor-air/index.html"
+    },
+    {
+      "slug": "en-us-research-natural-detergent-baby-clothes",
+      "url": "https://tide.com/en-us/research/natural-detergent-baby-clothes",
+      "title": "Is a Natural Detergent Best for Baby Clothes? | Tide",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:20:14.558Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T04:26:16Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-research-natural-detergent-baby-clothes.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/en-us/research/natural-detergent-baby-clothes/index.html"
+    },
+    {
+      "slug": "en-us-research-odor-after-washing",
+      "url": "https://tide.com/en-us/research/odor-after-washing",
+      "title": "Why Does Laundry Retain Odor After Washing? | Tide",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:20:26.371Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T04:26:17Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-research-odor-after-washing.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/en-us/research/odor-after-washing/index.html"
+    },
+    {
+      "slug": "en-us-research-pva-technical-review",
+      "url": "https://tide.com/en-us/research/pva-technical-review",
+      "title": "Fact-Check: Why the Rolsky (2021) PVA Study is Flawed",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:20:31.499Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T04:26:18Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-research-pva-technical-review.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/en-us/research/pva-technical-review/index.html"
+    },
+    {
+      "slug": "en-us-research-scientific-guide-laundry-sensitive-skin",
+      "url": "https://tide.com/en-us/research/scientific-guide-laundry-sensitive-skin",
+      "title": "Laundry for Sensitive Skin: The Science of Detergents | Tide",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:19:05.319Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T04:26:18Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-research-scientific-guide-laundry-sensitive-skin.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/en-us/research/scientific-guide-laundry-sensitive-skin/index.html"
+    },
+    {
+      "slug": "en-us-research-signs-of-fragrance-safety",
+      "url": "https://tide.com/en-us/research/signs-of-fragrance-safety",
+      "title": "3 Signs a Company Takes Fragrance Safety Seriously | Tide",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:19:12.769Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T04:26:19Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-research-signs-of-fragrance-safety.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/en-us/research/signs-of-fragrance-safety/index.html"
+    },
+    {
+      "slug": "en-us-research-tide-environment-safety",
+      "url": "https://tide.com/en-us/research/tide-environment-safety",
+      "title": "Is Tide Bad for the Environment? | Tide",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:19:12.830Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T04:26:19Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-research-tide-environment-safety.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/en-us/research/tide-environment-safety/index.html"
+    },
+    {
+      "slug": "en-us-research-tide-evo-dissolve-guide",
+      "url": "https://tide.com/en-us/research/tide-evo-dissolve-guide",
+      "title": "Does Tide Evo Fully Dissolve? The Complete Guide to Preventing Residue",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:19:26.087Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T04:26:20Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-research-tide-evo-dissolve-guide.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/en-us/research/tide-evo-dissolve-guide/index.html"
+    },
+    {
+      "slug": "en-us-research-tide-value-framework",
+      "url": "https://tide.com/en-us/research/tide-value-framework",
+      "title": "Evaluating Tide Through the Value Framework | Tide",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:19:30.349Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T04:26:20Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-research-tide-value-framework.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/en-us/research/tide-value-framework/index.html"
+    },
+    {
+      "slug": "en-us-research-vocs-laundry-products-airborne-emissions",
+      "url": "https://tide.com/en-us/research/vocs-laundry-products-airborne-emissions",
+      "title": "Volatile Organic Compounds (VOCs) in Laundry Products: Does VOC Content Translate to Airborne Emissions? | Tide",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:19:34.207Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T04:26:21Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-research-vocs-laundry-products-airborne-emissions.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/en-us/research/vocs-laundry-products-airborne-emissions/index.html"
+    },
+    {
+      "slug": "en-us-research-what-is-best-eco-detergent",
+      "url": "https://tide.com/en-us/research/what-is-best-eco-detergent",
+      "title": "What is the Best Eco Detergent? Detergent’s Impact on the Environment | Tide",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:19:45.393Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T04:26:21Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-research-what-is-best-eco-detergent.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/en-us/research/what-is-best-eco-detergent/index.html"
+    },
+    {
+      "slug": "en-us-research-what-makes-laundry-scent-safe",
+      "url": "https://tide.com/en-us/research/what-makes-laundry-scent-safe",
+      "title": "What Makes a Laundry Scent Safe? | Tide",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:19:49.449Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T04:26:21Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-research-what-makes-laundry-scent-safe.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/en-us/research/what-makes-laundry-scent-safe/index.html"
+    },
+    {
+      "slug": "en-us-research-why-cost-per-load-isnt-whole-story",
+      "url": "https://tide.com/en-us/research/why-cost-per-load-isnt-whole-story",
+      "title": "Why Cost Per Load Does Not Tell the Whole Story | Tide",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:19:54.266Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T04:26:21Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-research-why-cost-per-load-isnt-whole-story.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/en-us/research/why-cost-per-load-isnt-whole-story/index.html"
+    },
+    {
+      "slug": "en-us-research-why-rewashes-make-laundry-more-expensive",
+      "url": "https://tide.com/en-us/research/why-rewashes-make-laundry-more-expensive",
+      "title": "Why Re-Washes Make Laundry More Expensive | Tide",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:20:05.957Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T04:26:22Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-research-why-rewashes-make-laundry-more-expensive.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/en-us/research/why-rewashes-make-laundry-more-expensive/index.html"
+    },
+    {
+      "slug": "en-us-rewards-laundrytips-how-to-remove-armpit-stains",
+      "url": "https://tide.com/en-us/rewards/laundrytips/how-to-remove-armpit-stains",
+      "title": "How to Remove Armpit Sweat Stains Easily | Tide",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:24:29.579Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T04:26:22Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-rewards-laundrytips-how-to-remove-armpit-stains.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/en-us/rewards/laundrytips/how-to-remove-armpit-stains/index.html"
+    },
+    {
+      "slug": "en-us-rewards-laundrytips",
+      "url": "https://tide.com/en-us/rewards/laundrytips",
+      "title": "Learn New Laundry Tips and Advice | Tide",
+      "type": "section-landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:18:25.292Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T06:53:16Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-rewards-laundrytips.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-rewards-loyalty-terms-and-conditions",
+      "url": "https://tide.com/en-us/rewards/loyalty/terms-and-conditions",
+      "title": "Loyalty Program Terms and Conditions | Tide",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:25:59.157Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T04:26:22Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-rewards-loyalty-terms-and-conditions.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/en-us/rewards/loyalty/terms-and-conditions/index.html"
+    },
+    {
+      "slug": "en-us-rewards",
+      "url": "https://tide.com/en-us/rewards",
+      "title": "Laundry Detergent Pods Coupons and Rewards | Tide",
+      "type": "unique",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:16:27.749Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-rewards.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-shop-special-needs-additives",
+      "url": "https://tide.com/en-us/shop/special-needs/additives",
+      "title": "Browse Laundry Additives | Shop Products - Tide",
+      "type": "product-listing",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:25:59.119Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-shop-special-needs-additives.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-shop-special-needs-deep-clean",
+      "url": "https://tide.com/en-us/shop/special-needs/deep-clean",
+      "title": "Browse Laundry Detergents for Deep Clean - Tide",
+      "type": "product-listing",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:28:17.629Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-shop-special-needs-deep-clean.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-shop-special-needs-freshness",
+      "url": "https://tide.com/en-us/shop/special-needs/freshness",
+      "title": "Browse or Buy Fresh Scented Laundry Detergents - Tide",
+      "type": "product-listing",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:27:58.221Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-shop-special-needs-freshness.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-shop-special-needs-odor-removal",
+      "url": "https://tide.com/en-us/shop/special-needs/odor-removal",
+      "title": "Browse Laundry Products for Odor Removal | Tide",
+      "type": "product-listing",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:27:56.541Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-shop-special-needs-odor-removal.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-shop-special-needs-sensitive",
+      "url": "https://tide.com/en-us/shop/special-needs/sensitive",
+      "title": "Buy Laundry Detergents for Sensitive Skin - Tide",
+      "type": "product-listing",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:27:55.903Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-shop-special-needs-sensitive.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-shop-special-needs-stain-removal",
+      "url": "https://tide.com/en-us/shop/special-needs/stain-removal",
+      "title": "Buy Laundry Detergents for Stain Removal | Tide",
+      "type": "product-listing",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:27:35.832Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-shop-special-needs-stain-removal.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-shop-special-needs-whiteness",
+      "url": "https://tide.com/en-us/shop/special-needs/whiteness",
+      "title": "Laundry Detergents For White Clothes - Tide",
+      "type": "product-listing",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:27:35.851Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-shop-special-needs-whiteness.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-shop-top-collections-tide-free-and-gentle",
+      "url": "https://tide.com/en-us/shop/top-collections/tide-free-and-gentle",
+      "title": "Free & Gentle - Laundry Detergent Collections | Tide",
+      "type": "collection-landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:24:32.217Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-23T22:50:05Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-23T23:43:28Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-shop-top-collections-tide-free-and-gentle.json",
+      "prototypePath": "stardust/prototypes/en-us-shop-top-collections-tide-free-and-gentle-proposed.html",
+      "migratedPath": "stardust/migrated/en-us/shop/top-collections/tide-free-and-gentle/index.html"
+    },
+    {
+      "slug": "en-us-shop-top-collections-tide-plus-febreze",
+      "url": "https://tide.com/en-us/shop/top-collections/tide-plus-febreze",
+      "title": "Tide Plus Febreze Freshness Collection - Long Lasting | Tide",
+      "type": "collection-landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:27:08.684Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T05:52:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-shop-top-collections-tide-plus-febreze.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-shop-top-collections-tide-power-pods",
+      "url": "https://tide.com/en-us/shop/top-collections/tide-power-pods",
+      "title": "Tide Power PODS® collection page",
+      "type": "collection-landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:27:14.517Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T05:52:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-shop-top-collections-tide-power-pods.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-shop-top-collections-tide-simply",
+      "url": "https://tide.com/en-us/shop/top-collections/tide-simply",
+      "title": "Tide Simply - Laundry Detergent Collections | Tide",
+      "type": "collection-landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:27:14.538Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T05:52:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-shop-top-collections-tide-simply.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-shop-top-collections-tide-ultra-oxi",
+      "url": "https://tide.com/en-us/shop/top-collections/tide-ultra-oxi",
+      "title": "Tide Ultra OXI | Laundry Detergent Collections - Tide",
+      "type": "collection-landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:27:33.536Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-24T05:52:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-shop-top-collections-tide-ultra-oxi.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-shop-type-fabric-rinse",
+      "url": "https://tide.com/en-us/shop/type/fabric-rinse",
+      "title": "Shop Tide Fabric Rinse Products | Laundry Products - Tide",
+      "type": "product-listing",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:26:47.342Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-shop-type-fabric-rinse.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-shop-type-laundry-booster",
+      "url": "https://tide.com/en-us/shop/type/laundry-booster",
+      "title": "Shop Laundry Boosters | Additives - Tide",
+      "type": "product-listing",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:26:43.327Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-shop-type-laundry-booster.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-shop-type-laundry-pods",
+      "url": "https://tide.com/en-us/shop/type/laundry-pods",
+      "title": "Shop Pacs and Tide PODS® | Laundry Detergent - Tide",
+      "type": "product-listing",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:26:47.365Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-shop-type-laundry-pods.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-shop-type-laundry-tiles",
+      "url": "https://tide.com/en-us/shop/type/laundry-tiles",
+      "title": "Laundry Detergent and Fabric Care Products - Tide",
+      "type": "product-listing",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:26:26.662Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-shop-type-laundry-tiles.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-shop-type-liquid",
+      "url": "https://tide.com/en-us/shop/type/liquid",
+      "title": "Shop Liquid and HE Liquid Laundry Detergents - Tide",
+      "type": "product-listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:26:24.363Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-23T22:26:38Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-23T23:43:27Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-shop-type-liquid.json",
+      "prototypePath": "stardust/prototypes/en-us-shop-type-liquid-proposed.html",
+      "migratedPath": "stardust/migrated/en-us/shop/type/liquid/index.html"
+    },
+    {
+      "slug": "en-us-shop-type-powder",
+      "url": "https://tide.com/en-us/shop/type/powder",
+      "title": "Shop or Buy Laundry Powder | Laundry Products - Tide",
+      "type": "product-listing",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:26:22.304Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-shop-type-powder.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-shop-type-stain-remover",
+      "url": "https://tide.com/en-us/shop/type/stain-remover",
+      "title": "Buy Stain Removal Products - Stain Remover | Tide",
+      "type": "product-listing",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:26:06.964Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-shop-type-stain-remover.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-shop",
+      "url": "https://tide.com/en-us/shop",
+      "title": "Laundry Detergent and Fabric Care Products - Tide",
+      "type": "product-listing",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:16:32.895Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-shop.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us-sitemap",
+      "url": "https://tide.com/en-us/sitemap",
+      "title": "Laundry Detergent and Fabric Care Products - Tide",
+      "type": "unique",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:16:29.935Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us-sitemap.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-us",
+      "url": "https://tide.com/en-us",
+      "title": "Laundry Detergent and Fabric Care Products - Tide",
+      "type": "home",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:16:11.243Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-23T21:36:02Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-23T23:43:27Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-us.json",
+      "prototypePath": "stardust/prototypes/en-us-proposed.html",
+      "migratedPath": "stardust/migrated/en-us/index.html"
+    },
+    {
+      "slug": "health-probe",
+      "url": "https://tide.com/health-probe",
+      "title": "Health probe page",
+      "type": "unique",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:16:03.033Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/health-probe.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "index",
+      "url": "https://tide.com/",
+      "title": "Laundry Detergent and Fabric Care Products - Tide",
+      "type": "redirect",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-23T18:16:05.132Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "redirectTo": "https://tide.com/en-us"
+    }
+  ],
+  "migrate": {
+    "at": "2026-11-24T05:13:21Z",
+    "outputDir": "stardust/migrated/",
+    "selfContained": true,
+    "pageMap": [
+      {
+        "sourceUrl": "/en-us/accessibility",
+        "outputPath": "en-us/accessibility/index.html",
+        "slug": "en-us-accessibility",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/click2cart/0060001",
+        "outputPath": "en-us/click2cart/0060001/index.html",
+        "slug": "en-us-click2cart-0060001",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/click2cart/006000B",
+        "outputPath": "en-us/click2cart/006000B/index.html",
+        "slug": "en-us-click2cart-006000b",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/click2cart/006000H",
+        "outputPath": "en-us/click2cart/006000H/index.html",
+        "slug": "en-us-click2cart-006000h",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/click2cart/006000I",
+        "outputPath": "en-us/click2cart/006000I/index.html",
+        "slug": "en-us-click2cart-006000i",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/click2cart/006000p",
+        "outputPath": "en-us/click2cart/006000p/index.html",
+        "slug": "en-us-click2cart-006000p",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/click2cart/006000Q",
+        "outputPath": "en-us/click2cart/006000Q/index.html",
+        "slug": "en-us-click2cart-006000q",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/click2cart/006000Z",
+        "outputPath": "en-us/click2cart/006000Z/index.html",
+        "slug": "en-us-click2cart-006000z",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/click2cart/00600bt",
+        "outputPath": "en-us/click2cart/00600bt/index.html",
+        "slug": "en-us-click2cart-00600bt",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/contact-us",
+        "outputPath": "en-us/contact-us/index.html",
+        "slug": "en-us-contact-us",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/coupons-and-rewards",
+        "outputPath": "en-us/coupons-and-rewards/index.html",
+        "slug": "en-us-coupons-and-rewards",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/how-to-do-laundry/better-clean-safer",
+        "outputPath": "en-us/how-to-do-laundry/better-clean-safer/index.html",
+        "slug": "en-us-how-to-do-laundry-better-clean-safer",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/how-to-do-laundry/detergent-residue-safety",
+        "outputPath": "en-us/how-to-do-laundry/detergent-residue-safety/index.html",
+        "slug": "en-us-how-to-do-laundry-detergent-residue-safety",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/how-to-wash-clothes/effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry",
+        "outputPath": "en-us/how-to-wash-clothes/effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry/index.html",
+        "slug": "en-us-how-to-wash-clothes-effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/how-to-wash-clothes/how-to-do-laundry/about-tide-pods-pva-film",
+        "outputPath": "en-us/how-to-wash-clothes/how-to-do-laundry/about-tide-pods-pva-film/index.html",
+        "slug": "en-us-how-to-wash-clothes-how-to-do-laundry-about-tide-pods-pva-film",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/how-to-wash-clothes/how-to-do-laundry",
+        "outputPath": "en-us/how-to-wash-clothes/how-to-do-laundry/index.html",
+        "slug": "en-us-how-to-wash-clothes-how-to-do-laundry",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/how-to-wash-clothes/how-to-remove-stains/acne-cream-stains",
+        "outputPath": "en-us/how-to-wash-clothes/how-to-remove-stains/acne-cream-stains/index.html",
+        "slug": "en-us-how-to-wash-clothes-how-to-remove-stains-acne-cream-stains",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/how-to-wash-clothes/how-to-remove-stains",
+        "outputPath": "en-us/how-to-wash-clothes/how-to-remove-stains/index.html",
+        "slug": "en-us-how-to-wash-clothes-how-to-remove-stains",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors/everyday-items-to-wash-regularly",
+        "outputPath": "en-us/how-to-wash-clothes/washing-different-fabrics-and-colors/everyday-items-to-wash-regularly/index.html",
+        "slug": "en-us-how-to-wash-clothes-washing-different-fabrics-and-colors-everyday-items-to-wash-regularly",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors",
+        "outputPath": "en-us/how-to-wash-clothes/washing-different-fabrics-and-colors/index.html",
+        "slug": "en-us-how-to-wash-clothes-washing-different-fabrics-and-colors",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine",
+        "outputPath": "en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine/index.html",
+        "slug": "en-us-how-to-wash-clothes-washing-machine-101-how-to-use-a-washing-machine",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/how-to-wash-clothes/washing-machine-101",
+        "outputPath": "en-us/how-to-wash-clothes/washing-machine-101/index.html",
+        "slug": "en-us-how-to-wash-clothes-washing-machine-101",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/how-to-wash-clothes",
+        "outputPath": "en-us/how-to-wash-clothes/index.html",
+        "slug": "en-us-how-to-wash-clothes",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/latest-news",
+        "outputPath": "en-us/latest-news/index.html",
+        "slug": "en-us-latest-news",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/our-commitment/americas-number-one-detergent/our-heritage",
+        "outputPath": "en-us/our-commitment/americas-number-one-detergent/our-heritage/index.html",
+        "slug": "en-us-our-commitment-americas-number-one-detergent-our-heritage",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/our-commitment/americas-number-one-detergent",
+        "outputPath": "en-us/our-commitment/americas-number-one-detergent/index.html",
+        "slug": "en-us-our-commitment-americas-number-one-detergent",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/our-commitment/dont-pay-for-water",
+        "outputPath": "en-us/our-commitment/dont-pay-for-water/index.html",
+        "slug": "en-us-our-commitment-dont-pay-for-water",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/our-commitment/ingredients-and-safety/all-about-tide-ingredients",
+        "outputPath": "en-us/our-commitment/ingredients-and-safety/all-about-tide-ingredients/index.html",
+        "slug": "en-us-our-commitment-ingredients-and-safety-all-about-tide-ingredients",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/our-commitment/ingredients-and-safety",
+        "outputPath": "en-us/our-commitment/ingredients-and-safety/index.html",
+        "slug": "en-us-our-commitment-ingredients-and-safety",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/our-commitment/loads-of-hope",
+        "outputPath": "en-us/our-commitment/loads-of-hope/index.html",
+        "slug": "en-us-our-commitment-loads-of-hope",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/our-commitment/pva-in-tide-pods",
+        "outputPath": "en-us/our-commitment/pva-in-tide-pods/index.html",
+        "slug": "en-us-our-commitment-pva-in-tide-pods",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/our-commitment/superbowlLX",
+        "outputPath": "en-us/our-commitment/superbowlLX/index.html",
+        "slug": "en-us-our-commitment-superbowllx",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/our-commitment/sustainability/compaction",
+        "outputPath": "en-us/our-commitment/sustainability/compaction/index.html",
+        "slug": "en-us-our-commitment-sustainability-compaction",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/our-commitment/sustainability/materials",
+        "outputPath": "en-us/our-commitment/sustainability/materials/index.html",
+        "slug": "en-us-our-commitment-sustainability-materials",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/our-commitment/sustainability/saving-energy",
+        "outputPath": "en-us/our-commitment/sustainability/saving-energy/index.html",
+        "slug": "en-us-our-commitment-sustainability-saving-energy",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/our-commitment/sustainability",
+        "outputPath": "en-us/our-commitment/sustainability/index.html",
+        "slug": "en-us-our-commitment-sustainability",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/our-commitment/tide-boosted",
+        "outputPath": "en-us/our-commitment/tide-boosted/index.html",
+        "slug": "en-us-our-commitment-tide-boosted",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/our-commitment/tide-cleaners-laundry-service",
+        "outputPath": "en-us/our-commitment/tide-cleaners-laundry-service/index.html",
+        "slug": "en-us-our-commitment-tide-cleaners-laundry-service",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/our-commitment/tide-evo",
+        "outputPath": "en-us/our-commitment/tide-evo/index.html",
+        "slug": "en-us-our-commitment-tide-evo",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/our-commitment/tide-in-space",
+        "outputPath": "en-us/our-commitment/tide-in-space/index.html",
+        "slug": "en-us-our-commitment-tide-in-space",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/our-commitment/turn-to-cold",
+        "outputPath": "en-us/our-commitment/turn-to-cold/index.html",
+        "slug": "en-us-our-commitment-turn-to-cold",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/our-commitment",
+        "outputPath": "en-us/our-commitment/index.html",
+        "slug": "en-us-our-commitment",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/research/are-detergents-toxic-science",
+        "outputPath": "en-us/research/are-detergents-toxic-science/index.html",
+        "slug": "en-us-research-are-detergents-toxic-science",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/research/are-scented-laundry-products-safe",
+        "outputPath": "en-us/research/are-scented-laundry-products-safe/index.html",
+        "slug": "en-us-research-are-scented-laundry-products-safe",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/research/best-eco-laundry-detergent",
+        "outputPath": "en-us/research/best-eco-laundry-detergent/index.html",
+        "slug": "en-us-research-best-eco-laundry-detergent",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/research/best-laundry-detergent-baby-clothes",
+        "outputPath": "en-us/research/best-laundry-detergent-baby-clothes/index.html",
+        "slug": "en-us-research-best-laundry-detergent-baby-clothes",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/research/best-quality-detergent",
+        "outputPath": "en-us/research/best-quality-detergent/index.html",
+        "slug": "en-us-research-best-quality-detergent",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/research/cold-water-vs-laundry-cost",
+        "outputPath": "en-us/research/cold-water-vs-laundry-cost/index.html",
+        "slug": "en-us-research-cold-water-vs-laundry-cost",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/research/detergent-sheets-pods-liquid",
+        "outputPath": "en-us/research/detergent-sheets-pods-liquid/index.html",
+        "slug": "en-us-research-detergent-sheets-pods-liquid",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/research/do-you-need-special-baby-detergent",
+        "outputPath": "en-us/research/do-you-need-special-baby-detergent/index.html",
+        "slug": "en-us-research-do-you-need-special-baby-detergent",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/research/environmentally-friendly-way-laundry",
+        "outputPath": "en-us/research/environmentally-friendly-way-laundry/index.html",
+        "slug": "en-us-research-environmentally-friendly-way-laundry",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/research/evaluate-true-value-laundry-detergent",
+        "outputPath": "en-us/research/evaluate-true-value-laundry-detergent/index.html",
+        "slug": "en-us-research-evaluate-true-value-laundry-detergent",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/research/fragrance-meaning-on-ingredient-label",
+        "outputPath": "en-us/research/fragrance-meaning-on-ingredient-label/index.html",
+        "slug": "en-us-research-fragrance-meaning-on-ingredient-label",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/research/hazard-vs-risk-laundry-detergent",
+        "outputPath": "en-us/research/hazard-vs-risk-laundry-detergent/index.html",
+        "slug": "en-us-research-hazard-vs-risk-laundry-detergent",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/research/how-enzymes-help-remove-baby-stains",
+        "outputPath": "en-us/research/how-enzymes-help-remove-baby-stains/index.html",
+        "slug": "en-us-research-how-enzymes-help-remove-baby-stains",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/research/how-to-choose-detergent-for-value",
+        "outputPath": "en-us/research/how-to-choose-detergent-for-value/index.html",
+        "slug": "en-us-research-how-to-choose-detergent-for-value",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/research/laundry-detergent-science-testing",
+        "outputPath": "en-us/research/laundry-detergent-science-testing/index.html",
+        "slug": "en-us-research-laundry-detergent-science-testing",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/research/laundry-scent-and-indoor-air",
+        "outputPath": "en-us/research/laundry-scent-and-indoor-air/index.html",
+        "slug": "en-us-research-laundry-scent-and-indoor-air",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/research/natural-detergent-baby-clothes",
+        "outputPath": "en-us/research/natural-detergent-baby-clothes/index.html",
+        "slug": "en-us-research-natural-detergent-baby-clothes",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/research/odor-after-washing",
+        "outputPath": "en-us/research/odor-after-washing/index.html",
+        "slug": "en-us-research-odor-after-washing",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/research/pva-technical-review",
+        "outputPath": "en-us/research/pva-technical-review/index.html",
+        "slug": "en-us-research-pva-technical-review",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/research/scientific-guide-laundry-sensitive-skin",
+        "outputPath": "en-us/research/scientific-guide-laundry-sensitive-skin/index.html",
+        "slug": "en-us-research-scientific-guide-laundry-sensitive-skin",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/research/signs-of-fragrance-safety",
+        "outputPath": "en-us/research/signs-of-fragrance-safety/index.html",
+        "slug": "en-us-research-signs-of-fragrance-safety",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/research/tide-environment-safety",
+        "outputPath": "en-us/research/tide-environment-safety/index.html",
+        "slug": "en-us-research-tide-environment-safety",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/research/tide-evo-dissolve-guide",
+        "outputPath": "en-us/research/tide-evo-dissolve-guide/index.html",
+        "slug": "en-us-research-tide-evo-dissolve-guide",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/research/tide-value-framework",
+        "outputPath": "en-us/research/tide-value-framework/index.html",
+        "slug": "en-us-research-tide-value-framework",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/research/vocs-laundry-products-airborne-emissions",
+        "outputPath": "en-us/research/vocs-laundry-products-airborne-emissions/index.html",
+        "slug": "en-us-research-vocs-laundry-products-airborne-emissions",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/research/what-is-best-eco-detergent",
+        "outputPath": "en-us/research/what-is-best-eco-detergent/index.html",
+        "slug": "en-us-research-what-is-best-eco-detergent",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/research/what-makes-laundry-scent-safe",
+        "outputPath": "en-us/research/what-makes-laundry-scent-safe/index.html",
+        "slug": "en-us-research-what-makes-laundry-scent-safe",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/research/why-cost-per-load-isnt-whole-story",
+        "outputPath": "en-us/research/why-cost-per-load-isnt-whole-story/index.html",
+        "slug": "en-us-research-why-cost-per-load-isnt-whole-story",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/research/why-rewashes-make-laundry-more-expensive",
+        "outputPath": "en-us/research/why-rewashes-make-laundry-more-expensive/index.html",
+        "slug": "en-us-research-why-rewashes-make-laundry-more-expensive",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/rewards/laundrytips/how-to-remove-armpit-stains",
+        "outputPath": "en-us/rewards/laundrytips/how-to-remove-armpit-stains/index.html",
+        "slug": "en-us-rewards-laundrytips-how-to-remove-armpit-stains",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/rewards/laundrytips",
+        "outputPath": "en-us/rewards/laundrytips/index.html",
+        "slug": "en-us-rewards-laundrytips",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/rewards/loyalty/terms-and-conditions",
+        "outputPath": "en-us/rewards/loyalty/terms-and-conditions/index.html",
+        "slug": "en-us-rewards-loyalty-terms-and-conditions",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/rewards",
+        "outputPath": "en-us/rewards/index.html",
+        "slug": "en-us-rewards",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/shop/special-needs/additives",
+        "outputPath": "en-us/shop/special-needs/additives/index.html",
+        "slug": "en-us-shop-special-needs-additives",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/shop/special-needs/deep-clean",
+        "outputPath": "en-us/shop/special-needs/deep-clean/index.html",
+        "slug": "en-us-shop-special-needs-deep-clean",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/shop/special-needs/freshness",
+        "outputPath": "en-us/shop/special-needs/freshness/index.html",
+        "slug": "en-us-shop-special-needs-freshness",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/shop/special-needs/odor-removal",
+        "outputPath": "en-us/shop/special-needs/odor-removal/index.html",
+        "slug": "en-us-shop-special-needs-odor-removal",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/shop/special-needs/sensitive",
+        "outputPath": "en-us/shop/special-needs/sensitive/index.html",
+        "slug": "en-us-shop-special-needs-sensitive",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/shop/special-needs/stain-removal",
+        "outputPath": "en-us/shop/special-needs/stain-removal/index.html",
+        "slug": "en-us-shop-special-needs-stain-removal",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/shop/special-needs/whiteness",
+        "outputPath": "en-us/shop/special-needs/whiteness/index.html",
+        "slug": "en-us-shop-special-needs-whiteness",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/shop/top-collections/tide-free-and-gentle",
+        "outputPath": "en-us/shop/top-collections/tide-free-and-gentle/index.html",
+        "slug": "en-us-shop-top-collections-tide-free-and-gentle",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/shop/top-collections/tide-plus-febreze",
+        "outputPath": "en-us/shop/top-collections/tide-plus-febreze/index.html",
+        "slug": "en-us-shop-top-collections-tide-plus-febreze",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/shop/top-collections/tide-power-pods",
+        "outputPath": "en-us/shop/top-collections/tide-power-pods/index.html",
+        "slug": "en-us-shop-top-collections-tide-power-pods",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/shop/top-collections/tide-simply",
+        "outputPath": "en-us/shop/top-collections/tide-simply/index.html",
+        "slug": "en-us-shop-top-collections-tide-simply",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/shop/top-collections/tide-ultra-oxi",
+        "outputPath": "en-us/shop/top-collections/tide-ultra-oxi/index.html",
+        "slug": "en-us-shop-top-collections-tide-ultra-oxi",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/shop/type/fabric-rinse",
+        "outputPath": "en-us/shop/type/fabric-rinse/index.html",
+        "slug": "en-us-shop-type-fabric-rinse",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/shop/type/laundry-booster",
+        "outputPath": "en-us/shop/type/laundry-booster/index.html",
+        "slug": "en-us-shop-type-laundry-booster",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/shop/type/laundry-pods",
+        "outputPath": "en-us/shop/type/laundry-pods/index.html",
+        "slug": "en-us-shop-type-laundry-pods",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/shop/type/laundry-tiles",
+        "outputPath": "en-us/shop/type/laundry-tiles/index.html",
+        "slug": "en-us-shop-type-laundry-tiles",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/shop/type/liquid",
+        "outputPath": "en-us/shop/type/liquid/index.html",
+        "slug": "en-us-shop-type-liquid",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/shop/type/powder",
+        "outputPath": "en-us/shop/type/powder/index.html",
+        "slug": "en-us-shop-type-powder",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/shop/type/stain-remover",
+        "outputPath": "en-us/shop/type/stain-remover/index.html",
+        "slug": "en-us-shop-type-stain-remover",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/shop",
+        "outputPath": "en-us/shop/index.html",
+        "slug": "en-us-shop",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us/sitemap",
+        "outputPath": "en-us/sitemap/index.html",
+        "slug": "en-us-sitemap",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/en-us",
+        "outputPath": "en-us/index.html",
+        "slug": "en-us",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/health-probe",
+        "outputPath": "health-probe/index.html",
+        "slug": "health-probe",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/",
+        "outputPath": "index.html",
+        "slug": "index",
+        "outputPathDefault": null
+      }
+    ],
+    "totalAssetsBundled": 148,
+    "bundledAssets": [
+      "canon/canon.css",
+      "canon/canon.js",
+      "en-us-click2cart-0060001.css",
+      "en-us-click2cart-0060001.js",
+      "en-us-how-to-wash-clothes-how-to-remove-stains.css",
+      "en-us-how-to-wash-clothes-how-to-remove-stains.js",
+      "en-us-our-commitment-sustainability-compaction.css",
+      "en-us-our-commitment-sustainability-compaction.js",
+      "en-us-our-commitment.css",
+      "en-us-our-commitment.js",
+      "en-us-research-best-quality-detergent.css",
+      "en-us-research-best-quality-detergent.js",
+      "en-us-shop-top-collections-tide-free-and-gentle.css",
+      "en-us-shop-top-collections-tide-free-and-gentle.js",
+      "en-us-shop-type-liquid.css",
+      "en-us-shop-type-liquid.js",
+      "en-us.css",
+      "en-us.js",
+      "favicon.ico",
+      "fonts/Poppins-Regular.woff2",
+      "fonts/fontawesome-webfont.woff2",
+      "fonts/poppins-v24-latin-ext-300.woff2",
+      "fonts/poppins-v24-latin-ext-600.woff2",
+      "fonts/tide_type_bold-webfont.woff2",
+      "fonts/tide_type_light-webfont.woff2",
+      "fonts/tide_type_regular-webfont.woff2",
+      "fonts/tide_type_ultra-webfont.woff2",
+      "img/003131-22_BigMamma_Odor_EN-US_HDL_listing_520x520.webp",
+      "img/003131-22_BigMamma_Oxi_Boost_EN-US_HDL_listing_520x520.webp",
+      "img/92OZ_UltraStainRelease_v01_smpl_1200x1200.webp",
+      "img/ALP_header_1_How_to_remove_stains_1437x400.webp",
+      "img/B2318-39_Tide_Fraplan_HDL_EN-US_listing_520x520.webp",
+      "img/B2318-39_Tide_Fraplan_SUD_EN-US_listing_520x520.webp",
+      "img/CountrFlag_Canada.jpg",
+      "img/CountrFlag_USA.jpg",
+      "img/Final_article_preview_TideLiquidBottle_In_A003_C066_00-370x320.webp",
+      "img/GRAPHICS.webp",
+      "img/How_Does_Tide_Do_This_375x172.webp",
+      "img/Icons.webp",
+      "img/Icons_sp_0603.webp",
+      "img/More_Cleaning_Power_with_Less_Product_375x312.webp",
+      "img/NEA_logo.webp",
+      "img/NPF_logo.webp",
+      "img/OUR_COMMITMENT_Header_1920x653.webp",
+      "img/Stain-L1.webp",
+      "img/Stain-L2.webp",
+      "img/Stain-L3.webp",
+      "img/Stain-R1.webp",
+      "img/Stain-R2.webp",
+      "img/Stain-R3.webp",
+      "img/TIDE_most_trusted_Card_322x210_144ppi_20240513.webp",
+      "img/TideLiquidTowels_A005_C020_00_370x320.webp",
+      "img/Tide_A25_F_G_EN-US_POD_listing_520x520.webp",
+      "img/Tide_Aquamarine_DT_370x320.webp",
+      "img/Tide_BlackWidow_LP_20240308_322x210_blue.webp",
+      "img/Tide_BlackWidow_LP_20240308_370x320_blue.webp",
+      "img/Tide_Clean_and_Gentle_PWD_listing_520x520.webp",
+      "img/Tide_Cleaners_preview_370x320.webp",
+      "img/Tide_EVO_enahncement_HP_hero_20260205_default.webp",
+      "img/Tide_EVO_enahncement_HP_hero_20260205_min1400px.webp",
+      "img/Tide_EVO_enahncement_HP_hero_20260205_min576px.webp",
+      "img/Tide_EVO_enahncement_HP_hero_20260205_min992px.webp",
+      "img/Tide_Evo_F_G_20260225_listing_image_520x520.webp",
+      "img/Tide_F_G_20250519_module1_default.webp",
+      "img/Tide_F_G_20250519_module1_min1400.webp",
+      "img/Tide_F_G_20250519_module1_min576.webp",
+      "img/Tide_F_G_20250519_module1_min992.webp",
+      "img/Tide_F_G_20250519_module3_default.webp",
+      "img/Tide_F_G_20250519_module3_min768.webp",
+      "img/Tide_Features_Liquid_DT_1168x578_img.webp",
+      "img/Tide_Features_Liquid_SP_700x1369_img.webp",
+      "img/Tide_Features_Machine_Care_DT_1168x578_img_1.webp",
+      "img/Tide_Features_Machine_Care_SP_700x1369_img.webp",
+      "img/Tide_Features_colorful_clothes_DT-right_1168x578_white_202211231429.webp",
+      "img/Tide_Features_colorful_clothes_SP_700x1073_white_202211231433.webp",
+      "img/Tide_Free_and_Gentle_HDL_LI_520x520_20260930.webp",
+      "img/Tide_HP_Product_by_type_20250513.webp",
+      "img/Tide_LoH-hero_370x320.webp",
+      "img/Tide_LoH-hero_570x310_v2.webp",
+      "img/Tide_Nasa_370x320.webp",
+      "img/Tide_Nasa_3722x210.webp",
+      "img/Tide_Plus_Bleach_Powder_hero_521x480.webp",
+      "img/Tide_PouringLiquidMachine_096_S3_370x320.webp",
+      "img/Tide_PouringLiquidMachine_096_S3_370x320_v2.webp",
+      "img/Tide_Power_Pods_module2_20250320_default.webp",
+      "img/Tide_Power_Pods_module2_20250320_min1200px.webp",
+      "img/Tide_Power_Pods_module2_20250320_min1600px.webp",
+      "img/Tide_Power_Pods_module2_20250320_min576px.webp",
+      "img/Tide_Power_Pods_module2_20250320_min768px.webp",
+      "img/Tide_Power_Pods_module2_20250320_min992px.webp",
+      "img/Tide_Safety_preview_570x310.webp",
+      "img/Tide_Simply_All_in_One_RB_EN-US_20250520_listing_520x520.webp",
+      "img/Tide_Spring_Meadow_HDL_listing_520x520.webp",
+      "img/Tide_TheRock_20250902_370x320.webp",
+      "img/Tide_TheRock_EN-US_20250811_listing_520x520.webp",
+      "img/Tide_TheRock_HP_hero_20250812_default_taller.webp",
+      "img/Tide_TheRock_HP_hero_20250812_min1400px.webp",
+      "img/Tide_TheRock_HP_hero_20250812_min576px_taller.webp",
+      "img/Tide_TheRock_HP_hero_20250812_min992px.webp",
+      "img/Tide_US_FreshGentle_section_20260914_deafault.webp",
+      "img/Tide_US_FreshGentle_section_20260914_min992.webp",
+      "img/Tide_article_preview_370x320_Tide_Americas_first_detergent_1.webp",
+      "img/Tide_how_to_do_laundry_below428_202209191119.webp",
+      "img/Tide_how_to_do_laundry_below992_20220915.webp",
+      "img/Tide_how_to_do_laundry_min1200_20220915.webp",
+      "img/Tide_how_to_do_laundry_min992_20220915.webp",
+      "img/Tide_hygenic_clean_Card_322x210_144ppi_20250513.webp",
+      "img/Tide_turn-to-cold_card_570x310.webp",
+      "img/_listing_520x520Tide_Downy_April_Fresh_US_HDL.webp",
+      "img/alp-bleachable-icon-inverted.webp",
+      "img/alp-bleachable-icon.webp",
+      "img/alp-blood-and-grass-icon-inverted.webp",
+      "img/alp-blood-and-grass-icon-v2.webp",
+      "img/alp-body-soils-icon-inverted.webp",
+      "img/alp-body-soils-icon-v2.webp",
+      "img/alp-clay-soil-dirt-icon-inverted.webp",
+      "img/alp-clay-soil-dirt-icon-v2.webp",
+      "img/brand_main_logo.svg",
+      "img/browse_by_need.webp",
+      "img/c2c/amazon_usa_dark.svg",
+      "img/c2c/c2c-logo.svg",
+      "img/c2c/instacart_usa_dark.svg",
+      "img/c2c/shopper-choice-hero.jpeg",
+      "img/c2c/target_usa_dark.svg",
+      "img/c2c/walmart_usa_dark.svg",
+      "img/discover_how_tide_pods_and_power_pods_work_article_card.webp",
+      "img/footer_BBB.webp",
+      "img/footer_GoodHousekeeping.webp",
+      "img/footer_JunkFood.webp",
+      "img/footer_TideCleaners.webp",
+      "img/header_logo_bounce.webp",
+      "img/header_logo_downy.webp",
+      "img/header_logo_png.webp",
+      "img/how_to_remove_stains.webp",
+      "img/icon-checkmark-orange.svg",
+      "img/icon-checkmark-white.svg",
+      "img/icon-play.svg",
+      "img/module_01_bg.webp",
+      "img/module_01_sp_0603.webp",
+      "img/module_04_sp_0603.webp",
+      "img/module_07_bg.webp",
+      "img/module_07_bg_sp_0603.webp",
+      "img/privacy-options.svg",
+      "img/social_facebook.svg",
+      "img/social_pinterest.svg",
+      "img/social_twitter.svg",
+      "img/social_youtube.svg",
+      "img/v4_articles_hero_image_20240304_4_CD.webp"
+    ],
+    "pages": [
+      {
+        "slug": "en-us",
+        "file": "stardust/migrated/en-us/index.html",
+        "assetsBundled": 51
+      },
+      {
+        "slug": "en-us-research-best-quality-detergent",
+        "file": "stardust/migrated/en-us/research/best-quality-detergent/index.html",
+        "assetsBundled": 19
+      },
+      {
+        "slug": "en-us-shop-type-liquid",
+        "file": "stardust/migrated/en-us/shop/type/liquid/index.html",
+        "assetsBundled": 37
+      },
+      {
+        "slug": "en-us-our-commitment",
+        "file": "stardust/migrated/en-us/our-commitment/index.html",
+        "assetsBundled": 30
+      },
+      {
+        "slug": "en-us-shop-top-collections-tide-free-and-gentle",
+        "file": "stardust/migrated/en-us/shop/top-collections/tide-free-and-gentle/index.html",
+        "assetsBundled": 44
+      },
+      {
+        "slug": "en-us-our-commitment-sustainability-compaction",
+        "file": "stardust/migrated/en-us/our-commitment/sustainability/compaction/index.html",
+        "assetsBundled": 23
+      },
+      {
+        "slug": "en-us-how-to-wash-clothes-how-to-remove-stains",
+        "file": "stardust/migrated/en-us/how-to-wash-clothes/how-to-remove-stains/index.html",
+        "assetsBundled": 37
+      },
+      {
+        "slug": "en-us-click2cart-0060001",
+        "file": "stardust/migrated/en-us/click2cart/0060001/index.html",
+        "assetsBundled": 28
+      },
+      {
+        "slug": "en-us-research-odor-after-washing",
+        "file": "stardust/migrated/en-us/research/odor-after-washing/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "en-us-how-to-do-laundry-better-clean-safer",
+        "file": "stardust/migrated/en-us/how-to-do-laundry/better-clean-safer/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "en-us-how-to-do-laundry-detergent-residue-safety",
+        "file": "stardust/migrated/en-us/how-to-do-laundry/detergent-residue-safety/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-how-to-wash-clothes-effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry",
+        "file": "stardust/migrated/en-us/how-to-wash-clothes/effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-how-to-wash-clothes-how-to-do-laundry-about-tide-pods-pva-film",
+        "file": "stardust/migrated/en-us/how-to-wash-clothes/how-to-do-laundry/about-tide-pods-pva-film/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-how-to-wash-clothes-washing-different-fabrics-and-colors-everyday-items-to-wash-regularly",
+        "file": "stardust/migrated/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors/everyday-items-to-wash-regularly/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-our-commitment-ingredients-and-safety-all-about-tide-ingredients",
+        "file": "stardust/migrated/en-us/our-commitment/ingredients-and-safety/all-about-tide-ingredients/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-our-commitment-pva-in-tide-pods",
+        "file": "stardust/migrated/en-us/our-commitment/pva-in-tide-pods/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-research-are-detergents-toxic-science",
+        "file": "stardust/migrated/en-us/research/are-detergents-toxic-science/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-research-are-scented-laundry-products-safe",
+        "file": "stardust/migrated/en-us/research/are-scented-laundry-products-safe/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-research-best-eco-laundry-detergent",
+        "file": "stardust/migrated/en-us/research/best-eco-laundry-detergent/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-research-best-laundry-detergent-baby-clothes",
+        "file": "stardust/migrated/en-us/research/best-laundry-detergent-baby-clothes/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-research-cold-water-vs-laundry-cost",
+        "file": "stardust/migrated/en-us/research/cold-water-vs-laundry-cost/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-research-detergent-sheets-pods-liquid",
+        "file": "stardust/migrated/en-us/research/detergent-sheets-pods-liquid/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-research-do-you-need-special-baby-detergent",
+        "file": "stardust/migrated/en-us/research/do-you-need-special-baby-detergent/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-research-environmentally-friendly-way-laundry",
+        "file": "stardust/migrated/en-us/research/environmentally-friendly-way-laundry/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-research-evaluate-true-value-laundry-detergent",
+        "file": "stardust/migrated/en-us/research/evaluate-true-value-laundry-detergent/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-research-fragrance-meaning-on-ingredient-label",
+        "file": "stardust/migrated/en-us/research/fragrance-meaning-on-ingredient-label/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-research-hazard-vs-risk-laundry-detergent",
+        "file": "stardust/migrated/en-us/research/hazard-vs-risk-laundry-detergent/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-research-how-enzymes-help-remove-baby-stains",
+        "file": "stardust/migrated/en-us/research/how-enzymes-help-remove-baby-stains/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-research-how-to-choose-detergent-for-value",
+        "file": "stardust/migrated/en-us/research/how-to-choose-detergent-for-value/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-research-laundry-detergent-science-testing",
+        "file": "stardust/migrated/en-us/research/laundry-detergent-science-testing/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-research-laundry-scent-and-indoor-air",
+        "file": "stardust/migrated/en-us/research/laundry-scent-and-indoor-air/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-research-natural-detergent-baby-clothes",
+        "file": "stardust/migrated/en-us/research/natural-detergent-baby-clothes/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-research-pva-technical-review",
+        "file": "stardust/migrated/en-us/research/pva-technical-review/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-research-scientific-guide-laundry-sensitive-skin",
+        "file": "stardust/migrated/en-us/research/scientific-guide-laundry-sensitive-skin/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-research-signs-of-fragrance-safety",
+        "file": "stardust/migrated/en-us/research/signs-of-fragrance-safety/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-research-tide-environment-safety",
+        "file": "stardust/migrated/en-us/research/tide-environment-safety/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-research-tide-evo-dissolve-guide",
+        "file": "stardust/migrated/en-us/research/tide-evo-dissolve-guide/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-research-tide-value-framework",
+        "file": "stardust/migrated/en-us/research/tide-value-framework/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-research-vocs-laundry-products-airborne-emissions",
+        "file": "stardust/migrated/en-us/research/vocs-laundry-products-airborne-emissions/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-research-what-is-best-eco-detergent",
+        "file": "stardust/migrated/en-us/research/what-is-best-eco-detergent/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-research-what-makes-laundry-scent-safe",
+        "file": "stardust/migrated/en-us/research/what-makes-laundry-scent-safe/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-research-why-cost-per-load-isnt-whole-story",
+        "file": "stardust/migrated/en-us/research/why-cost-per-load-isnt-whole-story/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-research-why-rewashes-make-laundry-more-expensive",
+        "file": "stardust/migrated/en-us/research/why-rewashes-make-laundry-more-expensive/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-rewards-laundrytips-how-to-remove-armpit-stains",
+        "file": "stardust/migrated/en-us/rewards/laundrytips/how-to-remove-armpit-stains/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-rewards-loyalty-terms-and-conditions",
+        "file": "stardust/migrated/en-us/rewards/loyalty/terms-and-conditions/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-shop-special-needs-additives",
+        "file": "stardust/migrated/en-us/shop/special-needs/additives/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "en-us-shop-special-needs-deep-clean",
+        "file": "stardust/migrated/en-us/shop/special-needs/deep-clean/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "en-us-shop-special-needs-freshness",
+        "file": "stardust/migrated/en-us/shop/special-needs/freshness/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-shop-special-needs-odor-removal",
+        "file": "stardust/migrated/en-us/shop/special-needs/odor-removal/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-shop-special-needs-sensitive",
+        "file": "stardust/migrated/en-us/shop/special-needs/sensitive/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-shop-special-needs-stain-removal",
+        "file": "stardust/migrated/en-us/shop/special-needs/stain-removal/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-shop-special-needs-whiteness",
+        "file": "stardust/migrated/en-us/shop/special-needs/whiteness/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-shop-type-fabric-rinse",
+        "file": "stardust/migrated/en-us/shop/type/fabric-rinse/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-shop-type-laundry-booster",
+        "file": "stardust/migrated/en-us/shop/type/laundry-booster/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-shop-type-laundry-pods",
+        "file": "stardust/migrated/en-us/shop/type/laundry-pods/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-shop-type-laundry-tiles",
+        "file": "stardust/migrated/en-us/shop/type/laundry-tiles/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-shop-type-powder",
+        "file": "stardust/migrated/en-us/shop/type/powder/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-shop-type-stain-remover",
+        "file": "stardust/migrated/en-us/shop/type/stain-remover/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-shop",
+        "file": "stardust/migrated/en-us/shop/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-shop-top-collections-tide-plus-febreze",
+        "file": "stardust/migrated/en-us/shop/top-collections/tide-plus-febreze/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "en-us-shop-top-collections-tide-power-pods",
+        "file": "stardust/migrated/en-us/shop/top-collections/tide-power-pods/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-shop-top-collections-tide-simply",
+        "file": "stardust/migrated/en-us/shop/top-collections/tide-simply/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-us-shop-top-collections-tide-ultra-oxi",
+        "file": "stardust/migrated/en-us/shop/top-collections/tide-ultra-oxi/index.html",
+        "assetsBundled": 1
+      }
+    ],
+    "missingAssets": [],
+    "cleanedAssets": [],
+    "lastRun": {
+      "at": "2026-11-24T05:13:21Z",
+      "rendered": [
+        "en-us-shop-top-collections-tide-plus-febreze",
+        "en-us-shop-top-collections-tide-power-pods",
+        "en-us-shop-top-collections-tide-simply",
+        "en-us-shop-top-collections-tide-ultra-oxi"
+      ],
+      "unchanged": [],
+      "refused": [],
+      "passthrough": []
+    }
+  }
+}

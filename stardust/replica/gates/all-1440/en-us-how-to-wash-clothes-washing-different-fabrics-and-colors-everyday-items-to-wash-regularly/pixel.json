@@ -1,0 +1,320 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-us-how-to-wash-clothes-washing-different-fabrics-and-colors-everyday-items-to-wash-regularly/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-us-how-to-wash-clothes-washing-different-fabrics-and-colors-everyday-items-to-wash-regularly/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 10635,
+    "mode": "overlap"
+  },
+  "heightDelta": 158,
+  "differingPixels": 2402755,
+  "pct": 15.69,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-1440/en-us-how-to-wash-clothes-washing-different-fabrics-and-colors-everyday-items-to-wash-regularly/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 25.72,
+  "textBoxes": 312,
+  "textPixels": 2340305,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 13.9
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 38.6
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 14.4
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 4.4
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 9.2
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 8.8
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 6.9
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 5.5
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 5.3
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 5.3
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 9.6
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 7.6
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 11.7
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 9.6
+    },
+    {
+      "y0": 7000,
+      "y1": 7500,
+      "pct": 5.5
+    },
+    {
+      "y0": 7500,
+      "y1": 8000,
+      "pct": 4.3
+    },
+    {
+      "y0": 8000,
+      "y1": 8500,
+      "pct": 6.4
+    },
+    {
+      "y0": 8500,
+      "y1": 9000,
+      "pct": 49.4
+    },
+    {
+      "y0": 9000,
+      "y1": 9500,
+      "pct": 76.5
+    },
+    {
+      "y0": 9500,
+      "y1": 10000,
+      "pct": 36.7
+    },
+    {
+      "y0": 10000,
+      "y1": 10500,
+      "pct": 3
+    },
+    {
+      "y0": 10500,
+      "y1": 10635,
+      "pct": 3.8
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 8.88,
+    "differingPixels": 1393460,
+    "compared": {
+      "width": 1440,
+      "height": 10895,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1006,
+        "shift": 21,
+        "cumulative": 21
+      },
+      {
+        "y": 4645,
+        "shift": -187,
+        "cumulative": -166
+      },
+      {
+        "y": 4941,
+        "shift": -69,
+        "cumulative": -235
+      },
+      {
+        "y": 9102,
+        "shift": -4,
+        "cumulative": -239
+      },
+      {
+        "y": 9888,
+        "shift": 81,
+        "cumulative": -158
+      }
+    ],
+    "maxOffset": 239,
+    "totalShift": 362,
+    "insertedRows": 102,
+    "deletedRows": 260,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 13.9,
+        "unaligned": 13.9
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 38.6,
+        "unaligned": 38.6
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 5.1,
+        "unaligned": 14.4
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0.7,
+        "unaligned": 4.4
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0.7,
+        "unaligned": 9.2
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0.8,
+        "unaligned": 8.8
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0.9,
+        "unaligned": 6.9
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 1.2,
+        "unaligned": 5.5
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 1.1,
+        "unaligned": 5.3
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 51.5,
+        "unaligned": 5.3
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 2.9,
+        "unaligned": 9.6
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 1.1,
+        "unaligned": 7.6
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 1,
+        "unaligned": 11.7
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 2.9,
+        "unaligned": 9.6
+      },
+      {
+        "y0": 7000,
+        "y1": 7500,
+        "pct": 2.1,
+        "unaligned": 5.5
+      },
+      {
+        "y0": 7500,
+        "y1": 8000,
+        "pct": 2,
+        "unaligned": 4.3
+      },
+      {
+        "y0": 8000,
+        "y1": 8500,
+        "pct": 5.4,
+        "unaligned": 6.4
+      },
+      {
+        "y0": 8500,
+        "y1": 9000,
+        "pct": 41.4,
+        "unaligned": 49.4
+      },
+      {
+        "y0": 9000,
+        "y1": 9500,
+        "pct": 3.7,
+        "unaligned": 76.5
+      },
+      {
+        "y0": 9500,
+        "y1": 10000,
+        "pct": 14.1,
+        "unaligned": 36.7
+      },
+      {
+        "y0": 10000,
+        "y1": 10500,
+        "pct": 0,
+        "unaligned": 3
+      },
+      {
+        "y0": 10500,
+        "y1": 10793,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/en-us-how-to-wash-clothes-washing-different-fabrics-and-colors-everyday-items-to-wash-regularly/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 108,
+    "totalShift": 362,
+    "pass": false
+  },
+  "reason": "offsets: 5 step(s), 362px total — +21px at y=1006, −187px at y=4645, −69px at y=4941, −4px at y=9102, +81px at y=9888 (bound 108px)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors/everyday-items-to-wash-regularly"
+  }
+}

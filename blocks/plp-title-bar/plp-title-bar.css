@@ -1,0 +1,93 @@
+/* plp-title-bar — live .plp-title-bar (h1 orange 32/36 → 48/52, bold run 800; orange pill).
+   Also the product-listing page frame, scoped to pages carrying this block. */
+.plp-title-bar .plp-title-bar-row {
+  display: flex;
+  place-content: center space-between;
+  margin-top: 40px;
+}
+
+.plp-title-bar .plp-title-bar-heading :is(h1, h2) {
+  margin: 0;
+  color: var(--tide-orange);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0;
+}
+
+.plp-title-bar .plp-title-bar-heading p {
+  margin: 0;
+}
+
+.plp-title-bar .plp-title-bar-heading strong {
+  font-weight: 800;
+}
+
+.plp-title-bar .plp-title-bar-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 30px;
+  border-radius: 25px;
+  background-color: var(--tide-orange);
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.plp-title-bar .plp-title-bar-action:hover {
+  background-color: var(--tide-orange-hover);
+}
+
+.plp-title-bar .plp-title-bar-action p {
+  margin: 0;
+}
+
+/* ---- product-listing page frame (foundation frozen: requested in foundation-requests) ---- */
+main:has(.plp-title-bar) {
+  padding-bottom: 30px;
+}
+
+main:has(.plp-title-bar) .breadcrumb {
+  margin-top: 30px;
+}
+
+/* features heading: default <h3> in the section that follows the grid */
+main:has(.plp-title-bar) .section:has(.feature-band-alternating) {
+  padding-top: 15px;
+}
+
+main:has(.plp-title-bar) .section:has(.feature-band-alternating) .default-content-wrapper h3 {
+  margin: 25px 0 20px;
+  color: var(--tide-orange);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0;
+}
+
+@media (width >= 992px) {
+  .plp-title-bar .plp-title-bar-heading :is(h1, h2) {
+    font-size: 48px;
+    line-height: 52px;
+  }
+
+  main:has(.plp-title-bar) {
+    padding-bottom: 60px;
+  }
+
+  main:has(.plp-title-bar) .section:has(.feature-band-alternating) {
+    padding-top: 50px;
+  }
+
+  main:has(.plp-title-bar) .section:has(.feature-band-alternating) .default-content-wrapper h3 {
+    margin-top: 35px;
+    font-size: 40px;
+    line-height: 44px;
+  }
+}

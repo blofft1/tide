@@ -1,0 +1,127 @@
+{
+ "writtenBy": "gate-all.mjs",
+ "at": "2026-11-23T23:40:32.642Z",
+ "clip": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 1,
+   "scrollHidden": 0,
+   "horizontal": 25,
+   "offPage": 8,
+   "textNodes": 354,
+   "controls": 61,
+   "total": 0
+  },
+  "groups": [
+   {
+    "kind": "CONTROL X-CUT",
+    "advisory": true,
+    "n": 8,
+    "clipper": "div#page-wrapper",
+    "path": "ol > li > p > a",
+    "text": "https://pubmed.ncbi.nlm.nih.gov/11150607/",
+    "cutMin": 7,
+    "cutMax": 155
+   },
+   {
+    "kind": "TEXT X-CUT",
+    "advisory": true,
+    "n": 8,
+    "clipper": "div#page-wrapper",
+    "path": "ol > li > p > a",
+    "text": "https://pubmed.ncbi.nlm.nih.gov/11150607/",
+    "cutMin": 7,
+    "cutMax": 155
+   },
+   {
+    "kind": "TEXT X-CUT",
+    "advisory": true,
+    "n": 4,
+    "clipper": "div.rt__table",
+    "path": "tbody > tr > td > p",
+    "text": "modern he washers use significantly less water than traditio",
+    "cutMin": 31,
+    "cutMax": 33
+   },
+   {
+    "kind": "CONTROL COLLAPSED",
+    "advisory": true,
+    "n": 1,
+    "clipper": "div#page-wrapper",
+    "path": "div#page-wrapper > header#site-header > a.skip-to-content-link",
+    "text": "skip to content",
+    "cutMin": null,
+    "cutMax": null
+   },
+   {
+    "kind": "CONTROL X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "nav",
+    "path": "nav > ul > li > span",
+    "text": "2. technical foundations of a high-quality detergent",
+    "cutMin": 348,
+    "cutMax": 348
+   },
+   {
+    "kind": "TEXT X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "nav",
+    "path": "nav > ul > li > span",
+    "text": "2. technical foundations of a high-quality detergent",
+    "cutMin": 348,
+    "cutMax": 348
+   },
+   {
+    "kind": "TEXT X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "div.rt__table",
+    "path": "td > p > strong > em",
+    "text": "mechanism of action",
+    "cutMin": 13,
+    "cutMax": 13
+   },
+   {
+    "kind": "CONTROL X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "div.rt__table",
+    "path": "tr > td > p > a",
+    "text": "breaking down greasy soils at low temperatures",
+    "cutMin": 31,
+    "cutMax": 31
+   },
+   {
+    "kind": "TEXT X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "div.rt__table",
+    "path": "tr > td > p > a",
+    "text": "breaking down greasy soils at low temperatures",
+    "cutMin": 31,
+    "cutMax": 31
+   }
+  ],
+  "source": "clip-probe",
+  "tier": "chrome"
+ },
+ "units": {
+  "verdict": {
+   "units": 7,
+   "within": 12,
+   "off": 0,
+   "hidden": 0,
+   "missing": 0,
+   "errors": 0,
+   "requiredOff": 0
+  },
+  "required": true,
+  "errors": []
+ }
+}

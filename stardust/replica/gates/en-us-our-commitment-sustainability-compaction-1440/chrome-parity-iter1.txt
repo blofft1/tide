@@ -1,0 +1,14 @@
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://tide.com/en-us/our-commitment/sustainability/compaction (live side from cache stardust/replica/gates/en-us-our-commitment-sustainability-compaction-1440/chrome-live.json, probed 2026-11-23T22:52:41.927Z — delete the file to re-probe)
+  build: http://localhost:8791/en-us-our-commitment-sustainability-compaction-proposed.html
+
+■ header: ✓ parity — 9 paired of 9/9 texts, 7/7 icons
+  region live:  header#site-header — outermost <header>, box 0,0 1440×175; selector #site-header
+  region build: header#site-header.site-header — outermost <header>, box 0,0 1440×175; selector #site-header
+  advisory     REST STATE: 1 live / 1 build text(s) inside panels not shown at rest left out (live: off-canvas 1; build: off-canvas 1) — --strict-names counts them
+
+■ footer: ✓ parity — 29 paired of 29/29 texts, 8/8 icons
+  region live:  footer#site-footer.site-footer — outermost <footer>, box 0,2432 1440×906; selector #site-footer
+  region build: footer#site-footer.site-footer — outermost <footer>, box 0,2432 1440×906; selector #site-footer
+
+✓ chrome parity within tolerance, 1 advisory group(s) — run crop-compare (pass bar item 5) to confirm in pixels.

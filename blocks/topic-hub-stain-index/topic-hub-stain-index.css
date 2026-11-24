@@ -1,0 +1,264 @@
+/* topic-hub-stain-index — live .article-listing (+ .article-listing-search). Spec: stardust/
+   prototypes/en-us-how-to-wash-clothes-how-to-remove-stains.css (.alp-listing*, .alp-search*,
+   .alp-cat*) */
+.topic-hub-stain-index {
+  position: relative;
+  padding-bottom: 40px;
+}
+
+.topic-hub-stain-index .thsi-photos {
+  display: none;
+}
+
+.topic-hub-stain-index .thsi-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 -15px;
+}
+
+/* search */
+.topic-hub-stain-index .thsi-search {
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+  padding: 0 15px;
+}
+
+.topic-hub-stain-index .thsi-search-label {
+  display: inline-block;
+  max-width: 220px;
+  margin: 0;
+  color: var(--tide-orange);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0;
+}
+
+.topic-hub-stain-index .thsi-search-field {
+  position: relative;
+  margin-top: 15px;
+}
+
+.topic-hub-stain-index .thsi-search-field input {
+  width: 100%;
+  margin: 0;
+  padding: 0 15px 25px;
+  border: 0;
+  border-bottom: 1px solid var(--tide-orange);
+  border-radius: 12px;
+  outline: 0;
+  background: #fff;
+  color: var(--tide-orange);
+  font-family: var(--font);
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0;
+}
+
+.topic-hub-stain-index .thsi-search-field input::placeholder {
+  opacity: 1;
+  color: #e3e3e3;
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0;
+}
+
+.topic-hub-stain-index .thsi-search-results {
+  width: 100%;
+}
+
+.topic-hub-stain-index .thsi-search-results a:any-link {
+  display: block;
+  margin-top: 20px;
+  color: var(--tide-navy);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.0375em;
+}
+
+/* categories */
+.topic-hub-stain-index .thsi-list {
+  width: 100%;
+  margin-top: 55px;
+  padding: 0 15px;
+}
+
+.topic-hub-stain-index .thsi-cat {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.topic-hub-stain-index .thsi-cat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 15px 0;
+  padding: 0 0 10px;
+  border-bottom: 1px solid var(--tide-rule);
+  color: var(--tide-orange);
+  font-family: var(--font);
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0;
+  text-align: left;
+  cursor: pointer;
+}
+
+.topic-hub-stain-index .thsi-cat-header svg {
+  z-index: 2;
+  width: 15px;
+  height: auto;
+  margin-left: 5px;
+  padding-left: 2px;
+  transition: transform 0.3s;
+}
+
+.topic-hub-stain-index .thsi-cat.is-open .thsi-cat-header svg {
+  transform: rotate(180deg);
+}
+
+.topic-hub-stain-index .thsi-cat-content {
+  position: relative;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.6s;
+}
+
+.topic-hub-stain-index .thsi-cat.is-open .thsi-cat-content {
+  max-height: 2500px;
+}
+
+.topic-hub-stain-index .thsi-cat-links {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.topic-hub-stain-index .thsi-cat-links > li {
+  flex: 0 0 50%;
+  max-width: 50%;
+  margin-top: 15px;
+}
+
+.topic-hub-stain-index .thsi-cat-links > li > p {
+  margin: 0;
+}
+
+.topic-hub-stain-index .thsi-cat-links a:any-link {
+  display: inline-block;
+  color: var(--tide-navy);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+
+@media (width >= 768px) {
+  .topic-hub-stain-index .thsi-cat-links > li {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+}
+
+@media (width >= 992px) {
+  .topic-hub-stain-index {
+    padding-bottom: 80px;
+  }
+
+  .topic-hub-stain-index .thsi-photos {
+    display: block;
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    overflow: hidden;
+  }
+
+  .topic-hub-stain-index .thsi-photos > :is(picture, img) {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    transform: translateY(-20%);
+  }
+
+  .topic-hub-stain-index .thsi-photos > :nth-child(2n) {
+    justify-content: flex-end;
+    transform: translateY(-60%);
+  }
+
+  .topic-hub-stain-index .thsi-photos > :first-child {
+    transform: none;
+  }
+
+  .topic-hub-stain-index .thsi-photos img {
+    display: block;
+    max-width: 200px;
+    height: auto;
+  }
+
+  .topic-hub-stain-index .thsi-search {
+    display: flex;
+    flex: 0 0 66.6667%;
+    max-width: 66.6667%;
+    margin-top: -30px;
+    padding: 65px 50px 0;
+    border-radius: 8px 8px 0 0;
+    background-color: #fff;
+  }
+
+  .topic-hub-stain-index .thsi-search-label {
+    margin-right: 35px;
+  }
+
+  .topic-hub-stain-index .thsi-search-field {
+    width: calc(100% - 220px);
+    margin-top: 0;
+  }
+
+  .topic-hub-stain-index .thsi-search-results {
+    position: absolute;
+    z-index: 1;
+    background-color: #fff;
+  }
+
+  .topic-hub-stain-index .thsi-list {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-top: 100px;
+  }
+
+  .topic-hub-stain-index .thsi-cat-header {
+    margin-top: 40px;
+    cursor: auto;
+  }
+
+  .topic-hub-stain-index .thsi-cat-header svg {
+    display: none;
+  }
+
+  .topic-hub-stain-index .thsi-cat-content {
+    max-height: none;
+    transition: none;
+  }
+
+  .topic-hub-stain-index .thsi-cat-links a:any-link {
+    line-height: 24px;
+  }
+}
+
+@media (width >= 1200px) {
+  .topic-hub-stain-index .thsi-photos img {
+    max-width: 250px;
+  }
+}

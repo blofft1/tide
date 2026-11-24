@@ -1,0 +1,178 @@
+{
+  "a": "stardust/replica/gates/all-360/en-us-research-signs-of-fragrance-safety/origin.png",
+  "b": "stardust/replica/gates/all-360/en-us-research-signs-of-fragrance-safety/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 4708,
+    "mode": "overlap"
+  },
+  "heightDelta": 20,
+  "differingPixels": 194144,
+  "pct": 11.45,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/en-us-research-signs-of-fragrance-safety/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 20.15,
+  "textBoxes": 121,
+  "textPixels": 580380,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.7
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 18.7
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 13.9
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 13.4
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 14.9
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 15.2
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 15.3
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 6
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 8.9
+    },
+    {
+      "y0": 4500,
+      "y1": 4708,
+      "pct": 2.5
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 1.45,
+    "differingPixels": 24617,
+    "compared": {
+      "width": 360,
+      "height": 4729,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 545,
+        "shift": -20,
+        "cumulative": -20
+      },
+      {
+        "y": 3997,
+        "shift": 1,
+        "cumulative": -19
+      },
+      {
+        "y": 4217,
+        "shift": -1,
+        "cumulative": -20
+      }
+    ],
+    "maxOffset": 20,
+    "totalShift": 22,
+    "insertedRows": 1,
+    "deletedRows": 21,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.7,
+        "unaligned": 0.7
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 12.1,
+        "unaligned": 18.7
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0.5,
+        "unaligned": 13.9
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 13.4
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 14.9
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 15.2
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 15.3
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0.2,
+        "unaligned": 6
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0.2,
+        "unaligned": 8.9
+      },
+      {
+        "y0": 4500,
+        "y1": 4728,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/en-us-research-signs-of-fragrance-safety/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 47,
+    "totalShift": 22,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/signs-of-fragrance-safety"
+  }
+}

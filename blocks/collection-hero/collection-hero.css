@@ -1,0 +1,350 @@
+/* collection-hero — live .collection-banner-with-bg (collection first banner).
+   The live banner nests flex rows, so the image's height:100% resolves against its line box
+   (image + strut gap): the block is the flex row, the picture its only visible flex item. */
+.collection-hero {
+  --collection-navy: #1b3392;
+  --collection-sky: #50aded;
+
+  position: relative;
+  display: flex;
+  max-height: 790px;
+}
+
+.collection-hero .collection-hero-media,
+.collection-hero .collection-hero-art {
+  display: contents;
+}
+
+.collection-hero .collection-hero-art:not(.is-active),
+.collection-hero .collection-hero-setting {
+  display: none;
+}
+
+.collection-hero .collection-hero-art picture {
+  display: block;
+  width: 100%;
+}
+
+.collection-hero .collection-hero-art img {
+  width: 100%;
+  height: 100%;
+  max-height: 790px;
+  object-fit: cover;
+  object-position: center;
+  vertical-align: baseline;
+}
+
+.collection-hero .collection-hero-content {
+  position: absolute;
+  inset: 0;
+}
+
+.collection-hero .collection-hero-content .container {
+  display: block;
+  height: 100%;
+  padding: 0;
+}
+
+.collection-hero .collection-hero-text {
+  padding: 0 25px;
+}
+
+.collection-hero .collection-hero-text h1 {
+  margin: 40px 0 0;
+  color: var(--collection-sky);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0;
+}
+
+.collection-hero .collection-hero-text h1 strong,
+.collection-hero .collection-hero-text h2 strong {
+  font-weight: 800;
+}
+
+.collection-hero .collection-hero-text h2 {
+  margin: 10px 0 0;
+  color: var(--collection-navy);
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0;
+}
+
+.collection-hero .collection-hero-text p {
+  margin: 0;
+  color: #fff;
+}
+
+.collection-hero .collection-hero-text p a:any-link {
+  display: inline-block;
+  position: relative;
+  margin-top: 30px;
+  padding: 10px 30px;
+  border: 0;
+  border-radius: 25px;
+  background-color: var(--tide-orange);
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.collection-hero .collection-hero-text p a:hover {
+  background-color: var(--tide-orange-hover);
+}
+
+/* collection-landing default content: the products title above the product grid
+   (live .collection-products-title; foundation frozen — request filed) */
+main:has(.collection-hero) .default-content-wrapper h3 {
+  margin: 90px 0 25px;
+  color: var(--tide-blue);
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0;
+}
+
+@media (width >= 768px) {
+  .collection-hero .collection-hero-content .container {
+    padding: 0 15px;
+  }
+
+  .collection-hero .collection-hero-text {
+    padding: 0;
+  }
+
+  .collection-hero .collection-hero-text h1 {
+    margin-top: 30px;
+  }
+}
+
+@media (width >= 992px) {
+  .collection-hero .collection-hero-text h1 {
+    font-size: 56px;
+    line-height: 52px;
+  }
+
+  .collection-hero .collection-hero-text h2 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+  }
+}
+
+@media (width >= 1200px) {
+  main:has(.collection-hero) .default-content-wrapper h3 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+}
+
+@media (width >= 1400px) {
+  .collection-hero .collection-hero-text h1 {
+    margin-top: 70px;
+    font-size: 68px;
+    line-height: 64px;
+  }
+}
+
+/* product-grid on collection-landing pages (live .collection-products): no action bar, filter
+   or paging; the rule sits under each card (< 992) instead of under each tile. Scoped override
+   until product-grid ships a `collection` variant (request filed). */
+main .product-grid.collection .product-grid-actions,
+main .product-grid.collection .product-grid-more {
+  display: none;
+}
+
+main .product-grid.collection .product-grid-item.product {
+  border-bottom: 0;
+}
+
+@media (width >= 375px) {
+  main .product-grid.collection .product-grid-card {
+    border-bottom: 1px solid #979797;
+  }
+}
+
+@media (width >= 992px) {
+  main .product-grid.collection .product-grid-list {
+    margin: 0 -15px;
+  }
+
+  main .product-grid.collection .product-grid-card {
+    border-bottom: 0;
+  }
+}
+
+/* live: the product title link wraps the name and shrinks to it (a > p, inline-block box)
+   from 992px; below it spans the copy column */
+@media (width >= 992px) {
+  main .product-grid.collection .product-grid-title a:any-link {
+    display: inline-block;
+  }
+}
+
+/* ---- variants: live .collection-fg-first-banner style options (sibling collections) ---- */
+/* stylelint-disable no-descending-specificity -- variant rules are mutually exclusive */
+.collection-hero.orange-ground {
+  background-color: var(--tide-orange);
+}
+
+.collection-hero.white-h1 .collection-hero-text h1,
+.collection-hero.white-h2 .collection-hero-text h2 {
+  color: #fff;
+  white-space: pre-wrap;
+}
+
+.collection-hero.theme-orange .collection-hero-text h1 {
+  margin-top: 30px;
+  color: var(--tide-orange);
+}
+
+.collection-hero.navy-h1 .collection-hero-text h1 {
+  color: var(--collection-navy);
+}
+
+.collection-hero.theme-orange .collection-hero-text h2 {
+  font-weight: 800;
+}
+
+.collection-hero.blue-cta .collection-hero-text p a:any-link {
+  background-color: var(--collection-navy);
+}
+
+.collection-hero.blue-cta .collection-hero-text p a:hover {
+  background-color: var(--tide-orange-hover);
+}
+
+.collection-hero.margin-lg .collection-hero-content {
+  inset: 40px 0;
+}
+
+.collection-hero.top-150 .collection-hero-content {
+  top: 65px;
+}
+
+.collection-hero.top-150 .collection-hero-text {
+  padding: 0 15px;
+}
+
+.collection-hero .collection-hero-text p:has(img) img {
+  display: block;
+  width: 368px;
+  max-width: 100%;
+  margin: 10px 0 5px;
+}
+
+.collection-hero.h2-bigger .collection-hero-text h2 {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.collection-hero.display-h2 .collection-hero-text h2 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 42px;
+  white-space: pre-wrap;
+}
+
+.collection-hero.display-h2.orange .collection-hero-text h2 {
+  color: var(--tide-orange);
+}
+
+.collection-hero.display-h2-small .collection-hero-text h2 {
+  color: var(--collection-navy);
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 40px;
+  white-space: pre-wrap;
+}
+
+.collection-hero.display-h2 .collection-hero-text h2 strong,
+.collection-hero.display-h2-small .collection-hero-text h2 strong {
+  font-weight: 800;
+}
+
+.collection-hero.p-bigger .collection-hero-text p {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 38px;
+  white-space: pre-wrap;
+}
+
+.collection-hero.p-top .collection-hero-text p {
+  margin-top: 30px;
+}
+
+.collection-hero.shirt .collection-hero-text {
+  margin-bottom: 420px;
+}
+
+@media (width >= 768px) {
+  .collection-hero.top-150 .collection-hero-text {
+    padding: 0;
+  }
+}
+
+@media (width >= 992px) {
+  .collection-hero.v-center .collection-hero-content .container,
+  .collection-hero.middle .collection-hero-content .container,
+  .collection-hero.lg-center .collection-hero-content .container {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+
+  .collection-hero.v-center .collection-hero-text,
+  .collection-hero.middle .collection-hero-text,
+  .collection-hero.lg-center .collection-hero-text {
+    width: 100%;
+  }
+
+  .collection-hero.v-center .collection-hero-text h1,
+  .collection-hero.v-center .collection-hero-text h2 {
+    margin-top: 0;
+  }
+
+  .collection-hero.half .collection-hero-text {
+    width: 50%;
+  }
+
+  .collection-hero.margin-lg .collection-hero-content {
+    inset: 120px 0;
+  }
+
+  .collection-hero.top-150 .collection-hero-content {
+    top: 150px;
+  }
+
+  .collection-hero.theme-orange .collection-hero-text h1 {
+    margin-top: 90px;
+  }
+
+  .collection-hero.h2-bigger .collection-hero-text h2 {
+    font-size: 68px;
+    line-height: 64px;
+  }
+}
+
+@media (width >= 1200px) {
+  .collection-hero.display-h2 .collection-hero-text h2 {
+    font-size: 68px;
+    line-height: 64px;
+  }
+
+  .collection-hero.display-h2-small .collection-hero-text h2 {
+    font-size: 48px;
+    line-height: 52px;
+  }
+}

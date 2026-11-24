@@ -1,0 +1,4475 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-24T11:20:36.370Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://tide.com/en-us/our-commitment/tide-cleaners-laundry-service",
+  "at": "2026-11-24T11:20:13.243Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 7279,
+  "root": "main#site-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div#page-wrapper > header#site-header > a.skip-to-content-link",
+    "x": 119,
+    "y": -44,
+    "w": 122,
+    "h": 44,
+    "text": "skip to content",
+    "href": "/en-us/our-commitment/tide-cleaners-laundry-service"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.row.no-gutters > button.burger-menu",
+    "x": 20,
+    "y": 18,
+    "w": 30,
+    "h": 26,
+    "text": "navigation menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.row.no-gutters > button.burger-menu",
+    "x": 20,
+    "y": 18,
+    "w": 30,
+    "h": 26,
+    "label": "navigation menu",
+    "value": "navigation menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row.no-gutters > div > a.header-logo.d-flex",
+    "x": 157,
+    "y": 7,
+    "w": 47,
+    "h": 47,
+    "text": "tide logo",
+    "href": "/en-us"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > a.header-logo.d-flex > img",
+    "x": 157,
+    "y": 7,
+    "w": 47,
+    "h": 47,
+    "text": "tide logo",
+    "file": "brand_main_logo"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "form.header-search > div.input-wrap > button",
+    "x": 310,
+    "y": 15,
+    "w": 30,
+    "h": 33,
+    "text": "submit search"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.breadcrumbs-list > li.breadcrumbs-list-item > a",
+    "x": 15,
+    "y": 62,
+    "w": 57,
+    "h": 22,
+    "text": "home",
+    "href": "/en-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.breadcrumbs-list > li.breadcrumbs-list-item > a",
+    "x": 15,
+    "y": 62,
+    "w": 124,
+    "h": 47,
+    "text": "our commitment",
+    "href": "/en-us/our-commitment"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.breadcrumbs-list > li.breadcrumbs-list-item > span",
+    "x": 15,
+    "y": 87,
+    "w": 299,
+    "h": 47,
+    "label": "current",
+    "value": "introducing tide cleaners!",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.breadcrumbs-list-item > span > span",
+    "x": 15,
+    "y": 87,
+    "w": 299,
+    "h": 47,
+    "text": "Introducing Tide Cleaners!"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-12.col-12 > picture > img",
+    "x": 0,
+    "y": 165,
+    "w": 360,
+    "h": 360,
+    "text": "introducing tide cleaners! - hero",
+    "file": "Tide_Cleaners_hero_20260521_default"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img.embedded-entry-inline",
+    "x": 40,
+    "y": 471,
+    "w": 260,
+    "h": 90,
+    "text": "tide cleaners logo",
+    "file": "Tide_Cleaners_logo_20260522"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-12.col-12 > div.richtext-container.white-text-box > h1",
+    "x": 40,
+    "y": 576,
+    "w": 280,
+    "h": 96,
+    "level": 1,
+    "text": "america’s #1 brand in dry cleaning & laundry services"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.richtext-container.white-text-box > h1 > strong",
+    "x": 40,
+    "y": 578,
+    "w": 258,
+    "h": 92,
+    "text": "America’s #1 brand in dry cleaning & laundry services"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.richtext-container.white-text-box > p > a.event_internal_link",
+    "x": 40,
+    "y": 719,
+    "w": 280,
+    "h": 42,
+    "text": "find a store near you!",
+    "href": "/locations"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-3.col-12 > picture > img",
+    "x": 15,
+    "y": 894,
+    "w": 330,
+    "h": 248,
+    "text": "introducing tide cleaners!",
+    "file": "Tide_Cleaners_cleaning_service_shop_2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-9.col-12 > div.richtext-container.font-size-lg > p",
+    "x": 15,
+    "y": 1141,
+    "w": 330,
+    "h": 320,
+    "text": "Tide is stepping beyond the laundry room to deliver for all your dry cleaning an"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-6.col-12 > div.richtext-container.links-as-buttons > h2#clean--care-has-never-been-so-convenient",
+    "x": 15,
+    "y": 1544,
+    "w": 330,
+    "h": 132,
+    "level": 2,
+    "text": "clean & care has never been so convenient"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-6.col-12 > div.richtext-container.links-as-buttons > p",
+    "x": 15,
+    "y": 1696,
+    "w": 330,
+    "h": 120,
+    "text": "Skip the laundry day. Tide Cleaners has it covered with convenient options that "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.richtext-container.links-as-buttons > p > a.event_internal_link",
+    "x": 15,
+    "y": 1857,
+    "w": 330,
+    "h": 42,
+    "text": "learn more",
+    "href": "/en-us"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-6.col-12 > picture > img",
+    "x": 15,
+    "y": 1944,
+    "w": 330,
+    "h": 248,
+    "text": "clean & care",
+    "file": "Tide_Cleaners_cleaning_service_lady_2026"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-12.col-12 > div.richtext-container > h2#options-that-fit-your-lifestyle",
+    "x": 15,
+    "y": 2267,
+    "w": 330,
+    "h": 88,
+    "level": 2,
+    "text": "options that fit your lifestyle"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-preview-image > picture > img",
+    "x": 0,
+    "y": 2425,
+    "w": 360,
+    "h": 203,
+    "text": "tide cleaners",
+    "file": "Tide_Cleaners_lifestyle_options_20260521"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-preview-content-wrapper > div.article-preview-content > a.article-preview-title",
+    "x": 40,
+    "y": 2602,
+    "w": 280,
+    "h": 26,
+    "text": "tide cleaners",
+    "href": "/en-us/touchpoints/stores"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-preview-content-wrapper > div.article-preview-content > p",
+    "x": 40,
+    "y": 2643,
+    "w": 280,
+    "h": 60,
+    "text": "Visit your local Tide Cleaners store for quick drop-off, expert care, and easy p"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-preview-content-wrapper > div.article-preview-content > a.button-link.event_button_click",
+    "x": 40,
+    "y": 2718,
+    "w": 180,
+    "h": 42,
+    "text": "find a store",
+    "href": "/en-us/touchpoints/stores"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-preview-image > picture > img",
+    "x": 0,
+    "y": 2815,
+    "w": 360,
+    "h": 203,
+    "text": "pickup & delivery",
+    "file": "Tide_Cleaners_lifestyle_options_20260521"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-preview-content-wrapper > div.article-preview-content > a.article-preview-title",
+    "x": 40,
+    "y": 2993,
+    "w": 280,
+    "h": 26,
+    "text": "pickup & delivery",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-preview-content-wrapper > div.article-preview-content > p",
+    "x": 40,
+    "y": 3034,
+    "w": 280,
+    "h": 60,
+    "text": "Get clean clothes delivered right to your door with our pick-up and drop-off ser"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-preview-content-wrapper > div.article-preview-content > a.button-link.event_button_click",
+    "x": 40,
+    "y": 3109,
+    "w": 243,
+    "h": 42,
+    "text": "check for delivery",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-preview-image > picture > img",
+    "x": 0,
+    "y": 3206,
+    "w": 360,
+    "h": 203,
+    "text": "tide laundromat",
+    "file": "Tide_Cleaners_lifestyle_options_20260521"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-preview-content-wrapper > div.article-preview-content > a.article-preview-title",
+    "x": 40,
+    "y": 3383,
+    "w": 280,
+    "h": 26,
+    "text": "tide laundromat",
+    "href": "/en-us/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-preview-content-wrapper > div.article-preview-content > p",
+    "x": 40,
+    "y": 3424,
+    "w": 280,
+    "h": 60,
+    "text": "Laundry made simple with free Wi-Fi, seamless app payments, and modern amenities"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-preview-content-wrapper > div.article-preview-content > a.button-link.event_button_click",
+    "x": 40,
+    "y": 3499,
+    "w": 172,
+    "h": 42,
+    "text": "learn more",
+    "href": "/en-us/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-4.col-12 > picture > img",
+    "x": 15,
+    "y": 3651,
+    "w": 330,
+    "h": 165,
+    "text": "our breadth of services",
+    "file": "Tide_Cleaners_breadth_of_services_202605"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-8.col-12 > div.richtext-container.pl-lg-3 > h2#our-breadth-of-services-handled-with-care",
+    "x": 15,
+    "y": 3816,
+    "w": 330,
+    "h": 176,
+    "level": 2,
+    "text": "our breadth of services handled with care"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-8.col-12 > div.richtext-container.pl-lg-3 > p",
+    "x": 15,
+    "y": 4012,
+    "w": 330,
+    "h": 60,
+    "text": "Tide Cleaners offers a full range of services to help care for your favorite fab"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 34,
+    "y": 4086,
+    "w": 95,
+    "h": 20,
+    "text": "dry cleaning"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 34,
+    "y": 4106,
+    "w": 169,
+    "h": 20,
+    "text": "collared shirt cleaning"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 34,
+    "y": 4126,
+    "w": 172,
+    "h": 20,
+    "text": "wash and fold laundry"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 34,
+    "y": 4146,
+    "w": 86,
+    "h": 20,
+    "text": "comforters"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 34,
+    "y": 4166,
+    "w": 127,
+    "h": 20,
+    "text": "household items"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 34,
+    "y": 4186,
+    "w": 80,
+    "h": 20,
+    "text": "outerwear"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-8.col-12 > div.richtext-container.pl-lg-3 > p",
+    "x": 15,
+    "y": 4222,
+    "w": 330,
+    "h": 120,
+    "text": "Our team of Tide-trained experts performs a detailed 7-point inspection on every"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-12.col-12 > div.richtext-container.font-size-lg > p",
+    "x": 30,
+    "y": 4425,
+    "w": 300,
+    "h": 96,
+    "text": "Book, track, and manage your cleaning"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 49,
+    "y": 4535,
+    "w": 281,
+    "h": 40,
+    "text": "Earn points & redeem rewards"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 49,
+    "y": 4575,
+    "w": 281,
+    "h": 40,
+    "text": "Schedule & track the progress of your order"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 49,
+    "y": 4615,
+    "w": 281,
+    "h": 40,
+    "text": "Pick-up and delivery right to your door"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.richtext-container.pl-3 > p > strong",
+    "x": 61,
+    "y": 4683,
+    "w": 246,
+    "h": 44,
+    "text": "Scan QR to download the app"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-6.col-6 > picture > img",
+    "x": 60,
+    "y": 4755,
+    "w": 105,
+    "h": 105,
+    "text": "qr code",
+    "file": "Tide_Cleaners_QR_code_20260506"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-11.col-12 > div.image-link > a",
+    "x": 195,
+    "y": 4755,
+    "w": 105,
+    "h": 47,
+    "text": "google play",
+    "href": "/store/apps/details"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture.pt-2.pb-1 > img",
+    "x": 195,
+    "y": 4763,
+    "w": 105,
+    "h": 35,
+    "text": "google play",
+    "file": "Tide_Cleaners_googleplay_20260506_"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-11.col-12 > div.image-link > a",
+    "x": 195,
+    "y": 4832,
+    "w": 105,
+    "h": 35,
+    "text": "iphone",
+    "href": "/us/app/tide-cleaners-dry-cleaning/id6446326585"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 195,
+    "y": 4832,
+    "w": 105,
+    "h": 35,
+    "text": "iphone",
+    "file": "Tide_Cleaners_applestore_20260506"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-4.col-6 > picture.mt-lg-3 > img",
+    "x": 120,
+    "y": 4897,
+    "w": 120,
+    "h": 120,
+    "text": "rated 4.9",
+    "file": "Tide_Cleaners_app_rating_20260520"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-4.col-12 > picture > img",
+    "x": 15,
+    "y": 5047,
+    "w": 330,
+    "h": 248,
+    "text": "book, track, and manage your cleaning",
+    "file": "Tide_Cleaners_mobile_app_20260521_defaul"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-10.col-12 > div.richtext-container.links-as-buttons > h2#find-a-tide-cleaners-near-you",
+    "x": 15,
+    "y": 5330,
+    "w": 330,
+    "h": 132,
+    "level": 2,
+    "text": "find a tide cleaners near you"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.richtext-container.links-as-buttons > p > a.event_internal_link",
+    "x": 15,
+    "y": 5507,
+    "w": 330,
+    "h": 42,
+    "text": "find a location",
+    "href": "/locations"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-links-wrapper > div.container > span",
+    "x": 15,
+    "y": 5639,
+    "w": 242,
+    "h": 19,
+    "text": "Ways to connect with us:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-links > li > a.footer-social-links-item.event_socialmedia_exit",
+    "x": 15,
+    "y": 5678,
+    "w": 32,
+    "h": 32,
+    "text": "facebook icon",
+    "href": "/Tide"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > a.footer-social-links-item.event_socialmedia_exit > img",
+    "x": 15,
+    "y": 5678,
+    "w": 32,
+    "h": 32,
+    "text": "facebook icon",
+    "file": "social_facebook"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-links > li > a.footer-social-links-item.event_socialmedia_exit",
+    "x": 62,
+    "y": 5678,
+    "w": 32,
+    "h": 32,
+    "text": "twitter icon",
+    "href": "/tide"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > a.footer-social-links-item.event_socialmedia_exit > img",
+    "x": 62,
+    "y": 5678,
+    "w": 32,
+    "h": 32,
+    "text": "twitter icon",
+    "file": "social_twitter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-links > li > a.footer-social-links-item.event_socialmedia_exit",
+    "x": 109,
+    "y": 5678,
+    "w": 32,
+    "h": 32,
+    "text": "pinterest icon",
+    "href": "/tide/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > a.footer-social-links-item.event_socialmedia_exit > img",
+    "x": 109,
+    "y": 5678,
+    "w": 32,
+    "h": 32,
+    "text": "pinterest icon",
+    "file": "social_pinterest"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-links > li > a.footer-social-links-item.event_socialmedia_exit",
+    "x": 156,
+    "y": 5678,
+    "w": 32,
+    "h": 32,
+    "text": "youtube icon",
+    "href": "/channel/UCEPeWPjaF1CWCKXa3xTp7vw"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > a.footer-social-links-item.event_socialmedia_exit > img",
+    "x": 156,
+    "y": 5678,
+    "w": 32,
+    "h": 32,
+    "text": "youtube icon",
+    "file": "social_youtube"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row > div.col-12 > p.footer-navigation-title",
+    "x": 15,
+    "y": 5770,
+    "w": 330,
+    "h": 51,
+    "text": "Shop Products"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-4 > div#by-type > div.expandable-content-header",
+    "x": 15,
+    "y": 5863,
+    "w": 330,
+    "h": 24,
+    "text": "by type"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-4 > div#by-type > div.expandable-content-header",
+    "x": 15,
+    "y": 5863,
+    "w": 330,
+    "h": 24,
+    "label": "by type",
+    "value": "by type",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-4 > div#by-need > div.expandable-content-header",
+    "x": 15,
+    "y": 5947,
+    "w": 330,
+    "h": 24,
+    "text": "by need"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-4 > div#by-need > div.expandable-content-header",
+    "x": 15,
+    "y": 5947,
+    "w": 330,
+    "h": 24,
+    "label": "by need",
+    "value": "by need",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-4 > div#top-collection > div.expandable-content-header",
+    "x": 15,
+    "y": 6031,
+    "w": 330,
+    "h": 24,
+    "text": "top collection"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-4 > div#top-collection > div.expandable-content-header",
+    "x": 15,
+    "y": 6031,
+    "w": 330,
+    "h": 24,
+    "label": "top collection",
+    "value": "top collection",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row > div.col-12.col-md-6 > p#footer-washing-machine-title",
+    "x": 15,
+    "y": 6123,
+    "w": 330,
+    "h": 51,
+    "text": "How to Wash Clothes"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-6 > div.menu-item > a.event_menu_click",
+    "x": 15,
+    "y": 6191,
+    "w": 177,
+    "h": 18,
+    "text": "how to remove stains",
+    "href": "/en-us/how-to-wash-clothes/how-to-remove-stains"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-6 > div.menu-item > a.event_menu_click",
+    "x": 15,
+    "y": 6223,
+    "w": 153,
+    "h": 18,
+    "text": "how to do laundry",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-6 > div.menu-item > a.event_menu_click",
+    "x": 15,
+    "y": 6255,
+    "w": 289,
+    "h": 18,
+    "text": "washing different fabrics and colors",
+    "href": "/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-6 > div.menu-item > a.event_outbound_link",
+    "x": 15,
+    "y": 6287,
+    "w": 163,
+    "h": 18,
+    "text": "washing machine 101",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row > div.col-12.col-md-6 > p#footer-help-support-title",
+    "x": 15,
+    "y": 6352,
+    "w": 330,
+    "h": 51,
+    "text": "Help & Support"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-6 > div.menu-item > a.event_menu_click",
+    "x": 15,
+    "y": 6420,
+    "w": 85,
+    "h": 18,
+    "text": "contact us",
+    "href": "/en-us/contact-us"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row > div.col-12.footer-related > span#footer-related-title",
+    "x": 15,
+    "y": 6516,
+    "w": 81,
+    "h": 24,
+    "text": "Related:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-related-navigation > div.menu-item > a.event_outbound_link",
+    "x": 15,
+    "y": 6549,
+    "w": 93,
+    "h": 18,
+    "text": "p&g brands",
+    "href": "/en_US"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-related-navigation > div.menu-item > a.event_outbound_link",
+    "x": 123,
+    "y": 6549,
+    "w": 64,
+    "h": 18,
+    "text": "mrclean",
+    "href": "/en-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-related-navigation > div.menu-item > a.event_outbound_link",
+    "x": 202,
+    "y": 6549,
+    "w": 54,
+    "h": 18,
+    "text": "downy",
+    "href": "/en-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-related-navigation > div.menu-item > a.event_outbound_link",
+    "x": 271,
+    "y": 6549,
+    "w": 58,
+    "h": 18,
+    "text": "bounce",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-related-navigation > div.menu-item > a.event_outbound_link",
+    "x": 15,
+    "y": 6581,
+    "w": 110,
+    "h": 18,
+    "text": "p&g everyday",
+    "href": "/tag/tide"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.footer-icons > div > a.footer-icon",
+    "x": 18,
+    "y": 6651,
+    "w": 82,
+    "h": 68,
+    "text": "good housekeeping icon",
+    "href": "/product-reviews/history/welcome-gh-seal"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.footer-icon > picture > img",
+    "x": 18,
+    "y": 6651,
+    "w": 82,
+    "h": 62,
+    "text": "good housekeeping icon",
+    "file": "footer_GoodHousekeeping"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.footer-icons > div > a.footer-icon",
+    "x": 130,
+    "y": 6651,
+    "w": 38,
+    "h": 68,
+    "text": "bbb icon",
+    "href": "/cincinnati/business-reviews/detergent/the-procter-gamble-company-in-cincinnati-oh-3036"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.footer-icon > picture > img",
+    "x": 130,
+    "y": 6651,
+    "w": 38,
+    "h": 62,
+    "text": "bbb icon",
+    "file": "footer_BBB"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.footer-icons > div > a.footer-icon",
+    "x": 198,
+    "y": 6651,
+    "w": 58,
+    "h": 68,
+    "text": "junk food icon",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.footer-icon > picture > img",
+    "x": 198,
+    "y": 6651,
+    "w": 58,
+    "h": 62,
+    "text": "junk food icon",
+    "file": "footer_JunkFood"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.footer-icons > div > a.footer-icon",
+    "x": 286,
+    "y": 6651,
+    "w": 56,
+    "h": 68,
+    "text": "tide cleaners icon",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.footer-icon > picture > img",
+    "x": 286,
+    "y": 6651,
+    "w": 56,
+    "h": 62,
+    "text": "tide cleaners icon",
+    "file": "footer_TideCleaners"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > a.event_outbound_link",
+    "x": 15,
+    "y": 6770,
+    "w": 179,
+    "h": 18,
+    "text": "accessibility statement",
+    "href": "/en-US"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > a.event_outbound_link",
+    "x": 15,
+    "y": 6802,
+    "w": 150,
+    "h": 18,
+    "text": "terms & conditions",
+    "href": "/en-us/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > a.event_menu_click",
+    "x": 15,
+    "y": 6834,
+    "w": 279,
+    "h": 18,
+    "text": "tide rewards terms and conditions",
+    "href": "/en-us/rewards/loyalty/terms-and-conditions"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > a.event_outbound_link",
+    "x": 15,
+    "y": 6866,
+    "w": 60,
+    "h": 18,
+    "text": "careers",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > a.event_outbound_link",
+    "x": 90,
+    "y": 6866,
+    "w": 56,
+    "h": 18,
+    "text": "privacy",
+    "href": "/en-US/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > a.event_outbound_link",
+    "x": 15,
+    "y": 6898,
+    "w": 287,
+    "h": 18,
+    "text": "consumer health data privacy policy",
+    "href": "/CHD-en"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > a.event_outbound_link.with-ccpa-logo",
+    "x": 15,
+    "y": 6930,
+    "w": 187,
+    "h": 18,
+    "text": "your privacy choices",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > span",
+    "x": 15,
+    "y": 6962,
+    "w": 276,
+    "h": 50,
+    "text": "NOTICE: We may sell your sensitive personal data."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.copyright > div.self-center.font-medium",
+    "x": 15,
+    "y": 7115,
+    "w": 199,
+    "h": 32,
+    "text": "© 2026 Procter & Gamble"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.footer-general-navigation > div.menu-item > a.event_menu_click",
+    "x": 15,
+    "y": 7197,
+    "w": 64,
+    "h": 32,
+    "text": "sitemap",
+    "href": "/en-us/sitemap"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 1,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 73,
+    "controls": 46,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "CONTROL COLLAPSED",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div#page-wrapper",
+     "path": "div#__next > div#page-wrapper > header#site-header > a.skip-to-content-link",
+     "text": "skip to content",
+     "cutMin": null,
+     "cutMax": null
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/tide-cleaners-laundry-service",
+  "at": "2026-11-24T11:20:36.250Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 7085,
+  "root": "main#site-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header.block > div#site-header > a.skip-to-content-link",
+    "x": 119,
+    "y": -44,
+    "w": 122,
+    "h": 44,
+    "text": "skip to content",
+    "href": "/en-us/our-commitment/tide-cleaners-laundry-service"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.searchbar-row > button.burger",
+    "x": 20,
+    "y": 18,
+    "w": 30,
+    "h": 26,
+    "text": "navigation menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.searchbar-row > button.burger",
+    "x": 20,
+    "y": 18,
+    "w": 30,
+    "h": 26,
+    "label": "navigation menu",
+    "value": "navigation menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-logo > p > a",
+    "x": 157,
+    "y": 7,
+    "w": 47,
+    "h": 47,
+    "text": "tide logo",
+    "href": "/en-us"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 157,
+    "y": 7,
+    "w": 47,
+    "h": 47,
+    "text": "tide logo",
+    "file": "media_1657180466c60da96dcbb2d8123d7c9b94"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "form > div.input-wrap > button",
+    "x": 310,
+    "y": 15,
+    "w": 30,
+    "h": 30,
+    "text": "submit search"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 62,
+    "w": 57,
+    "h": 22,
+    "text": "home",
+    "href": "/en-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 91,
+    "y": 62,
+    "w": 165,
+    "h": 22,
+    "text": "our commitment",
+    "href": "/en-us/our-commitment"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav > ul > li",
+    "x": 15,
+    "y": 86,
+    "w": 248,
+    "h": 22,
+    "label": "current",
+    "value": "introducing tide cleaners!",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav > ul > li",
+    "x": 15,
+    "y": 86,
+    "w": 248,
+    "h": 22,
+    "text": "Introducing Tide Cleaners!"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p.cr-art.cr-narrow > picture > img",
+    "x": 0,
+    "y": 139,
+    "w": 360,
+    "h": 360,
+    "text": "introducing tide cleaners! - hero",
+    "file": "media_11d99872b8e1e68ee82400bb7b1863e844"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p.cr-pic > picture > img",
+    "x": 40,
+    "y": 439,
+    "w": 260,
+    "h": 90,
+    "text": "tide cleaners logo",
+    "file": "media_16984dc2f3c49f90becab700f2eb95066e"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cr-row > div.cr-cell.cr-mixed > h1#americas-1-brand-in-dry-cleaning--laundry-services",
+    "x": 40,
+    "y": 535,
+    "w": 280,
+    "h": 96,
+    "level": 1,
+    "text": "america’s #1 brand in dry cleaning & laundry services"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cr-cell.cr-mixed > h1#americas-1-brand-in-dry-cleaning--laundry-services > strong",
+    "x": 40,
+    "y": 537,
+    "w": 252,
+    "h": 92,
+    "text": "America’s #1 brand in dry cleaning & laundry services"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cr-cell.cr-mixed > p.button-wrapper > a.button.secondary",
+    "x": 40,
+    "y": 667,
+    "w": 276,
+    "h": 42,
+    "text": "find a store near you!",
+    "href": "/locations"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p.cr-art.cr-narrow > picture > img",
+    "x": 15,
+    "y": 797,
+    "w": 330,
+    "h": 248,
+    "text": "introducing tide cleaners!",
+    "file": "media_14da600b3d58af13fadcdbc456d14fd4d7"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cr-row > div.cr-cell.cr-text > p",
+    "x": 15,
+    "y": 1044,
+    "w": 330,
+    "h": 320,
+    "text": "Tide is stepping beyond the laundry room to deliver for all your dry cleaning an"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cr-row > div.cr-cell.cr-text > h2#clean--care-has-never-been-so-convenient",
+    "x": 15,
+    "y": 1447,
+    "w": 330,
+    "h": 132,
+    "level": 2,
+    "text": "clean & care has never been so convenient"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cr-row > div.cr-cell.cr-text > p",
+    "x": 15,
+    "y": 1599,
+    "w": 330,
+    "h": 120,
+    "text": "Skip the laundry day. Tide Cleaners has it covered with convenient options that "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cr-cell.cr-text > p.button-wrapper > a.button.secondary",
+    "x": 15,
+    "y": 1739,
+    "w": 330,
+    "h": 42,
+    "text": "learn more",
+    "href": "/en-us"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p.cr-art.cr-narrow > picture > img",
+    "x": 15,
+    "y": 1811,
+    "w": 330,
+    "h": 248,
+    "text": "clean & care",
+    "file": "media_1548fbb7da006431b9cf1d1435f3b4798d"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cr-row > div.cr-cell.cr-text > h2#options-that-fit-your-lifestyle",
+    "x": 15,
+    "y": 2164,
+    "w": 330,
+    "h": 88,
+    "level": 2,
+    "text": "options that fit your lifestyle"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.lmc-image > picture > img",
+    "x": 0,
+    "y": 2292,
+    "w": 360,
+    "h": 203,
+    "text": "tide cleaners",
+    "file": "media_186d8ceb763c8e28ad9b2b480ac8898b96"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.lmc-title > p > a",
+    "x": 40,
+    "y": 2469,
+    "w": 280,
+    "h": 26,
+    "text": "tide cleaners",
+    "href": "/en-us/touchpoints/stores"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.lmc-content > div.lmc-text > p",
+    "x": 40,
+    "y": 2510,
+    "w": 280,
+    "h": 60,
+    "text": "Visit your local Tide Cleaners store for quick drop-off, expert care, and easy p"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.lmc-cta > p.button-wrapper > a.button.secondary",
+    "x": 40,
+    "y": 2585,
+    "w": 180,
+    "h": 42,
+    "text": "find a store",
+    "href": "/en-us/touchpoints/stores"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.lmc-image > picture > img",
+    "x": 0,
+    "y": 2682,
+    "w": 360,
+    "h": 203,
+    "text": "pickup & delivery",
+    "file": "media_1bb934ef64e0e1f93af1d1f119cd31e447"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.lmc-title > p > a",
+    "x": 40,
+    "y": 2860,
+    "w": 280,
+    "h": 26,
+    "text": "pickup & delivery",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.lmc-content > div.lmc-text > p",
+    "x": 40,
+    "y": 2901,
+    "w": 280,
+    "h": 60,
+    "text": "Get clean clothes delivered right to your door with our pick-up and drop-off ser"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.lmc-cta > p.button-wrapper > a.button.secondary",
+    "x": 40,
+    "y": 2976,
+    "w": 243,
+    "h": 42,
+    "text": "check for delivery",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.lmc-image > picture > img",
+    "x": 0,
+    "y": 3073,
+    "w": 360,
+    "h": 203,
+    "text": "tide laundromat",
+    "file": "media_15537b6adede1e9c4d0ea1c2863020bb8e"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.lmc-title > p > a",
+    "x": 40,
+    "y": 3250,
+    "w": 280,
+    "h": 26,
+    "text": "tide laundromat",
+    "href": "/en-us/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.lmc-content > div.lmc-text > p",
+    "x": 40,
+    "y": 3291,
+    "w": 280,
+    "h": 60,
+    "text": "Laundry made simple with free Wi-Fi, seamless app payments, and modern amenities"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.lmc-cta > p.button-wrapper > a.button.secondary",
+    "x": 40,
+    "y": 3366,
+    "w": 172,
+    "h": 42,
+    "text": "learn more",
+    "href": "/en-us/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p.cr-art.cr-narrow > picture > img",
+    "x": 15,
+    "y": 3468,
+    "w": 330,
+    "h": 165,
+    "text": "our breadth of services",
+    "file": "media_12f61ee5c2642ea9c9a33b93daec5069e1"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cr-row > div.cr-cell.cr-text > h2#our-breadth-of-services-handled-with-care",
+    "x": 15,
+    "y": 3663,
+    "w": 330,
+    "h": 176,
+    "level": 2,
+    "text": "our breadth of services handled with care"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cr-row > div.cr-cell.cr-text > p",
+    "x": 15,
+    "y": 3859,
+    "w": 330,
+    "h": 60,
+    "text": "Tide Cleaners offers a full range of services to help care for your favorite fab"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cr-cell.cr-text > ul > li",
+    "x": 34,
+    "y": 3933,
+    "w": 311,
+    "h": 20,
+    "text": "dry cleaning"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cr-cell.cr-text > ul > li",
+    "x": 34,
+    "y": 3953,
+    "w": 311,
+    "h": 20,
+    "text": "collared shirt cleaning"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cr-cell.cr-text > ul > li",
+    "x": 34,
+    "y": 3973,
+    "w": 311,
+    "h": 20,
+    "text": "wash and fold laundry"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cr-cell.cr-text > ul > li",
+    "x": 34,
+    "y": 3993,
+    "w": 311,
+    "h": 20,
+    "text": "comforters"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cr-cell.cr-text > ul > li",
+    "x": 34,
+    "y": 4013,
+    "w": 311,
+    "h": 20,
+    "text": "household items"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cr-cell.cr-text > ul > li",
+    "x": 34,
+    "y": 4033,
+    "w": 311,
+    "h": 20,
+    "text": "outerwear"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cr-row > div.cr-cell.cr-text > p",
+    "x": 15,
+    "y": 4069,
+    "w": 330,
+    "h": 120,
+    "text": "Our team of Tide-trained experts performs a detailed 7-point inspection on every"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cr-row > div.cr-cell.cr-mixed > p",
+    "x": 30,
+    "y": 4272,
+    "w": 300,
+    "h": 96,
+    "text": "Book, track, and manage your cleaning"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cr-cell.cr-mixed > ul > li",
+    "x": 49,
+    "y": 4382,
+    "w": 281,
+    "h": 20,
+    "text": "Earn points & redeem rewards"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cr-cell.cr-mixed > ul > li",
+    "x": 49,
+    "y": 4402,
+    "w": 281,
+    "h": 40,
+    "text": "Schedule & track the progress of your order"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cr-cell.cr-mixed > ul > li",
+    "x": 49,
+    "y": 4442,
+    "w": 281,
+    "h": 40,
+    "text": "Pick-up and delivery right to your door"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cr-cell.cr-mixed > p > strong",
+    "x": 46,
+    "y": 4499,
+    "w": 246,
+    "h": 44,
+    "text": "Scan QR to download the app"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p.cr-pic > picture > img",
+    "x": 60,
+    "y": 4602,
+    "w": 105,
+    "h": 105,
+    "text": "qr code",
+    "file": "media_1586bef145bc9c294a519ab525f99ed3f3"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cr-cell.cr-mixed > p.cr-pic > a",
+    "x": 195,
+    "y": 4610,
+    "w": 105,
+    "h": 35,
+    "text": "google play",
+    "href": "/store/apps/details"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 195,
+    "y": 4610,
+    "w": 105,
+    "h": 35,
+    "text": "google play",
+    "file": "media_1ff2d1f26e13ed39dc4e2c37894818d4df"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cr-cell.cr-mixed > p.cr-pic > a",
+    "x": 195,
+    "y": 4679,
+    "w": 105,
+    "h": 35,
+    "text": "iphone",
+    "href": "/us/app/tide-cleaners-dry-cleaning/id6446326585"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 195,
+    "y": 4679,
+    "w": 105,
+    "h": 35,
+    "text": "iphone",
+    "file": "media_12c1a2c3ff014957032714ffa2ea6870c7"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p.cr-pic > picture > img",
+    "x": 120,
+    "y": 4744,
+    "w": 120,
+    "h": 120,
+    "text": "rated 4.9",
+    "file": "media_1fb40889b8a61a8264b9530a93baac20fb"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p.cr-art.cr-narrow > picture > img",
+    "x": 15,
+    "y": 4863,
+    "w": 330,
+    "h": 248,
+    "text": "book, track, and manage your cleaning",
+    "file": "media_1f4970cfaa0c3c26c58e1881d4ccd0e85e"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cr-row > div.cr-cell.cr-text > h2#find-a-tide-cleaners-near-you",
+    "x": 15,
+    "y": 5176,
+    "w": 330,
+    "h": 132,
+    "level": 2,
+    "text": "find a tide cleaners near you"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cr-cell.cr-text > p.button-wrapper > a.button.secondary",
+    "x": 15,
+    "y": 5328,
+    "w": 330,
+    "h": 42,
+    "text": "find a location",
+    "href": "/locations"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.footer-social-label > p",
+    "x": 15,
+    "y": 5445,
+    "w": 242,
+    "h": 19,
+    "text": "Ways to connect with us:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 5484,
+    "w": 32,
+    "h": 32,
+    "text": "facebook icon",
+    "href": "/Tide"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 15,
+    "y": 5484,
+    "w": 32,
+    "h": 32,
+    "text": "facebook icon",
+    "file": "media_1bff7d59c4067314b47f0571184d0ed529"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 62,
+    "y": 5484,
+    "w": 32,
+    "h": 32,
+    "text": "twitter icon",
+    "href": "/tide"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 62,
+    "y": 5484,
+    "w": 32,
+    "h": 32,
+    "text": "twitter icon",
+    "file": "media_1d4bf414ff3eeeb8a169b214b0c8bbf72a"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 109,
+    "y": 5484,
+    "w": 32,
+    "h": 32,
+    "text": "pinterest icon",
+    "href": "/tide/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 109,
+    "y": 5484,
+    "w": 32,
+    "h": 32,
+    "text": "pinterest icon",
+    "file": "media_18cdbba8bc0f0f7a172257ff84fa5200d5"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 156,
+    "y": 5484,
+    "w": 32,
+    "h": 32,
+    "text": "youtube icon",
+    "href": "/channel/UCEPeWPjaF1CWCKXa3xTp7vw"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 156,
+    "y": 5484,
+    "w": 32,
+    "h": 32,
+    "text": "youtube icon",
+    "file": "media_11266d14e9b1e9a4b88cdddb13b60dadbd"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col > div.footer-nav-title > p",
+    "x": 15,
+    "y": 5576,
+    "w": 330,
+    "h": 51,
+    "text": "Shop Products"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > div.expandable > div.expandable-header",
+    "x": 15,
+    "y": 5669,
+    "w": 330,
+    "h": 24,
+    "level": 4,
+    "text": "by type"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > div.expandable > div.expandable-header",
+    "x": 15,
+    "y": 5753,
+    "w": 330,
+    "h": 24,
+    "level": 4,
+    "text": "by need"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > div.expandable > div.expandable-header",
+    "x": 15,
+    "y": 5837,
+    "w": 330,
+    "h": 24,
+    "level": 4,
+    "text": "top collection"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col.col-md-6 > div.footer-nav-title > p",
+    "x": 15,
+    "y": 5929,
+    "w": 330,
+    "h": 51,
+    "text": "How to Wash Clothes"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 5997,
+    "w": 177,
+    "h": 18,
+    "text": "how to remove stains",
+    "href": "/en-us/how-to-wash-clothes/how-to-remove-stains"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 6029,
+    "w": 153,
+    "h": 18,
+    "text": "how to do laundry",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 6061,
+    "w": 289,
+    "h": 18,
+    "text": "washing different fabrics and colors",
+    "href": "/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 6093,
+    "w": 163,
+    "h": 18,
+    "text": "washing machine 101",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col.col-md-6 > div.footer-nav-title > p",
+    "x": 15,
+    "y": 6158,
+    "w": 330,
+    "h": 51,
+    "text": "Help & Support"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 6226,
+    "w": 85,
+    "h": 18,
+    "text": "contact us",
+    "href": "/en-us/contact-us"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col.footer-related > div.footer-related-label > p",
+    "x": 15,
+    "y": 6322,
+    "w": 81,
+    "h": 24,
+    "text": "Related:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 6355,
+    "w": 93,
+    "h": 18,
+    "text": "p&g brands",
+    "href": "/en_US"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 123,
+    "y": 6355,
+    "w": 64,
+    "h": 18,
+    "text": "mrclean",
+    "href": "/en-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 202,
+    "y": 6355,
+    "w": 54,
+    "h": 18,
+    "text": "downy",
+    "href": "/en-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 271,
+    "y": 6355,
+    "w": 58,
+    "h": 18,
+    "text": "bounce",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 6387,
+    "w": 110,
+    "h": 18,
+    "text": "p&g everyday",
+    "href": "/tag/tide"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 18,
+    "y": 6506,
+    "w": 82,
+    "h": 16,
+    "text": "good housekeeping icon",
+    "href": "/product-reviews/history/welcome-gh-seal"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 18,
+    "y": 6457,
+    "w": 82,
+    "h": 62,
+    "text": "good housekeeping icon",
+    "file": "media_1915c270d4d20b18fb25a1cc6c49da3f7d"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 130,
+    "y": 6506,
+    "w": 38,
+    "h": 16,
+    "text": "bbb icon",
+    "href": "/cincinnati/business-reviews/detergent/the-procter-gamble-company-in-cincinnati-oh-3036"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 130,
+    "y": 6457,
+    "w": 38,
+    "h": 62,
+    "text": "bbb icon",
+    "file": "media_152462ed6c7d03edb0c9b2df4a3225edd6"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 198,
+    "y": 6506,
+    "w": 58,
+    "h": 16,
+    "text": "junk food icon",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 198,
+    "y": 6457,
+    "w": 58,
+    "h": 62,
+    "text": "junk food icon",
+    "file": "media_174cf4b58ab063651ffe4f10a66e62cdaf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 286,
+    "y": 6506,
+    "w": 56,
+    "h": 16,
+    "text": "tide cleaners icon",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 286,
+    "y": 6457,
+    "w": 56,
+    "h": 62,
+    "text": "tide cleaners icon",
+    "file": "media_124ea7973b6834e8157f4329ff2eee77c6"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 6576,
+    "w": 179,
+    "h": 18,
+    "text": "accessibility statement",
+    "href": "/en-US"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 6608,
+    "w": 150,
+    "h": 18,
+    "text": "terms & conditions",
+    "href": "/en-us/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 6640,
+    "w": 279,
+    "h": 18,
+    "text": "tide rewards terms and conditions",
+    "href": "/en-us/rewards/loyalty/terms-and-conditions"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 6672,
+    "w": 60,
+    "h": 18,
+    "text": "careers",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 90,
+    "y": 6672,
+    "w": 56,
+    "h": 18,
+    "text": "privacy",
+    "href": "/en-US/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 6704,
+    "w": 287,
+    "h": 18,
+    "text": "consumer health data privacy policy",
+    "href": "/CHD-en"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 6736,
+    "w": 187,
+    "h": 18,
+    "text": "your privacy choices",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > span",
+    "x": 15,
+    "y": 6768,
+    "w": 276,
+    "h": 50,
+    "text": "NOTICE: We may sell your sensitive personal data."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col.footer-general > ul > li",
+    "x": 15,
+    "y": 6921,
+    "w": 199,
+    "h": 32,
+    "text": "© 2026 Procter & Gamble"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 7003,
+    "w": 64,
+    "h": 32,
+    "text": "sitemap",
+    "href": "/en-us/sitemap"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 72,
+    "controls": 43,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 1,
+    "image": 2
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "america’s #1 brand in dry cleaning & laundry services",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 2,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "clean & care has never been so convenient",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "options that fit your lifestyle",
+   "variable": false,
+   "origin": {
+    "link": 6,
+    "button": 0,
+    "text": 3,
+    "image": 4
+   },
+   "eds": {
+    "link": 6,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 4,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "our breadth of services handled with care",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 13,
+    "image": 5
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 13,
+    "textHidden": 0,
+    "image": 5,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "find a tide cleaners near you",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 15,
+    "y": 62,
+    "w": 57,
+    "h": 22
+   },
+   {
+    "x": 91,
+    "y": 62,
+    "w": 36,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 87,
+    "w": 124,
+    "h": 22
+   },
+   {
+    "x": 159,
+    "y": 87,
+    "w": 155,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 111,
+    "w": 88,
+    "h": 22
+   },
+   {
+    "x": 40,
+    "y": 578,
+    "w": 239,
+    "h": 28
+   },
+   {
+    "x": 279,
+    "y": 578,
+    "w": 6,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 610,
+    "w": 252,
+    "h": 28
+   },
+   {
+    "x": 292,
+    "y": 610,
+    "w": 6,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 642,
+    "w": 93,
+    "h": 28
+   },
+   {
+    "x": 72,
+    "y": 728,
+    "w": 216,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 1144,
+    "w": 306,
+    "h": 26
+   },
+   {
+    "x": 15,
+    "y": 1176,
+    "w": 258,
+    "h": 26
+   },
+   {
+    "x": 15,
+    "y": 1207,
+    "w": 277,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 1239,
+    "w": 93,
+    "h": 28
+   },
+   {
+    "x": 108,
+    "y": 1240,
+    "w": 168,
+    "h": 26
+   },
+   {
+    "x": 15,
+    "y": 1272,
+    "w": 305,
+    "h": 26
+   },
+   {
+    "x": 15,
+    "y": 1304,
+    "w": 265,
+    "h": 26
+   },
+   {
+    "x": 15,
+    "y": 1335,
+    "w": 155,
+    "h": 28
+   },
+   {
+    "x": 170,
+    "y": 1336,
+    "w": 159,
+    "h": 26
+   },
+   {
+    "x": 15,
+    "y": 1368,
+    "w": 261,
+    "h": 26
+   },
+   {
+    "x": 15,
+    "y": 1400,
+    "w": 262,
+    "h": 26
+   },
+   {
+    "x": 15,
+    "y": 1431,
+    "w": 257,
+    "h": 28
+   },
+   {
+    "x": 272,
+    "y": 1432,
+    "w": 6,
+    "h": 26
+   },
+   {
+    "x": 15,
+    "y": 1541,
+    "w": 251,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 1585,
+    "w": 309,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 1629,
+    "w": 284,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 1697,
+    "w": 317,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1717,
+    "w": 309,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1737,
+    "w": 299,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1757,
+    "w": 299,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1777,
+    "w": 270,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1797,
+    "w": 200,
+    "h": 18
+   },
+   {
+    "x": 123,
+    "y": 1866,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 2264,
+    "w": 318,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 2308,
+    "w": 271,
+    "h": 49
+   },
+   {
+    "x": 40,
+    "y": 2601,
+    "w": 153,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 2644,
+    "w": 267,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2664,
+    "w": 272,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2684,
+    "w": 96,
+    "h": 18
+   },
+   {
+    "x": 70,
+    "y": 2727,
+    "w": 120,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 2992,
+    "w": 197,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 3035,
+    "w": 271,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3055,
+    "w": 243,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3075,
+    "w": 128,
+    "h": 18
+   },
+   {
+    "x": 70,
+    "y": 3118,
+    "w": 183,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 3382,
+    "w": 194,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 3425,
+    "w": 275,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3445,
+    "w": 246,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3465,
+    "w": 143,
+    "h": 18
+   },
+   {
+    "x": 70,
+    "y": 3508,
+    "w": 112,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 3813,
+    "w": 305,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 3857,
+    "w": 169,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 3901,
+    "w": 269,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 3945,
+    "w": 88,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 4013,
+    "w": 266,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4033,
+    "w": 290,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4053,
+    "w": 134,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 4087,
+    "w": 95,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 4107,
+    "w": 169,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 4127,
+    "w": 172,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 4147,
+    "w": 86,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 4167,
+    "w": 127,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 4187,
+    "w": 80,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4223,
+    "w": 256,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4243,
+    "w": 322,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4263,
+    "w": 320,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4283,
+    "w": 293,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4303,
+    "w": 329,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4323,
+    "w": 43,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4428,
+    "w": 272,
+    "h": 26
+   },
+   {
+    "x": 30,
+    "y": 4460,
+    "w": 153,
+    "h": 26
+   },
+   {
+    "x": 183,
+    "y": 4459,
+    "w": 96,
+    "h": 28
+   },
+   {
+    "x": 30,
+    "y": 4491,
+    "w": 202,
+    "h": 28
+   },
+   {
+    "x": 49,
+    "y": 4534,
+    "w": 204,
+    "h": 22
+   },
+   {
+    "x": 49,
+    "y": 4554,
+    "w": 76,
+    "h": 22
+   },
+   {
+    "x": 49,
+    "y": 4574,
+    "w": 195,
+    "h": 22
+   },
+   {
+    "x": 49,
+    "y": 4594,
+    "w": 215,
+    "h": 22
+   },
+   {
+    "x": 49,
+    "y": 4614,
+    "w": 269,
+    "h": 22
+   },
+   {
+    "x": 49,
+    "y": 4634,
+    "w": 94,
+    "h": 22
+   },
+   {
+    "x": 61,
+    "y": 4683,
+    "w": 246,
+    "h": 24
+   },
+   {
+    "x": 61,
+    "y": 4703,
+    "w": 37,
+    "h": 24
+   },
+   {
+    "x": 68,
+    "y": 5327,
+    "w": 223,
+    "h": 49
+   },
+   {
+    "x": 40,
+    "y": 5371,
+    "w": 280,
+    "h": 49
+   },
+   {
+    "x": 142,
+    "y": 5415,
+    "w": 76,
+    "h": 49
+   },
+   {
+    "x": 107,
+    "y": 5516,
+    "w": 145,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 5636,
+    "w": 242,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 5769,
+    "w": 166,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 5863,
+    "w": 80,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 5947,
+    "w": 81,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 6031,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 6122,
+    "w": 239,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 6191,
+    "w": 177,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6223,
+    "w": 153,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6255,
+    "w": 289,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6287,
+    "w": 163,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6351,
+    "w": 172,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 6420,
+    "w": 85,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6516,
+    "w": 81,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 6549,
+    "w": 93,
+    "h": 18
+   },
+   {
+    "x": 123,
+    "y": 6549,
+    "w": 64,
+    "h": 18
+   },
+   {
+    "x": 202,
+    "y": 6549,
+    "w": 54,
+    "h": 18
+   },
+   {
+    "x": 271,
+    "y": 6549,
+    "w": 58,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6581,
+    "w": 110,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6770,
+    "w": 179,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6802,
+    "w": 150,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6834,
+    "w": 279,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6866,
+    "w": 60,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 6866,
+    "w": 56,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6898,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6930,
+    "w": 162,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6962,
+    "w": 276,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6994,
+    "w": 110,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 7026,
+    "w": 258,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 7058,
+    "w": 268,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 7090,
+    "w": 88,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 7122,
+    "w": 56,
+    "h": 18
+   },
+   {
+    "x": 71,
+    "y": 7122,
+    "w": 143,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 7204,
+    "w": 64,
+    "h": 18
+   }
+  ],
+  "eds": [
+   {
+    "x": 127,
+    "y": -31,
+    "w": 106,
+    "h": 16
+   },
+   {
+    "x": 15,
+    "y": 62,
+    "w": 57,
+    "h": 22
+   },
+   {
+    "x": 91,
+    "y": 62,
+    "w": 165,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 86,
+    "w": 248,
+    "h": 22
+   },
+   {
+    "x": 40,
+    "y": 537,
+    "w": 239,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 569,
+    "w": 252,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 601,
+    "w": 93,
+    "h": 28
+   },
+   {
+    "x": 70,
+    "y": 676,
+    "w": 216,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 1047,
+    "w": 306,
+    "h": 26
+   },
+   {
+    "x": 15,
+    "y": 1079,
+    "w": 258,
+    "h": 26
+   },
+   {
+    "x": 15,
+    "y": 1110,
+    "w": 277,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 1142,
+    "w": 93,
+    "h": 28
+   },
+   {
+    "x": 108,
+    "y": 1143,
+    "w": 168,
+    "h": 26
+   },
+   {
+    "x": 15,
+    "y": 1175,
+    "w": 305,
+    "h": 26
+   },
+   {
+    "x": 15,
+    "y": 1207,
+    "w": 265,
+    "h": 26
+   },
+   {
+    "x": 15,
+    "y": 1238,
+    "w": 155,
+    "h": 28
+   },
+   {
+    "x": 170,
+    "y": 1239,
+    "w": 159,
+    "h": 26
+   },
+   {
+    "x": 15,
+    "y": 1271,
+    "w": 261,
+    "h": 26
+   },
+   {
+    "x": 15,
+    "y": 1303,
+    "w": 262,
+    "h": 26
+   },
+   {
+    "x": 15,
+    "y": 1334,
+    "w": 257,
+    "h": 28
+   },
+   {
+    "x": 272,
+    "y": 1335,
+    "w": 6,
+    "h": 26
+   },
+   {
+    "x": 15,
+    "y": 1444,
+    "w": 251,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 1488,
+    "w": 309,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 1532,
+    "w": 284,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 1600,
+    "w": 317,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1620,
+    "w": 309,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1640,
+    "w": 299,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1660,
+    "w": 299,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1680,
+    "w": 270,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1700,
+    "w": 200,
+    "h": 18
+   },
+   {
+    "x": 123,
+    "y": 1748,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 2161,
+    "w": 318,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 2205,
+    "w": 271,
+    "h": 49
+   },
+   {
+    "x": 40,
+    "y": 2468,
+    "w": 153,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 2511,
+    "w": 267,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2531,
+    "w": 272,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2551,
+    "w": 96,
+    "h": 18
+   },
+   {
+    "x": 70,
+    "y": 2594,
+    "w": 120,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 2859,
+    "w": 197,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 2902,
+    "w": 271,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2922,
+    "w": 243,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2942,
+    "w": 128,
+    "h": 18
+   },
+   {
+    "x": 70,
+    "y": 2985,
+    "w": 183,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 3249,
+    "w": 194,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 3292,
+    "w": 275,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3312,
+    "w": 246,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3332,
+    "w": 143,
+    "h": 18
+   },
+   {
+    "x": 70,
+    "y": 3375,
+    "w": 112,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 3660,
+    "w": 305,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 3704,
+    "w": 169,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 3748,
+    "w": 269,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 3792,
+    "w": 88,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 3860,
+    "w": 266,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3880,
+    "w": 290,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3900,
+    "w": 134,
+    "h": 18
+   },
+   {
+    "x": 54,
+    "y": 3934,
+    "w": 95,
+    "h": 18
+   },
+   {
+    "x": 54,
+    "y": 3954,
+    "w": 169,
+    "h": 18
+   },
+   {
+    "x": 54,
+    "y": 3974,
+    "w": 172,
+    "h": 18
+   },
+   {
+    "x": 54,
+    "y": 3994,
+    "w": 86,
+    "h": 18
+   },
+   {
+    "x": 54,
+    "y": 4014,
+    "w": 127,
+    "h": 18
+   },
+   {
+    "x": 54,
+    "y": 4034,
+    "w": 80,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4070,
+    "w": 256,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4090,
+    "w": 322,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4110,
+    "w": 320,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4130,
+    "w": 293,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4150,
+    "w": 329,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4170,
+    "w": 43,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4275,
+    "w": 272,
+    "h": 26
+   },
+   {
+    "x": 30,
+    "y": 4307,
+    "w": 153,
+    "h": 26
+   },
+   {
+    "x": 183,
+    "y": 4306,
+    "w": 96,
+    "h": 28
+   },
+   {
+    "x": 30,
+    "y": 4338,
+    "w": 202,
+    "h": 28
+   },
+   {
+    "x": 69,
+    "y": 4382,
+    "w": 241,
+    "h": 19
+   },
+   {
+    "x": 69,
+    "y": 4402,
+    "w": 260,
+    "h": 19
+   },
+   {
+    "x": 69,
+    "y": 4422,
+    "w": 85,
+    "h": 19
+   },
+   {
+    "x": 69,
+    "y": 4442,
+    "w": 226,
+    "h": 19
+   },
+   {
+    "x": 69,
+    "y": 4462,
+    "w": 79,
+    "h": 19
+   },
+   {
+    "x": 46,
+    "y": 4499,
+    "w": 246,
+    "h": 24
+   },
+   {
+    "x": 46,
+    "y": 4519,
+    "w": 37,
+    "h": 24
+   },
+   {
+    "x": 68,
+    "y": 5173,
+    "w": 223,
+    "h": 49
+   },
+   {
+    "x": 40,
+    "y": 5217,
+    "w": 280,
+    "h": 49
+   },
+   {
+    "x": 142,
+    "y": 5261,
+    "w": 76,
+    "h": 49
+   },
+   {
+    "x": 107,
+    "y": 5337,
+    "w": 145,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 5442,
+    "w": 242,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 5575,
+    "w": 166,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 5669,
+    "w": 80,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 5753,
+    "w": 81,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 5837,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 5928,
+    "w": 239,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 5997,
+    "w": 177,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6029,
+    "w": 153,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6061,
+    "w": 289,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6093,
+    "w": 163,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6157,
+    "w": 172,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 6226,
+    "w": 85,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6322,
+    "w": 81,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 6355,
+    "w": 93,
+    "h": 18
+   },
+   {
+    "x": 123,
+    "y": 6355,
+    "w": 64,
+    "h": 18
+   },
+   {
+    "x": 202,
+    "y": 6355,
+    "w": 54,
+    "h": 18
+   },
+   {
+    "x": 271,
+    "y": 6355,
+    "w": 58,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6387,
+    "w": 110,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6576,
+    "w": 179,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6608,
+    "w": 150,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6640,
+    "w": 279,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6672,
+    "w": 60,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 6672,
+    "w": 56,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6704,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6736,
+    "w": 162,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6768,
+    "w": 276,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6800,
+    "w": 110,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6832,
+    "w": 258,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6864,
+    "w": 268,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6896,
+    "w": 88,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6928,
+    "w": 199,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 7010,
+    "w": 64,
+    "h": 18
+   }
+  ]
+ }
+}

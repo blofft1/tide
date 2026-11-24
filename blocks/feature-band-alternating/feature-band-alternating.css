@@ -1,0 +1,473 @@
+/* feature-band-alternating — text band + photo. Variants: boxed (+ blue), navy, split,
+   overlay (+ orange | white, + stacked, + right). Spec: stardust/prototypes/en-us.css (.banner, .pods,
+   .howto) and en-us-shop-type-liquid.css (.feature-banner). */
+
+/* variants never combine (boxed / navy / split / overlay), so selector order across them
+   carries no specificity risk */
+/* stylelint-disable no-descending-specificity */
+
+/* art direction: two authored images = wide (>= 992) + narrow (< 992) */
+.feature-band-alternating .fba-media-art .fba-media-wide {
+  display: none;
+}
+
+.feature-band-alternating .fba-media picture {
+  display: block;
+  margin: 0;
+}
+
+.feature-band-alternating .fba-wrap {
+  display: flow-root;
+}
+
+.feature-band-alternating .fba-actions p {
+  margin: 0;
+}
+
+/* ---------- boxed: white box over a full-bleed photo (home hero banners) ---------- */
+.feature-band-alternating.boxed {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  line-height: 0;
+}
+
+.feature-band-alternating.boxed .fba-wrap {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+}
+
+.feature-band-alternating.boxed .fba-box {
+  z-index: 1;
+  background: #fff;
+  border-radius: 20px;
+  padding: 24px 16px;
+}
+
+.feature-band-alternating.boxed .fba-heading :is(h1, h2, h3, h4) {
+  margin: 0;
+  color: var(--tide-orange);
+  font-size: 44px;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.feature-band-alternating.boxed .fba-box p {
+  margin: 0;
+  color: var(--tide-navy);
+}
+
+.feature-band-alternating.boxed .fba-box u {
+  letter-spacing: 0;
+  font-size: 12px;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.feature-band-alternating.boxed .fba-actions a:any-link {
+  width: 100%;
+  margin-top: 24px;
+}
+
+.feature-band-alternating.boxed .fba-media img {
+  display: inline;
+  width: 100%;
+  height: 100%;
+  min-height: 680px;
+  object-fit: cover;
+}
+
+.feature-band-alternating.boxed.blue .fba-box {
+  width: 100%;
+  margin: 15px 0 auto;
+}
+
+.feature-band-alternating.boxed.blue .fba-heading :is(h1, h2, h3, h4) {
+  color: var(--tide-blue);
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.feature-band-alternating.boxed.blue .fba-heading strong {
+  font-weight: 800;
+}
+
+.feature-band-alternating.boxed.blue .fba-actions a:any-link:hover {
+  background-color: var(--tide-navy-hover);
+}
+
+.feature-band-alternating.boxed:not(.blue) .fba-wrap {
+  inset: 10px 0 auto;
+}
+
+/* ---------- navy: POWER PODS band (text right, photo pinned bottom-left) ---------- */
+.feature-band-alternating.navy {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 800px;
+  background: var(--tide-navy);
+}
+
+.feature-band-alternating.navy .fba-wrap {
+  max-width: none;
+  margin: 0;
+  padding: 0 15px;
+}
+
+.feature-band-alternating.navy .fba-box {
+  margin-top: 55px;
+}
+
+.feature-band-alternating.navy .fba-box p {
+  margin: 0;
+  color: #fff;
+  letter-spacing: 0;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.feature-band-alternating.navy .fba-eyebrow p {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.feature-band-alternating.navy .fba-heading :is(h1, h2, h3, h4) {
+  margin: 0 0 0.83em;
+  color: #fff;
+  letter-spacing: 0.0375em;
+  white-space: pre;
+  font-size: 70px;
+  font-weight: 800;
+  line-height: 75px;
+}
+
+.feature-band-alternating.navy .fba-actions a:any-link {
+  margin-top: 25px;
+}
+
+.feature-band-alternating.navy .fba-media {
+  margin-top: 60px;
+  padding: 0 15px;
+  line-height: 0;
+}
+
+.feature-band-alternating.navy .fba-media img {
+  display: block;
+  width: 100%;
+}
+
+/* ---------- split: white band (text left, photo pinned bottom-right) ---------- */
+.feature-band-alternating.split {
+  position: relative;
+  min-height: 510px;
+  background: #fff;
+}
+
+.feature-band-alternating.split .fba-box {
+  position: relative;
+  margin-top: 34px;
+}
+
+.feature-band-alternating.split .fba-heading :is(h1, h2, h3, h4) {
+  margin: 0 0 0.83em;
+  color: var(--tide-orange);
+  letter-spacing: 0;
+  white-space: pre;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 44px;
+}
+
+.feature-band-alternating.split .fba-heading strong {
+  font-weight: 800;
+}
+
+.feature-band-alternating.split .fba-box p {
+  margin: 14px 0;
+  color: var(--tide-navy);
+  letter-spacing: 0;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.feature-band-alternating.split .fba-media {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding-left: 15px;
+}
+
+.feature-band-alternating.split .fba-media img {
+  display: block;
+  width: 250px;
+  margin-left: auto;
+}
+
+/* ---------- overlay: text over a contained photo (PLP feature banners) ---------- */
+.feature-band-alternating.overlay {
+  display: grid;
+  width: 100%;
+  margin: 35px auto 0;
+  padding: 0 15px;
+}
+
+.feature-band-alternating.overlay.stacked {
+  margin-top: 30px;
+}
+
+.feature-band-alternating.overlay .fba-wrap {
+  grid-area: 1 / 1;
+  z-index: 1;
+  align-self: start;
+  width: calc(100% - 70px);
+  max-width: none;
+  margin: 40px 0 0 35px;
+  padding: 0;
+}
+
+.feature-band-alternating.overlay .fba-media {
+  grid-area: 1 / 1;
+  line-height: 0;
+}
+
+.feature-band-alternating.overlay .fba-media picture {
+  display: flex;
+  align-items: flex-start;
+}
+
+.feature-band-alternating.overlay .fba-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.feature-band-alternating.overlay .fba-heading :is(h1, h2, h3, h4) {
+  margin: 0 0 10px;
+  letter-spacing: 0;
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 30px;
+}
+
+.feature-band-alternating.overlay .fba-box p {
+  margin: 0;
+  letter-spacing: 0;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.feature-band-alternating.overlay.orange .fba-heading :is(h1, h2, h3, h4),
+.feature-band-alternating.overlay.orange .fba-box p {
+  color: #fff;
+}
+
+.feature-band-alternating.overlay.white .fba-heading :is(h1, h2, h3, h4) {
+  color: var(--tide-orange);
+}
+
+.feature-band-alternating.overlay.white .fba-box p {
+  color: var(--tide-navy);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+@media (width >= 576px) {
+  .feature-band-alternating.overlay {
+    max-width: 540px;
+  }
+}
+
+@media (width >= 768px) {
+  .feature-band-alternating.boxed .fba-box {
+    max-width: 427px;
+  }
+
+  .feature-band-alternating.overlay {
+    max-width: 720px;
+  }
+}
+
+@media (width >= 992px) {
+  .feature-band-alternating .fba-media-art .fba-media-wide {
+    display: block;
+  }
+
+  .feature-band-alternating .fba-media-art .fba-media-narrow {
+    display: none;
+  }
+
+  /* boxed */
+  .feature-band-alternating.boxed.blue .fba-media img {
+    min-height: 500px;
+    object-position: 62%;
+  }
+
+  .feature-band-alternating.boxed.blue .fba-box {
+    max-width: 465px;
+    margin: 0;
+  }
+
+  .feature-band-alternating.boxed.blue .fba-heading :is(h1, h2, h3, h4) {
+    font-size: 50px;
+  }
+
+  .feature-band-alternating.boxed:not(.blue) .fba-media img {
+    min-height: auto;
+  }
+
+  .feature-band-alternating.boxed:not(.blue) .fba-wrap {
+    inset: 0;
+  }
+
+  .feature-band-alternating.boxed:not(.blue) .fba-box {
+    max-width: 369px;
+    margin: 0 60px;
+  }
+
+  .feature-band-alternating.boxed:not(.blue) .fba-heading :is(h1, h2, h3, h4) {
+    font-size: 40px;
+  }
+
+  /* navy */
+  .feature-band-alternating.navy {
+    display: flow-root;
+  }
+
+  .feature-band-alternating.navy .fba-wrap {
+    width: calc((100% - 465px) * 7 / 12);
+    margin-left: auto;
+  }
+
+  .feature-band-alternating.navy .fba-box {
+    margin: 80px 0;
+  }
+
+  .feature-band-alternating.navy .fba-box p {
+    line-height: 26px;
+  }
+
+  .feature-band-alternating.navy .fba-eyebrow p {
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  .feature-band-alternating.navy .fba-actions a:any-link {
+    margin-top: 32px;
+  }
+
+  .feature-band-alternating.navy .fba-media {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  .feature-band-alternating.navy .fba-media img {
+    width: auto;
+    max-width: none;
+  }
+
+  /* split */
+  .feature-band-alternating.split {
+    min-height: 642px;
+  }
+
+  .feature-band-alternating.split .fba-box {
+    max-width: calc((100% + 30px) * 5 / 12 - 30px);
+    margin-top: 152px;
+  }
+
+  .feature-band-alternating.split .fba-heading :is(h1, h2, h3, h4) {
+    font-size: 48px;
+    line-height: 52px;
+  }
+
+  .feature-band-alternating.split .fba-box p {
+    line-height: 26px;
+  }
+
+  .feature-band-alternating.split .fba-actions a:any-link {
+    margin-top: 32px;
+  }
+
+  .feature-band-alternating.split .fba-media img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 485px;
+    max-width: none;
+  }
+
+  /* overlay */
+  .feature-band-alternating.overlay {
+    max-width: 960px;
+    margin-top: 80px;
+  }
+
+  .feature-band-alternating.overlay.stacked {
+    margin-top: 60px;
+  }
+
+  .feature-band-alternating.overlay .fba-wrap {
+    align-self: center;
+    width: 34.21%;
+    margin: 0 0 0 7.193%;
+  }
+
+  /* overlay right (live banner-*-text-center-right): the text box mirrored to the right */
+  .feature-band-alternating.overlay.right .fba-wrap {
+    justify-self: end;
+    margin: 0 7.193% 0 0;
+  }
+
+  .feature-band-alternating.overlay .fba-heading :is(h1, h2, h3, h4) {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .feature-band-alternating.overlay .fba-box p {
+    line-height: 26px;
+  }
+
+  .feature-band-alternating.overlay.white .fba-box p {
+    line-height: 24px;
+  }
+}
+
+@media (width >= 1200px) {
+  .feature-band-alternating.boxed:not(.blue) .fba-box {
+    max-width: 401px;
+    margin: 0 80px;
+  }
+
+  .feature-band-alternating.boxed:not(.blue) .fba-heading :is(h1, h2, h3, h4) {
+    font-size: 44px;
+  }
+
+  .feature-band-alternating.split .fba-media img {
+    width: 720px;
+  }
+
+  .feature-band-alternating.overlay {
+    max-width: var(--container);
+  }
+}
+
+@media (width >= 1400px) {
+  .feature-band-alternating.boxed:not(.blue) .fba-box {
+    max-width: 497px;
+  }
+
+  .feature-band-alternating.boxed:not(.blue) .fba-heading :is(h1, h2, h3, h4) {
+    font-size: 56px;
+  }
+}

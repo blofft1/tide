@@ -1,0 +1,6298 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-24T11:29:42.045Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://tide.com/en-us/research/hazard-vs-risk-laundry-detergent",
+  "at": "2026-11-24T11:29:19.175Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 7155,
+  "root": "main#site-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div#page-wrapper > header#site-header > a.skip-to-content-link",
+    "x": 119,
+    "y": -44,
+    "w": 122,
+    "h": 44,
+    "text": "skip to content",
+    "href": "/en-us/research/hazard-vs-risk-laundry-detergent"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.row.no-gutters > button.burger-menu",
+    "x": 20,
+    "y": 18,
+    "w": 30,
+    "h": 26,
+    "text": "navigation menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.row.no-gutters > button.burger-menu",
+    "x": 20,
+    "y": 18,
+    "w": 30,
+    "h": 26,
+    "label": "navigation menu",
+    "value": "navigation menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row.no-gutters > div > a.header-logo.d-flex",
+    "x": 157,
+    "y": 7,
+    "w": 47,
+    "h": 47,
+    "text": "tide logo",
+    "href": "/en-us"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > a.header-logo.d-flex > img",
+    "x": 157,
+    "y": 7,
+    "w": 47,
+    "h": 47,
+    "text": "tide logo",
+    "file": "brand_main_logo"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "form.header-search > div.input-wrap > button",
+    "x": 310,
+    "y": 15,
+    "w": 30,
+    "h": 33,
+    "text": "submit search"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > span",
+    "x": 15,
+    "y": 61,
+    "w": 453,
+    "h": 46,
+    "text": "the most important rule in toxicology: risk = hazard x exposure"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.breadcrumbs-list > li.breadcrumbs-list-item > a",
+    "x": 15,
+    "y": 129,
+    "w": 57,
+    "h": 22,
+    "text": "home",
+    "href": "/en-us"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.breadcrumbs-list > li.breadcrumbs-list-item > span",
+    "x": 15,
+    "y": 129,
+    "w": 325,
+    "h": 96,
+    "label": "current",
+    "value": "hazard vs. risk in laundry detergent: how exposure changes w",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.breadcrumbs-list-item > span > span",
+    "x": 15,
+    "y": 129,
+    "w": 325,
+    "h": 96,
+    "text": "Hazard vs. Risk in Laundry Detergent: How Exposure Changes What “Toxic” Really M"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.row > div.col-12.col-lg-9 > h1.article-intro-title",
+    "x": 15,
+    "y": 246,
+    "w": 330,
+    "h": 264,
+    "level": 1,
+    "text": "hazard vs. risk: why 'toxic’ claims about your detergent may be misleading"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.share-block.d-lg-none > div.share-buttons > a.share-buttons-item.event_socialmedia_post",
+    "x": 15,
+    "y": 559,
+    "w": 22,
+    "h": 16,
+    "text": "share on facebook",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.share-block.d-lg-none > div.share-buttons > a.share-buttons-item.event_socialmedia_post",
+    "x": 57,
+    "y": 559,
+    "w": 22,
+    "h": 16,
+    "text": "share on twitter",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.share-block.d-lg-none > div.share-buttons > a.share-buttons-item.event_socialmedia_post",
+    "x": 99,
+    "y": 559,
+    "w": 22,
+    "h": 16,
+    "text": "share on pinterest",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.share-block.d-lg-none > div.share-buttons > a.share-buttons-item.event_share",
+    "x": 141,
+    "y": 559,
+    "w": 22,
+    "h": 16,
+    "text": "share by email",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.share-block.d-lg-none > div.share-buttons > a.share-buttons-item.event_print_page",
+    "x": 183,
+    "y": 559,
+    "w": 22,
+    "h": 16,
+    "text": "print",
+    "href": "/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-12.col-12 > div.richtext-container > h3",
+    "x": 15,
+    "y": 743,
+    "w": 330,
+    "h": 72,
+    "level": 3,
+    "text": "article key highlights"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 34,
+    "y": 835,
+    "w": 311,
+    "h": 61,
+    "text": "(often measured at high doses or lab conditions)."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 34,
+    "y": 896,
+    "w": 311,
+    "h": 62,
+    "text": ", driven by (amount, route, time)."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 34,
+    "y": 958,
+    "w": 286,
+    "h": 21,
+    "text": "Core rule:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 34,
+    "y": 979,
+    "w": 311,
+    "h": 61,
+    "text": "Everyday examples: can be harmful at extreme doses, but aren’t “toxic” in normal"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 34,
+    "y": 1040,
+    "w": 311,
+    "h": 84,
+    "text": "Safety evaluation includes:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 34,
+    "y": 1124,
+    "w": 311,
+    "h": 82,
+    "text": "The key question is , not whether an ingredient be harmful at some dose."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-12.col-12 > div.richtext-container > p",
+    "x": 15,
+    "y": 1241,
+    "w": 330,
+    "h": 160,
+    "text": "You’ve seen the alarming posts on social media. The blog articles with scary hea"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-12.col-12 > div.richtext-container > p",
+    "x": 15,
+    "y": 1417,
+    "w": 330,
+    "h": 40,
+    "text": "But what if these warnings are leaving out the most important part of the story?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-12.col-12 > div.richtext-container > p",
+    "x": 15,
+    "y": 1473,
+    "w": 330,
+    "h": 200,
+    "text": "The truth is, these claims are often based on a fundamental misunderstanding of "
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-12.col-12 > div.richtext-container > h3",
+    "x": 15,
+    "y": 1738,
+    "w": 330,
+    "h": 144,
+    "level": 3,
+    "text": "the most important rule in toxicology: risk = hazard x exposure"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-12.col-12 > div.richtext-container > p",
+    "x": 15,
+    "y": 1902,
+    "w": 330,
+    "h": 60,
+    "text": "In the world of safety science, \"hazard\" and \"risk\" have very precise meanings. "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 34,
+    "y": 1976,
+    "w": 311,
+    "h": 181,
+    "text": "This is the for a substance to cause harm. This is usually measured at very high"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 34,
+    "y": 2157,
+    "w": 311,
+    "h": 122,
+    "text": "This is the of that harm happening in a real-world situation. Risk depends entir"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-12.col-12 > div.richtext-container > p",
+    "x": 15,
+    "y": 2295,
+    "w": 330,
+    "h": 102,
+    "text": "This simple equation— —is the bedrock of modern toxicology. A substance can be h"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-12.col-12 > div.richtext-container > h3",
+    "x": 15,
+    "y": 2462,
+    "w": 330,
+    "h": 108,
+    "level": 3,
+    "text": "everyday examples: water and salt"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-12.col-12 > div.richtext-container > p",
+    "x": 15,
+    "y": 2590,
+    "w": 330,
+    "h": 60,
+    "text": "To see this principle in action, you don't need to look any further than your ki"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-12.col-12 > div.richtext-container > p",
+    "x": 15,
+    "y": 2666,
+    "w": 330,
+    "h": 181,
+    "text": "Consider It’s essential for life. But did you know that drinking an extreme amou"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-12.col-12 > div.richtext-container > p",
+    "x": 15,
+    "y": 2863,
+    "w": 330,
+    "h": 101,
+    "text": "The same goes for A sprinkle on your food is perfectly fine. But swallowing a cu"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-12.col-12 > div.richtext-container > p",
+    "x": 15,
+    "y": 2980,
+    "w": 330,
+    "h": 160,
+    "text": "This is exactly how scientists evaluate the ingredients in your laundry detergen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-12.col-12 > div.richtext-container > p",
+    "x": 15,
+    "y": 3156,
+    "w": 330,
+    "h": 100,
+    "text": "Detergents from reputable manufacturers like Tide, are held to a high standard o"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-12.col-12 > div.richtext-container > h3",
+    "x": 15,
+    "y": 3321,
+    "w": 330,
+    "h": 72,
+    "level": 3,
+    "text": "how scientists ensure your safety"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-12.col-12 > div.richtext-container > p",
+    "x": 15,
+    "y": 3413,
+    "w": 330,
+    "h": 60,
+    "text": "When formulating a product, scientists don't guess about safety. They follow a r"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > p",
+    "x": 55,
+    "y": 3487,
+    "w": 290,
+    "h": 61,
+    "text": "They study each ingredient to understand its properties."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > p",
+    "x": 55,
+    "y": 3548,
+    "w": 290,
+    "h": 82,
+    "text": "This is the dose at which no negative effects are seen, even in sensitive lab te"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > p",
+    "x": 55,
+    "y": 3630,
+    "w": 290,
+    "h": 161,
+    "text": "They take that NOEL and divide it by at least 100 (and often 1,000) to create a "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > p",
+    "x": 55,
+    "y": 3791,
+    "w": 290,
+    "h": 81,
+    "text": "They conduct studies to determine the tiny amount of residue that might be left "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-12.col-12 > div.richtext-container > p",
+    "x": 15,
+    "y": 3888,
+    "w": 330,
+    "h": 260,
+    "text": "The result? The actual exposure you get from wearing your clothes is consistentl"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-12.col-12 > div.richtext-container > h3",
+    "x": 15,
+    "y": 4213,
+    "w": 330,
+    "h": 36,
+    "level": 3,
+    "text": "faqs"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-item > div#why-can-toxic-detergent-posts-be-misleading > div.expandable-content-header",
+    "x": 15,
+    "y": 4329,
+    "w": 330,
+    "h": 99,
+    "text": "why can “toxic detergent” posts be misleading?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-item > div#why-can-toxic-detergent-posts-be-misleading > div.expandable-content-header",
+    "x": 15,
+    "y": 4329,
+    "w": 330,
+    "h": 99,
+    "label": "why can “toxic detergent” posts be misleading?",
+    "value": "why can “toxic detergent” posts be misleading?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-item > div#what-does-exposure-mean-in-detergent-safety- > div.expandable-content-header",
+    "x": 15,
+    "y": 4448,
+    "w": 330,
+    "h": 73,
+    "text": "what does “exposure” mean in detergent safety?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-item > div#what-does-exposure-mean-in-detergent-safety- > div.expandable-content-header",
+    "x": 15,
+    "y": 4448,
+    "w": 330,
+    "h": 73,
+    "label": "what does “exposure” mean in detergent safety?",
+    "value": "what does “exposure” mean in detergent safety?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-item > div#can-something-be-hazardous-but-not-risky- > div.expandable-content-header",
+    "x": 15,
+    "y": 4541,
+    "w": 330,
+    "h": 73,
+    "text": "can something be hazardous but not risky?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-item > div#can-something-be-hazardous-but-not-risky- > div.expandable-content-header",
+    "x": 15,
+    "y": 4541,
+    "w": 330,
+    "h": 73,
+    "label": "can something be hazardous but not risky?",
+    "value": "can something be hazardous but not risky?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-item > div#why-does-dose-matter-in-toxicology- > div.expandable-content-header",
+    "x": 15,
+    "y": 4634,
+    "w": 330,
+    "h": 73,
+    "text": "why does dose matter in toxicology?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-item > div#why-does-dose-matter-in-toxicology- > div.expandable-content-header",
+    "x": 15,
+    "y": 4634,
+    "w": 330,
+    "h": 73,
+    "label": "why does dose matter in toxicology?",
+    "value": "why does dose matter in toxicology?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-item > div#how-do-water-and-salt-relate-to-hazard-vs-risk- > div.expandable-content-header",
+    "x": 15,
+    "y": 4727,
+    "w": 330,
+    "h": 73,
+    "text": "how do water and salt relate to hazard vs. risk?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-item > div#how-do-water-and-salt-relate-to-hazard-vs-risk- > div.expandable-content-header",
+    "x": 15,
+    "y": 4727,
+    "w": 330,
+    "h": 73,
+    "label": "how do water and salt relate to hazard vs. risk?",
+    "value": "how do water and salt relate to hazard vs. risk?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-item > div#what-is-a-noel- > div.expandable-content-header",
+    "x": 15,
+    "y": 4820,
+    "w": 330,
+    "h": 47,
+    "text": "what is a noel?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-item > div#what-is-a-noel- > div.expandable-content-header",
+    "x": 15,
+    "y": 4820,
+    "w": 330,
+    "h": 47,
+    "label": "what is a noel?",
+    "value": "what is a noel?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-item > div#why-do-scientists-use-large-safety-factors- > div.expandable-content-header",
+    "x": 15,
+    "y": 4887,
+    "w": 330,
+    "h": 73,
+    "text": "why do scientists use large safety factors?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-item > div#why-do-scientists-use-large-safety-factors- > div.expandable-content-header",
+    "x": 15,
+    "y": 4887,
+    "w": 330,
+    "h": 73,
+    "label": "why do scientists use large safety factors?",
+    "value": "why do scientists use large safety factors?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-item > div#how-is-detergent-safety-evaluated-for-real-use- > div.expandable-content-header",
+    "x": 15,
+    "y": 4980,
+    "w": 330,
+    "h": 73,
+    "text": "how is detergent safety evaluated for real use?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-item > div#how-is-detergent-safety-evaluated-for-real-use- > div.expandable-content-header",
+    "x": 15,
+    "y": 4980,
+    "w": 330,
+    "h": 73,
+    "label": "how is detergent safety evaluated for real use?",
+    "value": "how is detergent safety evaluated for real use?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-item > div#is-residue-on-clothes-considered-in-safety-testing- > div.expandable-content-header",
+    "x": 15,
+    "y": 5073,
+    "w": 330,
+    "h": 99,
+    "text": "is residue on clothes considered in safety testing?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-item > div#is-residue-on-clothes-considered-in-safety-testing- > div.expandable-content-header",
+    "x": 15,
+    "y": 5073,
+    "w": 330,
+    "h": 99,
+    "label": "is residue on clothes considered in safety testing?",
+    "value": "is residue on clothes considered in safety testing?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-item > div#whats-the-most-important-question-to-ask-about-detergent-ingredients > div.expandable-content-header",
+    "x": 15,
+    "y": 5192,
+    "w": 330,
+    "h": 125,
+    "text": "what’s the most important question to ask about detergent ingredients?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-item > div#whats-the-most-important-question-to-ask-about-detergent-ingredients > div.expandable-content-header",
+    "x": 15,
+    "y": 5192,
+    "w": 330,
+    "h": 125,
+    "label": "what’s the most important question to ask about detergent ingredients?",
+    "value": "what’s the most important question to ask about detergent in",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-item > div#what-does-it-mean-to-use-detergent-as-intended- > div.expandable-content-header",
+    "x": 15,
+    "y": 5337,
+    "w": 330,
+    "h": 73,
+    "text": "what does it mean to use detergent “as intended”?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-item > div#what-does-it-mean-to-use-detergent-as-intended- > div.expandable-content-header",
+    "x": 15,
+    "y": 5337,
+    "w": 330,
+    "h": 73,
+    "label": "what does it mean to use detergent “as intended”?",
+    "value": "what does it mean to use detergent “as intended”?",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-links-wrapper > div.container > span",
+    "x": 15,
+    "y": 5515,
+    "w": 242,
+    "h": 19,
+    "text": "Ways to connect with us:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-links > li > a.footer-social-links-item.event_socialmedia_exit",
+    "x": 15,
+    "y": 5554,
+    "w": 32,
+    "h": 32,
+    "text": "facebook icon",
+    "href": "/Tide"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > a.footer-social-links-item.event_socialmedia_exit > img",
+    "x": 15,
+    "y": 5554,
+    "w": 32,
+    "h": 32,
+    "text": "facebook icon",
+    "file": "social_facebook"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-links > li > a.footer-social-links-item.event_socialmedia_exit",
+    "x": 62,
+    "y": 5554,
+    "w": 32,
+    "h": 32,
+    "text": "twitter icon",
+    "href": "/tide"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > a.footer-social-links-item.event_socialmedia_exit > img",
+    "x": 62,
+    "y": 5554,
+    "w": 32,
+    "h": 32,
+    "text": "twitter icon",
+    "file": "social_twitter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-links > li > a.footer-social-links-item.event_socialmedia_exit",
+    "x": 109,
+    "y": 5554,
+    "w": 32,
+    "h": 32,
+    "text": "pinterest icon",
+    "href": "/tide/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > a.footer-social-links-item.event_socialmedia_exit > img",
+    "x": 109,
+    "y": 5554,
+    "w": 32,
+    "h": 32,
+    "text": "pinterest icon",
+    "file": "social_pinterest"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-links > li > a.footer-social-links-item.event_socialmedia_exit",
+    "x": 156,
+    "y": 5554,
+    "w": 32,
+    "h": 32,
+    "text": "youtube icon",
+    "href": "/channel/UCEPeWPjaF1CWCKXa3xTp7vw"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > a.footer-social-links-item.event_socialmedia_exit > img",
+    "x": 156,
+    "y": 5554,
+    "w": 32,
+    "h": 32,
+    "text": "youtube icon",
+    "file": "social_youtube"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row > div.col-12 > p.footer-navigation-title",
+    "x": 15,
+    "y": 5646,
+    "w": 330,
+    "h": 51,
+    "text": "Shop Products"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-4 > div#by-type > div.expandable-content-header",
+    "x": 15,
+    "y": 5739,
+    "w": 330,
+    "h": 24,
+    "text": "by type"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-4 > div#by-type > div.expandable-content-header",
+    "x": 15,
+    "y": 5739,
+    "w": 330,
+    "h": 24,
+    "label": "by type",
+    "value": "by type",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-4 > div#by-need > div.expandable-content-header",
+    "x": 15,
+    "y": 5823,
+    "w": 330,
+    "h": 24,
+    "text": "by need"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-4 > div#by-need > div.expandable-content-header",
+    "x": 15,
+    "y": 5823,
+    "w": 330,
+    "h": 24,
+    "label": "by need",
+    "value": "by need",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-4 > div#top-collection > div.expandable-content-header",
+    "x": 15,
+    "y": 5907,
+    "w": 330,
+    "h": 24,
+    "text": "top collection"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-4 > div#top-collection > div.expandable-content-header",
+    "x": 15,
+    "y": 5907,
+    "w": 330,
+    "h": 24,
+    "label": "top collection",
+    "value": "top collection",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row > div.col-12.col-md-6 > p#footer-washing-machine-title",
+    "x": 15,
+    "y": 5999,
+    "w": 330,
+    "h": 51,
+    "text": "How to Wash Clothes"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-6 > div.menu-item > a.event_menu_click",
+    "x": 15,
+    "y": 6067,
+    "w": 177,
+    "h": 18,
+    "text": "how to remove stains",
+    "href": "/en-us/how-to-wash-clothes/how-to-remove-stains"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-6 > div.menu-item > a.event_menu_click",
+    "x": 15,
+    "y": 6099,
+    "w": 153,
+    "h": 18,
+    "text": "how to do laundry",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-6 > div.menu-item > a.event_menu_click",
+    "x": 15,
+    "y": 6131,
+    "w": 289,
+    "h": 18,
+    "text": "washing different fabrics and colors",
+    "href": "/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-6 > div.menu-item > a.event_outbound_link",
+    "x": 15,
+    "y": 6163,
+    "w": 163,
+    "h": 18,
+    "text": "washing machine 101",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row > div.col-12.col-md-6 > p#footer-help-support-title",
+    "x": 15,
+    "y": 6228,
+    "w": 330,
+    "h": 51,
+    "text": "Help & Support"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-6 > div.menu-item > a.event_menu_click",
+    "x": 15,
+    "y": 6296,
+    "w": 85,
+    "h": 18,
+    "text": "contact us",
+    "href": "/en-us/contact-us"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row > div.col-12.footer-related > span#footer-related-title",
+    "x": 15,
+    "y": 6392,
+    "w": 81,
+    "h": 24,
+    "text": "Related:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-related-navigation > div.menu-item > a.event_outbound_link",
+    "x": 15,
+    "y": 6425,
+    "w": 93,
+    "h": 18,
+    "text": "p&g brands",
+    "href": "/en_US"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-related-navigation > div.menu-item > a.event_outbound_link",
+    "x": 123,
+    "y": 6425,
+    "w": 64,
+    "h": 18,
+    "text": "mrclean",
+    "href": "/en-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-related-navigation > div.menu-item > a.event_outbound_link",
+    "x": 202,
+    "y": 6425,
+    "w": 54,
+    "h": 18,
+    "text": "downy",
+    "href": "/en-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-related-navigation > div.menu-item > a.event_outbound_link",
+    "x": 271,
+    "y": 6425,
+    "w": 58,
+    "h": 18,
+    "text": "bounce",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-related-navigation > div.menu-item > a.event_outbound_link",
+    "x": 15,
+    "y": 6457,
+    "w": 110,
+    "h": 18,
+    "text": "p&g everyday",
+    "href": "/tag/tide"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.footer-icons > div > a.footer-icon",
+    "x": 18,
+    "y": 6527,
+    "w": 82,
+    "h": 68,
+    "text": "good housekeeping icon",
+    "href": "/product-reviews/history/welcome-gh-seal"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.footer-icon > picture > img",
+    "x": 18,
+    "y": 6527,
+    "w": 82,
+    "h": 62,
+    "text": "good housekeeping icon",
+    "file": "footer_GoodHousekeeping"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.footer-icons > div > a.footer-icon",
+    "x": 130,
+    "y": 6527,
+    "w": 38,
+    "h": 68,
+    "text": "bbb icon",
+    "href": "/cincinnati/business-reviews/detergent/the-procter-gamble-company-in-cincinnati-oh-3036"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.footer-icon > picture > img",
+    "x": 130,
+    "y": 6527,
+    "w": 38,
+    "h": 62,
+    "text": "bbb icon",
+    "file": "footer_BBB"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.footer-icons > div > a.footer-icon",
+    "x": 198,
+    "y": 6527,
+    "w": 58,
+    "h": 68,
+    "text": "junk food icon",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.footer-icon > picture > img",
+    "x": 198,
+    "y": 6527,
+    "w": 58,
+    "h": 62,
+    "text": "junk food icon",
+    "file": "footer_JunkFood"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.footer-icons > div > a.footer-icon",
+    "x": 286,
+    "y": 6527,
+    "w": 56,
+    "h": 68,
+    "text": "tide cleaners icon",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.footer-icon > picture > img",
+    "x": 286,
+    "y": 6527,
+    "w": 56,
+    "h": 62,
+    "text": "tide cleaners icon",
+    "file": "footer_TideCleaners"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > a.event_outbound_link",
+    "x": 15,
+    "y": 6646,
+    "w": 179,
+    "h": 18,
+    "text": "accessibility statement",
+    "href": "/en-US"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > a.event_outbound_link",
+    "x": 15,
+    "y": 6678,
+    "w": 150,
+    "h": 18,
+    "text": "terms & conditions",
+    "href": "/en-us/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > a.event_menu_click",
+    "x": 15,
+    "y": 6710,
+    "w": 279,
+    "h": 18,
+    "text": "tide rewards terms and conditions",
+    "href": "/en-us/rewards/loyalty/terms-and-conditions"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > a.event_outbound_link",
+    "x": 15,
+    "y": 6742,
+    "w": 60,
+    "h": 18,
+    "text": "careers",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > a.event_outbound_link",
+    "x": 90,
+    "y": 6742,
+    "w": 56,
+    "h": 18,
+    "text": "privacy",
+    "href": "/en-US/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > a.event_outbound_link",
+    "x": 15,
+    "y": 6774,
+    "w": 287,
+    "h": 18,
+    "text": "consumer health data privacy policy",
+    "href": "/CHD-en"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > a.event_outbound_link.with-ccpa-logo",
+    "x": 15,
+    "y": 6806,
+    "w": 187,
+    "h": 18,
+    "text": "your privacy choices",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > span",
+    "x": 15,
+    "y": 6838,
+    "w": 276,
+    "h": 50,
+    "text": "NOTICE: We may sell your sensitive personal data."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.copyright > div.self-center.font-medium",
+    "x": 15,
+    "y": 6991,
+    "w": 199,
+    "h": 32,
+    "text": "© 2026 Procter & Gamble"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.footer-general-navigation > div.menu-item > a.event_menu_click",
+    "x": 15,
+    "y": 7073,
+    "w": 64,
+    "h": 32,
+    "text": "sitemap",
+    "href": "/en-us/sitemap"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 1,
+    "scrollHidden": 0,
+    "horizontal": 2,
+    "offPage": 6,
+    "textNodes": 125,
+    "controls": 54,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "CONTROL COLLAPSED",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div#page-wrapper",
+     "path": "div#__next > div#page-wrapper > header#site-header > a.skip-to-content-link",
+     "text": "skip to content",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "nav",
+     "path": "nav > ul > li > span",
+     "text": "the most important rule in toxicology: risk = hazard x expos",
+     "cutMin": 123,
+     "cutMax": 123
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "nav",
+     "path": "nav > ul > li > span",
+     "text": "the most important rule in toxicology: risk = hazard x expos",
+     "cutMin": 123,
+     "cutMax": 123
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--5db7d055--aemcoder.aem.page/en-us/research/hazard-vs-risk-laundry-detergent",
+  "at": "2026-11-24T11:29:41.953Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 7088,
+  "root": "main#site-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header.block > div#site-header > a.skip-to-content-link",
+    "x": 119,
+    "y": -44,
+    "w": 122,
+    "h": 44,
+    "text": "skip to content",
+    "href": "/en-us/research/hazard-vs-risk-laundry-detergent"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.searchbar-row > button.burger",
+    "x": 20,
+    "y": 18,
+    "w": 30,
+    "h": 26,
+    "text": "navigation menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.searchbar-row > button.burger",
+    "x": 20,
+    "y": 18,
+    "w": 30,
+    "h": 26,
+    "label": "navigation menu",
+    "value": "navigation menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-logo > p > a",
+    "x": 157,
+    "y": 7,
+    "w": 47,
+    "h": 47,
+    "text": "tide logo",
+    "href": "/en-us"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 157,
+    "y": 7,
+    "w": 47,
+    "h": 47,
+    "text": "tide logo",
+    "file": "media_1657180466c60da96dcbb2d8123d7c9b94"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "form > div.input-wrap > button",
+    "x": 310,
+    "y": 15,
+    "w": 30,
+    "h": 30,
+    "text": "submit search"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > span.jump-links-item",
+    "x": 15,
+    "y": 61,
+    "w": 453,
+    "h": 46,
+    "text": "the most important rule in toxicology: risk = hazard x exposure"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 129,
+    "w": 57,
+    "h": 22,
+    "text": "home",
+    "href": "/en-us"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav > ul > li",
+    "x": 15,
+    "y": 129,
+    "w": 330,
+    "h": 96,
+    "label": "current",
+    "value": "hazard vs. risk in laundry detergent: how exposure changes w",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav > ul > li",
+    "x": 15,
+    "y": 129,
+    "w": 330,
+    "h": 96,
+    "text": "Hazard vs. Risk in Laundry Detergent: How Exposure Changes What “Toxic” Really M"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-title-band-content > div.article-title-band-headline > h1#hazard-vs-risk-why-toxic-claims-about-your-detergent-may-be-misleading",
+    "x": 15,
+    "y": 246,
+    "w": 330,
+    "h": 264,
+    "level": 1,
+    "text": "hazard vs. risk: why 'toxic’ claims about your detergent may be misleading"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-title-band-content > div.article-title-band-share.mobile > a.article-title-band-share-item.share-facebook",
+    "x": 15,
+    "y": 550,
+    "w": 22,
+    "h": 28,
+    "text": "share on facebook",
+    "href": "/sharer/sharer.php"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-title-band-content > div.article-title-band-share.mobile > a.article-title-band-share-item.share-twitter",
+    "x": 57,
+    "y": 550,
+    "w": 22,
+    "h": 28,
+    "text": "share on twitter",
+    "href": "/intent/tweet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-title-band-content > div.article-title-band-share.mobile > a.article-title-band-share-item.share-pinterest",
+    "x": 99,
+    "y": 550,
+    "w": 22,
+    "h": 28,
+    "text": "share on pinterest",
+    "href": "/pin/create/button/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-title-band-content > div.article-title-band-share.mobile > a.article-title-band-share-item.share-email",
+    "x": 141,
+    "y": 550,
+    "w": 22,
+    "h": 28,
+    "text": "share by email",
+    "href": ""
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-title-band-content > div.article-title-band-share.mobile > a.article-title-band-share-item.share-print",
+    "x": 183,
+    "y": 550,
+    "w": 22,
+    "h": 28,
+    "text": "print",
+    "href": "/en-us/research/hazard-vs-risk-laundry-detergent"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > div.article-prose-col > h3#article-key-highlights",
+    "x": 15,
+    "y": 723,
+    "w": 330,
+    "h": 72,
+    "level": 3,
+    "text": "article key highlights"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 34,
+    "y": 815,
+    "w": 311,
+    "h": 61,
+    "text": "(often measured at high doses or lab conditions)."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 34,
+    "y": 876,
+    "w": 311,
+    "h": 62,
+    "text": ", driven by (amount, route, time)."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 34,
+    "y": 938,
+    "w": 311,
+    "h": 21,
+    "text": "Core rule:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 34,
+    "y": 959,
+    "w": 311,
+    "h": 61,
+    "text": "Everyday examples: can be harmful at extreme doses, but aren’t “toxic” in normal"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 34,
+    "y": 1020,
+    "w": 311,
+    "h": 84,
+    "text": "Safety evaluation includes:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 34,
+    "y": 1104,
+    "w": 311,
+    "h": 82,
+    "text": "The key question is , not whether an ingredient be harmful at some dose."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > div.article-prose-col > p",
+    "x": 15,
+    "y": 1202,
+    "w": 330,
+    "h": 160,
+    "text": "You’ve seen the alarming posts on social media. The blog articles with scary hea"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > div.article-prose-col > p",
+    "x": 15,
+    "y": 1378,
+    "w": 330,
+    "h": 40,
+    "text": "But what if these warnings are leaving out the most important part of the story?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > div.article-prose-col > p",
+    "x": 15,
+    "y": 1434,
+    "w": 330,
+    "h": 200,
+    "text": "The truth is, these claims are often based on a fundamental misunderstanding of "
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > div.article-prose-col > h3#the-most-important-rule-in-toxicology-risk--hazard-x-exposure",
+    "x": 15,
+    "y": 1699,
+    "w": 330,
+    "h": 144,
+    "level": 3,
+    "text": "the most important rule in toxicology: risk = hazard x exposure"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > div.article-prose-col > p",
+    "x": 15,
+    "y": 1863,
+    "w": 330,
+    "h": 60,
+    "text": "In the world of safety science, \"hazard\" and \"risk\" have very precise meanings. "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 34,
+    "y": 1937,
+    "w": 311,
+    "h": 181,
+    "text": "This is the for a substance to cause harm. This is usually measured at very high"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 34,
+    "y": 2118,
+    "w": 311,
+    "h": 122,
+    "text": "This is the of that harm happening in a real-world situation. Risk depends entir"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > div.article-prose-col > p",
+    "x": 15,
+    "y": 2256,
+    "w": 330,
+    "h": 102,
+    "text": "This simple equation— —is the bedrock of modern toxicology. A substance can be h"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > div.article-prose-col > h3#everyday-examples-water-and-salt",
+    "x": 15,
+    "y": 2423,
+    "w": 330,
+    "h": 108,
+    "level": 3,
+    "text": "everyday examples: water and salt"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > div.article-prose-col > p",
+    "x": 15,
+    "y": 2551,
+    "w": 330,
+    "h": 60,
+    "text": "To see this principle in action, you don't need to look any further than your ki"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > div.article-prose-col > p",
+    "x": 15,
+    "y": 2627,
+    "w": 330,
+    "h": 181,
+    "text": "Consider It’s essential for life. But did you know that drinking an extreme amou"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > div.article-prose-col > p",
+    "x": 15,
+    "y": 2824,
+    "w": 330,
+    "h": 101,
+    "text": "The same goes for A sprinkle on your food is perfectly fine. But swallowing a cu"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > div.article-prose-col > p",
+    "x": 15,
+    "y": 2941,
+    "w": 330,
+    "h": 160,
+    "text": "This is exactly how scientists evaluate the ingredients in your laundry detergen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > div.article-prose-col > p",
+    "x": 15,
+    "y": 3117,
+    "w": 330,
+    "h": 100,
+    "text": "Detergents from reputable manufacturers like Tide, are held to a high standard o"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > div.article-prose-col > h3#how-scientists-ensure-your-safety",
+    "x": 15,
+    "y": 3282,
+    "w": 330,
+    "h": 72,
+    "level": 3,
+    "text": "how scientists ensure your safety"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > div.article-prose-col > p",
+    "x": 15,
+    "y": 3374,
+    "w": 330,
+    "h": 60,
+    "text": "When formulating a product, scientists don't guess about safety. They follow a r"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > p",
+    "x": 55,
+    "y": 3448,
+    "w": 290,
+    "h": 61,
+    "text": "They study each ingredient to understand its properties."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > p",
+    "x": 55,
+    "y": 3509,
+    "w": 290,
+    "h": 82,
+    "text": "This is the dose at which no negative effects are seen, even in sensitive lab te"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > p",
+    "x": 55,
+    "y": 3591,
+    "w": 290,
+    "h": 161,
+    "text": "They take that NOEL and divide it by at least 100 (and often 1,000) to create a "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > p",
+    "x": 55,
+    "y": 3752,
+    "w": 290,
+    "h": 81,
+    "text": "They conduct studies to determine the tiny amount of residue that might be left "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > div.article-prose-col > p",
+    "x": 15,
+    "y": 3849,
+    "w": 330,
+    "h": 260,
+    "text": "The result? The actual exposure you get from wearing your clothes is consistentl"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.faq-accordion-container > div.default-content-wrapper > h3#faqs",
+    "x": 15,
+    "y": 4174,
+    "w": 330,
+    "h": 20,
+    "level": 3,
+    "text": "faqs"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-accordion-list > div#why-can-toxic-detergent-posts-be-misleading > div.faq-accordion-question",
+    "x": 15,
+    "y": 4262,
+    "w": 330,
+    "h": 99,
+    "text": "why can “toxic detergent” posts be misleading?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-accordion-list > div#why-can-toxic-detergent-posts-be-misleading > div.faq-accordion-question",
+    "x": 15,
+    "y": 4262,
+    "w": 330,
+    "h": 99,
+    "label": "why can “toxic detergent” posts be misleading?",
+    "value": "why can “toxic detergent” posts be misleading?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-accordion-list > div#what-does-exposure-mean-in-detergent-safety > div.faq-accordion-question",
+    "x": 15,
+    "y": 4381,
+    "w": 330,
+    "h": 73,
+    "text": "what does “exposure” mean in detergent safety?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-accordion-list > div#what-does-exposure-mean-in-detergent-safety > div.faq-accordion-question",
+    "x": 15,
+    "y": 4381,
+    "w": 330,
+    "h": 73,
+    "label": "what does “exposure” mean in detergent safety?",
+    "value": "what does “exposure” mean in detergent safety?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-accordion-list > div#can-something-be-hazardous-but-not-risky > div.faq-accordion-question",
+    "x": 15,
+    "y": 4474,
+    "w": 330,
+    "h": 73,
+    "text": "can something be hazardous but not risky?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-accordion-list > div#can-something-be-hazardous-but-not-risky > div.faq-accordion-question",
+    "x": 15,
+    "y": 4474,
+    "w": 330,
+    "h": 73,
+    "label": "can something be hazardous but not risky?",
+    "value": "can something be hazardous but not risky?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-accordion-list > div#why-does-dose-matter-in-toxicology > div.faq-accordion-question",
+    "x": 15,
+    "y": 4567,
+    "w": 330,
+    "h": 73,
+    "text": "why does dose matter in toxicology?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-accordion-list > div#why-does-dose-matter-in-toxicology > div.faq-accordion-question",
+    "x": 15,
+    "y": 4567,
+    "w": 330,
+    "h": 73,
+    "label": "why does dose matter in toxicology?",
+    "value": "why does dose matter in toxicology?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-accordion-list > div#how-do-water-and-salt-relate-to-hazard-vs-risk > div.faq-accordion-question",
+    "x": 15,
+    "y": 4660,
+    "w": 330,
+    "h": 73,
+    "text": "how do water and salt relate to hazard vs. risk?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-accordion-list > div#how-do-water-and-salt-relate-to-hazard-vs-risk > div.faq-accordion-question",
+    "x": 15,
+    "y": 4660,
+    "w": 330,
+    "h": 73,
+    "label": "how do water and salt relate to hazard vs. risk?",
+    "value": "how do water and salt relate to hazard vs. risk?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-accordion-list > div#what-is-a-noel > div.faq-accordion-question",
+    "x": 15,
+    "y": 4753,
+    "w": 330,
+    "h": 47,
+    "text": "what is a noel?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-accordion-list > div#what-is-a-noel > div.faq-accordion-question",
+    "x": 15,
+    "y": 4753,
+    "w": 330,
+    "h": 47,
+    "label": "what is a noel?",
+    "value": "what is a noel?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-accordion-list > div#why-do-scientists-use-large-safety-factors > div.faq-accordion-question",
+    "x": 15,
+    "y": 4820,
+    "w": 330,
+    "h": 73,
+    "text": "why do scientists use large safety factors?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-accordion-list > div#why-do-scientists-use-large-safety-factors > div.faq-accordion-question",
+    "x": 15,
+    "y": 4820,
+    "w": 330,
+    "h": 73,
+    "label": "why do scientists use large safety factors?",
+    "value": "why do scientists use large safety factors?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-accordion-list > div#how-is-detergent-safety-evaluated-for-real-use > div.faq-accordion-question",
+    "x": 15,
+    "y": 4913,
+    "w": 330,
+    "h": 73,
+    "text": "how is detergent safety evaluated for real use?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-accordion-list > div#how-is-detergent-safety-evaluated-for-real-use > div.faq-accordion-question",
+    "x": 15,
+    "y": 4913,
+    "w": 330,
+    "h": 73,
+    "label": "how is detergent safety evaluated for real use?",
+    "value": "how is detergent safety evaluated for real use?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-accordion-list > div#is-residue-on-clothes-considered-in-safety-testing > div.faq-accordion-question",
+    "x": 15,
+    "y": 5006,
+    "w": 330,
+    "h": 99,
+    "text": "is residue on clothes considered in safety testing?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-accordion-list > div#is-residue-on-clothes-considered-in-safety-testing > div.faq-accordion-question",
+    "x": 15,
+    "y": 5006,
+    "w": 330,
+    "h": 99,
+    "label": "is residue on clothes considered in safety testing?",
+    "value": "is residue on clothes considered in safety testing?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-accordion-list > div#what-s-the-most-important-question-to-ask-about-detergent-ingredients > div.faq-accordion-question",
+    "x": 15,
+    "y": 5125,
+    "w": 330,
+    "h": 125,
+    "text": "what’s the most important question to ask about detergent ingredients?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-accordion-list > div#what-s-the-most-important-question-to-ask-about-detergent-ingredients > div.faq-accordion-question",
+    "x": 15,
+    "y": 5125,
+    "w": 330,
+    "h": 125,
+    "label": "what’s the most important question to ask about detergent ingredients?",
+    "value": "what’s the most important question to ask about detergent in",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-accordion-list > div#what-does-it-mean-to-use-detergent-as-intended > div.faq-accordion-question",
+    "x": 15,
+    "y": 5270,
+    "w": 330,
+    "h": 73,
+    "text": "what does it mean to use detergent “as intended”?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-accordion-list > div#what-does-it-mean-to-use-detergent-as-intended > div.faq-accordion-question",
+    "x": 15,
+    "y": 5270,
+    "w": 330,
+    "h": 73,
+    "label": "what does it mean to use detergent “as intended”?",
+    "value": "what does it mean to use detergent “as intended”?",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.footer-social-label > p",
+    "x": 15,
+    "y": 5448,
+    "w": 242,
+    "h": 19,
+    "text": "Ways to connect with us:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 5487,
+    "w": 32,
+    "h": 32,
+    "text": "facebook icon",
+    "href": "/Tide"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 15,
+    "y": 5487,
+    "w": 32,
+    "h": 32,
+    "text": "facebook icon",
+    "file": "media_1bff7d59c4067314b47f0571184d0ed529"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 62,
+    "y": 5487,
+    "w": 32,
+    "h": 32,
+    "text": "twitter icon",
+    "href": "/tide"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 62,
+    "y": 5487,
+    "w": 32,
+    "h": 32,
+    "text": "twitter icon",
+    "file": "media_1d4bf414ff3eeeb8a169b214b0c8bbf72a"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 109,
+    "y": 5487,
+    "w": 32,
+    "h": 32,
+    "text": "pinterest icon",
+    "href": "/tide/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 109,
+    "y": 5487,
+    "w": 32,
+    "h": 32,
+    "text": "pinterest icon",
+    "file": "media_18cdbba8bc0f0f7a172257ff84fa5200d5"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 156,
+    "y": 5487,
+    "w": 32,
+    "h": 32,
+    "text": "youtube icon",
+    "href": "/channel/UCEPeWPjaF1CWCKXa3xTp7vw"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 156,
+    "y": 5487,
+    "w": 32,
+    "h": 32,
+    "text": "youtube icon",
+    "file": "media_11266d14e9b1e9a4b88cdddb13b60dadbd"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col > div.footer-nav-title > p",
+    "x": 15,
+    "y": 5579,
+    "w": 330,
+    "h": 51,
+    "text": "Shop Products"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > div.expandable > div.expandable-header",
+    "x": 15,
+    "y": 5672,
+    "w": 330,
+    "h": 24,
+    "level": 4,
+    "text": "by type"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > div.expandable > div.expandable-header",
+    "x": 15,
+    "y": 5756,
+    "w": 330,
+    "h": 24,
+    "level": 4,
+    "text": "by need"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > div.expandable > div.expandable-header",
+    "x": 15,
+    "y": 5840,
+    "w": 330,
+    "h": 24,
+    "level": 4,
+    "text": "top collection"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col.col-md-6 > div.footer-nav-title > p",
+    "x": 15,
+    "y": 5932,
+    "w": 330,
+    "h": 51,
+    "text": "How to Wash Clothes"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 6000,
+    "w": 177,
+    "h": 18,
+    "text": "how to remove stains",
+    "href": "/en-us/how-to-wash-clothes/how-to-remove-stains"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 6032,
+    "w": 153,
+    "h": 18,
+    "text": "how to do laundry",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 6064,
+    "w": 289,
+    "h": 18,
+    "text": "washing different fabrics and colors",
+    "href": "/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 6096,
+    "w": 163,
+    "h": 18,
+    "text": "washing machine 101",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col.col-md-6 > div.footer-nav-title > p",
+    "x": 15,
+    "y": 6161,
+    "w": 330,
+    "h": 51,
+    "text": "Help & Support"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 6229,
+    "w": 85,
+    "h": 18,
+    "text": "contact us",
+    "href": "/en-us/contact-us"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col.footer-related > div.footer-related-label > p",
+    "x": 15,
+    "y": 6325,
+    "w": 81,
+    "h": 24,
+    "text": "Related:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 6358,
+    "w": 93,
+    "h": 18,
+    "text": "p&g brands",
+    "href": "/en_US"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 123,
+    "y": 6358,
+    "w": 64,
+    "h": 18,
+    "text": "mrclean",
+    "href": "/en-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 202,
+    "y": 6358,
+    "w": 54,
+    "h": 18,
+    "text": "downy",
+    "href": "/en-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 271,
+    "y": 6358,
+    "w": 58,
+    "h": 18,
+    "text": "bounce",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 6390,
+    "w": 110,
+    "h": 18,
+    "text": "p&g everyday",
+    "href": "/tag/tide"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 18,
+    "y": 6509,
+    "w": 82,
+    "h": 16,
+    "text": "good housekeeping icon",
+    "href": "/product-reviews/history/welcome-gh-seal"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 18,
+    "y": 6460,
+    "w": 82,
+    "h": 62,
+    "text": "good housekeeping icon",
+    "file": "media_1915c270d4d20b18fb25a1cc6c49da3f7d"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 130,
+    "y": 6509,
+    "w": 38,
+    "h": 16,
+    "text": "bbb icon",
+    "href": "/cincinnati/business-reviews/detergent/the-procter-gamble-company-in-cincinnati-oh-3036"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 130,
+    "y": 6460,
+    "w": 38,
+    "h": 62,
+    "text": "bbb icon",
+    "file": "media_152462ed6c7d03edb0c9b2df4a3225edd6"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 198,
+    "y": 6509,
+    "w": 58,
+    "h": 16,
+    "text": "junk food icon",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 198,
+    "y": 6460,
+    "w": 58,
+    "h": 62,
+    "text": "junk food icon",
+    "file": "media_174cf4b58ab063651ffe4f10a66e62cdaf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 286,
+    "y": 6509,
+    "w": 56,
+    "h": 16,
+    "text": "tide cleaners icon",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 286,
+    "y": 6460,
+    "w": 56,
+    "h": 62,
+    "text": "tide cleaners icon",
+    "file": "media_124ea7973b6834e8157f4329ff2eee77c6"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 6579,
+    "w": 179,
+    "h": 18,
+    "text": "accessibility statement",
+    "href": "/en-US"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 6611,
+    "w": 150,
+    "h": 18,
+    "text": "terms & conditions",
+    "href": "/en-us/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 6643,
+    "w": 279,
+    "h": 18,
+    "text": "tide rewards terms and conditions",
+    "href": "/en-us/rewards/loyalty/terms-and-conditions"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 6675,
+    "w": 60,
+    "h": 18,
+    "text": "careers",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 90,
+    "y": 6675,
+    "w": 56,
+    "h": 18,
+    "text": "privacy",
+    "href": "/en-US/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 6707,
+    "w": 287,
+    "h": 18,
+    "text": "consumer health data privacy policy",
+    "href": "/CHD-en"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 6739,
+    "w": 187,
+    "h": 18,
+    "text": "your privacy choices",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > span",
+    "x": 15,
+    "y": 6771,
+    "w": 276,
+    "h": 50,
+    "text": "NOTICE: We may sell your sensitive personal data."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col.footer-general > ul > li",
+    "x": 15,
+    "y": 6924,
+    "w": 199,
+    "h": 32,
+    "text": "© 2026 Procter & Gamble"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 7006,
+    "w": 64,
+    "h": 32,
+    "text": "sitemap",
+    "href": "/en-us/sitemap"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 2,
+    "offPage": 6,
+    "textNodes": 124,
+    "controls": 51,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "nav",
+     "path": "nav > ul > li > span.jump-links-item",
+     "text": "the most important rule in toxicology: risk = hazard x expos",
+     "cutMin": 123,
+     "cutMax": 123
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "nav",
+     "path": "nav > ul > li > span.jump-links-item",
+     "text": "the most important rule in toxicology: risk = hazard x expos",
+     "cutMin": 123,
+     "cutMax": 123
+    }
+   ],
+   "findings": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "cut": 123,
+     "path": "nav > ul > li > span.jump-links-item",
+     "text": "the most important rule in toxicology: risk = hazard x expos",
+     "clipper": "nav",
+     "rect": {
+      "l": 15,
+      "t": 61,
+      "r": 468,
+      "b": 107,
+      "w": 453,
+      "h": 46
+     },
+     "clip": {
+      "l": 15,
+      "t": 61,
+      "r": 345,
+      "b": 107,
+      "w": 330,
+      "h": 46
+     }
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 123,
+     "path": "nav > ul > li > span.jump-links-item",
+     "text": "the most important rule in toxicology: risk = hazard x expos",
+     "clipper": "nav",
+     "rect": {
+      "l": 15,
+      "t": 76,
+      "r": 468,
+      "b": 92,
+      "w": 453,
+      "h": 16
+     },
+     "clip": {
+      "l": 15,
+      "t": 61,
+      "r": 345,
+      "b": 107,
+      "w": 330,
+      "h": 46
+     },
+     "lines": 1
+    }
+   ]
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 1,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "hazard vs. risk: why 'toxic’ claims about your detergent may be misleading",
+   "variable": false,
+   "origin": {
+    "link": 5,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 5,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "article key highlights",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 9,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 9,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "the most important rule in toxicology: risk = hazard x exposure",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 4,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 4,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "everyday examples: water and salt",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 5,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 5,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "how scientists ensure your safety",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 6,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 6,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "faqs",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 11,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 11,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 15,
+    "y": 76,
+    "w": 453,
+    "h": 16
+   },
+   {
+    "x": 15,
+    "y": 129,
+    "w": 57,
+    "h": 22
+   },
+   {
+    "x": 91,
+    "y": 129,
+    "w": 249,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 154,
+    "w": 244,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 178,
+    "w": 274,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 203,
+    "w": 62,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 243,
+    "w": 325,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 287,
+    "w": 232,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 331,
+    "w": 276,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 375,
+    "w": 314,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 419,
+    "w": 148,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 463,
+    "w": 221,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 741,
+    "w": 181,
+    "h": 39
+   },
+   {
+    "x": 15,
+    "y": 777,
+    "w": 168,
+    "h": 39
+   },
+   {
+    "x": 34,
+    "y": 836,
+    "w": 264,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 857,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 877,
+    "w": 90,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 897,
+    "w": 260,
+    "h": 19
+   },
+   {
+    "x": 294,
+    "y": 897,
+    "w": 4,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 918,
+    "w": 78,
+    "h": 18
+   },
+   {
+    "x": 112,
+    "y": 918,
+    "w": 78,
+    "h": 19
+   },
+   {
+    "x": 190,
+    "y": 918,
+    "w": 119,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 939,
+    "w": 44,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 959,
+    "w": 80,
+    "h": 18
+   },
+   {
+    "x": 114,
+    "y": 959,
+    "w": 206,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 980,
+    "w": 159,
+    "h": 18
+   },
+   {
+    "x": 193,
+    "y": 980,
+    "w": 113,
+    "h": 19
+   },
+   {
+    "x": 306,
+    "y": 980,
+    "w": 33,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 1001,
+    "w": 306,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 1021,
+    "w": 163,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 1041,
+    "w": 209,
+    "h": 18
+   },
+   {
+    "x": 243,
+    "y": 1041,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 1062,
+    "w": 304,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 1083,
+    "w": 249,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 1104,
+    "w": 59,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 1125,
+    "w": 154,
+    "h": 18
+   },
+   {
+    "x": 188,
+    "y": 1125,
+    "w": 131,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 1146,
+    "w": 135,
+    "h": 19
+   },
+   {
+    "x": 169,
+    "y": 1146,
+    "w": 127,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 1167,
+    "w": 83,
+    "h": 18
+   },
+   {
+    "x": 117,
+    "y": 1167,
+    "w": 47,
+    "h": 18
+   },
+   {
+    "x": 165,
+    "y": 1167,
+    "w": 152,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 1187,
+    "w": 41,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1242,
+    "w": 315,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1262,
+    "w": 269,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1282,
+    "w": 292,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1302,
+    "w": 322,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1322,
+    "w": 281,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1342,
+    "w": 296,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1362,
+    "w": 320,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1382,
+    "w": 130,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1418,
+    "w": 327,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1438,
+    "w": 290,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1474,
+    "w": 319,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1494,
+    "w": 300,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1514,
+    "w": 310,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1534,
+    "w": 190,
+    "h": 18
+   },
+   {
+    "x": 205,
+    "y": 1534,
+    "w": 58,
+    "h": 18
+   },
+   {
+    "x": 263,
+    "y": 1534,
+    "w": 40,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1554,
+    "w": 199,
+    "h": 18
+   },
+   {
+    "x": 214,
+    "y": 1554,
+    "w": 71,
+    "h": 18
+   },
+   {
+    "x": 285,
+    "y": 1554,
+    "w": 54,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1574,
+    "w": 303,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1594,
+    "w": 27,
+    "h": 18
+   },
+   {
+    "x": 42,
+    "y": 1594,
+    "w": 283,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1614,
+    "w": 291,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1634,
+    "w": 315,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1654,
+    "w": 114,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1736,
+    "w": 328,
+    "h": 39
+   },
+   {
+    "x": 15,
+    "y": 1772,
+    "w": 305,
+    "h": 39
+   },
+   {
+    "x": 15,
+    "y": 1808,
+    "w": 251,
+    "h": 39
+   },
+   {
+    "x": 15,
+    "y": 1844,
+    "w": 154,
+    "h": 39
+   },
+   {
+    "x": 15,
+    "y": 1903,
+    "w": 303,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1923,
+    "w": 298,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1943,
+    "w": 221,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 1977,
+    "w": 61,
+    "h": 19
+   },
+   {
+    "x": 95,
+    "y": 1977,
+    "w": 87,
+    "h": 18
+   },
+   {
+    "x": 182,
+    "y": 1977,
+    "w": 72,
+    "h": 18
+   },
+   {
+    "x": 255,
+    "y": 1977,
+    "w": 36,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 1998,
+    "w": 308,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 2018,
+    "w": 295,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 2038,
+    "w": 252,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 2058,
+    "w": 253,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 2078,
+    "w": 295,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 2098,
+    "w": 294,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 2118,
+    "w": 260,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 2138,
+    "w": 121,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 2158,
+    "w": 38,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 2158,
+    "w": 87,
+    "h": 18
+   },
+   {
+    "x": 159,
+    "y": 2158,
+    "w": 111,
+    "h": 18
+   },
+   {
+    "x": 270,
+    "y": 2158,
+    "w": 51,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 2179,
+    "w": 244,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 2199,
+    "w": 264,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 2219,
+    "w": 74,
+    "h": 19
+   },
+   {
+    "x": 108,
+    "y": 2219,
+    "w": 229,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 2240,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 2260,
+    "w": 218,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2296,
+    "w": 173,
+    "h": 18
+   },
+   {
+    "x": 188,
+    "y": 2296,
+    "w": 123,
+    "h": 19
+   },
+   {
+    "x": 15,
+    "y": 2317,
+    "w": 75,
+    "h": 19
+   },
+   {
+    "x": 90,
+    "y": 2317,
+    "w": 211,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2338,
+    "w": 326,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2358,
+    "w": 285,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2378,
+    "w": 280,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2460,
+    "w": 155,
+    "h": 39
+   },
+   {
+    "x": 15,
+    "y": 2496,
+    "w": 277,
+    "h": 39
+   },
+   {
+    "x": 15,
+    "y": 2532,
+    "w": 135,
+    "h": 39
+   },
+   {
+    "x": 15,
+    "y": 2591,
+    "w": 305,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2611,
+    "w": 268,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2631,
+    "w": 59,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2667,
+    "w": 74,
+    "h": 18
+   },
+   {
+    "x": 89,
+    "y": 2667,
+    "w": 49,
+    "h": 19
+   },
+   {
+    "x": 137,
+    "y": 2667,
+    "w": 187,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2688,
+    "w": 301,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2708,
+    "w": 302,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2728,
+    "w": 321,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2748,
+    "w": 311,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2768,
+    "w": 323,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2788,
+    "w": 328,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2808,
+    "w": 304,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2828,
+    "w": 38,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2864,
+    "w": 150,
+    "h": 18
+   },
+   {
+    "x": 165,
+    "y": 2864,
+    "w": 78,
+    "h": 19
+   },
+   {
+    "x": 243,
+    "y": 2864,
+    "w": 82,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2885,
+    "w": 260,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2905,
+    "w": 329,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2925,
+    "w": 298,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2945,
+    "w": 274,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2981,
+    "w": 320,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3001,
+    "w": 326,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3021,
+    "w": 318,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3041,
+    "w": 260,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3061,
+    "w": 273,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3081,
+    "w": 324,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3101,
+    "w": 310,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3121,
+    "w": 152,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3157,
+    "w": 325,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3177,
+    "w": 301,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3197,
+    "w": 276,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3217,
+    "w": 278,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3237,
+    "w": 240,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3319,
+    "w": 243,
+    "h": 39
+   },
+   {
+    "x": 15,
+    "y": 3355,
+    "w": 312,
+    "h": 39
+   },
+   {
+    "x": 15,
+    "y": 3414,
+    "w": 301,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3434,
+    "w": 303,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3454,
+    "w": 134,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 3488,
+    "w": 230,
+    "h": 19
+   },
+   {
+    "x": 285,
+    "y": 3488,
+    "w": 43,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 3509,
+    "w": 281,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 3529,
+    "w": 106,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 3549,
+    "w": 276,
+    "h": 19
+   },
+   {
+    "x": 55,
+    "y": 3570,
+    "w": 117,
+    "h": 19
+   },
+   {
+    "x": 172,
+    "y": 3570,
+    "w": 145,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 3591,
+    "w": 273,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 3611,
+    "w": 200,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 3631,
+    "w": 252,
+    "h": 19
+   },
+   {
+    "x": 55,
+    "y": 3652,
+    "w": 286,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 3672,
+    "w": 245,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 3692,
+    "w": 236,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 3712,
+    "w": 240,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 3732,
+    "w": 228,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 3752,
+    "w": 251,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 3772,
+    "w": 92,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 3792,
+    "w": 281,
+    "h": 19
+   },
+   {
+    "x": 55,
+    "y": 3813,
+    "w": 270,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 3833,
+    "w": 289,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 3853,
+    "w": 238,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3889,
+    "w": 310,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3909,
+    "w": 317,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3929,
+    "w": 241,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3949,
+    "w": 259,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3969,
+    "w": 326,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3989,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4009,
+    "w": 326,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4029,
+    "w": 307,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4049,
+    "w": 306,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4069,
+    "w": 294,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4089,
+    "w": 301,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4109,
+    "w": 282,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4129,
+    "w": 59,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4211,
+    "w": 85,
+    "h": 39
+   },
+   {
+    "x": 15,
+    "y": 4328,
+    "w": 170,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 4354,
+    "w": 229,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 4380,
+    "w": 134,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 4447,
+    "w": 256,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 4473,
+    "w": 297,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 4540,
+    "w": 203,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 4566,
+    "w": 279,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 4633,
+    "w": 281,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 4659,
+    "w": 130,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 4726,
+    "w": 252,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 4752,
+    "w": 276,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 4819,
+    "w": 183,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 4886,
+    "w": 244,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 4912,
+    "w": 233,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 4979,
+    "w": 272,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 5005,
+    "w": 255,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 5072,
+    "w": 229,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 5098,
+    "w": 228,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 5124,
+    "w": 92,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 5191,
+    "w": 185,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 5217,
+    "w": 295,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 5243,
+    "w": 187,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 5269,
+    "w": 140,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 5336,
+    "w": 286,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 5362,
+    "w": 287,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 5512,
+    "w": 242,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 5645,
+    "w": 166,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 5739,
+    "w": 80,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 5823,
+    "w": 81,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 5907,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 5998,
+    "w": 239,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 6067,
+    "w": 177,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6099,
+    "w": 153,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6131,
+    "w": 289,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6163,
+    "w": 163,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6227,
+    "w": 172,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 6296,
+    "w": 85,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6392,
+    "w": 81,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 6425,
+    "w": 93,
+    "h": 18
+   },
+   {
+    "x": 123,
+    "y": 6425,
+    "w": 64,
+    "h": 18
+   },
+   {
+    "x": 202,
+    "y": 6425,
+    "w": 54,
+    "h": 18
+   },
+   {
+    "x": 271,
+    "y": 6425,
+    "w": 58,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6457,
+    "w": 110,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6646,
+    "w": 179,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6678,
+    "w": 150,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6710,
+    "w": 279,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6742,
+    "w": 60,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 6742,
+    "w": 56,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6774,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6806,
+    "w": 162,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6838,
+    "w": 276,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6870,
+    "w": 110,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6902,
+    "w": 258,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6934,
+    "w": 268,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6966,
+    "w": 88,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6998,
+    "w": 56,
+    "h": 18
+   },
+   {
+    "x": 71,
+    "y": 6998,
+    "w": 143,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 7080,
+    "w": 64,
+    "h": 18
+   }
+  ],
+  "eds": [
+   {
+    "x": 127,
+    "y": -31,
+    "w": 106,
+    "h": 16
+   },
+   {
+    "x": 15,
+    "y": 76,
+    "w": 453,
+    "h": 16
+   },
+   {
+    "x": 15,
+    "y": 129,
+    "w": 57,
+    "h": 22
+   },
+   {
+    "x": 95,
+    "y": 129,
+    "w": 249,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 154,
+    "w": 244,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 178,
+    "w": 274,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 203,
+    "w": 62,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 243,
+    "w": 325,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 287,
+    "w": 232,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 331,
+    "w": 276,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 375,
+    "w": 314,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 419,
+    "w": 148,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 463,
+    "w": 221,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 721,
+    "w": 181,
+    "h": 39
+   },
+   {
+    "x": 15,
+    "y": 757,
+    "w": 168,
+    "h": 39
+   },
+   {
+    "x": 34,
+    "y": 816,
+    "w": 264,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 837,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 857,
+    "w": 90,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 877,
+    "w": 260,
+    "h": 19
+   },
+   {
+    "x": 294,
+    "y": 877,
+    "w": 4,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 898,
+    "w": 78,
+    "h": 18
+   },
+   {
+    "x": 112,
+    "y": 898,
+    "w": 74,
+    "h": 19
+   },
+   {
+    "x": 185,
+    "y": 898,
+    "w": 124,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 919,
+    "w": 44,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 939,
+    "w": 80,
+    "h": 18
+   },
+   {
+    "x": 114,
+    "y": 939,
+    "w": 206,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 960,
+    "w": 159,
+    "h": 18
+   },
+   {
+    "x": 193,
+    "y": 960,
+    "w": 113,
+    "h": 19
+   },
+   {
+    "x": 306,
+    "y": 960,
+    "w": 33,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 981,
+    "w": 306,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 1001,
+    "w": 163,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 1021,
+    "w": 209,
+    "h": 18
+   },
+   {
+    "x": 243,
+    "y": 1021,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 1042,
+    "w": 307,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 1063,
+    "w": 250,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 1084,
+    "w": 59,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 1105,
+    "w": 154,
+    "h": 18
+   },
+   {
+    "x": 188,
+    "y": 1105,
+    "w": 131,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 1126,
+    "w": 135,
+    "h": 19
+   },
+   {
+    "x": 169,
+    "y": 1126,
+    "w": 127,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 1147,
+    "w": 83,
+    "h": 18
+   },
+   {
+    "x": 117,
+    "y": 1147,
+    "w": 43,
+    "h": 18
+   },
+   {
+    "x": 160,
+    "y": 1147,
+    "w": 156,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 1167,
+    "w": 41,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1203,
+    "w": 315,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1223,
+    "w": 269,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1243,
+    "w": 292,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1263,
+    "w": 322,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1283,
+    "w": 281,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1303,
+    "w": 296,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1323,
+    "w": 320,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1343,
+    "w": 130,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1379,
+    "w": 327,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1399,
+    "w": 290,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1435,
+    "w": 319,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1455,
+    "w": 300,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1475,
+    "w": 310,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1495,
+    "w": 190,
+    "h": 18
+   },
+   {
+    "x": 205,
+    "y": 1495,
+    "w": 53,
+    "h": 18
+   },
+   {
+    "x": 258,
+    "y": 1495,
+    "w": 45,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1515,
+    "w": 199,
+    "h": 18
+   },
+   {
+    "x": 214,
+    "y": 1515,
+    "w": 71,
+    "h": 18
+   },
+   {
+    "x": 285,
+    "y": 1515,
+    "w": 54,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1535,
+    "w": 303,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1555,
+    "w": 27,
+    "h": 18
+   },
+   {
+    "x": 42,
+    "y": 1555,
+    "w": 283,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1575,
+    "w": 291,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1595,
+    "w": 315,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1615,
+    "w": 114,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1697,
+    "w": 328,
+    "h": 39
+   },
+   {
+    "x": 15,
+    "y": 1733,
+    "w": 305,
+    "h": 39
+   },
+   {
+    "x": 15,
+    "y": 1769,
+    "w": 251,
+    "h": 39
+   },
+   {
+    "x": 15,
+    "y": 1805,
+    "w": 154,
+    "h": 39
+   },
+   {
+    "x": 15,
+    "y": 1864,
+    "w": 303,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1884,
+    "w": 298,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 1904,
+    "w": 221,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 1938,
+    "w": 61,
+    "h": 19
+   },
+   {
+    "x": 95,
+    "y": 1938,
+    "w": 87,
+    "h": 18
+   },
+   {
+    "x": 182,
+    "y": 1938,
+    "w": 67,
+    "h": 18
+   },
+   {
+    "x": 250,
+    "y": 1938,
+    "w": 41,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 1959,
+    "w": 308,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 1979,
+    "w": 295,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 1999,
+    "w": 252,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 2019,
+    "w": 253,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 2039,
+    "w": 295,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 2059,
+    "w": 294,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 2079,
+    "w": 260,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 2099,
+    "w": 121,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 2119,
+    "w": 38,
+    "h": 19
+   },
+   {
+    "x": 72,
+    "y": 2119,
+    "w": 87,
+    "h": 18
+   },
+   {
+    "x": 159,
+    "y": 2119,
+    "w": 106,
+    "h": 18
+   },
+   {
+    "x": 265,
+    "y": 2119,
+    "w": 56,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 2140,
+    "w": 244,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 2160,
+    "w": 264,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 2180,
+    "w": 74,
+    "h": 19
+   },
+   {
+    "x": 108,
+    "y": 2180,
+    "w": 229,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 2201,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 34,
+    "y": 2221,
+    "w": 218,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2257,
+    "w": 173,
+    "h": 18
+   },
+   {
+    "x": 188,
+    "y": 2257,
+    "w": 123,
+    "h": 19
+   },
+   {
+    "x": 15,
+    "y": 2278,
+    "w": 75,
+    "h": 19
+   },
+   {
+    "x": 90,
+    "y": 2278,
+    "w": 211,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2299,
+    "w": 326,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2319,
+    "w": 285,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2339,
+    "w": 280,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2421,
+    "w": 155,
+    "h": 39
+   },
+   {
+    "x": 15,
+    "y": 2457,
+    "w": 277,
+    "h": 39
+   },
+   {
+    "x": 15,
+    "y": 2493,
+    "w": 135,
+    "h": 39
+   },
+   {
+    "x": 15,
+    "y": 2552,
+    "w": 305,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2572,
+    "w": 268,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2592,
+    "w": 59,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2628,
+    "w": 74,
+    "h": 18
+   },
+   {
+    "x": 89,
+    "y": 2628,
+    "w": 49,
+    "h": 19
+   },
+   {
+    "x": 137,
+    "y": 2628,
+    "w": 187,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2649,
+    "w": 301,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2669,
+    "w": 302,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2689,
+    "w": 321,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2709,
+    "w": 311,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2729,
+    "w": 323,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2749,
+    "w": 328,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2769,
+    "w": 304,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2789,
+    "w": 38,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2825,
+    "w": 150,
+    "h": 18
+   },
+   {
+    "x": 165,
+    "y": 2825,
+    "w": 78,
+    "h": 19
+   },
+   {
+    "x": 243,
+    "y": 2825,
+    "w": 82,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2846,
+    "w": 260,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2866,
+    "w": 329,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2886,
+    "w": 298,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2906,
+    "w": 274,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2942,
+    "w": 320,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2962,
+    "w": 326,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 2982,
+    "w": 318,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3002,
+    "w": 260,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3022,
+    "w": 273,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3042,
+    "w": 324,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3062,
+    "w": 310,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3082,
+    "w": 152,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3118,
+    "w": 325,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3138,
+    "w": 301,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3158,
+    "w": 276,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3178,
+    "w": 278,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3198,
+    "w": 240,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3280,
+    "w": 243,
+    "h": 39
+   },
+   {
+    "x": 15,
+    "y": 3316,
+    "w": 312,
+    "h": 39
+   },
+   {
+    "x": 15,
+    "y": 3375,
+    "w": 301,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3395,
+    "w": 303,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3415,
+    "w": 134,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 3449,
+    "w": 230,
+    "h": 19
+   },
+   {
+    "x": 285,
+    "y": 3449,
+    "w": 43,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 3470,
+    "w": 281,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 3490,
+    "w": 106,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 3510,
+    "w": 276,
+    "h": 19
+   },
+   {
+    "x": 55,
+    "y": 3531,
+    "w": 117,
+    "h": 19
+   },
+   {
+    "x": 172,
+    "y": 3531,
+    "w": 145,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 3552,
+    "w": 273,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 3572,
+    "w": 200,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 3592,
+    "w": 252,
+    "h": 19
+   },
+   {
+    "x": 55,
+    "y": 3613,
+    "w": 286,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 3633,
+    "w": 245,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 3653,
+    "w": 236,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 3673,
+    "w": 240,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 3693,
+    "w": 228,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 3713,
+    "w": 251,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 3733,
+    "w": 92,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 3753,
+    "w": 281,
+    "h": 19
+   },
+   {
+    "x": 55,
+    "y": 3774,
+    "w": 270,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 3794,
+    "w": 289,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 3814,
+    "w": 238,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3850,
+    "w": 310,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3870,
+    "w": 317,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3890,
+    "w": 241,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3910,
+    "w": 259,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3930,
+    "w": 326,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3950,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3970,
+    "w": 326,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 3990,
+    "w": 307,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4010,
+    "w": 306,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4030,
+    "w": 294,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4050,
+    "w": 301,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4070,
+    "w": 282,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4090,
+    "w": 59,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4174,
+    "w": 43,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 4261,
+    "w": 170,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 4287,
+    "w": 229,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 4313,
+    "w": 134,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 4380,
+    "w": 256,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 4406,
+    "w": 297,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 4473,
+    "w": 203,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 4499,
+    "w": 279,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 4566,
+    "w": 281,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 4592,
+    "w": 130,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 4659,
+    "w": 252,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 4685,
+    "w": 276,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 4752,
+    "w": 183,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 4819,
+    "w": 244,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 4845,
+    "w": 233,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 4912,
+    "w": 272,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 4938,
+    "w": 255,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 5005,
+    "w": 229,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 5031,
+    "w": 228,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 5057,
+    "w": 92,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 5124,
+    "w": 185,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 5150,
+    "w": 295,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 5176,
+    "w": 187,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 5202,
+    "w": 140,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 5269,
+    "w": 286,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 5295,
+    "w": 287,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 5445,
+    "w": 242,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 5578,
+    "w": 166,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 5672,
+    "w": 80,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 5756,
+    "w": 81,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 5840,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 5931,
+    "w": 239,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 6000,
+    "w": 177,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6032,
+    "w": 153,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6064,
+    "w": 289,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6096,
+    "w": 163,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6160,
+    "w": 172,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 6229,
+    "w": 85,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6325,
+    "w": 81,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 6358,
+    "w": 93,
+    "h": 18
+   },
+   {
+    "x": 123,
+    "y": 6358,
+    "w": 64,
+    "h": 18
+   },
+   {
+    "x": 202,
+    "y": 6358,
+    "w": 54,
+    "h": 18
+   },
+   {
+    "x": 271,
+    "y": 6358,
+    "w": 58,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6390,
+    "w": 110,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6579,
+    "w": 179,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6611,
+    "w": 150,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6643,
+    "w": 279,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6675,
+    "w": 60,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 6675,
+    "w": 56,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6707,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6739,
+    "w": 162,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6771,
+    "w": 276,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6803,
+    "w": 110,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6835,
+    "w": 258,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6867,
+    "w": 268,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6899,
+    "w": 88,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 6931,
+    "w": 199,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 7013,
+    "w": 64,
+    "h": 18
+   }
+  ]
+ }
+}

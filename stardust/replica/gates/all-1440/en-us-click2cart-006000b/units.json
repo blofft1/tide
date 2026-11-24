@@ -1,0 +1,646 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-24T09:11:35.254Z",
+  "tol": 4,
+  "n": 4,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://tide.com/en-us/click2cart/006000B",
+  "at": "2026-11-24T06:48:20.016Z",
+  "docH": 1840
+ },
+ "eds": {
+  "url": "https://main--5db7d055--aemcoder.aem.page/en-us/click2cart/006000b",
+  "at": "2026-11-24T09:11:35.006Z",
+  "docH": 1840
+ },
+ "results": [
+  {
+   "sel": "app-enhanced-retailer-button .retailer-button-container=.retailer .retailer-button-container",
+   "family": null,
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div#retailer-buttons-wrapper > app-enhanced-retailer-button.ng-star-inserted > div.retailer-button-container.ng-star-inserted"
+     },
+     "eds": {
+      "path": "div#retailer-buttons-wrapper > div.retailer.retailer-target > div.retailer-button-container"
+     },
+     "rows": [
+      {
+       "key": "button:target",
+       "role": "button",
+       "text": "target",
+       "edsText": "target",
+       "byPosition": false,
+       "origin": {
+        "x": 6,
+        "y": 6,
+        "w": 395,
+        "h": 60
+       },
+       "eds": {
+        "x": 6,
+        "y": 6,
+        "w": 395,
+        "h": 60,
+        "sel": "div.retailer-button",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:target logo",
+       "role": "image",
+       "text": "target logo",
+       "edsText": "target logo",
+       "byPosition": false,
+       "origin": {
+        "x": 6,
+        "y": 6,
+        "w": 60,
+        "h": 60
+       },
+       "eds": {
+        "x": 6,
+        "y": 6,
+        "w": 60,
+        "h": 60,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 6,
+       "y": 6,
+       "w": 60,
+       "h": 60,
+       "absY": 565,
+       "hidden": false,
+       "fs": 14,
+       "lh": 20,
+       "fw": "400",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 516,
+       "y": 559,
+       "w": 407,
+       "h": 72
+      },
+      "eds": {
+       "x": 516,
+       "y": 559,
+       "w": 407,
+       "h": 72
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div#retailer-buttons-wrapper > app-enhanced-retailer-button.ng-star-inserted > div.retailer-button-container.ng-star-inserted"
+     },
+     "eds": {
+      "path": "div#retailer-buttons-wrapper > div.retailer.retailer-amazon > div.retailer-button-container"
+     },
+     "rows": [
+      {
+       "key": "image:walmart logo",
+       "role": "image",
+       "text": "walmart logo",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 6,
+        "y": 6,
+        "w": 60,
+        "h": 60
+       },
+       "eds": {
+        "x": 6,
+        "y": 6,
+        "w": 60,
+        "h": 60,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "button",
+       "tag": "div",
+       "sel": "div.retailer-button",
+       "text": "walmart",
+       "boxed": false,
+       "x": 6,
+       "y": 6,
+       "w": 395,
+       "h": 60,
+       "absY": 645,
+       "hidden": false,
+       "fs": 14,
+       "lh": 20,
+       "fw": "400",
+       "color": "rgb(77, 77, 77)",
+       "bg": null,
+       "position": "static",
+       "key": "button:walmart"
+      }
+     ],
+     "extra": [
+      {
+       "role": "button",
+       "tag": "div",
+       "sel": "div.retailer-button",
+       "text": "amazon",
+       "boxed": false,
+       "x": 6,
+       "y": 6,
+       "w": 395,
+       "h": 60,
+       "absY": 645,
+       "hidden": false,
+       "fs": 14,
+       "lh": 20,
+       "fw": "400",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "button:amazon"
+      },
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "amazon logo",
+       "boxed": false,
+       "x": 6,
+       "y": 6,
+       "w": 60,
+       "h": 60,
+       "absY": 645,
+       "hidden": false,
+       "fs": 14,
+       "lh": 20,
+       "fw": "400",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "image:amazon logo"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 516,
+       "y": 639,
+       "w": 407,
+       "h": 72
+      },
+      "eds": {
+       "x": 516,
+       "y": 639,
+       "w": 407,
+       "h": 72
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 2,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div#retailer-buttons-wrapper > app-enhanced-retailer-button.ng-star-inserted > div.retailer-button-container.ng-star-inserted"
+     },
+     "eds": {
+      "path": "div#retailer-buttons-wrapper > div.retailer.retailer-walmart > div.retailer-button-container"
+     },
+     "rows": [
+      {
+       "key": "image:instacart logo",
+       "role": "image",
+       "text": "instacart logo",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 6,
+        "y": 6,
+        "w": 60,
+        "h": 60
+       },
+       "eds": {
+        "x": 6,
+        "y": 6,
+        "w": 60,
+        "h": 60,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "button",
+       "tag": "div",
+       "sel": "div.retailer-button.event_buy_now_eretailer_exit",
+       "text": "instacart 45 ct",
+       "boxed": false,
+       "x": 6,
+       "y": 6,
+       "w": 395,
+       "h": 60,
+       "absY": 725,
+       "hidden": false,
+       "fs": 14,
+       "lh": 20,
+       "fw": "400",
+       "color": "rgb(77, 77, 77)",
+       "bg": null,
+       "position": "static",
+       "key": "button:instacart 45 ct"
+      },
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span.ng-star-inserted.event_buy_now_eretailer_exit",
+       "text": "instacart",
+       "boxed": false,
+       "x": 78,
+       "y": 14,
+       "w": 96,
+       "h": 48,
+       "absY": 732,
+       "hidden": false,
+       "fs": 18,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "text:instacart"
+      },
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span.ng-star-inserted",
+       "text": "45 ct",
+       "boxed": false,
+       "x": 78,
+       "y": 38,
+       "w": 35,
+       "h": 24,
+       "absY": 756,
+       "hidden": false,
+       "fs": 14,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "text:45 ct"
+      }
+     ],
+     "extra": [
+      {
+       "role": "button",
+       "tag": "div",
+       "sel": "div.retailer-button",
+       "text": "walmart",
+       "boxed": false,
+       "x": 6,
+       "y": 6,
+       "w": 395,
+       "h": 60,
+       "absY": 725,
+       "hidden": false,
+       "fs": 14,
+       "lh": 20,
+       "fw": "400",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "button:walmart"
+      },
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "walmart logo",
+       "boxed": false,
+       "x": 6,
+       "y": 6,
+       "w": 60,
+       "h": 60,
+       "absY": 725,
+       "hidden": false,
+       "fs": 14,
+       "lh": 20,
+       "fw": "400",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "image:walmart logo"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 516,
+       "y": 719,
+       "w": 407,
+       "h": 72
+      },
+      "eds": {
+       "x": 516,
+       "y": 719,
+       "w": 407,
+       "h": 72
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 3,
+      "extra": 2,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div#retailer-buttons-wrapper > app-enhanced-retailer-button.ng-star-inserted > div.retailer-button-container.ng-star-inserted"
+     },
+     "eds": {
+      "path": "div#retailer-buttons-wrapper > div.retailer.retailer-instacart > div.retailer-button-container"
+     },
+     "rows": [
+      {
+       "key": "image:amazon logo",
+       "role": "image",
+       "text": "amazon logo",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 6,
+        "y": 6,
+        "w": 60,
+        "h": 60
+       },
+       "eds": {
+        "x": 6,
+        "y": 6,
+        "w": 60,
+        "h": 60,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "button",
+       "tag": "div",
+       "sel": "div.retailer-button",
+       "text": "amazon",
+       "boxed": false,
+       "x": 6,
+       "y": 6,
+       "w": 395,
+       "h": 60,
+       "absY": 805,
+       "hidden": false,
+       "fs": 14,
+       "lh": 20,
+       "fw": "400",
+       "color": "rgb(77, 77, 77)",
+       "bg": null,
+       "position": "static",
+       "key": "button:amazon"
+      }
+     ],
+     "extra": [
+      {
+       "role": "button",
+       "tag": "div",
+       "sel": "div.retailer-button",
+       "text": "instacart 45 ct",
+       "boxed": false,
+       "x": 6,
+       "y": 6,
+       "w": 395,
+       "h": 60,
+       "absY": 805,
+       "hidden": false,
+       "fs": 14,
+       "lh": 20,
+       "fw": "400",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "button:instacart 45 ct"
+      },
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "instacart logo",
+       "boxed": false,
+       "x": 6,
+       "y": 6,
+       "w": 60,
+       "h": 60,
+       "absY": 805,
+       "hidden": false,
+       "fs": 14,
+       "lh": 20,
+       "fw": "400",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "image:instacart logo"
+      },
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "instacart",
+       "boxed": false,
+       "x": 78,
+       "y": 14,
+       "w": 96,
+       "h": 24,
+       "absY": 812,
+       "hidden": false,
+       "fs": 18,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "text:instacart"
+      },
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "45 ct",
+       "boxed": false,
+       "x": 78,
+       "y": 38,
+       "w": 35,
+       "h": 24,
+       "absY": 836,
+       "hidden": false,
+       "fs": 14,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "text:45 ct"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 516,
+       "y": 799,
+       "w": 407,
+       "h": 72
+      },
+      "eds": {
+       "x": 516,
+       "y": 799,
+       "w": 407,
+       "h": 72
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 4,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 4,
+  "within": 5,
+  "off": 0,
+  "hidden": 0,
+  "missing": 5,
+  "errors": 0,
+  "requiredOff": 5
+ }
+}

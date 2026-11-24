@@ -1,0 +1,167 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics check",
+  "writtenAt": "2026-11-24T12:25:54.989Z",
+  "origin": "https://main--5db7d055--aemcoder.aem.live",
+  "parity": "stardust/dynamics/parity.json",
+  "contract": "stardust/martech-contract.json"
+ },
+ "results": [
+  {
+   "feature": "header menus, mobile drawer, locale menu",
+   "id": "chrome-menu",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "57 × header a[href] (min 40)",
+   "thirdParty": "",
+   "ms": 2336,
+   "environmentLimit": null
+  },
+  {
+   "feature": "header menus, mobile drawer, locale menu",
+   "id": "chrome-menu",
+   "class": "M",
+   "status": "done",
+   "type": "no-page-errors",
+   "pass": true,
+   "detail": "none on 8 page(s)",
+   "thirdParty": "",
+   "ms": 17668,
+   "environmentLimit": null
+  },
+  {
+   "feature": "header search",
+   "id": "chrome-search",
+   "class": "S",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": false,
+   "detail": "0 × header form[action='https://tide.com/en-us/search'] input[name='q'] (min 1)",
+   "thirdParty": "",
+   "ms": 2216,
+   "environmentLimit": null
+  },
+  {
+   "feature": "YouTube preview overlay + player",
+   "id": "youtube-preview",
+   "class": "M/V",
+   "status": "done",
+   "type": "video-plays",
+   "pass": true,
+   "detail": "iframe/video: true · no <video> · playback requests 16 (ok)",
+   "thirdParty": "www.youtube.com:200×11 fonts.gstatic.com:200×3 static.doubleclick.net:200×1 googleads.g.doubleclick.net:302×1 googleads.g.doubleclick.net:200×1 www.google.com:200×1 rr2---sn-ojn4v5-5q.googlevideo.com:200×1 i.ytimg.com:200×4 yt3.ggpht.com:200×2 www.gstatic.com:200×1 www.youtube.com:204×5 rr4---sn-2on4v5-5a.googlevideo.com:200×2",
+   "ms": 6448,
+   "environmentLimit": null
+  },
+  {
+   "feature": "home Browse-by tiles open a modal list",
+   "id": "browse-modal-card",
+   "class": "M",
+   "status": "done",
+   "type": "click-dialog",
+   "pass": false,
+   "detail": "dialog 0px · heading \"\" · 0 fields · Escape closes: false",
+   "thirdParty": "",
+   "ms": 4258,
+   "environmentLimit": null
+  },
+  {
+   "feature": "product-listing sort, grid/list toggle, load more",
+   "id": "plp-controls",
+   "class": "CR",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × .product-grid select (min 1)",
+   "thirdParty": "",
+   "ms": 2156,
+   "environmentLimit": null
+  },
+  {
+   "feature": "product-listing sort, grid/list toggle, load more",
+   "id": "plp-controls",
+   "class": "CR",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × .product-grid-more (min 1)",
+   "thirdParty": "",
+   "ms": 2190,
+   "environmentLimit": null
+  },
+  {
+   "feature": "home promo carousel and stain-guide rail",
+   "id": "home-carousels",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × .home-promo-carousel .hpc-arrow-next (min 1)",
+   "thirdParty": "",
+   "ms": 2128,
+   "environmentLimit": null
+  },
+  {
+   "feature": "home promo carousel and stain-guide rail",
+   "id": "home-carousels",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × .stain-guide-widget .sg-arrow-down (min 1)",
+   "thirdParty": "",
+   "ms": 2110,
+   "environmentLimit": null
+  },
+  {
+   "feature": "PriceSpider where-to-buy widget",
+   "id": "pricespider",
+   "class": "T",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "52 × .product-grid a[href] (min 5)",
+   "thirdParty": "",
+   "ms": 2326,
+   "environmentLimit": null
+  },
+  {
+   "feature": "click2cart buy-now cart",
+   "id": "click2cart",
+   "class": "X",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × main a[href*='smartcommerce.com'] (min 1)",
+   "thirdParty": "",
+   "ms": 2345,
+   "environmentLimit": null
+  },
+  {
+   "feature": "P&G consumer-support care hub (contact us)",
+   "id": "contact-embed",
+   "class": "CR/F",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × .embed-frame iframe.embed-frame-iframe (min 1)",
+   "thirdParty": "",
+   "ms": 2444,
+   "environmentLimit": null
+  },
+  {
+   "feature": "martech: consent + tag routing",
+   "id": "martech",
+   "class": "T",
+   "status": "scaffolded-off",
+   "type": "martech",
+   "pass": true,
+   "detail": "no tag host requested (2 gated · 0 cross-site host(s) blocked)",
+   "thirdParty": "",
+   "ms": 6574,
+   "environmentLimit": null
+  }
+ ]
+}

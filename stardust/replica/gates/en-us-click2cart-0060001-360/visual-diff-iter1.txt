@@ -1,0 +1,296 @@
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/en-us-click2cart-0060001-360/vdiff-iter1/
+
+build red flags (advisory): none
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 1000,
+  "textLen": 267,
+  "images": [
+   {
+    "src": "4357b8d6-90f6-4b4c-96c6-bf03b6a6e6a6.jpeg",
+    "natural": "2000x2000",
+    "rendered": "360x360",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "instacart_usa_dark.svg",
+    "natural": "150x150",
+    "rendered": "60x60",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "target_usa_dark.svg",
+    "natural": "127x127",
+    "rendered": "60x60",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "walmart_usa_dark.svg",
+    "natural": "150x150",
+    "rendered": "60x60",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "amazon_usa_dark.svg",
+    "natural": "150x150",
+    "rendered": "60x60",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "c2c-logo.svg?20261113T073522707015",
+    "natural": "145x27",
+    "rendered": "107x20",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social_facebook.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social_twitter.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social_pinterest.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social_youtube.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "footer_GoodHousekeeping.webp",
+    "natural": "82x62",
+    "rendered": "82x62",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "footer_BBB.webp",
+    "natural": "38x62",
+    "rendered": "38x62",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "footer_JunkFood.webp",
+    "natural": "58x62",
+    "rendered": "58x62",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "footer_TideCleaners.webp",
+    "natural": "56x62",
+    "rendered": "56x62",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Grab Tide from your favorite sto",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Poppins",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "ng-star-inserted",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "retailer-button",
+    "width": 308,
+    "left": 26
+   }
+  ]
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 1000,
+  "textLen": 267,
+  "images": [
+   {
+    "src": "shopper-choice-hero.jpeg",
+    "natural": "2000x2000",
+    "rendered": "360x360",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "walmart_usa_dark.svg",
+    "natural": "150x150",
+    "rendered": "60x60",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "instacart_usa_dark.svg",
+    "natural": "150x150",
+    "rendered": "60x60",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "amazon_usa_dark.svg",
+    "natural": "150x150",
+    "rendered": "60x60",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "target_usa_dark.svg",
+    "natural": "127x127",
+    "rendered": "60x60",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "c2c-logo.svg",
+    "natural": "145x27",
+    "rendered": "107x20",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social_facebook.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social_twitter.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social_pinterest.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "social_youtube.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "footer_GoodHousekeeping.webp",
+    "natural": "82x62",
+    "rendered": "82x62",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "footer_BBB.webp",
+    "natural": "38x62",
+    "rendered": "38x62",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "footer_JunkFood.webp",
+    "natural": "58x62",
+    "rendered": "58x62",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "footer_TideCleaners.webp",
+    "natural": "56x62",
+    "rendered": "56x62",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Grab Tide from your favorite sto",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Poppins",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "header-text",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "retailer-button",
+    "width": 308,
+    "left": 26
+   }
+  ]
+ }
+}

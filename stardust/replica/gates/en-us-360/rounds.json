@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "stages": {
+    "prototype": {
+      "rounds": [
+        {
+          "label": "iter1",
+          "at": "2026-11-23T20:27:46.355Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "iter2",
+          "at": "2026-11-23T20:33:02.733Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "iter2 --full: pixel/content/visual/clip/units/chrome-parity/overflow all pass; the round fails only on the header-contract probe (13 classed residuals: mobile drawer panel crop geometry + trigger close-path, desktop locale-modal crop) — evidence stardust/replica/gates/en-us-360/verdict-iter2.json, stardust/chrome/header-parity.json; run stopped by orchestrator budget before the confirmation round",
+          "at": "2026-11-23T21:35:37.301Z",
+          "counted": 2
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-24T00-47-43-669Z",
+          "at": "2026-11-24T00:47:43.671Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-24T00-55-01-244Z",
+          "at": "2026-11-24T00:55:01.246Z",
+          "verdict": "pass",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-24T01-13-41-714Z",
+          "at": "2026-11-24T01:13:41.715Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

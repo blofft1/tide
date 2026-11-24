@@ -1,0 +1,34 @@
+[live-session] waiting to pace live navigations to tide.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 589 ms
+
+Content diff @ 1440px (profile "generic", roots: .tide-collection-page, header, footer)
+root ".tide-collection-page"
+  source: 87 text nodes — 7 headings, 0 eyebrows, 8 CTAs, 72 body; 16 img
+  build: 87 text nodes — 7 headings, 0 eyebrows, 8 CTAs, 72 body; 16 img
+  editable texts (outermost h*/p/ul/ol): source 28 / build 28
+  attributes (placeholder/aria-label/title): source 57 / build 56; icons: source 36 / build 36
+root "header"
+  source: 53 text nodes — 0 headings, 0 eyebrows, 47 CTAs, 6 body; 4 img
+  build: 53 text nodes — 0 headings, 0 eyebrows, 47 CTAs, 6 body; 4 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 0
+  attributes (placeholder/aria-label/title): source 51 / build 51; icons: source 6 / build 6
+root "footer"
+  source: 29 text nodes — 0 headings, 0 eyebrows, 18 CTAs, 11 body; 8 img
+  build: 29 text nodes — 0 headings, 0 eyebrows, 18 CTAs, 11 body; 8 img
+  editable texts (outermost h*/p/ul/ol): source 3 / build 3
+  attributes (placeholder/aria-label/title): source 25 / build 25; icons: source 10 / build 10
+
+Findings: 13 (0 structural 🔴)
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 1 · accepted 🟢 0 (owner 0, auto 0) · advisory 12
+  🟡 MISSING BODY [.tide-collection-page]: source body "( 832 )"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [.tide-collection-page]: source body "( 1106 )"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [.tide-collection-page]: source body "( 205 )"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [.tide-collection-page]: source body "( 200 )"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [.tide-collection-page]: source body "( 123 )"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [.tide-collection-page]: source body "( 345 )"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EXTRA [.tide-collection-page]: build body "(832)" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [.tide-collection-page]: build body "(1106)" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [.tide-collection-page]: build body "(205)" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [.tide-collection-page]: build body "(200)" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [.tide-collection-page]: build body "(123)" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [.tide-collection-page]: build body "(345)" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 MISSING ARIA-LABEL [.tide-collection-page]: source <div> aria-label="Tide PODS® Free and Gentle Laundry Detergent Fin" has no build <div> with that aria-label (build <div> aria-labels: "4.607 out of 5 stars, 832 reviews", "4.3915 out of 5 stars, 1106 reviews", "4.7317 out of 5 stars, 205 reviews"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.

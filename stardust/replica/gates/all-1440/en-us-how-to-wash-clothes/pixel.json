@@ -1,0 +1,145 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-us-how-to-wash-clothes/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-us-how-to-wash-clothes/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 3138,
+    "mode": "overlap"
+  },
+  "heightDelta": -1,
+  "differingPixels": 56491,
+  "pct": 1.25,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/en-us-how-to-wash-clothes/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 8.42,
+  "textBoxes": 73,
+  "textPixels": 353257,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 2.1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 4.1
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 1
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0.2
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0.3
+    },
+    {
+      "y0": 3000,
+      "y1": 3138,
+      "pct": 0.9
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 0.75,
+    "differingPixels": 33824,
+    "compared": {
+      "width": 1440,
+      "height": 3140,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 492,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 1492,
+        "shift": -1,
+        "cumulative": 0
+      },
+      {
+        "y": 2963,
+        "shift": 1,
+        "cumulative": 1
+      }
+    ],
+    "maxOffset": 1,
+    "totalShift": 3,
+    "insertedRows": 2,
+    "deletedRows": 1,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 2.2,
+        "unaligned": 2.1
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 1.7,
+        "unaligned": 4.1
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0.3,
+        "unaligned": 1
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0.2,
+        "unaligned": 0.2
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0.2,
+        "unaligned": 0.3
+      },
+      {
+        "y0": 3000,
+        "y1": 3138,
+        "pct": 0,
+        "unaligned": 0.9
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/en-us-how-to-wash-clothes/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 31,
+    "totalShift": 3,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes"
+  }
+}

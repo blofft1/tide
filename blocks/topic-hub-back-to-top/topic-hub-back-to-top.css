@@ -1,0 +1,80 @@
+/* topic-hub-back-to-top — live .scroll-to-top-wrapper. Spec: stardust/prototypes/
+   en-us-how-to-wash-clothes-how-to-remove-stains.css (.alp-totop*) */
+.topic-hub-back-to-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0 20px;
+}
+
+.topic-hub-back-to-top .topic-hub-back-to-top-btn {
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+  padding: 10px 30px;
+  border: 0;
+  border-radius: 50%;
+  background-color: var(--tide-navy);
+  box-shadow: 6px 5px 8px #00000080;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.topic-hub-back-to-top .topic-hub-back-to-top-btn:hover {
+  background-color: var(--tide-navy-hover);
+}
+
+.topic-hub-back-to-top .topic-hub-back-to-top-label {
+  display: none;
+}
+
+.topic-hub-back-to-top .topic-hub-back-to-top-btn svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 30px;
+  height: 17px;
+  transform: translate(-50%, -50%) rotate(180deg);
+}
+
+.topic-hub-back-to-top .topic-hub-back-to-top-btn svg path {
+  fill: #fff;
+}
+
+@media (width >= 992px) {
+  .topic-hub-back-to-top {
+    margin: 100px 0 55px;
+  }
+
+  .topic-hub-back-to-top .topic-hub-back-to-top-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: none;
+  }
+
+  .topic-hub-back-to-top .topic-hub-back-to-top-label {
+    display: inline-block;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0;
+  }
+
+  .topic-hub-back-to-top .topic-hub-back-to-top-btn svg {
+    position: relative;
+    top: initial;
+    left: initial;
+    margin-right: 13px;
+    transform: rotate(180deg);
+  }
+}

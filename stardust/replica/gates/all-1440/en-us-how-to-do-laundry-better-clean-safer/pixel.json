@@ -1,0 +1,182 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-us-how-to-do-laundry-better-clean-safer/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-us-how-to-do-laundry-better-clean-safer/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 4313,
+    "mode": "overlap"
+  },
+  "heightDelta": 172,
+  "differingPixels": 539854,
+  "pct": 8.69,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-1440/en-us-how-to-do-laundry-better-clean-safer/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 20.91,
+  "textBoxes": 109,
+  "textPixels": 1070079,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 4.6
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 9.4
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 6.4
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 7.8
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 4.2
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 6.8
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 19
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 14.8
+    },
+    {
+      "y0": 4000,
+      "y1": 4313,
+      "pct": 3.2
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 5.56,
+    "differingPixels": 359039,
+    "compared": {
+      "width": 1440,
+      "height": 4486,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1096,
+        "shift": -28,
+        "cumulative": -28
+      },
+      {
+        "y": 1464,
+        "shift": -29,
+        "cumulative": -57
+      },
+      {
+        "y": 1872,
+        "shift": -28,
+        "cumulative": -85
+      },
+      {
+        "y": 2200,
+        "shift": -30,
+        "cumulative": -115
+      },
+      {
+        "y": 2516,
+        "shift": -58,
+        "cumulative": -173
+      },
+      {
+        "y": 4310,
+        "shift": 1,
+        "cumulative": -172
+      }
+    ],
+    "maxOffset": 173,
+    "totalShift": 174,
+    "insertedRows": 1,
+    "deletedRows": 173,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 4.6,
+        "unaligned": 4.6
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 9.4,
+        "unaligned": 9.4
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 11.9,
+        "unaligned": 6.4
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 5.9,
+        "unaligned": 7.8
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 6.1,
+        "unaligned": 4.2
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 11.7,
+        "unaligned": 6.8
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 19
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0,
+        "unaligned": 14.8
+      },
+      {
+        "y0": 4000,
+        "y1": 4485,
+        "pct": 0.2,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/en-us-how-to-do-laundry-better-clean-safer/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 45,
+    "totalShift": 174,
+    "pass": false
+  },
+  "reason": "offsets: 6 step(s), 174px total — −28px at y=1096, −29px at y=1464, −28px at y=1872, −30px at y=2200, −58px at y=2516, +1px at y=4310 (bound 45px)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/how-to-do-laundry/better-clean-safer"
+  }
+}

@@ -1,0 +1,271 @@
+/* stain-steps — live .guide-wrapper.guide-wrapper-list (measure.mjs: spec/meas-acne.json).
+   Mobile-first; 992px. */
+.stain-steps {
+  width: 100%;
+  margin: 0 auto;
+  padding: 60px 15px 0;
+}
+
+/* below 992px the step photo sits under the text, the recommendations under the photo */
+.stain-steps .stain-steps-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.stain-steps .stain-steps-content {
+  display: contents;
+}
+
+.stain-steps .stain-steps-extra {
+  order: 2;
+}
+
+.stain-steps .stain-steps-step {
+  position: relative;
+  padding: 0 0 40px 45px;
+}
+
+.stain-steps .stain-steps-rail {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 25px;
+}
+
+.stain-steps .stain-steps-rail::before {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  width: 21px;
+  height: 21px;
+  border: 3px solid #ffb89c;
+  border-radius: 50%;
+}
+
+.stain-steps .stain-steps-rail::after {
+  content: '';
+  position: absolute;
+  top: 24px;
+  bottom: 0;
+  left: 11px;
+  width: 3px;
+  background: #ffb89c;
+}
+
+.stain-steps .stain-steps-head {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 0.3em;
+}
+
+.stain-steps .stain-steps-head p {
+  margin: 0;
+  color: var(--tide-orange);
+  font-family: var(--font);
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 26px;
+}
+
+.stain-steps .stain-steps-head p:first-child::after {
+  content: '.';
+}
+
+.stain-steps .stain-steps-text p {
+  margin: 35px 0 0;
+  color: var(--tide-navy);
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.stain-steps .stain-steps-text a:any-link {
+  color: var(--tide-navy);
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.stain-steps .stain-steps-extra h5 {
+  margin: 40px 0 0;
+  color: var(--tide-navy);
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 20px;
+}
+
+.stain-steps .stain-steps-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.stain-steps .stain-steps-product {
+  position: relative;
+  width: 135px;
+}
+
+.stain-steps .stain-steps-product-image p {
+  margin: 0;
+}
+
+.stain-steps .stain-steps-product-image {
+  height: 120px;
+}
+
+.stain-steps .stain-steps-product img {
+  display: block;
+  width: 135px;
+  height: 135px;
+  object-fit: contain;
+}
+
+.stain-steps .stain-steps-product-name p {
+  margin: 15px 5px 0;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.stain-steps .stain-steps-product a:any-link {
+  color: var(--tide-navy);
+  text-decoration: none;
+}
+
+.stain-steps .stain-steps-product a:any-link::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+}
+
+.stain-steps .stain-steps-article {
+  width: 100%;
+  max-width: 250px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #c4c8e6;
+}
+
+.stain-steps .stain-steps-article-link p {
+  margin: 0;
+}
+
+.stain-steps .stain-steps-article a:any-link {
+  display: block;
+  position: relative;
+  padding: 0 30px 0 0;
+  color: var(--tide-orange);
+  font-family: var(--font);
+  font-size: 19px;
+  font-weight: 800;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.stain-steps .stain-steps-chevron {
+  position: absolute;
+  top: 4px;
+  right: 8px;
+  width: 10px;
+  height: 17px;
+  transform: rotate(180deg);
+}
+
+.stain-steps .stain-steps-image {
+  margin-top: 40px;
+}
+
+.stain-steps .stain-steps-image img {
+  display: block;
+  width: 300px;
+  max-width: none;
+  height: 200px;
+  object-fit: cover;
+}
+
+.stain-steps .stain-steps-text p + p {
+  margin-top: 0;
+}
+
+@media (width >= 576px) {
+  .stain-steps {
+    max-width: 540px;
+  }
+}
+
+@media (width >= 768px) {
+  .stain-steps {
+    max-width: 720px;
+  }
+}
+
+@media (width >= 992px) {
+  .stain-steps {
+    max-width: 960px;
+    padding-top: 100px;
+  }
+
+  .stain-steps .stain-steps-step {
+    padding: 0 0 180px 70px;
+  }
+
+  .stain-steps .stain-steps-rail {
+    width: 45px;
+  }
+
+  .stain-steps .stain-steps-rail::before {
+    top: -5px;
+    width: 41px;
+    height: 41px;
+    border-width: 4px;
+  }
+
+  .stain-steps .stain-steps-rail::after {
+    top: 36px;
+    left: 21px;
+    width: 4px;
+  }
+
+  .stain-steps .stain-steps-body {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .stain-steps .stain-steps-content {
+    display: block;
+    flex: 0 0 405px;
+  }
+
+  .stain-steps .stain-steps-article {
+    max-width: 335px;
+  }
+
+  .stain-steps .stain-steps-head p {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .stain-steps .stain-steps-text p {
+    margin-top: 25px;
+    line-height: 24px;
+  }
+
+  .stain-steps .stain-steps-image {
+    flex: 0 0 auto;
+    width: calc((100% + 70px) / 2 + 15px);
+    margin-top: -20px;
+  }
+
+  .stain-steps .stain-steps-image img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 3 / 2;
+  }
+}
+
+@media (width >= 1200px) {
+  .stain-steps {
+    max-width: var(--container);
+  }
+}

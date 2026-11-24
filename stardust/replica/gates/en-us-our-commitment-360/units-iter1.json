@@ -1,0 +1,721 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-23T22:43:02.767Z",
+  "tol": 4,
+  "n": 3,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://tide.com/en-us/our-commitment",
+  "at": "2026-11-23T22:42:43.112Z",
+  "docH": 7441
+ },
+ "eds": {
+  "url": "http://localhost:8791/en-us-our-commitment-proposed.html",
+  "at": "2026-11-23T22:43:02.516Z",
+  "docH": 7441
+ },
+ "results": [
+  {
+   "sel": ".our-commitment-small-articles .article-preview=.commitment-cards .preview",
+   "family": "commitment-card",
+   "required": true,
+   "originMatches": 8,
+   "edsMatches": 8,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.row.justify-content-start > div.col-lg-4.col-12 > div.article-preview.preview-box"
+     },
+     "eds": {
+      "path": "div.commitment-cards__grid > div.commitment-cards__col > div.preview"
+     },
+     "rows": [
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 311
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 311,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:tide boosted",
+       "role": "image",
+       "text": "tide boosted",
+       "edsText": "tide boosted",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 311
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 311,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "box:div.article-preview-content#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 15,
+        "y": 261,
+        "w": 330,
+        "h": 188
+       },
+       "eds": {
+        "x": 15,
+        "y": 261,
+        "w": 330,
+        "h": 188,
+        "sel": "div.preview__content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "link:less work, better clean*",
+       "role": "link",
+       "text": "less work, better clean*",
+       "edsText": "less work, better clean*",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 286,
+        "w": 280,
+        "h": 26
+       },
+       "eds": {
+        "x": 40,
+        "y": 286,
+        "w": 280,
+        "h": 26,
+        "sel": "a.preview__title",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:*vs. pretreating and washing with tide s",
+       "role": "text",
+       "text": "*vs. pretreating and washing with tide simply",
+       "edsText": "*vs. pretreating and washing with tide simply",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 327,
+        "w": 280,
+        "h": 40
+       },
+       "eds": {
+        "x": 40,
+        "y": 327,
+        "w": 280,
+        "h": 40,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/400",
+        "eds": "16/20/400"
+       }
+      },
+      {
+       "key": "link:learn more",
+       "role": "link",
+       "text": "learn more",
+       "edsText": "learn more",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 382,
+        "w": 172,
+        "h": 42
+       },
+       "eds": {
+        "x": 40,
+        "y": 382,
+        "w": 172,
+        "h": 42,
+        "sel": "a.btn.btn--orange",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/22/700",
+        "eds": "20/22/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 1463,
+       "w": 360,
+       "h": 449
+      },
+      "eds": {
+       "x": 0,
+       "y": 1463,
+       "w": 360,
+       "h": 449
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.row.justify-content-start > div.col-lg-4.col-12 > div.article-preview.preview-box"
+     },
+     "eds": {
+      "path": "div.commitment-cards__grid > div.commitment-cards__col > div.preview"
+     },
+     "rows": [
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 311
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 311,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:tide evo",
+       "role": "image",
+       "text": "tide evo",
+       "edsText": "tide evo",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 311
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 311,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "box:div.article-preview-content#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 15,
+        "y": 261,
+        "w": 330,
+        "h": 188
+       },
+       "eds": {
+        "x": 15,
+        "y": 261,
+        "w": 330,
+        "h": 188,
+        "sel": "div.preview__content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "link:tide evo",
+       "role": "link",
+       "text": "tide evo",
+       "edsText": "tide evo",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 286,
+        "w": 280,
+        "h": 26
+       },
+       "eds": {
+        "x": 40,
+        "y": 286,
+        "w": 280,
+        "h": 26,
+        "sel": "a.preview__title",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:meet tide evo. detergent entirely made o",
+       "role": "text",
+       "text": "meet tide evo. detergent entirely made of clean.",
+       "edsText": "meet tide evo. detergent entirely made of clean.",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 327,
+        "w": 280,
+        "h": 40
+       },
+       "eds": {
+        "x": 40,
+        "y": 327,
+        "w": 280,
+        "h": 40,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/400",
+        "eds": "16/20/400"
+       }
+      },
+      {
+       "key": "link:learn more",
+       "role": "link",
+       "text": "learn more",
+       "edsText": "learn more",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 382,
+        "w": 172,
+        "h": 42
+       },
+       "eds": {
+        "x": 40,
+        "y": 382,
+        "w": 172,
+        "h": 42,
+        "sel": "a.btn.btn--orange",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/22/700",
+        "eds": "20/22/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 1942,
+       "w": 360,
+       "h": 449
+      },
+      "eds": {
+       "x": 0,
+       "y": 1942,
+       "w": 360,
+       "h": 449
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.row.justify-content-start > div.col-lg-4.col-12 > div.article-preview.preview-box"
+     },
+     "eds": {
+      "path": "div.commitment-cards__grid > div.commitment-cards__col > div.preview"
+     },
+     "rows": [
+      {
+       "key": "image:picture#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 311
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 311,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:a box of tide pods capsules in front of ",
+       "role": "image",
+       "text": "a box of tide pods capsules in front of an old, dirty, and s",
+       "edsText": "a box of tide pods capsules in front of an old, dirty, and s",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 311
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 311,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "box:div.article-preview-content#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 15,
+        "y": 261,
+        "w": 330,
+        "h": 234
+       },
+       "eds": {
+        "x": 15,
+        "y": 261,
+        "w": 330,
+        "h": 234,
+        "sel": "div.preview__content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "link:don't pay for water, pay for clean",
+       "role": "link",
+       "text": "don't pay for water, pay for clean",
+       "edsText": "don't pay for water, pay for clean",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 286,
+        "w": 280,
+        "h": 52
+       },
+       "eds": {
+        "x": 40,
+        "y": 286,
+        "w": 280,
+        "h": 52,
+        "sel": "a.preview__title",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:tide pods® are formulated with 88% conce",
+       "role": "text",
+       "text": "tide pods® are formulated with 88% concentrated ingredients ",
+       "edsText": "tide pods® are formulated with 88% concentrated ingredients ",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 353,
+        "w": 280,
+        "h": 60
+       },
+       "eds": {
+        "x": 40,
+        "y": 353,
+        "w": 280,
+        "h": 60,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/400",
+        "eds": "16/20/400"
+       }
+      },
+      {
+       "key": "link:learn more",
+       "role": "link",
+       "text": "learn more",
+       "edsText": "learn more",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 428,
+        "w": 172,
+        "h": 42
+       },
+       "eds": {
+        "x": 40,
+        "y": 428,
+        "w": 172,
+        "h": 42,
+        "sel": "a.btn.btn--orange",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/22/700",
+        "eds": "20/22/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 2421,
+       "w": 360,
+       "h": 495
+      },
+      "eds": {
+       "x": 0,
+       "y": 2421,
+       "w": 360,
+       "h": 495
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 3,
+  "within": 18,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

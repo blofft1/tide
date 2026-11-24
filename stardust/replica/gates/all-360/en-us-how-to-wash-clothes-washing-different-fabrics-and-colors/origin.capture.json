@@ -1,0 +1,24 @@
+{
+  "writtenBy": "gate-all.mjs",
+  "copiedFrom": "stardust/replica/gates/all-360/en-us-how-to-wash-clothes-washing-different-fabrics-and-colors/baseline.png",
+  "fixedLayers": {
+    "capture": "once",
+    "count": 3,
+    "late": 1
+  },
+  "timers": {
+    "hold": 2000,
+    "held": 14,
+    "intervals": 4,
+    "chains": 10,
+    "delays": [
+      2000,
+      3000,
+      3800,
+      5000,
+      86400000
+    ]
+  },
+  "fontsFailed": [],
+  "deadFaces": []
+}

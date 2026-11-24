@@ -1,0 +1,73 @@
+{
+  "writtenBy": "skills/replica/scripts/reference.mjs freeze",
+  "schema": 1,
+  "capturedAt": "2026-11-24T07:48:10.661Z",
+  "url": "https://tide.com/en-us/our-commitment/tide-evo",
+  "width": 1440,
+  "vh": 900,
+  "height": 3575,
+  "settle": true,
+  "chunks": 4,
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 1,
+    "late": 0
+  },
+  "timers": {
+    "hold": 2000,
+    "held": 10,
+    "intervals": 4,
+    "chains": 6,
+    "delays": [
+      2000,
+      3000,
+      5000,
+      86400000
+    ]
+  },
+  "primed": true,
+  "prime": {
+    "height": 3575,
+    "pct": 2.92,
+    "heightDelta": 0
+  },
+  "captures": 2,
+  "heights": [
+    3575,
+    3575
+  ],
+  "noiseFloor": 1.58,
+  "heightSpread": 0,
+  "outside": 0,
+  "variable": [
+    {
+      "y": 1872,
+      "h": 536,
+      "pct": 35.1
+    }
+  ],
+  "variableShare": 14.99,
+  "maskArg": "1872:536",
+  "stable": true,
+  "reason": null,
+  "frozenAt": "2026-11-24T07:49:08.533Z",
+  "flags": {
+    "consent": null,
+    "dismiss": null,
+    "noDismiss": false,
+    "locale": "en-US",
+    "vh": null,
+    "headed": true,
+    "holdTimers": 2000
+  },
+  "thresholds": {
+    "floorMax": 1,
+    "heightMax": 8,
+    "variableMax": 50,
+    "band": 20,
+    "bandMin": 0.5,
+    "pad": 8
+  }
+}

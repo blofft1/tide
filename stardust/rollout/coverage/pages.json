@@ -1,0 +1,3995 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-23T23:43:40.105Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-24T12:33:32.740Z",
+  "pages": [
+    {
+      "slug": "en-us",
+      "path": "/en-us",
+      "title": "Laundry Detergent and Fabric Care Products - Tide",
+      "templateId": "en-us",
+      "source": {
+        "migratedHtml": "stardust/migrated/en-us/index.html",
+        "metaJson": "stardust/migrated/en-us/_meta.json",
+        "sourceHash": "sha256:a27bfdca9ebf2ff61700946da19d6fb78e8fc13069639ff33577737d3b96c9fc",
+        "sourceUrl": "https://tide.com/en-us"
+      },
+      "blocks": [
+        "feature-band-alternating",
+        "learn-more-card-grid",
+        "home-promo-carousel",
+        "browse-tiles",
+        "stain-guide-widget"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us",
+        "deployedAt": "2026-11-24T00:41:02.138Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.76,
+          "heightDelta": 1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 4,
+            "hiddenButtons": 0,
+            "findings": 14,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-click2cart-0060001",
+      "path": "/en-us/click2cart/0060001",
+      "title": "Click2Cart",
+      "templateId": "en-us-click2cart-0060001",
+      "source": {
+        "migratedHtml": "stardust/migrated/en-us/click2cart/0060001/index.html",
+        "metaJson": "stardust/migrated/en-us/click2cart/0060001/_meta.json",
+        "sourceHash": "sha256:95ec9ba841c99cde21b91f23b24e55f2b5d2a8e5fbaee042a3ab05bc030d8ef0",
+        "sourceUrl": "https://tide.com/en-us/click2cart/0060001"
+      },
+      "blocks": [
+        "shopper-choice"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/click2cart/0060001",
+        "deployedAt": "2026-11-24T00:54:19.232Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.44,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z",
+          "error": "missing capture"
+        }
+      }
+    },
+    {
+      "slug": "en-us-click2cart-006000b",
+      "path": "/en-us/click2cart/006000b",
+      "title": "Click2Cart",
+      "templateId": "click2cart",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:24b4f891d947569ced87aa359df0786341396b4b421f2cc77c545b05a2cfa177",
+        "currentStatePath": "stardust/current/pages/en-us-click2cart-006000b.json",
+        "sourceUrl": "https://tide.com/en-us/click2cart/006000B"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/click2cart/006000b",
+        "deployedAt": "2026-11-24T06:43:51.415Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": null,
+          "heightDelta": null,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [
+            "pixel error: missing capture"
+          ],
+          "override": "PASS (capture, pixel, height waived — invalid 360 reference)",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-click2cart-006000h",
+      "path": "/en-us/click2cart/006000h",
+      "title": "Click2Cart",
+      "templateId": "click2cart",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:d1929ec63191463f4002d23b4be4b4f37dfc29468d764c148d2bdfe58bff443a",
+        "currentStatePath": "stardust/current/pages/en-us-click2cart-006000h.json",
+        "sourceUrl": "https://tide.com/en-us/click2cart/006000H"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/click2cart/006000h",
+        "deployedAt": "2026-11-24T06:43:51.647Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": null,
+          "heightDelta": null,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [
+            "pixel error: missing capture"
+          ],
+          "override": "PASS (capture, pixel, height waived — invalid 360 reference)",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-click2cart-006000i",
+      "path": "/en-us/click2cart/006000i",
+      "title": "Click2Cart",
+      "templateId": "click2cart",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:3bb6766637de47a648c654275277b45a477e5cb0a8f995edc77bc85b47020c62",
+        "currentStatePath": "stardust/current/pages/en-us-click2cart-006000i.json",
+        "sourceUrl": "https://tide.com/en-us/click2cart/006000I"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/click2cart/006000i",
+        "deployedAt": "2026-11-24T06:43:51.870Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": null,
+          "heightDelta": null,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [
+            "pixel error: missing capture"
+          ],
+          "override": "PASS (capture, pixel, height waived — invalid 360 reference)",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-click2cart-006000p",
+      "path": "/en-us/click2cart/006000p",
+      "title": "Click2Cart",
+      "templateId": "click2cart",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:1579c9bac934012a2c43931abf095cd159b238755935204b02833d75f8937913",
+        "currentStatePath": "stardust/current/pages/en-us-click2cart-006000p.json",
+        "sourceUrl": "https://tide.com/en-us/click2cart/006000p"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/click2cart/006000p",
+        "deployedAt": "2026-11-24T06:43:52.104Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": null,
+          "heightDelta": null,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [
+            "pixel error: missing capture"
+          ],
+          "override": "PASS (capture, pixel, height waived — invalid 360 reference)",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-click2cart-006000q",
+      "path": "/en-us/click2cart/006000q",
+      "title": "Click2Cart",
+      "templateId": "click2cart",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:1c1d9780eb5113eb44f11ac20e9cd1bd9c4e68f574e7739e88c8bc8fdac8b98e",
+        "currentStatePath": "stardust/current/pages/en-us-click2cart-006000q.json",
+        "sourceUrl": "https://tide.com/en-us/click2cart/006000Q"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/click2cart/006000q",
+        "deployedAt": "2026-11-24T06:43:52.428Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": null,
+          "heightDelta": null,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [
+            "pixel error: missing capture"
+          ],
+          "override": "PASS (capture, pixel, height waived — invalid 360 reference)",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-click2cart-006000z",
+      "path": "/en-us/click2cart/006000z",
+      "title": "Click2Cart",
+      "templateId": "click2cart",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:292a2c0f310c2c0d3a0f30c86faf88fa07c9823022cb138822fb85dd094606d3",
+        "currentStatePath": "stardust/current/pages/en-us-click2cart-006000z.json",
+        "sourceUrl": "https://tide.com/en-us/click2cart/006000Z"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/click2cart/006000z",
+        "deployedAt": "2026-11-24T06:43:52.622Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": null,
+          "heightDelta": null,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [
+            "pixel error: missing capture"
+          ],
+          "override": "PASS (capture, pixel, height waived — invalid 360 reference)",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-click2cart-00600bt",
+      "path": "/en-us/click2cart/00600bt",
+      "title": "Click2Cart",
+      "templateId": "click2cart",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:100fcd07168e972a1d6dd618861725e2eb1c4bbd7675ffc7129415a1bed14f91",
+        "currentStatePath": "stardust/current/pages/en-us-click2cart-00600bt.json",
+        "sourceUrl": "https://tide.com/en-us/click2cart/00600bt"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/click2cart/00600bt",
+        "deployedAt": "2026-11-24T06:43:52.809Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": null,
+          "heightDelta": null,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [
+            "pixel error: missing capture"
+          ],
+          "override": "PASS (capture, pixel, height waived — invalid 360 reference)",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-contact-us",
+      "path": "/en-us/contact-us",
+      "title": "Laundry Detergent and Fabric Care Products - Tide",
+      "templateId": "unique",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:f25769de2f0d18e16a08091c0c5e7e41054e56865c7dcfed413d23aacff19a1f",
+        "currentStatePath": "stardust/current/pages/en-us-contact-us.json",
+        "sourceUrl": "https://tide.com/en-us/contact-us"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/contact-us",
+        "deployedAt": "2026-11-24T07:08:58.776Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.03,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-how-to-do-laundry-better-clean-safer",
+      "path": "/en-us/how-to-do-laundry/better-clean-safer",
+      "title": "Why a Better Clean Is Essential for a Safer Clean (Especially for Sensitive Skin) | Tide",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:3442afd2b6355e70eac22163b646511f7882c5e76c19f8281884cda06a92dfae",
+        "currentStatePath": "stardust/current/pages/en-us-how-to-do-laundry-better-clean-safer.json",
+        "sourceUrl": "https://tide.com/en-us/how-to-do-laundry/better-clean-safer"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/how-to-do-laundry/better-clean-safer",
+        "deployedAt": "2026-11-24T02:15:43.975Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 13.8,
+          "heightDelta": 69,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-how-to-do-laundry-detergent-residue-safety",
+      "path": "/en-us/how-to-do-laundry/detergent-residue-safety",
+      "title": "What’s Really on Your Clothes? The Truth About Detergent Residue and Safety | Tide",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:456f9962285103715fc0e6e1d02d6b2024328ce72721739509f546c4d2f907a4",
+        "currentStatePath": "stardust/current/pages/en-us-how-to-do-laundry-detergent-residue-safety.json",
+        "sourceUrl": "https://tide.com/en-us/how-to-do-laundry/detergent-residue-safety"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/how-to-do-laundry/detergent-residue-safety",
+        "deployedAt": "2026-11-24T02:15:44.552Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 13.53,
+          "heightDelta": 69,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-how-to-wash-clothes",
+      "path": "/en-us/how-to-wash-clothes",
+      "title": "How to Wash Clothes - Laundry Tips and Tricks | Tide",
+      "templateId": "section-landing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:0789758ca2001ddb99c27708f28fbcba7d8fd811ca7239f2f1a9a7c0d0ff7c91",
+        "currentStatePath": "stardust/current/pages/en-us-how-to-wash-clothes.json",
+        "sourceUrl": "https://tide.com/en-us/how-to-wash-clothes"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes",
+        "deployedAt": "2026-11-24T06:26:53.106Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.41,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-how-to-wash-clothes-effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry",
+      "path": "/en-us/how-to-wash-clothes/effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry",
+      "title": "Effective Stain and Odor Solutions with Tide: Your Guide to Fresh Laundry",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:2d937925383046bb57371f35d718601ba7b632413f503cf5525405ecef1a0191",
+        "currentStatePath": "stardust/current/pages/en-us-how-to-wash-clothes-effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry.json",
+        "sourceUrl": "https://tide.com/en-us/how-to-wash-clothes/effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/effective-stain-and-odor-solutions-with-tide-your-guide-to-fresh-laundry",
+        "deployedAt": "2026-11-24T02:15:45.059Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.03,
+          "heightDelta": -25,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-how-to-wash-clothes-how-to-do-laundry",
+      "path": "/en-us/how-to-wash-clothes/how-to-do-laundry",
+      "title": "How to Do Laundry: Your Comprehensive Guide | Tide",
+      "templateId": "topic-hub",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:ac3cd726ba3ef0470ca0bbd47bac8ef8664b205820aa8593bf61807ee890e209",
+        "currentStatePath": "stardust/current/pages/en-us-how-to-wash-clothes-how-to-do-laundry.json",
+        "sourceUrl": "https://tide.com/en-us/how-to-wash-clothes/how-to-do-laundry"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/how-to-do-laundry",
+        "deployedAt": "2026-11-24T04:40:12.321Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 10.74,
+          "heightDelta": -4,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [
+            "units off 1 hidden 0 missing 0"
+          ],
+          "override": "PASS (units waived)",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-how-to-wash-clothes-how-to-do-laundry-about-tide-pods-pva-film",
+      "path": "/en-us/how-to-wash-clothes/how-to-do-laundry/about-tide-pods-pva-film",
+      "title": "Learn More About Tide PODs Innovative Water-Soluble Smart Film",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:beeb35b8b2868d1eaff693ba13409914f66e68cfc771bc14b480398351c2b6ba",
+        "currentStatePath": "stardust/current/pages/en-us-how-to-wash-clothes-how-to-do-laundry-about-tide-pods-pva-film.json",
+        "sourceUrl": "https://tide.com/en-us/how-to-wash-clothes/how-to-do-laundry/about-tide-pods-pva-film"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/how-to-do-laundry/about-tide-pods-pva-film",
+        "deployedAt": "2026-11-24T02:15:45.614Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 13.85,
+          "heightDelta": -34,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-how-to-wash-clothes-how-to-remove-stains",
+      "path": "/en-us/how-to-wash-clothes/how-to-remove-stains",
+      "title": "How to Remove Stains - Stain Removal Guide | Tide",
+      "templateId": "en-us-how-to-wash-clothes-how-to-remove-stains",
+      "source": {
+        "migratedHtml": "stardust/migrated/en-us/how-to-wash-clothes/how-to-remove-stains/index.html",
+        "metaJson": "stardust/migrated/en-us/how-to-wash-clothes/how-to-remove-stains/_meta.json",
+        "sourceHash": "sha256:ad4352f062793141b1bd74407e6a534747439c8f3f30aaf997778eb3d99d6f18",
+        "sourceUrl": "https://tide.com/en-us/how-to-wash-clothes/how-to-remove-stains"
+      },
+      "blocks": [
+        "breadcrumb",
+        "jump-links",
+        "stain-guide-widget",
+        "step-timeline"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/how-to-remove-stains",
+        "deployedAt": "2026-11-24T02:03:17.332Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.03,
+          "heightDelta": 3,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 4,
+            "hiddenButtons": 0,
+            "findings": 9,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-how-to-wash-clothes-how-to-remove-stains-acne-cream-stains",
+      "path": "/en-us/how-to-wash-clothes/how-to-remove-stains/acne-cream-stains",
+      "title": "How to Remove Acne Cream Stains | Stain Removal - Tide",
+      "templateId": "unique",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:bcaad13caea909d8ceb8fcddf7164894626e7339e6cbfefbd8ad0d97776f5e5e",
+        "currentStatePath": "stardust/current/pages/en-us-how-to-wash-clothes-how-to-remove-stains-acne-cream-stains.json",
+        "sourceUrl": "https://tide.com/en-us/how-to-wash-clothes/how-to-remove-stains/acne-cream-stains"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/how-to-remove-stains/acne-cream-stains",
+        "deployedAt": "2026-11-24T07:34:22.938Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 16.44,
+          "heightDelta": 89,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 4,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-how-to-wash-clothes-washing-different-fabrics-and-colors",
+      "path": "/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors",
+      "title": "How to Wash Different Fabrics & Colors - Fabric care | Tide",
+      "templateId": "topic-hub",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:73300bebfcc936086ea382d72b4b98f8f47590ae132b1501320ac7f6da0de49d",
+        "currentStatePath": "stardust/current/pages/en-us-how-to-wash-clothes-washing-different-fabrics-and-colors.json",
+        "sourceUrl": "https://tide.com/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors",
+        "deployedAt": "2026-11-24T04:40:12.539Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.6,
+          "heightDelta": 4,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-how-to-wash-clothes-washing-different-fabrics-and-colors-everyday-items-to-wash-regularly",
+      "path": "/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors/everyday-items-to-wash-regularly",
+      "title": "12 Everyday Items You Should Wash Regularly | Tide",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:152d344e3b759fa152eaaeb3079161dda40c7429b67d5ac6ea8be4e49b59f34b",
+        "currentStatePath": "stardust/current/pages/en-us-how-to-wash-clothes-washing-different-fabrics-and-colors-everyday-items-to-wash-regularly.json",
+        "sourceUrl": "https://tide.com/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors/everyday-items-to-wash-regularly"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors/everyday-items-to-wash-regularly",
+        "deployedAt": "2026-11-24T02:15:46.019Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 18,
+          "heightDelta": 64,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 2,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-how-to-wash-clothes-washing-machine-101",
+      "path": "/en-us/how-to-wash-clothes/washing-machine-101",
+      "title": "How to Use a Washing Machine - Washer Care | Tide",
+      "templateId": "section-landing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:b9116ba13bd737bfd363a175eb5312cff36303d042b7a7533b09ac78183e28d8",
+        "currentStatePath": "stardust/current/pages/en-us-how-to-wash-clothes-washing-machine-101.json",
+        "sourceUrl": "https://tide.com/en-us/how-to-wash-clothes/washing-machine-101"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/washing-machine-101",
+        "deployedAt": "2026-11-24T06:26:53.231Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.48,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-how-to-wash-clothes-washing-machine-101-how-to-use-a-washing-machine",
+      "path": "/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine",
+      "title": "A Basic Guide to How to Use a Washing Machine | Tide",
+      "templateId": "topic-hub",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:989a7b0fc3b534a8252b6d7d20656d18f4bbfd0186f08388b2bb740231a4ad21",
+        "currentStatePath": "stardust/current/pages/en-us-how-to-wash-clothes-washing-machine-101-how-to-use-a-washing-machine.json",
+        "sourceUrl": "https://tide.com/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine",
+        "deployedAt": "2026-11-24T04:40:12.734Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 15.59,
+          "heightDelta": 30,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-latest-news",
+      "path": "/en-us/latest-news",
+      "title": "Discover Tide's Latest News | Tide",
+      "templateId": "unique",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:852f91cee0fed2fed45065ae95cc940dd5d4299a1ddd5236e1498b75820348a3",
+        "currentStatePath": "stardust/current/pages/en-us-latest-news.json",
+        "sourceUrl": "https://tide.com/en-us/latest-news"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/latest-news",
+        "deployedAt": "2026-11-24T07:19:34.285Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.45,
+          "heightDelta": 37,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 13,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-our-commitment",
+      "path": "/en-us/our-commitment",
+      "title": "Our Commitment - Learn More About The Brand | Tide",
+      "templateId": "en-us-our-commitment",
+      "source": {
+        "migratedHtml": "stardust/migrated/en-us/our-commitment/index.html",
+        "metaJson": "stardust/migrated/en-us/our-commitment/_meta.json",
+        "sourceHash": "sha256:506ac817a65d3bb3dd5bf5e6aa4cf31c4b22d406fa33ae5040a73248eba6a448",
+        "sourceUrl": "https://tide.com/en-us/our-commitment"
+      },
+      "blocks": [
+        "section-landing-hero-card",
+        "learn-more-card-grid"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment",
+        "deployedAt": "2026-11-24T01:24:06.353Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.3,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-our-commitment-americas-number-one-detergent",
+      "path": "/en-us/our-commitment/americas-number-one-detergent",
+      "title": "America's #1 Detergent - Liquid, PODS® and More | Tide",
+      "templateId": "section-landing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:e7c364bd1a85ed4e9c1892f773bb61bb733f66f1d234b159e4ad4a2a09fdc7ef",
+        "currentStatePath": "stardust/current/pages/en-us-our-commitment-americas-number-one-detergent.json",
+        "sourceUrl": "https://tide.com/en-us/our-commitment/americas-number-one-detergent"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/americas-number-one-detergent",
+        "deployedAt": "2026-11-24T06:26:53.365Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.37,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-our-commitment-americas-number-one-detergent-our-heritage",
+      "path": "/en-us/our-commitment/americas-number-one-detergent/our-heritage",
+      "title": "Our Heritage - Learn About Tide’s History | Tide",
+      "templateId": "unique",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:a0f626476209d58b957ff37495ab1f275900c992d57bbe123107fe2669ed680d",
+        "currentStatePath": "stardust/current/pages/en-us-our-commitment-americas-number-one-detergent-our-heritage.json",
+        "sourceUrl": "https://tide.com/en-us/our-commitment/americas-number-one-detergent/our-heritage"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/americas-number-one-detergent/our-heritage",
+        "deployedAt": "2026-11-24T07:34:47.516Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 24.69,
+          "heightDelta": 85,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-our-commitment-dont-pay-for-water",
+      "path": "/en-us/our-commitment/dont-pay-for-water",
+      "title": "Tide PODS® | Don’t Pay for Water, Pay for Clean | Tide",
+      "templateId": "unique",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:8c23129dbf6f3c745f9f1266fc78ad27319a081734ff8f2e1c079610c387e5ad",
+        "currentStatePath": "stardust/current/pages/en-us-our-commitment-dont-pay-for-water.json",
+        "sourceUrl": "https://tide.com/en-us/our-commitment/dont-pay-for-water"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/dont-pay-for-water",
+        "deployedAt": "2026-11-24T07:34:47.187Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.04,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-our-commitment-ingredients-and-safety",
+      "path": "/en-us/our-commitment/ingredients-and-safety",
+      "title": "The Tide Clean You Can Trust | Tide",
+      "templateId": "section-landing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:a3ce29ba57866e619af5c053d16b219dd6318c9373507c267b7a07df9b795661",
+        "currentStatePath": "stardust/current/pages/en-us-our-commitment-ingredients-and-safety.json",
+        "sourceUrl": "https://tide.com/en-us/our-commitment/ingredients-and-safety"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/ingredients-and-safety",
+        "deployedAt": "2026-11-24T06:26:53.514Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.24,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-our-commitment-ingredients-and-safety-all-about-tide-ingredients",
+      "path": "/en-us/our-commitment/ingredients-and-safety/all-about-tide-ingredients",
+      "title": "All About Tide Ingredients | Tide",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:50119d440b2bbd42e66746459dd2b2d919af17f128e9e3b524835b34b8b6909a",
+        "currentStatePath": "stardust/current/pages/en-us-our-commitment-ingredients-and-safety-all-about-tide-ingredients.json",
+        "sourceUrl": "https://tide.com/en-us/our-commitment/ingredients-and-safety/all-about-tide-ingredients"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/ingredients-and-safety/all-about-tide-ingredients",
+        "deployedAt": "2026-11-24T02:15:46.300Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 11.62,
+          "heightDelta": -1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-our-commitment-pva-in-tide-pods",
+      "path": "/en-us/our-commitment/pva-in-tide-pods",
+      "title": "Polyvinyl Alcohol (PVA) in Tide PODS",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:1f725df3fd9a453ed2e2628b5874d16319e33d222e81f546e5ec73add9c5b143",
+        "currentStatePath": "stardust/current/pages/en-us-our-commitment-pva-in-tide-pods.json",
+        "sourceUrl": "https://tide.com/en-us/our-commitment/pva-in-tide-pods"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/pva-in-tide-pods",
+        "deployedAt": "2026-11-24T02:15:46.588Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 10.76,
+          "heightDelta": -176,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-our-commitment-superbowllx",
+      "path": "/en-us/our-commitment/superbowllx",
+      "title": "NFL Gameday Clean: Stain Removal for Every Fan | Tide",
+      "templateId": "unique",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:1f318c2e8605e678b2e027152fbe4a42c354f6f0d164e9a188a3c87782deb6a8",
+        "currentStatePath": "stardust/current/pages/en-us-our-commitment-superbowllx.json",
+        "sourceUrl": "https://tide.com/en-us/our-commitment/superbowlLX"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/superbowllx",
+        "deployedAt": "2026-11-24T07:34:47.826Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 24.27,
+          "heightDelta": -53,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-our-commitment-sustainability-compaction",
+      "path": "/en-us/our-commitment/sustainability/compaction",
+      "title": "Compaction - Sustainability | Tide",
+      "templateId": "en-us-our-commitment-sustainability-compaction",
+      "source": {
+        "migratedHtml": "stardust/migrated/en-us/our-commitment/sustainability/compaction/index.html",
+        "metaJson": "stardust/migrated/en-us/our-commitment/sustainability/compaction/_meta.json",
+        "sourceHash": "sha256:090e8393d542f69a0f09fffbad279958190879c7a83cc8e10c23aff2750a3fd0",
+        "sourceUrl": "https://tide.com/en-us/our-commitment/sustainability/compaction"
+      },
+      "blocks": [
+        "breadcrumb",
+        "article-title-band",
+        "jump-links"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/sustainability/compaction",
+        "deployedAt": "2026-11-24T03:52:35.772Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.46,
+          "heightDelta": -1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-our-commitment-sustainability-materials",
+      "path": "/en-us/our-commitment/sustainability/materials",
+      "title": "Materials - Sustainability | Tide",
+      "templateId": "sustainability-topic",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:8db9d2528da317e044db526b1a4826b7b2768da2076be0e83f1a23a80a02b13f",
+        "currentStatePath": "stardust/current/pages/en-us-our-commitment-sustainability-materials.json",
+        "sourceUrl": "https://tide.com/en-us/our-commitment/sustainability/materials"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/sustainability/materials",
+        "deployedAt": "2026-11-24T04:11:47.128Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.4,
+          "heightDelta": -1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-our-commitment-sustainability-saving-energy",
+      "path": "/en-us/our-commitment/sustainability/saving-energy",
+      "title": "How to Save Energy - Sustainability | Tide",
+      "templateId": "sustainability-topic",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:b7543e48239a09f6d3cb32b127cf1e0e3c2e1654c3ce238b05e239979f338d77",
+        "currentStatePath": "stardust/current/pages/en-us-our-commitment-sustainability-saving-energy.json",
+        "sourceUrl": "https://tide.com/en-us/our-commitment/sustainability/saving-energy"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/sustainability/saving-energy",
+        "deployedAt": "2026-11-24T04:11:47.857Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.88,
+          "heightDelta": -11,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 4,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-our-commitment-tide-boosted",
+      "path": "/en-us/our-commitment/tide-boosted",
+      "title": "Fight Against Tough Stains with Tide Original Boosted | Tide",
+      "templateId": "unique",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:55191fdee31c633766a11ff4b47ae82700eacb8e4f73e575fd413728062c77b4",
+        "currentStatePath": "stardust/current/pages/en-us-our-commitment-tide-boosted.json",
+        "sourceUrl": "https://tide.com/en-us/our-commitment/tide-boosted"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/tide-boosted",
+        "deployedAt": "2026-11-24T07:34:47.359Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.14,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-our-commitment-tide-cleaners-laundry-service",
+      "path": "/en-us/our-commitment/tide-cleaners-laundry-service",
+      "title": "Tide Cleaners - 24/7 Dry Cleaning and Laundry Service | Tide",
+      "templateId": "unique",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:2ca4e58c5b7c579c6df93edfd9a99b2eba373693e71f52668a4d4be9a95134ad",
+        "currentStatePath": "stardust/current/pages/en-us-our-commitment-tide-cleaners-laundry-service.json",
+        "sourceUrl": "https://tide.com/en-us/our-commitment/tide-cleaners-laundry-service"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/tide-cleaners-laundry-service",
+        "deployedAt": "2026-11-24T07:40:21.108Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 41.38,
+          "heightDelta": 194,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-our-commitment-tide-evo",
+      "path": "/en-us/our-commitment/tide-evo",
+      "title": "Tide evo - Detergent Entirely Made of Clean | Tide",
+      "templateId": "unique",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:903cce54269bfbb79010c8c9ec348064adad20ef563afa115a8a76a13b4da850",
+        "currentStatePath": "stardust/current/pages/en-us-our-commitment-tide-evo.json",
+        "sourceUrl": "https://tide.com/en-us/our-commitment/tide-evo"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/tide-evo",
+        "deployedAt": "2026-11-24T07:34:47.008Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.29,
+          "heightDelta": 90,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-our-commitment-tide-in-space",
+      "path": "/en-us/our-commitment/tide-in-space",
+      "title": "Resource-constrained laundry solutions for astronauts | Tide",
+      "templateId": "unique",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:0287a62448e5a4acf99dfa9ee3276b0edb101620416119b3e3a6b7b71b912158",
+        "currentStatePath": "stardust/current/pages/en-us-our-commitment-tide-in-space.json",
+        "sourceUrl": "https://tide.com/en-us/our-commitment/tide-in-space"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/tide-in-space",
+        "deployedAt": "2026-11-24T07:34:47.659Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.91,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-our-commitment-turn-to-cold",
+      "path": "/en-us/our-commitment/turn-to-cold",
+      "title": "Washing in Cold Water | #TurnToCold with Tide",
+      "templateId": "unique",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:5e2bd2f618aa1e6dcf0e556cf87982002b0526e7eca5f4d91e60129d91a3798c",
+        "currentStatePath": "stardust/current/pages/en-us-our-commitment-turn-to-cold.json",
+        "sourceUrl": "https://tide.com/en-us/our-commitment/turn-to-cold"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/turn-to-cold",
+        "deployedAt": "2026-11-24T07:48:49.047Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.16,
+          "heightDelta": -3,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 4,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-research-are-detergents-toxic-science",
+      "path": "/en-us/research/are-detergents-toxic-science",
+      "title": "Are Detergents Toxic? See What Science Says | Tide",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:a0ad85c962614f4724d9f5a78d182de62b99b3b29f4c876d4aa89e7c08da9476",
+        "currentStatePath": "stardust/current/pages/en-us-research-are-detergents-toxic-science.json",
+        "sourceUrl": "https://tide.com/en-us/research/are-detergents-toxic-science"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/are-detergents-toxic-science",
+        "deployedAt": "2026-11-24T02:15:46.893Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 14.11,
+          "heightDelta": -189,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-research-are-scented-laundry-products-safe",
+      "path": "/en-us/research/are-scented-laundry-products-safe",
+      "title": "Are Scented Laundry Products Safe? A Comprehensive Scientific Review | Tide",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:05a3e659cd1e54e07b66059c64b8c1f484c4c04a98f27988ce512d5db194887a",
+        "currentStatePath": "stardust/current/pages/en-us-research-are-scented-laundry-products-safe.json",
+        "sourceUrl": "https://tide.com/en-us/research/are-scented-laundry-products-safe"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/are-scented-laundry-products-safe",
+        "deployedAt": "2026-11-24T02:15:47.278Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 14.08,
+          "heightDelta": 42,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-research-best-eco-laundry-detergent",
+      "path": "/en-us/research/best-eco-laundry-detergent",
+      "title": "What Is the Best Eco-Friendly Laundry Detergent? | Tide",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:1aa1101d21387318113e034893f707c93f89c292a2b69d42a433d9d49fc38a38",
+        "currentStatePath": "stardust/current/pages/en-us-research-best-eco-laundry-detergent.json",
+        "sourceUrl": "https://tide.com/en-us/research/best-eco-laundry-detergent"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/best-eco-laundry-detergent",
+        "deployedAt": "2026-11-24T02:15:47.522Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 11.01,
+          "heightDelta": -138,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-research-best-laundry-detergent-baby-clothes",
+      "path": "/en-us/research/best-laundry-detergent-baby-clothes",
+      "title": "What Is the Best Laundry Detergent for Baby Clothes? | Tide",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:e3c7a78342cbfdcfedbbb03c259cfc577a853b686e1ab5517414718db4226cfa",
+        "currentStatePath": "stardust/current/pages/en-us-research-best-laundry-detergent-baby-clothes.json",
+        "sourceUrl": "https://tide.com/en-us/research/best-laundry-detergent-baby-clothes"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/best-laundry-detergent-baby-clothes",
+        "deployedAt": "2026-11-24T02:15:48.131Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.21,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-research-best-quality-detergent",
+      "path": "/en-us/research/best-quality-detergent",
+      "title": "What Is the Best Detergent in Terms of Quality? What the Science Actually Shows",
+      "templateId": "en-us-research-best-quality-detergent",
+      "source": {
+        "migratedHtml": "stardust/migrated/en-us/research/best-quality-detergent/index.html",
+        "metaJson": "stardust/migrated/en-us/research/best-quality-detergent/_meta.json",
+        "sourceHash": "sha256:9cd6b1144ae9988238fdb85e93dfc208663037a615b785f1b7ce656c1c7e1548",
+        "sourceUrl": "https://tide.com/en-us/research/best-quality-detergent"
+      },
+      "blocks": [
+        "breadcrumb",
+        "article-title-band",
+        "jump-links",
+        "faq-accordion"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/best-quality-detergent",
+        "deployedAt": "2026-11-24T00:37:25.357Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.3,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-research-cold-water-vs-laundry-cost",
+      "path": "/en-us/research/cold-water-vs-laundry-cost",
+      "title": "How Cold-Water Performance Can Affect Laundry Cost | Tide",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:e6476a9b10e6caac74f064bedbb4bfa9dd39bf277ba774c58e06cb0abd90b007",
+        "currentStatePath": "stardust/current/pages/en-us-research-cold-water-vs-laundry-cost.json",
+        "sourceUrl": "https://tide.com/en-us/research/cold-water-vs-laundry-cost"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/cold-water-vs-laundry-cost",
+        "deployedAt": "2026-11-24T02:15:48.704Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 13.94,
+          "heightDelta": 20,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-research-detergent-sheets-pods-liquid",
+      "path": "/en-us/research/detergent-sheets-pods-liquid",
+      "title": "Are Detergent Sheets or Pods Better for the Environment Than Liquid? | Tide",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:8658de8b7d3ecc96006883c8a9fc62ce679d86b2dd40d17ac26c330bdc5ed699",
+        "currentStatePath": "stardust/current/pages/en-us-research-detergent-sheets-pods-liquid.json",
+        "sourceUrl": "https://tide.com/en-us/research/detergent-sheets-pods-liquid"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/detergent-sheets-pods-liquid",
+        "deployedAt": "2026-11-24T02:15:49.047Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.73,
+          "heightDelta": -159,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-research-do-you-need-special-baby-detergent",
+      "path": "/en-us/research/do-you-need-special-baby-detergent",
+      "title": "Do You Need a Special Baby Detergent? | Tide",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:f54f6b7a79f2833ee592c782815ded34977745c9da2648ad729594d445198e29",
+        "currentStatePath": "stardust/current/pages/en-us-research-do-you-need-special-baby-detergent.json",
+        "sourceUrl": "https://tide.com/en-us/research/do-you-need-special-baby-detergent"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/do-you-need-special-baby-detergent",
+        "deployedAt": "2026-11-24T02:15:49.616Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.2,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-research-environmentally-friendly-way-laundry",
+      "path": "/en-us/research/environmentally-friendly-way-laundry",
+      "title": "What Is the Most Environmentally Friendly Way to Do Laundry? | Tide",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:d6d4d0b5fe3d226e0b6941f13a9e2923b010d331df119ee8ab41fd6dda392288",
+        "currentStatePath": "stardust/current/pages/en-us-research-environmentally-friendly-way-laundry.json",
+        "sourceUrl": "https://tide.com/en-us/research/environmentally-friendly-way-laundry"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/environmentally-friendly-way-laundry",
+        "deployedAt": "2026-11-24T02:15:49.972Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.37,
+          "heightDelta": -159,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-research-evaluate-true-value-laundry-detergent",
+      "path": "/en-us/research/evaluate-true-value-laundry-detergent",
+      "title": "Beyond the Shelf Price: A Comprehensive Economic Framework for Evaluating Laundry Detergent Value | Tide",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:260701d16643ba90d18004162620ccdad04a2626bc72d830e8569003385c3486",
+        "currentStatePath": "stardust/current/pages/en-us-research-evaluate-true-value-laundry-detergent.json",
+        "sourceUrl": "https://tide.com/en-us/research/evaluate-true-value-laundry-detergent"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/evaluate-true-value-laundry-detergent",
+        "deployedAt": "2026-11-24T02:15:50.330Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 13.39,
+          "heightDelta": 39,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-research-fragrance-meaning-on-ingredient-label",
+      "path": "/en-us/research/fragrance-meaning-on-ingredient-label",
+      "title": "What Does 'Fragrance' on a Label Actually Mean? | Tide",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:11debfd09f6caa2e8dda7c59ca006febdc299f9c55b242d1728a0fa5fef0f04a",
+        "currentStatePath": "stardust/current/pages/en-us-research-fragrance-meaning-on-ingredient-label.json",
+        "sourceUrl": "https://tide.com/en-us/research/fragrance-meaning-on-ingredient-label"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/fragrance-meaning-on-ingredient-label",
+        "deployedAt": "2026-11-24T02:15:50.792Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 11.53,
+          "heightDelta": 20,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-research-hazard-vs-risk-laundry-detergent",
+      "path": "/en-us/research/hazard-vs-risk-laundry-detergent",
+      "title": "Hazard vs. Risk in Laundry Detergent: How Exposure Changes What “Toxic” Really Means | Tide",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:2ea78185da8d487ca2b2f5dad2202c6eaf61d2830811faef4992827b256756bd",
+        "currentStatePath": "stardust/current/pages/en-us-research-hazard-vs-risk-laundry-detergent.json",
+        "sourceUrl": "https://tide.com/en-us/research/hazard-vs-risk-laundry-detergent"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/hazard-vs-risk-laundry-detergent",
+        "deployedAt": "2026-11-24T02:15:51.114Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 12.95,
+          "heightDelta": 67,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-research-how-enzymes-help-remove-baby-stains",
+      "path": "/en-us/research/how-enzymes-help-remove-baby-stains",
+      "title": "How Enzymes Help Remove Baby Stains | Tide",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:3208920da04551a224d617789fb36f3b8fea3dbbd577b29039c4334bcd0d3daf",
+        "currentStatePath": "stardust/current/pages/en-us-research-how-enzymes-help-remove-baby-stains.json",
+        "sourceUrl": "https://tide.com/en-us/research/how-enzymes-help-remove-baby-stains"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/how-enzymes-help-remove-baby-stains",
+        "deployedAt": "2026-11-24T02:15:51.969Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.19,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-research-how-to-choose-detergent-for-value",
+      "path": "/en-us/research/how-to-choose-detergent-for-value",
+      "title": "How to Choose a Detergent for Value | Tide",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:7c006b106d6e9b994b1d68ca1d665ef5107d34ebcdae6d616532a5275548a25c",
+        "currentStatePath": "stardust/current/pages/en-us-research-how-to-choose-detergent-for-value.json",
+        "sourceUrl": "https://tide.com/en-us/research/how-to-choose-detergent-for-value"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/how-to-choose-detergent-for-value",
+        "deployedAt": "2026-11-24T02:15:52.319Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 14.69,
+          "heightDelta": 41,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-research-laundry-detergent-science-testing",
+      "path": "/en-us/research/laundry-detergent-science-testing",
+      "title": "Is Tide Safe? The Science Behind Laundry Detergent Safety and Ingredient Testing | Tide",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:8404f0f8272652b5766fde449ee86885ee2b6587bc670f0ca8d187fc954b63d6",
+        "currentStatePath": "stardust/current/pages/en-us-research-laundry-detergent-science-testing.json",
+        "sourceUrl": "https://tide.com/en-us/research/laundry-detergent-science-testing"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/laundry-detergent-science-testing",
+        "deployedAt": "2026-11-24T02:15:52.816Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 13.33,
+          "heightDelta": 185,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-research-laundry-scent-and-indoor-air",
+      "path": "/en-us/research/laundry-scent-and-indoor-air",
+      "title": "If You Can Smell Your Laundry Scent, Is It Harming Your Air? | Tide",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:9b3c5010161b80901027a39796719dfe660993c2ceeb6a2568af5af99cbad817",
+        "currentStatePath": "stardust/current/pages/en-us-research-laundry-scent-and-indoor-air.json",
+        "sourceUrl": "https://tide.com/en-us/research/laundry-scent-and-indoor-air"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/laundry-scent-and-indoor-air",
+        "deployedAt": "2026-11-24T02:15:53.127Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 11.14,
+          "heightDelta": 20,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-research-natural-detergent-baby-clothes",
+      "path": "/en-us/research/natural-detergent-baby-clothes",
+      "title": "Is a Natural Detergent Best for Baby Clothes? | Tide",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:d97496e6bbfd2c5694af928d1a76c809a6198adec4da84d214b63fb04ce9a6d6",
+        "currentStatePath": "stardust/current/pages/en-us-research-natural-detergent-baby-clothes.json",
+        "sourceUrl": "https://tide.com/en-us/research/natural-detergent-baby-clothes"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/natural-detergent-baby-clothes",
+        "deployedAt": "2026-11-24T02:15:53.473Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.14,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-research-odor-after-washing",
+      "path": "/en-us/research/odor-after-washing",
+      "title": "Why Does Laundry Retain Odor After Washing? | Tide",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:acb1f732a11f27be23b2f005f519d5754d712847d7c0e8037215ce5696dfeee3",
+        "currentStatePath": "stardust/current/pages/en-us-research-odor-after-washing.json",
+        "sourceUrl": "https://tide.com/en-us/research/odor-after-washing"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/odor-after-washing",
+        "deployedAt": "2026-11-24T02:15:53.711Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.51,
+          "heightDelta": 43,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-research-pva-technical-review",
+      "path": "/en-us/research/pva-technical-review",
+      "title": "Fact-Check: Why the Rolsky (2021) PVA Study is Flawed",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:822bea62d81c5a509cd8145852757bb3af5a125525c504aa6c04cc323f91b21a",
+        "currentStatePath": "stardust/current/pages/en-us-research-pva-technical-review.json",
+        "sourceUrl": "https://tide.com/en-us/research/pva-technical-review"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/pva-technical-review",
+        "deployedAt": "2026-11-24T02:15:53.906Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 15.79,
+          "heightDelta": -295,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-research-scientific-guide-laundry-sensitive-skin",
+      "path": "/en-us/research/scientific-guide-laundry-sensitive-skin",
+      "title": "Laundry for Sensitive Skin: The Science of Detergents | Tide",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:fb226eaa639fb6c4d3649a1763115f573c3b995cba5feddb67aa009fc97e7e7b",
+        "currentStatePath": "stardust/current/pages/en-us-research-scientific-guide-laundry-sensitive-skin.json",
+        "sourceUrl": "https://tide.com/en-us/research/scientific-guide-laundry-sensitive-skin"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/scientific-guide-laundry-sensitive-skin",
+        "deployedAt": "2026-11-24T02:15:54.094Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 14.23,
+          "heightDelta": -62,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 3,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-research-signs-of-fragrance-safety",
+      "path": "/en-us/research/signs-of-fragrance-safety",
+      "title": "3 Signs a Company Takes Fragrance Safety Seriously | Tide",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:dbffbf34a06e254f1933dc00625fdeed30955319ec8e7c071af4547d3fc99444",
+        "currentStatePath": "stardust/current/pages/en-us-research-signs-of-fragrance-safety.json",
+        "sourceUrl": "https://tide.com/en-us/research/signs-of-fragrance-safety"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/signs-of-fragrance-safety",
+        "deployedAt": "2026-11-24T02:15:54.328Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 11.45,
+          "heightDelta": 20,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-research-tide-environment-safety",
+      "path": "/en-us/research/tide-environment-safety",
+      "title": "Is Tide Bad for the Environment? | Tide",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:4ba76bf1b39ece8773988f84bd155b64b7dc6e3c01bcb70c1bf145301d736aca",
+        "currentStatePath": "stardust/current/pages/en-us-research-tide-environment-safety.json",
+        "sourceUrl": "https://tide.com/en-us/research/tide-environment-safety"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/tide-environment-safety",
+        "deployedAt": "2026-11-24T02:15:54.534Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.14,
+          "heightDelta": -159,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-research-tide-evo-dissolve-guide",
+      "path": "/en-us/research/tide-evo-dissolve-guide",
+      "title": "Does Tide Evo Fully Dissolve? The Complete Guide to Preventing Residue",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:ab8f3b6670a5f3c1cda45b555bb70034addc6f07d3349598cde15d361144d7ef",
+        "currentStatePath": "stardust/current/pages/en-us-research-tide-evo-dissolve-guide.json",
+        "sourceUrl": "https://tide.com/en-us/research/tide-evo-dissolve-guide"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/tide-evo-dissolve-guide",
+        "deployedAt": "2026-11-24T02:15:54.855Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 13.53,
+          "heightDelta": 59,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-research-tide-value-framework",
+      "path": "/en-us/research/tide-value-framework",
+      "title": "Evaluating Tide Through the Value Framework | Tide",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:bd584d086379729985e58c2ebdcc8803342be1805e6b6e2bada0e00a5fa2f0f9",
+        "currentStatePath": "stardust/current/pages/en-us-research-tide-value-framework.json",
+        "sourceUrl": "https://tide.com/en-us/research/tide-value-framework"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/tide-value-framework",
+        "deployedAt": "2026-11-24T02:15:55.159Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 13.07,
+          "heightDelta": 20,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-research-vocs-laundry-products-airborne-emissions",
+      "path": "/en-us/research/vocs-laundry-products-airborne-emissions",
+      "title": "Volatile Organic Compounds (VOCs) in Laundry Products: Does VOC Content Translate to Airborne Emissions? | Tide",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:e84c27631807f4017159ab862bb39c2bddcde01d9392945f403de3ad57611fc7",
+        "currentStatePath": "stardust/current/pages/en-us-research-vocs-laundry-products-airborne-emissions.json",
+        "sourceUrl": "https://tide.com/en-us/research/vocs-laundry-products-airborne-emissions"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/vocs-laundry-products-airborne-emissions",
+        "deployedAt": "2026-11-24T02:15:55.950Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 16.27,
+          "heightDelta": -462,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-research-what-is-best-eco-detergent",
+      "path": "/en-us/research/what-is-best-eco-detergent",
+      "title": "What is the Best Eco Detergent? Detergent’s Impact on the Environment | Tide",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:02aa0bc646b3d8231880d7678064f3bcd4fcd3aaf7529effd5470dffcdf66685",
+        "currentStatePath": "stardust/current/pages/en-us-research-what-is-best-eco-detergent.json",
+        "sourceUrl": "https://tide.com/en-us/research/what-is-best-eco-detergent"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/what-is-best-eco-detergent",
+        "deployedAt": "2026-11-24T02:15:56.327Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 16.09,
+          "heightDelta": -199,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-research-what-makes-laundry-scent-safe",
+      "path": "/en-us/research/what-makes-laundry-scent-safe",
+      "title": "What Makes a Laundry Scent Safe? | Tide",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:9ab7be516fc93179c1e69ae6f78de2a92d4e8d7468d5e5b20171c0062f20df6c",
+        "currentStatePath": "stardust/current/pages/en-us-research-what-makes-laundry-scent-safe.json",
+        "sourceUrl": "https://tide.com/en-us/research/what-makes-laundry-scent-safe"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/what-makes-laundry-scent-safe",
+        "deployedAt": "2026-11-24T02:15:56.796Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 11.23,
+          "heightDelta": 20,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-research-why-cost-per-load-isnt-whole-story",
+      "path": "/en-us/research/why-cost-per-load-isnt-whole-story",
+      "title": "Why Cost Per Load Does Not Tell the Whole Story | Tide",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:ba90063837b36ca4eed2c9c1bc77e2b11609fad7aecfd9ec13a053075f447ef6",
+        "currentStatePath": "stardust/current/pages/en-us-research-why-cost-per-load-isnt-whole-story.json",
+        "sourceUrl": "https://tide.com/en-us/research/why-cost-per-load-isnt-whole-story"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/why-cost-per-load-isnt-whole-story",
+        "deployedAt": "2026-11-24T02:15:57.190Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 13.22,
+          "heightDelta": 20,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-research-why-rewashes-make-laundry-more-expensive",
+      "path": "/en-us/research/why-rewashes-make-laundry-more-expensive",
+      "title": "Why Re-Washes Make Laundry More Expensive | Tide",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:d14537d5ea1bdd45b4ac6fa2bdd40ef4eeeadc9243c14a44632ad88287c92e0d",
+        "currentStatePath": "stardust/current/pages/en-us-research-why-rewashes-make-laundry-more-expensive.json",
+        "sourceUrl": "https://tide.com/en-us/research/why-rewashes-make-laundry-more-expensive"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/why-rewashes-make-laundry-more-expensive",
+        "deployedAt": "2026-11-24T02:15:58.020Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 13.09,
+          "heightDelta": 20,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-rewards",
+      "path": "/en-us/rewards",
+      "title": "Laundry Detergent Pods Coupons and Rewards | Tide",
+      "templateId": "unique",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:c1f758206337fb4e6dfeddd134abfb9c9d15ace1666732ab6c5119ff33f60265",
+        "currentStatePath": "stardust/current/pages/en-us-rewards.json",
+        "sourceUrl": "https://tide.com/en-us/rewards"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/rewards",
+        "deployedAt": "2026-11-24T07:29:18.117Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.27,
+          "heightDelta": -2,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-rewards-laundrytips",
+      "path": "/en-us/rewards/laundrytips",
+      "title": "Learn New Laundry Tips and Advice | Tide",
+      "templateId": "section-landing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:3be0cf70ca2c4456d9c139052894f50adb423ccff0d66616fe198c9c649c30c1",
+        "currentStatePath": "stardust/current/pages/en-us-rewards-laundrytips.json",
+        "sourceUrl": "https://tide.com/en-us/rewards/laundrytips"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/rewards/laundrytips",
+        "deployedAt": "2026-11-24T06:26:53.689Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.03,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-rewards-laundrytips-how-to-remove-armpit-stains",
+      "path": "/en-us/rewards/laundrytips/how-to-remove-armpit-stains",
+      "title": "How to Remove Armpit Sweat Stains Easily | Tide",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:2df5893897b1771b15b3866711531b045751b2f365c16c492ff925751ef3982d",
+        "currentStatePath": "stardust/current/pages/en-us-rewards-laundrytips-how-to-remove-armpit-stains.json",
+        "sourceUrl": "https://tide.com/en-us/rewards/laundrytips/how-to-remove-armpit-stains"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/rewards/laundrytips/how-to-remove-armpit-stains",
+        "deployedAt": "2026-11-24T02:15:59.001Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 23.74,
+          "heightDelta": 371,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 2,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-rewards-loyalty-terms-and-conditions",
+      "path": "/en-us/rewards/loyalty/terms-and-conditions",
+      "title": "Loyalty Program Terms and Conditions | Tide",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:fbe75a35f8f114fb0145d85a9e866cf08d3efb4483d4afb3ed03e35abd5be77a",
+        "currentStatePath": "stardust/current/pages/en-us-rewards-loyalty-terms-and-conditions.json",
+        "sourceUrl": "https://tide.com/en-us/rewards/loyalty/terms-and-conditions"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/rewards/loyalty/terms-and-conditions",
+        "deployedAt": "2026-11-24T02:15:59.961Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 14.78,
+          "heightDelta": 65,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-shop",
+      "path": "/en-us/shop",
+      "title": "Laundry Detergent and Fabric Care Products - Tide",
+      "templateId": "product-listing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:9542f1333b4d788c7ec731a70c6e990750daee419148452fd7e313a6cfdae57f",
+        "currentStatePath": "stardust/current/pages/en-us-shop.json",
+        "sourceUrl": "https://tide.com/en-us/shop"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/shop",
+        "deployedAt": "2026-11-24T02:06:39.058Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.4,
+          "heightDelta": -30,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-shop-special-needs-additives",
+      "path": "/en-us/shop/special-needs/additives",
+      "title": "Browse Laundry Additives | Shop Products - Tide",
+      "templateId": "product-listing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:f9726853e71ea46761b573258def99c09d974359fb36ace27dc933c54a9bf5b8",
+        "currentStatePath": "stardust/current/pages/en-us-shop-special-needs-additives.json",
+        "sourceUrl": "https://tide.com/en-us/shop/special-needs/additives"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/additives",
+        "deployedAt": "2026-11-24T02:06:31.940Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.84,
+          "heightDelta": 5,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 1,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-shop-special-needs-deep-clean",
+      "path": "/en-us/shop/special-needs/deep-clean",
+      "title": "Browse Laundry Detergents for Deep Clean - Tide",
+      "templateId": "product-listing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:0d5c0044202dab56217d4bb26b6cb7886c097dff44b4df51d83bccb57abfb5dd",
+        "currentStatePath": "stardust/current/pages/en-us-shop-special-needs-deep-clean.json",
+        "sourceUrl": "https://tide.com/en-us/shop/special-needs/deep-clean"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/deep-clean",
+        "deployedAt": "2026-11-24T02:06:32.304Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.2,
+          "heightDelta": -59,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 1,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 3,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-shop-special-needs-freshness",
+      "path": "/en-us/shop/special-needs/freshness",
+      "title": "Browse or Buy Fresh Scented Laundry Detergents - Tide",
+      "templateId": "product-listing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:6df62fbb60b3612e787dd4d7bf4baf7350313f9e8bc582b77de6e91545d4e17b",
+        "currentStatePath": "stardust/current/pages/en-us-shop-special-needs-freshness.json",
+        "sourceUrl": "https://tide.com/en-us/shop/special-needs/freshness"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/freshness",
+        "deployedAt": "2026-11-24T02:06:32.902Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.94,
+          "heightDelta": 5,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 1,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 3,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-shop-special-needs-odor-removal",
+      "path": "/en-us/shop/special-needs/odor-removal",
+      "title": "Browse Laundry Products for Odor Removal | Tide",
+      "templateId": "product-listing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:b8350c5c0037ae9759789e3614fa56447eb22df41b1a3e8bea5df5930d882217",
+        "currentStatePath": "stardust/current/pages/en-us-shop-special-needs-odor-removal.json",
+        "sourceUrl": "https://tide.com/en-us/shop/special-needs/odor-removal"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/odor-removal",
+        "deployedAt": "2026-11-24T02:06:33.559Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2,
+          "heightDelta": 5,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 1,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-shop-special-needs-sensitive",
+      "path": "/en-us/shop/special-needs/sensitive",
+      "title": "Buy Laundry Detergents for Sensitive Skin - Tide",
+      "templateId": "product-listing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:b66a256c261d77ddf5e5aad49cfa9d06ef9161688201e44205abc4094f151601",
+        "currentStatePath": "stardust/current/pages/en-us-shop-special-needs-sensitive.json",
+        "sourceUrl": "https://tide.com/en-us/shop/special-needs/sensitive"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/sensitive",
+        "deployedAt": "2026-11-24T02:06:34.316Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.02,
+          "heightDelta": 5,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 1,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-shop-special-needs-stain-removal",
+      "path": "/en-us/shop/special-needs/stain-removal",
+      "title": "Buy Laundry Detergents for Stain Removal | Tide",
+      "templateId": "product-listing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:d3bb8bdaf0a8c531f0cce7f8af1eca60d9fbd844ffa37854b6f41fc3860e0856",
+        "currentStatePath": "stardust/current/pages/en-us-shop-special-needs-stain-removal.json",
+        "sourceUrl": "https://tide.com/en-us/shop/special-needs/stain-removal"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/stain-removal",
+        "deployedAt": "2026-11-24T02:06:34.720Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.83,
+          "heightDelta": -60,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 1,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-shop-special-needs-whiteness",
+      "path": "/en-us/shop/special-needs/whiteness",
+      "title": "Laundry Detergents For White Clothes - Tide",
+      "templateId": "product-listing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:7d124ed997a799ec9201ca8f93abc107d4025b8868f6a3738e5eec100bd8712e",
+        "currentStatePath": "stardust/current/pages/en-us-shop-special-needs-whiteness.json",
+        "sourceUrl": "https://tide.com/en-us/shop/special-needs/whiteness"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/shop/special-needs/whiteness",
+        "deployedAt": "2026-11-24T02:06:35.138Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.52,
+          "heightDelta": 5,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 1,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-shop-top-collections-tide-free-and-gentle",
+      "path": "/en-us/shop/top-collections/tide-free-and-gentle",
+      "title": "Free &amp; Gentle - Laundry Detergent Collections | Tide",
+      "templateId": "en-us-shop-top-collections-tide-free-and-gentle",
+      "source": {
+        "migratedHtml": "stardust/migrated/en-us/shop/top-collections/tide-free-and-gentle/index.html",
+        "metaJson": "stardust/migrated/en-us/shop/top-collections/tide-free-and-gentle/_meta.json",
+        "sourceHash": "sha256:4d9ac0ab2d202ec27ff850aba243d262e44eaf2d3e1076800e21b393fda27b87",
+        "sourceUrl": "https://tide.com/en-us/shop/top-collections/tide-free-and-gentle"
+      },
+      "blocks": [
+        "jump-links",
+        "collection-hero"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-free-and-gentle",
+        "deployedAt": "2026-11-24T01:48:23.844Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.7,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-shop-top-collections-tide-plus-febreze",
+      "path": "/en-us/shop/top-collections/tide-plus-febreze",
+      "title": "Tide Plus Febreze Freshness Collection - Long Lasting | Tide",
+      "templateId": "collection-landing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:01e0fb35d0790ae883cd7869f38b1bc78a6b7088a99921f0a48337fbf3ef4f69",
+        "currentStatePath": "stardust/current/pages/en-us-shop-top-collections-tide-plus-febreze.json",
+        "sourceUrl": "https://tide.com/en-us/shop/top-collections/tide-plus-febreze"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-plus-febreze",
+        "deployedAt": "2026-11-24T05:12:41.064Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.62,
+          "heightDelta": 5,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-shop-top-collections-tide-power-pods",
+      "path": "/en-us/shop/top-collections/tide-power-pods",
+      "title": "Tide Power PODS® collection page",
+      "templateId": "collection-landing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:81f032658d5bc121ab4e7dd623516d8d66cc0fd89cfb9edde8b2f2454969245a",
+        "currentStatePath": "stardust/current/pages/en-us-shop-top-collections-tide-power-pods.json",
+        "sourceUrl": "https://tide.com/en-us/shop/top-collections/tide-power-pods"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-power-pods",
+        "deployedAt": "2026-11-24T05:12:41.578Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.73,
+          "heightDelta": -1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-shop-top-collections-tide-simply",
+      "path": "/en-us/shop/top-collections/tide-simply",
+      "title": "Tide Simply - Laundry Detergent Collections | Tide",
+      "templateId": "collection-landing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:f605070555eba1c312fc03792a25d013fa769626088bf29019c5023695040b50",
+        "currentStatePath": "stardust/current/pages/en-us-shop-top-collections-tide-simply.json",
+        "sourceUrl": "https://tide.com/en-us/shop/top-collections/tide-simply"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-simply",
+        "deployedAt": "2026-11-24T05:12:41.973Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.8,
+          "heightDelta": -2,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-shop-top-collections-tide-ultra-oxi",
+      "path": "/en-us/shop/top-collections/tide-ultra-oxi",
+      "title": "Tide Ultra OXI | Laundry Detergent Collections - Tide",
+      "templateId": "collection-landing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:4369098b657fe939fb732dfe3bd3198a0ef29af5e7030c43cf51c5ff0be6849b",
+        "currentStatePath": "stardust/current/pages/en-us-shop-top-collections-tide-ultra-oxi.json",
+        "sourceUrl": "https://tide.com/en-us/shop/top-collections/tide-ultra-oxi"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-ultra-oxi",
+        "deployedAt": "2026-11-24T05:12:42.307Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.14,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-shop-type-fabric-rinse",
+      "path": "/en-us/shop/type/fabric-rinse",
+      "title": "Shop Tide Fabric Rinse Products | Laundry Products - Tide",
+      "templateId": "product-listing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:0b2960fbefefe607a4c542266c6fb363ca75c9bf1b50c593f997747a765c90ff",
+        "currentStatePath": "stardust/current/pages/en-us-shop-type-fabric-rinse.json",
+        "sourceUrl": "https://tide.com/en-us/shop/type/fabric-rinse"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/fabric-rinse",
+        "deployedAt": "2026-11-24T04:49:36.773Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.78,
+          "heightDelta": -15,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 1,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-shop-type-laundry-booster",
+      "path": "/en-us/shop/type/laundry-booster",
+      "title": "Shop Laundry Boosters | Additives - Tide",
+      "templateId": "product-listing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:8c3e8f312c7e9a7b507de5b8315990dd7a51b7a8a1200a019dd13af13fb63b82",
+        "currentStatePath": "stardust/current/pages/en-us-shop-type-laundry-booster.json",
+        "sourceUrl": "https://tide.com/en-us/shop/type/laundry-booster"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/laundry-booster",
+        "deployedAt": "2026-11-24T04:49:37.010Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.02,
+          "heightDelta": -30,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 1,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-shop-type-laundry-pods",
+      "path": "/en-us/shop/type/laundry-pods",
+      "title": "Shop Pacs and Tide PODS® | Laundry Detergent - Tide",
+      "templateId": "product-listing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:259e03a70a93596eeeae23fbe5267eda1e55af79fafe3f43eea9e5ebfe1cb7db",
+        "currentStatePath": "stardust/current/pages/en-us-shop-type-laundry-pods.json",
+        "sourceUrl": "https://tide.com/en-us/shop/type/laundry-pods"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/laundry-pods",
+        "deployedAt": "2026-11-24T04:49:37.213Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.56,
+          "heightDelta": -30,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 1,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-shop-type-laundry-tiles",
+      "path": "/en-us/shop/type/laundry-tiles",
+      "title": "Laundry Detergent and Fabric Care Products - Tide",
+      "templateId": "product-listing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:0780317531d47a2c070906a6a2ea5e21b670d9c3c09f77e7030e0ef0ac0626d4",
+        "currentStatePath": "stardust/current/pages/en-us-shop-type-laundry-tiles.json",
+        "sourceUrl": "https://tide.com/en-us/shop/type/laundry-tiles"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/laundry-tiles",
+        "deployedAt": "2026-11-24T04:49:37.399Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.21,
+          "heightDelta": -15,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 1,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-shop-type-liquid",
+      "path": "/en-us/shop/type/liquid",
+      "title": "Shop Liquid and HE Liquid Laundry Detergents - Tide",
+      "templateId": "en-us-shop-type-liquid",
+      "source": {
+        "migratedHtml": "stardust/migrated/en-us/shop/type/liquid/index.html",
+        "metaJson": "stardust/migrated/en-us/shop/type/liquid/_meta.json",
+        "sourceHash": "sha256:f23492f8ea545ad14e552c697b35ac9271ff7929d5b23bd06a2f34f3fe3d1b45",
+        "sourceUrl": "https://tide.com/en-us/shop/type/liquid"
+      },
+      "blocks": [
+        "breadcrumb",
+        "product-grid",
+        "feature-band-alternating"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/liquid",
+        "deployedAt": "2026-11-24T01:27:11.993Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.04,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 1,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-shop-type-powder",
+      "path": "/en-us/shop/type/powder",
+      "title": "Shop or Buy Laundry Powder | Laundry Products - Tide",
+      "templateId": "product-listing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:e1e8650d883bdcd666c7ecf025fad28d3bdd50ee854d9407bec57859ae8bb831",
+        "currentStatePath": "stardust/current/pages/en-us-shop-type-powder.json",
+        "sourceUrl": "https://tide.com/en-us/shop/type/powder"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/powder",
+        "deployedAt": "2026-11-24T04:49:37.626Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.5,
+          "heightDelta": -30,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 1,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-shop-type-stain-remover",
+      "path": "/en-us/shop/type/stain-remover",
+      "title": "Buy Stain Removal Products - Stain Remover | Tide",
+      "templateId": "product-listing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:585b1bec07ca25f94f8bf613b350967c66c61338791f8899f711839b3c5475b5",
+        "currentStatePath": "stardust/current/pages/en-us-shop-type-stain-remover.json",
+        "sourceUrl": "https://tide.com/en-us/shop/type/stain-remover"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/stain-remover",
+        "deployedAt": "2026-11-24T02:06:38.400Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.09,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 1,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "en-us-sitemap",
+      "path": "/en-us/sitemap",
+      "title": "Laundry Detergent and Fabric Care Products - Tide",
+      "templateId": "unique",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:3a8397a0b5dbc9c0dad5df9dc76b554f01de5e15ea96186c18d85b008466edb4",
+        "currentStatePath": "stardust/current/pages/en-us-sitemap.json",
+        "sourceUrl": "https://tide.com/en-us/sitemap"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/sitemap",
+        "deployedAt": "2026-11-24T07:08:58.974Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.01,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    },
+    {
+      "slug": "health-probe",
+      "path": "/health-probe",
+      "title": "Health probe page",
+      "templateId": "unique",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:106a7498c4075974e408d4b34b8b841245624be1f2e5251b56ab12c30a753bbe",
+        "currentStatePath": "stardust/current/pages/health-probe.json",
+        "sourceUrl": "https://tide.com/health-probe"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--5db7d055--aemcoder.aem.page/health-probe",
+        "deployedAt": "2026-11-24T07:08:58.638Z",
+        "verifiedAt": "2026-11-24T12:33:32.740Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.82,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-24T11:59:24.973Z"
+        }
+      }
+    }
+  ]
+}

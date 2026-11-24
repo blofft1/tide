@@ -1,36 +1,70 @@
-/* stylelint-disable max-line-length */
+/*
+ * Brand faces, self-hosted as captured from tide.com (loaded by loadFonts(), not at first paint).
+ * FONT LICENSING REQUIRED BEFORE GOING LIVE: "Tide" is a proprietary P&G typeface and
+ * FontAwesome 4 / Poppins are third-party faces — see fonts/LICENSING.md and register entry R-01.
+ */
+
 @font-face {
-  font-family: roboto-condensed;
+  font-family: Tide;
+  src: url("../fonts/tide_type_light-webfont.woff2") format("woff2");
+  font-weight: 300;
   font-style: normal;
-  font-weight: 700;
   font-display: swap;
-  src: url('../fonts/roboto-condensed-bold.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 @font-face {
-  font-family: roboto;
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url('../fonts/roboto-bold.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-@font-face {
-  font-family: roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url('../fonts/roboto-medium.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-@font-face {
-  font-family: roboto;
-  font-style: normal;
+  font-family: Tide;
+  src: url("../fonts/tide_type_regular-webfont.woff2") format("woff2");
   font-weight: 400;
+  font-style: normal;
   font-display: swap;
-  src: url('../fonts/roboto-regular.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: Tide;
+  src: url("../fonts/tide_type_bold-webfont.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Tide;
+  src: url("../fonts/tide_type_ultra-webfont.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* click2cart widget faces (shopper-choice template) — font-display as captured */
+@font-face {
+  font-family: Poppins;
+  src: url("../fonts/poppins-v24-latin-ext-300.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url("../fonts/Poppins-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url("../fonts/poppins-v24-latin-ext-600.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: FontAwesome;
+  src: url("../fonts/fontawesome-webfont.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
 }

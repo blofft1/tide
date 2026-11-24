@@ -1,0 +1,178 @@
+{
+  "a": "stardust/replica/gates/all-360/en-us-research-fragrance-meaning-on-ingredient-label/origin.png",
+  "b": "stardust/replica/gates/all-360/en-us-research-fragrance-meaning-on-ingredient-label/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 4518,
+    "mode": "overlap"
+  },
+  "heightDelta": 20,
+  "differingPixels": 187462,
+  "pct": 11.53,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/en-us-research-fragrance-meaning-on-ingredient-label/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 20.67,
+  "textBoxes": 123,
+  "textPixels": 551881,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.7
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 20.1
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 13.7
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 14
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 14.9
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 20.7
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 6.8
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 8.3
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 4.9
+    },
+    {
+      "y0": 4500,
+      "y1": 4518,
+      "pct": 0
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 1.47,
+    "differingPixels": 24006,
+    "compared": {
+      "width": 360,
+      "height": 4539,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 501,
+        "shift": -20,
+        "cumulative": -20
+      },
+      {
+        "y": 3807,
+        "shift": 1,
+        "cumulative": -19
+      },
+      {
+        "y": 4027,
+        "shift": -1,
+        "cumulative": -20
+      }
+    ],
+    "maxOffset": 20,
+    "totalShift": 22,
+    "insertedRows": 1,
+    "deletedRows": 21,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.7,
+        "unaligned": 0.7
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 12.2,
+        "unaligned": 20.1
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 13.7
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 14
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 14.9
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 20.7
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 6.8
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0.2,
+        "unaligned": 8.3
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0.2,
+        "unaligned": 4.9
+      },
+      {
+        "y0": 4500,
+        "y1": 4538,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/en-us-research-fragrance-meaning-on-ingredient-label/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 45,
+    "totalShift": 22,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/fragrance-meaning-on-ingredient-label"
+  }
+}

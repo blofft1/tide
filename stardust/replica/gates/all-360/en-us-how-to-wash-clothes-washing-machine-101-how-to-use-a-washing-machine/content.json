@@ -1,0 +1,7675 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-24T11:13:20.307Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://tide.com/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine",
+  "at": "2026-11-24T11:12:52.293Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 10466,
+  "root": "main#site-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div#page-wrapper > header#site-header > a.skip-to-content-link",
+    "x": 119,
+    "y": -44,
+    "w": 122,
+    "h": 44,
+    "text": "skip to content",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.row.no-gutters > button.burger-menu",
+    "x": 20,
+    "y": 18,
+    "w": 30,
+    "h": 26,
+    "text": "navigation menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.row.no-gutters > button.burger-menu",
+    "x": 20,
+    "y": 18,
+    "w": 30,
+    "h": 26,
+    "label": "navigation menu",
+    "value": "navigation menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row.no-gutters > div > a.header-logo.d-flex",
+    "x": 157,
+    "y": 7,
+    "w": 47,
+    "h": 47,
+    "text": "tide logo",
+    "href": "/en-us"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > a.header-logo.d-flex > img",
+    "x": 157,
+    "y": 7,
+    "w": 47,
+    "h": 47,
+    "text": "tide logo",
+    "file": "brand_main_logo"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "form.header-search > div.input-wrap > button",
+    "x": 310,
+    "y": 15,
+    "w": 30,
+    "h": 33,
+    "text": "submit search"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.alp-intro-image > picture > img",
+    "x": 0,
+    "y": 61,
+    "w": 360,
+    "h": 200,
+    "text": "washing machine in operation",
+    "file": "ALP_header_4_WaMa_1437x400"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.breadcrumbs-list > li.breadcrumbs-list-item > a",
+    "x": 15,
+    "y": 292,
+    "w": 57,
+    "h": 22,
+    "text": "home",
+    "href": "/en-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.breadcrumbs-list > li.breadcrumbs-list-item > a",
+    "x": 15,
+    "y": 292,
+    "w": 203,
+    "h": 47,
+    "text": "how to wash clothes",
+    "href": "/en-us/how-to-wash-clothes"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.breadcrumbs-list > li.breadcrumbs-list-item > a",
+    "x": 15,
+    "y": 317,
+    "w": 257,
+    "h": 47,
+    "text": "washing machine 101",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.breadcrumbs-list > li.breadcrumbs-list-item > span",
+    "x": 15,
+    "y": 341,
+    "w": 259,
+    "h": 47,
+    "label": "current",
+    "value": "how to use a washing machine",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.breadcrumbs-list-item > span > span",
+    "x": 15,
+    "y": 341,
+    "w": 259,
+    "h": 47,
+    "text": "How to Use a Washing Machine"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.share-block > div.share-buttons > a.share-buttons-item.event_socialmedia_post",
+    "x": 15,
+    "y": 428,
+    "w": 22,
+    "h": 16,
+    "text": "share on facebook",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.share-block > div.share-buttons > a.share-buttons-item.event_socialmedia_post",
+    "x": 57,
+    "y": 428,
+    "w": 22,
+    "h": 16,
+    "text": "share on twitter",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.share-block > div.share-buttons > a.share-buttons-item.event_socialmedia_post",
+    "x": 99,
+    "y": 428,
+    "w": 22,
+    "h": 16,
+    "text": "share on pinterest",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.share-block > div.share-buttons > a.share-buttons-item.event_share",
+    "x": 141,
+    "y": 428,
+    "w": 22,
+    "h": 16,
+    "text": "share by email",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.share-block > div.share-buttons > a.share-buttons-item.event_print_page",
+    "x": 183,
+    "y": 428,
+    "w": 22,
+    "h": 16,
+    "text": "print",
+    "href": "/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.row > div.col-12.col-lg-7 > h1.alp-intro-title",
+    "x": 15,
+    "y": 462,
+    "w": 330,
+    "h": 80,
+    "level": 1,
+    "text": "how to use a washing machine"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.row > div.col-12.col-lg-7 > p.alp-intro-short-text",
+    "x": 15,
+    "y": 552,
+    "w": 330,
+    "h": 120,
+    "text": "In this comprehensive guide from Tide on washing machine basics, you'll learn ev"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.row > div.col-12.col-lg-7 > p.alp-intro-main-text",
+    "x": 15,
+    "y": 687,
+    "w": 330,
+    "h": 192,
+    "text": "Gone are the days of throwing your laundry into a machine with incorrectly measu"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > span",
+    "x": 15,
+    "y": 949,
+    "w": 221,
+    "h": 46,
+    "text": "washing machine tips & advice"
+   },
+   {
+    "kind": "button",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > span",
+    "x": 276,
+    "y": 949,
+    "w": 304,
+    "h": 46,
+    "text": "how to use a washer – step-by-step guide"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-9.col-12 > div.richtext-container > h2#washing-machine-tips--advice",
+    "x": 15,
+    "y": 1013,
+    "w": 330,
+    "h": 59,
+    "level": 2,
+    "text": "washing machine tips & advice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-preview > div.article-preview-image > a",
+    "x": 0,
+    "y": 1120,
+    "w": 360,
+    "h": 311,
+    "text": "a hand setting the program on a white washing machine",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine/guide-to-quick-wash"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 0,
+    "y": 1120,
+    "w": 360,
+    "h": 311,
+    "text": "a hand setting the program on a white washing machine",
+    "file": "Tide_StartMachine_S5_217"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-preview-content > div.article-preview-title > p",
+    "x": 40,
+    "y": 1406,
+    "w": 280,
+    "h": 78,
+    "text": "Unleash the Power of Tide, Even In the Quick Wash"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-preview-content-wrapper > div.article-preview-content > p",
+    "x": 40,
+    "y": 1499,
+    "w": 280,
+    "h": 80,
+    "text": "If your clothes are only slightly soiled and you need to save some time, use the"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-preview-content-wrapper > div.article-preview-content > a.article-preview-link",
+    "x": 40,
+    "y": 1589,
+    "w": 97,
+    "h": 25,
+    "text": "read more",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine/guide-to-quick-wash"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-preview > div.article-preview-image > a",
+    "x": 0,
+    "y": 1669,
+    "w": 360,
+    "h": 311,
+    "text": "someone pushing the \"save energy plus\" button on a washing machine",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine/washer-sustainable-use"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 0,
+    "y": 1669,
+    "w": 360,
+    "h": 311,
+    "text": "someone pushing the \"save energy plus\" button on a washing m",
+    "file": "SustainableWMusage_detailed_370x320"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-preview-content > div.article-preview-title > p",
+    "x": 40,
+    "y": 1955,
+    "w": 280,
+    "h": 26,
+    "text": "Washer: Sustainable Use"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-preview-content-wrapper > div.article-preview-content > p",
+    "x": 40,
+    "y": 1996,
+    "w": 280,
+    "h": 100,
+    "text": "Using your washer to its full potential is not only about getting the cleanest c"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-preview-content-wrapper > div.article-preview-content > a.article-preview-link",
+    "x": 40,
+    "y": 2106,
+    "w": 97,
+    "h": 25,
+    "text": "read more",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine/washer-sustainable-use"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-preview > div.article-preview-image > a",
+    "x": 0,
+    "y": 2187,
+    "w": 360,
+    "h": 311,
+    "text": "a person selecting the wash cycle on a washing machine",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine/smelly-washing-machine-fixes"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 0,
+    "y": 2187,
+    "w": 360,
+    "h": 311,
+    "text": "a person selecting the wash cycle on a washing machine",
+    "file": "MdLtLo_v001_StartMachine_370x320"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-preview-content > div.article-preview-title > p",
+    "x": 40,
+    "y": 2473,
+    "w": 280,
+    "h": 78,
+    "text": "How to Make a Smelly Washing Machine Fresh Again"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-preview-content-wrapper > div.article-preview-content > p",
+    "x": 40,
+    "y": 2566,
+    "w": 280,
+    "h": 40,
+    "text": "No one likes a smelly washing machine."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-preview-content-wrapper > div.article-preview-content > a.article-preview-link",
+    "x": 40,
+    "y": 2616,
+    "w": 97,
+    "h": 25,
+    "text": "read more",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine/smelly-washing-machine-fixes"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-preview > div.article-preview-image > a",
+    "x": 0,
+    "y": 2696,
+    "w": 360,
+    "h": 311,
+    "text": "too many suds in the washer",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine/too-many-suds-in-the-washer"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 0,
+    "y": 2696,
+    "w": 360,
+    "h": 311,
+    "text": "too many suds in the washer",
+    "file": "Tide_RunningWasher_Whites_S13ab__1074_37"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-preview-content > div.article-preview-title > p",
+    "x": 40,
+    "y": 2983,
+    "w": 280,
+    "h": 52,
+    "text": "Too Many Suds in the Washer"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-preview-content-wrapper > div.article-preview-content > p",
+    "x": 40,
+    "y": 3050,
+    "w": 280,
+    "h": 120,
+    "text": "Too many suds in your washer can lead to poorly washed clothes and the need to w"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-preview-content-wrapper > div.article-preview-content > a.article-preview-link",
+    "x": 40,
+    "y": 3180,
+    "w": 97,
+    "h": 25,
+    "text": "read more",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine/too-many-suds-in-the-washer"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-preview-content > div.article-preview-title > p",
+    "x": 40,
+    "y": 3285,
+    "w": 280,
+    "h": 78,
+    "text": "Keep Your Washer Running Smoothly with Tide"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-preview-content-wrapper.no-image > div.article-preview-content > p",
+    "x": 40,
+    "y": 3378,
+    "w": 280,
+    "h": 100,
+    "text": "Washing machines are essential in our daily lives, but like all appliances, they"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-preview-content-wrapper.no-image > div.article-preview-content > a.article-preview-link",
+    "x": 40,
+    "y": 3488,
+    "w": 97,
+    "h": 25,
+    "text": "read more",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine/preventing-detergent-buildup"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-preview-content > div.article-preview-title > p",
+    "x": 40,
+    "y": 3593,
+    "w": 280,
+    "h": 78,
+    "text": "How to Use a Washing Machine: Frequently Asked Questions"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-preview-content-wrapper.no-image > div.article-preview-content > p",
+    "x": 40,
+    "y": 3686,
+    "w": 280,
+    "h": 100,
+    "text": "Doing laundry can be straightforward with the right knowledge and products. At T"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-preview-content-wrapper.no-image > div.article-preview-content > a.article-preview-link",
+    "x": 40,
+    "y": 3796,
+    "w": 97,
+    "h": 25,
+    "text": "read more",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine/washing-machine-faq"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-preview-content > div.article-preview-title > p",
+    "x": 40,
+    "y": 3901,
+    "w": 280,
+    "h": 156,
+    "text": "How to Use Tide evo in Your Washing Machine: A Comprehensive Guide to Getting Th"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-preview-content-wrapper.no-image > div.article-preview-content > p",
+    "x": 40,
+    "y": 4072,
+    "w": 280,
+    "h": 120,
+    "text": "Tide evo is a revolutionary, 100% concentrated detergent tile that offers superi"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-preview-content-wrapper.no-image > div.article-preview-content > a.article-preview-link",
+    "x": 40,
+    "y": 4202,
+    "w": 97,
+    "h": 25,
+    "text": "read more",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine/how-to-use-tide-evo-in-your-washing-machine"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-12.col-12 > div.richtext-container > h2#how-to-use-a-washer--step-by-step-guide",
+    "x": 15,
+    "y": 4312,
+    "w": 330,
+    "h": 132,
+    "level": 2,
+    "text": "how to use a washer – step-by-step guide"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-12.col-12 > div.richtext-container > p",
+    "x": 15,
+    "y": 4464,
+    "w": 330,
+    "h": 380,
+    "text": "Washing machines may look like magic – in goes your dirty laundry, and out comes"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.row.justify-content-center > div.col-12.col-lg-6 > h3",
+    "x": 15,
+    "y": 4854,
+    "w": 330,
+    "h": 108,
+    "level": 3,
+    "text": "how to use a washer – step-by-step guide"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.guide-step-content > div.guide-step-title > p",
+    "x": 55,
+    "y": 5012,
+    "w": 290,
+    "h": 52,
+    "text": "Step 1. Separate Your Laundry"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.guide-step-content > div.richtext-container.guide-step-text > p",
+    "x": 55,
+    "y": 5075,
+    "w": 290,
+    "h": 212,
+    "text": "into different piles based on is step number one. You should also of each garmen"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.richtext-container.guide-step-text > p > a.event_internal_link",
+    "x": 55,
+    "y": 5077,
+    "w": 165,
+    "h": 19,
+    "text": "sorting your laundry",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/how-to-sort-your-laundry-for-the-best-results"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.richtext-container.guide-step-text > p > a.event_internal_link",
+    "x": 172,
+    "y": 5101,
+    "w": 166,
+    "h": 19,
+    "text": "fabric type and color",
+    "href": "/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.richtext-container.guide-step-text > p > a.event_internal_link",
+    "x": 55,
+    "y": 5145,
+    "w": 158,
+    "h": 19,
+    "text": "check the care label",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/how-to-read-laundry-symbols"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.guide-step-content > div.guide-step-title > p",
+    "x": 55,
+    "y": 5347,
+    "w": 290,
+    "h": 52,
+    "text": "Step 2. Choose the Right Washing Cycle"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.guide-step-content > div.richtext-container.guide-step-text > p",
+    "x": 55,
+    "y": 5409,
+    "w": 290,
+    "h": 264,
+    "text": "Wash cycles consist of two important speeds: A speed at which it agitates or tum"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.richtext-container.guide-step-text > p > a.event_internal_link",
+    "x": 55,
+    "y": 5651,
+    "w": 96,
+    "h": 19,
+    "text": "quick cycles",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine/guide-to-quick-wash"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.guide-step-content > div.guide-step-title > p",
+    "x": 55,
+    "y": 5733,
+    "w": 290,
+    "h": 52,
+    "text": "Step 3. Set the Water Temperature"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.guide-step-content > div.richtext-container.guide-step-text > p",
+    "x": 55,
+    "y": 5796,
+    "w": 290,
+    "h": 448,
+    "text": "Using the correct water setting in your washer can make a world of difference in"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.richtext-container.guide-step-text > p > a.event_internal_link",
+    "x": 55,
+    "y": 6198,
+    "w": 281,
+    "h": 43,
+    "text": "save energy and protect the environment",
+    "href": "/en-us/our-commitment/sustainability/saving-energy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.guide-step-content > div.richtext-container.guide-step-text > p",
+    "x": 55,
+    "y": 6244,
+    "w": 290,
+    "h": 80,
+    "text": "Designed to deliver outstanding stain removal in all water conditions, Tide laun"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.guide-step-content > div.guide-step-title > p",
+    "x": 55,
+    "y": 6384,
+    "w": 290,
+    "h": 52,
+    "text": "Step 4. Add Detergent and Fabric Softener"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.guide-step-content > div.richtext-container.guide-step-text > p",
+    "x": 55,
+    "y": 6447,
+    "w": 290,
+    "h": 248,
+    "text": "Before adding your choice of detergent and , make sure you read your washer’s ma"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.richtext-container.guide-step-text > p > a.event_internal_link",
+    "x": 170,
+    "y": 6469,
+    "w": 118,
+    "h": 19,
+    "text": "fabric softener",
+    "href": "/en-us/how-to-wash-clothes/how-to-remove-stains/fabric-softener-stains"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.richtext-container.guide-step-text > p > a.event_internal_link",
+    "x": 77,
+    "y": 6653,
+    "w": 224,
+    "h": 19,
+    "text": "too much laundry detergent",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine/too-many-suds-in-the-washer"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.guide-step-content > div.richtext-container.guide-step-text > p",
+    "x": 55,
+    "y": 6695,
+    "w": 290,
+    "h": 84,
+    "text": "Alternatively, you can just pop a pac of in your empty washing machine drum and "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.richtext-container.guide-step-text > p > a.event_internal_link",
+    "x": 76,
+    "y": 6717,
+    "w": 86,
+    "h": 19,
+    "text": "tide pods",
+    "href": "/en-us/our-commitment/americas-number-one-detergent/our-products/laundry-pacs/how-to-use-tide-pods"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.guide-step-content > div.guide-step-title > p",
+    "x": 55,
+    "y": 6839,
+    "w": 290,
+    "h": 52,
+    "text": "Step 5. Load the Washing Machine"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.guide-step-content > div.richtext-container.guide-step-text > p",
+    "x": 55,
+    "y": 6901,
+    "w": 290,
+    "h": 160,
+    "text": "This is the step where you dump your clothes into your washer. Make sure not to "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 75,
+    "y": 7077,
+    "w": 208,
+    "h": 24,
+    "text": "Small loads: ⅓ of the drum"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 75,
+    "y": 7101,
+    "w": 227,
+    "h": 24,
+    "text": "Medium loads: ½ of the drum"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 75,
+    "y": 7125,
+    "w": 209,
+    "h": 24,
+    "text": "Large loads: ¾ of the drum"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.guide-step-content > div.guide-step-title > p",
+    "x": 55,
+    "y": 7225,
+    "w": 290,
+    "h": 52,
+    "text": "Step 6. Turn on the Washer"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.guide-step-content > div.richtext-container.guide-step-text > p",
+    "x": 55,
+    "y": 7288,
+    "w": 290,
+    "h": 120,
+    "text": "Just close the door and hit the Start button. Some washing machines can indicate"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.guide-step-content > div.richtext-container.guide-step-text > p",
+    "x": 55,
+    "y": 7408,
+    "w": 290,
+    "h": 84,
+    "text": "Leave your washing machine door open after use to allow it to air out and help p"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.richtext-container.guide-step-text > p > a.event_internal_link",
+    "x": 269,
+    "y": 7450,
+    "w": 58,
+    "h": 19,
+    "text": "mildew",
+    "href": "/en-us/how-to-wash-clothes/how-to-remove-stains/mildew-stains"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.guide-step-content > div.guide-step-title > p",
+    "x": 55,
+    "y": 7552,
+    "w": 290,
+    "h": 52,
+    "text": "Step 7. Clean Your Washing Machine"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.guide-step-content > div.richtext-container.guide-step-text > p",
+    "x": 55,
+    "y": 7614,
+    "w": 290,
+    "h": 120,
+    "text": "Regular cleaning with a washing machine cleaner is an important part of knowing "
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-6.col-12 > div.richtext-container > h2#common-mistakes-to-avoid-when-using-a-washing-machine",
+    "x": 15,
+    "y": 7782,
+    "w": 330,
+    "h": 88,
+    "level": 2,
+    "text": "common mistakes to avoid when using a washing machine"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-lg-6.col-12 > div.richtext-container > p",
+    "x": 15,
+    "y": 7887,
+    "w": 330,
+    "h": 80,
+    "text": "Besides overloading your machine and using too much detergent, there are some co"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > p",
+    "x": 55,
+    "y": 7981,
+    "w": 290,
+    "h": 100,
+    "text": "Don’t leave anything in pockets. Check all pockets before washing for things lik"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > p",
+    "x": 55,
+    "y": 8081,
+    "w": 290,
+    "h": 180,
+    "text": "Don’t put fabric softener directly on top of your laundry. Fabric softener shoul"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > p",
+    "x": 55,
+    "y": 8261,
+    "w": 290,
+    "h": 160,
+    "text": "Don’t leave wet clothes in the drum for a long time. Moisture from wet clothes c"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > p",
+    "x": 55,
+    "y": 8421,
+    "w": 290,
+    "h": 220,
+    "text": "If your washing machine is broken, don’t try to fix it yourself. Minor washing m"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-12 > div.scroll-to-top-wrapper > button.scroll-to-top-btn.event_button_click",
+    "x": 150,
+    "y": 8705,
+    "w": 60,
+    "h": 60,
+    "text": "back to top"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-links-wrapper > div.container > span",
+    "x": 15,
+    "y": 8825,
+    "w": 242,
+    "h": 19,
+    "text": "Ways to connect with us:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-links > li > a.footer-social-links-item.event_socialmedia_exit",
+    "x": 15,
+    "y": 8864,
+    "w": 32,
+    "h": 32,
+    "text": "facebook icon",
+    "href": "/Tide"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > a.footer-social-links-item.event_socialmedia_exit > img",
+    "x": 15,
+    "y": 8864,
+    "w": 32,
+    "h": 32,
+    "text": "facebook icon",
+    "file": "social_facebook"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-links > li > a.footer-social-links-item.event_socialmedia_exit",
+    "x": 62,
+    "y": 8864,
+    "w": 32,
+    "h": 32,
+    "text": "twitter icon",
+    "href": "/tide"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > a.footer-social-links-item.event_socialmedia_exit > img",
+    "x": 62,
+    "y": 8864,
+    "w": 32,
+    "h": 32,
+    "text": "twitter icon",
+    "file": "social_twitter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-links > li > a.footer-social-links-item.event_socialmedia_exit",
+    "x": 109,
+    "y": 8864,
+    "w": 32,
+    "h": 32,
+    "text": "pinterest icon",
+    "href": "/tide/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > a.footer-social-links-item.event_socialmedia_exit > img",
+    "x": 109,
+    "y": 8864,
+    "w": 32,
+    "h": 32,
+    "text": "pinterest icon",
+    "file": "social_pinterest"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-links > li > a.footer-social-links-item.event_socialmedia_exit",
+    "x": 156,
+    "y": 8864,
+    "w": 32,
+    "h": 32,
+    "text": "youtube icon",
+    "href": "/channel/UCEPeWPjaF1CWCKXa3xTp7vw"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > a.footer-social-links-item.event_socialmedia_exit > img",
+    "x": 156,
+    "y": 8864,
+    "w": 32,
+    "h": 32,
+    "text": "youtube icon",
+    "file": "social_youtube"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row > div.col-12 > p.footer-navigation-title",
+    "x": 15,
+    "y": 8956,
+    "w": 330,
+    "h": 51,
+    "text": "Shop Products"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-4 > div#by-type > div.expandable-content-header",
+    "x": 15,
+    "y": 9049,
+    "w": 330,
+    "h": 24,
+    "text": "by type"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-4 > div#by-type > div.expandable-content-header",
+    "x": 15,
+    "y": 9049,
+    "w": 330,
+    "h": 24,
+    "label": "by type",
+    "value": "by type",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-4 > div#by-need > div.expandable-content-header",
+    "x": 15,
+    "y": 9133,
+    "w": 330,
+    "h": 24,
+    "text": "by need"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-4 > div#by-need > div.expandable-content-header",
+    "x": 15,
+    "y": 9133,
+    "w": 330,
+    "h": 24,
+    "label": "by need",
+    "value": "by need",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-4 > div#top-collection > div.expandable-content-header",
+    "x": 15,
+    "y": 9217,
+    "w": 330,
+    "h": 24,
+    "text": "top collection"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-4 > div#top-collection > div.expandable-content-header",
+    "x": 15,
+    "y": 9217,
+    "w": 330,
+    "h": 24,
+    "label": "top collection",
+    "value": "top collection",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row > div.col-12.col-md-6 > p#footer-washing-machine-title",
+    "x": 15,
+    "y": 9309,
+    "w": 330,
+    "h": 51,
+    "text": "How to Wash Clothes"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-6 > div.menu-item > a.event_menu_click",
+    "x": 15,
+    "y": 9377,
+    "w": 177,
+    "h": 18,
+    "text": "how to remove stains",
+    "href": "/en-us/how-to-wash-clothes/how-to-remove-stains"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-6 > div.menu-item > a.event_menu_click",
+    "x": 15,
+    "y": 9409,
+    "w": 153,
+    "h": 18,
+    "text": "how to do laundry",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-6 > div.menu-item > a.event_menu_click",
+    "x": 15,
+    "y": 9441,
+    "w": 289,
+    "h": 18,
+    "text": "washing different fabrics and colors",
+    "href": "/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-6 > div.menu-item > a.event_outbound_link",
+    "x": 15,
+    "y": 9473,
+    "w": 163,
+    "h": 18,
+    "text": "washing machine 101",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row > div.col-12.col-md-6 > p#footer-help-support-title",
+    "x": 15,
+    "y": 9538,
+    "w": 330,
+    "h": 51,
+    "text": "Help & Support"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-md-6 > div.menu-item > a.event_menu_click",
+    "x": 15,
+    "y": 9606,
+    "w": 85,
+    "h": 18,
+    "text": "contact us",
+    "href": "/en-us/contact-us"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row > div.col-12.footer-related > span#footer-related-title",
+    "x": 15,
+    "y": 9702,
+    "w": 81,
+    "h": 24,
+    "text": "Related:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-related-navigation > div.menu-item > a.event_outbound_link",
+    "x": 15,
+    "y": 9735,
+    "w": 93,
+    "h": 18,
+    "text": "p&g brands",
+    "href": "/en_US"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-related-navigation > div.menu-item > a.event_outbound_link",
+    "x": 123,
+    "y": 9735,
+    "w": 64,
+    "h": 18,
+    "text": "mrclean",
+    "href": "/en-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-related-navigation > div.menu-item > a.event_outbound_link",
+    "x": 202,
+    "y": 9735,
+    "w": 54,
+    "h": 18,
+    "text": "downy",
+    "href": "/en-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-related-navigation > div.menu-item > a.event_outbound_link",
+    "x": 271,
+    "y": 9735,
+    "w": 58,
+    "h": 18,
+    "text": "bounce",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-related-navigation > div.menu-item > a.event_outbound_link",
+    "x": 15,
+    "y": 9767,
+    "w": 110,
+    "h": 18,
+    "text": "p&g everyday",
+    "href": "/tag/tide"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.footer-icons > div > a.footer-icon",
+    "x": 18,
+    "y": 9837,
+    "w": 82,
+    "h": 68,
+    "text": "good housekeeping icon",
+    "href": "/product-reviews/history/welcome-gh-seal"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.footer-icon > picture > img",
+    "x": 18,
+    "y": 9837,
+    "w": 82,
+    "h": 62,
+    "text": "good housekeeping icon",
+    "file": "footer_GoodHousekeeping"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.footer-icons > div > a.footer-icon",
+    "x": 130,
+    "y": 9837,
+    "w": 38,
+    "h": 68,
+    "text": "bbb icon",
+    "href": "/cincinnati/business-reviews/detergent/the-procter-gamble-company-in-cincinnati-oh-3036"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.footer-icon > picture > img",
+    "x": 130,
+    "y": 9837,
+    "w": 38,
+    "h": 62,
+    "text": "bbb icon",
+    "file": "footer_BBB"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.footer-icons > div > a.footer-icon",
+    "x": 198,
+    "y": 9837,
+    "w": 58,
+    "h": 68,
+    "text": "junk food icon",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.footer-icon > picture > img",
+    "x": 198,
+    "y": 9837,
+    "w": 58,
+    "h": 62,
+    "text": "junk food icon",
+    "file": "footer_JunkFood"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.footer-icons > div > a.footer-icon",
+    "x": 286,
+    "y": 9837,
+    "w": 56,
+    "h": 68,
+    "text": "tide cleaners icon",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.footer-icon > picture > img",
+    "x": 286,
+    "y": 9837,
+    "w": 56,
+    "h": 62,
+    "text": "tide cleaners icon",
+    "file": "footer_TideCleaners"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > a.event_outbound_link",
+    "x": 15,
+    "y": 9957,
+    "w": 179,
+    "h": 18,
+    "text": "accessibility statement",
+    "href": "/en-US"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > a.event_outbound_link",
+    "x": 15,
+    "y": 9989,
+    "w": 150,
+    "h": 18,
+    "text": "terms & conditions",
+    "href": "/en-us/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > a.event_menu_click",
+    "x": 15,
+    "y": 10021,
+    "w": 279,
+    "h": 18,
+    "text": "tide rewards terms and conditions",
+    "href": "/en-us/rewards/loyalty/terms-and-conditions"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > a.event_outbound_link",
+    "x": 15,
+    "y": 10053,
+    "w": 60,
+    "h": 18,
+    "text": "careers",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > a.event_outbound_link",
+    "x": 90,
+    "y": 10053,
+    "w": 56,
+    "h": 18,
+    "text": "privacy",
+    "href": "/en-US/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > a.event_outbound_link",
+    "x": 15,
+    "y": 10085,
+    "w": 287,
+    "h": 18,
+    "text": "consumer health data privacy policy",
+    "href": "/CHD-en"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > a.event_outbound_link.with-ccpa-logo",
+    "x": 15,
+    "y": 10117,
+    "w": 187,
+    "h": 18,
+    "text": "your privacy choices",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.menu-item > span",
+    "x": 15,
+    "y": 10149,
+    "w": 276,
+    "h": 50,
+    "text": "NOTICE: We may sell your sensitive personal data."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div.copyright > div.self-center.font-medium",
+    "x": 15,
+    "y": 10302,
+    "w": 199,
+    "h": 32,
+    "text": "© 2026 Procter & Gamble"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.footer-general-navigation > div.menu-item > a.event_menu_click",
+    "x": 15,
+    "y": 10384,
+    "w": 64,
+    "h": 32,
+    "text": "sitemap",
+    "href": "/en-us/sitemap"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 1,
+    "scrollHidden": 0,
+    "horizontal": 2,
+    "offPage": 2,
+    "textNodes": 109,
+    "controls": 65,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "CONTROL COLLAPSED",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div#page-wrapper",
+     "path": "div#__next > div#page-wrapper > header#site-header > a.skip-to-content-link",
+     "text": "skip to content",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "nav",
+     "path": "nav > ul > li > span",
+     "text": "how to use a washer – step-by-step guide",
+     "cutMin": 235,
+     "cutMax": 235
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "nav",
+     "path": "nav > ul > li > span",
+     "text": "how to use a washer – step-by-step guide",
+     "cutMin": 235,
+     "cutMax": 235
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--5db7d055--aemcoder.aem.page/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine",
+  "at": "2026-11-24T11:13:20.132Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 10436,
+  "root": "main#site-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header.block > div#site-header > a.skip-to-content-link",
+    "x": 119,
+    "y": -44,
+    "w": 122,
+    "h": 44,
+    "text": "skip to content",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.searchbar-row > button.burger",
+    "x": 20,
+    "y": 18,
+    "w": 30,
+    "h": 26,
+    "text": "navigation menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.searchbar-row > button.burger",
+    "x": 20,
+    "y": 18,
+    "w": 30,
+    "h": 26,
+    "label": "navigation menu",
+    "value": "navigation menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-logo > p > a",
+    "x": 157,
+    "y": 7,
+    "w": 47,
+    "h": 47,
+    "text": "tide logo",
+    "href": "/en-us"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 157,
+    "y": 7,
+    "w": 47,
+    "h": 47,
+    "text": "tide logo",
+    "file": "media_1657180466c60da96dcbb2d8123d7c9b94"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "form > div.input-wrap > button",
+    "x": 310,
+    "y": 15,
+    "w": 30,
+    "h": 30,
+    "text": "submit search"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.topic-hub-intro-image > picture > img",
+    "x": 0,
+    "y": 61,
+    "w": 360,
+    "h": 200,
+    "text": "washing machine in operation",
+    "file": "media_170c6fa0df2688465073d581c14ea16523"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 292,
+    "w": 57,
+    "h": 22,
+    "text": "home",
+    "href": "/en-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 95,
+    "y": 292,
+    "w": 203,
+    "h": 22,
+    "text": "how to wash clothes",
+    "href": "/en-us/how-to-wash-clothes"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 317,
+    "w": 198,
+    "h": 22,
+    "text": "washing machine 101",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.topic-hub-intro-crumbs > ul > li",
+    "x": 15,
+    "y": 317,
+    "w": 290,
+    "h": 47,
+    "label": "current",
+    "value": "how to use a washing machine",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.topic-hub-intro-crumbs > ul > li",
+    "x": 15,
+    "y": 317,
+    "w": 290,
+    "h": 47,
+    "text": "How to Use a Washing Machine"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.topic-hub-intro-bar > div.topic-hub-intro-share > a.topic-hub-intro-share-item.share-facebook",
+    "x": 15,
+    "y": 395,
+    "w": 22,
+    "h": 28,
+    "text": "share on facebook",
+    "href": "/sharer/sharer.php"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.topic-hub-intro-bar > div.topic-hub-intro-share > a.topic-hub-intro-share-item.share-twitter",
+    "x": 57,
+    "y": 395,
+    "w": 22,
+    "h": 28,
+    "text": "share on twitter",
+    "href": "/intent/tweet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.topic-hub-intro-bar > div.topic-hub-intro-share > a.topic-hub-intro-share-item.share-pinterest",
+    "x": 99,
+    "y": 395,
+    "w": 22,
+    "h": 28,
+    "text": "share on pinterest",
+    "href": "/pin/create/button/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.topic-hub-intro-bar > div.topic-hub-intro-share > a.topic-hub-intro-share-item.share-email",
+    "x": 141,
+    "y": 395,
+    "w": 22,
+    "h": 28,
+    "text": "share by email",
+    "href": ""
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.topic-hub-intro-bar > div.topic-hub-intro-share > a.topic-hub-intro-share-item.share-print",
+    "x": 183,
+    "y": 395,
+    "w": 22,
+    "h": 28,
+    "text": "print",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.container > div.topic-hub-intro-text > h1#how-to-use-a-washing-machine",
+    "x": 15,
+    "y": 437,
+    "w": 330,
+    "h": 80,
+    "level": 1,
+    "text": "how to use a washing machine"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.container > div.topic-hub-intro-text > p.topic-hub-intro-short",
+    "x": 15,
+    "y": 527,
+    "w": 330,
+    "h": 120,
+    "text": "In this comprehensive guide from Tide on washing machine basics, you'll learn ev"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.container > div.topic-hub-intro-text > p",
+    "x": 15,
+    "y": 662,
+    "w": 330,
+    "h": 192,
+    "text": "Gone are the days of throwing your laundry into a machine with incorrectly measu"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > span.jump-links-item",
+    "x": 15,
+    "y": 924,
+    "w": 221,
+    "h": 46,
+    "text": "washing machine tips & advice"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > span.jump-links-item",
+    "x": 276,
+    "y": 924,
+    "w": 304,
+    "h": 46,
+    "text": "how to use a washer – step-by-step guide"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.topic-hub-heading.section > div.default-content-wrapper > h2#washing-machine-tips--advice",
+    "x": 15,
+    "y": 989,
+    "w": 330,
+    "h": 59,
+    "level": 2,
+    "text": "washing machine tips & advice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.plp-related-item > div.plp-related-image > a",
+    "x": 0,
+    "y": 1095,
+    "w": 360,
+    "h": 311,
+    "text": "a hand setting the program on a white washing machine",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine/guide-to-quick-wash"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 0,
+    "y": 1095,
+    "w": 360,
+    "h": 311,
+    "text": "a hand setting the program on a white washing machine",
+    "file": "media_1967df4a66215a92e95f7ab7da83253e68"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.plp-related-content > div.plp-related-item-title > p",
+    "x": 40,
+    "y": 1381,
+    "w": 280,
+    "h": 78,
+    "text": "Unleash the Power of Tide, Even In the Quick Wash"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.plp-related-content > div.plp-related-item-text > p",
+    "x": 40,
+    "y": 1474,
+    "w": 280,
+    "h": 80,
+    "text": "If your clothes are only slightly soiled and you need to save some time, use the"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.plp-related-link > p > a",
+    "x": 40,
+    "y": 1564,
+    "w": 97,
+    "h": 25,
+    "text": "read more",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine/guide-to-quick-wash"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.plp-related-item > div.plp-related-image > a",
+    "x": 0,
+    "y": 1644,
+    "w": 360,
+    "h": 311,
+    "text": "someone pushing the \"save energy plus\" button on a washing machine",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine/washer-sustainable-use"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 0,
+    "y": 1644,
+    "w": 360,
+    "h": 311,
+    "text": "someone pushing the \"save energy plus\" button on a washing m",
+    "file": "media_1c32e8f2f2d28cd4e17df94b0d2b53501a"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.plp-related-content > div.plp-related-item-title > p",
+    "x": 40,
+    "y": 1930,
+    "w": 280,
+    "h": 26,
+    "text": "Washer: Sustainable Use"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.plp-related-content > div.plp-related-item-text > p",
+    "x": 40,
+    "y": 1971,
+    "w": 280,
+    "h": 100,
+    "text": "Using your washer to its full potential is not only about getting the cleanest c"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.plp-related-link > p > a",
+    "x": 40,
+    "y": 2081,
+    "w": 97,
+    "h": 25,
+    "text": "read more",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine/washer-sustainable-use"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.plp-related-item > div.plp-related-image > a",
+    "x": 0,
+    "y": 2161,
+    "w": 360,
+    "h": 311,
+    "text": "a person selecting the wash cycle on a washing machine",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine/smelly-washing-machine-fixes"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 0,
+    "y": 2161,
+    "w": 360,
+    "h": 311,
+    "text": "a person selecting the wash cycle on a washing machine",
+    "file": "media_1e9d6244840c99416526663d5f47f908ee"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.plp-related-content > div.plp-related-item-title > p",
+    "x": 40,
+    "y": 2447,
+    "w": 280,
+    "h": 78,
+    "text": "How to Make a Smelly Washing Machine Fresh Again"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.plp-related-content > div.plp-related-item-text > p",
+    "x": 40,
+    "y": 2540,
+    "w": 280,
+    "h": 40,
+    "text": "No one likes a smelly washing machine."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.plp-related-link > p > a",
+    "x": 40,
+    "y": 2590,
+    "w": 97,
+    "h": 25,
+    "text": "read more",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine/smelly-washing-machine-fixes"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.plp-related-item > div.plp-related-image > a",
+    "x": 0,
+    "y": 2671,
+    "w": 360,
+    "h": 311,
+    "text": "too many suds in the washer",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine/too-many-suds-in-the-washer"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 0,
+    "y": 2671,
+    "w": 360,
+    "h": 311,
+    "text": "too many suds in the washer",
+    "file": "media_12edb33e21c0bbee0b8418fbf6f42e5a9e"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.plp-related-content > div.plp-related-item-title > p",
+    "x": 40,
+    "y": 2957,
+    "w": 280,
+    "h": 52,
+    "text": "Too Many Suds in the Washer"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.plp-related-content > div.plp-related-item-text > p",
+    "x": 40,
+    "y": 3024,
+    "w": 280,
+    "h": 120,
+    "text": "Too many suds in your washer can lead to poorly washed clothes and the need to w"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.plp-related-link > p > a",
+    "x": 40,
+    "y": 3154,
+    "w": 97,
+    "h": 25,
+    "text": "read more",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine/too-many-suds-in-the-washer"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.plp-related-content > div.plp-related-item-title > p",
+    "x": 40,
+    "y": 3259,
+    "w": 280,
+    "h": 78,
+    "text": "Keep Your Washer Running Smoothly with Tide"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.plp-related-content > div.plp-related-item-text > p",
+    "x": 40,
+    "y": 3352,
+    "w": 280,
+    "h": 100,
+    "text": "Washing machines are essential in our daily lives, but like all appliances, they"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.plp-related-link > p > a",
+    "x": 40,
+    "y": 3462,
+    "w": 97,
+    "h": 25,
+    "text": "read more",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine/preventing-detergent-buildup"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.plp-related-content > div.plp-related-item-title > p",
+    "x": 40,
+    "y": 3567,
+    "w": 280,
+    "h": 78,
+    "text": "How to Use a Washing Machine: Frequently Asked Questions"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.plp-related-content > div.plp-related-item-text > p",
+    "x": 40,
+    "y": 3660,
+    "w": 280,
+    "h": 100,
+    "text": "Doing laundry can be straightforward with the right knowledge and products. At T"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.plp-related-link > p > a",
+    "x": 40,
+    "y": 3770,
+    "w": 97,
+    "h": 25,
+    "text": "read more",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine/washing-machine-faq"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.plp-related-content > div.plp-related-item-title > p",
+    "x": 40,
+    "y": 3875,
+    "w": 280,
+    "h": 156,
+    "text": "How to Use Tide evo in Your Washing Machine: A Comprehensive Guide to Getting Th"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.plp-related-content > div.plp-related-item-text > p",
+    "x": 40,
+    "y": 4046,
+    "w": 280,
+    "h": 120,
+    "text": "Tide evo is a revolutionary, 100% concentrated detergent tile that offers superi"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.plp-related-link > p > a",
+    "x": 40,
+    "y": 4176,
+    "w": 97,
+    "h": 25,
+    "text": "read more",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine/how-to-use-tide-evo-in-your-washing-machine"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.container > div.thgh-head > h2#how-to-use-a-washer--step-by-step-guide",
+    "x": 15,
+    "y": 4286,
+    "w": 330,
+    "h": 132,
+    "level": 2,
+    "text": "how to use a washer – step-by-step guide"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.container > div.thgh-head > p",
+    "x": 15,
+    "y": 4438,
+    "w": 330,
+    "h": 380,
+    "text": "Washing machines may look like magic – in goes your dirty laundry, and out comes"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.step-timeline-headline > div.step-timeline-intro > h3#how-to-use-a-washer--step-by-step-guide-1",
+    "x": 15,
+    "y": 4828,
+    "w": 330,
+    "h": 108,
+    "level": 3,
+    "text": "how to use a washer – step-by-step guide"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.step-timeline-content > div.step-timeline-title > p",
+    "x": 55,
+    "y": 4986,
+    "w": 290,
+    "h": 52,
+    "text": "Step 1. Separate Your Laundry"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.step-timeline-content > div.step-timeline-text > p",
+    "x": 55,
+    "y": 5048,
+    "w": 290,
+    "h": 212,
+    "text": "into different piles based on is step number one. You should also of each garmen"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.step-timeline-text > p > a",
+    "x": 55,
+    "y": 5050,
+    "w": 165,
+    "h": 19,
+    "text": "sorting your laundry",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/how-to-sort-your-laundry-for-the-best-results"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.step-timeline-text > p > a",
+    "x": 172,
+    "y": 5074,
+    "w": 166,
+    "h": 19,
+    "text": "fabric type and color",
+    "href": "/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.step-timeline-text > p > a",
+    "x": 55,
+    "y": 5118,
+    "w": 158,
+    "h": 19,
+    "text": "check the care label",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry/how-to-read-laundry-symbols"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.step-timeline-content > div.step-timeline-title > p",
+    "x": 55,
+    "y": 5320,
+    "w": 290,
+    "h": 52,
+    "text": "Step 2. Choose the Right Washing Cycle"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.step-timeline-content > div.step-timeline-text > p",
+    "x": 55,
+    "y": 5382,
+    "w": 290,
+    "h": 264,
+    "text": "Wash cycles consist of two important speeds: A speed at which it agitates or tum"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.step-timeline-text > p > a",
+    "x": 55,
+    "y": 5624,
+    "w": 96,
+    "h": 19,
+    "text": "quick cycles",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine/guide-to-quick-wash"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.step-timeline-content > div.step-timeline-title > p",
+    "x": 55,
+    "y": 5706,
+    "w": 290,
+    "h": 52,
+    "text": "Step 3. Set the Water Temperature"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.step-timeline-content > div.step-timeline-text > p",
+    "x": 55,
+    "y": 5768,
+    "w": 290,
+    "h": 448,
+    "text": "Using the correct water setting in your washer can make a world of difference in"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.step-timeline-text > p > a",
+    "x": 55,
+    "y": 6170,
+    "w": 281,
+    "h": 43,
+    "text": "save energy and protect the environment",
+    "href": "/en-us/our-commitment/sustainability/saving-energy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.step-timeline-content > div.step-timeline-text > p",
+    "x": 55,
+    "y": 6216,
+    "w": 290,
+    "h": 80,
+    "text": "Designed to deliver outstanding stain removal in all water conditions, Tide laun"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.step-timeline-content > div.step-timeline-title > p",
+    "x": 55,
+    "y": 6356,
+    "w": 290,
+    "h": 52,
+    "text": "Step 4. Add Detergent and Fabric Softener"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.step-timeline-content > div.step-timeline-text > p",
+    "x": 55,
+    "y": 6418,
+    "w": 290,
+    "h": 248,
+    "text": "Before adding your choice of detergent and , make sure you read your washer’s ma"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.step-timeline-text > p > a",
+    "x": 170,
+    "y": 6440,
+    "w": 118,
+    "h": 19,
+    "text": "fabric softener",
+    "href": "/en-us/how-to-wash-clothes/how-to-remove-stains/fabric-softener-stains"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.step-timeline-text > p > a",
+    "x": 77,
+    "y": 6624,
+    "w": 224,
+    "h": 19,
+    "text": "too much laundry detergent",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101/how-to-use-a-washing-machine/too-many-suds-in-the-washer"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.step-timeline-content > div.step-timeline-text > p",
+    "x": 55,
+    "y": 6666,
+    "w": 290,
+    "h": 84,
+    "text": "Alternatively, you can just pop a pac of in your empty washing machine drum and "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.step-timeline-text > p > a",
+    "x": 76,
+    "y": 6688,
+    "w": 86,
+    "h": 19,
+    "text": "tide pods",
+    "href": "/en-us/our-commitment/americas-number-one-detergent/our-products/laundry-pacs/how-to-use-tide-pods"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.step-timeline-content > div.step-timeline-title > p",
+    "x": 55,
+    "y": 6810,
+    "w": 290,
+    "h": 52,
+    "text": "Step 5. Load the Washing Machine"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.step-timeline-content > div.step-timeline-text > p",
+    "x": 55,
+    "y": 6872,
+    "w": 290,
+    "h": 160,
+    "text": "This is the step where you dump your clothes into your washer. Make sure not to "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 75,
+    "y": 7050,
+    "w": 208,
+    "h": 20,
+    "text": "Small loads: ⅓ of the drum"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 75,
+    "y": 7074,
+    "w": 227,
+    "h": 20,
+    "text": "Medium loads: ½ of the drum"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > p",
+    "x": 75,
+    "y": 7098,
+    "w": 209,
+    "h": 20,
+    "text": "Large loads: ¾ of the drum"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.step-timeline-content > div.step-timeline-title > p",
+    "x": 55,
+    "y": 7196,
+    "w": 290,
+    "h": 52,
+    "text": "Step 6. Turn on the Washer"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.step-timeline-content > div.step-timeline-text > p",
+    "x": 55,
+    "y": 7258,
+    "w": 290,
+    "h": 120,
+    "text": "Just close the door and hit the Start button. Some washing machines can indicate"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.step-timeline-content > div.step-timeline-text > p",
+    "x": 55,
+    "y": 7378,
+    "w": 290,
+    "h": 84,
+    "text": "Leave your washing machine door open after use to allow it to air out and help p"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.step-timeline-text > p > a",
+    "x": 269,
+    "y": 7420,
+    "w": 58,
+    "h": 19,
+    "text": "mildew",
+    "href": "/en-us/how-to-wash-clothes/how-to-remove-stains/mildew-stains"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.step-timeline-content > div.step-timeline-title > p",
+    "x": 55,
+    "y": 7522,
+    "w": 290,
+    "h": 52,
+    "text": "Step 7. Clean Your Washing Machine"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.step-timeline-content > div.step-timeline-text > p",
+    "x": 55,
+    "y": 7584,
+    "w": 290,
+    "h": 120,
+    "text": "Regular cleaning with a washing machine cleaner is an important part of knowing "
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.topic-hub-prose.section > div.default-content-wrapper > h2#common-mistakes-to-avoid-when-using-a-washing-machine",
+    "x": 15,
+    "y": 7752,
+    "w": 330,
+    "h": 88,
+    "level": 2,
+    "text": "common mistakes to avoid when using a washing machine"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.topic-hub-prose.section > div.default-content-wrapper > p",
+    "x": 15,
+    "y": 7858,
+    "w": 330,
+    "h": 80,
+    "text": "Besides overloading your machine and using too much detergent, there are some co"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > p",
+    "x": 55,
+    "y": 7952,
+    "w": 290,
+    "h": 100,
+    "text": "Don’t leave anything in pockets. Check all pockets before washing for things lik"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > p",
+    "x": 55,
+    "y": 8052,
+    "w": 290,
+    "h": 180,
+    "text": "Don’t put fabric softener directly on top of your laundry. Fabric softener shoul"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > p",
+    "x": 55,
+    "y": 8232,
+    "w": 290,
+    "h": 160,
+    "text": "Don’t leave wet clothes in the drum for a long time. Moisture from wet clothes c"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > p",
+    "x": 55,
+    "y": 8392,
+    "w": 290,
+    "h": 220,
+    "text": "If your washing machine is broken, don’t try to fix it yourself. Minor washing m"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.topic-hub-back-to-top-wrapper > div.topic-hub-back-to-top.block > div.topic-hub-back-to-top-btn",
+    "x": 150,
+    "y": 8676,
+    "w": 60,
+    "h": 60,
+    "text": "back to top"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.footer-social-label > p",
+    "x": 15,
+    "y": 8796,
+    "w": 242,
+    "h": 19,
+    "text": "Ways to connect with us:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 8835,
+    "w": 32,
+    "h": 32,
+    "text": "facebook icon",
+    "href": "/Tide"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 15,
+    "y": 8835,
+    "w": 32,
+    "h": 32,
+    "text": "facebook icon",
+    "file": "media_1bff7d59c4067314b47f0571184d0ed529"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 62,
+    "y": 8835,
+    "w": 32,
+    "h": 32,
+    "text": "twitter icon",
+    "href": "/tide"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 62,
+    "y": 8835,
+    "w": 32,
+    "h": 32,
+    "text": "twitter icon",
+    "file": "media_1d4bf414ff3eeeb8a169b214b0c8bbf72a"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 109,
+    "y": 8835,
+    "w": 32,
+    "h": 32,
+    "text": "pinterest icon",
+    "href": "/tide/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 109,
+    "y": 8835,
+    "w": 32,
+    "h": 32,
+    "text": "pinterest icon",
+    "file": "media_18cdbba8bc0f0f7a172257ff84fa5200d5"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 156,
+    "y": 8835,
+    "w": 32,
+    "h": 32,
+    "text": "youtube icon",
+    "href": "/channel/UCEPeWPjaF1CWCKXa3xTp7vw"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 156,
+    "y": 8835,
+    "w": 32,
+    "h": 32,
+    "text": "youtube icon",
+    "file": "media_11266d14e9b1e9a4b88cdddb13b60dadbd"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col > div.footer-nav-title > p",
+    "x": 15,
+    "y": 8927,
+    "w": 330,
+    "h": 51,
+    "text": "Shop Products"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > div.expandable > div.expandable-header",
+    "x": 15,
+    "y": 9020,
+    "w": 330,
+    "h": 24,
+    "level": 4,
+    "text": "by type"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > div.expandable > div.expandable-header",
+    "x": 15,
+    "y": 9104,
+    "w": 330,
+    "h": 24,
+    "level": 4,
+    "text": "by need"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > div.expandable > div.expandable-header",
+    "x": 15,
+    "y": 9188,
+    "w": 330,
+    "h": 24,
+    "level": 4,
+    "text": "top collection"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col.col-md-6 > div.footer-nav-title > p",
+    "x": 15,
+    "y": 9280,
+    "w": 330,
+    "h": 51,
+    "text": "How to Wash Clothes"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 9348,
+    "w": 177,
+    "h": 18,
+    "text": "how to remove stains",
+    "href": "/en-us/how-to-wash-clothes/how-to-remove-stains"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 9380,
+    "w": 153,
+    "h": 18,
+    "text": "how to do laundry",
+    "href": "/en-us/how-to-wash-clothes/how-to-do-laundry"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 9412,
+    "w": 289,
+    "h": 18,
+    "text": "washing different fabrics and colors",
+    "href": "/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 9444,
+    "w": 163,
+    "h": 18,
+    "text": "washing machine 101",
+    "href": "/en-us/how-to-wash-clothes/washing-machine-101"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col.col-md-6 > div.footer-nav-title > p",
+    "x": 15,
+    "y": 9509,
+    "w": 330,
+    "h": 51,
+    "text": "Help & Support"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 9577,
+    "w": 85,
+    "h": 18,
+    "text": "contact us",
+    "href": "/en-us/contact-us"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col.footer-related > div.footer-related-label > p",
+    "x": 15,
+    "y": 9673,
+    "w": 81,
+    "h": 24,
+    "text": "Related:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 9705,
+    "w": 93,
+    "h": 18,
+    "text": "p&g brands",
+    "href": "/en_US"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 123,
+    "y": 9705,
+    "w": 64,
+    "h": 18,
+    "text": "mrclean",
+    "href": "/en-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 202,
+    "y": 9705,
+    "w": 54,
+    "h": 18,
+    "text": "downy",
+    "href": "/en-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 271,
+    "y": 9705,
+    "w": 58,
+    "h": 18,
+    "text": "bounce",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 9737,
+    "w": 110,
+    "h": 18,
+    "text": "p&g everyday",
+    "href": "/tag/tide"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 18,
+    "y": 9856,
+    "w": 82,
+    "h": 16,
+    "text": "good housekeeping icon",
+    "href": "/product-reviews/history/welcome-gh-seal"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 18,
+    "y": 9807,
+    "w": 82,
+    "h": 62,
+    "text": "good housekeeping icon",
+    "file": "media_1915c270d4d20b18fb25a1cc6c49da3f7d"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 130,
+    "y": 9856,
+    "w": 38,
+    "h": 16,
+    "text": "bbb icon",
+    "href": "/cincinnati/business-reviews/detergent/the-procter-gamble-company-in-cincinnati-oh-3036"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 130,
+    "y": 9807,
+    "w": 38,
+    "h": 62,
+    "text": "bbb icon",
+    "file": "media_152462ed6c7d03edb0c9b2df4a3225edd6"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 198,
+    "y": 9856,
+    "w": 58,
+    "h": 16,
+    "text": "junk food icon",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 198,
+    "y": 9807,
+    "w": 58,
+    "h": 62,
+    "text": "junk food icon",
+    "file": "media_174cf4b58ab063651ffe4f10a66e62cdaf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 286,
+    "y": 9856,
+    "w": 56,
+    "h": 16,
+    "text": "tide cleaners icon",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 286,
+    "y": 9807,
+    "w": 56,
+    "h": 62,
+    "text": "tide cleaners icon",
+    "file": "media_124ea7973b6834e8157f4329ff2eee77c6"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 9927,
+    "w": 179,
+    "h": 18,
+    "text": "accessibility statement",
+    "href": "/en-US"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 9959,
+    "w": 150,
+    "h": 18,
+    "text": "terms & conditions",
+    "href": "/en-us/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 9991,
+    "w": 279,
+    "h": 18,
+    "text": "tide rewards terms and conditions",
+    "href": "/en-us/rewards/loyalty/terms-and-conditions"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 10023,
+    "w": 60,
+    "h": 18,
+    "text": "careers",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 90,
+    "y": 10023,
+    "w": 56,
+    "h": 18,
+    "text": "privacy",
+    "href": "/en-US/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 10055,
+    "w": 287,
+    "h": 18,
+    "text": "consumer health data privacy policy",
+    "href": "/CHD-en"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 10087,
+    "w": 187,
+    "h": 18,
+    "text": "your privacy choices",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > span",
+    "x": 15,
+    "y": 10119,
+    "w": 276,
+    "h": 50,
+    "text": "NOTICE: We may sell your sensitive personal data."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col.footer-general > ul > li",
+    "x": 15,
+    "y": 10272,
+    "w": 199,
+    "h": 32,
+    "text": "© 2026 Procter & Gamble"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 15,
+    "y": 10354,
+    "w": 64,
+    "h": 32,
+    "text": "sitemap",
+    "href": "/en-us/sitemap"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 2,
+    "offPage": 2,
+    "textNodes": 108,
+    "controls": 62,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "nav",
+     "path": "nav > ul > li > span.jump-links-item",
+     "text": "how to use a washer – step-by-step guide",
+     "cutMin": 235,
+     "cutMax": 235
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "nav",
+     "path": "nav > ul > li > span.jump-links-item",
+     "text": "how to use a washer – step-by-step guide",
+     "cutMin": 235,
+     "cutMax": 235
+    }
+   ],
+   "findings": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "cut": 235,
+     "path": "nav > ul > li > span.jump-links-item",
+     "text": "how to use a washer – step-by-step guide",
+     "clipper": "nav",
+     "rect": {
+      "l": 276,
+      "t": 924,
+      "r": 580,
+      "b": 970,
+      "w": 304,
+      "h": 46
+     },
+     "clip": {
+      "l": 15,
+      "t": 924,
+      "r": 345,
+      "b": 970,
+      "w": 330,
+      "h": 46
+     }
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 235,
+     "path": "nav > ul > li > span.jump-links-item",
+     "text": "how to use a washer – step-by-step guide",
+     "clipper": "nav",
+     "rect": {
+      "l": 276,
+      "t": 939,
+      "r": 580,
+      "b": 955,
+      "w": 304,
+      "h": 16
+     },
+     "clip": {
+      "l": 15,
+      "t": 924,
+      "r": 345,
+      "b": 970,
+      "w": 330,
+      "h": 46
+     },
+     "lines": 1
+    }
+   ]
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 8,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 8,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "how to use a washing machine",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 2,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK"
+   ]
+  },
+  {
+   "index": 2,
+   "heading": "washing machine tips & advice",
+   "variable": false,
+   "origin": {
+    "link": 11,
+    "button": 0,
+    "text": 14,
+    "image": 4
+   },
+   "eds": {
+    "link": 11,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 14,
+    "textHidden": 0,
+    "image": 4,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "how to use a washer – step-by-step guide",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "how to use a washer – step-by-step guide",
+   "variable": false,
+   "origin": {
+    "link": 9,
+    "button": 0,
+    "text": 20,
+    "image": 0
+   },
+   "eds": {
+    "link": 9,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 20,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "common mistakes to avoid when using a washing machine",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 5,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 5,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"how to use a washer – step-by-step guide\" served in band \"how to use a washing machine\", no origin link or button",
+   "band": 1,
+   "n": 1,
+   "text": "how to use a washer – step-by-step guide"
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 1,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 1,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 15,
+    "y": 292,
+    "w": 57,
+    "h": 22
+   },
+   {
+    "x": 91,
+    "y": 292,
+    "w": 127,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 317,
+    "w": 71,
+    "h": 22
+   },
+   {
+    "x": 106,
+    "y": 317,
+    "w": 166,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 341,
+    "w": 27,
+    "h": 22
+   },
+   {
+    "x": 61,
+    "y": 341,
+    "w": 213,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 366,
+    "w": 79,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 460,
+    "w": 239,
+    "h": 44
+   },
+   {
+    "x": 15,
+    "y": 500,
+    "w": 320,
+    "h": 44
+   },
+   {
+    "x": 15,
+    "y": 552,
+    "w": 280,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 576,
+    "w": 306,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 600,
+    "w": 293,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 624,
+    "w": 289,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 648,
+    "w": 72,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 690,
+    "w": 277,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 714,
+    "w": 301,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 738,
+    "w": 307,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 762,
+    "w": 288,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 786,
+    "w": 318,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 810,
+    "w": 319,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 834,
+    "w": 263,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 858,
+    "w": 173,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 964,
+    "w": 221,
+    "h": 16
+   },
+   {
+    "x": 276,
+    "y": 964,
+    "w": 304,
+    "h": 16
+   },
+   {
+    "x": 15,
+    "y": 1015,
+    "w": 253,
+    "h": 25
+   },
+   {
+    "x": 15,
+    "y": 1045,
+    "w": 72,
+    "h": 25
+   },
+   {
+    "x": 40,
+    "y": 1405,
+    "w": 240,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 1431,
+    "w": 256,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 1457,
+    "w": 61,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 1500,
+    "w": 236,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1520,
+    "w": 264,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1540,
+    "w": 260,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1560,
+    "w": 178,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1591,
+    "w": 97,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 1954,
+    "w": 276,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 1997,
+    "w": 215,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2017,
+    "w": 262,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2037,
+    "w": 269,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2057,
+    "w": 251,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2077,
+    "w": 264,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2108,
+    "w": 97,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2472,
+    "w": 247,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 2498,
+    "w": 263,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 2524,
+    "w": 65,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 2567,
+    "w": 231,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2587,
+    "w": 69,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2618,
+    "w": 97,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2982,
+    "w": 238,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 3008,
+    "w": 85,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 3051,
+    "w": 269,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3071,
+    "w": 267,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3091,
+    "w": 278,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3111,
+    "w": 258,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3131,
+    "w": 273,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3151,
+    "w": 82,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3182,
+    "w": 97,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 3284,
+    "w": 205,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 3310,
+    "w": 265,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 3336,
+    "w": 50,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 3379,
+    "w": 265,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3399,
+    "w": 192,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3419,
+    "w": 227,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3439,
+    "w": 271,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3459,
+    "w": 77,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3490,
+    "w": 97,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 3592,
+    "w": 248,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 3618,
+    "w": 229,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 3644,
+    "w": 190,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 3687,
+    "w": 166,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3707,
+    "w": 229,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3727,
+    "w": 262,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3747,
+    "w": 278,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3767,
+    "w": 212,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3798,
+    "w": 97,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 3900,
+    "w": 255,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 3926,
+    "w": 259,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 3952,
+    "w": 270,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 3978,
+    "w": 220,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 4004,
+    "w": 241,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 4030,
+    "w": 94,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 4073,
+    "w": 250,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4093,
+    "w": 247,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4113,
+    "w": 240,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4133,
+    "w": 241,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4153,
+    "w": 231,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4173,
+    "w": 275,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4204,
+    "w": 97,
+    "h": 21
+   },
+   {
+    "x": 15,
+    "y": 4309,
+    "w": 266,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 4353,
+    "w": 311,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 4397,
+    "w": 293,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 4463,
+    "w": 306,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 4483,
+    "w": 327,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 4503,
+    "w": 250,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 4523,
+    "w": 325,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 4543,
+    "w": 299,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 4563,
+    "w": 262,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 4583,
+    "w": 314,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 4603,
+    "w": 327,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 4623,
+    "w": 272,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 4643,
+    "w": 296,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 4663,
+    "w": 244,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 4683,
+    "w": 301,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 4703,
+    "w": 290,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 4723,
+    "w": 283,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 4743,
+    "w": 303,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 4763,
+    "w": 330,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 4783,
+    "w": 275,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 4803,
+    "w": 295,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 4823,
+    "w": 57,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 4852,
+    "w": 213,
+    "h": 39
+   },
+   {
+    "x": 15,
+    "y": 4888,
+    "w": 303,
+    "h": 39
+   },
+   {
+    "x": 15,
+    "y": 4924,
+    "w": 180,
+    "h": 39
+   },
+   {
+    "x": 55,
+    "y": 5011,
+    "w": 238,
+    "h": 28
+   },
+   {
+    "x": 55,
+    "y": 5037,
+    "w": 94,
+    "h": 28
+   },
+   {
+    "x": 55,
+    "y": 5077,
+    "w": 165,
+    "h": 19
+   },
+   {
+    "x": 220,
+    "y": 5077,
+    "w": 105,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5101,
+    "w": 117,
+    "h": 18
+   },
+   {
+    "x": 172,
+    "y": 5101,
+    "w": 166,
+    "h": 19
+   },
+   {
+    "x": 55,
+    "y": 5124,
+    "w": 280,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5145,
+    "w": 158,
+    "h": 19
+   },
+   {
+    "x": 213,
+    "y": 5145,
+    "w": 62,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5168,
+    "w": 282,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5188,
+    "w": 268,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5208,
+    "w": 272,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5228,
+    "w": 286,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5248,
+    "w": 282,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5268,
+    "w": 256,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5346,
+    "w": 277,
+    "h": 28
+   },
+   {
+    "x": 55,
+    "y": 5372,
+    "w": 163,
+    "h": 28
+   },
+   {
+    "x": 55,
+    "y": 5410,
+    "w": 211,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5430,
+    "w": 282,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5450,
+    "w": 264,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5470,
+    "w": 266,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5490,
+    "w": 275,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5510,
+    "w": 244,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5530,
+    "w": 264,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5550,
+    "w": 286,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5570,
+    "w": 266,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5590,
+    "w": 265,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5610,
+    "w": 283,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5630,
+    "w": 251,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5651,
+    "w": 96,
+    "h": 19
+   },
+   {
+    "x": 151,
+    "y": 5651,
+    "w": 4,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5732,
+    "w": 239,
+    "h": 28
+   },
+   {
+    "x": 55,
+    "y": 5758,
+    "w": 146,
+    "h": 28
+   },
+   {
+    "x": 55,
+    "y": 5797,
+    "w": 259,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5817,
+    "w": 260,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5837,
+    "w": 285,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5857,
+    "w": 285,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5877,
+    "w": 245,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5897,
+    "w": 289,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5917,
+    "w": 275,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5937,
+    "w": 272,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5957,
+    "w": 278,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5977,
+    "w": 245,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5997,
+    "w": 212,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6017,
+    "w": 273,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6037,
+    "w": 275,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6057,
+    "w": 271,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6077,
+    "w": 266,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6097,
+    "w": 286,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6117,
+    "w": 249,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6137,
+    "w": 269,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6157,
+    "w": 258,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6177,
+    "w": 263,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6198,
+    "w": 150,
+    "h": 18
+   },
+   {
+    "x": 205,
+    "y": 6198,
+    "w": 131,
+    "h": 19
+   },
+   {
+    "x": 55,
+    "y": 6222,
+    "w": 195,
+    "h": 19
+   },
+   {
+    "x": 250,
+    "y": 6222,
+    "w": 4,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6245,
+    "w": 288,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6265,
+    "w": 277,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6285,
+    "w": 284,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6305,
+    "w": 288,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6383,
+    "w": 252,
+    "h": 28
+   },
+   {
+    "x": 55,
+    "y": 6409,
+    "w": 222,
+    "h": 28
+   },
+   {
+    "x": 55,
+    "y": 6448,
+    "w": 225,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6469,
+    "w": 115,
+    "h": 18
+   },
+   {
+    "x": 170,
+    "y": 6469,
+    "w": 118,
+    "h": 19
+   },
+   {
+    "x": 288,
+    "y": 6469,
+    "w": 51,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6492,
+    "w": 280,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6512,
+    "w": 265,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6532,
+    "w": 274,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6552,
+    "w": 264,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6572,
+    "w": 234,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6592,
+    "w": 241,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6612,
+    "w": 269,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6632,
+    "w": 272,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6653,
+    "w": 22,
+    "h": 18
+   },
+   {
+    "x": 77,
+    "y": 6653,
+    "w": 224,
+    "h": 19
+   },
+   {
+    "x": 55,
+    "y": 6676,
+    "w": 176,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6696,
+    "w": 281,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6717,
+    "w": 21,
+    "h": 18
+   },
+   {
+    "x": 76,
+    "y": 6717,
+    "w": 86,
+    "h": 19
+   },
+   {
+    "x": 161,
+    "y": 6717,
+    "w": 182,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6740,
+    "w": 269,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6760,
+    "w": 76,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6838,
+    "w": 284,
+    "h": 28
+   },
+   {
+    "x": 55,
+    "y": 6864,
+    "w": 94,
+    "h": 28
+   },
+   {
+    "x": 55,
+    "y": 6902,
+    "w": 254,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6922,
+    "w": 278,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6942,
+    "w": 272,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6962,
+    "w": 251,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6982,
+    "w": 229,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 7002,
+    "w": 247,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 7022,
+    "w": 223,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 7042,
+    "w": 272,
+    "h": 18
+   },
+   {
+    "x": 75,
+    "y": 7078,
+    "w": 208,
+    "h": 18
+   },
+   {
+    "x": 75,
+    "y": 7102,
+    "w": 227,
+    "h": 18
+   },
+   {
+    "x": 75,
+    "y": 7126,
+    "w": 209,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 7224,
+    "w": 214,
+    "h": 28
+   },
+   {
+    "x": 55,
+    "y": 7250,
+    "w": 85,
+    "h": 28
+   },
+   {
+    "x": 55,
+    "y": 7289,
+    "w": 280,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 7309,
+    "w": 284,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 7329,
+    "w": 258,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 7349,
+    "w": 267,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 7369,
+    "w": 273,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 7389,
+    "w": 145,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 7409,
+    "w": 266,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 7429,
+    "w": 270,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 7450,
+    "w": 214,
+    "h": 18
+   },
+   {
+    "x": 269,
+    "y": 7450,
+    "w": 58,
+    "h": 19
+   },
+   {
+    "x": 55,
+    "y": 7473,
+    "w": 110,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 7551,
+    "w": 203,
+    "h": 28
+   },
+   {
+    "x": 55,
+    "y": 7577,
+    "w": 196,
+    "h": 28
+   },
+   {
+    "x": 55,
+    "y": 7615,
+    "w": 250,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 7635,
+    "w": 286,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 7655,
+    "w": 246,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 7675,
+    "w": 252,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 7695,
+    "w": 273,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 7715,
+    "w": 235,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 7784,
+    "w": 287,
+    "h": 25
+   },
+   {
+    "x": 15,
+    "y": 7813,
+    "w": 241,
+    "h": 25
+   },
+   {
+    "x": 15,
+    "y": 7843,
+    "w": 87,
+    "h": 25
+   },
+   {
+    "x": 15,
+    "y": 7888,
+    "w": 300,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 7908,
+    "w": 327,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 7928,
+    "w": 325,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 7948,
+    "w": 109,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 7982,
+    "w": 246,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8002,
+    "w": 288,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8022,
+    "w": 255,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8042,
+    "w": 248,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8062,
+    "w": 238,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8082,
+    "w": 277,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8102,
+    "w": 273,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8122,
+    "w": 278,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8142,
+    "w": 267,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8162,
+    "w": 238,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8182,
+    "w": 215,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8202,
+    "w": 235,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8222,
+    "w": 283,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8242,
+    "w": 284,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8262,
+    "w": 275,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8282,
+    "w": 266,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8302,
+    "w": 272,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8322,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8342,
+    "w": 255,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8362,
+    "w": 275,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8382,
+    "w": 238,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8402,
+    "w": 64,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8422,
+    "w": 268,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8442,
+    "w": 243,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8462,
+    "w": 279,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8482,
+    "w": 230,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8502,
+    "w": 265,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8522,
+    "w": 274,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8542,
+    "w": 235,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8562,
+    "w": 232,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8582,
+    "w": 276,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8602,
+    "w": 254,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8622,
+    "w": 283,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 8822,
+    "w": 242,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 8955,
+    "w": 166,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 9049,
+    "w": 80,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 9133,
+    "w": 81,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 9217,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 9308,
+    "w": 239,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 9377,
+    "w": 177,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 9409,
+    "w": 153,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 9441,
+    "w": 289,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 9473,
+    "w": 163,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 9537,
+    "w": 172,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 9606,
+    "w": 85,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 9702,
+    "w": 81,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 9735,
+    "w": 93,
+    "h": 18
+   },
+   {
+    "x": 123,
+    "y": 9735,
+    "w": 64,
+    "h": 18
+   },
+   {
+    "x": 202,
+    "y": 9735,
+    "w": 54,
+    "h": 18
+   },
+   {
+    "x": 271,
+    "y": 9735,
+    "w": 58,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 9767,
+    "w": 110,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 9957,
+    "w": 179,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 9989,
+    "w": 150,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 10021,
+    "w": 279,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 10053,
+    "w": 60,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 10053,
+    "w": 56,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 10085,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 10117,
+    "w": 162,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 10149,
+    "w": 276,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 10181,
+    "w": 110,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 10213,
+    "w": 258,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 10245,
+    "w": 268,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 10277,
+    "w": 88,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 10309,
+    "w": 56,
+    "h": 18
+   },
+   {
+    "x": 71,
+    "y": 10309,
+    "w": 143,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 10391,
+    "w": 64,
+    "h": 18
+   }
+  ],
+  "eds": [
+   {
+    "x": 127,
+    "y": -31,
+    "w": 106,
+    "h": 16
+   },
+   {
+    "x": 15,
+    "y": 292,
+    "w": 57,
+    "h": 22
+   },
+   {
+    "x": 95,
+    "y": 292,
+    "w": 203,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 317,
+    "w": 198,
+    "h": 22
+   },
+   {
+    "x": 237,
+    "y": 317,
+    "w": 69,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 341,
+    "w": 222,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 435,
+    "w": 239,
+    "h": 44
+   },
+   {
+    "x": 15,
+    "y": 475,
+    "w": 320,
+    "h": 44
+   },
+   {
+    "x": 15,
+    "y": 527,
+    "w": 280,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 551,
+    "w": 306,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 575,
+    "w": 293,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 599,
+    "w": 289,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 623,
+    "w": 72,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 665,
+    "w": 277,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 689,
+    "w": 301,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 713,
+    "w": 307,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 737,
+    "w": 288,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 761,
+    "w": 318,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 785,
+    "w": 319,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 809,
+    "w": 263,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 833,
+    "w": 173,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 939,
+    "w": 221,
+    "h": 16
+   },
+   {
+    "x": 276,
+    "y": 939,
+    "w": 304,
+    "h": 16
+   },
+   {
+    "x": 15,
+    "y": 991,
+    "w": 253,
+    "h": 25
+   },
+   {
+    "x": 15,
+    "y": 1020,
+    "w": 72,
+    "h": 25
+   },
+   {
+    "x": 40,
+    "y": 1380,
+    "w": 240,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 1406,
+    "w": 256,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 1432,
+    "w": 61,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 1475,
+    "w": 236,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1495,
+    "w": 264,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1515,
+    "w": 260,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1535,
+    "w": 178,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1566,
+    "w": 97,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 1929,
+    "w": 276,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 1972,
+    "w": 215,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 1992,
+    "w": 262,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2012,
+    "w": 269,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2032,
+    "w": 251,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2052,
+    "w": 264,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2083,
+    "w": 97,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2446,
+    "w": 247,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 2472,
+    "w": 263,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 2498,
+    "w": 65,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 2541,
+    "w": 231,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2561,
+    "w": 69,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 2592,
+    "w": 97,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2956,
+    "w": 238,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 2982,
+    "w": 85,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 3025,
+    "w": 269,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3045,
+    "w": 267,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3065,
+    "w": 278,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3085,
+    "w": 258,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3105,
+    "w": 273,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3125,
+    "w": 82,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3156,
+    "w": 97,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 3258,
+    "w": 205,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 3284,
+    "w": 265,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 3310,
+    "w": 50,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 3353,
+    "w": 265,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3373,
+    "w": 192,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3393,
+    "w": 227,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3413,
+    "w": 271,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3433,
+    "w": 77,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3464,
+    "w": 97,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 3566,
+    "w": 248,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 3592,
+    "w": 229,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 3618,
+    "w": 190,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 3661,
+    "w": 166,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3681,
+    "w": 229,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3701,
+    "w": 262,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3721,
+    "w": 278,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3741,
+    "w": 212,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 3772,
+    "w": 97,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 3874,
+    "w": 255,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 3900,
+    "w": 259,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 3926,
+    "w": 270,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 3952,
+    "w": 220,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 3978,
+    "w": 241,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 4004,
+    "w": 94,
+    "h": 28
+   },
+   {
+    "x": 40,
+    "y": 4047,
+    "w": 250,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4067,
+    "w": 247,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4087,
+    "w": 240,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4107,
+    "w": 241,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4127,
+    "w": 231,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4147,
+    "w": 275,
+    "h": 18
+   },
+   {
+    "x": 40,
+    "y": 4178,
+    "w": 97,
+    "h": 21
+   },
+   {
+    "x": 15,
+    "y": 4283,
+    "w": 266,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 4327,
+    "w": 311,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 4371,
+    "w": 293,
+    "h": 49
+   },
+   {
+    "x": 15,
+    "y": 4437,
+    "w": 306,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 4457,
+    "w": 327,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 4477,
+    "w": 250,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 4497,
+    "w": 325,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 4517,
+    "w": 299,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 4537,
+    "w": 262,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 4557,
+    "w": 314,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 4577,
+    "w": 327,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 4597,
+    "w": 272,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 4617,
+    "w": 296,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 4637,
+    "w": 244,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 4657,
+    "w": 301,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 4677,
+    "w": 290,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 4697,
+    "w": 283,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 4717,
+    "w": 303,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 4737,
+    "w": 330,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 4757,
+    "w": 275,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 4777,
+    "w": 295,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 4797,
+    "w": 57,
+    "h": 22
+   },
+   {
+    "x": 15,
+    "y": 4826,
+    "w": 213,
+    "h": 39
+   },
+   {
+    "x": 15,
+    "y": 4862,
+    "w": 303,
+    "h": 39
+   },
+   {
+    "x": 15,
+    "y": 4898,
+    "w": 180,
+    "h": 39
+   },
+   {
+    "x": 55,
+    "y": 4985,
+    "w": 238,
+    "h": 28
+   },
+   {
+    "x": 55,
+    "y": 5011,
+    "w": 94,
+    "h": 28
+   },
+   {
+    "x": 55,
+    "y": 5050,
+    "w": 165,
+    "h": 19
+   },
+   {
+    "x": 220,
+    "y": 5050,
+    "w": 105,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5074,
+    "w": 117,
+    "h": 18
+   },
+   {
+    "x": 172,
+    "y": 5074,
+    "w": 166,
+    "h": 19
+   },
+   {
+    "x": 55,
+    "y": 5097,
+    "w": 280,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5118,
+    "w": 158,
+    "h": 19
+   },
+   {
+    "x": 213,
+    "y": 5118,
+    "w": 62,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5141,
+    "w": 282,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5161,
+    "w": 268,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5181,
+    "w": 272,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5201,
+    "w": 286,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5221,
+    "w": 282,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5241,
+    "w": 256,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5319,
+    "w": 277,
+    "h": 28
+   },
+   {
+    "x": 55,
+    "y": 5345,
+    "w": 163,
+    "h": 28
+   },
+   {
+    "x": 55,
+    "y": 5383,
+    "w": 211,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5403,
+    "w": 282,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5423,
+    "w": 264,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5443,
+    "w": 266,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5463,
+    "w": 275,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5483,
+    "w": 244,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5503,
+    "w": 264,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5523,
+    "w": 286,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5543,
+    "w": 266,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5563,
+    "w": 265,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5583,
+    "w": 283,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5603,
+    "w": 251,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5624,
+    "w": 96,
+    "h": 19
+   },
+   {
+    "x": 151,
+    "y": 5624,
+    "w": 4,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5705,
+    "w": 239,
+    "h": 28
+   },
+   {
+    "x": 55,
+    "y": 5731,
+    "w": 146,
+    "h": 28
+   },
+   {
+    "x": 55,
+    "y": 5769,
+    "w": 259,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5789,
+    "w": 260,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5809,
+    "w": 285,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5829,
+    "w": 285,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5849,
+    "w": 245,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5869,
+    "w": 289,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5889,
+    "w": 275,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5909,
+    "w": 272,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5929,
+    "w": 278,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5949,
+    "w": 245,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5969,
+    "w": 212,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 5989,
+    "w": 273,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6009,
+    "w": 275,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6029,
+    "w": 271,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6049,
+    "w": 266,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6069,
+    "w": 286,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6089,
+    "w": 249,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6109,
+    "w": 269,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6129,
+    "w": 258,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6149,
+    "w": 263,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6170,
+    "w": 150,
+    "h": 18
+   },
+   {
+    "x": 205,
+    "y": 6170,
+    "w": 131,
+    "h": 19
+   },
+   {
+    "x": 55,
+    "y": 6194,
+    "w": 195,
+    "h": 19
+   },
+   {
+    "x": 250,
+    "y": 6194,
+    "w": 4,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6217,
+    "w": 288,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6237,
+    "w": 277,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6257,
+    "w": 284,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6277,
+    "w": 288,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6355,
+    "w": 252,
+    "h": 28
+   },
+   {
+    "x": 55,
+    "y": 6381,
+    "w": 222,
+    "h": 28
+   },
+   {
+    "x": 55,
+    "y": 6419,
+    "w": 225,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6440,
+    "w": 115,
+    "h": 18
+   },
+   {
+    "x": 170,
+    "y": 6440,
+    "w": 118,
+    "h": 19
+   },
+   {
+    "x": 288,
+    "y": 6440,
+    "w": 51,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6463,
+    "w": 280,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6483,
+    "w": 265,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6503,
+    "w": 274,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6523,
+    "w": 264,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6543,
+    "w": 234,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6563,
+    "w": 241,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6583,
+    "w": 269,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6603,
+    "w": 272,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6624,
+    "w": 22,
+    "h": 18
+   },
+   {
+    "x": 77,
+    "y": 6624,
+    "w": 224,
+    "h": 19
+   },
+   {
+    "x": 55,
+    "y": 6647,
+    "w": 176,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6667,
+    "w": 281,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6688,
+    "w": 21,
+    "h": 18
+   },
+   {
+    "x": 76,
+    "y": 6688,
+    "w": 86,
+    "h": 19
+   },
+   {
+    "x": 161,
+    "y": 6688,
+    "w": 182,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6711,
+    "w": 269,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6731,
+    "w": 76,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6809,
+    "w": 284,
+    "h": 28
+   },
+   {
+    "x": 55,
+    "y": 6835,
+    "w": 94,
+    "h": 28
+   },
+   {
+    "x": 55,
+    "y": 6873,
+    "w": 254,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6893,
+    "w": 278,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6913,
+    "w": 272,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6933,
+    "w": 251,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6953,
+    "w": 229,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6973,
+    "w": 247,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 6993,
+    "w": 223,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 7013,
+    "w": 272,
+    "h": 18
+   },
+   {
+    "x": 75,
+    "y": 7051,
+    "w": 208,
+    "h": 18
+   },
+   {
+    "x": 75,
+    "y": 7075,
+    "w": 227,
+    "h": 18
+   },
+   {
+    "x": 75,
+    "y": 7099,
+    "w": 209,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 7195,
+    "w": 214,
+    "h": 28
+   },
+   {
+    "x": 55,
+    "y": 7221,
+    "w": 85,
+    "h": 28
+   },
+   {
+    "x": 55,
+    "y": 7259,
+    "w": 280,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 7279,
+    "w": 284,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 7299,
+    "w": 258,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 7319,
+    "w": 267,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 7339,
+    "w": 273,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 7359,
+    "w": 145,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 7379,
+    "w": 266,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 7399,
+    "w": 270,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 7420,
+    "w": 214,
+    "h": 18
+   },
+   {
+    "x": 269,
+    "y": 7420,
+    "w": 58,
+    "h": 19
+   },
+   {
+    "x": 55,
+    "y": 7443,
+    "w": 110,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 7521,
+    "w": 203,
+    "h": 28
+   },
+   {
+    "x": 55,
+    "y": 7547,
+    "w": 196,
+    "h": 28
+   },
+   {
+    "x": 55,
+    "y": 7585,
+    "w": 250,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 7605,
+    "w": 286,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 7625,
+    "w": 246,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 7645,
+    "w": 252,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 7665,
+    "w": 273,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 7685,
+    "w": 235,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 7754,
+    "w": 287,
+    "h": 25
+   },
+   {
+    "x": 15,
+    "y": 7783,
+    "w": 241,
+    "h": 25
+   },
+   {
+    "x": 15,
+    "y": 7813,
+    "w": 87,
+    "h": 25
+   },
+   {
+    "x": 15,
+    "y": 7859,
+    "w": 300,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 7879,
+    "w": 327,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 7899,
+    "w": 325,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 7919,
+    "w": 109,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 7953,
+    "w": 246,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 7973,
+    "w": 288,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 7993,
+    "w": 255,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8013,
+    "w": 248,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8033,
+    "w": 238,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8053,
+    "w": 277,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8073,
+    "w": 273,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8093,
+    "w": 278,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8113,
+    "w": 267,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8133,
+    "w": 238,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8153,
+    "w": 215,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8173,
+    "w": 235,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8193,
+    "w": 283,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8213,
+    "w": 284,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8233,
+    "w": 275,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8253,
+    "w": 266,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8273,
+    "w": 272,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8293,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8313,
+    "w": 255,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8333,
+    "w": 275,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8353,
+    "w": 238,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8373,
+    "w": 64,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8393,
+    "w": 268,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8413,
+    "w": 243,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8433,
+    "w": 279,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8453,
+    "w": 230,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8473,
+    "w": 265,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8493,
+    "w": 274,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8513,
+    "w": 235,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8533,
+    "w": 232,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8553,
+    "w": 276,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8573,
+    "w": 254,
+    "h": 18
+   },
+   {
+    "x": 55,
+    "y": 8593,
+    "w": 283,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 8793,
+    "w": 242,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 8926,
+    "w": 166,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 9020,
+    "w": 80,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 9104,
+    "w": 81,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 9188,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 9279,
+    "w": 239,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 9348,
+    "w": 177,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 9380,
+    "w": 153,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 9412,
+    "w": 289,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 9444,
+    "w": 163,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 9508,
+    "w": 172,
+    "h": 28
+   },
+   {
+    "x": 15,
+    "y": 9577,
+    "w": 85,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 9673,
+    "w": 81,
+    "h": 24
+   },
+   {
+    "x": 15,
+    "y": 9705,
+    "w": 93,
+    "h": 18
+   },
+   {
+    "x": 123,
+    "y": 9705,
+    "w": 64,
+    "h": 18
+   },
+   {
+    "x": 202,
+    "y": 9705,
+    "w": 54,
+    "h": 18
+   },
+   {
+    "x": 271,
+    "y": 9705,
+    "w": 58,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 9737,
+    "w": 110,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 9927,
+    "w": 179,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 9959,
+    "w": 150,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 9991,
+    "w": 279,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 10023,
+    "w": 60,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 10023,
+    "w": 56,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 10055,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 10087,
+    "w": 162,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 10119,
+    "w": 276,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 10151,
+    "w": 110,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 10183,
+    "w": 258,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 10215,
+    "w": 268,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 10247,
+    "w": 88,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 10279,
+    "w": 199,
+    "h": 18
+   },
+   {
+    "x": 15,
+    "y": 10361,
+    "w": 64,
+    "h": 18
+   }
+  ]
+ }
+}

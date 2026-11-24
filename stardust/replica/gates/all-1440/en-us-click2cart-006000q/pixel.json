@@ -1,0 +1,90 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-us-click2cart-006000q/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-us-click2cart-006000q/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 1342,
+    "mode": "overlap"
+  },
+  "heightDelta": 38,
+  "differingPixels": 13952,
+  "pct": 0.72,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/en-us-click2cart-006000q/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 1.18,
+  "textBoxes": 37,
+  "textPixels": 98007,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.8
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.1
+    },
+    {
+      "y0": 1000,
+      "y1": 1342,
+      "pct": 1.6
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": false,
+    "pct": 0.72,
+    "differingPixels": 13952,
+    "compared": {
+      "width": 1440,
+      "height": 1342,
+      "mode": "overlap"
+    },
+    "steps": [],
+    "maxOffset": 0,
+    "totalShift": 0,
+    "insertedRows": 0,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.8,
+        "unaligned": 0.8
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 1000,
+        "y1": 1342,
+        "pct": 1.6,
+        "unaligned": 1.6
+      }
+    ],
+    "diff": null,
+    "reason": "aligned number not lower than the unaligned one",
+    "candidate": {
+      "pct": 3.46,
+      "steps": 1,
+      "totalShift": 38
+    }
+  },
+  "offsets": {
+    "bound": null,
+    "totalShift": 0,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/click2cart/006000q"
+  }
+}

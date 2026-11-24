@@ -1,0 +1,179 @@
+{
+  "slug": "en-us-shop-type-powder",
+  "type": "product-listing",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "breadcrumb",
+    "plp-title-bar",
+    "product-grid",
+    "plp-related",
+    "feature-band-alternating"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "div",
+    "div",
+    "div",
+    "div"
+  ],
+  "canonShas": {
+    "header": "534598da2521",
+    "footer": "736a7ff44f02",
+    "css": "8d39740fde7e"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Shop or Buy Laundry Powder | Laundry Products - Tide",
+    "description": "Find information about Tide Powder Detergent products currently on offer, from Free &amp; Gentle and Tide Plus Bleach Powder to Tide Plus a Touch of Downy",
+    "canonical": null,
+    "lang": "en-US"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Shop or Buy Laundry Powder | Laundry Products - Tide",
+    "description": "Find information about Tide Powder Detergent products currently on offer, from Free &amp; Gentle and Tide Plus Bleach Powder to Tide Plus a Touch of Downy",
+    "url": "https://tide.com/en-us/shop/type/powder"
+  },
+  "migratedAt": "2026-11-24T02:04:39Z",
+  "designMdSha": "2a4c940137d0",
+  "designJsonSha": "12e3c8711506",
+  "sourceCurrentSha": "84b502189216",
+  "sourceProposedSha": "6ea8b191ce25",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [
+    "feature-band-alternating overlay orange"
+  ],
+  "gatesPassed": [
+    "variance-probe",
+    "delivery-lint",
+    "media-reconcile",
+    "content-fidelity",
+    "pixel-gate-1440",
+    "pixel-gate-360"
+  ],
+  "gateEvidence": {
+    "variance-probe": "stardust/.work/cluster-product-listing/variance.json (exit 2: banner count/orange-white families -> existing overlay orange|white|stacked variants; text-right -> 'right' class, request filed)",
+    "delivery-lint": "0 P0 · 0 P1 · 0 P2 (delivery-lint --path /en-us/shop/type/powder)",
+    "media-reconcile": "media-reconcile all hosted (ledger)",
+    "content-fidelity": "encoder stardust/.work/cluster-product-listing/encode.mjs verbatim from capture + __NEXT_DATA__; content-diff (11 pages sampled, stardust/.work/cluster-product-listing/cd/) looks-same 0 red; safety-link aria-label residual on powder/pods/booster",
+    "pixel-gate-1440": "gate-all published 1440: 4.04% (aligned 1.75%) Δh -60, units/content pass (cluster-product-listing fix)",
+    "pixel-gate-360": "gate-all published 360: 3.5% (aligned 0.74%) Δh -30, units/content pass (cluster-product-listing fix)"
+  },
+  "contentDeviations": [
+    {
+      "kind": "block-substitution",
+      "source": "section-blue-bg-white-text safety row (3 icon columns + text)",
+      "target": "default content section",
+      "reason": "no existing block renders the blue safety row; foundation request filed"
+    }
+  ],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/en-us/shop/type/powder/odor-removal",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/type/powder/deep-clean",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/type/powder/stain-removal",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/type/powder/sensitive",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/type/powder/delicates",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/type/powder/bright-colors",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/type/powder/whiteness",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/type/powder/additives",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/type/powder/freshness",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/type/powder/tide-clean-and-gentle-powder",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/type/powder/tide-clean-and-gentle-powder",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/type/powder/tide-ultra-oxi-powder",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/type/powder/tide-ultra-oxi-powder",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/our-commitment/americas-number-one-detergent/our-products/powder-detergent/how-to-use-powder-detergent",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/type/powder/tide-original-powder",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/type/powder/tide-original-powder",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/type/powder/tide-clean-breeze-powder",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/type/powder/tide-clean-breeze-powder",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/type/powder/tide-plus-a-touch-of-downy-powder",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/type/powder/tide-plus-a-touch-of-downy-powder",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/type/powder/tide-plus-bleach-powder",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/type/powder/tide-plus-bleach-powder",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/our-commitment/americas-number-one-detergent/our-products/powder-detergent/how-to-use-powder-detergent",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/our-commitment/ingredients-and-safety/home-safety-tips",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "en-us/shop/type/powder/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "en-us/shop/type/powder/_meta.json",
+  "driverVersion": "1"
+}

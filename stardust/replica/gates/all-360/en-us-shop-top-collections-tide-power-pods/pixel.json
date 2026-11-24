@@ -1,0 +1,234 @@
+{
+  "a": "stardust/replica/gates/all-360/en-us-shop-top-collections-tide-power-pods/origin.png",
+  "b": "stardust/replica/gates/all-360/en-us-shop-top-collections-tide-power-pods/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 7646,
+    "mode": "overlap"
+  },
+  "heightDelta": -1,
+  "differingPixels": 47688,
+  "pct": 1.73,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/en-us-shop-top-collections-tide-power-pods/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 2.78,
+  "textBoxes": 136,
+  "textPixels": 498228,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 3.1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 9
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 0
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 0
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 0
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 1
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 0.4
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 5.2
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 1.7
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 1.6
+    },
+    {
+      "y0": 7000,
+      "y1": 7500,
+      "pct": 4.4
+    },
+    {
+      "y0": 7500,
+      "y1": 7646,
+      "pct": 0.6
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 0.84,
+    "differingPixels": 23102,
+    "compared": {
+      "width": 360,
+      "height": 7647,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 4653,
+        "shift": 1,
+        "cumulative": 1
+      }
+    ],
+    "maxOffset": 1,
+    "totalShift": 1,
+    "insertedRows": 1,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 3.1,
+        "unaligned": 3.1
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 9,
+        "unaligned": 9
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0.2,
+        "unaligned": 1
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 0,
+        "unaligned": 0.4
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 0.5,
+        "unaligned": 5.2
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 0,
+        "unaligned": 1.7
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 0,
+        "unaligned": 1.6
+      },
+      {
+        "y0": 7000,
+        "y1": 7500,
+        "pct": 0,
+        "unaligned": 4.4
+      },
+      {
+        "y0": 7500,
+        "y1": 7646,
+        "pct": 0,
+        "unaligned": 0.6
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/en-us-shop-top-collections-tide-power-pods/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 76,
+    "totalShift": 1,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/shop/top-collections/tide-power-pods"
+  }
+}

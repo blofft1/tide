@@ -1,0 +1,184 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-us-our-commitment-superbowllx/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-us-our-commitment-superbowllx/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 4248,
+    "mode": "overlap"
+  },
+  "heightDelta": -10,
+  "differingPixels": 343160,
+  "pct": 6.45,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/en-us-our-commitment-superbowllx/diff.png",
+  "masks": [
+    {
+      "yA": 1792,
+      "h": 556,
+      "yB": 1792
+    }
+  ],
+  "maskedRows": 556,
+  "textPct": 16.62,
+  "textBoxes": 58,
+  "textPixels": 371072,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 3
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 3.7
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 3.3
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 5.4
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 1.7
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 14.9
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 12
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 2.2
+    },
+    {
+      "y0": 4000,
+      "y1": 4248,
+      "pct": 3.2
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 3.18,
+    "differingPixels": 170006,
+    "compared": {
+      "width": 1440,
+      "height": 3713,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 2366,
+        "shift": 16,
+        "cumulative": 16
+      },
+      {
+        "y": 2615,
+        "shift": -1,
+        "cumulative": 15
+      },
+      {
+        "y": 2755,
+        "shift": 5,
+        "cumulative": 20
+      },
+      {
+        "y": 3033,
+        "shift": -5,
+        "cumulative": 15
+      },
+      {
+        "y": 3292,
+        "shift": -5,
+        "cumulative": 10
+      }
+    ],
+    "maxOffset": 20,
+    "totalShift": 32,
+    "insertedRows": 21,
+    "deletedRows": 11,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 3,
+        "unaligned": 3
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 3.7,
+        "unaligned": 3.7
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 3.3,
+        "unaligned": 3.3
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 9.3,
+        "unaligned": 5.4
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 9.6,
+        "unaligned": 1.7
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 2.3,
+        "unaligned": 14.9
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 2.7,
+        "unaligned": 12
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0,
+        "unaligned": 2.2
+      },
+      {
+        "y0": 4000,
+        "y1": 4248,
+        "pct": 0,
+        "unaligned": 3.2
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/en-us-our-commitment-superbowllx/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 42,
+    "totalShift": 32,
+    "pass": true
+  },
+  "reason": null,
+  "maskReason": "self-varying rows of the frozen reference (noise floor 1.32%)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/our-commitment/superbowllx"
+  }
+}

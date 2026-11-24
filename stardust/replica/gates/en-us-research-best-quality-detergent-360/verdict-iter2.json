@@ -1,0 +1,36 @@
+{
+  "round": "iter2",
+  "width": 360,
+  "stage": "prototype",
+  "pixel": {
+    "rc": 0,
+    "diff": "stardust/replica/gates/en-us-research-best-quality-detergent-360/diff-iter2.png",
+    "json": "stardust/replica/gates/en-us-research-best-quality-detergent-360/pixel-iter2.json",
+    "pct": 4.54,
+    "alignedPct": 0.23,
+    "alignedUsed": true,
+    "totalShift": 1,
+    "steps": [
+      {
+        "y": 992,
+        "shift": 1,
+        "cumulative": 1
+      }
+    ],
+    "offsetBound": 8,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": null
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-23T22:13:05.028Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {},
+  "structural": 0,
+  "nothingLost": 0,
+  "at": "2026-11-23T22:21:33.561Z"
+}

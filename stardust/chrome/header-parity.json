@@ -1,0 +1,154 @@
+{
+ "tool": "chrome-compare",
+ "at": "2026-11-23T21:27:54.011Z",
+ "source": "https://tide.com/en-us",
+ "build": "http://localhost:8791/en-us-proposed.html",
+ "profile": "replica",
+ "bar": 0.02,
+ "widths": [
+  390,
+  1440
+ ],
+ "stage": "prototype",
+ "round": {
+  "label": "compare-4",
+  "kind": "fix"
+ },
+ "counts": {
+  "error": 13,
+  "warn": 2,
+  "decided": 0,
+  "classed": 0
+ },
+ "findings": [
+  {
+   "key": "close-path@390 navigation menu > Shop Products > By Need",
+   "width": 390,
+   "path": "navigation menu > Shop Products > By Need",
+   "id": "close-path",
+   "severity": "error",
+   "detail": "clicking the trigger again closes it on the source, not on the build"
+  },
+  {
+   "key": "close-path@390 navigation menu > Shop Products > Top Collection",
+   "width": 390,
+   "path": "navigation menu > Shop Products > Top Collection",
+   "id": "close-path",
+   "severity": "error",
+   "detail": "clicking the trigger again closes it on the source, not on the build"
+  },
+  {
+   "key": "close-path@390 navigation menu > Our Commitment",
+   "width": 390,
+   "path": "navigation menu > Our Commitment",
+   "id": "close-path",
+   "severity": "error",
+   "detail": "clicking the trigger again closes it on the source, not on the build"
+  },
+  {
+   "key": "close-path@390 navigation menu > How to Wash Clothes",
+   "width": 390,
+   "path": "navigation menu > How to Wash Clothes",
+   "id": "close-path",
+   "severity": "error",
+   "detail": "clicking the trigger again closes it on the source, not on the build"
+  },
+  {
+   "key": "budget-truncated@1440 (source)",
+   "width": 1440,
+   "path": "(source)",
+   "id": "budget-truncated",
+   "severity": "warn",
+   "detail": "the source record stopped at request-budget: raise --max-states/--max-depth for full coverage"
+  },
+  {
+   "key": "budget-truncated@1440 (build)",
+   "width": 1440,
+   "path": "(build)",
+   "id": "budget-truncated",
+   "severity": "warn",
+   "detail": "the build record stopped at depth 1 at US - English"
+  },
+  {
+   "key": "panel-visual@390 navigation menu [click]",
+   "width": 390,
+   "path": "navigation menu",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 39.1% (bar 2%; source 360×538, build 390×783; texture 43% thick)"
+  },
+  {
+   "key": "panel-visual@390 navigation menu > Shop Products [click]",
+   "width": 390,
+   "path": "navigation menu > Shop Products",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 75.8% (bar 2%; source 140×231, build 360×350; texture 34% thick)"
+  },
+  {
+   "key": "panel-visual@390 navigation menu > Shop Products > By Type [click]",
+   "width": 390,
+   "path": "navigation menu > Shop Products > By Type",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 67.1% (bar 2%; source 129×551, build 360×576; texture 16% thick)"
+  },
+  {
+   "key": "panel-visual@390 navigation menu > Shop Products > By Need [click]",
+   "width": 390,
+   "path": "navigation menu > Shop Products > By Need",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 66.8% (bar 2%; source 131×551, build 360×576; texture 16% thick)"
+  },
+  {
+   "key": "panel-visual@390 navigation menu > Shop Products > Top Collection [click]",
+   "width": 390,
+   "path": "navigation menu > Shop Products > Top Collection",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 60.8% (bar 2%; source 158×423, build 360×448; texture 23% thick)"
+  },
+  {
+   "key": "panel-visual@390 navigation menu > Our Commitment [click]",
+   "width": 390,
+   "path": "navigation menu > Our Commitment",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 30.8% (bar 2%; source 264×743, build 360×763; texture 19% thick)"
+  },
+  {
+   "key": "panel-visual@390 navigation menu > How to Wash Clothes [click]",
+   "width": 390,
+   "path": "navigation menu > How to Wash Clothes",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 35.5% (bar 2%; source 289×295, build 360×350; texture 25% thick)"
+  },
+  {
+   "key": "panel-visual@390 navigation menu > Coupons and Deals [click]",
+   "width": 390,
+   "path": "navigation menu > Coupons and Deals",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 69.8% (bar 2%; source 176×231, build 360×350; texture 31% thick)"
+  },
+  {
+   "key": "panel-visual@1440 US - English [click]",
+   "width": 1440,
+   "path": "US - English",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 99.3% (bar 2%; source 1440×591, build 311×186; texture 98% thick)"
+  }
+ ]
+}

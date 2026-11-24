@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "stages": {
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-24T08-17-48-131Z",
+          "at": "2026-11-24T08:17:48.137Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-24T08-22-13-748Z",
+          "at": "2026-11-24T08:22:13.752Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-24T08-27-27-752Z",
+          "at": "2026-11-24T08:27:27.754Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-24T08-49-56-339Z",
+          "at": "2026-11-24T08:49:56.341Z",
+          "verdict": "pass",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "over-cap fix round 4 (all-2026-11-24T08-49-56-339Z; ledger already held 3 counted rounds) PASSED at aligned 1.11 % / Δh -3 / clip 0 / content 0 after one fix pass (text-row cell gap, split pic-gap order, calculator gaps, list cards, pledge dial/icons/rows, products band); no instrument defect, so no extend. Residual: bands y0–1000 3.5/8.9 % = hero region of the shared, frozen section-landing-hero-card; list-card dots not rebuilt (y6000–6500 3.4 %).",
+          "at": "2026-11-24T08:52:05.919Z",
+          "counted": 4
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+ "url": "https://main--5db7d055--aemcoder.aem.page/en-us",
+ "at": "2026-11-24T11:01:13.537Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 213,
+  "horizontal": 2,
+  "offPage": 9,
+  "textNodes": 298,
+  "controls": 52,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "TEXT SCROLL-HIDDEN",
+   "advisory": true,
+   "n": 213,
+   "clipper": "div.sg-scroll",
+   "path": "div.sg-scroll > div.sg-lists > ul > li",
+   "text": "tough stains",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.hpc-viewport",
+   "path": "div.hpc-viewport > ul.hpc-track > li.hpc-item > a.hpc-card",
+   "text": "remove visible and invisible dirtlearn more",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "a.hpc-card",
+   "path": "div.hpc-card-content > div.hpc-card-text > p > strong",
+   "text": "remove visible and invisible dirt",
+   "cutMin": 214,
+   "cutMax": 214
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 213,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 1,
+   "scrollHidden": 0,
+   "horizontal": 2,
+   "offPage": 9,
+   "textNodes": 298,
+   "controls": 271,
+   "total": 213
+  }
+ }
+}

@@ -1,0 +1,135 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-us-research-best-laundry-detergent-baby-clothes/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-us-research-best-laundry-detergent-baby-clothes/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 3468,
+    "mode": "overlap"
+  },
+  "heightDelta": -1,
+  "differingPixels": 130942,
+  "pct": 2.62,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/en-us-research-best-laundry-detergent-baby-clothes/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 7.81,
+  "textBoxes": 85,
+  "textPixels": 890455,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 6.3
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 10.7
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0.1
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0.5
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0
+    },
+    {
+      "y0": 3000,
+      "y1": 3468,
+      "pct": 0.6
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 2.57,
+    "differingPixels": 128456,
+    "compared": {
+      "width": 1440,
+      "height": 3469,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 3293,
+        "shift": 1,
+        "cumulative": 1
+      }
+    ],
+    "maxOffset": 1,
+    "totalShift": 1,
+    "insertedRows": 1,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 6.3,
+        "unaligned": 6.3
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 10.7,
+        "unaligned": 10.7
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0.5,
+        "unaligned": 0.5
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 3000,
+        "y1": 3468,
+        "pct": 0.2,
+        "unaligned": 0.6
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/en-us-research-best-laundry-detergent-baby-clothes/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 35,
+    "totalShift": 1,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/best-laundry-detergent-baby-clothes"
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "a": "stardust/replica/gates/all-1440/en-us-research-laundry-scent-and-indoor-air/origin.png",
+  "b": "stardust/replica/gates/all-1440/en-us-research-laundry-scent-and-indoor-air/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 3049,
+    "mode": "overlap"
+  },
+  "heightDelta": -1,
+  "differingPixels": 114722,
+  "pct": 2.61,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/en-us-research-laundry-scent-and-indoor-air/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 9.3,
+  "textBoxes": 78,
+  "textPixels": 599569,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 5.4
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 10
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0.6
+    },
+    {
+      "y0": 3000,
+      "y1": 3049,
+      "pct": 0
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 2.56,
+    "differingPixels": 112235,
+    "compared": {
+      "width": 1440,
+      "height": 3050,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 2874,
+        "shift": 1,
+        "cumulative": 1
+      }
+    ],
+    "maxOffset": 1,
+    "totalShift": 1,
+    "insertedRows": 1,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 5.4,
+        "unaligned": 5.4
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 10,
+        "unaligned": 10
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0.2,
+        "unaligned": 0.6
+      },
+      {
+        "y0": 3000,
+        "y1": 3049,
+        "pct": 0,
+        "unaligned": 0
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/en-us-research-laundry-scent-and-indoor-air/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 30,
+    "totalShift": 1,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/laundry-scent-and-indoor-air"
+  }
+}

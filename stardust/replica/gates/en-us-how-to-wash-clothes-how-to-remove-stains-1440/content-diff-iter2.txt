@@ -1,0 +1,20 @@
+
+Content diff @ 1440px (profile "generic", roots: #site-content, header, footer)
+root "#site-content"
+  source: 570 text nodes — 12 headings, 0 eyebrows, 83 CTAs, 475 body; 15 img
+  build: 570 text nodes — 12 headings, 0 eyebrows, 83 CTAs, 475 body; 15 img
+  editable texts (outermost h*/p/ul/ol): source 43 / build 43
+  attributes (placeholder/aria-label/title): source 456 / build 456; icons: source 12 / build 12
+root "header"
+  source: 53 text nodes — 0 headings, 0 eyebrows, 47 CTAs, 6 body; 4 img
+  build: 53 text nodes — 0 headings, 0 eyebrows, 47 CTAs, 6 body; 4 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 0
+  attributes (placeholder/aria-label/title): source 51 / build 51; icons: source 6 / build 6
+root "footer"
+  source: 29 text nodes — 0 headings, 0 eyebrows, 18 CTAs, 11 body; 8 img
+  build: 29 text nodes — 0 headings, 0 eyebrows, 18 CTAs, 11 body; 8 img
+  editable texts (outermost h*/p/ul/ol): source 3 / build 3
+  attributes (placeholder/aria-label/title): source 25 / build 25; icons: source 10 / build 10
+
+Findings: none — content + roles match
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 0

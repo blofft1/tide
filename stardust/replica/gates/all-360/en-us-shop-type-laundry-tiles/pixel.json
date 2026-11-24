@@ -1,0 +1,124 @@
+{
+  "a": "stardust/replica/gates/all-360/en-us-shop-type-laundry-tiles/origin.png",
+  "b": "stardust/replica/gates/all-360/en-us-shop-type-laundry-tiles/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 2817,
+    "mode": "overlap"
+  },
+  "heightDelta": -15,
+  "differingPixels": 52854,
+  "pct": 5.21,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/en-us-shop-type-laundry-tiles/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 9.47,
+  "textBoxes": 70,
+  "textPixels": 172772,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.6
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 11.4
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 6.7
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 8.2
+    },
+    {
+      "y0": 2500,
+      "y1": 2817,
+      "pct": 3.8
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 0.64,
+    "differingPixels": 6552,
+    "compared": {
+      "width": 360,
+      "height": 2832,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1157,
+        "shift": 15,
+        "cumulative": 15
+      }
+    ],
+    "maxOffset": 15,
+    "totalShift": 15,
+    "insertedRows": 15,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.6,
+        "unaligned": 0.6
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 2.9,
+        "unaligned": 11.4
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 6.7
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 8.2
+      },
+      {
+        "y0": 2500,
+        "y1": 2817,
+        "pct": 0,
+        "unaligned": 3.8
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/en-us-shop-type-laundry-tiles/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 28,
+    "totalShift": 15,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/shop/type/laundry-tiles"
+  }
+}

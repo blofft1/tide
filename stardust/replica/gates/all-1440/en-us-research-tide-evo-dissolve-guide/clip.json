@@ -1,0 +1,77 @@
+{
+ "url": "https://main--5db7d055--aemcoder.aem.page/en-us/research/tide-evo-dissolve-guide",
+ "at": "2026-11-24T09:43:27.295Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 4,
+  "offPage": 0,
+  "textNodes": 133,
+  "controls": 68,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "nav",
+   "path": "nav > ul > li > span.jump-links-item",
+   "text": "machine-specific recommendations",
+   "cutMin": 22,
+   "cutMax": 22
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "nav",
+   "path": "nav > ul > li > span.jump-links-item",
+   "text": "machine-specific recommendations",
+   "cutMin": 22,
+   "cutMax": 22
+  },
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "nav",
+   "path": "nav > ul > li > span.jump-links-item",
+   "text": "frequently asked questions",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "nav",
+   "path": "nav > ul > li > span.jump-links-item",
+   "text": "frequently asked questions",
+   "cutMin": 110,
+   "cutMax": 110
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 1,
+   "scrollHidden": 0,
+   "horizontal": 4,
+   "offPage": 0,
+   "textNodes": 136,
+   "controls": 68,
+   "total": 0
+  }
+ }
+}

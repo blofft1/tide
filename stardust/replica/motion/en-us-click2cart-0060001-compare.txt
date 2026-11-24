@@ -1,0 +1,6 @@
+motion header scroll-morph: dead on live — not required (header static across the scroll traversal on both sides)
+motion widget .retailer-button-container: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))
+motion hover .retailer-button-container: dead on live — not required (no measured hover diff)
+motion hover .zip-code-change-container: dead on live — not required (no measured hover diff)
+motion hover .privacy-policy-link: dead on live — not required (no measured hover diff)
+motion summary: 0 parity, 0 missing, 0 extra, 0 advisory (0 out of tolerance, 5 dead or unobserved on live — not required; tolerance 150ms / 8px)

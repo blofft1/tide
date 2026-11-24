@@ -1,0 +1,544 @@
+{
+ "_provenance": {
+  "writtenBy": "skills/replica/scripts/source-spec.mjs",
+  "writtenAt": "2026-11-23T22:24:12.471Z",
+  "url": "https://tide.com/en-us/shop/top-collections/tide-free-and-gentle",
+  "width": 1440,
+  "main": "main",
+  "locale": "en-US"
+ },
+ "page": {
+  "url": "https://tide.com/en-us/shop/top-collections/tide-free-and-gentle",
+  "width": 1440,
+  "viewport": 1440,
+  "docHeight": 7546,
+  "scrollWidth": 1440,
+  "root": "main",
+  "rootFallback": false,
+  "records": [
+   "scroll",
+   "shape"
+  ],
+  "rootWrapsChrome": false,
+  "tier": "chrome"
+ },
+ "tokens": {
+  "fonts": [
+   {
+    "stack": "Tide, sans-serif",
+    "n": 76
+   }
+  ],
+  "loadedFaces": [
+   "Tide 400 normal",
+   "Tide 700 normal",
+   "Tide 800 normal"
+  ],
+  "textStyles": [
+   {
+    "key": "12/32 400 Tide",
+    "fontSize": 12,
+    "lineHeight": 32,
+    "fontWeight": "400",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 15,
+    "roles": {
+     "link": 13,
+     "div": 2
+    },
+    "sample": "P&G Brands"
+   },
+   {
+    "key": "14/16 700 Tide",
+    "fontSize": 14,
+    "lineHeight": 16,
+    "fontWeight": "700",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 9,
+    "roles": {
+     "link": 5,
+     "li": 2,
+     "button": 2
+    },
+    "sample": "Shop Products"
+   },
+   {
+    "key": "20/22 700 Tide",
+    "fontSize": 20,
+    "lineHeight": 22,
+    "fontWeight": "700",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 7,
+    "roles": {
+     "link": 1,
+     "button": 6
+    },
+    "sample": "Shop the collection"
+   },
+   {
+    "key": "14/19.6 400 Tide",
+    "fontSize": 14,
+    "lineHeight": 19.6,
+    "fontWeight": "400",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 7,
+    "roles": {
+     "span": 7
+    },
+    "sample": "Part of the P&G Family"
+   },
+   {
+    "key": "20/26 400 Tide",
+    "fontSize": 20,
+    "lineHeight": 26,
+    "fontWeight": "400",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 6,
+    "roles": {
+     "link": 6
+    },
+    "sample": "Tide PODS® Free and Gentle Laundry Detergent"
+   },
+   {
+    "key": "48/52 400 Tide",
+    "fontSize": 48,
+    "lineHeight": 52,
+    "fontWeight": "400",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 5,
+    "roles": {
+     "h2": 1,
+     "p": 4
+    },
+    "sample": "No perfumes No dyes No worries for sensitive skin."
+   },
+   {
+    "key": "16/32 400 Tide",
+    "fontSize": 16,
+    "lineHeight": 32,
+    "fontWeight": "400",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 5,
+    "roles": {
+     "link": 5
+    },
+    "sample": "How to Remove Stains"
+   },
+   {
+    "key": "26/30 800 Tide",
+    "fontSize": 26,
+    "lineHeight": 30,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 3,
+    "roles": {
+     "p": 3
+    },
+    "sample": "Shop Products"
+   },
+   {
+    "key": "24/28 800 Tide",
+    "fontSize": 24,
+    "lineHeight": 28,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 3,
+    "roles": {
+     "div": 3
+    },
+    "sample": "By Type"
+   },
+   {
+    "key": "68/64 400 Tide",
+    "fontSize": 68,
+    "lineHeight": 64,
+    "fontWeight": "400",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 2,
+    "roles": {
+     "h1": 1,
+     "p": 1
+    },
+    "sample": "Tide Free & Gentle"
+   },
+   {
+    "key": "32/16 400 Tide lowercase",
+    "fontSize": 32,
+    "lineHeight": 16,
+    "fontWeight": "400",
+    "fontFamily": "Tide",
+    "textTransform": "lowercase",
+    "n": 2,
+    "roles": {
+     "p": 2
+    },
+    "sample": "The First Scented Addition"
+   },
+   {
+    "key": "12/13.8 400 Tide",
+    "fontSize": 12,
+    "lineHeight": 13.8,
+    "fontWeight": "400",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 2,
+    "roles": {
+     "button": 2
+    },
+    "sample": "US - English"
+   },
+   {
+    "key": "70/60 800 Tide",
+    "fontSize": 70,
+    "lineHeight": 60,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "h2": 1
+    },
+    "sample": "Works in all:"
+   },
+   {
+    "key": "54/60 400 Tide",
+    "fontSize": 54,
+    "lineHeight": 60,
+    "fontWeight": "400",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "h2": 1
+    },
+    "sample": "Concentrated, hypoallergenic laundry detergent for people with sensitive skin."
+   },
+   {
+    "key": "48/96 700 Tide lowercase",
+    "fontSize": 48,
+    "lineHeight": 96,
+    "fontWeight": "700",
+    "fontFamily": "Tide",
+    "textTransform": "lowercase",
+    "n": 1,
+    "roles": {
+     "h2": 1
+    },
+    "sample": "Introducing"
+   },
+   {
+    "key": "32/38 400 Tide",
+    "fontSize": 32,
+    "lineHeight": 38,
+    "fontWeight": "400",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "h2": 1
+    },
+    "sample": "Dermatologist recommended"
+   },
+   {
+    "key": "32/38 800 Tide",
+    "fontSize": 32,
+    "lineHeight": 38,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "h3": 1
+    },
+    "sample": "Available as laundry pacs, liquid and powder detergent."
+   },
+   {
+    "key": "26.67/22 700 Tide",
+    "fontSize": 26.67,
+    "lineHeight": 22,
+    "fontWeight": "700",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "link": 1
+    },
+    "sample": "Learn more"
+   },
+   {
+    "key": "20/19 800 Tide",
+    "fontSize": 20,
+    "lineHeight": 19,
+    "fontWeight": "800",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "span": 1
+    },
+    "sample": "Ways to connect with us:"
+   },
+   {
+    "key": "14/16.1 400 Tide",
+    "fontSize": 14,
+    "lineHeight": 16.1,
+    "fontWeight": "400",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "field": 1
+    },
+    "sample": "Search"
+   },
+   {
+    "key": "12/16.8 400 Tide",
+    "fontSize": 12,
+    "lineHeight": 16.8,
+    "fontWeight": "400",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "link": 1
+    },
+    "sample": "Contact Us"
+   },
+   {
+    "key": "12/24 400 Tide",
+    "fontSize": 12,
+    "lineHeight": 24,
+    "fontWeight": "400",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "p": 1
+    },
+    "sample": "*based on partnership with NPF www.psoriasis.org/seal"
+   },
+   {
+    "key": "12/16.8 700 Tide",
+    "fontSize": 12,
+    "lineHeight": 16.8,
+    "fontWeight": "700",
+    "fontFamily": "Tide",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "span": 1
+    },
+    "sample": "Related:"
+   }
+  ],
+  "colours": [
+   {
+    "color": "rgb(19, 37, 156)",
+    "n": 27
+   },
+   {
+    "color": "rgb(255, 255, 255)",
+    "n": 22
+   },
+   {
+    "color": "rgb(27, 51, 146)",
+    "n": 19
+   },
+   {
+    "color": "rgb(251, 76, 6)",
+    "n": 6
+   },
+   {
+    "color": "rgb(80, 173, 237)",
+    "n": 2
+   },
+   {
+    "color": "rgb(0, 0, 0)",
+    "n": 1
+   }
+  ],
+  "container": {
+   "left": 134,
+   "right": 150,
+   "content": 1156,
+   "leftCommon": {
+    "x": 150,
+    "n": 14
+   }
+  }
+ },
+ "truncated": {
+  "text": 0,
+  "image": 0
+ },
+ "sections": [
+  {"i":0,"region":"header","y":0,"h":175,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"header#site-header","firstText":"Part of the P&G Family"},
+  {"i":1,"region":"main","y":175,"h":47,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div#sticky-nav.row.no-gutters","firstText":"Overview"},
+  {"i":2,"region":"main","y":222,"h":598,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.row.no-gutters","firstText":"Tide Free & Gentle"},
+  {"i":3,"region":"main","y":820,"h":800,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.banner-wrapper.fresh-gentle-banner","firstText":"Introducing"},
+  {"i":4,"region":"main","y":1620,"h":790,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.row.no-gutters","firstText":"Concentrated, hypoallergenic laundry detergent for people w…"},
+  {"i":5,"region":"main","y":2410,"h":870,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.row.no-gutters","firstText":"Recommended by both the NEA and NPF*."},
+  {"i":6,"region":"main","y":3280,"h":790,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.row.no-gutters","firstText":"No perfumes No dyes No worries for sensitive skin."},
+  {"i":7,"region":"main","y":4070,"h":581,"background":"rgb(251, 76, 6)","paddingTop":0,"paddingBottom":0,"selectorHint":"div.row.no-gutters","firstText":"Works in all:"},
+  {"i":8,"region":"main","y":4651,"h":153,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.row.no-gutters","firstText":"Available as laundry pacs, liquid and powder detergent."},
+  {"i":9,"region":"main","y":4804,"h":1007,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.collection-products.row","firstText":"Tide PODS® Free and Gentle Laundry Detergent"},
+  {"i":10,"region":"main","y":5811,"h":790,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.row.no-gutters","firstText":"Better together with Bounce Dryer Sheets and Downy Fabric S…"},
+  {"i":11,"region":"footer","y":6641,"h":906,"background":"none","paddingTop":0,"paddingBottom":120,"selectorHint":"footer#site-footer.site-footer","firstText":"Ways to connect with us:"}
+ ],
+ "nodes": [
+  {"section":0,"region":"header","kind":"text","tag":"span","role":null,"text":"Part of the P&G Family","x":150,"y":15,"w":154,"h":20,"fontFamily":"Tide","fontSize":14,"lineHeight":19.6,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1},
+  {"section":0,"region":"header","kind":"image","tag":"picture","role":"link","text":"P&G icon","x":364,"y":3,"w":32,"h":41,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[32,41],"src":"https://tide.com/images/header_logo_png.webp","href":"https://us.pg.com"},
+  {"section":0,"region":"header","kind":"image","tag":"picture","role":"link","text":"Downy icon","x":411,"y":3,"w":43,"h":41,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[43,41],"src":"https://tide.com/images/header_logo_downy.webp","href":"https://downy.com/en-us"},
+  {"section":0,"region":"header","kind":"image","tag":"picture","role":"link","text":"Bounce icon","x":469,"y":3,"w":47,"h":41,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[47,41],"src":"https://tide.com/images/header_logo_bounce.webp","href":"https://www.bouncefresh.com/en-us"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"Contact Us","x":954,"y":16,"w":64,"h":17,"fontFamily":"Tide","fontSize":12,"lineHeight":16.8,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/contact-us"},
+  {"section":0,"region":"header","kind":"control","tag":"button","role":"button","text":"US - English","x":1058,"y":18,"w":91,"h":14,"fontFamily":"Tide","fontSize":12,"lineHeight":13.8,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(19, 37, 156)","lines":1},
+  {"section":0,"region":"header","kind":"image","tag":"svg","role":"button","text":"","x":1138,"y":19,"w":11,"h":10,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":0,"region":"header","kind":"image","tag":"svg","role":null,"text":"","x":1220,"y":12,"w":24,"h":25,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":0,"region":"header","kind":"control","tag":"button","role":"button","text":"Sign in","x":1251,"y":18,"w":39,"h":14,"fontFamily":"Tide","fontSize":12,"lineHeight":13.8,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(19, 37, 156)","lines":1},
+  {"section":0,"region":"header","kind":"image","tag":"img","role":"link","text":"Tide logo","x":150,"y":50,"w":71,"h":111,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[150,150],"src":"https://tide.com/images/brand_main_logo.svg","href":"/en-us"},
+  {"section":0,"region":"header","kind":"control","tag":"input","role":"field","text":"Search","x":1020,"y":70,"w":270,"h":34,"fontFamily":"Tide","fontSize":14,"lineHeight":16.1,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(0, 0, 0)","lines":1},
+  {"section":0,"region":"header","kind":"image","tag":"svg","role":"button","text":"","x":1250,"y":77,"w":20,"h":20,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"Shop Products","x":447,"y":129,"w":153,"h":46,"fontFamily":"Tide","fontSize":14,"lineHeight":16,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"/en-us/shop"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"Our Commitment","x":600,"y":129,"w":172,"h":46,"fontFamily":"Tide","fontSize":14,"lineHeight":16,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"/en-us/our-commitment"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"How to Wash Clothes","x":772,"y":129,"w":200,"h":46,"fontFamily":"Tide","fontSize":14,"lineHeight":16,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"/en-us/how-to-wash-clothes"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"What’s New","x":972,"y":129,"w":134,"h":46,"fontFamily":"Tide","fontSize":14,"lineHeight":16,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"/en-us/latest-news"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"Coupons and Deals","x":1106,"y":129,"w":184,"h":46,"fontFamily":"Tide","fontSize":14,"lineHeight":16,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"/en-us/rewards"},
+  {"section":1,"region":"main","kind":"text","tag":"li","role":null,"text":"Overview","x":150,"y":175,"w":67,"h":46,"fontFamily":"Tide","fontSize":14,"lineHeight":16,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":1,"region":"main","kind":"control","tag":"span","role":"button","text":"Overview","x":150,"y":175,"w":67,"h":46,"fontFamily":"Tide","fontSize":14,"lineHeight":16,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"li","role":null,"text":"Browse Collection","x":257,"y":175,"w":126,"h":46,"fontFamily":"Tide","fontSize":14,"lineHeight":16,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":1,"region":"main","kind":"control","tag":"span","role":"button","text":"Browse Collection","x":257,"y":175,"w":126,"h":46,"fontFamily":"Tide","fontSize":14,"lineHeight":16,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":2,"region":"main","kind":"image","tag":"picture","role":null,"text":"A range of Tide Free & Gentle products in front of a white background","x":0,"y":222,"w":1440,"h":598,"fit":"cover","shape":{"pos":"50% 50%"},"natural":[1920,790],"src":"https://images.ctfassets.net/ajjw8wywicb3/2LaNTXmjmx9wGLuwbA05zG/823601e2a42385e3033eac0c4c0360b3/Tide_F_G_20250519_module1_min1400.jpg?fm=webp"},
+  {"section":2,"region":"main","kind":"text","tag":"h1","role":"h1","text":"Tide Free & Gentle","x":150,"y":292,"w":1140,"h":64,"fontFamily":"Tide","fontSize":68,"lineHeight":64,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(80, 173, 237)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Dermatologist recommended","x":150,"y":366,"w":1140,"h":38,"fontFamily":"Tide","fontSize":32,"lineHeight":38,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Shop the collection","x":150,"y":434,"w":251,"h":42,"fontFamily":"Tide","fontSize":20,"lineHeight":22,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1,"href":"#browse-collection"},
+  {"section":3,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Introducing","x":150,"y":1019,"w":567,"h":96,"fontFamily":"Tide","fontSize":48,"lineHeight":96,"fontWeight":"700","letterSpacing":0,"textTransform":"lowercase","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":3,"region":"main","kind":"image","tag":"picture","role":null,"text":"fresh & gentle","x":150,"y":1115,"w":567,"h":90,"fit":"cover","shape":{"pos":"50% 50%"},"natural":[567,90],"src":"https://images.ctfassets.net/ajjw8wywicb3/4vGeE46xUT2bjq8AtJvRAw/dbb1c9e385441aee107372d728e18e35/GRAPHICS.png?fm=webp"},
+  {"section":3,"region":"main","kind":"text","tag":"p","role":null,"text":"The First Scented Addition","x":150,"y":1234,"w":567,"h":16,"fontFamily":"Tide","fontSize":32,"lineHeight":16,"fontWeight":"400","letterSpacing":0,"textTransform":"lowercase","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":3,"region":"main","kind":"text","tag":"p","role":null,"text":"for Free & Gentle Line","x":150,"y":1270,"w":567,"h":16,"fontFamily":"Tide","fontSize":32,"lineHeight":16,"fontWeight":"400","letterSpacing":0,"textTransform":"lowercase","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":3,"region":"main","kind":"control","tag":"a","role":"link","text":"Learn more","x":326,"y":1331,"w":215,"h":54,"fontFamily":"Tide","fontSize":26.67,"lineHeight":22,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/top-collections/tide-free-and-gentle/press-release"},
+  {"section":3,"region":"main","kind":"image","tag":"picture","role":null,"text":"","x":0,"y":820,"w":1440,"h":800,"fit":"cover","shape":{"pos":"50% 50%"},"natural":[1920,850],"src":"https://images.ctfassets.net/ajjw8wywicb3/10BXMCeeYt7Mgudpzr6bZe/c4cc34fab26618665ebe14d1cd13e83b/Tide_US_FreshGentle_section_20260914_min992.png?fm=webp"},
+  {"section":4,"region":"main","kind":"image","tag":"picture","role":null,"text":"Mother and child cuddling","x":0,"y":1620,"w":1440,"h":790,"fit":"cover","shape":{"pos":"50% 50%"},"natural":[1440,790],"src":"https://images.ctfassets.net/ajjw8wywicb3/17ScuI1rGCKRWXV5wkUy59/59e520eab270d05e490dd43d68808ae6/module_01_bg.jpg?fm=webp"},
+  {"section":4,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Concentrated, hypoallergenic laundry detergent for people with sensitive skin.","x":469,"y":1652,"w":502,"h":389,"fontFamily":"Tide","fontSize":54,"lineHeight":60,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":6},
+  {"section":5,"region":"main","kind":"image","tag":"picture","role":null,"text":"Tide Free & Gentle Liquid Laundry Detergent - 92 ounces, color white","x":0,"y":2410,"w":1440,"h":870,"fit":"cover","shape":{"pos":"50% 50%"},"natural":[1920,1165],"src":"https://images.ctfassets.net/ajjw8wywicb3/54XhcZA80Gm3kbA8nVymvz/878eed48fd611922d8f3bc6ac08f607f/Tide_F_G_20250519_module3_min768.jpg?fm=webp"},
+  {"section":5,"region":"main","kind":"text","tag":"p","role":null,"text":"Recommended by both the NEA and NPF*.","x":750,"y":2560,"w":525,"h":192,"fontFamily":"Tide","fontSize":68,"lineHeight":64,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(80, 173, 237)","lines":3},
+  {"section":5,"region":"main","kind":"image","tag":"picture","role":null,"text":"NEA logo","x":750,"y":2792,"w":175,"h":240,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[141,193],"src":"https://images.ctfassets.net/ajjw8wywicb3/3yliWfOeoEBB6QEWcWNo1a/f97693848f9292c755797d5ba4ef01dd/NEA_logo.png?fm=webp"},
+  {"section":5,"region":"main","kind":"image","tag":"picture","role":null,"text":"NPF logo","x":985,"y":2809,"w":175,"h":222,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[151,192],"src":"https://images.ctfassets.net/ajjw8wywicb3/2iWlgV8ChXlaKtL7SAUnY7/5d2a5fcec5d4ae822aed97caf2e90916/NPF_logo.png?fm=webp"},
+  {"section":5,"region":"main","kind":"text","tag":"p","role":null,"text":"*based on partnership with NPF www.psoriasis.org/seal","x":750,"y":3226,"w":525,"h":24,"fontFamily":"Tide","fontSize":12,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":6,"region":"main","kind":"image","tag":"picture","role":null,"text":"Child sleeping in bed.","x":720,"y":3280,"w":720,"h":790,"fit":"cover","shape":{"pos":"50% 50%"},"natural":[375,448],"src":"https://images.ctfassets.net/ajjw8wywicb3/6MbB67enLvuXaDn8uqfoc8/11f6babe313e91de5998d74bb8400232/module_04_sp_0603.jpg?fm=webp"},
+  {"section":6,"region":"main","kind":"text","tag":"h2","role":"h2","text":"No perfumes No dyes No worries for sensitive skin.","x":134,"y":3521,"w":453,"h":312,"fontFamily":"Tide","fontSize":48,"lineHeight":52,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":4},
+  {"section":7,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Works in all:","x":150,"y":4170,"w":555,"h":60,"fontFamily":"Tide","fontSize":70,"lineHeight":60,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1},
+  {"section":7,"region":"main","kind":"text","tag":"p","role":null,"text":"HE machines","x":245,"y":4351,"w":301,"h":52,"fontFamily":"Tide","fontSize":48,"lineHeight":52,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1},
+  {"section":7,"region":"main","kind":"text","tag":"p","role":null,"text":"Non-HE machines","x":245,"y":4468,"w":417,"h":52,"fontFamily":"Tide","fontSize":48,"lineHeight":52,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1},
+  {"section":7,"region":"main","kind":"text","tag":"p","role":null,"text":"Water conditions","x":245,"y":4585,"w":397,"h":52,"fontFamily":"Tide","fontSize":48,"lineHeight":52,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1},
+  {"section":7,"region":"main","kind":"image","tag":"picture","role":null,"text":"Tide Free & Gentle works in both HE and non-HE machines and all water condition…","x":832,"y":4359,"w":458,"h":292,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[483,308],"src":"https://images.ctfassets.net/ajjw8wywicb3/6EYmelvC3Y8B9fqrS3h14o/4667ee452b17a804b9aa6606f9249b40/Icons.png?fm=webp"},
+  {"section":8,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Available as laundry pacs, liquid and powder detergent.","x":150,"y":4741,"w":1140,"h":38,"fontFamily":"Tide","fontSize":32,"lineHeight":38,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1},
+  {"section":9,"region":"main","kind":"image","tag":"picture","role":"link","text":"Tide PODS® Free and Gentle Laundry Detergent - 42 count, color white","x":200,"y":4814,"w":260,"h":260,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[520,520],"src":"https://images.ctfassets.net/ajjw8wywicb3/7r0Q6ChwtL7XGJpJK58HPE/31ce900586bc50e33abfe24c9c80f0d9/Tide_A25_F_G_EN-US_POD_listing_520x520.png?fm=webp","href":"/en-us/shop/type/laundry-pods/tide-pods-free-and-gentle"},
+  {"section":9,"region":"main","kind":"control","tag":"a","role":"link","text":"Tide PODS® Free and Gentle Laundry Detergent","x":150,"y":5084,"w":360,"h":52,"fontFamily":"Tide","fontSize":20,"lineHeight":26,"fontWeight":"400","letterSpacing":0.75,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":2,"href":"/en-us/shop/type/laundry-pods/tide-pods-free-and-gentle"},
+  {"section":9,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":150,"y":5147,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":9,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":167,"y":5147,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":9,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":184,"y":5147,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":9,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":201,"y":5147,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":9,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":218,"y":5147,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":9,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":218,"y":5147,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":9,"region":"main","kind":"text","tag":"span","role":null,"text":"(832)","x":243,"y":5147,"w":35,"h":16,"fontFamily":"Tide","fontSize":14,"lineHeight":19.6,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":9,"region":"main","kind":"control","tag":"div","role":"button","text":"Find Retailers","x":150,"y":5185,"w":196,"h":42,"fontFamily":"Tide","fontSize":20,"lineHeight":22,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":9,"region":"main","kind":"image","tag":"picture","role":"link","text":"Tide Free and Gentle Liquid Laundry Detergent - 92 ounces, color white","x":590,"y":4814,"w":260,"h":260,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[520,520],"src":"https://images.ctfassets.net/ajjw8wywicb3/3rxXMAix2Rg3YaWgUU6oH3/53ce3379b9c23e90a99cce60bfc8fe42/Tide_Free_and_Gentle_HDL_LI_520x520_20260930.png?fm=webp","href":"/en-us/shop/type/liquid/tide-free-and-gentle-liquid"},
+  {"section":9,"region":"main","kind":"control","tag":"a","role":"link","text":"Tide Free and Gentle Liquid Laundry Detergent","x":540,"y":5084,"w":360,"h":52,"fontFamily":"Tide","fontSize":20,"lineHeight":26,"fontWeight":"400","letterSpacing":0.75,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":2,"href":"/en-us/shop/type/liquid/tide-free-and-gentle-liquid"},
+  {"section":9,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":540,"y":5147,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":9,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":557,"y":5147,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":9,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":574,"y":5147,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":9,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":591,"y":5147,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":9,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":608,"y":5147,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":9,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":608,"y":5147,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":9,"region":"main","kind":"text","tag":"span","role":null,"text":"(1106)","x":633,"y":5147,"w":39,"h":16,"fontFamily":"Tide","fontSize":14,"lineHeight":19.6,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":9,"region":"main","kind":"control","tag":"div","role":"button","text":"Find Retailers","x":540,"y":5185,"w":196,"h":42,"fontFamily":"Tide","fontSize":20,"lineHeight":22,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":9,"region":"main","kind":"image","tag":"picture","role":"link","text":"Tide Free and Gentle Odor Refresh Detergent - #1 most trusted by American","x":980,"y":4814,"w":260,"h":260,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[520,520],"src":"https://images.ctfassets.net/ajjw8wywicb3/5ibsiwEfiFhQccotuob3MU/8c3dcb1387caa54de171f072382e8384/B2318-39_Tide_Fraplan_HDL_EN-US_listing_520x520.png?fm=webp","href":"/en-us/shop/type/liquid/tide-free-and-gentle-odor-refresh-liquid"},
+  {"section":9,"region":"main","kind":"control","tag":"a","role":"link","text":"Tide Free and Gentle Odor Refresh Detergent","x":930,"y":5084,"w":360,"h":52,"fontFamily":"Tide","fontSize":20,"lineHeight":26,"fontWeight":"400","letterSpacing":0.75,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":2,"href":"/en-us/shop/type/liquid/tide-free-and-gentle-odor-refresh-liquid"},
+  {"section":9,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":930,"y":5147,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":9,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":947,"y":5147,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":9,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":964,"y":5147,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":9,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":981,"y":5147,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":9,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":998,"y":5147,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":9,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":998,"y":5147,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":9,"region":"main","kind":"text","tag":"span","role":null,"text":"(205)","x":1023,"y":5147,"w":36,"h":16,"fontFamily":"Tide","fontSize":14,"lineHeight":19.6,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":9,"region":"main","kind":"control","tag":"div","role":"button","text":"Find Retailers","x":930,"y":5185,"w":196,"h":42,"fontFamily":"Tide","fontSize":20,"lineHeight":22,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":9,"region":"main","kind":"image","tag":"picture","role":"link","text":"Tide PODS Free and Gentle Odor Refresh","x":200,"y":5317,"w":260,"h":260,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[520,520],"src":"https://images.ctfassets.net/ajjw8wywicb3/2EmhJqiQWCq1DCooMOrf8z/bc17d6566ad9b54d9fd405bb29b7cd82/B2318-39_Tide_Fraplan_SUD_EN-US_listing_520x520.png?fm=webp","href":"/en-us/shop/type/laundry-pods/tide-pods-free-and-gentle-odor-refresh"},
+  {"section":9,"region":"main","kind":"control","tag":"a","role":"link","text":"Tide PODS Free and Gentle Odor Refresh","x":150,"y":5587,"w":360,"h":52,"fontFamily":"Tide","fontSize":20,"lineHeight":26,"fontWeight":"400","letterSpacing":0.75,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":2,"href":"/en-us/shop/type/laundry-pods/tide-pods-free-and-gentle-odor-refresh"},
+  {"section":9,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":150,"y":5650,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":9,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":167,"y":5650,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":9,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":184,"y":5650,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":9,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":201,"y":5650,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":9,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":218,"y":5650,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":9,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":218,"y":5650,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":9,"region":"main","kind":"text","tag":"span","role":null,"text":"(200)","x":243,"y":5650,"w":37,"h":16,"fontFamily":"Tide","fontSize":14,"lineHeight":19.6,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":9,"region":"main","kind":"control","tag":"div","role":"button","text":"Find Retailers","x":150,"y":5689,"w":196,"h":42,"fontFamily":"Tide","fontSize":20,"lineHeight":22,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":9,"region":"main","kind":"image","tag":"picture","role":"link","text":"Tide Clean and Gentle Powder","x":590,"y":5317,"w":260,"h":260,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[520,520],"src":"https://images.ctfassets.net/ajjw8wywicb3/5rF7SdGzq3zH4duwAWEDL6/c4bf6c6183aebead51a4c0a67efd7b1f/Tide_Clean_and_Gentle_PWD_listing_520x520.png?fm=webp","href":"/en-us/shop/type/powder/tide-clean-and-gentle-powder"},
+  {"section":9,"region":"main","kind":"control","tag":"a","role":"link","text":"Tide Clean and Gentle Powder","x":540,"y":5587,"w":318,"h":26,"fontFamily":"Tide","fontSize":20,"lineHeight":26,"fontWeight":"400","letterSpacing":0.75,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1,"href":"/en-us/shop/type/powder/tide-clean-and-gentle-powder"},
+  {"section":9,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":540,"y":5624,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":9,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":557,"y":5624,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":9,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":574,"y":5624,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":9,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":591,"y":5624,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":9,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":608,"y":5624,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":9,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":608,"y":5624,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":9,"region":"main","kind":"text","tag":"span","role":null,"text":"(123)","x":633,"y":5624,"w":32,"h":16,"fontFamily":"Tide","fontSize":14,"lineHeight":19.6,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":9,"region":"main","kind":"control","tag":"div","role":"button","text":"Find Retailers","x":540,"y":5689,"w":196,"h":42,"fontFamily":"Tide","fontSize":20,"lineHeight":22,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":9,"region":"main","kind":"image","tag":"picture","role":"link","text":"Pack of Tide evo Laundry Detergent Tiles, Free & Gentle","x":980,"y":5317,"w":260,"h":260,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[520,520],"src":"https://images.ctfassets.net/ajjw8wywicb3/2eEJUoht9biOvSonw7eqnp/378f42193ed6900bfcda7b925486a028/Tide_Evo_F_G_20260225_listing_image_520x520.png?fm=webp","href":"/en-us/shop/type/laundry-tiles/tide-evo-free-and-gentle"},
+  {"section":9,"region":"main","kind":"control","tag":"a","role":"link","text":"Tide evo Laundry Detergent Tiles, Free & Gentle","x":930,"y":5587,"w":360,"h":52,"fontFamily":"Tide","fontSize":20,"lineHeight":26,"fontWeight":"400","letterSpacing":0.75,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":2,"href":"/en-us/shop/type/laundry-tiles/tide-evo-free-and-gentle"},
+  {"section":9,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":930,"y":5650,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":9,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":947,"y":5650,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":9,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":964,"y":5650,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":9,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":981,"y":5650,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":9,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":998,"y":5650,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":9,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":998,"y":5650,"w":13,"h":13,"fit":"fill","shape":{"pos":"50% 50%"}},
+  {"section":9,"region":"main","kind":"text","tag":"span","role":null,"text":"(345)","x":1023,"y":5650,"w":36,"h":16,"fontFamily":"Tide","fontSize":14,"lineHeight":19.6,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":1},
+  {"section":9,"region":"main","kind":"control","tag":"div","role":"button","text":"Find Retailers","x":930,"y":5689,"w":196,"h":42,"fontFamily":"Tide","fontSize":20,"lineHeight":22,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":10,"region":"main","kind":"image","tag":"picture","role":null,"text":"Tide Free & Gentle is better together with Bounce Dryer Sheets and Downy Fabric…","x":0,"y":5811,"w":1440,"h":790,"fit":"cover","shape":{"pos":"50% 50%"},"natural":[1440,790],"src":"https://images.ctfassets.net/ajjw8wywicb3/3UpyuQQYVXpAuyh5dzx6pK/443c7ebb58947ae9685a81d6daa9c7c7/module_07_bg.jpg?fm=webp"},
+  {"section":10,"region":"main","kind":"text","tag":"p","role":null,"text":"Better together with Bounce Dryer Sheets and Downy Fabric Softener.","x":638,"y":5891,"w":652,"h":156,"fontFamily":"Tide","fontSize":48,"lineHeight":52,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(27, 51, 146)","lines":3},
+  {"section":11,"region":"footer","kind":"text","tag":"span","role":null,"text":"Ways to connect with us:","x":150,"y":6667,"w":255,"h":19,"fontFamily":"Tide","fontSize":20,"lineHeight":19,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(255, 255, 255)","lines":1},
+  {"section":11,"region":"footer","kind":"image","tag":"img","role":"link","text":"Facebook icon","x":485,"y":6661,"w":32,"h":32,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[32,32],"src":"https://tide.com/images/social_facebook.svg","href":"https://www.facebook.com/Tide?fref=ts"},
+  {"section":11,"region":"footer","kind":"image","tag":"img","role":"link","text":"Twitter icon","x":532,"y":6661,"w":32,"h":32,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[32,32],"src":"https://tide.com/images/social_twitter.svg","href":"https://twitter.com/tide"},
+  {"section":11,"region":"footer","kind":"image","tag":"img","role":"link","text":"Pinterest icon","x":579,"y":6661,"w":32,"h":32,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[32,32],"src":"https://tide.com/images/social_pinterest.svg","href":"https://www.pinterest.com/tide/"},
+  {"section":11,"region":"footer","kind":"image","tag":"img","role":"link","text":"YouTube icon","x":626,"y":6661,"w":32,"h":32,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[32,32],"src":"https://tide.com/images/social_youtube.svg","href":"https://www.youtube.com/channel/UCEPeWPjaF1CWCKXa3xTp7vw"},
+  {"section":11,"region":"footer","kind":"text","tag":"p","role":null,"text":"Shop Products","x":150,"y":6753,"w":750,"h":30,"fontFamily":"Tide","fontSize":26,"lineHeight":30,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1},
+  {"section":11,"region":"footer","kind":"text","tag":"div","role":null,"text":"By Type","x":150,"y":6808,"w":230,"h":28,"fontFamily":"Tide","fontSize":24,"lineHeight":28,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(251, 76, 6)","lines":1},
+  {"section":11,"region":"footer","kind":"text","tag":"div","role":null,"text":"By Need","x":410,"y":6808,"w":230,"h":28,"fontFamily":"Tide","fontSize":24,"lineHeight":28,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(251, 76, 6)","lines":1},
+  {"section":11,"region":"footer","kind":"text","tag":"div","role":null,"text":"Top Collection","x":670,"y":6808,"w":230,"h":28,"fontFamily":"Tide","fontSize":24,"lineHeight":28,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(251, 76, 6)","lines":1},
+  {"section":11,"region":"footer","kind":"text","tag":"p","role":null,"text":"How to Wash Clothes","x":930,"y":6803,"w":360,"h":55,"fontFamily":"Tide","fontSize":26,"lineHeight":30,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1},
+  {"section":11,"region":"footer","kind":"control","tag":"a","role":"link","text":"How to Remove Stains","x":930,"y":6875,"w":177,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-remove-stains"},
+  {"section":11,"region":"footer","kind":"control","tag":"a","role":"link","text":"How to Do Laundry","x":930,"y":6907,"w":153,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/how-to-wash-clothes/how-to-do-laundry"},
+  {"section":11,"region":"footer","kind":"control","tag":"a","role":"link","text":"Washing Different Fabrics and Colors","x":930,"y":6939,"w":289,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/how-to-wash-clothes/washing-different-fabrics-and-colors"},
+  {"section":11,"region":"footer","kind":"control","tag":"a","role":"link","text":"Washing Machine 101","x":930,"y":6971,"w":163,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/how-to-wash-clothes/washing-machine-101"},
+  {"section":11,"region":"footer","kind":"text","tag":"p","role":null,"text":"Help & Support","x":930,"y":7036,"w":360,"h":55,"fontFamily":"Tide","fontSize":26,"lineHeight":30,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(251, 76, 6)","lines":1},
+  {"section":11,"region":"footer","kind":"control","tag":"a","role":"link","text":"Contact Us","x":930,"y":7108,"w":85,"h":18,"fontFamily":"Tide","fontSize":16,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/contact-us"},
+  {"section":11,"region":"footer","kind":"text","tag":"span","role":null,"text":"Related:","x":150,"y":7170,"w":49,"h":17,"fontFamily":"Tide","fontSize":12,"lineHeight":16.8,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1},
+  {"section":11,"region":"footer","kind":"control","tag":"a","role":"link","text":"P&G Brands","x":204,"y":7172,"w":70,"h":13,"fontFamily":"Tide","fontSize":12,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"http://pg.com/en_US"},
+  {"section":11,"region":"footer","kind":"control","tag":"a","role":"link","text":"MrClean","x":287,"y":7172,"w":48,"h":13,"fontFamily":"Tide","fontSize":12,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://www.mrclean.com/en-us"},
+  {"section":11,"region":"footer","kind":"control","tag":"a","role":"link","text":"Downy","x":349,"y":7172,"w":41,"h":13,"fontFamily":"Tide","fontSize":12,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"http://www.downy.com/en-us"},
+  {"section":11,"region":"footer","kind":"control","tag":"a","role":"link","text":"Bounce","x":404,"y":7172,"w":44,"h":13,"fontFamily":"Tide","fontSize":12,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"http://www.bouncefresh.com/"},
+  {"section":11,"region":"footer","kind":"control","tag":"a","role":"link","text":"P&G Everyday","x":461,"y":7172,"w":83,"h":13,"fontFamily":"Tide","fontSize":12,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"http://www.pgeveryday.com/tag/tide"},
+  {"section":11,"region":"footer","kind":"image","tag":"picture","role":"link","text":"Good Housekeeping icon","x":150,"y":7275,"w":82,"h":62,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[82,62],"src":"https://tide.com/images/footer_GoodHousekeeping.webp","href":"http://www.goodhousekeeping.com/product-reviews/history/welcome-gh-seal"},
+  {"section":11,"region":"footer","kind":"image","tag":"picture","role":"link","text":"BBB icon","x":262,"y":7275,"w":38,"h":62,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[38,62],"src":"https://tide.com/images/footer_BBB.webp","href":"https://www.bbb.org/cincinnati/business-reviews/detergent/the-procter-gamble-company-in-cincinnati-oh-3036"},
+  {"section":11,"region":"footer","kind":"image","tag":"picture","role":"link","text":"Junk Food icon","x":330,"y":7275,"w":58,"h":62,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[58,62],"src":"https://tide.com/images/footer_JunkFood.webp","href":"http://www.junkfoodclothing.com/"},
+  {"section":11,"region":"footer","kind":"image","tag":"picture","role":"link","text":"Tide Cleaners icon","x":418,"y":7275,"w":56,"h":62,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[56,62],"src":"https://tide.com/images/footer_TideCleaners.webp","href":"https://www.tidecleaners.com/"},
+  {"section":11,"region":"footer","kind":"control","tag":"a","role":"link","text":"Accessibility Statement","x":150,"y":7371,"w":135,"h":13,"fontFamily":"Tide","fontSize":12,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://accessibility.pg.com/en-US"},
+  {"section":11,"region":"footer","kind":"control","tag":"a","role":"link","text":"Terms & Conditions","x":298,"y":7371,"w":113,"h":13,"fontFamily":"Tide","fontSize":12,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://termsandconditions.pg.com/en-us/"},
+  {"section":11,"region":"footer","kind":"control","tag":"a","role":"link","text":"Tide Rewards Terms and Conditions","x":425,"y":7371,"w":209,"h":13,"fontFamily":"Tide","fontSize":12,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/rewards/loyalty/terms-and-conditions"},
+  {"section":11,"region":"footer","kind":"control","tag":"a","role":"link","text":"Careers","x":648,"y":7371,"w":45,"h":13,"fontFamily":"Tide","fontSize":12,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://www.pgcareers.com/"},
+  {"section":11,"region":"footer","kind":"control","tag":"a","role":"link","text":"Privacy","x":706,"y":7371,"w":42,"h":13,"fontFamily":"Tide","fontSize":12,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://privacypolicy.pg.com/en-US/#statePrivacyNotice"},
+  {"section":11,"region":"footer","kind":"control","tag":"a","role":"link","text":"Consumer Health Data Privacy Policy","x":762,"y":7371,"w":215,"h":13,"fontFamily":"Tide","fontSize":12,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://privacypolicy.pg.com/CHD-en"},
+  {"section":11,"region":"footer","kind":"control","tag":"a","role":"link","text":"Your Privacy Choices","x":991,"y":7371,"w":152,"h":13,"fontFamily":"Tide","fontSize":12,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"https://preferencecenter.pg.com/"},
+  {"section":11,"region":"footer","kind":"text","tag":"div","role":null,"text":"NOTICE: We may sell your sensitive personal data.","x":150,"y":7394,"w":302,"h":32,"fontFamily":"Tide","fontSize":12,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1},
+  {"section":11,"region":"footer","kind":"text","tag":"div","role":null,"text":"© 2026 Procter & Gamble","x":939,"y":7394,"w":149,"h":32,"fontFamily":"Tide","fontSize":12,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1},
+  {"section":11,"region":"footer","kind":"control","tag":"a","role":"link","text":"Sitemap","x":1242,"y":7362,"w":48,"h":64,"fontFamily":"Tide","fontSize":12,"lineHeight":32,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(19, 37, 156)","lines":1,"href":"/en-us/sitemap"}
+ ]
+}

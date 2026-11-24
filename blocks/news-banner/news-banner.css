@@ -1,0 +1,383 @@
+/* news-banner — live .banner-card on /en-us/latest-news (Cover, banner-style-card, Right).
+   Base geometry as section-landing-hero-card (same live component); values from
+   source-spec captures stardust/.work/cluster-unique-b/spec/en-us-latest-news-{1440,360}.json. */
+.news-banner {
+  position: relative;
+  margin: 0;
+}
+
+.news-banner .nb-image {
+  overflow: hidden;
+}
+
+.news-banner .nb-image picture {
+  display: flex;
+  align-items: flex-start;
+  margin: 0;
+}
+
+.news-banner .nb-image img {
+  width: var(--nb-img-width, auto);
+  max-width: none;
+  height: auto;
+  min-height: 400px;
+}
+
+.news-banner .nb-box,
+.news-banner .nb-head {
+  position: relative;
+}
+
+.news-banner .nb-title {
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  width: max-content;
+  max-width: calc(100% - 15px);
+  color: #fff;
+}
+
+.news-banner .nb-eyebrow p {
+  margin: 0;
+  color: inherit;
+  font-family: var(--font);
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0;
+}
+
+.news-banner .nb-title :is(h1, h2) {
+  min-height: 100px;
+  margin: 20px 0 0;
+  color: inherit;
+  font-family: var(--font);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.news-banner .nb-deck {
+  position: relative;
+  margin: -50px 0 0;
+  border-radius: 8px;
+  padding: 25px 25px 30px;
+  background-color: #fff;
+}
+
+.news-banner .nb-deck p {
+  margin: 0;
+  color: var(--tide-navy);
+  letter-spacing: 0;
+  font-family: var(--font);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.news-banner .nb-deck p.button-wrapper {
+  margin-top: 30px;
+}
+
+/* card: live banner-style-card (.article-type-5-banner-rt) — navy title block on the image
+   (image and title share one grid cell; the deck card overlaps the image bottom) */
+.news-banner.card {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+.news-banner.card .nb-image {
+  grid-area: 1 / 1;
+}
+
+.news-banner.card .nb-image img {
+  min-height: 680px;
+}
+
+.news-banner.card .nb-box {
+  display: contents;
+}
+
+.news-banner.card .nb-head {
+  grid-area: 1 / 1;
+  align-self: start;
+  width: 100%;
+  margin: 0 auto;
+  padding: 19px 15px 0;
+}
+
+.news-banner.card .nb-title {
+  position: static;
+  width: 100%;
+  max-width: 330px;
+  color: var(--tide-navy);
+}
+
+.news-banner.card .nb-eyebrow p {
+  margin-bottom: 19px;
+  line-height: 1.12;
+}
+
+.news-banner.card .nb-title :is(h1, h2) {
+  min-height: 0;
+  margin: 0;
+  color: #13259c;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.news-banner.card .nb-deck {
+  grid-area: 2 / 1;
+  width: calc(100% - 30px);
+  margin: -50px auto 0;
+}
+
+/* right: live image-appearance-Right — product image right of the title on a coloured band */
+.news-banner.right.orange {
+  background: linear-gradient(#fb4c06, #fb4c06) top / 100% var(--nb-band, 682px) no-repeat;
+}
+
+.news-banner.right .nb-image {
+  padding: 22px 0 0 85px;
+}
+
+.news-banner.right .nb-image img {
+  width: 330px;
+  height: 400px;
+  min-height: 0;
+  object-fit: contain;
+}
+
+.news-banner.right .nb-title {
+  position: static;
+  margin-top: -103px;
+}
+
+.news-banner.right .nb-title :is(h1, h2) {
+  min-height: 0;
+}
+
+.news-banner.right .nb-deck {
+  margin-top: 128px;
+}
+
+@media (width >= 992px) {
+  .news-banner .nb-image img {
+    width: 100%;
+  }
+
+  .news-banner .nb-title :is(h1, h2) {
+    margin-top: 15px;
+    font-size: 68px;
+    line-height: 64px;
+  }
+
+  .news-banner .nb-eyebrow p {
+    line-height: 24px;
+  }
+
+  .news-banner .nb-deck {
+    padding: 30px 80px;
+  }
+
+  .news-banner .nb-deck p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .news-banner .nb-deck p.button-wrapper {
+    margin-top: 20px;
+  }
+
+  .news-banner.card .nb-image img {
+    min-height: 0;
+  }
+
+  .news-banner.card .nb-head {
+    align-self: center;
+    max-width: 960px;
+    padding-top: 0;
+  }
+
+  .news-banner.card .nb-title {
+    width: 50%;
+    max-width: 570px;
+  }
+
+  .news-banner.card .nb-title :is(h1, h2) {
+    font-size: 64px;
+  }
+
+  .news-banner.card .nb-deck {
+    max-width: 930px;
+  }
+
+  .news-banner.right.orange {
+    --nb-band: 500px;
+  }
+
+  .news-banner.right .nb-image {
+    justify-content: flex-start;
+    position: absolute;
+    top: 31px;
+    left: 50%;
+    width: 50%;
+    max-width: 585px;
+    padding: 0 0 0 15px;
+  }
+
+  .news-banner.right .nb-image img {
+    width: 555px;
+    height: 555px;
+  }
+
+  .news-banner.right .nb-head {
+    height: 500px;
+  }
+
+  .news-banner.right .nb-title {
+    position: absolute;
+    top: 91px;
+    bottom: auto;
+    width: 50%;
+    margin-top: 0;
+  }
+
+  .news-banner.right .nb-deck {
+    margin-top: -50px;
+  }
+
+}
+
+@media (width >= 1200px) {
+  .news-banner.card .nb-head {
+    max-width: var(--container);
+  }
+
+  .news-banner.card .nb-deck {
+    max-width: 1140px;
+  }
+}
+
+/* page-scoped rows of the latest-news page (Template | latest-news): the reused
+   learn-more-card-grid as live .tide-latest-news rows (source-spec pairing, both widths).
+   Below 992px live collapses each preview card to title, excerpt and chevron. */
+body.latest-news .learn-more-card-grid {
+  margin: 0;
+  padding-bottom: 0;
+}
+
+body.latest-news .learn-more-card-grid .lmc-grid {
+  justify-content: flex-start;
+  margin-top: 0;
+}
+
+body.latest-news .learn-more-card-grid .lmc-card {
+  margin: 0;
+}
+
+body.latest-news .learn-more-card-grid .lmc-col + .lmc-col .lmc-card {
+  margin-top: 57px;
+}
+
+body.latest-news .learn-more-card-grid :is(.lmc-image, .lmc-cta) {
+  display: none;
+}
+
+body.latest-news .learn-more-card-grid .lmc-body {
+  margin-top: 0;
+  padding: 0;
+}
+
+body.latest-news .learn-more-card-grid .lmc-content {
+  padding: 0 25px 0 0;
+}
+
+body.latest-news .learn-more-card-grid .lmc-title :is(p, h2, h3, h4, a) {
+  min-height: 0;
+}
+
+/* live keeps an empty excerpt paragraph (15px) in cards without one */
+body.latest-news .learn-more-card-grid .lmc-card .lmc-title {
+  min-height: 0;
+}
+
+body.latest-news .learn-more-card-grid .lmc-content:not(:has(.lmc-text)) .lmc-title {
+  padding-bottom: 15px;
+}
+
+body.latest-news .learn-more-card-grid .lmc-text p {
+  min-height: 0;
+  margin-top: 15px;
+}
+
+body.latest-news .learn-more-card-grid :is(.lmc-chevron, .lmc-arrow) {
+  display: block;
+  margin-top: 4px;
+}
+
+body.latest-news main .section:has(.learn-more-card-grid) {
+  margin-top: 65px;
+}
+
+body.latest-news main .section:has(.learn-more-card-grid) + .section:has(.news-banner) {
+  margin-top: 62px;
+}
+
+body.latest-news main .section:has(.news-banner) + .section:has(.news-banner) {
+  margin-top: 35px;
+}
+
+body.latest-news main .section:has(.learn-more-card-grid) + .section:has(.news-banner.right) {
+  margin-top: 0;
+}
+
+@media (width >= 992px) {
+  body.latest-news .learn-more-card-grid :is(.lmc-image, .lmc-cta) {
+    display: block;
+  }
+
+  body.latest-news .learn-more-card-grid .lmc-col + .lmc-col .lmc-card {
+    margin-top: 5px;
+  }
+
+  body.latest-news .learn-more-card-grid .lmc-col:nth-child(-n + 3) .lmc-card {
+    margin-top: 0;
+  }
+
+  body.latest-news .learn-more-card-grid .lmc-body {
+    margin-top: -50px;
+    padding: 0 30px;
+  }
+
+  body.latest-news .learn-more-card-grid .lmc-content {
+    padding: 30px 25px;
+  }
+
+  body.latest-news .learn-more-card-grid .lmc-card:not(:has(.lmc-title a)) .lmc-arrow {
+    display: none;
+  }
+
+  body.latest-news main .section:has(.learn-more-card-grid) {
+    margin-top: 80px;
+  }
+
+  body.latest-news main .section:has(.learn-more-card-grid:not(.products)) {
+    margin-top: 75px;
+  }
+
+  body.latest-news main .section:has(.learn-more-card-grid) + .section:has(.news-banner) {
+    margin-top: 85px;
+  }
+
+  body.latest-news main .section:has(.news-banner) + .section:has(.news-banner) {
+    margin-top: 80px;
+  }
+
+  body.latest-news main .section:has(.learn-more-card-grid) + .section:has(.news-banner.right) {
+    margin-top: 85px;
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-24T07:59:22.098Z",
+    "stage": "published",
+    "breakpoint": 360,
+    "threshold": 10,
+    "offsetMax": "the larger of 8px and 1% of the origin height; roster tolerance: 5% of the origin height with no step over 200px",
+    "originReference": "frozen",
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "pixel criterion (aligned % ≤ 10 AND total offset ≤ the bound; alignment not used: unaligned % ≤ 10) AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://tide.com",
+    "eds": "https://main--5db7d055--aemcoder.aem.page",
+    "edsHostOverride": "https://main--5db7d055--aemcoder.aem.page",
+    "only": [
+      "en-us-how-to-wash-clothes-how-to-remove-stains-acne-cream-stains"
+    ]
+  },
+  "totals": {
+    "pages": 1,
+    "pass": 1,
+    "pixelOnlyPass": 1,
+    "overridePass": 0,
+    "fail": 0,
+    "error": 0,
+    "probeErrors": 0,
+    "failPixel": 0,
+    "failHeight": 0,
+    "failClip": 0,
+    "failContent": 0,
+    "failUnits": 0,
+    "unitsNotDeclared": 1,
+    "unitsRecordedNotDeclared": 0,
+    "fontsNotLoaded": 0,
+    "fontsDeadOnSource": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "alignedOnlyPass": 1,
+    "failOffsets": 0,
+    "offsetsWithinTolerance": 1,
+    "referenceUnstable": 0,
+    "passWithOverrides": 1
+  },
+  "rows": [
+    {
+      "slug": "en-us-how-to-wash-clothes-how-to-remove-stains-acne-cream-stains",
+      "path": "/en-us/how-to-wash-clothes/how-to-remove-stains/acne-cream-stains",
+      "template": "unique",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 24.37,
+      "textPct": 24.36,
+      "heightDelta": 204,
+      "originH": 7783,
+      "edsH": 7579,
+      "alignedPct": 8.73,
+      "alignedUsed": true,
+      "totalShift": 204,
+      "steps": [
+        {
+          "y": 197,
+          "shift": -24,
+          "cumulative": -24
+        },
+        {
+          "y": 1045,
+          "shift": -2,
+          "cumulative": -26
+        },
+        {
+          "y": 1568,
+          "shift": -3,
+          "cumulative": -29
+        },
+        {
+          "y": 2307,
+          "shift": -4,
+          "cumulative": -33
+        },
+        {
+          "y": 2830,
+          "shift": -10,
+          "cumulative": -43
+        },
+        {
+          "y": 3375,
+          "shift": -1,
+          "cumulative": -44
+        },
+        {
+          "y": 3491,
+          "shift": -3,
+          "cumulative": -47
+        },
+        {
+          "y": 3920,
+          "shift": -11,
+          "cumulative": -58
+        },
+        {
+          "y": 4303,
+          "shift": -35,
+          "cumulative": -93
+        },
+        {
+          "y": 5415,
+          "shift": -25,
+          "cumulative": -118
+        },
+        {
+          "y": 5927,
+          "shift": -61,
+          "cumulative": -179
+        },
+        {
+          "y": 6091,
+          "shift": -25,
+          "cumulative": -204
+        }
+      ],
+      "offsetBound": 78,
+      "offsetTolerance": 389,
+      "offsetJudge": "tolerance",
+      "offsetsWithinTolerance": true,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [
+        "offsets within the roster tolerance: 204px total, largest step 61px (strict bound 78px, tolerance 389px)",
+        "units: no family declared for this page — the repeated-unit check did not run"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 4,
+        "hiddenButtons": 0,
+        "findings": 5,
+        "variable": []
+      },
+      "unitsDeclared": 0,
+      "unitsRecorded": null,
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-360/en-us-how-to-wash-clothes-how-to-remove-stains-acne-cream-stains",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "1000-1500:20.7%",
+        "1500-2000:27.1%",
+        "2000-2500:15.9%",
+        "2500-3000:27.1%",
+        "3000-3500:39.3%",
+        "3500-4000:28.6%",
+        "4000-4500:48.1%",
+        "5000-5500:54.7%",
+        "5500-6000:24.3%",
+        "6000-6500:30%"
+      ],
+      "error": null
+    }
+  ]
+}

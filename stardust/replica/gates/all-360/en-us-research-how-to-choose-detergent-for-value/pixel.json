@@ -1,0 +1,194 @@
+{
+  "a": "stardust/replica/gates/all-360/en-us-research-how-to-choose-detergent-for-value/origin.png",
+  "b": "stardust/replica/gates/all-360/en-us-research-how-to-choose-detergent-for-value/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 5129,
+    "mode": "overlap"
+  },
+  "heightDelta": 41,
+  "differingPixels": 271201,
+  "pct": 14.69,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/en-us-research-how-to-choose-detergent-for-value/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 26.76,
+  "textBoxes": 121,
+  "textPixels": 693843,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 4.5
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 27.9
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 22.2
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 16.9
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 15.5
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 13
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 19.5
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 15.4
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 5.4
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 10.1
+    },
+    {
+      "y0": 5000,
+      "y1": 5129,
+      "pct": 1.2
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 1.71,
+    "differingPixels": 31916,
+    "compared": {
+      "width": 360,
+      "height": 5171,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 457,
+        "shift": -20,
+        "cumulative": -20
+      },
+      {
+        "y": 2649,
+        "shift": -21,
+        "cumulative": -41
+      },
+      {
+        "y": 4439,
+        "shift": 1,
+        "cumulative": -40
+      },
+      {
+        "y": 4659,
+        "shift": -1,
+        "cumulative": -41
+      }
+    ],
+    "maxOffset": 41,
+    "totalShift": 43,
+    "insertedRows": 1,
+    "deletedRows": 42,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 4.5,
+        "unaligned": 4.5
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 8.6,
+        "unaligned": 27.9
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 22.2
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 16.9
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 15.5
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 4.2,
+        "unaligned": 13
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 19.5
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0,
+        "unaligned": 15.4
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0.2,
+        "unaligned": 5.4
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0.2,
+        "unaligned": 10.1
+      },
+      {
+        "y0": 5000,
+        "y1": 5170,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/en-us-research-how-to-choose-detergent-for-value/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 52,
+    "totalShift": 43,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--5db7d055--aemcoder.aem.page/en-us/research/how-to-choose-detergent-for-value"
+  }
+}
